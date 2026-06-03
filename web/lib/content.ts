@@ -7,7 +7,13 @@ import { resolve } from "node:path";
 
 const GEN = resolve(process.cwd(), ".generated");
 
-export type Row = { cells: string[]; plain: string; status?: string };
+export type Row = {
+  cells: string[];
+  plain: string;
+  status?: string;
+  sort?: { y: number; m: number; d: number };
+  order?: number;
+};
 export type Section = { heading: string; columns: string[]; rows: Row[] };
 export type Sectioned = { sections: Section[] };
 export type Timeline = { columns: string[]; statusIdx: number; rows: Row[] };

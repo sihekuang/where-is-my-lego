@@ -22,6 +22,7 @@ const STATUS_LABEL: Record<string, string> = {
 export default function TimelineView({ data }: { data: Timeline }) {
   const [filter, setFilter] = useState<FilterKey>("all");
   const [q, setQ] = useState("");
+  const [sortDir, setSortDir] = useState<"asc" | "desc">("asc");
 
   const counts = useMemo(() => {
     const c: Record<string, number> = { all: data.rows.length };
@@ -31,12 +32,22 @@ export default function TimelineView({ data }: { data: Timeline }) {
 
   const visible = useMemo(() => {
     const needle = q.trim().toLowerCase();
-    return data.rows.filter((r) => {
+    const filtered = data.rows.filter((r) => {
       if (filter !== "all" && r.status !== filter) return false;
       if (needle && !r.plain.toLowerCase().includes(needle)) return false;
       return true;
     });
-  }, [data.rows, filter, q]);
+    const dir = sortDir === "asc" ? 1 : -1;
+    const ZERO = { y: 0, m: 0, d: 0 };
+    return filtered.slice().sort((a, b) => {
+      const sa = a.sort ?? ZERO;
+      const sb = b.sort ?? ZERO;
+      const byDate = sa.y - sb.y || sa.m - sb.m || sa.d - sb.d;
+      if (byDate !== 0) return dir * byDate;
+      // Tie on date → preserve curated source order (reversed when descending).
+      return dir * ((a.order ?? 0) - (b.order ?? 0));
+    });
+  }, [data.rows, filter, q, sortDir]);
 
   const idx = {
     date: data.columns.findIndex((c) => /date/i.test(c)),
@@ -65,6 +76,20 @@ export default function TimelineView({ data }: { data: Timeline }) {
           value={q}
           onChange={(e) => setQ(e.target.value)}
         />
+        <button
+          type="button"
+          className="chip sort-toggle"
+          onClick={() =>
+            setSortDir((d) => (d === "asc" ? "desc" : "asc"))
+          }
+          aria-label={
+            sortDir === "asc"
+              ? "Sorted oldest first; click to show newest first"
+              : "Sorted newest first; click to show oldest first"
+          }
+        >
+          {sortDir === "asc" ? "Oldest first ↑" : "Newest first ↓"}
+        </button>
       </div>
 
       <p className="result-count">
@@ -73,7 +98,7 @@ export default function TimelineView({ data }: { data: Timeline }) {
 
       <ol className="timeline">
         {visible.map((r: Row, i) => (
-          <li key={i} className={`event status-${r.status}`}>
+          <li key={r.order ?? i} className={`event status-${r.status}`}>
             <div className="event-head">
               <span className="event-date">
                 <InlineMarkdown>{r.cells[idx.date] ?? ""}</InlineMarkdown>

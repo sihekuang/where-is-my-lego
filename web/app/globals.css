@@ -93,6 +93,7 @@ main.wrap { padding-top: 24px; padding-bottom: 48px; }
 .chip .count { font-size: 11px; color: var(--muted); background: var(--bg); border-radius: 999px; padding: 0 7px; }
 .chip-confirmed.active { border-color: var(--confirmed); }
 .chip-allegation.active { border-color: var(--allegation); }
+.sort-toggle { cursor: pointer; white-space: nowrap; }
 
 /* Timeline */
 .timeline { list-style: none; margin: 14px 0 0; padding: 0; }
