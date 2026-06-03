@@ -76,6 +76,60 @@ function parseSections(md) {
   return sections;
 }
 
+const MONTHS = {
+  jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6,
+  jul: 7, aug: 8, sep: 9, oct: 10, nov: 11, dec: 12,
+};
+
+// Parse a fuzzy human date string (e.g. "Late 2024 – early 2026",
+// "**Nov 22, 2023**", "Ongoing (as of Jun 3, 2026)") into a sortable
+// { y, m, d }. Returns null when no year is present, so the caller can
+// anchor the row to its predecessor.
+export function parseDateKey(raw) {
+  if (!raw) return null;
+  const s = raw.toLowerCase();
+
+  // Prefer the date inside an "as of <date>" parenthetical when present.
+  const asOf = s.match(/as of\s+([^)]+)/);
+  const scope = asOf ? asOf[1] : s;
+
+  // First 4-digit year wins, so a range sorts by its START year.
+  const yearMatch = scope.match(/\b(?:19|20)\d{2}\b/);
+  if (!yearMatch) return null;
+  const y = parseInt(yearMatch[0], 10);
+
+  // First month name, if any.
+  const monMatch = scope.match(
+    /\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)/
+  );
+  let m = monMatch ? MONTHS[monMatch[1]] : 0;
+
+  // First standalone 1–2 digit number (not part of the 4-digit year).
+  const dayMatch = scope.match(/(?<!\d)(\d{1,2})(?!\d)/);
+  let d = dayMatch ? parseInt(dayMatch[1], 10) : 0;
+
+  // Leading season/precision qualifier (position-based: the one nearest the
+  // start of the string qualifies the start year).
+  const qualMatch = scope.match(/\b(early|spring|mid|late|end)\b/);
+  const qual = qualMatch ? qualMatch[1] : null;
+
+  if (m === 0) {
+    m =
+      qual === "early" || qual === "spring" ? 2 :
+      qual === "mid" ? 6 :
+      qual === "late" || qual === "end" ? 11 :
+      6; // bare year → mid-year neutral
+  }
+  if (d === 0 && qual) {
+    d =
+      qual === "early" || qual === "spring" ? 5 :
+      qual === "late" || qual === "end" ? 25 :
+      0;
+  }
+
+  return { y, m, d };
+}
+
 function classifyStatus(text) {
   const s = text.toUpperCase();
   if (s.includes("CONFIRMED")) return "confirmed";
@@ -162,4 +216,6 @@ function main() {
   console.log("derive-data: wrote data + content to web/.generated/");
 }
 
-main();
+const invokedDirectly =
+  process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+if (invokedDirectly) main();
