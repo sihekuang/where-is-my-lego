@@ -114,7 +114,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
           <footer className="baseplate mt-8 border-t-2 border-border py-5 text-[13px] text-muted-foreground">
             <div className="mx-auto max-w-[980px] px-5">
-              <p>Content derived from the canonical Markdown in the <code className="rounded bg-muted px-1.5 py-0.5">bam-scandal</code> repository. This site renders that record read-only; it does not modify the source.</p>
+              <p>Content derived from the canonical Markdown in the <code className="rounded bg-muted px-1.5 py-0.5">where-is-my-lego</code> repository. This site renders that record read-only; it does not modify the source.</p>
             </div>
           </footer>
         </ThemeProvider>
