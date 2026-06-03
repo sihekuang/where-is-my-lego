@@ -17,7 +17,7 @@ export function renderOgImage(title: string) {
           flexDirection: "row",
           alignItems: "center",
           justifyContent: "space-between",
-          background: "#0f1115",
+          background: "#13161c",
           color: "#e6e8ec",
           padding: "80px",
           fontFamily: "sans-serif",
@@ -34,7 +34,7 @@ export function renderOgImage(title: string) {
           }}
         >
           <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-            <div style={{ display: "flex", fontSize: 34, letterSpacing: 4, color: "#6ea8fe", textTransform: "uppercase" }}>
+            <div style={{ display: "flex", fontSize: 34, letterSpacing: 4, color: "#4c9be6", textTransform: "uppercase" }}>
               Where Is My Lego
             </div>
             <div style={{ display: "flex", fontSize: 22, letterSpacing: 3, color: "#9aa3b2", fontWeight: 500 }}>
