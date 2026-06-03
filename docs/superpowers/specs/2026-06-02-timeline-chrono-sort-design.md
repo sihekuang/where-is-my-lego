@@ -118,12 +118,13 @@ timeline.md
   if date-less, defaults to `{ y: 0, m: 0, d: 0 }` (sorts first ascending).
 - **Tie on `(y, m, d)`** → preserve source order via `order`.
 - **Coarse / qualified / summary rows** — a few rows whose parsed dates are
-  near-simultaneous or summarial may shift by one or two positions relative to
-  the hand-authored order. Known cases: `~May 30–31` vs `Late May 2026` (same
-  month, qualifier-derived day), and the trailing `Ongoing (as of Jun 3, 2026)`
-  wrap-up row (parses to Jun 3, so it sorts just before the `Jun 8` scheduled
-  appearance). This is accepted and documented; **exact-date ties are always
-  preserved** via `order`.
+  near-simultaneous or summarial may shift relative to the hand-authored order.
+  Known cases: `Late May 2026`, whose qualifier-derived day (25) places it among
+  the other late-May dated rows — so it moves up past the explicit `May 26`–`30`
+  entries to just after the `May 21` pair (a multi-position shift, not a local
+  swap); and the trailing `Ongoing (as of Jun 3, 2026)` wrap-up row (parses to
+  Jun 3, so it sorts just before the `Jun 8` scheduled appearance). This is
+  accepted and documented; **exact-date ties are always preserved** via `order`.
 - Parsing never throws — unmatched fields fall back to defaults / anchoring.
 
 ## Testing
