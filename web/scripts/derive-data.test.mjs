@@ -47,3 +47,29 @@ assert.deepEqual(
 );
 
 console.log(`deriveTimeline: ${timeline.rows.length} rows, anchoring verified`);
+
+// Integration: ascending sort (the same comparator the Timeline view uses) keeps
+// exact-date ties in their curated source order — e.g. the two "May 21, 2026"
+// rows and the "Mar 11" morning/evening/(warrant return) group stay in their
+// authored sequence. (Fuzzy rows may shift between dates; ties never do.)
+const asc = timeline.rows
+  .map((r) => ({ ...r.sort, order: r.order }))
+  .sort((a, b) => a.y - b.y || a.m - b.m || a.d - b.d || a.order - b.order);
+
+const tieGroups = new Map();
+for (const r of asc) {
+  const k = `${r.y}-${r.m}-${r.d}`;
+  if (!tieGroups.has(k)) tieGroups.set(k, []);
+  tieGroups.get(k).push(r.order);
+}
+
+let tiesChecked = 0;
+for (const [k, orders] of tieGroups) {
+  if (orders.length < 2) continue;
+  tiesChecked++;
+  const inSourceOrder = [...orders].sort((a, b) => a - b);
+  assert.deepEqual(orders, inSourceOrder, `tie group ${k} preserves source order`);
+}
+assert.ok(tiesChecked > 0, "expected at least one exact-date tie group to verify");
+
+console.log(`deriveTimeline: ${tiesChecked} exact-date tie groups preserve source order`);
