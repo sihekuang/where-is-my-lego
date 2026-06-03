@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import type { GraphData, GraphNode } from "@/lib/content";
-import { CATEGORY_COLORS, CATEGORY_LABELS, SIDE_COLORS, initialsDataUri } from "@/lib/graph-style";
+import { CATEGORY_COLORS, SIDE_COLORS, initialsDataUri } from "@/lib/graph-style";
 
 const GraphCanvas = dynamic(() => import("./GraphCanvas"), {
   ssr: false,
@@ -51,7 +51,7 @@ export default function RelationshipGraph({ data }: { data: GraphData }) {
               aria-pressed={!hidden.includes(c)}
             >
               <span className="dot" style={{ background: CATEGORY_COLORS[c] }} />
-              {CATEGORY_LABELS[c]}
+              {c}
             </button>
           ))}
         </div>

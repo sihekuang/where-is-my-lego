@@ -119,8 +119,12 @@ export default function GraphCanvas({
     const cy = cyRef.current;
     if (!cy) return;
     cy.scratch("_showAll", showAllLabels);
-    if (showAllLabels) cy.edges().addClass("show-label");
-    else if (!focusRef.current) cy.edges().removeClass("show-label");
+    if (showAllLabels) {
+      cy.edges().addClass("show-label");
+    } else {
+      cy.edges().removeClass("show-label");
+      if (focusRef.current) cy.$id(focusRef.current).connectedEdges().addClass("show-label");
+    }
   }, [showAllLabels]);
 
   // Search highlight.
@@ -129,7 +133,8 @@ export default function GraphCanvas({
     if (!cy) return;
     const q = query.trim().toLowerCase();
     if (!q) {
-      if (!focusRef.current) cy.elements().removeClass("dim");
+      if (focusRef.current) applyFocus(cy, focusRef.current);
+      else cy.elements().removeClass("dim");
       return;
     }
     cy.batch(() => {

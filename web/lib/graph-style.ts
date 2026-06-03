@@ -10,26 +10,11 @@ export const CATEGORY_COLORS: Record<string, string> = {
   investigative: "#a779e6",
 };
 
-export const CATEGORY_LABELS: Record<string, string> = {
-  legal: "legal",
-  transactional: "transactional",
-  familial: "familial",
-  "law-enforcement": "law-enforcement",
-  corporate: "corporate",
-  investigative: "investigative",
-};
-
 export const SIDE_COLORS: Record<string, string> = {
   plaintiff: "#4a6a9e",
   defendant: "#a85a55",
   official: "#6b7280",
   neutral: "#6b7280",
-};
-
-export const SHAPE_BY_TYPE: Record<string, string> = {
-  person: "ellipse",
-  org: "round-rectangle",
-  agency: "diamond",
 };
 
 export function initialsHue(s: string): number {
