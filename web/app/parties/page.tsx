@@ -1,5 +1,6 @@
 import SectionedTable from "@/components/SectionedTable";
-import { getParties, generatedMtime } from "@/lib/content";
+import RelationshipGraph from "@/components/RelationshipGraph";
+import { getParties, getRelationships, generatedMtime } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
 import { PageStructuredData } from "@/components/JsonLd";
 
@@ -13,6 +14,7 @@ export const metadata = pageMetadata(META);
 
 export default function PartiesPage() {
   const data = getParties();
+  const graph = getRelationships();
   return (
     <div>
       <PageStructuredData {...META} dateModified={generatedMtime("data/parties.json").toISOString()} />
@@ -22,7 +24,12 @@ export default function PartiesPage() {
         the dispute and their publicly reported statements. No private personal
         information is included.
       </p>
-      <SectionedTable data={data} searchPlaceholder="Search parties…" />
+
+      <RelationshipGraph data={graph} />
+
+      <div id="roster">
+        <SectionedTable data={data} searchPlaceholder="Search parties…" />
+      </div>
     </div>
   );
 }
