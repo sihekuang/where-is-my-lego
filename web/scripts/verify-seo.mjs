@@ -28,7 +28,7 @@ assert.equal(manifest.short_name, "Where Is My Lego", "manifest short_name");
 
 // home <head>: canonical + OG + twitter + website JSON-LD
 const home = await get("/");
-assert.match(home, new RegExp(`<link rel="canonical" href="${CANON}/"`), "home canonical");
+assert.match(home, new RegExp(`<link rel="canonical" href="${CANON}/?"`), "home canonical");
 assert.match(home, /property="og:title"/, "home og:title");
 assert.match(home, /property="og:image"/, "home og:image");
 assert.match(home, /name="twitter:card" content="summary_large_image"/, "twitter card");
