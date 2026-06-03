@@ -1,0 +1,28 @@
+{
+  "name": "bam-scandal-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Read-only interactive site for the bam-scandal archive. Reads data derived from the canonical root Markdown.",
+  "scripts": {
+    "derive": "node scripts/derive-data.mjs",
+    "predev": "npm run derive",
+    "dev": "next dev",
+    "prebuild": "npm run derive",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-markdown": "9.0.1",
+    "remark-gfm": "4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.10",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "typescript": "5.5.3"
+  }
+}
