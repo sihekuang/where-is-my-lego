@@ -19,21 +19,13 @@ egress at compile time). To pull copies in an unrestricted environment, see
 | The LEGO Bricks & Minifigs SCANDAL Is Getting SCARY… | https://www.youtube.com/watch?v=gDRSK4-YlsM | early Jun 2026 | Covers the criminal charges. |
 | (Short) The Headlines Keep Getting Worse for Major LEGO Reseller | https://www.youtube.com/shorts/6uEwIkmEHiQ | Jun 2026 | Short. |
 
-Other Reckless Ben channels/links:
-- Patreon (reported to host extended cuts): https://www.patreon.com/c/RecklessBen
-- **GoFundMe (Mansell family):** https://www.gofundme.com/f/help-bryan-recover-his-lego-collection —
-  titled *"Help Bryan Recover His Stolen LEGO Collection"* (organizer: Ben Schneider; beneficiaries:
-  Bryan Mansell & his father). **~$333,799 of a $350K goal from ~11,979 donors as of 2026-06-03**
-  (campaign created Mar 10, 2026). The total climbed fast — news reported ~$128K around May 31 — so
-  **anchor any figure to its timestamp.** ⚠ The campaign's own title asserts the collection was
-  "stolen"; that theft framing is **contested and unadjudicated** (BAM denies it) and is reproduced here
-  as the campaign's wording, not as a finding. **Do not transcribe payment or personal contact details**
-  into this archive.
-- **GoFundMe (the Gormans / former store owners):** https://www.gofundme.com/f/help-us-fight-back-against-unfair-business-practices —
-  titled *"They Took Our LEGO Store & Life Savings. Help Us Fight Back."* — a **separate** campaign by
-  the former Keizer franchisees Chrystal & Benjamin Gorman (~$67,095 of a $75K goal when checked,
-  2026-06-03). Their account of the store loss is a **contested ALLEGATION** (see
-  [`../parties.md`](../parties.md)).
+## Fundraisers & other channels
+
+| Item | URL | Note |
+|---|---|---|
+| **GoFundMe — Mansell family** | https://www.gofundme.com/f/help-bryan-recover-his-lego-collection | *"Help Bryan Recover His Stolen LEGO Collection"* (organizer: Ben Schneider; beneficiaries: Bryan Mansell & his father). **~$333,799 of a $350K goal from ~11,979 donors as of 2026-06-03** (created Mar 10, 2026); the total climbed fast (~$128K around May 31), so **anchor any figure to its timestamp.** ⚠ The campaign's own title asserts the collection was "stolen" — a **contested, unadjudicated** framing (BAM denies theft), shown here as the campaign's wording, not a finding. **Do not transcribe payment or personal contact details.** |
+| **GoFundMe — the Gormans (former store owners)** | https://www.gofundme.com/f/help-us-fight-back-against-unfair-business-practices | *"They Took Our LEGO Store & Life Savings. Help Us Fight Back."* — a **separate** campaign by the former Keizer franchisees Chrystal & Benjamin Gorman (~$67,095 of a $75K goal when checked, 2026-06-03). Their account of the store loss is a **contested ALLEGATION** (see the Parties page). |
+| **Reckless Ben — Patreon** | https://www.patreon.com/c/RecklessBen | Reported to host extended cuts. |
 
 ## BAM / Bricks & Minifigs — official statements
 
