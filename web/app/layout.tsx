@@ -4,11 +4,9 @@ import { JsonLd } from "@/components/JsonLd";
 import { siteJsonLd } from "@/lib/structured-data";
 import Link from "next/link";
 import "./globals.css";
-import { Geist } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/theme-provider";
-
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
+import { fontDisplay, fontSans } from "@/lib/fonts";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -50,7 +48,7 @@ const NAV = [
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={cn("font-sans", geist.variable)} suppressHydrationWarning>
+    <html lang="en" className={cn(fontSans.variable, fontDisplay.variable, "font-sans")} suppressHydrationWarning>
       <body>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <JsonLd data={siteJsonLd()} />
