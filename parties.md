@@ -35,7 +35,7 @@ Each person/entity below is described **only by their public role** in the dispu
 
 | Name | Public role | Notes |
 |---|---|---|
-| **Chrystal Law-Gorman** | Former operator/owner of the Salem/Keizer franchise; signatory of the Nov 2023 consignment. | Says she was removed by the franchisor; publicly posted contract language she says permitted consignment, rebutting BAM's "unauthorized" framing. (Robert Gorman referenced as co-operator in some accounts.) |
+| **Chrystal Law-Gorman** | Former operator/owner of the Salem/Keizer franchise; signatory of the Nov 2023 consignment. | Says she was removed by the franchisor; publicly posted contract language she says permitted consignment, rebutting BAM's "unauthorized" framing. (Benjamin "Ben" Gorman referenced as co-operator in some accounts — Techdirt, Salem Business Journal.) |
 
 ## Law enforcement / government (official capacity only)
 

@@ -1,7 +1,8 @@
 # bam-scandal
 
 An archival research record of the **Bricks & Minifigs (BAM) – "Reckless Ben" controversy**: a
-public dispute over a ~$200,000 LEGO Star Wars collection consigned to a Bricks & Minifigs franchise
+public dispute over a LEGO Star Wars collection (family-valued at ~$200,000; see the value dispute
+below) consigned to a Bricks & Minifigs franchise
 in Keizer/Salem, Oregon, which escalated into a viral YouTube investigation, criminal charges against
 YouTuber Benjamin "Reckless Ben" Schneider in Utah, a law-enforcement controversy involving the
 American Fork Police Department, and a multi-count civil lawsuit filed in Utah County.
@@ -35,7 +36,8 @@ American Fork Police Department, and a multi-count civil lawsuit filed in Utah C
 ## One-paragraph summary
 
 In November 2023, collector **Bryan Mansell** and his elderly father consigned a large LEGO Star Wars
-collection (family-valued at ~$200,000) to a **Bricks & Minifigs** franchise in the Salem/Keizer,
+collection (**family-valued at ~$200,000; the figure is disputed** — BAM and an inventory estimate put
+it far lower, roughly $60K–$98K) to a **Bricks & Minifigs** franchise in the Salem/Keizer,
 Oregon area. After the store changed hands and was repossessed by the franchisor (~November 2024),
 the family alleged the collection was not returned. YouTuber **Benjamin "Reckless Ben" Schneider**
 publicized the dispute in a May 21, 2026 video that went viral, launched a six-figure GoFundMe, and
@@ -44,7 +46,8 @@ traveled to American Fork, Utah, where store-side figure **Joshua Johnson** live
 executed; the warrant return reported **no items seized**. The episode drew national attention and
 heavy public backlash against the **American Fork Police Department**, which released body-cam footage
 and statements defending its conduct. On **May 27, 2026**, **BAM Franchising and associated
-individuals sued** Schneider and others in **Utah Fourth District Court (Case No. 260402353)**,
+individuals sued** Schneider and others in **Utah Fourth District Court** (case no. unverified; see
+[`lawsuit/court-documents.md`](./lawsuit/court-documents.md)),
 alleging defamation, a Utah RICO "pattern of unlawful activity," civil stalking, and more — **13
 causes of action** in total. **BAM denies any theft; Schneider and the Mansell family deny the
 harassment/extortion framing.** The matter remains unresolved.

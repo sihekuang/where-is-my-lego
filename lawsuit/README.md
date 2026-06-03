@@ -10,16 +10,18 @@
 
 | Field | Value |
 |---|---|
-| **Caption (reported)** | *BAM Franchising, LLC; Ammon McNeff; Matthew McNeff; Josh (Joshua) Johnson; Brandon Best; Baker Bricks, LLC v. Benjamin Schneider; Reckless Ben LLC; Bryan Mansell; Victor Nguyen; Does 1–15* |
+| **Caption (reported)** | *BAM Franchising, LLC; Ammon McNeff; Matthew McNeff; Josh (Joshua) Johnson; Brandon Best; Baker Bricks, LLC v. Benjamin Schneider; Reckless Ben LLC; Bryan Mansell; Victor Nguyen; Does 1–15* (⚠ the community case page renders the lead plaintiff as "BAM Franchising, **Inc.**" — entity suffix unverified against the docket) |
 | **Court** | Utah Fourth Judicial District Court, Utah County (Provo) |
 | **Filing date** | May 27, 2026 (verified complaint) |
-| **Case number** | **260402353** (per news reporting; one community site shows "260400253" — likely a typo; verify against the docket) |
-| **Interim order** | Temporary Restraining Order + preliminary-injunction hearing notice reportedly signed **May 28, 2026** by **Judge Tony F. Graf Jr.** |
+| **Case number** | **Unverified.** Reported as **260402353** in news/aggregator summaries; the community case page (the only primary-style page reachable as of 2026-06-03) shows **260400253**. Do not treat either as a typo of the other — confirm against the XChange docket. |
+| **Interim order** | Temporary Restraining Order + preliminary-injunction hearing notice reportedly signed **May 28, 2026** by **Judge Tony F. Graf Jr.** (⚠ judge name is from secondary reporting only, not a fetched court doc; the **March search warrant** was separately approved by **Judge Roger W. Griffin** — different proceeding) |
 
 ## The 13 causes of action
 
-All sources confirm **13 counts**. Plain-English, one line each (precise count numbering should be
-verified against the filed complaint):
+Secondary sources (Dexerto, Wikipedia) report **13 counts**, listed below. ⚠ **Note a sourcing
+conflict:** KSL summarizes a shorter set ("defamation, disparagement, conspiracy, stalking, trespass
+and IIED") and damages "over $300,000." The full list and precise count numbering should be verified
+against the filed complaint:
 
 1. **Utah Pattern of Unlawful Activity (Utah RICO)** — alleges a coordinated pattern of unlawful acts by defendants acting as an enterprise targeting plaintiffs.
 2. **Defamation per se** — statements so inherently damaging (e.g., accusing plaintiffs of theft/crime) that harm is presumed.

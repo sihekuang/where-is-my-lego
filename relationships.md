@@ -50,7 +50,7 @@ Role / Statement: optional short public captions for the node detail card.
 | cameron-paul | chief of | afpd | corporate | → | CONFIRMED |  |
 | bronson-kitchen | detective at | afpd | corporate | → | CONFIRMED |  |
 | josh-johnson | criminal complainant vs | ben-schneider | legal | → | CONFIRMED |  |
-| bam-franchising | sued | ben-schneider | legal | → | CONFIRMED | Case No. 260402353 |
+| bam-franchising | sued | ben-schneider | legal | → | CONFIRMED | Case no. unverified (260402353 / 260400253) |
 | bam-franchising | sued | reckless-ben-llc | legal | → | CONFIRMED |  |
 | bam-franchising | sued | bryan-mansell | legal | → | CONFIRMED |  |
 | bam-franchising | sued | victor-nguyen | legal | → | CONFIRMED |  |

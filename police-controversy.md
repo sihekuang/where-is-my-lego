@@ -10,7 +10,7 @@ capacity** — no personal information about any officer is included.
 | Date (2026) | Event | Status |
 |---|---|---|
 | Mar 8–11 | Joshua Johnson reportedly contacts AFPD ~4 times reporting conduct he described as escalating harassment. | Reported by police |
-| **Mar 10** | **First arrest** — Schneider charged with **stalking, targeted residential picketing, disorderly conduct, criminal trespass**. | CONFIRMED |
+| **Mar 10** (date disputed) | **First arrest** — Schneider charged with **stalking, targeted residential picketing, disorderly conduct, criminal trespass**. ⚠ Wikipedia/Dexerto say Mar 10; American Fork Citizen places both arrests on Mar 11; KSL/East Idaho News say "charged March 27." | CONFIRMED (arrest); date disputed |
 | **Mar 11** | Second probable-cause affidavit seeks an additional stalking charge (alleging continued activity near the residence via supporters while promoting the GoFundMe). | Reported (affidavit) |
 | **Mar 11** | **Search warrant** approved by a judge for the **Airbnb** Schneider was staying in; affidavit cited the Airbnb owner overhearing talk of "possible stolen Lego toys"; warrant sought "any stolen merchandise, specifically Lego merchandise." | CONFIRMED |
 | **Evening Mar 11** | **Second arrest** at the Airbnb; **booked into Utah County Jail**. ~4 associates detained; all but Schneider released. | CONFIRMED |
@@ -18,7 +18,7 @@ capacity** — no personal information about any officer is included.
 | After Mar 11 | Schneider reportedly left the U.S. for **Mexico**, continuing to fundraise. | Reported (not agency-confirmed) |
 | **May 29** | AFPD releases body-cam footage + news release; **Chief Cameron Paul** posts a ~26-minute video statement. | CONFIRMED |
 | ~May 30–Jun 2 | Story goes viral; nationwide call-in backlash; unrelated agencies issue disclaimers. | CONFIRMED |
-| **Jun 8** | Schneider reportedly scheduled to appear in court. | Reported (scheduled) |
+| **Jun 8** (disputed) | Schneider reportedly scheduled to appear in court. ⚠ Wikipedia says June 8; KSL & East Idaho News say **July 1, 2026**. | Reported (scheduled); date disputed |
 
 ## Allegations against AFPD (ALLEGATION — raised by Schneider, amplified online)
 
@@ -52,15 +52,19 @@ audio…"*) and stood by his allegations.
 
 ## The public-backlash / "inundated by calls" response (CONFIRMED)
 
-- **Central Utah 911** reported that on one Saturday between **6–10 a.m.**, call volume jumped from a
+- **Central Utah 911** reported that on one morning between **6–10 a.m.**, call volume jumped from a
   normal **~157 to 424 calls**; in the busiest hour they took **143 calls, 138 non-emergency** (~170%
-  above a typical Saturday morning). Dispatchers were reportedly "yelled at, cursed at, threatened,
-  and harassed." Note: aiming this anger at 911 dispatch endangered real emergencies — a concrete
-  public-safety harm of the pile-on.
+  above normal). Dispatchers were reportedly "yelled at, cursed at, threatened, and harassed." Note:
+  aiming this anger at 911 dispatch endangered real emergencies — a concrete public-safety harm of the
+  pile-on. ⚠ **Sources conflict on the weekday:** ABC4 frames it as a Saturday; Dexerto says Sunday,
+  May 31. The call figures (157/424/143/138, ~170%) match across both — only the day differs.
 - **Salem (Utah) Police Department** — an agency unrelated to the Oregon "Salem/Keizer" of the
   underlying dispute — posted that it has **"zero involvement in this matter"** after being flooded
   with misdirected inquiries.
-- **AFPD public ratings** (Google/Yelp) were review-bombed with case references.
+- **AFPD public ratings** drew a wave of negative reviews referencing the case. ⚠ A coordinated
+  "review-bombing" is widely asserted online, but reporting confirms only a low Google rating and
+  dispute-related reviews — it does not confirm coordination, cite a numeric rating, or verify Yelp
+  specifically.
 
 ## A separate, distinct AFPD matter (don't conflate)
 
