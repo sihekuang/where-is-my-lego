@@ -87,19 +87,28 @@ export default function GraphCanvas({
     });
     cyRef.current = cy;
 
-    // Run fcose AFTER the nodes have their rendered dimensions. Passing `layout` as a
-    // constructor option runs it before sizing, which collapses every node onto the
-    // origin; deferring one frame lets the stylesheet's node size apply first.
-    const rafId = requestAnimationFrame(() => {
-      cy.layout({
-        name: "fcose",
-        animate: !reduce,
-        randomize: true,
-        nodeSeparation: 90,
-        fit: true,
-        padding: 30,
-      } as cytoscape.LayoutOptions).run();
+    // The dispute's two protagonists — every layout should stay framed on them.
+    const FOCUS_IDS = ["bam-franchising", "ben-schneider"];
+
+    // Lay out immediately. cy.layout().run() reads node sizes from the already-applied
+    // stylesheet synchronously, so the old one-frame rAF defer isn't needed — and that
+    // one-shot rAF was being cancelled by React StrictMode's mount→cleanup→mount in dev,
+    // leaving the graph stuck in cytoscape's default grid. animate:false keeps it
+    // deterministic; fcose randomizes positions each run, so we re-center afterward.
+    const layout = cy.layout({
+      name: "fcose",
+      animate: false,
+      randomize: true,
+      nodeSeparation: 90,
+      fit: true,
+      padding: 30,
+    } as cytoscape.LayoutOptions);
+    // Once the layout settles, pan so BAM ↔ Reckless Ben sit at the center of the stage.
+    layout.one("layoutstop", () => {
+      const focus = cy.nodes().filter((n) => FOCUS_IDS.includes(n.id()));
+      if (focus.nonempty()) cy.center(focus);
     });
+    layout.run();
 
     const ctx = glowRef.current?.getContext("2d") ?? null;
     let glowRaf = 0;
@@ -149,7 +158,6 @@ export default function GraphCanvas({
     cy.on("mouseout", "node", () => { activeFocusRef.current = focusRef.current; applyFocus(cy, focusRef.current); });
 
     return () => {
-      cancelAnimationFrame(rafId);
       if (glowRaf) cancelAnimationFrame(glowRaf);
       cy.destroy();
       cyRef.current = null;
