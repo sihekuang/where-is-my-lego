@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { BRICK_SVG, brickDataUri } from "../lib/brick-svg.ts";
+import { BRICK_SVG, brickDataUri } from "../lib/brick-svg.mjs";
 
 // Shapes-only: the three brick faces are present...
 assert.ok(BRICK_SVG.includes("#b06a18"), "right face fill present");
