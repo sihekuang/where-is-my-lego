@@ -18,12 +18,34 @@ export type Section = { heading: string; columns: string[]; rows: Row[] };
 export type Sectioned = { sections: Section[] };
 export type Timeline = { columns: string[]; statusIdx: number; rows: Row[] };
 
+export type GraphNode = {
+  id: string;
+  label: string;
+  type: "person" | "org" | "agency";
+  side: "plaintiff" | "defendant" | "official" | "neutral";
+  ini: string;
+  icon?: string;
+  role?: string;
+  statement?: string;
+};
+export type GraphEdge = {
+  source: string;
+  target: string;
+  label: string;
+  category: "legal" | "corporate" | "familial" | "transactional" | "investigative" | "law-enforcement";
+  direction: "to" | "both" | "none";
+  status: "CONFIRMED" | "ALLEGATION";
+  note?: string;
+};
+export type GraphData = { nodes: GraphNode[]; edges: GraphEdge[] };
+
 function json<T>(name: string): T {
   return JSON.parse(readFileSync(resolve(GEN, "data", name), "utf8")) as T;
 }
 
 export const getTimeline = () => json<Timeline>("timeline.json");
 export const getParties = () => json<Sectioned>("parties.json");
+export const getRelationships = () => json<GraphData>("relationships.json");
 export const getMediaNews = () => json<Sectioned>("media-news.json");
 export const getMediaPrimary = () => json<Sectioned>("media-primary.json");
 
