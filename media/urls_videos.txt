@@ -1,0 +1,13 @@
+# Primary-source & key videos (verify channel ownership before treating as primary).
+# One URL per line. Lines starting with # are ignored.
+https://www.youtube.com/watch?v=wscQpkcwgNU
+https://www.youtube.com/watch?v=OYGBGuYhHZk
+https://www.youtube.com/watch?v=tWUR3uf6rmo
+https://www.youtube.com/watch?v=nny2ojTqW3A
+https://www.youtube.com/watch?v=gDRSK4-YlsM
+https://www.youtube.com/shorts/6uEwIkmEHiQ
+https://www.youtube.com/watch?v=zHdkJuNX_H0
+https://www.youtube.com/watch?v=oH5sWkR8YCs
+https://www.youtube.com/watch?v=K-lc6XWV3ms
+https://www.youtube.com/watch?v=rcd71Uhchlk
+https://www.youtube.com/watch?v=BGT412CuStk
