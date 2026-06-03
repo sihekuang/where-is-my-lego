@@ -22,5 +22,6 @@ for (const [input, expected] of cases) {
 }
 
 assert.equal(parseDateKey("(warrant return)"), null, "date-less returns null");
+assert.equal(parseDateKey(null), null, "null input returns null");
 
-console.log(`parseDateKey: ${cases.length + 1} assertions passed`);
+console.log(`parseDateKey: ${cases.length + 2} assertions passed`);

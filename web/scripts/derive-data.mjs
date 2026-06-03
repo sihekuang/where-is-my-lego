@@ -100,7 +100,7 @@ export function parseDateKey(raw) {
 
   // First month name, if any.
   const monMatch = scope.match(
-    /\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)/
+    /\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\b/
   );
   let m = monMatch ? MONTHS[monMatch[1]] : 0;
 
