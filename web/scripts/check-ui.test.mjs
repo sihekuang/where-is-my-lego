@@ -40,4 +40,9 @@ const graphStyle = readFileSync(join(root, "lib/graph-style.ts"), "utf8");
 for (const s of ["export const SIDE_PALETTE", "export const GLOW_PARAMS", "export function nodeSize", "export function withAlpha"]) {
   assert.ok(graphStyle.includes(s), `graph-style.ts missing ${s}`);
 }
+// (e) graph revamp — canvas wiring
+const graphCanvas = readFileSync(join(root, "components/GraphCanvas.tsx"), "utf8");
+for (const s of ["nodeSize", "size:", "stageBg"]) {
+  assert.ok(graphCanvas.includes(s), `GraphCanvas.tsx missing ${s}`);
+}
 console.log("check-ui: OK");

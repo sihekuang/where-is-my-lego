@@ -6,7 +6,7 @@ import fcose from "cytoscape-fcose";
 import { useTheme } from "next-themes";
 import type { Core, ElementDefinition } from "cytoscape";
 import type { GraphData, GraphNode } from "@/lib/content";
-import { buildStylesheet, initialsDataUri } from "@/lib/graph-style";
+import { buildStylesheet, initialsDataUri, nodeSize } from "@/lib/graph-style";
 
 cytoscape.use(fcose);
 
@@ -28,6 +28,7 @@ export default function GraphCanvas({
   onSelect,
 }: Props) {
   const boxRef = useRef<HTMLDivElement>(null);
+  const glowRef = useRef<HTMLCanvasElement>(null);
   const cyRef = useRef<Core | null>(null);
   const onSelectRef = useRef(onSelect);
   useLayoutEffect(() => { onSelectRef.current = onSelect; });
@@ -39,6 +40,12 @@ export default function GraphCanvas({
   useEffect(() => {
     if (!boxRef.current) return;
 
+    const degree = new Map<string, number>();
+    for (const e of data.edges) {
+      degree.set(e.source, (degree.get(e.source) ?? 0) + 1);
+      degree.set(e.target, (degree.get(e.target) ?? 0) + 1);
+    }
+
     const elements: ElementDefinition[] = [
       ...data.nodes.map((n) => ({
         data: {
@@ -47,6 +54,7 @@ export default function GraphCanvas({
           type: n.type,
           side: n.side,
           face: initialsDataUri(n.ini, n.label),
+          size: nodeSize(degree.get(n.id) ?? 0),
         },
       })),
       ...data.edges.map((e, i) => ({
@@ -69,7 +77,7 @@ export default function GraphCanvas({
     const cy = cytoscape({
       container: boxRef.current,
       elements,
-      style: buildStylesheet(),
+      style: buildStylesheet(resolvedTheme === "light" ? "light" : "dark"),
       minZoom: 0.3,
       maxZoom: 2.5,
       wheelSensitivity: 0.2,
@@ -168,7 +176,27 @@ export default function GraphCanvas({
     });
   }, [query]);
 
-  return <div ref={boxRef} className="h-[720px] w-full bg-background max-[640px]:h-[520px]" />;
+  const theme: "light" | "dark" = resolvedTheme === "light" ? "light" : "dark";
+  const stageBg =
+    theme === "dark"
+      ? {
+          // stud-grid layer FIRST so it paints on top of the vignette (CSS draws the first layer frontmost)
+          background:
+            "radial-gradient(circle, var(--stud-grid) 1.5px, transparent 1.6px), radial-gradient(circle at 50% 42%, #1a2030 0%, #0c0f15 78%)",
+          backgroundSize: "22px 22px, 100% 100%",
+        }
+      : {
+          background:
+            "radial-gradient(circle, var(--stud-grid) 1.5px, transparent 1.6px), var(--background)",
+          backgroundSize: "22px 22px, 100% 100%",
+        };
+
+  return (
+    <div className="relative h-[720px] w-full overflow-hidden max-[640px]:h-[520px]" style={stageBg}>
+      <canvas ref={glowRef} className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden="true" />
+      <div ref={boxRef} className="absolute inset-0" />
+    </div>
+  );
 }
 
 // Dim everything except the focused node + its neighborhood; reveal those edge labels.

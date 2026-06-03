@@ -90,8 +90,8 @@ export function buildStylesheet(theme: Theme = "dark"): StylesheetStyle[] {
     {
       selector: "node",
       style: {
-        width: 38,
-        height: 38,
+        width: "data(size)",
+        height: "data(size)",
         "background-color": c.nodeBg,
         "background-image": "data(face)",
         "background-fit": "cover",
