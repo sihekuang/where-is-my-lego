@@ -1,7 +1,14 @@
 import TimelineView from "@/components/TimelineView";
 import { getTimeline } from "@/lib/content";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata = { title: "Timeline — BAM × Reckless Ben" };
+const META = {
+  title: "Timeline",
+  description:
+    "Chronological record (2023–2026) of the Bricks & Minifigs (BAM) – Reckless Ben dispute: consignment, repossession, arrests, the search warrant, and the Utah lawsuit — each entry labeled Confirmed or Allegation.",
+  path: "/timeline",
+};
+export const metadata = pageMetadata(META);
 
 export default function TimelinePage() {
   const data = getTimeline();

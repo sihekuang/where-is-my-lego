@@ -1,8 +1,15 @@
 import Link from "next/link";
 import SectionedTable from "@/components/SectionedTable";
 import { getMediaNews, getMediaPrimary } from "@/lib/content";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata = { title: "Media — BAM × Reckless Ben" };
+const META = {
+  title: "Media Catalog",
+  description:
+    "Cataloged (not re-hosted) news articles, videos, and statements covering the Bricks & Minifigs (BAM) – Reckless Ben controversy, with links to original sources.",
+  path: "/media",
+};
+export const metadata = pageMetadata(META);
 
 export default function MediaPage() {
   const news = getMediaNews();
