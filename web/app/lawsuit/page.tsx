@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { Markdown } from "@/components/Markdown";
-import { getProse } from "@/lib/content";
+import { getProse, generatedMtime } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
+import { PageStructuredData } from "@/components/JsonLd";
 
 const META = {
   title: "Lawsuit",
@@ -15,6 +16,7 @@ export default function LawsuitPage() {
   const md = getProse("lawsuit.md");
   return (
     <div>
+      <PageStructuredData {...META} dateModified={generatedMtime("content/lawsuit.md").toISOString()} />
       <Markdown>{md}</Markdown>
       <p style={{ marginTop: 24 }}>
         → <Link href="/lawsuit/documents">How to obtain the primary court filings</Link>

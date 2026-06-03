@@ -1,6 +1,7 @@
 import SectionedTable from "@/components/SectionedTable";
-import { getParties } from "@/lib/content";
+import { getParties, generatedMtime } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
+import { PageStructuredData } from "@/components/JsonLd";
 
 const META = {
   title: "Parties",
@@ -14,6 +15,7 @@ export default function PartiesPage() {
   const data = getParties();
   return (
     <div>
+      <PageStructuredData {...META} dateModified={generatedMtime("data/parties.json").toISOString()} />
       <h1 className="page-title">Parties</h1>
       <p className="page-intro">
         Each person and entity is described <b>only by their public role</b> in

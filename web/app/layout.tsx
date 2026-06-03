@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { SITE_NAME, SITE_URL, DEFAULT_DESCRIPTION, ROOT_TITLE } from "@/lib/seo";
+import { JsonLd } from "@/components/JsonLd";
+import { siteJsonLd } from "@/lib/structured-data";
 import Link from "next/link";
 import "./globals.css";
 
@@ -45,6 +47,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
+        <JsonLd data={siteJsonLd()} />
         <header className="site-header">
           <div className="wrap header-inner">
             <Link href="/" className="brand">

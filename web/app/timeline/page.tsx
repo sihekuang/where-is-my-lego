@@ -1,6 +1,7 @@
 import TimelineView from "@/components/TimelineView";
-import { getTimeline } from "@/lib/content";
+import { getTimeline, generatedMtime } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
+import { PageStructuredData } from "@/components/JsonLd";
 
 const META = {
   title: "Timeline",
@@ -14,6 +15,7 @@ export default function TimelinePage() {
   const data = getTimeline();
   return (
     <div>
+      <PageStructuredData {...META} dateModified={generatedMtime("data/timeline.json").toISOString()} />
       <h1 className="page-title">Timeline</h1>
       <p className="page-intro">
         Chronological record, 2023–2026. Filter by status or search. Each entry

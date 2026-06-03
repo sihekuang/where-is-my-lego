@@ -1,6 +1,7 @@
 import { Markdown } from "@/components/Markdown";
-import { getProse } from "@/lib/content";
+import { getProse, generatedMtime } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
+import { PageStructuredData } from "@/components/JsonLd";
 
 const META = {
   title: "Disclaimer",
@@ -12,5 +13,10 @@ export const metadata = pageMetadata(META);
 
 export default function DisclaimerPage() {
   const md = getProse("disclaimer.md");
-  return <Markdown>{md}</Markdown>;
+  return (
+    <>
+      <PageStructuredData {...META} dateModified={generatedMtime("content/disclaimer.md").toISOString()} />
+      <Markdown>{md}</Markdown>
+    </>
+  );
 }

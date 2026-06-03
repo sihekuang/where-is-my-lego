@@ -1,7 +1,8 @@
 import Link from "next/link";
 import SectionedTable from "@/components/SectionedTable";
-import { getMediaNews, getMediaPrimary } from "@/lib/content";
+import { getMediaNews, getMediaPrimary, generatedMtime } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
+import { PageStructuredData } from "@/components/JsonLd";
 
 const META = {
   title: "Media Catalog",
@@ -16,6 +17,7 @@ export default function MediaPage() {
   const primary = getMediaPrimary();
   return (
     <div>
+      <PageStructuredData {...META} dateModified={generatedMtime("data/media-news.json").toISOString()} />
       <h1 className="page-title">Media catalog</h1>
       <p className="page-intro">
         Links are cataloged, <b>not re-hosted</b> (copyright). Verify channel
