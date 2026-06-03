@@ -7,3 +7,5 @@ lawsuit/police/
 .DS_Store
 Thumbs.db
 *.swp
+
+.idea
