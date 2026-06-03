@@ -138,6 +138,125 @@ function classifyStatus(text) {
 }
 
 // ---------------------------------------------------------------------------
+// Relationship graph derivation
+// ---------------------------------------------------------------------------
+
+const NODE_TYPES = new Set(["person", "org", "agency"]);
+const SIDES = new Set(["plaintiff", "defendant", "official", "neutral"]);
+const CATEGORIES = new Set([
+  "legal", "corporate", "familial", "transactional", "investigative", "law-enforcement",
+]);
+const STATUSES = new Set(["CONFIRMED", "ALLEGATION"]);
+// person-type node ids permitted to carry an Icon (public figures only).
+const ICON_ALLOWLIST = new Set(["ben-schneider"]);
+
+function findTable(sections, required) {
+  return sections.find((s) => {
+    const cols = s.columns.map((c) => c.toLowerCase());
+    return required.every((r) => cols.includes(r));
+  });
+}
+
+function colMap(table, names) {
+  const map = {};
+  for (const name of names) {
+    map[name] = table.columns.findIndex((c) => c.toLowerCase() === name);
+  }
+  return map;
+}
+
+function normalizeDirection(raw) {
+  const t = (raw || "").trim();
+  if (t === "→" || t === "->" || t === "to") return "to";
+  if (t === "↔" || t === "<->" || t === "both") return "both";
+  if (t === "—" || t === "-" || t === "" || t === "none") return "none";
+  throw new Error(`relationships.md: unknown Direction "${raw}"`);
+}
+
+export function initialsFor(label) {
+  const words = label
+    .replace(/\(.*?\)/g, " ")        // drop parentheticals like "(Schneider)"
+    .replace(/[^A-Za-z0-9 ]/g, " ")  // drop punctuation/quotes
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean);
+  if (words.length === 0) return "?";
+  if (words.length === 1) return words[0].slice(0, 2).toUpperCase();
+  return (words[0][0] + words[words.length - 1][0]).toUpperCase();
+}
+
+// Best-effort drift guard: warn if a party named in parties.md has no graph node.
+function reconcileParties(partiesMd, labels, warn) {
+  const sections = parseSections(partiesMd);
+  const lowered = labels.map((l) => l.toLowerCase());
+  for (const s of sections) {
+    const nameIdx = s.columns.findIndex((c) => /name|entity|official/i.test(c));
+    if (nameIdx < 0) continue;
+    for (const r of s.rows) {
+      const name = toPlain(r.cells[nameIdx] || "");
+      const sig = name.toLowerCase().replace(/[^a-z ]/g, " ").split(/\s+/).filter((w) => w.length >= 4);
+      if (sig.length && !sig.some((w) => lowered.some((l) => l.includes(w)))) {
+        warn(`parties.md lists "${name}" but no graph node matches; add it to relationships.md.`);
+      }
+    }
+  }
+}
+
+export function deriveRelationships(opts = {}) {
+  const md = opts.md ?? read("relationships.md");
+  const partiesMd = opts.partiesMd ?? read("parties.md");
+  const warn = opts.warn ?? ((m) => console.warn("derive-data: " + m));
+
+  const sections = parseSections(md);
+  const nodeTable = findTable(sections, ["id", "label", "type", "side"]);
+  const edgeTable = findTable(sections, ["source", "relationship", "target", "category"]);
+  if (!nodeTable) throw new Error("relationships.md: Nodes table not found");
+  if (!edgeTable) throw new Error("relationships.md: Edges table not found");
+
+  const n = colMap(nodeTable, ["id", "label", "type", "side", "icon", "role", "statement"]);
+  const nodes = nodeTable.rows.map((r) => {
+    const id = r.cells[n.id];
+    const label = r.cells[n.label];
+    const type = r.cells[n.type];
+    const side = r.cells[n.side];
+    if (!NODE_TYPES.has(type)) throw new Error(`relationships.md: node "${id}" has unknown Type "${type}"`);
+    if (!SIDES.has(side)) throw new Error(`relationships.md: node "${id}" has unknown Side "${side}"`);
+    const icon = n.icon >= 0 ? (r.cells[n.icon] || "").trim() : "";
+    const node = { id, label, type, side, ini: initialsFor(label) };
+    if (icon) {
+      if (type === "person" && !ICON_ALLOWLIST.has(id)) {
+        warn(`node "${id}" is a person with an Icon but not in the public-figure allowlist; dropping icon (ethics guard).`);
+      } else {
+        node.icon = icon;
+      }
+    }
+    if (n.role >= 0 && r.cells[n.role]) node.role = r.cells[n.role];
+    if (n.statement >= 0 && r.cells[n.statement]) node.statement = r.cells[n.statement];
+    return node;
+  });
+
+  const ids = new Set(nodes.map((x) => x.id));
+  const e = colMap(edgeTable, ["source", "relationship", "target", "category", "direction", "status", "note"]);
+  const edges = edgeTable.rows.map((r, i) => {
+    const source = r.cells[e.source];
+    const target = r.cells[e.target];
+    const category = r.cells[e.category];
+    if (!ids.has(source)) throw new Error(`relationships.md: edge ${i} source "${source}" is not a known node id`);
+    if (!ids.has(target)) throw new Error(`relationships.md: edge ${i} target "${target}" is not a known node id`);
+    if (!CATEGORIES.has(category)) throw new Error(`relationships.md: edge ${i} has unknown Category "${category}"`);
+    const direction = normalizeDirection(e.direction >= 0 ? r.cells[e.direction] : "to");
+    const status = (e.status >= 0 ? r.cells[e.status] : "CONFIRMED").toUpperCase();
+    if (!STATUSES.has(status)) throw new Error(`relationships.md: edge ${i} has unknown Status "${status}"`);
+    const edge = { source, target, label: r.cells[e.relationship], category, direction, status };
+    if (e.note >= 0 && r.cells[e.note]) edge.note = r.cells[e.note];
+    return edge;
+  });
+
+  reconcileParties(partiesMd, nodes.map((x) => x.label), warn);
+  return { nodes, edges };
+}
+
+// ---------------------------------------------------------------------------
 // File-specific derivation
 // ---------------------------------------------------------------------------
 
@@ -211,6 +330,7 @@ function main() {
 
   writeJson("timeline.json", deriveTimeline());
   writeJson("parties.json", deriveSectioned("parties.md"));
+  writeJson("relationships.json", deriveRelationships());
   writeJson("media-news.json", deriveSectioned("media/news-articles.md"));
   writeJson("media-primary.json", deriveSectioned("media/primary-sources.md"));
 
@@ -221,7 +341,7 @@ function main() {
   // Small manifest so the app/build can sanity-check what was produced.
   writeJson("_manifest.json", {
     generatedAt: new Date().toISOString(),
-    data: ["timeline.json", "parties.json", "media-news.json", "media-primary.json"],
+    data: ["timeline.json", "parties.json", "media-news.json", "media-primary.json", "relationships.json"],
     content: PROSE.map(([, d]) => d),
     note: "Generated from the canonical root Markdown. Do not edit; edit the .md sources.",
   });
