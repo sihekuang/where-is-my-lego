@@ -1,4 +1,4 @@
-# Web — interactive viewer for the `bam-scandal` archive
+# Web — interactive viewer for the `where-is-my-lego` archive
 
 A **read-only** Next.js site that renders the archive in the repository root. It never modifies the
 source: a build step (`scripts/derive-data.mjs`) parses the canonical root Markdown into JSON + prose
@@ -25,7 +25,7 @@ from the current Markdown — the derived data can never drift from the source.
 
 ## Deploy to Vercel
 
-1. Import the GitHub repo `sihekuang/bam-scandal` into Vercel (New Project → Import).
+1. Import the GitHub repo `sihekuang/where-is-my-lego` into Vercel (New Project → Import).
 2. **Set "Root Directory" to `web`.** This is the only non-default setting required — the app lives in
    the `web/` subfolder while the canonical Markdown stays at the repo root (the build reads `../*.md`).
 3. Framework preset: **Next.js** (auto-detected). Build command and output dir: defaults.

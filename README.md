@@ -1,4 +1,4 @@
-# bam-scandal
+# where-is-my-lego
 
 An archival research record of the **Bricks & Minifigs (BAM) – "Reckless Ben" controversy**: a
 public dispute over a LEGO Star Wars collection (family-valued at ~$200,000; see the value dispute

@@ -3,6 +3,7 @@
 import { useEffect, useLayoutEffect, useRef } from "react";
 import cytoscape from "cytoscape";
 import fcose from "cytoscape-fcose";
+import { useTheme } from "next-themes";
 import type { Core, ElementDefinition } from "cytoscape";
 import type { GraphData, GraphNode } from "@/lib/content";
 import { buildStylesheet, initialsDataUri } from "@/lib/graph-style";
@@ -32,6 +33,7 @@ export default function GraphCanvas({
   useLayoutEffect(() => { onSelectRef.current = onSelect; });
   // Persistent focus (from selection) that hover falls back to.
   const focusRef = useRef<string | null>(null);
+  const { resolvedTheme } = useTheme();
 
   // Mount once: build the graph, run layout, wire events.
   useEffect(() => {
@@ -118,6 +120,11 @@ export default function GraphCanvas({
     };
   }, [data]);
 
+  // Re-theme the graph when the light/dark theme changes.
+  useEffect(() => {
+    cyRef.current?.style(buildStylesheet(resolvedTheme === "light" ? "light" : "dark"));
+  }, [resolvedTheme]);
+
   // Persistent focus from selection.
   useEffect(() => {
     focusRef.current = selectedId;
@@ -161,7 +168,7 @@ export default function GraphCanvas({
     });
   }, [query]);
 
-  return <div ref={boxRef} className="graph-canvas" />;
+  return <div ref={boxRef} className="h-[720px] w-full bg-background max-[640px]:h-[520px]" />;
 }
 
 // Dim everything except the focused node + its neighborhood; reveal those edge labels.

@@ -16,8 +16,8 @@ export default function TimelinePage() {
   return (
     <div>
       <PageStructuredData {...META} dateModified={generatedMtime("data/timeline.json").toISOString()} />
-      <h1 className="page-title">Timeline</h1>
-      <p className="page-intro">
+      <h1 className="font-display text-3xl font-extrabold tracking-tight">Timeline</h1>
+      <p className="mt-2 max-w-[70ch] text-muted-foreground">
         Chronological record, 2023–2026. Filter by status or search. Each entry
         is labeled as documented (<b>Confirmed</b>), a contested contention
         (<b>Allegation</b>), or otherwise <b>Reported</b>.

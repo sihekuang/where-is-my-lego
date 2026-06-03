@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { InlineMarkdown } from "./Markdown";
 import type { Timeline, Row } from "@/lib/content";
+import { BrickCard, type BrickVariant } from "@/components/brick/BrickCard";
 
 const FILTERS = [
   { key: "all", label: "All" },
@@ -55,68 +56,55 @@ export default function TimelineView({ data }: { data: Timeline }) {
     source: data.columns.findIndex((c) => /source/i.test(c)),
   };
 
+  const chipBase = "inline-flex items-center gap-1.5 rounded-full border-2 px-3 py-1 text-[13px]";
+  const accent: Record<string, string> = {
+    all: "border-border", confirmed: "border-confirmed", allegation: "border-allegation", reported: "border-reported",
+  };
   return (
     <div>
-      <div className="controls">
-        <div className="chips">
+      <div className="my-2 flex flex-wrap items-center gap-3">
+        <div className="flex flex-wrap gap-2">
           {FILTERS.map((f) => (
-            <button
-              key={f.key}
-              className={`chip ${filter === f.key ? "active" : ""} chip-${f.key}`}
-              onClick={() => setFilter(f.key)}
-            >
+            <button key={f.key} onClick={() => setFilter(f.key)}
+              className={`${chipBase} ${filter === f.key ? `${accent[f.key]} text-foreground bg-muted` : "border-border text-muted-foreground hover:text-foreground"}`}>
               {f.label}
-              <span className="count">{counts[f.key] ?? 0}</span>
+              <span className="rounded-full bg-background px-1.5 text-[11px] text-muted-foreground">{counts[f.key] ?? 0}</span>
             </button>
           ))}
         </div>
-        <input
-          className="search"
-          placeholder="Search events…"
-          value={q}
-          onChange={(e) => setQ(e.target.value)}
-        />
-        <button
-          type="button"
-          className="chip sort-toggle"
-          onClick={() =>
-            setSortDir((d) => (d === "asc" ? "desc" : "asc"))
-          }
-          aria-label={
-            sortDir === "asc"
-              ? "Sorted oldest first; click to show newest first"
-              : "Sorted newest first; click to show oldest first"
-          }
-        >
+        <input className="min-w-[200px] flex-1 rounded-lg border-2 border-border bg-card px-3 py-2 text-sm"
+          placeholder="Search events…" value={q} onChange={(e) => setQ(e.target.value)} />
+        <button type="button" className={`${chipBase} border-border text-muted-foreground hover:text-foreground whitespace-nowrap`}
+          onClick={() => setSortDir((d) => (d === "asc" ? "desc" : "asc"))}
+          aria-label={sortDir === "asc" ? "Sorted oldest first; click to show newest first" : "Sorted newest first; click to show oldest first"}>
           {sortDir === "asc" ? "Oldest first ↑" : "Newest first ↓"}
         </button>
       </div>
 
-      <p className="result-count">
-        {visible.length} of {data.rows.length} events
-      </p>
+      <p className="my-1 text-[13px] text-muted-foreground">{visible.length} of {data.rows.length} events</p>
 
-      <ol className="timeline">
-        {visible.map((r: Row, i) => (
-          <li key={r.order ?? i} className={`event status-${r.status}`}>
-            <div className="event-head">
-              <span className="event-date">
-                <InlineMarkdown>{r.cells[idx.date] ?? ""}</InlineMarkdown>
-              </span>
-              <span className={`badge badge-${r.status}`}>
-                {STATUS_LABEL[r.status!] ?? r.status}
-              </span>
-            </div>
-            <div className="event-body">
-              <InlineMarkdown>{r.cells[idx.event] ?? ""}</InlineMarkdown>
-            </div>
-            {idx.source >= 0 && r.cells[idx.source] && (
-              <div className="event-source">
-                <InlineMarkdown>{r.cells[idx.source]}</InlineMarkdown>
-              </div>
-            )}
-          </li>
-        ))}
+      <ol className="mt-3.5 list-none p-0">
+        {visible.map((r: Row, i) => {
+          const v = (r.status ?? "reported") as BrickVariant;
+          return (
+            <li key={r.order ?? i} className="mb-2.5">
+              <BrickCard variant={v} studs={2} className="px-4 py-3">
+                <div className="flex items-center justify-between gap-2.5">
+                  <span className="font-display font-bold text-card-foreground">
+                    <InlineMarkdown>{r.cells[idx.date] ?? ""}</InlineMarkdown>
+                  </span>
+                  <span className="brick-badge" style={{ background: `var(--${r.status})` }}>
+                    {STATUS_LABEL[r.status!] ?? r.status}
+                  </span>
+                </div>
+                <div className="mt-1 text-card-foreground"><InlineMarkdown>{r.cells[idx.event] ?? ""}</InlineMarkdown></div>
+                {idx.source >= 0 && r.cells[idx.source] && (
+                  <div className="mt-1.5 text-[13px] text-muted-foreground"><InlineMarkdown>{r.cells[idx.source]}</InlineMarkdown></div>
+                )}
+              </BrickCard>
+            </li>
+          );
+        })}
       </ol>
     </div>
   );

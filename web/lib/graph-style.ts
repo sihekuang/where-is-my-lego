@@ -35,21 +35,32 @@ export function initialsDataUri(ini: string, label: string): string {
   return "data:image/svg+xml;utf8," + encodeURIComponent(svg);
 }
 
-export function buildStylesheet(): StylesheetStyle[] {
+type Theme = "light" | "dark";
+
+const GRAPH_PALETTE: Record<Theme, {
+  nodeBg: string; nodeText: string; border: string;
+  edge: string; edgeText: string; edgeTextBg: string;
+}> = {
+  light: { nodeBg: "#ffffff", nodeText: "#1d2330", border: "#7a7059", edge: "#9a8f76", edgeText: "#3a3422", edgeTextBg: "#efeadd" },
+  dark:  { nodeBg: "#1f2530", nodeText: "#e6e8ec", border: "#6b7280", edge: "#888888", edgeText: "#cdd3dd", edgeTextBg: "#0f1115" },
+};
+
+export function buildStylesheet(theme: Theme = "dark"): StylesheetStyle[] {
+  const c = GRAPH_PALETTE[theme];
   const sheet: StylesheetStyle[] = [
     {
       selector: "node",
       style: {
         width: 38,
         height: 38,
-        "background-color": "#1f2530",
+        "background-color": c.nodeBg,
         "background-image": "data(face)",
         "background-fit": "cover",
         "border-width": 3,
-        "border-color": "#6b7280",
+        "border-color": c.border,
         label: "data(label)",
         "font-size": 9,
-        color: "#e6e8ec",
+        color: c.nodeText,
         "text-valign": "bottom",
         "text-halign": "center",
         "text-margin-y": 4,
@@ -62,13 +73,13 @@ export function buildStylesheet(): StylesheetStyle[] {
       style: {
         width: 1.8,
         "curve-style": "bezier",
-        "line-color": "#888",
-        "target-arrow-color": "#888",
-        "source-arrow-color": "#888",
+        "line-color": c.edge,
+        "target-arrow-color": c.edge,
+        "source-arrow-color": c.edge,
         label: "",
         "font-size": 8,
-        color: "#cdd3dd",
-        "text-background-color": "#0f1115",
+        color: c.edgeText,
+        "text-background-color": c.edgeTextBg,
         "text-background-opacity": 0.85,
         "text-background-padding": "2px",
         "text-rotation": "autorotate",
