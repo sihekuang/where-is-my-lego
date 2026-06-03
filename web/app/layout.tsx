@@ -9,6 +9,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { fontDisplay, fontSans } from "@/lib/fonts";
 import { ModeToggle } from "@/components/ModeToggle";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -129,6 +130,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </footer>
         </ThemeProvider>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
