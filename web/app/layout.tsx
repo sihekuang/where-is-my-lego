@@ -1,11 +1,36 @@
 import type { Metadata } from "next";
+import { SITE_NAME, SITE_URL, DEFAULT_DESCRIPTION, ROOT_TITLE } from "@/lib/seo";
+import { JsonLd } from "@/components/JsonLd";
+import { siteJsonLd } from "@/lib/structured-data";
 import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "BAM × Reckless Ben — Archive",
-  description:
-    "A sourced, read-only research archive of the Bricks & Minifigs (BAM) – Reckless Ben controversy. Content is derived from canonical Markdown.",
+  metadataBase: new URL(SITE_URL),
+  title: { default: ROOT_TITLE, template: "%s · Where Is My Lego" },
+  description: DEFAULT_DESCRIPTION,
+  applicationName: SITE_NAME,
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    siteName: SITE_NAME,
+    locale: "en_US",
+    url: "/",
+    title: ROOT_TITLE,
+    description: DEFAULT_DESCRIPTION,
+  },
+  twitter: { card: "summary_large_image", title: ROOT_TITLE, description: DEFAULT_DESCRIPTION },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
 };
 
 const NAV = [
@@ -22,6 +47,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
+        <JsonLd data={siteJsonLd()} />
         <header className="site-header">
           <div className="wrap header-inner">
             <Link href="/" className="brand">

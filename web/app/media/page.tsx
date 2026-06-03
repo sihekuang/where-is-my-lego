@@ -1,14 +1,23 @@
 import Link from "next/link";
 import SectionedTable from "@/components/SectionedTable";
-import { getMediaNews, getMediaPrimary } from "@/lib/content";
+import { getMediaNews, getMediaPrimary, generatedMtime } from "@/lib/content";
+import { pageMetadata } from "@/lib/seo";
+import { PageStructuredData } from "@/components/JsonLd";
 
-export const metadata = { title: "Media — BAM × Reckless Ben" };
+const META = {
+  title: "Media Catalog",
+  description:
+    "Cataloged (not re-hosted) news articles, videos, and statements covering the Bricks & Minifigs (BAM) – Reckless Ben controversy, with links to original sources.",
+  path: "/media",
+};
+export const metadata = pageMetadata(META);
 
 export default function MediaPage() {
   const news = getMediaNews();
   const primary = getMediaPrimary();
   return (
     <div>
+      <PageStructuredData {...META} dateModified={generatedMtime("data/media-news.json").toISOString()} />
       <h1 className="page-title">Media catalog</h1>
       <p className="page-intro">
         Links are cataloged, <b>not re-hosted</b> (copyright). Verify channel
