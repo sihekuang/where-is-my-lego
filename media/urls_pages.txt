@@ -1,0 +1,17 @@
+# Article / statement pages to snapshot. One URL per line. # lines ignored.
+# Official statements
+https://bricksandminifigs.com/blog/blog/2026/05/21/salem-oregon-bricks-and-minifigs-store-situation/
+https://bricksandminifigs.com/blog/blog/2026/05/28/bricks-minifigs-salem-oregon-clarity-and-resolution/
+https://www.globenewswire.com/news-release/2026/06/01/3304463/0/en/Bricks-Minifigs-Issues-Comprehensive-Public-Statement-on-Salem-Oregon-Dispute-Reaffirms-Offer-to-Help-Mansell-Family.html
+# Reference
+https://en.wikipedia.org/wiki/Bricks_%26_Minifigs%E2%80%93Reckless_Ben_controversy
+https://en.wikipedia.org/wiki/Reckless_Ben
+# Mainstream reporting
+https://www.sltrib.com/news/2026/05/30/youtuber-arrested-utah-bricks/
+https://www.abc4.com/news/local-news/conflict-stolen-legos-accusations-misconduct-american-fork-police/
+https://www.abc4.com/news/wasatch-front/utah-agencies-american-fork-police-youtuber-arrest/
+https://afcitizen.com/2026/05/30/youtuber-arrested-twice-by-af-police-over-lego-dispute/
+https://www.newsnationnow.com/us-news/midwest/stolen-legos-accusations-misconduct-utah-police/
+https://www.yahoo.com/entertainment/celebrity/articles/youtuber-reckless-ben-lands-jail-234853326.html
+https://www.dexerto.com/youtube/bricks-minifigs-sues-reckless-ben-over-viral-200k-lego-star-wars-investigation-3370801/
+https://www.brickfanatics.com/bricks-and-minifigs-dispute-200k-lego-collection

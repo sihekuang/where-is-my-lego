@@ -1,0 +1,9 @@
+# Downloaded media (fetch locally via media/fetch_media.sh; do not commit copyrighted media)
+media/_downloads/
+lawsuit/filings/
+lawsuit/police/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
