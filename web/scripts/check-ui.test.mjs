@@ -34,4 +34,10 @@ for (const f of [...walk(join(root,"app")), ...walk(join(root,"components"))]) {
   }
 }
 assert.strictEqual(offenders.length, 0, `legacy classNames still in source:\n${offenders.join("\n")}`);
+
+// (d) graph revamp — style module exports
+const graphStyle = readFileSync(join(root, "lib/graph-style.ts"), "utf8");
+for (const s of ["export const SIDE_PALETTE", "export const GLOW_PARAMS", "export function nodeSize", "export function withAlpha"]) {
+  assert.ok(graphStyle.includes(s), `graph-style.ts missing ${s}`);
+}
 console.log("check-ui: OK");

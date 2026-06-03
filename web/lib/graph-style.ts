@@ -1,5 +1,6 @@
 import type cytoscape from "cytoscape";
 import type { StylesheetStyle } from "cytoscape";
+import type { GraphNode } from "@/lib/content";
 
 export const CATEGORY_COLORS: Record<string, string> = {
   legal: "#e5544b",
@@ -9,6 +10,46 @@ export const CATEGORY_COLORS: Record<string, string> = {
   corporate: "#6ea8fe",
   investigative: "#a779e6",
 };
+
+export type Theme = "light" | "dark";
+
+type Side = GraphNode["side"];
+
+// Ring/halo colors per theme — brighter on the baseplate, legible on paper.
+export const SIDE_PALETTE: Record<Theme, Record<Side, string>> = {
+  light: { plaintiff: "#1976d2", defendant: "#d8472f", official: "#7a7059", neutral: "#7a7059" },
+  dark:  { plaintiff: "#4c9be6", defendant: "#e2614e", official: "#9aa3b2", neutral: "#9aa3b2" },
+};
+
+export type GlowParams = {
+  haloBlur: number;        // px halo reach beyond the node radius (at zoom 1)
+  haloOpacity: number;     // inner halo alpha
+  edgeGlowBlur: number;    // px blur on edge underglow
+  edgeGlowAlpha: number;   // edge underglow alpha
+  vignette: boolean;       // darken canvas edges (dark only)
+  dropShadow: { dy: number; blur: number; color: string } | null; // light-mode depth
+  pulseAmp: number;        // extra halo fraction at pulse peak
+  dashSpeed: number;       // px/sec for the allegation dash-flow
+};
+
+export const GLOW_PARAMS: Record<Theme, GlowParams> = {
+  dark:  { haloBlur: 16, haloOpacity: 0.55, edgeGlowBlur: 8, edgeGlowAlpha: 0.40, vignette: true,  dropShadow: null, pulseAmp: 0.25, dashSpeed: 26 },
+  light: { haloBlur: 12, haloOpacity: 0.20, edgeGlowBlur: 6, edgeGlowAlpha: 0.16, vignette: false, dropShadow: { dy: 2, blur: 4, color: "rgba(58,51,32,0.22)" }, pulseAmp: 0.18, dashSpeed: 26 },
+};
+
+// Node diameter (px) scaled by connection count: hubs read larger, leaves stay legible.
+export function nodeSize(degree: number): number {
+  const base = 34, perEdge = 4, min = 32, max = 56;
+  return Math.max(min, Math.min(max, base + degree * perEdge));
+}
+
+// "#rrggbb" (or "#rgb") + alpha → "rgba(...)" for canvas fills.
+export function withAlpha(hex: string, a: number): string {
+  const m = hex.replace("#", "");
+  const v = m.length === 3 ? m.split("").map((c) => c + c).join("") : m;
+  const r = parseInt(v.slice(0, 2), 16), g = parseInt(v.slice(2, 4), 16), b = parseInt(v.slice(4, 6), 16);
+  return `rgba(${r}, ${g}, ${b}, ${Math.max(0, Math.min(1, a))})`;
+}
 
 export const SIDE_COLORS: Record<string, string> = {
   plaintiff: "#4a6a9e",
@@ -34,8 +75,6 @@ export function initialsDataUri(ini: string, label: string): string {
     `</svg>`;
   return "data:image/svg+xml;utf8," + encodeURIComponent(svg);
 }
-
-type Theme = "light" | "dark";
 
 const GRAPH_PALETTE: Record<Theme, {
   nodeBg: string; nodeText: string; border: string;
@@ -99,8 +138,8 @@ export function buildStylesheet(theme: Theme = "dark"): StylesheetStyle[] {
     { selector: ".cat-hidden", style: { display: "none" } as cytoscape.Css.Node },
   ];
 
-  for (const [side, color] of Object.entries(SIDE_COLORS)) {
-    sheet.push({ selector: `node[side="${side}"]`, style: { "border-color": color } as cytoscape.Css.Node });
+  for (const [side, color] of Object.entries(SIDE_PALETTE[theme])) {
+    sheet.push({ selector: `node[side="${side}"]`, style: { "border-color": color, "border-width": 3.5 } as cytoscape.Css.Node });
   }
   for (const [cat, color] of Object.entries(CATEGORY_COLORS)) {
     sheet.push({
