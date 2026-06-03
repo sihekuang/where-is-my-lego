@@ -23,7 +23,7 @@ export default function MediaPage() {
         Links are cataloged, <b>not re-hosted</b> (copyright). Verify channel
         ownership and bylines at the source before relying on any item. To fetch
         local copies, see the{" "}
-        <Link href="/lawsuit/documents">download guidance</Link>.
+        <Link href="/lawsuit/documents" className="text-primary hover:underline">download guidance</Link>.
       </p>
 
       <h2 className="mt-7 text-xl">News &amp; commentary</h2>

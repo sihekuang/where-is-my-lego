@@ -18,8 +18,8 @@ export default function LawsuitPage() {
     <div>
       <PageStructuredData {...META} dateModified={generatedMtime("content/lawsuit.md").toISOString()} />
       <Markdown>{md}</Markdown>
-      <p style={{ marginTop: 24 }}>
-        → <Link href="/lawsuit/documents">How to obtain the primary court filings</Link>
+      <p className="mt-6">
+        → <Link href="/lawsuit/documents" className="text-primary hover:underline">How to obtain the primary court filings</Link>
       </p>
     </div>
   );

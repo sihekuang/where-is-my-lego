@@ -30,7 +30,7 @@ export default function Home() {
           </Link>
         ))}
       </div>
-      <div className="prose"><Markdown>{md}</Markdown></div>
+      <Markdown>{md}</Markdown>
     </div>
   );
 }
