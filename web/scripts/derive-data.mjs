@@ -156,11 +156,12 @@ export function deriveTimeline() {
   const dateIdx = table.columns.findIndex((c) => /date/i.test(c));
   const dateCol = dateIdx >= 0 ? dateIdx : 0;
 
-  // Walk rows in source order; rows whose date has no year inherit the
-  // previous row's key so they stay glued to the event they follow.
+  // Walk rows in source order; rows whose date has no year inherit a COPY of
+  // the previous row's key so they stay glued to the event they follow without
+  // sharing a mutable object reference.
   let last = { y: 0, m: 0, d: 0 };
   const rows = table.rows.map((r, i) => {
-    const key = parseDateKey(r.cells[dateCol]) ?? last;
+    const key = parseDateKey(r.cells[dateCol]) ?? { ...last };
     last = key;
     return {
       cells: r.cells,
