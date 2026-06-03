@@ -229,7 +229,9 @@ export default function GraphCanvas({
   return (
     <div className="relative h-[720px] w-full overflow-hidden max-[640px]:h-[520px]" style={stageBg}>
       <canvas ref={glowRef} className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden="true" />
-      <div ref={boxRef} className="absolute inset-0" />
+      {/* Intrinsic h-full (not absolute insets): cytoscape forces the container to
+          position:relative, which would null out inset-0 sizing → a 0-height viewport. */}
+      <div ref={boxRef} className="relative z-10 h-full w-full" />
     </div>
   );
 }
