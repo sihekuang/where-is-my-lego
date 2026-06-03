@@ -18,8 +18,8 @@ export default function PartiesPage() {
   return (
     <div>
       <PageStructuredData {...META} dateModified={generatedMtime("data/parties.json").toISOString()} />
-      <h1 className="page-title">Parties</h1>
-      <p className="page-intro">
+      <h1 className="font-display text-3xl font-extrabold tracking-tight">Parties</h1>
+      <p className="mt-2 max-w-[70ch] text-muted-foreground">
         Each person and entity is described <b>only by their public role</b> in
         the dispute and their publicly reported statements. No private personal
         information is included.
