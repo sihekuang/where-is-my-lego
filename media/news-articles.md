@@ -53,6 +53,9 @@ environment had no network egress). Author bylines marked "—" were not confirm
 | World Manual (UK) | Police issue response after $200,000 LEGO "theft" investigation goes viral | 2026-06-02 | https://worldmanual.co.uk/2026/06/02/police-issue-response-after-youtubers-200000-lego-star-wars-theft-investigation-goes-viral-and-leads-to-his-arrest/ |
 | Sportskeeda | Reckless Ben–Bricks & Minifigs controversy timeline explained | late May–Jun 2026 | https://www.sportskeeda.com/us/streamers/reckless-ben-bricks-minifigs-200k-lego-collection-controversy-timeline-events-explained |
 | GlobeNewswire | BAM issues comprehensive public statement (press release) | 2026-06-01 | https://www.globenewswire.com/news-release/2026/06/01/3304463/0/en/Bricks-Minifigs-Issues-Comprehensive-Public-Statement-on-Salem-Oregon-Dispute-Reaffirms-Offer-to-Help-Mansell-Family.html |
+| KSL.com | Viral videos allege pricey Lego theft. Here's how Utah police entered the conversation | 2026-06-02 | https://www.ksl.com/article/51505848/viral-videos-allege-pricey-lego-theft-heres-how-utah-police-entered-the-conversation |
+| East Idaho News | Viral videos allege pricey Lego theft… (syndication of the KSL piece) | 2026-06-03 | https://www.eastidahonews.com/2026/06/viral-videos-allege-pricey-lego-theft-heres-how-utah-police-entered-the-conversation/ |
+| Techdirt | Everyone In This LEGO Dispute Should Have Spoken To A Lawyer Earlier Than They Did | 2026-06-02 | https://www.techdirt.com/2026/06/02/everyone-in-this-lego-dispute-should-have-spoken-to-a-lawyer-earlier-than-they-did/ |
 
 ## Forum / community discussion
 

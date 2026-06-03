@@ -38,7 +38,8 @@ American Fork Police Department, and a multi-count civil lawsuit filed in Utah C
 In November 2023, collector **Bryan Mansell** and his elderly father consigned a large LEGO Star Wars
 collection (**family-valued at ~$200,000; the figure is disputed** — BAM and an inventory estimate put
 it far lower, roughly $60K–$98K) to a **Bricks & Minifigs** franchise in the Salem/Keizer,
-Oregon area. After the store changed hands and was repossessed by the franchisor (~November 2024),
+Oregon area, then run by franchisees **Chrystal Law-Gorman and Benjamin "Ben" Gorman**. After the
+franchisor repossessed the store from the Gormans (~November 2024) and it changed hands,
 the family alleged the collection was not returned. YouTuber **Benjamin "Reckless Ben" Schneider**
 publicized the dispute in a May 21, 2026 video that went viral, launched a six-figure GoFundMe, and
 traveled to American Fork, Utah, where store-side figure **Joshua Johnson** lives. Schneider was

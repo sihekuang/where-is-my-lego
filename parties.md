@@ -31,11 +31,28 @@ Each person/entity below is described **only by their public role** in the dispu
 | **Brandon Best** | Tied to the post-2024 store operation (Baker Bricks); **civil plaintiff**. | Same owner/manager wording inconsistency. |
 | **Baker Bricks, LLC** | Entity tied to the post-transition store operation; **civil plaintiff**. | — |
 
-## Former franchisee
+## Former franchisee — the original Salem/Keizer owners (pre-corporate takeover)
+
+The Keizer store was owned/operated by a **married couple, Chrystal Law-Gorman and Benjamin ("Ben")
+Gorman**, until BAM Franchising repossessed it via a reported **Nov 14, 2024 "Notice of Immediate
+Termination."** They are the "original owners" before BAM corporate took the store over.
+(⚠ Some early/aggregated accounts misnamed Ben as "Robert Gorman"; the correct name is **Benjamin
+"Ben" Gorman**, per Techdirt, the Salem Business Journal, and Wikipedia.)
 
 | Name | Public role | Notes |
 |---|---|---|
-| **Chrystal Law-Gorman** | Former operator/owner of the Salem/Keizer franchise; signatory of the Nov 2023 consignment. | Says she was removed by the franchisor; publicly posted contract language she says permitted consignment, rebutting BAM's "unauthorized" framing. (Benjamin "Ben" Gorman referenced as co-operator in some accounts — Techdirt, Salem Business Journal.) |
+| **Chrystal Law-Gorman** | Franchisee of record / operator of the Salem-Keizer store (~Feb 2023 – Nov 2024); signatory of the Nov 2023 Mansell consignment; **now a plaintiff against BAM** in a separate suit. | Reportedly *managed* the store before taking on the franchise (~Feb 2023 — month single-sourced). Says she was removed by the franchisor "under threat of police action" with no notice/compensation (TikTok, May 26, 2026 — **ALLEGATION**); publicly posted contract language she says permitted consignment, rebutting BAM's "unauthorized" framing. |
+| **Benjamin ("Ben") Gorman** | Co-operator / spouse of Chrystal; co-claimant against BAM. | Separately runs **Not A Pipe Publishing** (a small Oregon publisher). Per Techdirt, the couple contacted BAM corporate about **selling or closing** the franchise before the takeover; BAM characterizes this as Law announcing she would **shutter** the store. **Disputed.** |
+
+**The Gormans' position vs BAM (ALLEGATION on both sides):** The Gormans say BAM **breached first** by
+never transferring the store bank account and lease, making continued operation impossible; BAM says the
+Gormans **defaulted** (unpaid purchase-price/APA installments and delinquent royalties, ~$200K per CEO
+Ammon McNeff) and became uncooperative. The Gormans sued BAM (reported grounds: **breach of contract,
+conversion, defamation, civil conspiracy**) and launched their own GoFundMe ("They Took Our LEGO Store
+& Life Savings"). ⚠ The franchise **entity name conflicts** across sources: **"BAMF Salem 1, LLC"**
+(Techdirt, citing filings) vs **"Bricks and Minifigs Salem-Keizer LLC"** (Salem Business Journal).
+Wikipedia notes an **ALLEGATION** that corporate personnel involved in the termination had ties to the
+incoming operators (Johnson / Best).
 
 ## Law enforcement / government (official capacity only)
 

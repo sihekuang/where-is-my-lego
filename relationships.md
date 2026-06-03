@@ -17,6 +17,7 @@ Role / Statement: optional short public captions for the node detail card.
 | bryan-mansell | Bryan Mansell | person | defendant |  | Collection owner / consignor | Acted with Schneider to recover the collection. |
 | mansell-father | Mansell's father | person | neutral |  | Co-owner of the collection (~83) |  |
 | chrystal-law-gorman | Chrystal Law-Gorman | person | neutral |  | Former franchise operator / signatory | Says the contract permitted consignment. |
+| ben-gorman | Benjamin (Ben) Gorman | person | neutral |  | Former co-operator / spouse of Chrystal | Runs Not A Pipe Publishing; says BAM breached first. |
 | ben-schneider | Reckless Ben (Schneider) | person | defendant | https://unavatar.io/youtube/RecklessBen | YouTuber / self-styled investigator | Says he went to serve papers; alleges police misconduct. |
 | reckless-ben-llc | Reckless Ben LLC | org | defendant | https://unavatar.io/youtube/RecklessBen | Schneider's media/business entity |  |
 | victor-nguyen | Victor Nguyen | person | defendant |  | Associate of Schneider (defendant) |  |
@@ -37,6 +38,10 @@ Role / Statement: optional short public captions for the node detail card.
 | bryan-mansell | co-owns collection | mansell-father | familial | — | CONFIRMED |  |
 | bryan-mansell | consigned collection to (Nov 2023) | chrystal-law-gorman | transactional | → | CONFIRMED |  |
 | bam-franchising | removed / repossessed store | chrystal-law-gorman | corporate | → | CONFIRMED |  |
+| bam-franchising | removed / repossessed store | ben-gorman | corporate | → | CONFIRMED |  |
+| ben-gorman | married to | chrystal-law-gorman | familial | — | CONFIRMED |  |
+| chrystal-law-gorman | sued (separate suit) | bam-franchising | legal | → | CONFIRMED | Breach of contract, conversion, defamation, civil conspiracy |
+| ben-gorman | sued (separate suit) | bam-franchising | legal | → | CONFIRMED |  |
 | ben-schneider | publicized dispute for | bryan-mansell | investigative | → | CONFIRMED |  |
 | ben-schneider | owns | reckless-ben-llc | corporate | → | CONFIRMED |  |
 | ben-schneider | associate | victor-nguyen | investigative | ↔ | CONFIRMED |  |
