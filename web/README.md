@@ -13,12 +13,15 @@ root *.md  ──(derive-data.mjs)──►  web/.generated/{data,content}  ─�
 
 ```bash
 cd web
-npm install
-npm run dev      # predev runs derive-data automatically; http://localhost:3000
+pnpm install
+pnpm dev         # predev runs derive-data automatically; http://localhost:3000
 ```
 
-`npm run build` (used by Vercel) runs `derive-data` via `prebuild`, so the site is always regenerated
+`pnpm build` (used by Vercel) runs `derive-data` via `prebuild`, so the site is always regenerated
 from the current Markdown — the derived data can never drift from the source.
+
+> This project uses **pnpm** (pinned via `packageManager` in `package.json`). Vercel auto-detects pnpm
+> from `pnpm-lock.yaml`.
 
 ## Deploy to Vercel
 
