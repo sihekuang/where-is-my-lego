@@ -51,8 +51,42 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="site-header">
           <div className="wrap header-inner">
             <Link href="/" className="brand">
-              BAM&nbsp;×&nbsp;Reckless&nbsp;Ben
-              <span className="brand-sub">research archive</span>
+              <svg
+                className="brand-logo"
+                viewBox="0 0 64 64"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <g transform="translate(-2.5,-3.5)">
+                  <polygon points="48,28 57,17 57,43 48,54" fill="#b06a18" stroke="#8a5212" strokeWidth="0.5" />
+                  <polygon points="12,28 48,28 57,17 21,17" fill="#f0a24a" stroke="#8a5212" strokeWidth="0.5" />
+                  <polygon points="12,28 48,28 48,54 12,54" fill="#d8862a" stroke="#8a5212" strokeWidth="0.5" />
+                  <ellipse cx="28.6" cy="22.1" rx="4.6" ry="2.4" fill="#c2761f" />
+                  <ellipse cx="28.6" cy="20.1" rx="4.6" ry="2.4" fill="#f4b266" />
+                  <ellipse cx="44.4" cy="22.1" rx="4.6" ry="2.4" fill="#c2761f" />
+                  <ellipse cx="44.4" cy="20.1" rx="4.6" ry="2.4" fill="#f4b266" />
+                  <ellipse cx="25.0" cy="26.5" rx="4.6" ry="2.4" fill="#c2761f" />
+                  <ellipse cx="25.0" cy="24.5" rx="4.6" ry="2.4" fill="#f4b266" />
+                  <ellipse cx="40.8" cy="26.5" rx="4.6" ry="2.4" fill="#c2761f" />
+                  <ellipse cx="40.8" cy="24.5" rx="4.6" ry="2.4" fill="#f4b266" />
+                  <text
+                    x="30"
+                    y="48"
+                    fontFamily="Arial Black, Arial, Helvetica, sans-serif"
+                    fontSize="23"
+                    fontWeight="900"
+                    fill="#ffffff"
+                    textAnchor="middle"
+                  >
+                    ?
+                  </text>
+                </g>
+              </svg>
+              <span className="brand-text">
+                Where&nbsp;Is&nbsp;My&nbsp;Lego
+                <span className="brand-sub">BAM × Reckless Ben</span>
+              </span>
             </Link>
             <nav className="nav">
               {NAV.map((n) => (
