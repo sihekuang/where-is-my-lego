@@ -7,6 +7,7 @@ import { useTheme } from "next-themes";
 import type { Core, ElementDefinition } from "cytoscape";
 import type { GraphData, GraphNode } from "@/lib/content";
 import { buildStylesheet, initialsDataUri, nodeSize } from "@/lib/graph-style";
+import { drawGlow } from "@/lib/graph-glow";
 
 cytoscape.use(fcose);
 
@@ -34,6 +35,8 @@ export default function GraphCanvas({
   useLayoutEffect(() => { onSelectRef.current = onSelect; });
   // Persistent focus (from selection) that hover falls back to.
   const focusRef = useRef<string | null>(null);
+  const themeRef = useRef<"light" | "dark">("dark");
+  const activeFocusRef = useRef<string | null>(null);
   const { resolvedTheme } = useTheme();
 
   // Mount once: build the graph, run layout, wire events.
@@ -98,6 +101,30 @@ export default function GraphCanvas({
       } as cytoscape.LayoutOptions).run();
     });
 
+    const ctx = glowRef.current?.getContext("2d") ?? null;
+    let glowRaf = 0;
+    const paint = (time: number) => {
+      if (glowRef.current && ctx) {
+        drawGlow(cy, glowRef.current, ctx, {
+          theme: themeRef.current,
+          time,
+          focusId: activeFocusRef.current,
+          reduce,
+        });
+      }
+    };
+    if (reduce) {
+      const once = () => paint(0);
+      once();
+      cy.on("render", once);
+    } else {
+      const tick = (time: number) => {
+        paint(time);
+        glowRaf = requestAnimationFrame(tick);
+      };
+      glowRaf = requestAnimationFrame(tick);
+    }
+
     // Nodes default to their initials avatar; upgrade to the real linked icon only after a
     // CORS-safe preload succeeds (matching Cytoscape's anonymous-crossorigin canvas load).
     // If the host sends no CORS headers, the node simply keeps its initials — no broken draw.
@@ -118,24 +145,32 @@ export default function GraphCanvas({
     cy.on("tap", (evt) => {
       if (evt.target === cy) onSelectRef.current(null);
     });
-    cy.on("mouseover", "node", (evt) => applyFocus(cy, evt.target.id()));
-    cy.on("mouseout", "node", () => applyFocus(cy, focusRef.current));
+    cy.on("mouseover", "node", (evt) => { activeFocusRef.current = evt.target.id(); applyFocus(cy, evt.target.id()); });
+    cy.on("mouseout", "node", () => { activeFocusRef.current = focusRef.current; applyFocus(cy, focusRef.current); });
 
     return () => {
       cancelAnimationFrame(rafId);
+      if (glowRaf) cancelAnimationFrame(glowRaf);
       cy.destroy();
       cyRef.current = null;
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data]);
 
   // Re-theme the graph when the light/dark theme changes.
   useEffect(() => {
-    cyRef.current?.style(buildStylesheet(resolvedTheme === "light" ? "light" : "dark"));
+    const t: "light" | "dark" = resolvedTheme === "light" ? "light" : "dark";
+    themeRef.current = t;
+    const cy = cyRef.current;
+    if (!cy) return;
+    cy.style(buildStylesheet(t));
+    cy.emit("render");
   }, [resolvedTheme]);
 
   // Persistent focus from selection.
   useEffect(() => {
     focusRef.current = selectedId;
+    activeFocusRef.current = selectedId;
     if (cyRef.current) applyFocus(cyRef.current, selectedId);
   }, [selectedId]);
 

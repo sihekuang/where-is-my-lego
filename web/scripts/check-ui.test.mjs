@@ -45,4 +45,15 @@ const graphCanvas = readFileSync(join(root, "components/GraphCanvas.tsx"), "utf8
 for (const s of ["nodeSize", "size:", "stageBg"]) {
   assert.ok(graphCanvas.includes(s), `GraphCanvas.tsx missing ${s}`);
 }
+// (f) graph revamp — glow layer
+const glow = readFileSync(join(root, "lib/graph-glow.ts"), "utf8");
+for (const s of ["export function drawGlow", "createRadialGradient", "renderedPosition", "setLineDash"]) {
+  assert.ok(glow.includes(s), `graph-glow.ts missing ${s}`);
+}
+const graphCanvasT3 = readFileSync(join(root, "components/GraphCanvas.tsx"), "utf8");
+assert.ok(graphCanvasT3.includes("drawGlow"), "GraphCanvas.tsx must call drawGlow");
+// (g) graph revamp — animation loop + reduced-motion guard
+for (const s of ["glowRaf", "cancelAnimationFrame(glowRaf)", "prefers-reduced-motion"]) {
+  assert.ok(graphCanvasT3.includes(s), `GraphCanvas.tsx missing ${s}`);
+}
 console.log("check-ui: OK");

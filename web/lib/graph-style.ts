@@ -26,15 +26,14 @@ export type GlowParams = {
   haloOpacity: number;     // inner halo alpha
   edgeGlowBlur: number;    // px blur on edge underglow
   edgeGlowAlpha: number;   // edge underglow alpha
-  vignette: boolean;       // darken canvas edges (dark only)
   dropShadow: { dy: number; blur: number; color: string } | null; // light-mode depth
   pulseAmp: number;        // extra halo fraction at pulse peak
   dashSpeed: number;       // px/sec for the allegation dash-flow
 };
 
 export const GLOW_PARAMS: Record<Theme, GlowParams> = {
-  dark:  { haloBlur: 16, haloOpacity: 0.55, edgeGlowBlur: 8, edgeGlowAlpha: 0.40, vignette: true,  dropShadow: null, pulseAmp: 0.25, dashSpeed: 26 },
-  light: { haloBlur: 12, haloOpacity: 0.20, edgeGlowBlur: 6, edgeGlowAlpha: 0.16, vignette: false, dropShadow: { dy: 2, blur: 4, color: "rgba(58,51,32,0.22)" }, pulseAmp: 0.18, dashSpeed: 26 },
+  dark:  { haloBlur: 16, haloOpacity: 0.55, edgeGlowBlur: 8, edgeGlowAlpha: 0.40, dropShadow: null, pulseAmp: 0.25, dashSpeed: 26 },
+  light: { haloBlur: 12, haloOpacity: 0.20, edgeGlowBlur: 6, edgeGlowAlpha: 0.16, dropShadow: { dy: 2, blur: 4, color: "rgba(58,51,32,0.22)" }, pulseAmp: 0.18, dashSpeed: 26 },
 };
 
 // Node diameter (px) scaled by connection count: hubs read larger, leaves stay legible.
