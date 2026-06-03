@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { parseDateKey } from "./derive-data.mjs";
+import { parseDateKey, deriveTimeline } from "./derive-data.mjs";
 
 const cases = [
   ["**Nov 22, 2023**", { y: 2023, m: 11, d: 22 }],
@@ -25,3 +25,25 @@ assert.equal(parseDateKey("(warrant return)"), null, "date-less returns null");
 assert.equal(parseDateKey(null), null, "null input returns null");
 
 console.log(`parseDateKey: ${cases.length + 2} assertions passed`);
+
+const timeline = deriveTimeline();
+const dateCol = timeline.columns.findIndex((c) => /date/i.test(c));
+
+// Every row gets a numeric sort key with a real year (anchoring fills the gaps).
+timeline.rows.forEach((r, i) => {
+  assert.ok(r.sort && r.sort.y > 0, `row ${i} has a sort year`);
+  assert.equal(r.order, i, `row ${i} has source order ${i}`);
+});
+
+// The date-less row inherits the previous row's key.
+const dateless = timeline.rows.findIndex(
+  (r) => parseDateKey(r.cells[dateCol]) === null
+);
+assert.ok(dateless > 0, "found a date-less row to anchor");
+assert.deepEqual(
+  timeline.rows[dateless].sort,
+  timeline.rows[dateless - 1].sort,
+  "date-less row inherits the previous row's sort key"
+);
+
+console.log(`deriveTimeline: ${timeline.rows.length} rows, anchoring verified`);

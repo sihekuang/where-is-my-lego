@@ -145,7 +145,7 @@ function read(rel) {
   return readFileSync(resolve(ROOT, rel), "utf8");
 }
 
-function deriveTimeline() {
+export function deriveTimeline() {
   const sections = parseSections(read("timeline.md"));
   // The chronological table is the one whose columns include "Status".
   const table = sections.find((s) =>
@@ -153,11 +153,23 @@ function deriveTimeline() {
   );
   if (!table) throw new Error("timeline.md: status table not found");
   const statusIdx = table.columns.findIndex((c) => /status/i.test(c));
-  const rows = table.rows.map((r) => ({
-    cells: r.cells,
-    plain: r.plain,
-    status: classifyStatus(r.cells[statusIdx] || ""),
-  }));
+  const dateIdx = table.columns.findIndex((c) => /date/i.test(c));
+  const dateCol = dateIdx >= 0 ? dateIdx : 0;
+
+  // Walk rows in source order; rows whose date has no year inherit the
+  // previous row's key so they stay glued to the event they follow.
+  let last = { y: 0, m: 0, d: 0 };
+  const rows = table.rows.map((r, i) => {
+    const key = parseDateKey(r.cells[dateCol]) ?? last;
+    last = key;
+    return {
+      cells: r.cells,
+      plain: r.plain,
+      status: classifyStatus(r.cells[statusIdx] || ""),
+      sort: key,
+      order: i,
+    };
+  });
   return { columns: table.columns, statusIdx, rows };
 }
 
