@@ -2,7 +2,7 @@
 // These read ONLY from web/.generated/, which is produced by scripts/derive-data.mjs
 // from the canonical root Markdown. Nothing here mutates the source archive.
 
-import { readFileSync } from "node:fs";
+import { readFileSync, statSync } from "node:fs";
 import { resolve } from "node:path";
 
 const GEN = resolve(process.cwd(), ".generated");
@@ -29,4 +29,9 @@ export const getMediaPrimary = () => json<Sectioned>("media-primary.json");
 
 export function getProse(name: string): string {
   return readFileSync(resolve(GEN, "content", name), "utf8");
+}
+
+/** Modification time of a build artifact under .generated/ (used for sitemap + Article dates). */
+export function generatedMtime(relPath: string): Date {
+  return statSync(resolve(GEN, relPath)).mtime;
 }
