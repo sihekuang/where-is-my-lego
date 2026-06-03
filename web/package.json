@@ -11,9 +11,12 @@
     "prebuild": "npm run derive",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "node scripts/derive-data.test.mjs"
   },
   "dependencies": {
+    "cytoscape": "^3.34.0",
+    "cytoscape-fcose": "^2.2.0",
     "next": "16.2.7",
     "react": "19.2.7",
     "react-dom": "19.2.7",
@@ -21,6 +24,7 @@
     "remark-gfm": "4.0.1"
   },
   "devDependencies": {
+    "@types/cytoscape": "^3.31.0",
     "@types/node": "25.9.1",
     "@types/react": "19.2.16",
     "@types/react-dom": "19.2.3",

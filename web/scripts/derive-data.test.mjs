@@ -73,3 +73,96 @@ for (const [k, orders] of tieGroups) {
 assert.ok(tiesChecked > 0, "expected at least one exact-date tie group to verify");
 
 console.log(`deriveTimeline: ${tiesChecked} exact-date tie groups preserve source order`);
+
+// ---------------------------------------------------------------------------
+// deriveRelationships
+// ---------------------------------------------------------------------------
+import { deriveRelationships } from "./derive-data.mjs";
+
+const SAMPLE = `
+## Nodes
+
+| Id | Label | Type | Side | Icon | Role | Statement |
+|----|-------|------|------|------|------|-----------|
+| ben-schneider | Reckless Ben (Schneider) | person | defendant | https://example.com/ben.jpg | YouTuber | quote |
+| sneaky | Sneaky Citizen | person | neutral | https://example.com/face.jpg | bystander |  |
+| acme | Acme LLC | org | plaintiff | https://example.com/logo.png |  |  |
+
+## Edges
+
+| Source | Relationship | Target | Category | Direction | Status | Note |
+|--------|--------------|--------|----------|-----------|--------|------|
+| acme | sued | ben-schneider | legal | → | CONFIRMED | n1 |
+| ben-schneider | associate | sneaky | investigative | ↔ | ALLEGATION |  |
+| ben-schneider | self | ben-schneider | corporate | — | CONFIRMED |  |
+`;
+
+const PARTIES_STUB = `
+## Roster
+| Name | Public role |
+|------|-------------|
+| Reckless Ben | YouTuber |
+| Acme LLC | franchisor |
+`;
+
+// Allowlisted person keeps icon; org keeps icon; non-allowlisted person drops it + warns.
+{
+  const warnings = [];
+  const rel = deriveRelationships({ md: SAMPLE, partiesMd: PARTIES_STUB, warn: (m) => warnings.push(m) });
+
+  const ben = rel.nodes.find((n) => n.id === "ben-schneider");
+  const sneaky = rel.nodes.find((n) => n.id === "sneaky");
+  const acme = rel.nodes.find((n) => n.id === "acme");
+
+  assert.equal(ben.icon, "https://example.com/ben.jpg", "allowlisted person keeps icon");
+  assert.equal(ben.ini, "RB", "initials derived (first+last word, parentheticals dropped)");
+  assert.equal(sneaky.icon, undefined, "non-allowlisted person icon dropped");
+  assert.equal(sneaky.ini, "SC", "dropped-icon node gets initials");
+  assert.equal(acme.icon, "https://example.com/logo.png", "org keeps icon");
+  assert.ok(
+    warnings.some((w) => w.includes("sneaky")),
+    "ethics guard warns on disallowed person icon"
+  );
+
+  const sued = rel.edges.find((e) => e.label === "sued");
+  assert.deepEqual(
+    { s: sued.source, t: sued.target, c: sued.category, d: sued.direction, st: sued.status, n: sued.note },
+    { s: "acme", t: "ben-schneider", c: "legal", d: "to", st: "CONFIRMED", n: "n1" },
+    "edge fields parsed + direction normalized"
+  );
+  assert.equal(rel.edges.find((e) => e.label === "associate").direction, "both", "↔ → both");
+  assert.equal(rel.edges.find((e) => e.label === "self").direction, "none", "— → none");
+
+  console.log(`deriveRelationships: sample parse + ethics guard passed (${warnings.length} warning)`);
+}
+
+// Validation throws.
+assert.throws(
+  () => deriveRelationships({ md: SAMPLE.replace("| acme | sued | ben-schneider |", "| acme | sued | ghost |"), partiesMd: PARTIES_STUB, warn() {} }),
+  /not a known node id/,
+  "unknown edge target throws"
+);
+assert.throws(
+  () => deriveRelationships({ md: SAMPLE.replace("| legal | →", "| bogus | →"), partiesMd: PARTIES_STUB, warn() {} }),
+  /unknown Category/,
+  "unknown category throws"
+);
+assert.throws(
+  () => deriveRelationships({ md: SAMPLE.replace("person | defendant", "person | sidekick"), partiesMd: PARTIES_STUB, warn() {} }),
+  /unknown Side/,
+  "unknown side throws"
+);
+console.log("deriveRelationships: validation throws verified");
+
+// Integration against the real canonical file.
+{
+  const rel = deriveRelationships();
+  assert.ok(rel.nodes.length >= 15, "real file: >=15 nodes");
+  const ids = new Set(rel.nodes.map((n) => n.id));
+  for (const e of rel.edges) {
+    assert.ok(ids.has(e.source) && ids.has(e.target), `edge ${e.source}->${e.target} endpoints exist`);
+  }
+  assert.equal(rel.nodes.find((n) => n.id === "ben-schneider").icon, "https://unavatar.io/youtube/RecklessBen", "real: Schneider keeps icon");
+  assert.ok(rel.nodes.filter((n) => n.type === "person" && n.id !== "ben-schneider").every((n) => !n.icon), "real: no other person has an icon");
+  console.log(`deriveRelationships: real file OK (${rel.nodes.length} nodes, ${rel.edges.length} edges)`);
+}
