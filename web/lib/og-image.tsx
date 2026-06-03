@@ -4,7 +4,8 @@ import { brickDataUri } from "./brick-svg.mjs";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-/** Branded social card with the Lego-brick logo. Uses the built-in font (ASCII-safe text only). */
+/** Branded social card with the Lego-brick logo. Uses next/og's built-in font; keep text to
+ *  common Latin glyphs — the "×" in the sub-title renders, but exotic glyphs may not. */
 export function renderOgImage(title: string) {
   return new ImageResponse(
     (
@@ -32,8 +33,13 @@ export function renderOgImage(title: string) {
             paddingRight: 56,
           }}
         >
-          <div style={{ display: "flex", fontSize: 34, letterSpacing: 4, color: "#6ea8fe", textTransform: "uppercase" }}>
-            Where Is My Lego
+          <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+            <div style={{ display: "flex", fontSize: 34, letterSpacing: 4, color: "#6ea8fe", textTransform: "uppercase" }}>
+              Where Is My Lego
+            </div>
+            <div style={{ display: "flex", fontSize: 22, letterSpacing: 3, color: "#9aa3b2", fontWeight: 500 }}>
+              BAM × Reckless Ben
+            </div>
           </div>
           <div style={{ display: "flex", fontSize: 80, fontWeight: 700, lineHeight: 1.05 }}>{title}</div>
           <div style={{ display: "flex", fontSize: 30, color: "#9aa3b2" }}>Sourced Research Archive</div>
