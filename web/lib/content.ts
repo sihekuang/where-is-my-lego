@@ -31,7 +31,12 @@ export function getProse(name: string): string {
   return readFileSync(resolve(GEN, "content", name), "utf8");
 }
 
-/** Modification time of a build artifact under .generated/ (used for sitemap + Article dates). */
+/** Modification time of a build artifact under .generated/ (used for sitemap + Article dates).
+ *  Falls back to the current (build) time if the artifact is missing. */
 export function generatedMtime(relPath: string): Date {
-  return statSync(resolve(GEN, relPath)).mtime;
+  try {
+    return statSync(resolve(GEN, relPath)).mtime;
+  } catch {
+    return new Date();
+  }
 }

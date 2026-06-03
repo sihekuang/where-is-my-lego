@@ -1,11 +1,15 @@
 import { pageJsonLd } from "@/lib/structured-data";
 
-/** Renders a JSON-LD <script>. data is trusted (built server-side from our own strings). */
+/**
+ * Renders a JSON-LD <script>. data is built server-side from our own strings.
+ * `<` is escaped to `<` so a stray `</script>` can never break out of the
+ * script context (standard JSON-LD-in-script hardening).
+ */
 export function JsonLd({ data }: { data: object }) {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data).replace(/</g, "\\u003c") }}
     />
   );
 }

@@ -29,6 +29,6 @@ export function pageMetadata({ title, description, path }: PageMeta): Metadata {
       title: branded,
       description,
     },
-    twitter: { title: branded, description },
+    twitter: { card: "summary_large_image", title: branded, description },
   };
 }

@@ -41,6 +41,7 @@ assert.match(timeline, new RegExp(`<link rel="canonical" href="${CANON}/timeline
 assert.match(timeline, /<title>Timeline · Where Is My Lego<\/title>/, "timeline templated title");
 assert.match(timeline, /"@type":"Article"/, "timeline Article JSON-LD");
 assert.match(timeline, /"@type":"BreadcrumbList"/, "timeline BreadcrumbList JSON-LD");
+assert.match(timeline, /name="twitter:card" content="summary_large_image"/, "content page large twitter card");
 
 // per-page OG image route exists
 const og = await fetch(`${SERVER}/timeline/opengraph-image`);
