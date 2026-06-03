@@ -3,6 +3,9 @@ media/_downloads/
 lawsuit/filings/
 lawsuit/police/
 
+# Brainstorming visual-companion artifacts
+.superpowers/
+
 # OS / editor cruft
 .DS_Store
 Thumbs.db

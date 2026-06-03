@@ -1,0 +1,15 @@
+<svg width="180" height="180" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lego brick with a question mark">
+  <!-- dark tile (site panel color); iOS masks the corners -->
+  <rect x="0" y="0" width="64" height="64" rx="12" fill="#171a21"/>
+  <!-- brick scaled and centered on the tile -->
+  <g transform="translate(6.47,5.73) scale(0.74)">
+    <polygon points="48,28 57,17 57,43 48,54" fill="#b06a18" stroke="#8a5212" stroke-width="0.5"/>
+    <polygon points="12,28 48,28 57,17 21,17" fill="#f0a24a" stroke="#8a5212" stroke-width="0.5"/>
+    <polygon points="12,28 48,28 48,54 12,54" fill="#d8862a" stroke="#8a5212" stroke-width="0.5"/>
+    <ellipse cx="28.6" cy="22.1" rx="4.6" ry="2.4" fill="#c2761f"/><ellipse cx="28.6" cy="20.1" rx="4.6" ry="2.4" fill="#f4b266"/>
+    <ellipse cx="44.4" cy="22.1" rx="4.6" ry="2.4" fill="#c2761f"/><ellipse cx="44.4" cy="20.1" rx="4.6" ry="2.4" fill="#f4b266"/>
+    <ellipse cx="25.0" cy="26.5" rx="4.6" ry="2.4" fill="#c2761f"/><ellipse cx="25.0" cy="24.5" rx="4.6" ry="2.4" fill="#f4b266"/>
+    <ellipse cx="40.8" cy="26.5" rx="4.6" ry="2.4" fill="#c2761f"/><ellipse cx="40.8" cy="24.5" rx="4.6" ry="2.4" fill="#f4b266"/>
+    <text x="30" y="48" font-family="'Arial Black', Arial, Helvetica, sans-serif" font-size="23" font-weight="900" fill="#ffffff" text-anchor="middle">?</text>
+  </g>
+</svg>
