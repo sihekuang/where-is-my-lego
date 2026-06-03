@@ -50,12 +50,18 @@ export function withAlpha(hex: string, a: number): string {
   return `rgba(${r}, ${g}, ${b}, ${Math.max(0, Math.min(1, a))})`;
 }
 
-export const SIDE_COLORS: Record<string, string> = {
-  plaintiff: "#4a6a9e",
-  defendant: "#a85a55",
-  official: "#6b7280",
-  neutral: "#6b7280",
-};
+// Pick near-black or white text — whichever has higher contrast on a solid `hex`
+// background (WCAG relative-luminance). Keeps filled badges legible in both themes.
+export function readableText(hex: string): string {
+  const m = hex.replace("#", "");
+  const v = m.length === 3 ? m.split("").map((c) => c + c).join("") : m;
+  const lin = [0, 2, 4].map((i) => {
+    const c = parseInt(v.slice(i, i + 2), 16) / 255;
+    return c <= 0.03928 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4;
+  });
+  const L = 0.2126 * lin[0] + 0.7152 * lin[1] + 0.0722 * lin[2];
+  return (L + 0.05) / 0.05 >= 1.05 / (L + 0.05) ? "#0b0e13" : "#ffffff";
+}
 
 export function initialsHue(s: string): number {
   let h = 0;

@@ -56,4 +56,11 @@ assert.ok(graphCanvasT3.includes("drawGlow"), "GraphCanvas.tsx must call drawGlo
 for (const s of ["glowRaf", "cancelAnimationFrame(glowRaf)", "prefers-reduced-motion"]) {
   assert.ok(graphCanvasT3.includes(s), `GraphCanvas.tsx missing ${s}`);
 }
+// (h) graph revamp — brick chrome + SIDE_COLORS removed
+const relGraph = readFileSync(join(root, "components/RelationshipGraph.tsx"), "utf8");
+for (const s of ["BrickCard", "brick-badge", "SIDE_PALETTE", "useTheme"]) {
+  assert.ok(relGraph.includes(s), `RelationshipGraph.tsx missing ${s}`);
+}
+const graphStyleT5 = readFileSync(join(root, "lib/graph-style.ts"), "utf8");
+assert.ok(!graphStyleT5.includes("export const SIDE_COLORS"), "graph-style.ts should no longer export SIDE_COLORS");
 console.log("check-ui: OK");
