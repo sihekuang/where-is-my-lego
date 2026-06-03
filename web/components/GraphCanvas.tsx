@@ -44,7 +44,7 @@ export default function GraphCanvas({
           label: n.label,
           type: n.type,
           side: n.side,
-          face: n.icon || initialsDataUri(n.ini, n.label),
+          face: initialsDataUri(n.ini, n.label),
         },
       })),
       ...data.edges.map((e, i) => ({
@@ -68,19 +68,36 @@ export default function GraphCanvas({
       container: boxRef.current,
       elements,
       style: buildStylesheet(),
-      layout: { name: "fcose", animate: !reduce, randomize: true, nodeSeparation: 90 } as cytoscape.LayoutOptions,
       minZoom: 0.3,
       maxZoom: 2.5,
       wheelSensitivity: 0.2,
     });
     cyRef.current = cy;
 
-    // Real-icon nodes fall back to the initials avatar if the image fails to load.
+    // Run fcose AFTER the nodes have their rendered dimensions. Passing `layout` as a
+    // constructor option runs it before sizing, which collapses every node onto the
+    // origin; deferring one frame lets the stylesheet's node size apply first.
+    const rafId = requestAnimationFrame(() => {
+      cy.layout({
+        name: "fcose",
+        animate: !reduce,
+        randomize: true,
+        nodeSeparation: 90,
+        fit: true,
+        padding: 30,
+      } as cytoscape.LayoutOptions).run();
+    });
+
+    // Nodes default to their initials avatar; upgrade to the real linked icon only after a
+    // CORS-safe preload succeeds (matching Cytoscape's anonymous-crossorigin canvas load).
+    // If the host sends no CORS headers, the node simply keeps its initials — no broken draw.
     for (const n of data.nodes) {
       if (!n.icon) continue;
+      const icon = n.icon;
       const img = new Image();
-      img.onerror = () => cy.$id(n.id).data("face", initialsDataUri(n.ini, n.label));
-      img.src = n.icon;
+      img.crossOrigin = "anonymous";
+      img.onload = () => cy.$id(n.id).data("face", icon);
+      img.src = icon;
     }
 
     const byId = new Map(data.nodes.map((n) => [n.id, n]));
@@ -95,6 +112,7 @@ export default function GraphCanvas({
     cy.on("mouseout", "node", () => applyFocus(cy, focusRef.current));
 
     return () => {
+      cancelAnimationFrame(rafId);
       cy.destroy();
       cyRef.current = null;
     };
