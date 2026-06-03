@@ -36,8 +36,10 @@ a:hover { text-decoration: underline; }
   z-index: 10;
 }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 12px; padding-bottom: 12px; flex-wrap: wrap; }
-.brand { color: var(--text); font-weight: 700; display: flex; flex-direction: column; line-height: 1.1; }
+.brand { color: var(--text); font-weight: 700; display: flex; align-items: center; gap: 10px; line-height: 1.1; }
 .brand:hover { text-decoration: none; }
+.brand-logo { width: 30px; height: 30px; flex: 0 0 auto; }
+.brand-text { display: flex; flex-direction: column; }
 .brand-sub { font-size: 11px; font-weight: 500; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; }
 .nav { display: flex; gap: 14px; flex-wrap: wrap; }
 .nav a { color: var(--muted); font-size: 14px; }
