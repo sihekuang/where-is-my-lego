@@ -18,18 +18,18 @@ export default function MediaPage() {
   return (
     <div>
       <PageStructuredData {...META} dateModified={generatedMtime("data/media-news.json").toISOString()} />
-      <h1 className="page-title">Media catalog</h1>
-      <p className="page-intro">
+      <h1 className="font-display text-3xl font-extrabold tracking-tight">Media catalog</h1>
+      <p className="mt-2 max-w-[70ch] text-muted-foreground">
         Links are cataloged, <b>not re-hosted</b> (copyright). Verify channel
         ownership and bylines at the source before relying on any item. To fetch
         local copies, see the{" "}
         <Link href="/lawsuit/documents">download guidance</Link>.
       </p>
 
-      <h2 style={{ marginTop: 28 }}>News &amp; commentary</h2>
+      <h2 className="mt-7 text-xl">News &amp; commentary</h2>
       <SectionedTable data={news} searchPlaceholder="Search articles…" />
 
-      <h2 id="primary" style={{ marginTop: 40 }}>
+      <h2 id="primary" className="mt-10 text-xl">
         Primary sources (videos &amp; statements)
       </h2>
       <SectionedTable data={primary} searchPlaceholder="Search primary sources…" />
