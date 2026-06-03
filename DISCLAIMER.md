@@ -45,8 +45,10 @@ reproducing the very conduct in dispute and would undermine its own value as a n
   flagged inline. Re-verify against the live sources before relying on any specific detail.
 - **Name spellings vary across outlets** (e.g., "Bryan Mansell" vs. "Brian Mancel"; one outlet
   rendered Schneider's surname incorrectly). The most consistently reported forms are used here.
-- The **case number** is reported as **260402353** by news outlets; one community site rendered it
-  "260400253" (likely a transcription error). Verify against the primary docket.
+- The **case number** is **unverified**: news/aggregator summaries report **260402353**, while the
+  community case page (the only primary-style page reachable on 2026-06-03) shows **260400253**.
+  Neither has been confirmed against the primary docket, and neither should be assumed to be a typo of
+  the other — verify against Utah XChange.
 
 ## Corrections
 

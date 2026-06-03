@@ -21,7 +21,6 @@ environment had no network egress). Author bylines marked "—" were not confirm
 | Dexerto | Bricks & Minifigs sues Reckless Ben over viral $200k Lego Star Wars investigation | early Jun 2026 | https://www.dexerto.com/youtube/bricks-minifigs-sues-reckless-ben-over-viral-200k-lego-star-wars-investigation-3370801/ |
 | Dexerto | Police respond after Reckless Ben's arrest during $200k investigation | ~May 31–Jun 1 2026 | https://www.dexerto.com/youtube/police-respond-after-reckless-bens-arrest-during-200k-lego-star-wars-investigation-3369893/ |
 | Dexerto | Police departments across Utah bombarded with angry calls over Reckless Ben arrest | early Jun 2026 | https://www.dexerto.com/youtube/police-departments-across-utah-bombarded-with-angry-calls-over-reckless-ben-arrest-3370809/ |
-| ABC4 (Utah) | Utah agencies inundated by calls as American Fork Police faces controversy | early Jun 2026 | https://www.abc4.com/news/wasatch-front/utah-agencies-american-fork-police-youtuber-arrest/ |
 | ABC4 (Utah) | Conflict over purportedly stolen Legos leads to accusations of misconduct against AFPD | late May–Jun 2026 | https://www.abc4.com/news/local-news/conflict-stolen-legos-accusations-misconduct-american-fork-police/ |
 | Salt Lake Tribune | YouTuber arrested in Utah in Bricks & Minifigs debacle | 2026-05-30 | https://www.sltrib.com/news/2026/05/30/youtuber-arrested-utah-bricks/ |
 | American Fork Citizen | YouTuber arrested twice by AF police over LEGO dispute | 2026-05-30 | https://afcitizen.com/2026/05/30/youtuber-arrested-twice-by-af-police-over-lego-dispute/ |

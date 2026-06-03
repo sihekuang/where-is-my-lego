@@ -10,8 +10,8 @@ unrestricted machine to pull copies.
 | Field | Value |
 |---|---|
 | **Court** | Utah Fourth Judicial District Court, Utah County (Provo) |
-| **Case No.** | **260402353** (verify; community site shows "260400253") |
-| **Access system** | Utah State Courts **XChange** (https://www.utcourts.gov/en/find/records.html) — Utah district-court records are *not* on PACER (PACER is federal). XChange generally requires an account and may charge fees. |
+| **Case No.** | **Unverified** — reported as **260402353** (news/aggregators) vs **260400253** (community case page, the only primary-style page reachable as of 2026-06-03). Confirm against the docket before relying on either. |
+| **Access system** | Utah State Courts **XChange** (https://www.utcourts.gov/en/court-records-publications/records/court-records/coris.html) — Utah district-court records are *not* on PACER (PACER is federal). XChange generally requires an account and may charge fees. |
 | **Document types to request** | Verified Complaint (filed 2026-05-27); TRO + order setting preliminary-injunction hearing (signed ~2026-05-28, Judge Tony F. Graf Jr.); any answer/responsive pleadings; docket sheet. |
 
 > Utah district-court filings are public records but are typically accessed via XChange or in person at
