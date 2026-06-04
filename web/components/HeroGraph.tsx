@@ -19,6 +19,8 @@ export default function HeroGraph({ data }: { data: GraphData }) {
   // drifting canvas never ghosts against the static image).
   const [live, setLive] = useState(false);
 
+  // The hero is a deliberately dark cinematic banner (its stage gradient is always dark),
+  // so the static still is always dark too; the canvas re-themes on top for light/dark sites.
   // Static still — SSR / no-JS / reduced-motion / small screens / first paint.
   // Built from the SAME positions as the canvas so the two can never disagree.
   const stillUri = graphMotifDataUri(data, { width: 1200, height: 480, theme: "dark", pad: PAD });
@@ -78,9 +80,9 @@ export default function HeroGraph({ data }: { data: GraphData }) {
         }
 
         // Node halos + bodies (the two protagonists breathe via the halo pulse).
+        const breathe = gp.pulseAmp * (0.5 + 0.5 * Math.sin(time / 900));
         for (const [, p] of place) {
           const col = sidePal[p.side] ?? sidePal.neutral;
-          const breathe = gp.pulseAmp * (0.5 + 0.5 * Math.sin(time / 900));
           const haloR = p.r + gp.haloBlur + p.r * breathe;
           const grad = ctx.createRadialGradient(p.x, p.y, p.r * 0.55, p.x, p.y, haloR);
           grad.addColorStop(0, withAlpha(col, Math.min(1, gp.haloOpacity + breathe)));
@@ -93,6 +95,8 @@ export default function HeroGraph({ data }: { data: GraphData }) {
           ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2); ctx.fill(); ctx.stroke();
         }
       }
+      // Always reschedule: the banner is always on-screen, so this self-recovers on the
+      // first frame the box has a measured size (and stays simple — no ResizeObserver).
       raf = requestAnimationFrame(draw);
     };
 
