@@ -36,3 +36,26 @@ assert.notEqual(hashEdge({ label: "ab" }), hashEdge({ label: "a", note: "b" }), 
   assert.deepEqual(stale, ["prose:home"], "missing unit is stale");
 }
 console.log("translate: hashing + diff assertions passed");
+
+import { seedProse, PROSE_DOCS } from "./translate.mjs";
+
+{
+  const sources = { "home.md": "Hello CONFIRMED.", "police.md": "World." };
+  const fake = (text) => `[zh]${text}`;
+
+  // Cold: nothing stored -> both translated.
+  const cold = seedProse(sources, {}, fake);
+  assert.equal(cold.files["home.md"], "[zh]Hello CONFIRMED.", "translates prose");
+  assert.equal(cold.manifest["prose:home.md"], hashProse("Hello CONFIRMED."), "records source hash");
+  assert.deepEqual(cold.stale.sort(), ["prose:home.md", "prose:police.md"], "cold = all stale");
+
+  // Warm: home unchanged, police changed -> only police re-translated, home reused.
+  const stored = { "prose:home.md": hashProse("Hello CONFIRMED."), "prose:police.md": hashProse("OLD") };
+  const prev = { "home.md": "保留的人工翻译", "police.md": "[zh]OLD" };
+  const warm = seedProse(sources, stored, fake, prev);
+  assert.equal(warm.files["home.md"], "保留的人工翻译", "unchanged prose keeps prior (human) translation");
+  assert.equal(warm.files["police.md"], "[zh]World.", "changed prose is re-translated");
+  assert.deepEqual(warm.stale, ["prose:police.md"], "only changed unit stale");
+}
+assert.ok(PROSE_DOCS.includes("home.md"), "home.md is a known prose doc");
+console.log("translate: prose seeding assertions passed");

@@ -29,3 +29,31 @@ export function diffManifest(current, stored) {
   }
   return stale;
 }
+
+// Prose docs as written by derive-data.mjs into .generated/content/.
+export const PROSE_DOCS = [
+  "home.md", "disclaimer.md", "lawsuit.md", "lawsuit-documents.md", "police.md", "media-manifest.md",
+];
+
+/**
+ * Pure prose seeding. For each doc: if its source hash matches the stored
+ * manifest, reuse the prior translation (preserving human edits); otherwise
+ * call `translate`. Returns translated files + the fresh manifest + stale keys.
+ */
+export function seedProse(sources, stored, translate, prev = {}) {
+  const files = {};
+  const manifest = {};
+  const stale = [];
+  for (const [name, src] of Object.entries(sources)) {
+    const key = `prose:${name}`;
+    const h = hashProse(src);
+    manifest[key] = h;
+    if (stored[key] === h && prev[name] != null) {
+      files[name] = prev[name]; // unchanged -> keep prior (possibly human-corrected)
+    } else {
+      files[name] = translate(src);
+      stale.push(key);
+    }
+  }
+  return { files, manifest, stale };
+}
