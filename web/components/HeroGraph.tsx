@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import type { GraphData } from "@/lib/content";
@@ -23,7 +23,12 @@ export default function HeroGraph({ data }: { data: GraphData }) {
   // so the static still is always dark too; the canvas re-themes on top for light/dark sites.
   // Static still — SSR / no-JS / reduced-motion / small screens / first paint.
   // Built from the SAME positions as the canvas so the two can never disagree.
-  const stillUri = graphMotifDataUri(data, { width: 1200, height: 480, theme: "dark", pad: PAD });
+  // Memoized: the SVG string only depends on `data` (always dark), so re-renders
+  // (e.g. the post-mount setLive, theme toggles) don't rebuild it.
+  const stillUri = useMemo(
+    () => graphMotifDataUri(data, { width: 1200, height: 480, theme: "dark", pad: PAD }),
+    [data],
+  );
 
   useEffect(() => {
     const canvas = canvasRef.current, box = boxRef.current;
