@@ -71,16 +71,53 @@ function loadSources() {
   return sources;
 }
 
+const SECTIONED_FILES = ["parties.json", "media-news.json", "media-primary.json"];
+
+function loadStructured() {
+  const j = (p) => JSON.parse(readFileSync(resolve(GEN, "data", p), "utf8"));
+  return {
+    timeline: j("timeline.json"),
+    relationships: j("relationships.json"),
+    sectioned: Object.fromEntries(SECTIONED_FILES.map((f) => [f, j(f)])),
+  };
+}
+
+/**
+ * Run all structured extractors once with a SYNCHRONOUS `translate`.
+ * `prev` is the locale's prior translations: { timeline, relationships, sectioned: {file: obj} }
+ * (any may be null). Returns { writes: {relFile: translatedObj}, manifest }.
+ */
+function runStructured(structured, stored, prev, translate) {
+  const writes = {};
+  const manifest = {};
+  const tl = extractTimeline(structured.timeline, stored, translate, prev.timeline ?? null);
+  writes["timeline.json"] = tl.translated; Object.assign(manifest, tl.manifest);
+  const gr = extractGraph(structured.relationships, stored, translate, prev.relationships ?? null);
+  writes["relationships.json"] = gr.translated; Object.assign(manifest, gr.manifest);
+  for (const f of SECTIONED_FILES) {
+    const sec = extractSectioned(f, structured.sectioned[f], stored, translate, prev.sectioned?.[f] ?? null);
+    writes[f] = sec.translated; Object.assign(manifest, sec.manifest);
+  }
+  return { writes, manifest };
+}
+
+// All structured unit hashes (translator-independent — identity translate, empty stored/prev).
+function structuredManifest(structured) {
+  return runStructured(structured, {}, {}, (s) => s).manifest;
+}
+
 // Current source manifest (what the English source hashes to right now).
-function currentManifest(sources) {
+function currentManifest(sources, structured) {
   const m = {};
   for (const [name, src] of Object.entries(sources)) m[`prose:${name}`] = hashProse(src);
+  Object.assign(m, structuredManifest(structured));
   return m;
 }
 
 async function runCheck() {
   const sources = loadSources();
-  const current = currentManifest(sources);
+  const structured = loadStructured();
+  const current = currentManifest(sources, structured);
   let totalStale = 0;
   for (const loc of TARGET_LOCALES) {
     const stored = readJson(resolve(I18N, loc.code, "_translation-manifest.json")) ?? {};
@@ -122,8 +159,31 @@ async function runSeed() {
       }
     }
     for (const [name, body] of Object.entries(out.files)) writeOut(resolve(base, "content", name), body);
+    // Structured data: extractors are sync, real translator is async -> pre-translate.
+    const structured = loadStructured();
+    const prevStruct = {
+      timeline: readJson(resolve(base, "data", "timeline.json")),
+      relationships: readJson(resolve(base, "data", "relationships.json")),
+      sectioned: Object.fromEntries(SECTIONED_FILES.map((f) => [f, readJson(resolve(base, "data", f))])),
+    };
+    // Phase 1: discover the stale source strings (recording sync translator).
+    const needed = new Set();
+    runStructured(structured, stored, prevStruct, (s) => { needed.add(s); return s; });
+    // Phase 2: translate each once, sequentially (rate-limit friendly).
+    const tmap = new Map();
+    for (const s of needed) {
+      console.log(`translate [${loc.code}] structured: "${s.slice(0, 40)}${s.length > 40 ? "…" : ""}"`);
+      tmap.set(s, await translate(s));
+    }
+    // Phase 3: re-run with a sync lookup translator, then write.
+    const { writes, manifest: sm } = runStructured(structured, stored, prevStruct, (s) => tmap.get(s) ?? s);
+    for (const [name, obj] of Object.entries(writes)) {
+      writeOut(resolve(base, "data", name), JSON.stringify(obj, null, 2) + "\n");
+    }
+    Object.assign(out.manifest, sm);
+    console.log(`translate [${loc.code}]: ${needed.size} structured unit(s) translated`);
     writeOut(resolve(base, "_translation-manifest.json"), JSON.stringify(out.manifest, null, 2) + "\n");
-    console.log(`translate [${loc.code}]: ${out.stale.length} unit(s) refreshed, ${PROSE_DOCS.length - out.stale.length} reused`);
+    console.log(`translate [${loc.code}]: ${out.stale.length} prose unit(s) refreshed, ${PROSE_DOCS.length - out.stale.length} reused`);
   }
 }
 
