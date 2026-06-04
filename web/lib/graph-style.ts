@@ -6,6 +6,7 @@ export const CATEGORY_COLORS: Record<string, string> = {
   legal: "#e5544b",
   transactional: "#d8862a",
   familial: "#2f9e63",
+  personal: "#e06aa8",
   "law-enforcement": "#22c3d6",
   corporate: "#6ea8fe",
   investigative: "#a779e6",

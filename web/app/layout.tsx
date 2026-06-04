@@ -46,6 +46,7 @@ const NAV = [
   { href: "/lawsuit", label: "Lawsuit" },
   { href: "/police", label: "Police" },
   { href: "/media", label: "Media" },
+  { href: "/media/community-sources", label: "Sources" },
   { href: "/disclaimer", label: "Disclaimer" },
 ];
 
