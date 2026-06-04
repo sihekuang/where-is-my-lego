@@ -33,7 +33,10 @@ CRITICAL — copy these through VERBATIM, unchanged and unmoved, translating onl
 Output ONLY the translation: no preamble, no quotation marks, no explanation, no added Markdown. Do NOT soften, strengthen, or adjudicate; add no facts.`,
 };
 
-const LANG = { "zh-Hans": "Simplified Chinese (简体中文, Mainland terminology)" };
+const LANG = {
+  "zh-Hans": "Simplified Chinese (简体中文, Mainland terminology)",
+  "es": "US Spanish (español de los Estados Unidos) — neutral Latin American Spanish as written for U.S. Hispanic audiences (Univision / AP Spanish style): use 'ustedes' (never 'vosotros'), Latin American vocabulary (e.g. 'computadora', not 'ordenador'); avoid Spain-specific terms",
+};
 
 export function makeTranslator(localeCode, mode = "document") {
   const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });

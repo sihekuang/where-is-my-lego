@@ -6,6 +6,7 @@ export const DEFAULT_LOCALE = "en";
 export const LOCALES = [
   { code: "en",      endonym: "English",  hreflang: "en",      ogLocale: "en_US", dir: "ltr", isCJK: false },
   { code: "zh-Hans", endonym: "简体中文", hreflang: "zh-Hans", ogLocale: "zh_CN", dir: "ltr", isCJK: true  },
+  { code: "es",      endonym: "Español",  hreflang: "es-US",   ogLocale: "es_US", dir: "ltr", isCJK: false },
 ];
 
 export const TARGET_LOCALES = LOCALES.filter((l) => l.code !== DEFAULT_LOCALE);

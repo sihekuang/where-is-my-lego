@@ -1,0 +1,450 @@
+{
+  "sections": [
+    {
+      "heading": "De referencia / enciclopédico",
+      "columns": [
+        "Fuente",
+        "Título",
+        "URL"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Wikipedia",
+            "Controversia de Bricks & Minifigs–Reckless Ben",
+            "https://en.wikipedia.org/wiki/Bricks_%26_Minifigs%E2%80%93Reckless_Ben_controversy"
+          ],
+          "plain": "Wikipedia • Controversia de Bricks & Minifigs–Reckless Ben • https://en.wikipedia.org/wiki/Bricks_%26_Minifigs%E2%80%93Reckless_Ben_controversy"
+        },
+        {
+          "cells": [
+            "Wikipedia",
+            "Ben el Temerario (biografía)",
+            "https://en.wikipedia.org/wiki/Reckless_Ben"
+          ],
+          "plain": "Wikipedia • Ben el Temerario (biografía) • https://en.wikipedia.org/wiki/Reckless_Ben"
+        },
+        {
+          "cells": [
+            "Wikipedia",
+            "Bricks & Minifigs (empresa)",
+            "https://en.wikipedia.org/wiki/Bricks_%26_Minifigs"
+          ],
+          "plain": "Wikipedia • Bricks & Minifigs (empresa) • https://en.wikipedia.org/wiki/Bricks_%26_Minifigs"
+        },
+        {
+          "cells": [
+            "Know Your Meme",
+            "Escándalo de robo de $200K de piezas de Lego en Bricks and Minifigs",
+            "https://knowyourmeme.com/memes/events/bricks-and-minifigs-200k-lego-heist-scandal"
+          ],
+          "plain": "Know Your Meme • Escándalo de robo de $200K de piezas de Lego en Bricks and Minifigs • https://knowyourmeme.com/memes/events/bricks-and-minifigs-200k-lego-heist-scandal"
+        }
+      ]
+    },
+    {
+      "heading": "Cobertura de noticias y medios",
+      "columns": [
+        "Medio de comunicación",
+        "Título",
+        "Fecha (aprox.)",
+        "URL"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Dexerto",
+            "Disputa por colección de Lego Star Wars de $200k desencadena demandas e investigación viral",
+            "finales de mayo de 2026",
+            "https://www.dexerto.com/youtube/dispute-over-200k-lego-star-wars-collection-triggers-lawsuits-and-viral-investigation-3367546/"
+          ],
+          "plain": "Dexerto • Disputa por colección de Lego Star Wars de $200k desencadena demandas e investigación viral • finales de mayo de 2026 • https://www.dexerto.com/youtube/dispute-over-200k-lego-star-wars-collection-triggers-lawsuits-and-viral-investigation-3367546/"
+        },
+        {
+          "cells": [
+            "Dexerto",
+            "Bricks & Minifigs demanda a Reckless Ben por la investigación viral de Lego Star Wars de $200,000",
+            "principios de junio de 2026",
+            "https://www.dexerto.com/youtube/bricks-minifigs-sues-reckless-ben-over-viral-200k-lego-star-wars-investigation-3370801/"
+          ],
+          "plain": "Dexerto • Bricks & Minifigs demanda a Reckless Ben por la investigación viral de Lego Star Wars de $200,000 • principios de junio de 2026 • https://www.dexerto.com/youtube/bricks-minifigs-sues-reckless-ben-over-viral-200k-lego-star-wars-investigation-3370801/"
+        },
+        {
+          "cells": [
+            "Dexerto",
+            "La policía responde tras el arresto de Reckless Ben durante una investigación de $200k",
+            "~31 de mayo–1 de jun de 2026",
+            "https://www.dexerto.com/youtube/police-respond-after-reckless-bens-arrest-during-200k-lego-star-wars-investigation-3369893/"
+          ],
+          "plain": "Dexerto • La policía responde tras el arresto de Reckless Ben durante una investigación de $200k • ~31 de mayo–1 de jun de 2026 • https://www.dexerto.com/youtube/police-respond-after-reckless-bens-arrest-during-200k-lego-star-wars-investigation-3369893/"
+        },
+        {
+          "cells": [
+            "Dexerto",
+            "Departamentos de policía en todo Utah inundados de llamadas furiosas por el arresto de Reckless Ben",
+            "principios de junio de 2026",
+            "https://www.dexerto.com/youtube/police-departments-across-utah-bombarded-with-angry-calls-over-reckless-ben-arrest-3370809/"
+          ],
+          "plain": "Dexerto • Departamentos de policía en todo Utah inundados de llamadas furiosas por el arresto de Reckless Ben • principios de junio de 2026 • https://www.dexerto.com/youtube/police-departments-across-utah-bombarded-with-angry-calls-over-reckless-ben-arrest-3370809/"
+        },
+        {
+          "cells": [
+            "ABC4 (Utah)",
+            "El conflicto por unos Legos supuestamente robados lleva a acusaciones de mala conducta contra AFPD",
+            "finales de mayo–jun 2026",
+            "https://www.abc4.com/news/local-news/conflict-stolen-legos-accusations-misconduct-american-fork-police/"
+          ],
+          "plain": "ABC4 (Utah) • El conflicto por unos Legos supuestamente robados lleva a acusaciones de mala conducta contra AFPD • finales de mayo–jun 2026 • https://www.abc4.com/news/local-news/conflict-stolen-legos-accusations-misconduct-american-fork-police/"
+        },
+        {
+          "cells": [
+            "Salt Lake Tribune",
+            "YouTuber arrestado en Utah en el escándalo de Bricks & Minifigs",
+            "2026-05-30",
+            "https://www.sltrib.com/news/2026/05/30/youtuber-arrested-utah-bricks/"
+          ],
+          "plain": "Salt Lake Tribune • YouTuber arrestado en Utah en el escándalo de Bricks & Minifigs • 2026-05-30 • https://www.sltrib.com/news/2026/05/30/youtuber-arrested-utah-bricks/"
+        },
+        {
+          "cells": [
+            "Ciudadano de American Fork",
+            "YouTuber arrestado dos veces por la policía de la Fuerza Aérea por una disputa sobre LEGO",
+            "2026-05-30",
+            "https://afcitizen.com/2026/05/30/youtuber-arrested-twice-by-af-police-over-lego-dispute/"
+          ],
+          "plain": "Ciudadano de American Fork • YouTuber arrestado dos veces por la policía de la Fuerza Aérea por una disputa sobre LEGO • 2026-05-30 • https://afcitizen.com/2026/05/30/youtuber-arrested-twice-by-af-police-over-lego-dispute/"
+        },
+        {
+          "cells": [
+            "Ciudadano de American Fork",
+            "El policía de American Fork se disculpa con el conductor después de que el video de la cámara del tablero se vuelve viral (asunto separado)",
+            "2026-06-01",
+            "https://afcitizen.com/2026/06/01/american-fork-cop-apologizes-to-driver-after-dash-cam-video-goes-viral/"
+          ],
+          "plain": "Ciudadano de American Fork • El policía de American Fork se disculpa con el conductor después de que el video de la cámara del tablero se vuelve viral (asunto separado) • 2026-06-01 • https://afcitizen.com/2026/06/01/american-fork-cop-apologizes-to-driver-after-dash-cam-video-goes-viral/"
+        },
+        {
+          "cells": [
+            "Yahoo / In Touch",
+            "El youtuber Reckless Ben termina en la cárcel por un drama de Lego de $200K…",
+            "~2026-06-02",
+            "https://www.yahoo.com/entertainment/celebrity/articles/youtuber-reckless-ben-lands-jail-234853326.html"
+          ],
+          "plain": "Yahoo / In Touch • El youtuber Reckless Ben termina en la cárcel por un drama de Lego de $200K… • ~2026-06-02 • https://www.yahoo.com/entertainment/celebrity/articles/youtuber-reckless-ben-lands-jail-234853326.html"
+        },
+        {
+          "cells": [
+            "NewsNation",
+            "Legos robados / acusaciones de mala conducta contra la policía de Utah",
+            "finales de mayo–jun 2026",
+            "https://www.newsnationnow.com/us-news/midwest/stolen-legos-accusations-misconduct-utah-police/"
+          ],
+          "plain": "NewsNation • Legos robados / acusaciones de mala conducta contra la policía de Utah • finales de mayo–jun 2026 • https://www.newsnationnow.com/us-news/midwest/stolen-legos-accusations-misconduct-utah-police/"
+        },
+        {
+          "cells": [
+            "The Express Tribune",
+            "Línea de tiempo completa de la disputa viral de LEGO",
+            "finales de mayo de 2026",
+            "https://tribune.com.pk/story/2610540/bricks-and-minifigs-and-reckless-ben-controversy-a-complete-timeline-of-the-viral-lego-dispute"
+          ],
+          "plain": "The Express Tribune • Línea de tiempo completa de la disputa viral de LEGO • finales de mayo de 2026 • https://tribune.com.pk/story/2610540/bricks-and-minifigs-and-reckless-ben-controversy-a-complete-timeline-of-the-viral-lego-dispute"
+        },
+        {
+          "cells": [
+            "The Express Tribune",
+            "La policía responde después de que una investigación de $200K se vuelve viral",
+            "Jun 2026",
+            "https://tribune.com.pk/story/2610707/police-respond-after-reckless-bens-200k-lego-star-wars-investigation-goes-viral"
+          ],
+          "plain": "The Express Tribune • La policía responde después de que una investigación de $200K se vuelve viral • Jun 2026 • https://tribune.com.pk/story/2610707/police-respond-after-reckless-bens-200k-lego-star-wars-investigation-goes-viral"
+        },
+        {
+          "cells": [
+            "The Express Tribune",
+            "Ben Temerario responde al comunicado policial",
+            "Jun 2026",
+            "https://tribune.com.pk/story/2610950/reckless-ben-responds-to-police-statement-in-viral-200k-lego-star-wars-investigation"
+          ],
+          "plain": "The Express Tribune • Ben Temerario responde al comunicado policial • Jun 2026 • https://tribune.com.pk/story/2610950/reckless-ben-responds-to-police-statement-in-viral-200k-lego-star-wars-investigation"
+        },
+        {
+          "cells": [
+            "The Express Tribune",
+            "Ben el Imprudente detalla arrestos en nuevo video",
+            "Jun 2026",
+            "https://tribune.com.pk/story/2610658/reckless-ben-details-arrests-in-new-video-about-bricks-and-minifigs-200k-lego-collection-dispute"
+          ],
+          "plain": "The Express Tribune • Ben el Imprudente detalla arrestos en nuevo video • Jun 2026 • https://tribune.com.pk/story/2610658/reckless-ben-details-arrests-in-new-video-about-bricks-and-minifigs-200k-lego-collection-dispute"
+        },
+        {
+          "cells": [
+            "The Express Tribune",
+            "El arresto de Reckless Ben genera escrutinio sobre la respuesta de la AFPD",
+            "Jun 2026",
+            "https://tribune.com.pk/story/2610852/reckless-ben-arrest-sparks-scrutiny-of-american-fork-police-response-in-bricks-and-minifigs-case"
+          ],
+          "plain": "The Express Tribune • El arresto de Reckless Ben genera escrutinio sobre la respuesta de la AFPD • Jun 2026 • https://tribune.com.pk/story/2610852/reckless-ben-arrest-sparks-scrutiny-of-american-fork-police-response-in-bricks-and-minifigs-case"
+        },
+        {
+          "cells": [
+            "The Express Tribune",
+            "La mala calificación de la AFPD genera nuevo escrutinio",
+            "Jun 2026",
+            "https://tribune.com.pk/story/2610885/american-fork-police-poor-rating-draws-fresh-scrutiny-amid-viral-lego-legal-battle"
+          ],
+          "plain": "The Express Tribune • La mala calificación de la AFPD genera nuevo escrutinio • Jun 2026 • https://tribune.com.pk/story/2610885/american-fork-police-poor-rating-draws-fresh-scrutiny-amid-viral-lego-legal-battle"
+        },
+        {
+          "cells": [
+            "The Express Tribune",
+            "¿Quién es Joshua Johnson? \"Mormon Mafia\" es tendencia",
+            "Jun 2026",
+            "https://tribune.com.pk/story/2610876/who-is-joshua-johnson-mormon-mafia-trends-as-bricks-minifigs-backlash-intensifies-over-reckless-ben"
+          ],
+          "plain": "The Express Tribune • ¿Quién es Joshua Johnson? \"Mormon Mafia\" es tendencia • Jun 2026 • https://tribune.com.pk/story/2610876/who-is-joshua-johnson-mormon-mafia-trends-as-bricks-minifigs-backlash-intensifies-over-reckless-ben"
+        },
+        {
+          "cells": [
+            "The Express Tribune",
+            "El CEO Ammon McNeff aborda una disputa de $200,000 en una extensa entrevista",
+            "Jun 2026",
+            "https://tribune.com.pk/story/2610668/bricks-and-minifigs-ceo-ammon-mcneff-addresses-200k-lego-dispute-in-lengthy-interview"
+          ],
+          "plain": "The Express Tribune • El CEO Ammon McNeff aborda una disputa de $200,000 en una extensa entrevista • Jun 2026 • https://tribune.com.pk/story/2610668/bricks-and-minifigs-ceo-ammon-mcneff-addresses-200k-lego-dispute-in-lengthy-interview"
+        },
+        {
+          "cells": [
+            "The Express Tribune",
+            "GoFundMe supera los $100K",
+            "~2026-05-31",
+            "https://tribune.com.pk/story/2610665/reckless-bens-gofundme-for-bryan-mansell-surpasses-100k-amid-ongoing-bricks-and-minifigs-dispute"
+          ],
+          "plain": "The Express Tribune • GoFundMe supera los $100K • ~2026-05-31 • https://tribune.com.pk/story/2610665/reckless-bens-gofundme-for-bryan-mansell-surpasses-100k-amid-ongoing-bricks-and-minifigs-dispute"
+        },
+        {
+          "cells": [
+            "The Express Tribune",
+            "Demandas y cierre de tiendas",
+            "finales de mayo de 2026",
+            "https://tribune.com.pk/story/2610001/200k-lego-star-wars-collection-dispute-triggers-lawsuits-and-store-shutdown"
+          ],
+          "plain": "The Express Tribune • Demandas y cierre de tiendas • finales de mayo de 2026 • https://tribune.com.pk/story/2610001/200k-lego-star-wars-collection-dispute-triggers-lawsuits-and-store-shutdown"
+        },
+        {
+          "cells": [
+            "The Express Tribune",
+            "Dentro de la batalla de LEGO de $200K (culto y amenazas legales)",
+            "finales de mayo de 2026",
+            "https://tribune.com.pk/story/2610289/inside-the-200k-lego-battle-reckless-ben-vs-bricks-and-minifigs-cult-and-legal-threats"
+          ],
+          "plain": "The Express Tribune • Dentro de la batalla de LEGO de $200K (culto y amenazas legales) • finales de mayo de 2026 • https://tribune.com.pk/story/2610289/inside-the-200k-lego-battle-reckless-ben-vs-bricks-and-minifigs-cult-and-legal-threats"
+        },
+        {
+          "cells": [
+            "Kotaku",
+            "YouTuber funda una secta y es objeto de un allanamiento policial…",
+            "finales de mayo de 2026",
+            "https://kotaku.com/youtuber-starts-a-cult-and-is-raided-by-police-in-attempt-to-recover-old-mans-star-wars-lego-collection-2000699026"
+          ],
+          "plain": "Kotaku • YouTuber funda una secta y es objeto de un allanamiento policial… • finales de mayo de 2026 • https://kotaku.com/youtuber-starts-a-cult-and-is-raided-by-police-in-attempt-to-recover-old-mans-star-wars-lego-collection-2000699026"
+        },
+        {
+          "cells": [
+            "Kotaku",
+            "YouTuber investigando colección robada de Lego Star Wars huye a México",
+            "Jun 2026",
+            "https://kotaku.com/star-wars-lego-collection-reckless-ben-bricks-minifigs-youtube-mormon-mafia-arrest-mexico-2000701091"
+          ],
+          "plain": "Kotaku • YouTuber investigando colección robada de Lego Star Wars huye a México • Jun 2026 • https://kotaku.com/star-wars-lego-collection-reckless-ben-bricks-minifigs-youtube-mormon-mafia-arrest-mexico-2000701091"
+        },
+        {
+          "cells": [
+            "UNILAD Tech",
+            "Ben el Imprudente huye del país tras su arresto",
+            "2026-06-02",
+            "https://www.uniladtech.com/news/tech-news/reckless-ben-flee-arrest-lego-star-wars-collection-336518-20260602"
+          ],
+          "plain": "UNILAD Tech • Ben el Imprudente huye del país tras su arresto • 2026-06-02 • https://www.uniladtech.com/news/tech-news/reckless-ben-flee-arrest-lego-star-wars-collection-336518-20260602"
+        },
+        {
+          "cells": [
+            "Primetimer",
+            "¿Quién es Ammon McNeff? El CEO de BAM es objeto de críticas",
+            "finales de mayo–jun 2026",
+            "https://www.primetimer.com/features/who-is-ammon-mcneff-bricks-and-minifigs-ceo-comes-under-fire-as-reckless-ben-patreon-lego-controversy-intensifies"
+          ],
+          "plain": "Primetimer • ¿Quién es Ammon McNeff? El CEO de BAM es objeto de críticas • finales de mayo–jun 2026 • https://www.primetimer.com/features/who-is-ammon-mcneff-bricks-and-minifigs-ceo-comes-under-fire-as-reckless-ben-patreon-lego-controversy-intensifies"
+        },
+        {
+          "cells": [
+            "Primetimer",
+            "\"Cero participación en este asunto\": agencias de Utah niegan su participación",
+            "Jun 2026",
+            "https://www.primetimer.com/news/zero-involvement-in-this-matter-american-fork-police-department-bricks-minifigs-scandal-prompts-utah-agencies-to-deny-involvement-amid-barrage-of-inquiries"
+          ],
+          "plain": "Primetimer • \"Cero participación en este asunto\": agencias de Utah niegan su participación • Jun 2026 • https://www.primetimer.com/news/zero-involvement-in-this-matter-american-fork-police-department-bricks-minifigs-scandal-prompts-utah-agencies-to-deny-involvement-amid-barrage-of-inquiries"
+        },
+        {
+          "cells": [
+            "Primetimer",
+            "Los internautas critican a la AFPD por ser \"sumamente corrupta\" y \"parcial\"",
+            "Jun 2026",
+            "https://www.primetimer.com/news/american-fork-police-department-slammed-as-wildly-corrupt-and-biased-as-video-of-bricks-minifigs-youtuber-ben-schneider-s-arrest-goes-viral"
+          ],
+          "plain": "Primetimer • Los internautas critican a la AFPD por ser \"sumamente corrupta\" y \"parcial\" • Jun 2026 • https://www.primetimer.com/news/american-fork-police-department-slammed-as-wildly-corrupt-and-biased-as-video-of-bricks-minifigs-youtuber-ben-schneider-s-arrest-goes-viral"
+        },
+        {
+          "cells": [
+            "Primetimer",
+            "¿Cuál es el escándalo de Bricks and Minifigs (explicación / GoFundMe)?",
+            "finales de mayo de 2026",
+            "https://www.primetimer.com/features/what-is-the-bricks-and-minifigs-lego-scam-scandal-entire-200-000-lawsuit-controversy-explained-as-reckless-ben-gofundme-raises-more-than-10k"
+          ],
+          "plain": "Primetimer • ¿Cuál es el escándalo de Bricks and Minifigs (explicación / GoFundMe)? • finales de mayo de 2026 • https://www.primetimer.com/features/what-is-the-bricks-and-minifigs-lego-scam-scandal-entire-200-000-lawsuit-controversy-explained-as-reckless-ben-gofundme-raises-more-than-10k"
+        },
+        {
+          "cells": [
+            "Soap Central",
+            "¿Cuáles son las alegaciones en contra de Bricks and Minifigs?",
+            "finales de mayo–jun 2026",
+            "https://www.soapcentral.com/entertainment/what-bricks-minifigs-allegations-company-defend-reckless-ben-s-gofundme-goes-viral-amid-backlash"
+          ],
+          "plain": "Soap Central • ¿Cuáles son las alegaciones en contra de Bricks and Minifigs? • finales de mayo–jun 2026 • https://www.soapcentral.com/entertainment/what-bricks-minifigs-allegations-company-defend-reckless-ben-s-gofundme-goes-viral-amid-backlash"
+        },
+        {
+          "cells": [
+            "Brick Fanatics",
+            "Disputa de $200,000 por LEGO se vuelve viral tras investigación en YouTube",
+            "finales de mayo de 2026",
+            "https://www.brickfanatics.com/bricks-and-minifigs-dispute-200k-lego-collection"
+          ],
+          "plain": "Brick Fanatics • Disputa de $200,000 por LEGO se vuelve viral tras investigación en YouTube • finales de mayo de 2026 • https://www.brickfanatics.com/bricks-and-minifigs-dispute-200k-lego-collection"
+        },
+        {
+          "cells": [
+            "Brick Fanatics",
+            "Bricks & Minifigs emite respuesta ante disputa con LEGO",
+            "finales de mayo de 2026",
+            "https://www.brickfanatics.com/bricks-minifigs-issue-statement-lego-dispute"
+          ],
+          "plain": "Brick Fanatics • Bricks & Minifigs emite respuesta ante disputa con LEGO • finales de mayo de 2026 • https://www.brickfanatics.com/bricks-minifigs-issue-statement-lego-dispute"
+        },
+        {
+          "cells": [
+            "Salem Business Journal",
+            "Disputa de LEGO de Keizer / colección de Star Wars",
+            "2026-03-30",
+            "https://salembusinessjournal.org/2026/03/30/keizer-lego-dispute-star-wars-collection/"
+          ],
+          "plain": "Salem Business Journal • Disputa de LEGO de Keizer / colección de Star Wars • 2026-03-30 • https://salembusinessjournal.org/2026/03/30/keizer-lego-dispute-star-wars-collection/"
+        },
+        {
+          "cells": [
+            "Geeks + Gamers",
+            "Reckless Ben vs. Bricks & Minifigs: disputa de $200K explicada",
+            "finales de mayo–jun 2026",
+            "https://geeksandgamers.com/reckless-ben-vs-bricks-minifigs-200k-star-wars-lego-collection-dispute-explained/"
+          ],
+          "plain": "Geeks + Gamers • Reckless Ben vs. Bricks & Minifigs: disputa de $200K explicada • finales de mayo–jun 2026 • https://geeksandgamers.com/reckless-ben-vs-bricks-minifigs-200k-star-wars-lego-collection-dispute-explained/"
+        },
+        {
+          "cells": [
+            "Manual Mundial (Reino Unido)",
+            "La policía emite respuesta tras la investigación viral del \"robo\" de LEGO por $200,000",
+            "2026-06-02",
+            "https://worldmanual.co.uk/2026/06/02/police-issue-response-after-youtubers-200000-lego-star-wars-theft-investigation-goes-viral-and-leads-to-his-arrest/"
+          ],
+          "plain": "Manual Mundial (Reino Unido) • La policía emite respuesta tras la investigación viral del \"robo\" de LEGO por $200,000 • 2026-06-02 • https://worldmanual.co.uk/2026/06/02/police-issue-response-after-youtubers-200000-lego-star-wars-theft-investigation-goes-viral-and-leads-to-his-arrest/"
+        },
+        {
+          "cells": [
+            "Sportskeeda",
+            "Línea de tiempo de la controversia de Reckless Ben–Bricks & Minifigs explicada",
+            "finales de mayo–jun 2026",
+            "https://www.sportskeeda.com/us/streamers/reckless-ben-bricks-minifigs-200k-lego-collection-controversy-timeline-events-explained"
+          ],
+          "plain": "Sportskeeda • Línea de tiempo de la controversia de Reckless Ben–Bricks & Minifigs explicada • finales de mayo–jun 2026 • https://www.sportskeeda.com/us/streamers/reckless-ben-bricks-minifigs-200k-lego-collection-controversy-timeline-events-explained"
+        },
+        {
+          "cells": [
+            "GlobeNewswire",
+            "BAM emite un comunicado público exhaustivo (comunicado de prensa)",
+            "2026-06-01",
+            "https://www.globenewswire.com/news-release/2026/06/01/3304463/0/en/Bricks-Minifigs-Issues-Comprehensive-Public-Statement-on-Salem-Oregon-Dispute-Reaffirms-Offer-to-Help-Mansell-Family.html"
+          ],
+          "plain": "GlobeNewswire • BAM emite un comunicado público exhaustivo (comunicado de prensa) • 2026-06-01 • https://www.globenewswire.com/news-release/2026/06/01/3304463/0/en/Bricks-Minifigs-Issues-Comprehensive-Public-Statement-on-Salem-Oregon-Dispute-Reaffirms-Offer-to-Help-Mansell-Family.html"
+        },
+        {
+          "cells": [
+            "KSL.com",
+            "Videos virales alegan robo costoso de Lego. Así es como la policía de Utah entró en la conversación",
+            "2026-06-02",
+            "https://www.ksl.com/article/51505848/viral-videos-allege-pricey-lego-theft-heres-how-utah-police-entered-the-conversation"
+          ],
+          "plain": "KSL.com • Videos virales alegan robo costoso de Lego. Así es como la policía de Utah entró en la conversación • 2026-06-02 • https://www.ksl.com/article/51505848/viral-videos-allege-pricey-lego-theft-heres-how-utah-police-entered-the-conversation"
+        },
+        {
+          "cells": [
+            "East Idaho News",
+            "Videos virales alegan costosos robos de Lego… (sindicación de la pieza de KSL)",
+            "2026-06-03",
+            "https://www.eastidahonews.com/2026/06/viral-videos-allege-pricey-lego-theft-heres-how-utah-police-entered-the-conversation/"
+          ],
+          "plain": "East Idaho News • Videos virales alegan costosos robos de Lego… (sindicación de la pieza de KSL) • 2026-06-03 • https://www.eastidahonews.com/2026/06/viral-videos-allege-pricey-lego-theft-heres-how-utah-police-entered-the-conversation/"
+        },
+        {
+          "cells": [
+            "Techdirt",
+            "Todos en esta disputa de LEGO deberían haber hablado con un abogado antes de lo que lo hicieron",
+            "2026-06-02",
+            "https://www.techdirt.com/2026/06/02/everyone-in-this-lego-dispute-should-have-spoken-to-a-lawyer-earlier-than-they-did/"
+          ],
+          "plain": "Techdirt • Todos en esta disputa de LEGO deberían haber hablado con un abogado antes de lo que lo hicieron • 2026-06-02 • https://www.techdirt.com/2026/06/02/everyone-in-this-lego-dispute-should-have-spoken-to-a-lawyer-earlier-than-they-did/"
+        }
+      ]
+    },
+    {
+      "heading": "Foro / discusión comunitaria",
+      "columns": [
+        "Fuente",
+        "Título",
+        "URL"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "ResetEra",
+            "[LegoDrama] La situación de The Reckless Ben vs Bricks and Minifigs está loca",
+            "https://www.resetera.com/threads/legodrama-the-reckless-ben-vs-bricks-and-minifigs-situation-is-crazy.1532551/"
+          ],
+          "plain": "ResetEra • [LegoDrama] La situación de The Reckless Ben vs Bricks and Minifigs está loca • https://www.resetera.com/threads/legodrama-the-reckless-ben-vs-bricks-and-minifigs-situation-is-crazy.1532551/"
+        },
+        {
+          "cells": [
+            "ResetEra",
+            "(mismo hilo) Página 2",
+            "https://www.resetera.com/threads/legodrama-the-reckless-ben-vs-bricks-and-minifigs-situation-is-crazy.1532551/page-2"
+          ],
+          "plain": "ResetEra • (mismo hilo) Página 2 • https://www.resetera.com/threads/legodrama-the-reckless-ben-vs-bricks-and-minifigs-situation-is-crazy.1532551/page-2"
+        },
+        {
+          "cells": [
+            "ResetEra",
+            "(mismo hilo) Página 3",
+            "https://www.resetera.com/threads/legodrama-the-reckless-ben-vs-bricks-and-minifigs-situation-is-crazy.1532551/page-3"
+          ],
+          "plain": "ResetEra • (mismo hilo) Página 3 • https://www.resetera.com/threads/legodrama-the-reckless-ben-vs-bricks-and-minifigs-situation-is-crazy.1532551/page-3"
+        },
+        {
+          "cells": [
+            "ResetEra",
+            "El CEO de Patreon responde a la solicitud legal de BAM para eliminar la cuenta de Reckless Ben",
+            "https://www.resetera.com/threads/ceo-of-patreon-responds-to-bricks-and-minifigs-legal-request-to-take-down-the-account-of-reckless-ben.1537762/"
+          ],
+          "plain": "ResetEra • El CEO de Patreon responde a la solicitud legal de BAM para eliminar la cuenta de Reckless Ben • https://www.resetera.com/threads/ceo-of-patreon-responds-to-bricks-and-minifigs-legal-request-to-take-down-the-account-of-reckless-ben.1537762/"
+        }
+      ]
+    }
+  ]
+}
