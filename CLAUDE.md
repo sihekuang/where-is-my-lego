@@ -106,6 +106,29 @@ pnpm test     # runs derive-data.test + og-image.test + check-ui.test
 
 ## Sourcing & labeling conventions (content)
 
+### Two-agent independent verification (required)
+
+**No source-backed claim is added or its status raised on a single agent's say-so.** Sourcing must be
+done by **at least two agents verifying the sources independently**:
+
+- **Agent A (author)** adds or edits the claim, cites the source(s), and proposes a status.
+- **Agent B (verifier)** independently re-opens *each cited source* and confirms it actually supports
+  the claim as written — without relying on Agent A's summary. B works from the primary citation, not
+  from A's notes.
+- A claim is only labeled **CONFIRMED** when **both** agents independently reach it from the cited
+  evidence. If they disagree, or B cannot independently corroborate, the claim is downgraded to
+  `ALLEGATION` or `Reported` and the disagreement is flagged inline (the "⚠" marker).
+- `CONFIRMED` still requires the underlying standard below (court records, agency statements, or
+  **multiple independent outlets**) — two agents agreeing on one weak source is not enough; the
+  second agent's job is to test the source, not to rubber-stamp the author.
+- Record who verified what in the PR/commit description (e.g. "verified by <agent B> against
+  Salt Lake Tribune + American Fork Citizen") so the chain is auditable.
+
+This is a guardrail against a single agent hallucinating or over-reading a source — the failure mode
+that would most damage the archive's credibility.
+
+### Status & attribution
+
 - Each substantive timeline/claim carries a **Status**: `CONFIRMED` (court records, agency
   statements, or multiple independent outlets), `ALLEGATION` (a contested contention by one side,
   not adjudicated), or `Reported` (single/secondary sourcing). The derive step classifies status by
