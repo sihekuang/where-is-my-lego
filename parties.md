@@ -83,6 +83,18 @@ incoming operators (Johnson / Best).
 > against the source documents before relying on them. Only **official-capacity** identifications are
 > recorded; no personal information is included.
 
+## Background entities (not parties to the suit)
+
+These appear in the relationship graph because public records tie them to the dispute, but they
+are **not parties** to the Utah LEGO suit. Names and business roles only — no PII.
+
+| Name | Public role | Notes | Source(s) |
+|---|---|---|---|
+| **Legally Mine, LLC** | Utah asset-protection firm; **not a party to the suit**. Holds 450,000 BAM Franchising shares (pledged as collateral). | Ammon & Matt McNeff held President / VP-Marketing roles (2011–2020, per the FDD); **Daniel McNeff** is its sole member/manager. | [BAM FDD Item 2](./media/community-sources.md) · [Utah UCC-11](./media/community-sources.md) · [Ohio UPL order](./media/community-sources.md) |
+| **Daniel McNeff** | Legally Mine's sole member/manager; **not a party to the LEGO suit**. | Co-debtor (with Legally Mine) owing Ammon & Matt McNeff ~$1,728,000 per a 2021 settlement/note; UPL respondent (Ohio Sup. Ct. 2025-0037). | [Ohio UPL order](./media/community-sources.md) · [Utah UCC-11](./media/community-sources.md) · [McNeff v. McNeff (D. Utah)](./media/community-sources.md) |
+| **John Masek** | Secured creditor of Legally Mine; **not a party to the suit**. | Holds a security interest in Legally Mine's 450k BAM Franchising shares (2020 UCC-1). | [Utah UCC-11](./media/community-sources.md) |
+| **David Ortiz** | Secured creditor of Legally Mine; also a BAM "franchise seller"; **not a party to the suit**. | Co-secured-party (with Masek) on Legally Mine's 450k BAM shares; listed in BAM's FDD franchise-seller list. | [Utah UCC-11](./media/community-sources.md) · [BAM FDD](./media/community-sources.md) |
+
 ## Litigation alignment at a glance
 
 - **Plaintiffs (Utah suit):** BAM Franchising, Ammon McNeff, Matthew McNeff, Josh Johnson, Brandon
