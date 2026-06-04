@@ -5,7 +5,8 @@ filings, public records, official statements, and video coverage. The aim is to 
 material people point to (much of the reporting elsewhere leans on *secondary* sources) so it can be
 cited directly. This catalog is meant to **grow**: new sources can be added under the sections below, and
 their origin recorded in *Where these came from*. **Linked, not re-hosted** (copyright + no network
-egress at compile time). Last reviewed **2026-06-03**.
+egress at compile time). Last reviewed **2026-06-03**; **Reddit + YouTube follow-up pass 2026-06-04**
+(see [*2026-06-04 update*](#2026-06-04-update--reddit--youtube-follow-up-pass) near the end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -133,6 +134,35 @@ The full, categorized list lives in the **Video Coverage megathread** (linked ab
 | Patreon CEO — take-down notification | https://www.youtube.com/watch?v=36jxNeV5L1Q | Patreon's response to BAM's takedown request. |
 | American Fork City — official YouTube channel | https://youtube.com/@americanforkcity | Municipal channel (council meetings, releases). |
 
+### Added 2026-06-04 (from the Video Coverage megathread + direct channel check)
+
+Primary uploads/appearances that the 2026-06-03 sweep left in the linked index but that belong in the
+catalog. ✅ = independently confirmed live on the source channel on 2026-06-04; ⚠ = community-sourced
+**lead**, link not yet independently opened (verify before any promotion). Several of Ben's own uploads
+are now also in [`primary-sources.md`](./primary-sources.md).
+
+| Item | URL | Note |
+|---|---|---|
+| Ben — "I got arrested because of legos" (Part 2) | https://www.youtube.com/watch?v=cxZPfj8AlmY | ✅ His follow-up on the two arrests (~3.4M views). |
+| Ben — "My response to the Police" | https://www.youtube.com/watch?v=2YEzhDn0jY8 | ✅ Reply to the AFPD media release (~2.7M views). |
+| Ben — "All the footage is released!" | https://www.youtube.com/watch?v=Ih2XwNN0aVY | ✅ **Newest upload (2026-06-04)**; ties to the unredacted-footage development below. ~640K views in ~4 hrs. |
+| Ben — Response to PR Statement | https://www.youtube.com/watch?v=bWg2bnAqW6k | ⚠ Ben's reply to BAM's first PR statement. |
+| Ben — "Bricks and Minifigs CEO promises to answer all my questions" | https://www.youtube.com/watch?v=NAh9eh3KjrU | ⚠ The megathread files this as Ben's "live reaction to the ACOB CEO interview," but the actual title reads as pre-interview framing — verify which before promotion. |
+| ACOB — "Reckless Ben Immediately Responds to Bricks & Minifigs CEO Interview" | https://www.youtube.com/watch?v=UJjEk0L-dXs | ⚠ An **ACOB-channel** response upload (not a second Ben sit-down, as the megathread's "ACOB - Second Interview" label implied); Ben's first ACOB appearance is `K-lc6XWV3ms`. |
+| **ABC4 Utah** — police-misconduct-allegations segments | https://www.youtube.com/watch?v=-EzqSdcgoZs · https://www.youtube.com/watch?v=SgjjyoG1i2k | ⚠ Primary **local-news video** (the on-air ABC4 reporting cited in `../media/news-articles.md`). |
+
+> **Legal-analysis cluster (secondary, but higher quality than influencer reactions).** The megathread
+> now indexes attorney/legal-commentary channels worth a single pointer rather than re-enumeration:
+> **Lawful Masses w/ Leonard French** (`14ktgvoH4Mc`, `imD2U3kCZTA`, `c7cOeDEIWVo`), **Legal Mindset**
+> ("A Lawyer Explains the Reckless Ben Lawsuit," `5H714qko9aY` — ✅ ~280K views, posted ~2026-06-03), and
+> **LUS** (multi-part). These are *commentary*, not record; weight the filings (§1) over any of them.
+
+> **Channel-growth note (verifiable, neutral).** As of 2026-06-04 Ben's channel `@RecklessBen` shows
+> **~1.09M subscribers / 170 videos**; the community flagged the 1M milestone (r/RecklessBen "He hit 1M
+> subs"). The official **AFPD** channel `@AmericanForkPoliceDepartment` currently lists **one** public
+> video (the May 29 media release, `IcVmSQpIPRY`); whether earlier uploads were removed or never existed
+> is **not** established — do not assert a "scrub."
+
 ## 7. Backups & mirrors
 
 Because material keeps getting taken down, the community maintains full backups.
@@ -151,6 +181,20 @@ Because material keeps getting taken down, the community maintains full backups.
   *"we don't have any word on whether it was released intentionally or leaked. It also contains personally
   identifiable information which counts as doxxing."* This archive should likewise cite only the
   **officially released** AFPD footage (§2), not the unredacted leak.
+- **The 2026-06-03/04 "mostly unredacted" body-/dash-cam tranche.** Around **2026-06-03** a much larger set
+  of AFPD body-cam and dash-cam files (community counts of *~33–56 videos / ~27 hours*) became public;
+  per the r/RecklessBen "Resource" post, AFPD **posted a new Dropbox folder of unredacted files that was
+  taken down shortly after**, and community members re-uploaded the copies to Internet Archive and other
+  mirrors (e.g. `ben.kahn.studio`). r/RecklessBen's "new" feed filled with clips from it on 2026-06-04, and
+  Ben's 2026-06-04 video ["All the footage is released!"](https://www.youtube.com/watch?v=Ih2XwNN0aVY)
+  references the same release. **Provenance is contested** — briefly/inadvertently released vs. leaked, and
+  a separate community claim that Ben said the department was *"hacked"* is itself disputed by other
+  redditors. A reupload such as *"FULL BODYCAM…"* (`5zPRvOrmyiE`, channel **TechHeart**, billed *"NEWLY
+  LEAKED"*) falls in the same bucket. **Excluded for the same reason as above: unredacted, PII-bearing, and
+  provenance unconfirmed.** The mirror links are deliberately *not* enumerated here; cite only the **May 29
+  officially-released, redacted** AFPD footage (§2). The *event* may be noted neutrally in the narrative, but
+  the **claims inside** the clips (e.g. officer/Airbnb-owner coordination, "fake process server") are
+  **unverified ALLEGATIONS** until checked against the official record.
 
 ## Advocacy / action links (NOT sources — out of scope)
 
@@ -178,3 +222,37 @@ Change.org petition.
 > **Captured 2026-06-03** from r/RecklessBen. When promoting any item into the main archive pages, record
 > its provenance and retrieval date, prefer the **official** record over a community mirror where one
 > exists, and keep the neutral, allegation-vs-confirmed framing used elsewhere in this repo.
+
+---
+
+## 2026-06-04 update — Reddit + YouTube follow-up pass
+
+A targeted pass over **r/RecklessBen** (new/top-of-day) and **YouTube** (Ben's channel + date-sorted
+search), checking for anything published or surfaced after the 2026-06-03 sweep. Retrieved **2026-06-04**.
+
+**State of the maintained indexes.** The **Compilation of all resources** megathread's edit log still
+ends at **06-03** — no new *official* documents added since the sweep, so §§1–5 above remain current. The
+**Video Coverage** megathread is richer than the 06-03 sweep pulled in; the genuinely-new **primary**
+items from it are now folded into §6 ("Added 2026-06-04").
+
+**Genuinely new since 06-03:**
+
+| # | Item | Where | Disposition |
+|---|---|---|---|
+| 1 | Ben — **"All the footage is released!"** (`Ih2XwNN0aVY`, **2026-06-04**) | YouTube `@RecklessBen` | ✅ Added to §6 + `primary-sources.md`. |
+| 2 | Ben — "My response to the Police" (`2YEzhDn0jY8`) and "I got arrested because of legos" (`cxZPfj8AlmY`) | YouTube `@RecklessBen` | ✅ Added to §6 + `primary-sources.md`. |
+| 3 | **ABC4 Utah** on-air segments; Ben's ACOB-2 / PR-response / CEO-reaction uploads; legal-analysis cluster (Lawful Masses, Legal Mindset, LUS) | Video Coverage megathread | Added to §6 as ⚠ leads (verify before promotion). |
+| 4 | **(Mostly) unredacted AFPD body-/dash-cam tranche** (~06-03/04) + reuploads/clips | r/RecklessBen "Resource" post, archive.org/`ben.kahn.studio` mirrors, `v.redd.it` clips, TechHeart YT reupload | **Excluded** (PII/doxxing + contested provenance) — see *Excluded by archive policy*. |
+| 5 | Ben's channel crossed **~1M subscribers**; AFPD YT channel shows **1 video** | direct check | Noted as verifiable channel-growth facts in §6 (no "scrub" asserted). |
+
+**Deliberately not cataloged** (consistent with the archive's scope): the day's large volume of
+r/RecklessBen **memes, opinion/speculation threads, and editorialized body-cam clips**; an
+**`ilocalize.com`** "Mormon Psychology" link that looks like an SEO/scraper content-farm; and the
+**giglio-bradylist.com** "AFPD added to the Brady list" post — a **third-party aggregator, not an official
+prosecutorial list**, which redditors note appears partly **populated by this very controversy** (circular;
+fails the CONFIRMED bar). Recorded here only so the exclusions are auditable.
+
+> **Verification status.** This was a **single-agent** research pass. Items marked ✅ were confirmed live on
+> the source channel; ⚠ items are community-sourced leads. Per the repo's two-agent rule, a second agent
+> should independently confirm each cited source before any of these is promoted into `timeline.md` /
+> `parties.md` or relabeled **CONFIRMED**.
