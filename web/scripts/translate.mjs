@@ -6,6 +6,7 @@ import { createHash } from "node:crypto";
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { TARGET_LOCALES } from "../lib/locales.mjs";
 
 const SCRIPT_DIR = dirname(fileURLToPath(import.meta.url));
 const WEB = resolve(SCRIPT_DIR, "..");
@@ -56,4 +57,79 @@ export function seedProse(sources, stored, translate, prev = {}) {
     }
   }
   return { files, manifest, stale };
+}
+
+function readIfExists(p) { return existsSync(p) ? readFileSync(p, "utf8") : null; }
+function readJson(p) { const s = readIfExists(p); return s ? JSON.parse(s) : null; }
+function writeOut(p, s) { mkdirSync(dirname(p), { recursive: true }); writeFileSync(p, s); }
+
+function loadSources() {
+  const sources = {};
+  for (const name of PROSE_DOCS) {
+    sources[name] = readFileSync(resolve(GEN, "content", name), "utf8");
+  }
+  return sources;
+}
+
+// Current source manifest (what the English source hashes to right now).
+function currentManifest(sources) {
+  const m = {};
+  for (const [name, src] of Object.entries(sources)) m[`prose:${name}`] = hashProse(src);
+  return m;
+}
+
+async function runCheck() {
+  const sources = loadSources();
+  const current = currentManifest(sources);
+  let totalStale = 0;
+  for (const loc of TARGET_LOCALES) {
+    const stored = readJson(resolve(I18N, loc.code, "_translation-manifest.json")) ?? {};
+    const stale = diffManifest(current, stored);
+    if (stale.length) {
+      totalStale += stale.length;
+      console.warn(`translate:check [${loc.code}] ${stale.length} stale/missing unit(s): ${stale.join(", ")}`);
+    }
+  }
+  if (totalStale === 0) console.log("translate:check: all locales up to date");
+  else console.warn(`translate:check: ${totalStale} stale unit(s). Run "pnpm translate" to refresh. (non-fatal)`);
+  if (process.argv.includes("--strict") && totalStale > 0) process.exit(1);
+}
+
+async function runSeed() {
+  const { makeTranslator } = await import("../lib/translate-anthropic.mjs");
+  const sources = loadSources();
+  for (const loc of TARGET_LOCALES) {
+    const base = resolve(I18N, loc.code);
+    const stored = readJson(resolve(base, "_translation-manifest.json")) ?? {};
+    const prev = {};
+    for (const name of PROSE_DOCS) {
+      const p = readIfExists(resolve(base, "content", name));
+      if (p != null) prev[name] = p;
+    }
+    const translate = makeTranslator(loc.code);
+    // seedProse is sync over an async translate; resolve sequentially to respect rate limits.
+    const out = { files: {}, manifest: {}, stale: [] };
+    for (const [name, src] of Object.entries(sources)) {
+      const key = `prose:${name}`;
+      const h = hashProse(src);
+      out.manifest[key] = h;
+      if (stored[key] === h && prev[name] != null) {
+        out.files[name] = prev[name];
+      } else {
+        console.log(`translate [${loc.code}] ${name} …`);
+        out.files[name] = await translate(src);
+        out.stale.push(key);
+      }
+    }
+    for (const [name, body] of Object.entries(out.files)) writeOut(resolve(base, "content", name), body);
+    writeOut(resolve(base, "_translation-manifest.json"), JSON.stringify(out.manifest, null, 2) + "\n");
+    console.log(`translate [${loc.code}]: ${out.stale.length} unit(s) refreshed, ${PROSE_DOCS.length - out.stale.length} reused`);
+  }
+}
+
+const invokedDirectly = process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+if (invokedDirectly) {
+  (process.argv.includes("--check") ? runCheck() : runSeed()).catch((e) => {
+    console.error(e); process.exit(1);
+  });
 }
