@@ -59,3 +59,41 @@ import { seedProse, PROSE_DOCS } from "./translate.mjs";
 }
 assert.ok(PROSE_DOCS.includes("home.md"), "home.md is a known prose doc");
 console.log("translate: prose seeding assertions passed");
+
+import { extractSectioned, extractTimeline, extractGraph } from "./translate.mjs";
+
+{
+  const canonical = {
+    sections: [{
+      heading: "H", columns: ["Date", "Event"],
+      rows: [
+        { cells: ["Nov 22, 2023", "Consigned **collection**"], plain: "x", status: undefined },
+        { cells: ["Late 2024", "Repossessed"], plain: "y" },
+      ],
+    }],
+  };
+  const fake = (t) => `Z<${t}>`;
+  const { translated, manifest } = extractSectioned("parties.json", canonical, {}, fake);
+  assert.equal(translated.sections[0].columns[0], "Z<Date>", "columns translated");
+  assert.equal(translated.sections[0].rows[0].cells[1], "Z<Consigned **collection**>", "cell translated");
+  assert.equal(translated.sections[0].rows[0].plain, "Z<Nov 22, 2023> • Z<Consigned **collection**>", "plain recomputed from translated cells");
+  assert.ok(manifest["row:parties.json:0:0"], "row hash recorded");
+  assert.ok(manifest["cols:parties.json:0"], "columns hash recorded");
+}
+
+{
+  const graph = {
+    nodes: [{ id: "ben", label: "Reckless Ben", type: "person", side: "defendant", ini: "RB", role: "YouTuber", statement: "q" }],
+    edges: [{ source: "ben", target: "ben", label: "self", category: "corporate", direction: "none", status: "CONFIRMED", note: "n" }],
+  };
+  const fake = (t) => `Z<${t}>`;
+  const { translated } = extractGraph(graph, {}, fake);
+  assert.equal(translated.nodes[0].label, "Z<Reckless Ben>", "node label translated");
+  assert.equal(translated.nodes[0].role, "Z<YouTuber>", "node role translated");
+  assert.equal(translated.edges[0].label, "Z<self>", "edge label translated");
+  assert.equal(translated.edges[0].note, "Z<n>", "edge note translated");
+  // No canonical fields leak into the translation file:
+  assert.equal(translated.nodes[0].type, undefined, "node type NOT in translation file");
+  assert.equal(translated.edges[0].category, undefined, "edge category NOT in translation file");
+}
+console.log("translate: structured extraction assertions passed");

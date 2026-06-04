@@ -127,6 +127,71 @@ async function runSeed() {
   }
 }
 
+const reuseOr = (key, stored, h, prevVal, translate, src) =>
+  (stored[key] === h && prevVal != null) ? prevVal : translate(src);
+
+export function extractSectioned(file, canonical, stored, translate, prev = null) {
+  const manifest = {};
+  const sections = canonical.sections.map((s, si) => {
+    const colKey = `cols:${file}:${si}`;
+    manifest[colKey] = hashColumns(s.columns);
+    const pCols = prev?.sections?.[si]?.columns ?? null;
+    const columns = s.columns.map((c, ci) =>
+      reuseOr(colKey, stored, manifest[colKey], pCols?.[ci], translate, c));
+    const rows = s.rows.map((r, ri) => {
+      const rowKey = `row:${file}:${si}:${ri}`;
+      manifest[rowKey] = hashRow(r.cells);
+      const pCells = prev?.sections?.[si]?.rows?.[ri]?.cells ?? null;
+      const cells = r.cells.map((cell, ci) =>
+        reuseOr(rowKey, stored, manifest[rowKey], pCells?.[ci], translate, cell));
+      return { cells, plain: cells.join(" • ") };
+    });
+    return { heading: s.heading, columns, rows };
+  });
+  return { translated: { sections }, manifest };
+}
+
+export function extractTimeline(canonical, stored, translate, prev = null) {
+  const file = "timeline.json";
+  const manifest = {};
+  const colKey = `cols:${file}:0`;
+  manifest[colKey] = hashColumns(canonical.columns);
+  const columns = canonical.columns.map((c, ci) =>
+    reuseOr(colKey, stored, manifest[colKey], prev?.columns?.[ci], translate, c));
+  const rows = canonical.rows.map((r, ri) => {
+    const rowKey = `row:${file}:0:${ri}`;
+    manifest[rowKey] = hashRow(r.cells);
+    const pCells = prev?.rows?.[ri]?.cells ?? null;
+    const cells = r.cells.map((cell, ci) =>
+      reuseOr(rowKey, stored, manifest[rowKey], pCells?.[ci], translate, cell));
+    return { cells, plain: cells.join(" • ") };
+  });
+  return { translated: { columns, rows }, manifest };
+}
+
+export function extractGraph(canonical, stored, translate, prev = null) {
+  const manifest = {};
+  const prevNodes = new Map((prev?.nodes ?? []).map((n) => [n.id, n]));
+  const nodes = canonical.nodes.map((n) => {
+    const key = `node:${n.id}`;
+    manifest[key] = hashNode(n);
+    const p = prevNodes.get(n.id);
+    const out = { id: n.id, label: reuseOr(key, stored, manifest[key], p?.label, translate, n.label) };
+    if (n.role) out.role = reuseOr(key, stored, manifest[key], p?.role, translate, n.role);
+    if (n.statement) out.statement = reuseOr(key, stored, manifest[key], p?.statement, translate, n.statement);
+    return out;
+  });
+  const edges = canonical.edges.map((e, i) => {
+    const key = `edge:${i}`;
+    manifest[key] = hashEdge(e);
+    const p = prev?.edges?.[i] ?? null;
+    const out = { label: reuseOr(key, stored, manifest[key], p?.label, translate, e.label) };
+    if (e.note) out.note = reuseOr(key, stored, manifest[key], p?.note, translate, e.note);
+    return out;
+  });
+  return { translated: { nodes, edges }, manifest };
+}
+
 const invokedDirectly = process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url);
 if (invokedDirectly) {
   (process.argv.includes("--check") ? runCheck() : runSeed()).catch((e) => {
