@@ -12,14 +12,15 @@ const META = {
 };
 export const metadata = pageMetadata(META);
 
-export default function LawsuitPage() {
-  const md = getProse("lawsuit.md");
+export default async function LawsuitPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const md = getProse("lawsuit.md", locale);
   return (
     <div>
       <PageStructuredData {...META} dateModified={generatedMtime("content/lawsuit.md").toISOString()} />
       <Markdown>{md}</Markdown>
       <p className="mt-6">
-        → <Link href="/lawsuit/documents" className="text-primary hover:underline">How to obtain the primary court filings</Link>
+        → <Link href={`/${locale}/lawsuit/documents`} className="text-primary hover:underline">How to obtain the primary court filings</Link>
       </p>
     </div>
   );

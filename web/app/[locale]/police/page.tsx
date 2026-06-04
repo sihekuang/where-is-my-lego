@@ -11,8 +11,9 @@ const META = {
 };
 export const metadata = pageMetadata(META);
 
-export default function PolicePage() {
-  const md = getProse("police.md");
+export default async function PolicePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const md = getProse("police.md", locale);
   return (
     <>
       <PageStructuredData {...META} dateModified={generatedMtime("content/police.md").toISOString()} />

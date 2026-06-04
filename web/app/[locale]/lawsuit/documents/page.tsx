@@ -11,8 +11,9 @@ const META = {
 };
 export const metadata = pageMetadata(META);
 
-export default function CourtDocumentsPage() {
-  const md = getProse("lawsuit-documents.md");
+export default async function CourtDocumentsPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const md = getProse("lawsuit-documents.md", locale);
   return (
     <>
       <PageStructuredData {...META} dateModified={generatedMtime("content/lawsuit-documents.md").toISOString()} />

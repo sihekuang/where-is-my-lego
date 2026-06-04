@@ -1,5 +1,6 @@
 import TimelineView from "@/components/TimelineView";
 import { getTimeline, generatedMtime } from "@/lib/content";
+import { getDict } from "@/lib/i18n";
 import { pageMetadata } from "@/lib/seo";
 import { PageStructuredData } from "@/components/JsonLd";
 
@@ -11,12 +12,14 @@ const META = {
 };
 export const metadata = pageMetadata(META);
 
-export default function TimelinePage() {
-  const data = getTimeline();
+export default async function TimelinePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = getDict(locale);
+  const data = getTimeline(locale);
   return (
     <div>
       <PageStructuredData {...META} dateModified={generatedMtime("data/timeline.json").toISOString()} />
-      <h1 className="font-display text-3xl font-extrabold tracking-tight">Timeline</h1>
+      <h1 className="font-display text-3xl font-extrabold tracking-tight">{t("nav.timeline")}</h1>
       <p className="mt-2 max-w-[70ch] text-muted-foreground">
         Chronological record, 2023–2026. Filter by status or search. Each entry
         is labeled as documented (<b>Confirmed</b>), a contested contention

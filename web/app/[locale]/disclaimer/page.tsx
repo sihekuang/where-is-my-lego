@@ -11,8 +11,9 @@ const META = {
 };
 export const metadata = pageMetadata(META);
 
-export default function DisclaimerPage() {
-  const md = getProse("disclaimer.md");
+export default async function DisclaimerPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const md = getProse("disclaimer.md", locale);
   return (
     <>
       <PageStructuredData {...META} dateModified={generatedMtime("content/disclaimer.md").toISOString()} />

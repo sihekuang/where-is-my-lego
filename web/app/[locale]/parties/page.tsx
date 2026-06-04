@@ -1,6 +1,7 @@
 import SectionedTable from "@/components/SectionedTable";
 import RelationshipGraph from "@/components/RelationshipGraph";
 import { getParties, getRelationships, generatedMtime } from "@/lib/content";
+import { getDict } from "@/lib/i18n";
 import { pageMetadata } from "@/lib/seo";
 import { PageStructuredData } from "@/components/JsonLd";
 
@@ -12,13 +13,15 @@ const META = {
 };
 export const metadata = pageMetadata(META);
 
-export default function PartiesPage() {
-  const data = getParties();
-  const graph = getRelationships();
+export default async function PartiesPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = getDict(locale);
+  const data = getParties(locale);
+  const graph = getRelationships(locale);
   return (
     <div>
       <PageStructuredData {...META} dateModified={generatedMtime("data/parties.json").toISOString()} />
-      <h1 className="font-display text-3xl font-extrabold tracking-tight">Parties</h1>
+      <h1 className="font-display text-3xl font-extrabold tracking-tight">{t("nav.parties")}</h1>
       <p className="mt-2 max-w-[70ch] text-muted-foreground">
         Each person and entity is described <b>only by their public role</b> in
         the dispute and their publicly reported statements. No private personal
