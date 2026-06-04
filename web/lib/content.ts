@@ -15,7 +15,12 @@ function trJson<T>(locale: string, name: string): T | null {
   if (locale === DEFAULT_LOCALE) return null;
   try {
     return JSON.parse(readFileSync(resolve(I18N, locale, "data", name), "utf8")) as T;
-  } catch {
+  } catch (err) {
+    // A missing file is the normal "not seeded yet" case → silent English fallback.
+    // A malformed (committed-but-broken) file should be surfaced, not hidden.
+    if ((err as NodeJS.ErrnoException).code !== "ENOENT") {
+      console.warn(`[i18n] ${locale}/data/${name} unreadable; falling back to English:`, err);
+    }
     return null;
   }
 }
