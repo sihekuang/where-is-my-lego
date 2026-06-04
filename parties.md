@@ -24,10 +24,10 @@ Each person/entity below is described **only by their public role** in the dispu
 
 | Name | Public role | Notes |
 |---|---|---|
-| **BAM Franchising, LLC** | Franchisor / corporate parent of Bricks & Minifigs; **civil plaintiff**. | Repossessed the Salem/Keizer store from the prior franchisee. Denies theft/wrongdoing. |
-| **Ammon McNeff** | CEO of Bricks & Minifigs (co-acquired the brand in 2018); **civil plaintiff**; company spokesperson. | Publicly apologized to the Mansell family, offered mediation, rejected theft/conspiracy claims. |
-| **Matthew ("Matt") McNeff** | COO / co-owner (Ammon's brother); **civil plaintiff**. | — |
-| **Joshua ("Josh") Johnson** | Tied to the post-2024 Salem/Keizer store operation; **complainant** in the Utah criminal case; **civil plaintiff**. | Variously described as "new owner," "manager," or "employee" across outlets — role wording inconsistent. Subject of the "Mormon Mafia" online trend. |
+| **BAM Franchising, LLC** | Franchisor / corporate parent of Bricks & Minifigs; **civil plaintiff**. | Repossessed the Salem/Keizer store from the prior franchisee. Denies theft/wrongdoing. ⚠ Legal form conflicts across sources: state franchise regulators and the FDD list **BAM Franchising, Inc.** (an Oregon corporation, HQ Provo, UT); some accounts use "LLC". |
+| **Ammon McNeff** | CEO of Bricks & Minifigs (co-acquired the brand in 2018); **civil plaintiff**; company spokesperson. | Publicly apologized to the Mansell family, offered mediation, rejected theft/conspiracy claims. Formerly **President of Legally Mine, LLC** (2011–2020) per BAM's Franchise Disclosure Document. |
+| **Matthew ("Matt") McNeff** | COO / co-owner (Ammon's brother); **civil plaintiff**. | Formerly **VP of Marketing for Legally Mine, LLC** (2011–2020) per BAM's FDD. |
+| **Joshua ("Josh") Johnson** | **Works for BAM as a corporate agent** — listed in BAM's FDD as a **"franchise seller"** — though not a confirmed salaried employee; also tied to the post-2024 Salem/Keizer store operation; **complainant** in the Utah criminal case; **civil plaintiff**. | The FDD's corporate-agent listing helps resolve the inconsistent "new owner / manager / employee" labels used across outlets. Also community-reported (Wisconsin FDD) as a former employee of the McNeffs' **Legally Mine, LLC** (2018–2020) — not independently re-verified. Subject of the "Mormon Mafia" online trend. |
 | **Brandon Best** | Tied to the post-2024 store operation (Baker Bricks); **civil plaintiff**. | Same owner/manager wording inconsistency. |
 | **Baker Bricks, LLC** | Entity tied to the post-transition store operation; **civil plaintiff**. | — |
 

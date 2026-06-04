@@ -24,9 +24,10 @@ Role / Statement: optional short public captions for the node detail card.
 | bam-franchising | BAM Franchising | org | plaintiff | https://www.google.com/s2/favicons?domain=bricksandminifigs.com&sz=128 | Franchisor / corporate parent (plaintiff) | Denies theft/wrongdoing; offered mediation. |
 | ammon-mcneff | Ammon McNeff | person | plaintiff |  | CEO, Bricks & Minifigs (plaintiff) | Publicly apologized; rejects theft/conspiracy claims. |
 | matt-mcneff | Matt McNeff | person | plaintiff |  | COO / co-owner (plaintiff) |  |
-| josh-johnson | Josh Johnson | person | plaintiff |  | Tied to store op; criminal complainant | Role wording inconsistent across outlets. |
+| josh-johnson | Josh Johnson | person | plaintiff |  | Works for BAM as a corporate agent (FDD "franchise seller"), not a confirmed employee; criminal complainant | FDD lists him among BAM's "franchise sellers"; earlier "new owner / manager / employee" labels were inconsistent. |
 | brandon-best | Brandon Best | person | plaintiff |  | Tied to store operation (plaintiff) |  |
-| baker-bricks | Baker Bricks | org | plaintiff |  | Entity tied to the store operation |  |
+| baker-bricks | Baker Bricks | org | plaintiff |  | Entity tied to the store operation (Best) | ⚠ Entity name varies in OR SOS records (community-reported "Salem-Baker Bricks Inc."); verify. |
+| legally-mine | Legally Mine, LLC | org | neutral |  | Utah asset-protection firm formerly led by the McNeffs (per BAM FDD) |  |
 | afpd | American Fork PD | agency | official | https://www.google.com/s2/favicons?domain=americanfork.gov&sz=128 | Municipal police agency | Released body-cam footage; defends its conduct. |
 | cameron-paul | Cameron Paul | person | official |  | AFPD Chief (official capacity) | Authored the ~26-min department video statement. |
 | bronson-kitchen | Bronson Kitchen | person | official |  | AFPD detective (separate incident) |  |
@@ -48,8 +49,12 @@ Role / Statement: optional short public captions for the node detail card.
 | ammon-mcneff | CEO of | bam-franchising | corporate | → | CONFIRMED |  |
 | matt-mcneff | COO of | bam-franchising | corporate | → | CONFIRMED |  |
 | ammon-mcneff | brothers | matt-mcneff | familial | — | CONFIRMED |  |
-| ammon-mcneff | served as missionaries together (2004) | josh-johnson | personal | — | ALLEGATION | Per a 2004 newspaper clipping surfaced by the community (see media/community-sources.md); paywalled — verify before relying. |
-| josh-johnson | tied to store operation | baker-bricks | corporate | → | ALLEGATION |  |
+| ammon-mcneff | president of (2011–2020) | legally-mine | corporate | → | CONFIRMED | Per BAM FDD Item 2 "Business Experience" (state-regulator filing). |
+| matt-mcneff | VP marketing of (2011–2020) | legally-mine | corporate | → | CONFIRMED | Per BAM FDD Item 2. |
+| ammon-mcneff | served as missionaries together (2004) | josh-johnson | personal | — | ALLEGATION | Per a 2004 newspaper clipping surfaced by the community (see media/community-sources.md); paywalled — verify before relying. The professional tie below is the better-documented connection. |
+| josh-johnson | franchise seller for | bam-franchising | corporate | → | CONFIRMED | FDD lists him as a BAM "franchise seller" — works for BAM as a corporate agent, though not a confirmed salaried employee. |
+| josh-johnson | former employee of | legally-mine | corporate | → | ALLEGATION | Community-reported via the Wisconsin FDD (Exec. Event Booking Director, 2018–2020); not independently re-verified. |
+| josh-johnson | tied to store operation | baker-bricks | corporate | → | ALLEGATION | Local-store role contested; the FDD lists him as a BAM corporate franchise seller, not a Baker Bricks principal. |
 | brandon-best | operates | baker-bricks | corporate | → | CONFIRMED |  |
 | afpd | arrested (Mar 2026) | ben-schneider | law-enforcement | → | CONFIRMED |  |
 | afpd | executed search warrant | ben-schneider | law-enforcement | → | CONFIRMED | Return: no items seized |
