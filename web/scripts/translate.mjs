@@ -143,7 +143,10 @@ async function runSeed() {
       const p = readIfExists(resolve(base, "content", name));
       if (p != null) prev[name] = p;
     }
-    const translate = makeTranslator(loc.code);
+    // Prose docs translate with full document context; table/graph cells are
+    // standalone short values and need the fragment-aware prompt (see translate-anthropic).
+    const translateDoc = makeTranslator(loc.code, "document");
+    const translateCell = makeTranslator(loc.code, "fragment");
     // seedProse is sync over an async translate; resolve sequentially to respect rate limits.
     const out = { files: {}, manifest: {}, stale: [] };
     for (const [name, src] of Object.entries(sources)) {
@@ -154,7 +157,7 @@ async function runSeed() {
         out.files[name] = prev[name];
       } else {
         console.log(`translate [${loc.code}] ${name} …`);
-        out.files[name] = await translate(src);
+        out.files[name] = await translateDoc(src);
         out.stale.push(key);
       }
     }
@@ -173,7 +176,7 @@ async function runSeed() {
     const tmap = new Map();
     for (const s of needed) {
       console.log(`translate [${loc.code}] structured: "${s.slice(0, 40)}${s.length > 40 ? "…" : ""}"`);
-      tmap.set(s, await translate(s));
+      tmap.set(s, await translateCell(s));
     }
     // Phase 3: re-run with a sync lookup translator, then write.
     const { writes, manifest: sm } = runStructured(structured, stored, prevStruct, (s) => tmap.get(s) ?? s);
