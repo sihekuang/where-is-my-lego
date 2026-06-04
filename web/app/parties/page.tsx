@@ -1,6 +1,7 @@
 import SectionedTable from "@/components/SectionedTable";
 import RelationshipGraph from "@/components/RelationshipGraph";
 import { getParties, getRelationships, generatedMtime } from "@/lib/content";
+import { withRosterAnchors } from "@/lib/roster-anchors";
 import { pageMetadata } from "@/lib/seo";
 import { PageStructuredData } from "@/components/JsonLd";
 
@@ -13,8 +14,8 @@ const META = {
 export const metadata = pageMetadata(META);
 
 export default function PartiesPage() {
-  const data = getParties();
   const graph = getRelationships();
+  const { sections, rosterIds } = withRosterAnchors(getParties(), graph.nodes);
   return (
     <div>
       <PageStructuredData {...META} dateModified={generatedMtime("data/parties.json").toISOString()} />
@@ -25,10 +26,10 @@ export default function PartiesPage() {
         information is included.
       </p>
 
-      <RelationshipGraph data={graph} />
+      <RelationshipGraph data={graph} rosterIds={rosterIds} />
 
       <div id="roster">
-        <SectionedTable data={data} searchPlaceholder="Search parties…" />
+        <SectionedTable data={{ sections }} searchPlaceholder="Search parties…" />
       </div>
     </div>
   );

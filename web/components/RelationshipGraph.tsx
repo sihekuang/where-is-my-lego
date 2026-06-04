@@ -52,7 +52,7 @@ function MinimizeIcon() {
   );
 }
 
-export default function RelationshipGraph({ data }: { data: GraphData }) {
+export default function RelationshipGraph({ data, rosterIds = [] }: { data: GraphData; rosterIds?: string[] }) {
   const [hidden, setHidden] = useState<string[]>([]);
   const [showAllLabels, setShowAllLabels] = useState(false);
   const [query, setQuery] = useState("");
@@ -165,7 +165,10 @@ export default function RelationshipGraph({ data }: { data: GraphData }) {
                       {selected.statement}
                     </p>
                   )}
-                  <a className="mt-3 inline-block text-xs text-primary hover:underline" href="#roster">
+                  <a
+                    className="mt-3 inline-block text-xs text-primary hover:underline"
+                    href={rosterIds.includes(selected.id) ? `#party-${selected.id}` : "#roster"}
+                  >
                     ↓ View in roster
                   </a>
                 </div>
