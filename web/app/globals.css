@@ -222,4 +222,13 @@
   .brick-table tbody tr { @apply border-b border-border; }
   .brick-table tbody tr:last-child { @apply border-0; }
   .brick-table a { @apply text-primary hover:underline; }
+  /* "View in roster" deep-link: offset the sticky header, then flash the matched row. */
+  .brick-table tbody tr[id] { scroll-margin-top: 6rem; }
+  .brick-table tbody tr:target { background-color: color-mix(in oklab, var(--primary) 8%, transparent); box-shadow: inset 4px 0 0 0 var(--primary); animation: rosterFlash 1.4s ease-out; }
+  .brick-table tbody tr:target td:first-child { @apply font-semibold; }
+}
+
+@keyframes rosterFlash {
+  from { background-color: color-mix(in oklab, var(--primary) 30%, transparent); }
+  to { background-color: color-mix(in oklab, var(--primary) 8%, transparent); }
 }

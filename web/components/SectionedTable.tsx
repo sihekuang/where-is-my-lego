@@ -52,7 +52,7 @@ export default function SectionedTable({
               </thead>
               <tbody>
                 {s.rows.map((r, ri) => (
-                  <tr key={ri}>
+                  <tr key={ri} id={r.anchor}>
                     {r.cells.map((cell, ci) => (
                       <td key={ci}><InlineMarkdown>{cell}</InlineMarkdown></td>
                     ))}
