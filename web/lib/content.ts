@@ -32,7 +32,7 @@ export type GraphEdge = {
   source: string;
   target: string;
   label: string;
-  category: "legal" | "corporate" | "familial" | "transactional" | "investigative" | "law-enforcement";
+  category: "legal" | "corporate" | "familial" | "personal" | "transactional" | "investigative" | "law-enforcement";
   direction: "to" | "both" | "none";
   status: "CONFIRMED" | "ALLEGATION";
   note?: string;

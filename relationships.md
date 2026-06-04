@@ -48,6 +48,7 @@ Role / Statement: optional short public captions for the node detail card.
 | ammon-mcneff | CEO of | bam-franchising | corporate | → | CONFIRMED |  |
 | matt-mcneff | COO of | bam-franchising | corporate | → | CONFIRMED |  |
 | ammon-mcneff | brothers | matt-mcneff | familial | — | CONFIRMED |  |
+| ammon-mcneff | served as missionaries together (2004) | josh-johnson | personal | — | ALLEGATION | Per a 2004 newspaper clipping surfaced by the community (see media/community-sources.md); paywalled — verify before relying. |
 | josh-johnson | tied to store operation | baker-bricks | corporate | → | ALLEGATION |  |
 | brandon-best | operates | baker-bricks | corporate | → | CONFIRMED |  |
 | afpd | arrested (Mar 2026) | ben-schneider | law-enforcement | → | CONFIRMED |  |

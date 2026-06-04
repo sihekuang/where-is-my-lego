@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import { InlineMarkdown } from "./Markdown";
 import type { Sectioned } from "@/lib/content";
-import { StudRow } from "@/components/brick/StudRow";
+import { BrickTableFrame } from "@/components/brick/BrickTableFrame";
 
 export default function SectionedTable({
   data,
@@ -41,29 +41,26 @@ export default function SectionedTable({
       {sections.map((s, si) => (
         <section key={si} className="mt-6">
           {s.heading && <h2 id={slug(s.heading)} className="font-display text-lg pb-1.5 border-b-2 border-border">{s.heading}</h2>}
-          <div className="mt-2 overflow-x-auto rounded-md border border-border">
-            <table className="w-full border-collapse text-sm">
+          <BrickTableFrame>
+            <table className="brick-table">
               <thead>
                 <tr>
                   {s.columns.map((c, ci) => (
-                    <th key={ci} className="relative whitespace-nowrap border-b-2 border-border bg-muted px-3 py-2.5 text-left font-display font-semibold text-muted-foreground">
-                      {ci === 0 && <StudRow count={2} className="text-border" />}
-                      {c}
-                    </th>
+                    <th key={ci} className="whitespace-nowrap">{c}</th>
                   ))}
                 </tr>
               </thead>
               <tbody>
                 {s.rows.map((r, ri) => (
-                  <tr key={ri} className="border-b border-border last:border-0">
+                  <tr key={ri}>
                     {r.cells.map((cell, ci) => (
-                      <td key={ci} className="px-3 py-2 align-top"><InlineMarkdown>{cell}</InlineMarkdown></td>
+                      <td key={ci}><InlineMarkdown>{cell}</InlineMarkdown></td>
                     ))}
                   </tr>
                 ))}
               </tbody>
             </table>
-          </div>
+          </BrickTableFrame>
         </section>
       ))}
     </div>

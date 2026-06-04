@@ -3,6 +3,7 @@ import remarkGfm from "remark-gfm";
 import Link from "next/link";
 import type { ComponentProps } from "react";
 import { rewriteHref, isExternal } from "@/lib/links";
+import { BrickTableFrame } from "@/components/brick/BrickTableFrame";
 
 function Anchor({ href, children }: ComponentProps<"a">) {
   const target = rewriteHref(href);
@@ -16,11 +17,20 @@ function Anchor({ href, children }: ComponentProps<"a">) {
   return <Link href={target}>{children}</Link>;
 }
 
+/** Render Markdown tables with the same brick chrome as the SectionedTable component. */
+function Table({ children }: ComponentProps<"table">) {
+  return (
+    <BrickTableFrame>
+      <table className="brick-table">{children}</table>
+    </BrickTableFrame>
+  );
+}
+
 /** Full block-level Markdown (prose pages). Internal .md links are rewritten. */
 export function Markdown({ children }: { children: string }) {
   return (
     <div className="prose">
-      <ReactMarkdown remarkPlugins={[remarkGfm]} components={{ a: Anchor }}>
+      <ReactMarkdown remarkPlugins={[remarkGfm]} components={{ a: Anchor, table: Table }}>
         {children}
       </ReactMarkdown>
     </div>

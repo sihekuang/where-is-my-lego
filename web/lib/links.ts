@@ -13,7 +13,11 @@ const MAP: Record<string, string> = {
   "police-controversy.md": "/police",
   "media/news-articles.md": "/media",
   "media/primary-sources.md": "/media#primary",
+  "primary-sources.md": "/media#primary",
   "media/download_manifest.md": "/media",
+  "media/community-sources.md": "/media/community-sources",
+  "community-sources.md": "/media/community-sources",
+  "relationships.md": "/parties",
 };
 
 /** Rewrite an href found inside archive Markdown to a site route (or leave it). */

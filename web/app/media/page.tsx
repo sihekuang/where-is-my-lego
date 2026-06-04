@@ -26,6 +26,15 @@ export default function MediaPage() {
         <Link href="/lawsuit/documents" className="text-primary hover:underline">download guidance</Link>.
       </p>
 
+      <div className="mt-4 rounded-md border border-border bg-muted px-3.5 py-2.5 text-[13px] text-muted-foreground">
+        Looking for <b className="text-foreground">primary records</b> — court filings, public
+        records, official statements, and the full video index? See the{" "}
+        <Link href="/media/community-sources" className="text-primary hover:underline">
+          community-curated sources
+        </Link>{" "}
+        compiled from the r/RecklessBen megathreads (defense-aligned; verify before relying).
+      </div>
+
       <h2 className="mt-7 text-xl">News &amp; commentary</h2>
       <SectionedTable data={news} searchPlaceholder="Search articles…" />
 
