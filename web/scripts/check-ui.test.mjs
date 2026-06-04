@@ -34,4 +34,33 @@ for (const f of [...walk(join(root,"app")), ...walk(join(root,"components"))]) {
   }
 }
 assert.strictEqual(offenders.length, 0, `legacy classNames still in source:\n${offenders.join("\n")}`);
+
+// (d) graph revamp — style module exports
+const graphStyle = readFileSync(join(root, "lib/graph-style.ts"), "utf8");
+for (const s of ["export const SIDE_PALETTE", "export const GLOW_PARAMS", "export function nodeSize", "export function withAlpha"]) {
+  assert.ok(graphStyle.includes(s), `graph-style.ts missing ${s}`);
+}
+// (e) graph revamp — canvas wiring
+const graphCanvas = readFileSync(join(root, "components/GraphCanvas.tsx"), "utf8");
+for (const s of ["nodeSize", "size:", "stageBg"]) {
+  assert.ok(graphCanvas.includes(s), `GraphCanvas.tsx missing ${s}`);
+}
+// (f) graph revamp — glow layer
+const glow = readFileSync(join(root, "lib/graph-glow.ts"), "utf8");
+for (const s of ["export function drawGlow", "createRadialGradient", "renderedPosition", "setLineDash"]) {
+  assert.ok(glow.includes(s), `graph-glow.ts missing ${s}`);
+}
+const graphCanvasT3 = readFileSync(join(root, "components/GraphCanvas.tsx"), "utf8");
+assert.ok(graphCanvasT3.includes("drawGlow"), "GraphCanvas.tsx must call drawGlow");
+// (g) graph revamp — animation loop + reduced-motion guard
+for (const s of ["glowRaf", "cancelAnimationFrame(glowRaf)", "prefers-reduced-motion"]) {
+  assert.ok(graphCanvasT3.includes(s), `GraphCanvas.tsx missing ${s}`);
+}
+// (h) graph revamp — brick chrome + SIDE_COLORS removed
+const relGraph = readFileSync(join(root, "components/RelationshipGraph.tsx"), "utf8");
+for (const s of ["BrickCard", "brick-badge", "SIDE_PALETTE", "useTheme"]) {
+  assert.ok(relGraph.includes(s), `RelationshipGraph.tsx missing ${s}`);
+}
+const graphStyleT5 = readFileSync(join(root, "lib/graph-style.ts"), "utf8");
+assert.ok(!graphStyleT5.includes("export const SIDE_COLORS"), "graph-style.ts should no longer export SIDE_COLORS");
 console.log("check-ui: OK");
