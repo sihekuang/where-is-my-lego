@@ -28,6 +28,9 @@ Role / Statement: optional short public captions for the node detail card.
 | brandon-best | Brandon Best | person | plaintiff |  | Tied to store operation (plaintiff) |  |
 | baker-bricks | Baker Bricks | org | plaintiff |  | Entity tied to the store operation (Best) | ⚠ Named "Baker Bricks, LLC" in the suit; OR SOS shows "Salem-Baker Bricks Inc." (Brandon Best, Pres/Sec; reg. 2332041-97) at the former store's Keizer address — admin-dissolved Jan 2026. |
 | legally-mine | Legally Mine, LLC | org | neutral |  | Utah asset-protection firm; Ammon (Pres.) & Matt (VP Mktg) McNeff held roles here 2011–2020 (per BAM FDD) | ⚠ The 2025 Ohio Supreme Court UPL finding (Case 2025-0037) names a *different* McNeff — **Daniel** — as its sole member/manager; don't conflate with Ammon/Matt. |
+| daniel-mcneff | Daniel McNeff | person | neutral |  | Legally Mine sole member/manager | Co-debtor (with Legally Mine) on a 2021 settlement/note owed to Ammon & Matt McNeff; UPL respondent (Ohio 2025-0037). |
+| john-masek | John Masek | person | neutral |  | Secured creditor of Legally Mine | Holds a security interest in Legally Mine's 450,000 BAM Franchising shares (2020 Utah UCC-1). |
+| david-ortiz | David Ortiz | person | neutral |  | Secured creditor of Legally Mine; BAM franchise seller | Co-secured-party (with Masek) on Legally Mine's 450k BAM shares; listed among BAM's "franchise sellers" (FDD). |
 | afpd | American Fork PD | agency | official | https://unavatar.io/youtube/AmericanForkPoliceDepartment | Municipal police agency | Released body-cam footage; defends its conduct. |
 | cameron-paul | Cameron Paul | person | official |  | AFPD Chief (official capacity) | Authored the ~26-min department video statement. |
 | mckay-valadez | McKay Valadez | person | official |  | AFPD officer (responding/charging) | Responded to the 03/10/2026 complaint, contacted Schneider at the scene, and authored the probable-cause statement charging him with stalking and targeted residential picketing (AFPD case 26AF02033). Transcribed from scanned AFPD records (OCR). |
@@ -60,6 +63,13 @@ Role / Statement: optional short public captions for the node detail card.
 | ammon-mcneff | brothers | matt-mcneff | familial | — | CONFIRMED |  |
 | ammon-mcneff | president of (2011–2020) | legally-mine | corporate | → | CONFIRMED | Per BAM FDD Item 2 "Business Experience" (state-regulator filing). |
 | matt-mcneff | VP marketing of (2011–2020) | legally-mine | corporate | → | CONFIRMED | Per BAM FDD Item 2. |
+| daniel-mcneff | sole member/manager of | legally-mine | corporate | → | CONFIRMED | Per the Ohio Sup. Ct. UPL order (2025-0037) and the 2021 Utah UCC-1. |
+| legally-mine | holds 450k shares of | bam-franchising | corporate | → | CONFIRMED | Pledged as collateral in a 2020 Utah UCC-1 (file 200810703927-7) — i.e. Legally Mine owns BAM stock. |
+| legally-mine | pledged BAM shares to (secured) | john-masek | transactional | → | CONFIRMED | 2020 UCC-1: 450k BAM Franchising shares as collateral. |
+| legally-mine | pledged BAM shares to (secured) | david-ortiz | transactional | → | CONFIRMED | 2020 UCC-1: 450k BAM Franchising shares as collateral. |
+| david-ortiz | franchise seller for | bam-franchising | corporate | → | CONFIRMED | Listed among BAM's "franchise sellers" in the FDD. |
+| ammon-mcneff | 2021 settlement creditor of | daniel-mcneff | legal | → | CONFIRMED | $1,728,000 settlement/note secured by 21% of Legally Mine (UCC 210216749881-3); resolves McNeff v. McNeff (D. Utah 2:21-cv-00048). |
+| matt-mcneff | 2021 settlement creditor of | daniel-mcneff | legal | → | CONFIRMED | Same 2021 settlement/note (co-secured party). |
 | ammon-mcneff | served as missionaries together (2004) | josh-johnson | personal | — | ALLEGATION | Per a 2004 newspaper clipping surfaced by the community (see media/community-sources.md); paywalled — verify before relying. The professional tie below is the better-documented connection. |
 | josh-johnson | franchise seller for | bam-franchising | corporate | → | CONFIRMED | FDD lists him as a BAM "franchise seller" — works for BAM as a corporate agent, though not a confirmed salaried employee. |
 | josh-johnson | former employee of | legally-mine | corporate | → | ALLEGATION | Community-reported via the Wisconsin FDD (Exec. Event Booking Director, 2018–2020); not independently re-verified. |
