@@ -165,12 +165,14 @@ export default function RelationshipGraph({ data, rosterIds = [] }: { data: Grap
                       {selected.statement}
                     </p>
                   )}
-                  <a
-                    className="mt-3 inline-block text-xs text-primary hover:underline"
-                    href={rosterIds.includes(selected.id) ? `#party-${selected.id}` : "#roster"}
-                  >
-                    ↓ View in roster
-                  </a>
+                  {rosterIds.includes(selected.id) && (
+                    <a
+                      className="mt-3 inline-block text-xs text-primary hover:underline"
+                      href={`#party-${selected.id}`}
+                    >
+                      ↓ View in roster
+                    </a>
+                  )}
                 </div>
               </BrickCard>
             </div>
