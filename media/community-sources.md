@@ -43,7 +43,7 @@ The catalog currently draws from these community indexes. Add new origins here a
 | **Oregon — small-claims filings** | https://drive.proton.me/urls/RFVCJFMS4R#t20KYp5itsmP | Proton Drive. Ben's Oregon filings (reportedly the ones B&M **defaulted** on). |
 | Oregon — full list of case numbers | https://pastebin.com/CdKUzxpM | Index of every Oregon case number for pulling the rest from OJCIN. |
 | Proof of relationship — image | https://imgur.com/a/GXZ7m2f | Pairs with the newspaper archive below. |
-| Proof of relationship — newspaper archive | https://www.newspapers.com/newspage/360215635/ | Old news article placing CEO **Ammon McNeff** and franchisee **Joshua Johnson** together as **missionaries in 2004** — primary support for a CEO↔franchisee tie (see [`../relationships.md`](../relationships.md), where no `ammon-mcneff ↔ josh-johnson` edge yet exists). ⚠ Paywalled clipping; verify. |
+| Proof of relationship — newspaper archive | https://www.newspapers.com/newspage/360215635/ | Old news article placing CEO **Ammon McNeff** and franchisee **Joshua Johnson** together as **missionaries in 2004** — primary support for a CEO↔franchisee tie (now reflected in [`../relationships.md`](../relationships.md) as the `ammon-mcneff ↔ josh-johnson` edge). ⚠ Paywalled clipping; verify. |
 
 ## 2. American Fork Police Department
 
@@ -85,10 +85,16 @@ of BAM's own pages, so primary — but verify each capture.
 Public records the community cites for the McNeffs' earlier venture (relevant to the lawfare framing).
 These are **legitimate primary/secondary public records**, not community mirrors.
 
+> ⚠ **Three different McNeffs — do not conflate.** **Ammon** & **Matthew** McNeff are BAM's CEO / COO and
+> held President / VP-Marketing roles at Legally Mine, LLC (2011–2020, per the BAM FDD). **Daniel** McNeff
+> is Legally Mine's **sole member/manager** and the UPL respondent in the Ohio order below — and the
+> *defendant* the two brothers sued in the 2021 family suit.
+
 | Item | URL | Note |
 |---|---|---|
-| 2021 familial lawsuit — *McNeff v. McNeff* (CourtListener) | https://www.courtlistener.com/docket/41955560/mcneff-v-mcneff/ | Public federal docket. |
-| 2025 Ohio Supreme Court — UPL finding (Forbes) | https://www.forbes.com/sites/jayadkisson/2025/02/25/asset-protection-firm-legally-mine-llc-found-to-be-engaged-in-the-unauthorized-practice-of-law-in-ohio/ | Reports Legally Mine LLC found to be engaged in the unauthorized practice of law. |
+| 2021 familial lawsuit — *McNeff v. McNeff* (D. Utah, Justia/PACER) | https://dockets.justia.com/docket/utah/utdce/2:2021cv00048/123720 | **Ammon & Matthew McNeff v. Daniel McNeff** et al., No. 2:21-cv-00048 (D. Utah; filed Jan 22, 2021, voluntarily dismissed Feb 11, 2021). ⚠ A previously circulated CourtListener docket (`41955560`) is a dead 404 — use this record. |
+| 2025 Ohio Supreme Court — UPL finding (**primary order**) | https://www.supremecourt.ohio.gov/pdf_viewer/pdf_viewer.aspx?pdf=239817.pdf&subdirectory=2025-0037%5CDecisionItems | *Ohio State Bar Assn v. Legally Mine, LLC, et al.*, Case No. 2025-0037 (order filed Feb 20, 2025): finds UPL, enjoins it, imposes a $5,000 penalty + costs. Names **Daniel McNeff** as Legally Mine's sole member/manager. |
+| 2025 UPL finding — secondary coverage (Forbes) | https://www.forbes.com/sites/jayadkisson/2025/02/25/asset-protection-firm-legally-mine-llc-found-to-be-engaged-in-the-unauthorized-practice-of-law-in-ohio/ | Forbes / Jay Adkisson write-up of the Ohio ruling. |
 | BBB complaints — Legally Mine | https://www.bbb.org/us/ut/orem/profile/legal-services/legally-mine-1166-22270989/complaints | Better Business Bureau complaint record. |
 | "The Legal Windbag History – Legally Mine" | https://legalwindbag.wordpress.com/the-legal-windbag-history-legally-mine/ | ⚠ Opinion blog, not a record — context only. |
 

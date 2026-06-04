@@ -26,8 +26,8 @@ Role / Statement: optional short public captions for the node detail card.
 | matt-mcneff | Matt McNeff | person | plaintiff |  | COO / co-owner (plaintiff) |  |
 | josh-johnson | Josh Johnson | person | plaintiff |  | Works for BAM as a corporate agent (FDD "franchise seller"), not a confirmed employee; criminal complainant | FDD lists him among BAM's "franchise sellers"; earlier "new owner / manager / employee" labels were inconsistent. |
 | brandon-best | Brandon Best | person | plaintiff |  | Tied to store operation (plaintiff) |  |
-| baker-bricks | Baker Bricks | org | plaintiff |  | Entity tied to the store operation (Best) | ⚠ Entity name varies in OR SOS records (community-reported "Salem-Baker Bricks Inc."); verify. |
-| legally-mine | Legally Mine, LLC | org | neutral |  | Utah asset-protection firm formerly led by the McNeffs (per BAM FDD) |  |
+| baker-bricks | Baker Bricks | org | plaintiff |  | Entity tied to the store operation (Best) | ⚠ Named "Baker Bricks, LLC" in the suit; OR SOS shows "Salem-Baker Bricks Inc." (Brandon Best, Pres/Sec; reg. 2332041-97) at the former store's Keizer address — admin-dissolved Jan 2026. |
+| legally-mine | Legally Mine, LLC | org | neutral |  | Utah asset-protection firm; Ammon (Pres.) & Matt (VP Mktg) McNeff held roles here 2011–2020 (per BAM FDD) | ⚠ The 2025 Ohio Supreme Court UPL finding (Case 2025-0037) names a *different* McNeff — **Daniel** — as its sole member/manager; don't conflate with Ammon/Matt. |
 | afpd | American Fork PD | agency | official | https://unavatar.io/youtube/AmericanForkPoliceDepartment | Municipal police agency | Released body-cam footage; defends its conduct. |
 | cameron-paul | Cameron Paul | person | official |  | AFPD Chief (official capacity) | Authored the ~26-min department video statement. |
 | mckay-valadez | McKay Valadez | person | official |  | AFPD officer (responding/charging) | Responded to the 03/10/2026 complaint, contacted Schneider at the scene, and authored the probable-cause statement charging him with stalking and targeted residential picketing (AFPD case 26AF02033). Transcribed from scanned AFPD records (OCR). |
