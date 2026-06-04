@@ -1,0 +1,173 @@
+{
+  "nodes": [
+    {
+      "id": "bryan-mansell",
+      "label": "Bryan Mansell",
+      "role": "收藏者/委托人",
+      "statement": "与Schneider共同采取行动追回该藏品。"
+    },
+    {
+      "id": "mansell-father",
+      "label": "曼塞尔的父亲",
+      "role": "收藏品共同所有人（约83岁）"
+    },
+    {
+      "id": "chrystal-law-gorman",
+      "label": "Chrystal Law-Gorman",
+      "role": "前特许经营商/签署方",
+      "statement": "称合同允许寄售。"
+    },
+    {
+      "id": "ben-gorman",
+      "label": "本杰明（本）·戈尔曼",
+      "role": "Chrystal 的前共同经营者/配偶",
+      "statement": "经营Not A Pipe Publishing；称BAM率先违约。"
+    },
+    {
+      "id": "ben-schneider",
+      "label": "鲁莽的本（施耐德）",
+      "role": "YouTuber / 自封调查员",
+      "statement": "称其前往送达文件；指控警察不当行为。"
+    },
+    {
+      "id": "reckless-ben-llc",
+      "label": "Reckless Ben LLC",
+      "role": "施耐德的媒体/商业实体"
+    },
+    {
+      "id": "victor-nguyen",
+      "label": "Victor Nguyen",
+      "role": "施耐德（被告）的同伙"
+    },
+    {
+      "id": "bam-franchising",
+      "label": "BAM特许经营",
+      "role": "特许经营商/母公司（原告）",
+      "statement": "否认盗窃/不当行为；提出调解。"
+    },
+    {
+      "id": "ammon-mcneff",
+      "label": "Ammon McNeff",
+      "role": "原告方 Bricks & Minifigs 首席执行官",
+      "statement": "公开道歉；否认盗窃/共谋指控。"
+    },
+    {
+      "id": "matt-mcneff",
+      "label": "Matt McNeff",
+      "role": "首席运营官/共同所有人（原告）"
+    },
+    {
+      "id": "josh-johnson",
+      "label": "乔什·约翰逊",
+      "role": "与店铺运营相关；刑事投诉人",
+      "statement": "各媒体对职务表述不一致。"
+    },
+    {
+      "id": "brandon-best",
+      "label": "Brandon Best",
+      "role": "与门店运营相关（原告）"
+    },
+    {
+      "id": "baker-bricks",
+      "label": "贝克砖业",
+      "role": "与店铺运营相关的实体"
+    },
+    {
+      "id": "afpd",
+      "label": "美国福克警察局",
+      "role": "市级警察机关",
+      "statement": "公布随身摄像机录像；为其行为进行辩护。"
+    },
+    {
+      "id": "cameron-paul",
+      "label": "Cameron Paul",
+      "role": "AFPD局长（官方职务）",
+      "statement": "撰写了约26分钟的部门视频声明。"
+    },
+    {
+      "id": "bronson-kitchen",
+      "label": "Bronson Kitchen",
+      "role": "AFPD侦探（独立事件）"
+    }
+  ],
+  "edges": [
+    {
+      "label": "共同拥有藏品"
+    },
+    {
+      "label": "委托寄售藏品至（2023年11月）"
+    },
+    {
+      "label": "已移除/被没收的店铺"
+    },
+    {
+      "label": "已移除/被没收的店铺"
+    },
+    {
+      "label": "与……结婚"
+    },
+    {
+      "label": "被起诉（单独诉讼）",
+      "note": "违约、侵占、诽谤、民事共谋"
+    },
+    {
+      "label": "被起诉（单独诉讼）"
+    },
+    {
+      "label": "公开争议事件涉及"
+    },
+    {
+      "label": "拥有"
+    },
+    {
+      "label": "同事"
+    },
+    {
+      "label": "首席执行官"
+    },
+    {
+      "label": "首席运营官，职位属于"
+    },
+    {
+      "label": "兄弟"
+    },
+    {
+      "label": "与门店运营相关"
+    },
+    {
+      "label": "运营"
+    },
+    {
+      "label": "被捕（2026年3月）"
+    },
+    {
+      "label": "已执行的搜查令",
+      "note": "返回：未扣押任何物品"
+    },
+    {
+      "label": "负责人"
+    },
+    {
+      "label": "侦探在"
+    },
+    {
+      "label": "刑事投诉人诉"
+    },
+    {
+      "label": "被起诉",
+      "note": "案件编号未经核实（260402353 / 260400253）"
+    },
+    {
+      "label": "被起诉"
+    },
+    {
+      "label": "被起诉"
+    },
+    {
+      "label": "被起诉"
+    },
+    {
+      "label": "指控藏品未被归还"
+    }
+  ]
+}
