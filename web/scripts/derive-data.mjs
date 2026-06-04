@@ -202,6 +202,100 @@ function reconcileParties(partiesMd, labels, warn) {
   }
 }
 
+// ---------------------------------------------------------------------------
+// Deterministic 2D layout (Fruchterman–Reingold style). Pure & dependency-free
+// so it runs in the zero-dep derive step and produces byte-identical output every
+// run (seeded from node ids). Result: each node gets `pos:{x,y}` normalized to
+// [0,1], consumed by the homepage hero canvas AND the OG graph still so the two
+// always show the SAME composition.
+// ---------------------------------------------------------------------------
+
+// FNV-1a hash of a string → two deterministic unit floats in [0,1).
+function seededUnit(id) {
+  let h = 2166136261 >>> 0;
+  for (let i = 0; i < id.length; i++) {
+    h ^= id.charCodeAt(i);
+    h = Math.imul(h, 16777619) >>> 0;
+  }
+  const a = (h >>> 0) / 4294967296;
+  const h2 = Math.imul(h ^ 0x9e3779b9, 2654435761) >>> 0;
+  const b = (h2 >>> 0) / 4294967296;
+  return [a, b];
+}
+
+export function layoutRelationships(nodes, edges, opts = {}) {
+  const iterations = opts.iterations ?? 400;
+  const k = Math.sqrt(1 / Math.max(1, nodes.length)); // ideal edge length in unit square
+  const pos = new Map();
+  for (const n of nodes) {
+    const [a, b] = seededUnit(n.id);
+    pos.set(n.id, { x: a, y: b });
+  }
+
+  let temp = 0.1;
+  const cool = temp / (iterations + 1);
+
+  for (let it = 0; it < iterations; it++) {
+    const disp = new Map(nodes.map((n) => [n.id, { x: 0, y: 0 }]));
+
+    // Repulsion between every pair.
+    for (let i = 0; i < nodes.length; i++) {
+      for (let j = i + 1; j < nodes.length; j++) {
+        const pa = pos.get(nodes[i].id), pb = pos.get(nodes[j].id);
+        const dx = pa.x - pb.x, dy = pa.y - pb.y;
+        const dist = Math.hypot(dx, dy) || 1e-4;
+        const force = (k * k) / dist;
+        const ux = dx / dist, uy = dy / dist;
+        const di = disp.get(nodes[i].id), dj = disp.get(nodes[j].id);
+        di.x += ux * force; di.y += uy * force;
+        dj.x -= ux * force; dj.y -= uy * force;
+      }
+    }
+
+    // Attraction along edges.
+    for (const e of edges) {
+      const pa = pos.get(e.source), pb = pos.get(e.target);
+      if (!pa || !pb) continue;
+      const dx = pa.x - pb.x, dy = pa.y - pb.y;
+      const dist = Math.hypot(dx, dy) || 1e-4;
+      const force = (dist * dist) / k;
+      const ux = dx / dist, uy = dy / dist;
+      const ds = disp.get(e.source), dt = disp.get(e.target);
+      ds.x -= ux * force; ds.y -= uy * force;
+      dt.x += ux * force; dt.y += uy * force;
+    }
+
+    // Apply, capped by temperature.
+    for (const n of nodes) {
+      const d = disp.get(n.id);
+      const len = Math.hypot(d.x, d.y) || 1e-4;
+      const p = pos.get(n.id);
+      p.x += (d.x / len) * Math.min(len, temp);
+      p.y += (d.y / len) * Math.min(len, temp);
+    }
+    temp -= cool;
+  }
+
+  // Normalize to [margin, 1-margin] by bounding box (4-dp rounding keeps output stable).
+  let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+  for (const n of nodes) {
+    const p = pos.get(n.id);
+    if (p.x < minX) minX = p.x; if (p.y < minY) minY = p.y;
+    if (p.x > maxX) maxX = p.x; if (p.y > maxY) maxY = p.y;
+  }
+  const spanX = (maxX - minX) || 1, spanY = (maxY - minY) || 1;
+  const margin = 0.07;
+  const r4 = (v) => Math.round(v * 1e4) / 1e4;
+  for (const n of nodes) {
+    const p = pos.get(n.id);
+    n.pos = {
+      x: r4(margin + (1 - 2 * margin) * (p.x - minX) / spanX),
+      y: r4(margin + (1 - 2 * margin) * (p.y - minY) / spanY),
+    };
+  }
+  return nodes;
+}
+
 export function deriveRelationships(opts = {}) {
   const md = opts.md ?? read("relationships.md");
   const partiesMd = opts.partiesMd ?? read("parties.md");
@@ -253,6 +347,7 @@ export function deriveRelationships(opts = {}) {
   });
 
   reconcileParties(partiesMd, nodes.map((x) => x.label), warn);
+  layoutRelationships(nodes, edges);
   return { nodes, edges };
 }
 

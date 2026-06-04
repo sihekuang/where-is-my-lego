@@ -29,6 +29,8 @@ export type GraphNode = {
   icon?: string;
   role?: string;
   statement?: string;
+  /** Deterministic build-time layout position, normalized [0,1]. Set by layoutRelationships. */
+  pos?: { x: number; y: number };
 };
 export type GraphEdge = {
   source: string;

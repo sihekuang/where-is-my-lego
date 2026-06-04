@@ -166,3 +166,30 @@ console.log("deriveRelationships: validation throws verified");
   assert.ok(rel.nodes.filter((n) => n.type === "person" && n.id !== "ben-schneider").every((n) => !n.icon), "real: no other person has an icon");
   console.log(`deriveRelationships: real file OK (${rel.nodes.length} nodes, ${rel.edges.length} edges)`);
 }
+
+// ---------------------------------------------------------------------------
+// layoutRelationships — deterministic positions baked onto nodes
+// ---------------------------------------------------------------------------
+{
+  const a = deriveRelationships();
+  const b = deriveRelationships();
+
+  // Every node gets an in-range position.
+  for (const n of a.nodes) {
+    assert.ok(n.pos && typeof n.pos.x === "number" && typeof n.pos.y === "number", `node ${n.id} has pos`);
+    assert.ok(n.pos.x >= 0 && n.pos.x <= 1 && n.pos.y >= 0 && n.pos.y <= 1, `node ${n.id} pos in [0,1]`);
+  }
+
+  // Determinism: two independent runs produce byte-identical positions.
+  assert.deepEqual(
+    a.nodes.map((n) => [n.id, n.pos]),
+    b.nodes.map((n) => [n.id, n.pos]),
+    "layout is deterministic across runs"
+  );
+
+  // Layout actually spreads nodes (not all stacked at one point).
+  const xs = new Set(a.nodes.map((n) => n.pos.x));
+  assert.ok(xs.size > a.nodes.length / 2, "positions are spread, not degenerate");
+
+  console.log(`layoutRelationships: ${a.nodes.length} nodes positioned, deterministic`);
+}
