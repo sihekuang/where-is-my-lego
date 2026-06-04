@@ -17,6 +17,7 @@ const ROUTES: Entry[] = [
   { path: "/parties", file: "data/parties.json", priority: 0.8, changeFrequency: "weekly" },
   { path: "/lawsuit", file: "content/lawsuit.md", priority: 0.8, changeFrequency: "weekly" },
   { path: "/media", file: "data/media-news.json", priority: 0.8, changeFrequency: "weekly" },
+  { path: "/media/community-sources", file: "content/community-sources.md", priority: 0.6, changeFrequency: "weekly" },
   { path: "/lawsuit/documents", file: "content/lawsuit-documents.md", priority: 0.5, changeFrequency: "monthly" },
   { path: "/disclaimer", file: "content/disclaimer.md", priority: 0.5, changeFrequency: "monthly" },
 ];

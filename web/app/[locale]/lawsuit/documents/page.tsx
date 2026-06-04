@@ -7,7 +7,7 @@ import { PageStructuredData } from "@/components/JsonLd";
 const META = {
   title: "Court Documents",
   description:
-    "How to obtain the primary court filings for the Bricks & Minifigs (BAM) – Reckless Ben case in Utah's 4th District.",
+    "Where to find the primary court filings for the Bricks & Minifigs (BAM) – Reckless Ben case: the authoritative clerk record (Utah XChange / Oregon eCourt) and community-compiled mirrors.",
   path: "/lawsuit/documents",
 };
 

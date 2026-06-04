@@ -59,6 +59,7 @@ const NAV = [
   { href: "/lawsuit", key: "nav.lawsuit" },
   { href: "/police", key: "nav.police" },
   { href: "/media", key: "nav.media" },
+  { href: "/media/community-sources", key: "nav.sources" },
   { href: "/disclaimer", key: "nav.disclaimer" },
 ];
 

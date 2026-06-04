@@ -30,6 +30,8 @@ American Fork Police Department, and a multi-count civil lawsuit filed in Utah C
 | [`media/primary-sources.md`](./media/primary-sources.md) | Cataloged videos, official statements, social posts |
 | [`media/download_manifest.md`](./media/download_manifest.md) | Link manifest + script to fetch public-record media elsewhere |
 | [`DISCLAIMER.md`](./DISCLAIMER.md) | Scope, methodology, limitations, and ethics notes |
+| [`CONTRIBUTING.md`](./CONTRIBUTING.md) | How to propose a change / open a PR — **no local clone needed** |
+| [`AGENTS.md`](./AGENTS.md) · [`SKILL.md`](./SKILL.md) | Guidance for **AI agents** to query and contribute to this archive |
 
 ---
 

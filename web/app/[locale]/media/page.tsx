@@ -42,6 +42,19 @@ export default async function MediaPage({ params }: { params: Promise<{ locale: 
         />
       </p>
 
+      <div className="mt-4 rounded-md border border-border bg-muted px-3.5 py-2.5 text-[13px] text-muted-foreground">
+        <Rich
+          text={t("media.primaryRecordsCallout")}
+          tokens={{
+            sources: (
+              <Link href={`/${locale}/media/community-sources`} className="text-primary hover:underline">
+                {t("media.communitySourcesLink")}
+              </Link>
+            ),
+          }}
+        />
+      </div>
+
       <h2 className="mt-7 text-xl">{t("media.news")}</h2>
       <SectionedTable data={news} labels={labels} searchPlaceholder={t("media.search")} />
 

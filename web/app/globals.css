@@ -208,8 +208,9 @@
     background-size: 12px 4px;
   }
 
-  /* prose (markdown pages) */
-  .prose { @apply max-w-[760px] leading-relaxed; }
+  /* prose (markdown pages) — body copy stays at a readable measure; tables span full width */
+  .prose { @apply max-w-none leading-relaxed; }
+  .prose p, .prose ul, .prose ol, .prose blockquote { @apply max-w-[760px]; }
   .prose h1 { @apply font-display text-3xl mt-0 mb-3; }
   .prose h2 { @apply font-display text-2xl mt-8 mb-3 pb-1.5 border-b-2 border-border; }
   .prose h3 { @apply font-display text-lg mt-6 mb-2; }
@@ -224,7 +225,13 @@
   .prose pre code { @apply bg-transparent p-0; }
   .prose blockquote { @apply my-4 rounded-r-md border-l-4 border-allegation bg-card px-4 py-1 text-muted-foreground; }
   .prose hr { @apply my-6 border-border; }
-  .prose table { @apply my-4 w-full border-collapse text-sm; }
-  .prose th, .prose td { @apply border border-border px-3 py-2 text-left align-top; }
-  .prose th { @apply bg-muted font-semibold; }
+  /* shared data-table chrome — used by prose (Markdown) tables AND the SectionedTable
+     component, so every table on the site renders identically. Long auto-linked URLs
+     wrap (overflow-wrap) instead of forcing a column wide, so notes keep their room. */
+  .brick-table { @apply w-full border-collapse text-sm; }
+  .brick-table th { @apply border-b-2 border-border bg-muted px-3 py-2.5 text-left font-display font-semibold text-muted-foreground; overflow-wrap: anywhere; }
+  .brick-table td { @apply px-3 py-2 align-top; overflow-wrap: anywhere; }
+  .brick-table tbody tr { @apply border-b border-border; }
+  .brick-table tbody tr:last-child { @apply border-0; }
+  .brick-table a { @apply text-primary hover:underline; }
 }

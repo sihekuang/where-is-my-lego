@@ -144,7 +144,7 @@ function classifyStatus(text) {
 const NODE_TYPES = new Set(["person", "org", "agency"]);
 const SIDES = new Set(["plaintiff", "defendant", "official", "neutral"]);
 const CATEGORIES = new Set([
-  "legal", "corporate", "familial", "transactional", "investigative", "law-enforcement",
+  "legal", "corporate", "familial", "personal", "transactional", "investigative", "law-enforcement",
 ]);
 const STATUSES = new Set(["CONFIRMED", "ALLEGATION"]);
 // person-type node ids permitted to carry an Icon (public figures only).
@@ -316,6 +316,7 @@ const PROSE = [
   ["lawsuit/court-documents.md", "lawsuit-documents.md"],
   ["police-controversy.md", "police.md"],
   ["media/download_manifest.md", "media-manifest.md"],
+  ["media/community-sources.md", "community-sources.md"],
 ];
 
 // ---------------------------------------------------------------------------

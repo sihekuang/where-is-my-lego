@@ -6,7 +6,8 @@ import fcose from "cytoscape-fcose";
 import { useTheme } from "next-themes";
 import type { Core, ElementDefinition } from "cytoscape";
 import type { GraphData, GraphNode } from "@/lib/content";
-import { buildStylesheet, initialsDataUri } from "@/lib/graph-style";
+import { buildStylesheet, initialsDataUri, nodeSize } from "@/lib/graph-style";
+import { drawGlow } from "@/lib/graph-glow";
 
 cytoscape.use(fcose);
 
@@ -17,6 +18,7 @@ type Props = {
   query: string;
   selectedId: string | null;
   onSelect: (node: GraphNode | null) => void;
+  fullscreen?: boolean;
 };
 
 export default function GraphCanvas({
@@ -26,18 +28,28 @@ export default function GraphCanvas({
   query,
   selectedId,
   onSelect,
+  fullscreen = false,
 }: Props) {
   const boxRef = useRef<HTMLDivElement>(null);
+  const glowRef = useRef<HTMLCanvasElement>(null);
   const cyRef = useRef<Core | null>(null);
   const onSelectRef = useRef(onSelect);
   useLayoutEffect(() => { onSelectRef.current = onSelect; });
   // Persistent focus (from selection) that hover falls back to.
   const focusRef = useRef<string | null>(null);
+  const themeRef = useRef<"light" | "dark">("dark");
+  const activeFocusRef = useRef<string | null>(null);
   const { resolvedTheme } = useTheme();
 
   // Mount once: build the graph, run layout, wire events.
   useEffect(() => {
     if (!boxRef.current) return;
+
+    const degree = new Map<string, number>();
+    for (const e of data.edges) {
+      degree.set(e.source, (degree.get(e.source) ?? 0) + 1);
+      degree.set(e.target, (degree.get(e.target) ?? 0) + 1);
+    }
 
     const elements: ElementDefinition[] = [
       ...data.nodes.map((n) => ({
@@ -47,6 +59,7 @@ export default function GraphCanvas({
           type: n.type,
           side: n.side,
           face: initialsDataUri(n.ini, n.label),
+          size: nodeSize(degree.get(n.id) ?? 0),
         },
       })),
       ...data.edges.map((e, i) => ({
@@ -69,26 +82,58 @@ export default function GraphCanvas({
     const cy = cytoscape({
       container: boxRef.current,
       elements,
-      style: buildStylesheet(),
+      style: buildStylesheet(resolvedTheme === "light" ? "light" : "dark"),
       minZoom: 0.3,
       maxZoom: 2.5,
       wheelSensitivity: 0.2,
     });
     cyRef.current = cy;
 
-    // Run fcose AFTER the nodes have their rendered dimensions. Passing `layout` as a
-    // constructor option runs it before sizing, which collapses every node onto the
-    // origin; deferring one frame lets the stylesheet's node size apply first.
-    const rafId = requestAnimationFrame(() => {
-      cy.layout({
-        name: "fcose",
-        animate: !reduce,
-        randomize: true,
-        nodeSeparation: 90,
-        fit: true,
-        padding: 30,
-      } as cytoscape.LayoutOptions).run();
-    });
+    // Lay out immediately. cy.layout().run() reads node sizes from the already-applied
+    // stylesheet synchronously, so the old one-frame rAF defer isn't needed — and that
+    // one-shot rAF was being cancelled by React StrictMode's mount→cleanup→mount in dev,
+    // leaving the graph stuck in cytoscape's default grid. animate:false keeps it
+    // deterministic; fcose randomizes positions each run, so we re-frame afterward.
+    let laidOut = false;
+    const layout = cy.layout({
+      name: "fcose",
+      animate: false,
+      randomize: true,
+      nodeSeparation: 90,
+      fit: true,
+      padding: 30,
+    } as cytoscape.LayoutOptions);
+    layout.one("layoutstop", () => { laidOut = true; frameFocus(cy); });
+    layout.run();
+
+    // Re-fit and re-center on size changes (drag-resize, fullscreen toggle, window
+    // resize) so the graph fills the stage and stays framed on the two protagonists.
+    const ro = new ResizeObserver(() => { if (laidOut) { cy.resize(); frameFocus(cy); } });
+    ro.observe(boxRef.current);
+
+    const ctx = glowRef.current?.getContext("2d") ?? null;
+    let glowRaf = 0;
+    const paint = (time: number) => {
+      if (glowRef.current && ctx) {
+        drawGlow(cy, glowRef.current, ctx, {
+          theme: themeRef.current,
+          time,
+          focusId: activeFocusRef.current,
+          reduce,
+        });
+      }
+    };
+    if (reduce) {
+      const once = () => paint(0);
+      once();
+      cy.on("render", once);
+    } else {
+      const tick = (time: number) => {
+        paint(time);
+        glowRaf = requestAnimationFrame(tick);
+      };
+      glowRaf = requestAnimationFrame(tick);
+    }
 
     // Nodes default to their initials avatar; upgrade to the real linked icon only after a
     // CORS-safe preload succeeds (matching Cytoscape's anonymous-crossorigin canvas load).
@@ -110,24 +155,32 @@ export default function GraphCanvas({
     cy.on("tap", (evt) => {
       if (evt.target === cy) onSelectRef.current(null);
     });
-    cy.on("mouseover", "node", (evt) => applyFocus(cy, evt.target.id()));
-    cy.on("mouseout", "node", () => applyFocus(cy, focusRef.current));
+    cy.on("mouseover", "node", (evt) => { activeFocusRef.current = evt.target.id(); applyFocus(cy, evt.target.id()); });
+    cy.on("mouseout", "node", () => { activeFocusRef.current = focusRef.current; applyFocus(cy, focusRef.current); });
 
     return () => {
-      cancelAnimationFrame(rafId);
+      ro.disconnect();
+      if (glowRaf) cancelAnimationFrame(glowRaf);
       cy.destroy();
       cyRef.current = null;
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data]);
 
   // Re-theme the graph when the light/dark theme changes.
   useEffect(() => {
-    cyRef.current?.style(buildStylesheet(resolvedTheme === "light" ? "light" : "dark"));
+    const t: "light" | "dark" = resolvedTheme === "light" ? "light" : "dark";
+    themeRef.current = t;
+    const cy = cyRef.current;
+    if (!cy) return;
+    cy.style(buildStylesheet(t));
+    cy.emit("render");
   }, [resolvedTheme]);
 
   // Persistent focus from selection.
   useEffect(() => {
     focusRef.current = selectedId;
+    activeFocusRef.current = selectedId;
     if (cyRef.current) applyFocus(cyRef.current, selectedId);
   }, [selectedId]);
 
@@ -168,7 +221,44 @@ export default function GraphCanvas({
     });
   }, [query]);
 
-  return <div ref={boxRef} className="h-[720px] w-full bg-background max-[640px]:h-[520px]" />;
+  const theme: "light" | "dark" = resolvedTheme === "light" ? "light" : "dark";
+  const stageBg =
+    theme === "dark"
+      ? {
+          // stud-grid layer FIRST so it paints on top of the vignette (CSS draws the first layer frontmost)
+          background:
+            "radial-gradient(circle, var(--stud-grid) 1.5px, transparent 1.6px), radial-gradient(circle at 50% 42%, #1a2030 0%, #0c0f15 78%)",
+          backgroundSize: "22px 22px, 100% 100%",
+        }
+      : {
+          background:
+            "radial-gradient(circle, var(--stud-grid) 1.5px, transparent 1.6px), var(--background)",
+          backgroundSize: "22px 22px, 100% 100%",
+        };
+
+  return (
+    <div
+      className={`relative w-full overflow-hidden ${
+        fullscreen ? "h-full" : "h-[720px] min-h-[420px] resize-y max-[640px]:h-[520px]"
+      }`}
+      style={stageBg}
+    >
+      <canvas ref={glowRef} className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden="true" />
+      {/* Intrinsic h-full (not absolute insets): cytoscape forces the container to
+          position:relative, which would null out inset-0 sizing → a 0-height viewport. */}
+      <div ref={boxRef} className="relative z-10 h-full w-full" />
+    </div>
+  );
+}
+
+// The dispute's two protagonists — every layout/resize should stay framed on them.
+const FOCUS_IDS = ["bam-franchising", "ben-schneider"];
+
+// Fit all nodes into view, then pan so the two protagonists sit at the center.
+function frameFocus(cy: Core) {
+  cy.fit(undefined, 30);
+  const focus = cy.nodes().filter((n) => FOCUS_IDS.includes(n.id()));
+  if (focus.nonempty()) cy.center(focus);
 }
 
 // Dim everything except the focused node + its neighborhood; reveal those edge labels.
