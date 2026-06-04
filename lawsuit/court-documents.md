@@ -1,11 +1,23 @@
-# Court Documents — How to Obtain the Primary Filings
+# Court Documents — Where to Find the Filings
 
-This environment had **no outbound network access**, so the actual court PDFs could **not** be
-downloaded into the repository. This file tells you exactly how and where to obtain the authoritative
-public records. Use the [`../media/download_manifest.md`](../media/download_manifest.md) helper from an
-unrestricted machine to pull copies.
+Like the rest of this archive, the case filings are **linked, not re-hosted** (the compilation
+environment had no outbound network access, and court/agency records carry their own access rules).
+Two kinds of pointer appear below:
 
-## Authoritative primary source
+- the **authoritative record** — the clerk/agency system the document officially lives in (Utah
+  **XChange**, Oregon **eCourt / OJCIN**, the **American Fork PD** release); and
+- **community-compiled mirrors** — copies the community has surfaced, indexed in the
+  [community-curated source catalog](../media/community-sources.md). These are **leads, not
+  authority**: community mirrors can be edited or vanish, and were **not verifiable** during
+  compilation as authenticated clerk copies. Always cross-check a mirror against the official record
+  before relying on it.
+
+> The richest index of *actual copies* is the
+> **[community-curated source catalog](../media/community-sources.md)** (its §1 covers court filings,
+> §2 the American Fork PD records). That catalog is **defense-aligned** — see its own bias note — and
+> is organized for citation, not neutrality.
+
+## Authoritative primary source (the clerk record)
 
 | Field | Value |
 |---|---|
@@ -17,11 +29,49 @@ unrestricted machine to pull copies.
 > Utah district-court filings are public records but are typically accessed via XChange or in person at
 > the clerk's office; they are not freely full-text searchable on the open web.
 
-## Community / advocacy archives (NOT neutral — verify before relying)
+## Where to find each document
 
-These third-party sites reportedly host or index case materials. They are **defense-aligned** and were
-**not verifiable** during compilation as hosting an authenticated copy of the official filing. Treat as
-leads, not authority; always cross-check any document against the clerk's record.
+Document-by-document pointers. The **mirror** column links to the
+[community catalog](../media/community-sources.md) (which holds the external copies, with their
+caveats); the **authoritative** column names the official system to confirm against.
+
+### Civil suit — *BAM Franchising et al. v. Schneider et al.* (Utah Fourth District)
+
+| Document | Filed | Community mirror (lead) | Authoritative record |
+|---|---|---|---|
+| Verified Complaint | 2026-05-27 | [Catalog §1](../media/community-sources.md) — Utah filings folder (Proton Drive: complaint + consignment agreement + "sold sets" investigation + incident logs) | XChange |
+| TRO + preliminary-injunction hearing notice | ~2026-05-28 | [Catalog §1](../media/community-sources.md) — same Utah filings folder ⚠ confirm the order itself is present | XChange |
+| Docket sheet | — | *(not mirrored)* | XChange only |
+| Answer / responsive pleadings | if/when filed | *(not mirrored)* | XChange |
+
+> The franchisees' **counter-suit v. B&M** (complaint, LEGO email, franchise agreement, termination
+> letter, motion to compel arbitration) sits in the same Proton Drive folder — see
+> [catalog §1](../media/community-sources.md).
+
+### Criminal matter — American Fork PD (distinct from the civil suit)
+
+These belong to the **March 2026** criminal case, not the civil suit; background and exact dates are in
+[`../police-controversy.md`](../police-controversy.md). They are **accusations**; Schneider is presumed
+innocent.
+
+| Document | Date | Community mirror (lead) | Authoritative record |
+|---|---|---|---|
+| Probable-cause affidavit | March 2026 | [Catalog §2](../media/community-sources.md) — AFPD file drop | AFPD release |
+| Search warrant | March 2026 | [Catalog §2](../media/community-sources.md) — AFPD file drop (warrants listed) | AFPD release |
+| Search-warrant return | March 2026 | [Catalog §2](../media/community-sources.md) — AFPD file drop | AFPD release |
+
+> ⚠ The catalog's §2 explicitly lists the **search warrants, incident reports, and released body-cam**;
+> the probable-cause affidavit and warrant return travel with that warrant package — confirm each is
+> present. The official AFPD Dropbox was **disabled 2026-05-31**, so the catalog also lists a community
+> **backup mirror**; the AFPD media release is mirrored in
+> [`../media/primary-sources.md`](../media/primary-sources.md). Cite only the **officially released**
+> records — never the unredacted body-cam leak the archive excludes by policy.
+
+## Other defense-aligned indexes (verify before relying)
+
+Beyond the curated catalog, these third-party sites also host or index case materials. They are
+**defense-aligned** and were **not verifiable** during compilation as hosting an authenticated copy of
+the official filing. Treat as leads, not authority; always cross-check against the clerk's record.
 
 | Site | URL | Caveat |
 |---|---|---|
@@ -34,24 +84,8 @@ leads, not authority; always cross-check any document against the clerk's record
 
 - The Mansell family reportedly obtained a **default judgment** in an Oregon small-claims action, with
   follow-up civil litigation. Oregon court records are accessible via **Oregon eCourt / OJCIN**
-  (https://www.courts.oregon.gov/services/online/Pages/ojcin.aspx).
+  (https://www.courts.oregon.gov/services/online/Pages/ojcin.aspx); the community catalog also mirrors
+  **Ben's Oregon small-claims filings** and a **full OR case-number index** — see
+  [catalog §1](../media/community-sources.md).
 - A criminal/police investigation in **Keizer, Oregon** was reportedly under review by the **Marion
   County District Attorney**.
-
-## Suggested local layout once you download them
-
-```
-lawsuit/
-  filings/
-    2026-05-27_verified-complaint.pdf
-    2026-05-28_tro-and-hearing-notice.pdf
-    docket-sheet.pdf
-    answer_<date>.pdf          # if/when filed
-  police/
-    probable-cause-affidavit_2026-03-10.pdf
-    search-warrant_2026-03-11.pdf
-    search-warrant-return_2026-03-11.pdf
-```
-
-> When you add real documents, note their **provenance** (which system/site, retrieval date) in a
-> short README inside `filings/` so the archive stays auditable.
