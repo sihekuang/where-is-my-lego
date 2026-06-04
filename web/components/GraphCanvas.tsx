@@ -18,6 +18,7 @@ type Props = {
   query: string;
   selectedId: string | null;
   onSelect: (node: GraphNode | null) => void;
+  fullscreen?: boolean;
 };
 
 export default function GraphCanvas({
@@ -27,6 +28,7 @@ export default function GraphCanvas({
   query,
   selectedId,
   onSelect,
+  fullscreen = false,
 }: Props) {
   const boxRef = useRef<HTMLDivElement>(null);
   const glowRef = useRef<HTMLCanvasElement>(null);
@@ -87,14 +89,12 @@ export default function GraphCanvas({
     });
     cyRef.current = cy;
 
-    // The dispute's two protagonists — every layout should stay framed on them.
-    const FOCUS_IDS = ["bam-franchising", "ben-schneider"];
-
     // Lay out immediately. cy.layout().run() reads node sizes from the already-applied
     // stylesheet synchronously, so the old one-frame rAF defer isn't needed — and that
     // one-shot rAF was being cancelled by React StrictMode's mount→cleanup→mount in dev,
     // leaving the graph stuck in cytoscape's default grid. animate:false keeps it
-    // deterministic; fcose randomizes positions each run, so we re-center afterward.
+    // deterministic; fcose randomizes positions each run, so we re-frame afterward.
+    let laidOut = false;
     const layout = cy.layout({
       name: "fcose",
       animate: false,
@@ -103,12 +103,13 @@ export default function GraphCanvas({
       fit: true,
       padding: 30,
     } as cytoscape.LayoutOptions);
-    // Once the layout settles, pan so BAM ↔ Reckless Ben sit at the center of the stage.
-    layout.one("layoutstop", () => {
-      const focus = cy.nodes().filter((n) => FOCUS_IDS.includes(n.id()));
-      if (focus.nonempty()) cy.center(focus);
-    });
+    layout.one("layoutstop", () => { laidOut = true; frameFocus(cy); });
     layout.run();
+
+    // Re-fit and re-center on size changes (drag-resize, fullscreen toggle, window
+    // resize) so the graph fills the stage and stays framed on the two protagonists.
+    const ro = new ResizeObserver(() => { if (laidOut) { cy.resize(); frameFocus(cy); } });
+    ro.observe(boxRef.current);
 
     const ctx = glowRef.current?.getContext("2d") ?? null;
     let glowRaf = 0;
@@ -158,6 +159,7 @@ export default function GraphCanvas({
     cy.on("mouseout", "node", () => { activeFocusRef.current = focusRef.current; applyFocus(cy, focusRef.current); });
 
     return () => {
+      ro.disconnect();
       if (glowRaf) cancelAnimationFrame(glowRaf);
       cy.destroy();
       cyRef.current = null;
@@ -235,13 +237,28 @@ export default function GraphCanvas({
         };
 
   return (
-    <div className="relative h-[720px] w-full overflow-hidden max-[640px]:h-[520px]" style={stageBg}>
+    <div
+      className={`relative w-full overflow-hidden ${
+        fullscreen ? "h-full" : "h-[720px] min-h-[420px] resize-y max-[640px]:h-[520px]"
+      }`}
+      style={stageBg}
+    >
       <canvas ref={glowRef} className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden="true" />
       {/* Intrinsic h-full (not absolute insets): cytoscape forces the container to
           position:relative, which would null out inset-0 sizing → a 0-height viewport. */}
       <div ref={boxRef} className="relative z-10 h-full w-full" />
     </div>
   );
+}
+
+// The dispute's two protagonists — every layout/resize should stay framed on them.
+const FOCUS_IDS = ["bam-franchising", "ben-schneider"];
+
+// Fit all nodes into view, then pan so the two protagonists sit at the center.
+function frameFocus(cy: Core) {
+  cy.fit(undefined, 30);
+  const focus = cy.nodes().filter((n) => FOCUS_IDS.includes(n.id()));
+  if (focus.nonempty()) cy.center(focus);
 }
 
 // Dim everything except the focused node + its neighborhood; reveal those edge labels.

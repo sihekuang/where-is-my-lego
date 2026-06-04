@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useTheme } from "next-themes";
@@ -36,11 +36,28 @@ const SIDE_VARIANT: Record<GraphNode["side"], BrickVariant> = {
 const chip =
   "inline-flex items-center gap-1.5 rounded-[5px] border-2 border-border bg-card px-3 py-1 text-[13px] text-muted-foreground shadow-[0_2px_0_var(--border)] transition hover:text-foreground active:translate-y-px active:shadow-none";
 
+function MaximizeIcon() {
+  return (
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M8 3H5a2 2 0 0 0-2 2v3M21 8V5a2 2 0 0 0-2-2h-3M3 16v3a2 2 0 0 0 2 2h3M16 21h3a2 2 0 0 0 2-2v-3" />
+    </svg>
+  );
+}
+
+function MinimizeIcon() {
+  return (
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M8 3v3a2 2 0 0 1-2 2H3M21 8h-3a2 2 0 0 1-2-2V3M3 16h3a2 2 0 0 1 2 2v3M16 21v-3a2 2 0 0 1 2-2h3" />
+    </svg>
+  );
+}
+
 export default function RelationshipGraph({ data }: { data: GraphData }) {
   const [hidden, setHidden] = useState<string[]>([]);
   const [showAllLabels, setShowAllLabels] = useState(false);
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState<GraphNode | null>(null);
+  const [fullscreen, setFullscreen] = useState(false);
   const { resolvedTheme } = useTheme();
   const theme: "light" | "dark" = resolvedTheme === "light" ? "light" : "dark";
   const sideColor = SIDE_PALETTE[theme];
@@ -53,13 +70,23 @@ export default function RelationshipGraph({ data }: { data: GraphData }) {
   const toggleCat = (c: string) =>
     setHidden((h) => (h.includes(c) ? h.filter((x) => x !== c) : [...h, c]));
 
+  // Esc exits full screen.
+  useEffect(() => {
+    if (!fullscreen) return;
+    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") setFullscreen(false); };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [fullscreen]);
+
   return (
     <div
-      className="brick-card border-t-brick-blue text-brick-blue my-2 overflow-hidden"
-      style={{ width: "min(95vw, 1320px)", marginLeft: "50%", transform: "translateX(-50%)" }}
+      className={`brick-card border-t-brick-blue text-brick-blue overflow-hidden ${
+        fullscreen ? "fixed inset-0 z-50 m-0 flex flex-col rounded-none" : "my-2"
+      }`}
+      style={fullscreen ? undefined : { width: "min(95vw, 1320px)", marginLeft: "50%", transform: "translateX(-50%)" }}
     >
       <StudRow count={6} />
-      <div className="text-card-foreground">
+      <div className={`text-card-foreground ${fullscreen ? "flex min-h-0 flex-1 flex-col" : ""}`}>
         <div className="flex flex-wrap items-center gap-2.5 border-b-2 border-border bg-muted px-3.5 py-3">
           <input
             className="min-w-[200px] flex-1 rounded-lg border-2 border-border bg-card px-3 py-2 text-sm"
@@ -89,9 +116,19 @@ export default function RelationshipGraph({ data }: { data: GraphData }) {
           >
             Show all labels
           </button>
+          <button
+            type="button"
+            className={chip}
+            onClick={() => setFullscreen((v) => !v)}
+            aria-pressed={fullscreen}
+            aria-label={fullscreen ? "Exit full screen" : "Full screen"}
+          >
+            {fullscreen ? <MinimizeIcon /> : <MaximizeIcon />}
+            {fullscreen ? "Exit" : "Full screen"}
+          </button>
         </div>
 
-        <div className="relative">
+        <div className={`relative ${fullscreen ? "min-h-0 flex-1" : ""}`}>
           <GraphCanvas
             data={data}
             hiddenCategories={hidden}
@@ -99,6 +136,7 @@ export default function RelationshipGraph({ data }: { data: GraphData }) {
             query={query}
             selectedId={selected?.id ?? null}
             onSelect={setSelected}
+            fullscreen={fullscreen}
           />
 
           {selected && (
