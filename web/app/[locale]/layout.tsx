@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { SITE_NAME, SITE_URL, DEFAULT_DESCRIPTION, ROOT_TITLE } from "@/lib/seo";
+import { SITE_NAME, SITE_URL, DEFAULT_DESCRIPTION, ROOT_TITLE, localizedPath, languageAlternates } from "@/lib/seo";
 import { JsonLd } from "@/components/JsonLd";
 import { siteJsonLd } from "@/lib/structured-data";
 import Link from "next/link";
@@ -15,32 +15,38 @@ import { getDict } from "@/lib/i18n";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
-export const metadata: Metadata = {
-  metadataBase: new URL(SITE_URL),
-  title: { default: ROOT_TITLE, template: "%s · Where Is My Lego" },
-  description: DEFAULT_DESCRIPTION,
-  applicationName: SITE_NAME,
-  openGraph: {
-    type: "website",
-    siteName: SITE_NAME,
-    locale: "en_US",
-    url: "/",
-    title: ROOT_TITLE,
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const loc = getLocale(locale)!; // getLocale always falls back to the default locale
+  const url = localizedPath(locale, "/");
+  return {
+    metadataBase: new URL(SITE_URL),
+    title: { default: ROOT_TITLE, template: "%s · Where Is My Lego" },
     description: DEFAULT_DESCRIPTION,
-  },
-  twitter: { card: "summary_large_image", title: ROOT_TITLE, description: DEFAULT_DESCRIPTION },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
+    applicationName: SITE_NAME,
+    alternates: { canonical: url, languages: languageAlternates("/") },
+    openGraph: {
+      type: "website",
+      siteName: SITE_NAME,
+      locale: loc.ogLocale,
+      url,
+      title: ROOT_TITLE,
+      description: DEFAULT_DESCRIPTION,
+    },
+    twitter: { card: "summary_large_image", title: ROOT_TITLE, description: DEFAULT_DESCRIPTION },
+    robots: {
       index: true,
       follow: true,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-      "max-video-preview": -1,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+        "max-video-preview": -1,
+      },
     },
-  },
-};
+  };
+}
 
 export function generateStaticParams() {
   return LOCALES.map((l) => ({ locale: l.code }));
@@ -72,7 +78,7 @@ export default async function RootLayout({
     <html lang={locale} className={cn(fontSans.variable, fontDisplay.variable, cjk && fontCJK.variable, "font-sans")} suppressHydrationWarning>
       <body>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
-          <JsonLd data={siteJsonLd()} />
+          <JsonLd data={siteJsonLd(locale)} />
           <header className="sticky top-0 z-10 border-b-2 border-border bg-card/95 backdrop-blur">
             <div className="mx-auto flex max-w-[980px] flex-wrap items-center justify-between gap-4 px-5 py-3">
               <Link href={base} className="flex items-center gap-2.5 font-display font-extrabold leading-none text-foreground no-underline">

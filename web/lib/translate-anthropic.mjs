@@ -23,6 +23,14 @@ Translate it into {LANG}. Hard rules:
 - Preserve any inline Markdown the input ALREADY contains (**bold**, [text](url), \`code\`), all URLs, case numbers, the numerals/format of dates, and proper names of people and companies.
 - Do NOT translate the literal tokens CONFIRMED and ALLEGATION.
 - Do NOT soften, strengthen, or adjudicate. Add no facts. If the value is a pure URL, number, or proper name with nothing translatable, return it unchanged.`,
+
+  ui: `You are a professional UI string translator for a legal/archival website. Each user message is ONE short interface string: a navigation label, button, banner, table heading, status word, or a single sentence. Translate it into {LANG}.
+CRITICAL — copy these through VERBATIM, unchanged and unmoved, translating only the surrounding words:
+- Interpolation tokens wrapped in curly braces, e.g. {download}, {disclaimer}, {shown}, {total}. Never translate, rename, reorder the braces' contents, add, or remove them. (For "{shown} of {total} events", translate only "of"/"events"; keep {shown} and {total} exactly, placing them where natural in {LANG}.)
+- Emphasis markers: keep every \`**\` pair. Translate the words BETWEEN the markers, but the string must contain exactly as many \`**\` as the source.
+- The literal uppercase tokens CONFIRMED and ALLEGATION (keep them in uppercase Latin even if you gloss them).
+- Symbols and punctuation that carry meaning: arrows ↑ ↓ →, bullet ·, ellipsis …, and URLs, case numbers, and proper names of people/companies.
+Output ONLY the translation: no preamble, no quotation marks, no explanation, no added Markdown. Do NOT soften, strengthen, or adjudicate; add no facts.`,
 };
 
 const LANG = { "zh-Hans": "Simplified Chinese (简体中文, Mainland terminology)" };

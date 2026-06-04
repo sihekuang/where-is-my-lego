@@ -59,6 +59,29 @@ export function seedProse(sources, stored, translate, prev = {}) {
   return { files, manifest, stale };
 }
 
+/**
+ * Pure UI-dictionary seeding. `enSource` is i18n/ui/en.json (a flat {key: english}).
+ * Per key: reuse the prior translation when the English value's hash is unchanged,
+ * else call `translate`. Returns the locale dict + manifest (ui:<key>) + stale keys.
+ */
+export function seedUiDict(enSource, stored, translate, prev = {}) {
+  const dict = {};
+  const manifest = {};
+  const stale = [];
+  for (const [key, val] of Object.entries(enSource)) {
+    const mkey = `ui:${key}`;
+    const h = hashProse(val);
+    manifest[mkey] = h;
+    if (stored[mkey] === h && prev[key] != null) {
+      dict[key] = prev[key]; // unchanged -> keep prior (possibly human-corrected)
+    } else {
+      dict[key] = translate(val);
+      stale.push(mkey);
+    }
+  }
+  return { dict, manifest, stale };
+}
+
 function readIfExists(p) { return existsSync(p) ? readFileSync(p, "utf8") : null; }
 function readJson(p) { const s = readIfExists(p); return s ? JSON.parse(s) : null; }
 function writeOut(p, s) { mkdirSync(dirname(p), { recursive: true }); writeFileSync(p, s); }
@@ -106,18 +129,30 @@ function structuredManifest(structured) {
   return runStructured(structured, {}, {}, (s) => s).manifest;
 }
 
+// The UI dictionary source (i18n/ui/en.json): a flat {key: english string}.
+function loadUiSource() {
+  return JSON.parse(readFileSync(resolve(I18N, "ui", "en.json"), "utf8"));
+}
+
+function uiManifest(uiSource) {
+  const m = {};
+  for (const [k, v] of Object.entries(uiSource)) m[`ui:${k}`] = hashProse(v);
+  return m;
+}
+
 // Current source manifest (what the English source hashes to right now).
-function currentManifest(sources, structured) {
+function currentManifest(sources, structured, uiSource) {
   const m = {};
   for (const [name, src] of Object.entries(sources)) m[`prose:${name}`] = hashProse(src);
   Object.assign(m, structuredManifest(structured));
+  Object.assign(m, uiManifest(uiSource));
   return m;
 }
 
 async function runCheck() {
   const sources = loadSources();
   const structured = loadStructured();
-  const current = currentManifest(sources, structured);
+  const current = currentManifest(sources, structured, loadUiSource());
   let totalStale = 0;
   for (const loc of TARGET_LOCALES) {
     const stored = readJson(resolve(I18N, loc.code, "_translation-manifest.json")) ?? {};
@@ -185,6 +220,29 @@ async function runSeed() {
     }
     Object.assign(out.manifest, sm);
     console.log(`translate [${loc.code}]: ${needed.size} structured unit(s) translated`);
+
+    // UI dictionary: translate i18n/ui/en.json -> i18n/ui/<code>.json (drift-tracked,
+    // hardened "ui" prompt preserves {tokens}, **bold**, CONFIRMED/ALLEGATION, arrows).
+    const enUi = loadUiSource();
+    const prevUi = readJson(resolve(I18N, "ui", `${loc.code}.json`)) ?? {};
+    const translateUi = makeTranslator(loc.code, "ui");
+    const uiDict = {};
+    let uiTranslated = 0;
+    for (const [k, v] of Object.entries(enUi)) {
+      const mkey = `ui:${k}`;
+      const h = hashProse(v);
+      out.manifest[mkey] = h;
+      if (stored[mkey] === h && prevUi[k] != null) {
+        uiDict[k] = prevUi[k];
+      } else {
+        console.log(`translate [${loc.code}] ui:${k} …`);
+        uiDict[k] = await translateUi(v);
+        uiTranslated++;
+      }
+    }
+    writeOut(resolve(I18N, "ui", `${loc.code}.json`), JSON.stringify(uiDict, null, 2) + "\n");
+    console.log(`translate [${loc.code}]: ${uiTranslated} ui string(s) translated, ${Object.keys(enUi).length - uiTranslated} reused`);
+
     writeOut(resolve(base, "_translation-manifest.json"), JSON.stringify(out.manifest, null, 2) + "\n");
     console.log(`translate [${loc.code}]: ${out.stale.length} prose unit(s) refreshed, ${PROSE_DOCS.length - out.stale.length} reused`);
   }

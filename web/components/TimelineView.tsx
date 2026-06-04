@@ -5,22 +5,16 @@ import { InlineMarkdown } from "./Markdown";
 import type { Timeline, Row } from "@/lib/content";
 import { BrickCard, type BrickVariant } from "@/components/brick/BrickCard";
 
-const FILTERS = [
-  { key: "all", label: "All" },
-  { key: "confirmed", label: "Confirmed" },
-  { key: "allegation", label: "Allegation" },
-  { key: "reported", label: "Reported" },
-] as const;
+type Labels = Record<string, string>;
+const tt = (labels: Labels, key: string) => labels[key] ?? key;
 
-type FilterKey = (typeof FILTERS)[number]["key"];
+const FILTER_KEYS = ["all", "confirmed", "allegation", "reported"] as const;
+type FilterKey = (typeof FILTER_KEYS)[number];
 
-const STATUS_LABEL: Record<string, string> = {
-  confirmed: "Confirmed",
-  allegation: "Allegation",
-  reported: "Reported",
-};
+const filterLabel = (labels: Labels, key: FilterKey) =>
+  key === "all" ? tt(labels, "timeline.filterAll") : tt(labels, `status.${key}`);
 
-export default function TimelineView({ data }: { data: Timeline }) {
+export default function TimelineView({ data, labels }: { data: Timeline; labels: Labels }) {
   const [filter, setFilter] = useState<FilterKey>("all");
   const [q, setQ] = useState("");
   const [sortDir, setSortDir] = useState<"asc" | "desc">("asc");
@@ -56,6 +50,10 @@ export default function TimelineView({ data }: { data: Timeline }) {
     source: data.columns.findIndex((c) => /source/i.test(c)),
   };
 
+  const countLabel = tt(labels, "timeline.count")
+    .replace("{shown}", String(visible.length))
+    .replace("{total}", String(data.rows.length));
+
   const chipBase = "inline-flex items-center gap-1.5 rounded-full border-2 px-3 py-1 text-[13px]";
   const accent: Record<string, string> = {
     all: "border-border", confirmed: "border-confirmed", allegation: "border-allegation", reported: "border-reported",
@@ -64,24 +62,24 @@ export default function TimelineView({ data }: { data: Timeline }) {
     <div>
       <div className="my-2 flex flex-wrap items-center gap-3">
         <div className="flex flex-wrap gap-2">
-          {FILTERS.map((f) => (
-            <button key={f.key} onClick={() => setFilter(f.key)}
-              className={`${chipBase} ${filter === f.key ? `${accent[f.key]} text-foreground bg-muted` : "border-border text-muted-foreground hover:text-foreground"}`}>
-              {f.label}
-              <span className="rounded-full bg-background px-1.5 text-[11px] text-muted-foreground">{counts[f.key] ?? 0}</span>
+          {FILTER_KEYS.map((f) => (
+            <button key={f} onClick={() => setFilter(f)}
+              className={`${chipBase} ${filter === f ? `${accent[f]} text-foreground bg-muted` : "border-border text-muted-foreground hover:text-foreground"}`}>
+              {filterLabel(labels, f)}
+              <span className="rounded-full bg-background px-1.5 text-[11px] text-muted-foreground">{counts[f] ?? 0}</span>
             </button>
           ))}
         </div>
         <input className="min-w-[200px] flex-1 rounded-lg border-2 border-border bg-card px-3 py-2 text-sm"
-          placeholder="Search events…" value={q} onChange={(e) => setQ(e.target.value)} />
+          placeholder={tt(labels, "timeline.search")} value={q} onChange={(e) => setQ(e.target.value)} />
         <button type="button" className={`${chipBase} border-border text-muted-foreground hover:text-foreground whitespace-nowrap`}
           onClick={() => setSortDir((d) => (d === "asc" ? "desc" : "asc"))}
-          aria-label={sortDir === "asc" ? "Sorted oldest first; click to show newest first" : "Sorted newest first; click to show oldest first"}>
-          {sortDir === "asc" ? "Oldest first ↑" : "Newest first ↓"}
+          aria-label={tt(labels, sortDir === "asc" ? "timeline.sortAriaAsc" : "timeline.sortAriaDesc")}>
+          {tt(labels, sortDir === "asc" ? "timeline.oldestFirst" : "timeline.newestFirst")}
         </button>
       </div>
 
-      <p className="my-1 text-[13px] text-muted-foreground">{visible.length} of {data.rows.length} events</p>
+      <p className="my-1 text-[13px] text-muted-foreground">{countLabel}</p>
 
       <ol className="mt-3.5 list-none p-0">
         {visible.map((r: Row, i) => {
@@ -94,7 +92,7 @@ export default function TimelineView({ data }: { data: Timeline }) {
                     <InlineMarkdown>{r.cells[idx.date] ?? ""}</InlineMarkdown>
                   </span>
                   <span className="brick-badge" style={{ background: `var(--${r.status})` }}>
-                    {STATUS_LABEL[r.status!] ?? r.status}
+                    {tt(labels, `status.${r.status}`)}
                   </span>
                 </div>
                 <div className="mt-1 text-card-foreground"><InlineMarkdown>{r.cells[idx.event] ?? ""}</InlineMarkdown></div>

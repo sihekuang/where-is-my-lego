@@ -60,6 +60,28 @@ import { seedProse, PROSE_DOCS } from "./translate.mjs";
 assert.ok(PROSE_DOCS.includes("home.md"), "home.md is a known prose doc");
 console.log("translate: prose seeding assertions passed");
 
+import { seedUiDict } from "./translate.mjs";
+
+{
+  const en = { "nav.timeline": "Timeline", "timeline.count": "{shown} of {total} events" };
+  const fake = (t) => `[zh]${t}`;
+
+  // Cold: nothing stored -> all translated.
+  const cold = seedUiDict(en, {}, fake);
+  assert.equal(cold.dict["nav.timeline"], "[zh]Timeline", "translates ui string");
+  assert.equal(cold.manifest["ui:nav.timeline"], hashProse("Timeline"), "records ui:<key> hash");
+  assert.deepEqual(cold.stale.sort(), ["ui:nav.timeline", "ui:timeline.count"], "cold = all stale");
+
+  // Warm: nav unchanged (reuse human translation), count changed (re-translate).
+  const stored = { "ui:nav.timeline": hashProse("Timeline"), "ui:timeline.count": hashProse("OLD") };
+  const prev = { "nav.timeline": "时间线", "timeline.count": "[zh]OLD" };
+  const warm = seedUiDict(en, stored, fake, prev);
+  assert.equal(warm.dict["nav.timeline"], "时间线", "unchanged ui keeps prior (human) translation");
+  assert.equal(warm.dict["timeline.count"], "[zh]{shown} of {total} events", "changed ui re-translated");
+  assert.deepEqual(warm.stale, ["ui:timeline.count"], "only changed ui stale");
+}
+console.log("translate: ui dict seeding assertions passed");
+
 import { extractSectioned, extractTimeline, extractGraph } from "./translate.mjs";
 
 {
