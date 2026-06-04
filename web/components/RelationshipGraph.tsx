@@ -59,10 +59,12 @@ export default function RelationshipGraph({
   data,
   labels,
   disclaimerHref,
+  rosterIds = [],
 }: {
   data: GraphData;
   labels: Labels;
   disclaimerHref: string;
+  rosterIds?: string[];
 }) {
   const [hidden, setHidden] = useState<string[]>([]);
   const [showAllLabels, setShowAllLabels] = useState(false);
@@ -177,9 +179,11 @@ export default function RelationshipGraph({
                       {selected.statement}
                     </p>
                   )}
-                  <a className="mt-3 inline-block text-xs text-primary hover:underline" href="#roster">
-                    {tt(labels, "graph.viewRoster")}
-                  </a>
+                  {rosterIds.includes(selected.id) && (
+                    <a className="mt-3 inline-block text-xs text-primary hover:underline" href={`#party-${selected.id}`}>
+                      {tt(labels, "graph.viewRoster")}
+                    </a>
+                  )}
                 </div>
               </BrickCard>
             </div>

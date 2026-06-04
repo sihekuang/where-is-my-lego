@@ -59,8 +59,8 @@
     {
       "id": "josh-johnson",
       "label": "乔什·约翰逊",
-      "role": "与店铺运营相关；刑事投诉人",
-      "statement": "各媒体对职务表述不一致。"
+      "role": "作为企业代理人（FDD\"特许经营销售商\"）为BAM工作，非经确认的正式雇员；刑事投诉人",
+      "statement": "FDD将其列为BAM的\"特许经营销售商\"；早期的\"新所有者/经理/员工\"标签前后不一致。"
     },
     {
       "id": "brandon-best",
@@ -70,7 +70,32 @@
     {
       "id": "baker-bricks",
       "label": "贝克砖业",
-      "role": "与店铺运营相关的实体"
+      "role": "与门店运营相关的实体（Best）",
+      "statement": "⚠ 诉讼中被称为\"Baker Bricks, LLC\"；俄勒冈州务卿记录显示\"Salem-Baker Bricks Inc.\"（Brandon Best，总裁/秘书；注册号 2332041-97）地址为原门店的Keizer地址——已于2026年1月被行政注销。"
+    },
+    {
+      "id": "legally-mine",
+      "label": "Legally Mine, LLC",
+      "role": "犹他州资产保护公司；Ammon（总裁）及 Matt（市场副总裁）McNeff 于 2011–2020 年在此任职（据 BAM FDD）",
+      "statement": "⚠ 2025年俄亥俄州最高法院非法执业裁定（案号2025-0037）所指的McNeff为另一人——**Daniel**——系该实体唯一成员/管理人；请勿与Ammon/Matt混淆。"
+    },
+    {
+      "id": "daniel-mcneff",
+      "label": "Daniel McNeff",
+      "role": "Legally Mine 唯一成员/管理人",
+      "statement": "与Legally Mine共同债务人，涉及2021年欠Ammon & Matt McNeff的和解款/票据；非法执业法律（UPL）被申请人（Ohio 2025-0037）。"
+    },
+    {
+      "id": "john-masek",
+      "label": "John Masek",
+      "role": "Legally Mine的有担保债权人",
+      "statement": "持有Legally Mine公司450,000股BAM Franchising股份的担保权益（2020年犹他州UCC-1融资声明）。"
+    },
+    {
+      "id": "david-ortiz",
+      "label": "大卫·奥尔蒂斯",
+      "role": "Legally Mine的有担保债权人；BAM特许经营权卖方",
+      "statement": "与Masek共同担保方（针对Legally Mine持有的45万股BAM股份）；被列于BAM\"特许经营销售商\"名单中（FDD）。"
     },
     {
       "id": "afpd",
@@ -85,9 +110,64 @@
       "statement": "撰写了约26分钟的部门视频声明。"
     },
     {
-      "id": "bronson-kitchen",
-      "label": "Bronson Kitchen",
-      "role": "AFPD侦探（独立事件）"
+      "id": "mckay-valadez",
+      "label": "McKay Valadez",
+      "role": "武装部队警察局官员（响应/起诉）",
+      "statement": "回应了03/10/2026的投诉，在现场联系了Schneider，并撰写了指控其跟踪骚扰及针对性住宅附近示威活动的犯罪事实陈述（AFPD案号26AF02033）。转录自AFPD扫描档案（OCR）。"
+    },
+    {
+      "id": "spencer-tonga",
+      "label": "Spencer Tonga",
+      "role": "武装部队人民党官员",
+      "statement": "提交了Schneider 03/11/2026年跟踪骚扰逮捕案（案号26AF02066；由Det. Nicosia撰写）的可能原因陈述；同时也是相关擅自闯入报告（案号26AF01974）的出警/报告警员。转录自扫描的AFPD档案（OCR）。"
+    },
+    {
+      "id": "det-nicosia",
+      "label": "尼科西亚侦探",
+      "role": "空军部队警察局侦探",
+      "statement": "起草了施耐德2026年03月11日跟踪骚扰逮捕（案号26AF02066）的可能原因陈述，由Tonga警官提交。转录自扫描的AFPD档案（OCR）；名字未见于记录。"
+    },
+    {
+      "id": "cole-richardson",
+      "label": "Cole G. Richardson",
+      "role": "武装部队人民党官员",
+      "statement": "施耐德案（案号26AF02066）搜查令宣誓书的宣誓人，该文件提交于犹他县第四区法院。根据扫描的AFPD档案（OCR）转录。"
+    },
+    {
+      "id": "s-hawkins",
+      "label": "S. Hawkins",
+      "role": "阿富汗国家警察局官员（应急响应）",
+      "statement": "回应并撰写了针对Schneider被捕前住宅活动的骚扰报告（案件编号26AF02007）。转录自扫描的AFPD记录（OCR）。"
+    },
+    {
+      "id": "rj-bibeau",
+      "label": "RJ Bibeau",
+      "role": "阿富汗国家警察局官员（应急响应）",
+      "statement": "响应与住宅纠察活动相关的骚扰投诉（案号26AF02007）的警员之一。转录自扫描的AFPD档案（OCR）。"
+    },
+    {
+      "id": "k-faughton",
+      "label": "K. Faughton",
+      "role": "阿富汗国家警察局官员（应急响应）",
+      "statement": "回应了骚扰投诉（案件编号 26AF02007）。⚠ 姓氏不确定——转录自扫描件（OCR）。"
+    },
+    {
+      "id": "g-mecham",
+      "label": "G. Mecham",
+      "role": "阿富汗国家警察局官员（应急响应）",
+      "statement": "回应了骚扰投诉（案件编号 26AF02007）。⚠ 姓氏不确定——转录自扫描件（OCR）。"
+    },
+    {
+      "id": "m-bishop",
+      "label": "M. Bishop",
+      "role": "AFPD官员（受理）",
+      "statement": "登记/接收了关于住宅活动的非法侵入报告（案件编号26AF01974）——行政受理职能（可能为前台/调度）。转录自扫描的AFPD档案（OCR）。"
+    },
+    {
+      "id": "h-wood",
+      "label": "H. Wood",
+      "role": "AFPD官员（受理）",
+      "statement": "记录/接收骚扰举报（案件编号 26AF02007）——行政受理职能（可能为前台/调度）。转录自扫描版 AFPD 档案（OCR）。"
     }
   ],
   "edges": [
@@ -132,11 +212,56 @@
       "label": "兄弟"
     },
     {
-      "label": "共同担任传教士（2004年）",
-      "note": "根据社区发现的2004年报纸剪报（见media/community-sources.md）；存在付费墙——使用前请核实。"
+      "label": "主席（2011–2020）",
+      "note": "根据BAM FDD第2项\"商业经验\"（州监管机构备案）。"
     },
     {
-      "label": "与门店运营相关联"
+      "label": "（2011–2020年）市场营销副总裁",
+      "note": "根据BAM FDD第2条。"
+    },
+    {
+      "label": "唯一成员/管理人",
+      "note": "根据俄亥俄州最高法院非律师执业令（2025-0037）及2021年犹他州UCC-1。"
+    },
+    {
+      "label": "持有450k股",
+      "note": "2020年犹他州UCC-1（档案号200810703927-7）中作为抵押品质押——即Legally Mine拥有BAM股票。"
+    },
+    {
+      "label": "将BAM股份质押给（有担保）",
+      "note": "2020年UCC-1：以45万股BAM特许经营公司股份作为抵押品。"
+    },
+    {
+      "label": "将BAM股份质押给（有担保）",
+      "note": "2020年UCC-1：以45万股BAM特许经营公司股份作为抵押品。"
+    },
+    {
+      "label": "特许经营卖家，代表",
+      "note": "在特许经营披露文件（FDD）中被列为BAM的\"特许经营销售人员\"。"
+    },
+    {
+      "label": "2021年和解债权人",
+      "note": "1,728,000美元和解款/票据，以Legally Mine 21%股权担保（UCC 210216749881-3）；解决McNeff v. McNeff案（犹他州联邦地区法院 2:21-cv-00048）。"
+    },
+    {
+      "label": "2021年和解债权人",
+      "note": "同一2021年和解/票据（共同担保方）。"
+    },
+    {
+      "label": "共同担任传教士（2004年）",
+      "note": "根据社区发现的一份2004年报纸剪报（见media/community-sources.md）；该内容设有付费墙——使用前请核实。以下职业关联是有更充分记录的联系。"
+    },
+    {
+      "label": "特许经营卖家，代表",
+      "note": "FDD将其列为BAM的\"特许经营销售商\"——作为BAM的企业代理人工作，但未经confirmed为受薪雇员。"
+    },
+    {
+      "label": "前雇员",
+      "note": "通过威斯康星州FDD社区报告（执行活动预订总监，2018–2020）；未经独立重新核实。"
+    },
+    {
+      "label": "与门店运营相关联",
+      "note": "当地门店角色存疑；FDD将其列为BAM公司特许经营销售方，而非Baker Bricks的主要负责人。"
     },
     {
       "label": "运营"
@@ -145,17 +270,62 @@
       "label": "被捕（2026年3月）"
     },
     {
-      "label": "已执行的搜查令",
+      "label": "执行搜查令",
       "note": "归还：未扣押任何物品"
     },
     {
       "label": "的首席"
     },
     {
-      "label": "在……的侦探"
+      "label": "任职于"
     },
     {
-      "label": "刑事投诉人对"
+      "label": "任职于"
+    },
+    {
+      "label": "侦探在"
+    },
+    {
+      "label": "任职于"
+    },
+    {
+      "label": "任职于"
+    },
+    {
+      "label": "任职于"
+    },
+    {
+      "label": "任职于",
+      "note": "⚠ 姓氏不确定（OCR识别）。"
+    },
+    {
+      "label": "任职于",
+      "note": "⚠ 姓氏不确定（OCR识别）。"
+    },
+    {
+      "label": "任职于"
+    },
+    {
+      "label": "任职于"
+    },
+    {
+      "label": "提供可能原因依据的宣誓人 对",
+      "note": "03/10 PC陈述（跟踪骚扰；针对性住宅前示威游行）。已扫描AFPD记录（OCR）。"
+    },
+    {
+      "label": "提交的电脑陈述书对阵",
+      "note": "03/11 跟踪骚扰PC陈述。扫描AFPD档案（OCR）。"
+    },
+    {
+      "label": "撰写PC陈述书对抗",
+      "note": "03/11 跟踪骚扰PC陈述。扫描AFPD档案（OCR）。"
+    },
+    {
+      "label": "搜查令宣誓人诉",
+      "note": "搜查令宣誓书。扫描的AFPD档案（OCR）。"
+    },
+    {
+      "label": "刑事投诉人诉"
     },
     {
       "label": "被起诉",
@@ -171,7 +341,7 @@
       "label": "被起诉"
     },
     {
-      "label": "指控藏品未被归还"
+      "label": "指控藏品未归还"
     }
   ]
 }

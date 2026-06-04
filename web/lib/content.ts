@@ -31,6 +31,8 @@ export type Row = {
   status?: string;
   sort?: { y: number; m: number; d: number };
   order?: number;
+  /** DOM anchor id ("party-<nodeId>") when this row maps to a relationship-graph node. */
+  anchor?: string;
 };
 export type Section = { heading: string; columns: string[]; rows: Row[] };
 export type Sectioned = { sections: Section[] };
