@@ -52,13 +52,12 @@ export function projectPositions(nodes, edges, { width, height, pad = 70 }) {
       x: pad + p.x * innerW,
       y: pad + p.y * innerH,
       r: nodeRadius(degrees[n.id] || 0),
-      side: n.side || "neutral",
     });
   }
   return out;
 }
 
-export function buildGraphMotifSvg(data, { width, height, theme = "dark", pad = 70 } = {}) {
+export function buildGraphMotifSvg(data, { width = 1200, height = 630, theme = "dark", pad = 70 } = {}) {
   const t = THEME[theme] || THEME.dark;
   const place = projectPositions(data.nodes, data.edges, { width, height, pad });
 
@@ -86,6 +85,7 @@ export function buildGraphMotifSvg(data, { width, height, theme = "dark", pad = 
   const halos = data.nodes
     .map((n) => {
       const p = place.get(n.id);
+      if (!p) return "";
       return `<circle cx="${p.x}" cy="${p.y}" r="${p.r * 2.1}" fill="url(#halo-${n.side || "neutral"})"/>`;
     })
     .join("");
@@ -93,6 +93,7 @@ export function buildGraphMotifSvg(data, { width, height, theme = "dark", pad = 
   const dots = data.nodes
     .map((n) => {
       const p = place.get(n.id);
+      if (!p) return "";
       const col = t.side[n.side] || t.side.neutral;
       return `<circle cx="${p.x}" cy="${p.y}" r="${p.r}" fill="${t.nodeBg}" stroke="${col}" stroke-width="3.5"/>`;
     })

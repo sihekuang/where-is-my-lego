@@ -49,7 +49,7 @@ const svg = buildGraphMotifSvg(MOTIF_DATA, { width: 1200, height: 630, theme: "d
 assert.ok(svg.trimStart().startsWith("<svg"), "motif starts with <svg>");
 assert.ok(svg.includes('width="1200"') && svg.includes('height="630"'), "motif sized to args");
 assert.ok(!svg.includes("<text"), "motif must not contain <text> (Satori reliability)");
-assert.equal((svg.match(/<circle/g) || []).length >= MOTIF_DATA.nodes.length, true, "a circle per node (+halos)");
+assert.equal((svg.match(/<circle/g) || []).length, MOTIF_DATA.nodes.length * 2, "one halo + one body circle per node");
 assert.equal((svg.match(/<line/g) || []).length, MOTIF_DATA.edges.length, "a line per edge");
 assert.ok(svg.includes("stroke-dasharray"), "allegation edge renders dashed");
 
