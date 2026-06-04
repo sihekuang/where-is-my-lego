@@ -1,0 +1,16 @@
+{
+  "nav.overview": "Overview",
+  "nav.timeline": "Timeline",
+  "nav.parties": "Parties",
+  "nav.lawsuit": "Lawsuit",
+  "nav.police": "Police",
+  "nav.media": "Media",
+  "nav.disclaimer": "Disclaimer",
+  "banner.readonly": "Read-only archive · every claim is labeled CONFIRMED or ALLEGATION · no court has found any party liable.",
+  "banner.seeDisclaimer": "See the disclaimer.",
+  "status.confirmed": "Confirmed",
+  "status.allegation": "Allegation",
+  "status.reported": "Reported",
+  "switcher.label": "Language",
+  "footer.derived": "Content derived from the canonical Markdown; this site renders that record read-only and does not modify the source."
+}
