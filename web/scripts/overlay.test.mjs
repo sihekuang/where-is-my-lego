@@ -35,5 +35,7 @@ assert.equal(ms.sections[0].heading, "当事方", "section heading overlaid");
 assert.equal(ms.sections[0].columns[1], "角色", "section column overlaid");
 assert.equal(ms.sections[0].rows[0].cells[0], "曼塞尔", "section cell overlaid");
 assert.equal(overlaySectioned(canonSec, null).sections[0].heading, "Owners", "null translation falls back to English heading");
+const canonSec2 = { sections: [canonSec.sections[0], { heading: "Other", columns: ["X"], rows: [{ cells: ["y"], plain: "y" }] }] };
+assert.equal(overlaySectioned(canonSec2, { sections: [trSec.sections[0]] }).sections[1].heading, "Other", "missing section falls back to English");
 
 console.log("overlay: merge + fallback assertions passed");
