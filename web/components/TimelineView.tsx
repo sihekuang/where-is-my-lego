@@ -44,11 +44,9 @@ export default function TimelineView({ data, labels }: { data: Timeline; labels:
     });
   }, [data.rows, filter, q, sortDir]);
 
-  const idx = {
-    date: data.columns.findIndex((c) => /date/i.test(c)),
-    event: data.columns.findIndex((c) => /event/i.test(c)),
-    source: data.columns.findIndex((c) => /source/i.test(c)),
-  };
+  // Indices come from the canonical (English) data, computed at derive time, so they
+  // stay correct after the column headers are translated.
+  const idx = { date: data.dateIdx, event: data.eventIdx, source: data.sourceIdx };
 
   const countLabel = tt(labels, "timeline.count")
     .replace("{shown}", String(visible.length))

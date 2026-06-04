@@ -34,7 +34,14 @@ export type Row = {
 };
 export type Section = { heading: string; columns: string[]; rows: Row[] };
 export type Sectioned = { sections: Section[] };
-export type Timeline = { columns: string[]; statusIdx: number; rows: Row[] };
+export type Timeline = {
+  columns: string[];
+  statusIdx: number;
+  dateIdx: number;
+  eventIdx: number;
+  sourceIdx: number;
+  rows: Row[];
+};
 
 export type GraphNode = {
   id: string;

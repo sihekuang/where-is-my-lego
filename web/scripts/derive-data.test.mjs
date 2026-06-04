@@ -29,6 +29,13 @@ console.log(`parseDateKey: ${cases.length + 2} assertions passed`);
 const timeline = deriveTimeline();
 const dateCol = timeline.columns.findIndex((c) => /date/i.test(c));
 
+// Semantic column indices are exported (locale-independent) so the client never
+// re-detects them from column NAMES, which break once headers are translated.
+assert.equal(timeline.dateIdx, timeline.columns.findIndex((c) => /date/i.test(c)), "dateIdx exported");
+assert.equal(timeline.eventIdx, timeline.columns.findIndex((c) => /event/i.test(c)), "eventIdx exported");
+assert.equal(timeline.sourceIdx, timeline.columns.findIndex((c) => /source/i.test(c)), "sourceIdx exported");
+assert.ok(timeline.dateIdx >= 0 && timeline.eventIdx >= 0, "date/event columns found");
+
 // Every row gets a numeric sort key with a real year (anchoring fills the gaps).
 timeline.rows.forEach((r, i) => {
   assert.ok(r.sort && r.sort.y > 0, `row ${i} has a sort year`);

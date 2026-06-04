@@ -273,6 +273,8 @@ export function deriveTimeline() {
   if (!table) throw new Error("timeline.md: status table not found");
   const statusIdx = table.columns.findIndex((c) => /status/i.test(c));
   const dateIdx = table.columns.findIndex((c) => /date/i.test(c));
+  const eventIdx = table.columns.findIndex((c) => /event/i.test(c));
+  const sourceIdx = table.columns.findIndex((c) => /source/i.test(c));
   const dateCol = dateIdx >= 0 ? dateIdx : 0;
 
   // Walk rows in source order; rows whose date has no year inherit a COPY of
@@ -290,7 +292,9 @@ export function deriveTimeline() {
       order: i,
     };
   });
-  return { columns: table.columns, statusIdx, rows };
+  // Semantic column indices are computed here (locale-independent) so the client
+  // never re-derives them from column NAMES — which break once translated.
+  return { columns: table.columns, statusIdx, dateIdx, eventIdx, sourceIdx, rows };
 }
 
 function deriveSectioned(rel, opts = {}) {
