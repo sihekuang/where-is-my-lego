@@ -133,8 +133,17 @@ const reuseOr = (key, stored, h, prevVal, translate, src) =>
 export function extractSectioned(file, canonical, stored, translate, prev = null) {
   const manifest = {};
   const sections = canonical.sections.map((s, si) => {
+    // The section heading is a visible display string (e.g. "The collection owners").
+    let heading = s.heading;
+    if (s.heading) {
+      const headKey = `head:${file}:${si}`;
+      manifest[headKey] = hashProse(s.heading);
+      heading = reuseOr(headKey, stored, manifest[headKey], prev?.sections?.[si]?.heading, translate, s.heading);
+    }
     const colKey = `cols:${file}:${si}`;
     manifest[colKey] = hashColumns(s.columns);
+    // ci indexes the positionally-corresponding prior value; drift is keyed at the
+    // whole-column-group / whole-row level (one hash per group), not per cell.
     const pCols = prev?.sections?.[si]?.columns ?? null;
     const columns = s.columns.map((c, ci) =>
       reuseOr(colKey, stored, manifest[colKey], pCols?.[ci], translate, c));
@@ -146,7 +155,7 @@ export function extractSectioned(file, canonical, stored, translate, prev = null
         reuseOr(rowKey, stored, manifest[rowKey], pCells?.[ci], translate, cell));
       return { cells, plain: cells.join(" • ") };
     });
-    return { heading: s.heading, columns, rows };
+    return { heading, columns, rows };
   });
   return { translated: { sections }, manifest };
 }

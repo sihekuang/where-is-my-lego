@@ -74,11 +74,26 @@ import { extractSectioned, extractTimeline, extractGraph } from "./translate.mjs
   };
   const fake = (t) => `Z<${t}>`;
   const { translated, manifest } = extractSectioned("parties.json", canonical, {}, fake);
+  assert.equal(translated.sections[0].heading, "Z<H>", "section heading translated");
   assert.equal(translated.sections[0].columns[0], "Z<Date>", "columns translated");
   assert.equal(translated.sections[0].rows[0].cells[1], "Z<Consigned **collection**>", "cell translated");
   assert.equal(translated.sections[0].rows[0].plain, "Z<Nov 22, 2023> • Z<Consigned **collection**>", "plain recomputed from translated cells");
+  assert.ok(manifest["head:parties.json:0"], "heading hash recorded");
   assert.ok(manifest["row:parties.json:0:0"], "row hash recorded");
   assert.ok(manifest["cols:parties.json:0"], "columns hash recorded");
+}
+
+{
+  const tl = {
+    columns: ["Date", "Event"], statusIdx: -1,
+    rows: [{ cells: ["Nov 22, 2023", "Consigned"], plain: "p", status: "confirmed", sort: { y: 2023, m: 11, d: 22 }, order: 0 }],
+  };
+  const { translated, manifest } = extractTimeline(tl, {}, (t) => `Z<${t}>`);
+  assert.equal(translated.columns[1], "Z<Event>", "timeline column translated");
+  assert.equal(translated.rows[0].cells[0], "Z<Nov 22, 2023>", "timeline cell translated");
+  assert.equal(translated.rows[0].plain, "Z<Nov 22, 2023> • Z<Consigned>", "timeline plain recomputed");
+  assert.ok(manifest["row:timeline.json:0:0"], "timeline row hash recorded");
+  assert.equal(translated.rows[0].status, undefined, "timeline status NOT in translation file");
 }
 
 {
