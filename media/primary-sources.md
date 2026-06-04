@@ -18,6 +18,9 @@ egress at compile time). To pull copies in an unrestricted environment, see
 | I got Bricks and Minifigs leaked Email | https://www.youtube.com/watch?v=nny2ojTqW3A | ~2026-05-28 | Reads an allegedly leaked internal BAM email — **contents unverified**. |
 | The LEGO Bricks & Minifigs SCANDAL Is Getting SCARY… | https://www.youtube.com/watch?v=gDRSK4-YlsM | early Jun 2026 | Covers the criminal charges. |
 | (Short) The Headlines Keep Getting Worse for Major LEGO Reseller | https://www.youtube.com/shorts/6uEwIkmEHiQ | Jun 2026 | Short. |
+| I got arrested because of legos | https://www.youtube.com/watch?v=cxZPfj8AlmY | ~2026-05-30 | His follow-up on the two arrests (the megathread's "Part 2"). **Confirmed live on his channel 2026-06-04** (~3.4M views). |
+| My response to the Police | https://www.youtube.com/watch?v=2YEzhDn0jY8 | ~2026-06-01 | His reply to the AFPD media release / Chief Paul statement. **Confirmed live on his channel 2026-06-04** (~2.7M views). |
+| All the footage is released! | https://www.youtube.com/watch?v=Ih2XwNN0aVY | **2026-06-04** | Newest upload; announces a tranche of AFPD body/dash-cam footage going public (see the "unredacted footage" development + exclusion note in [`community-sources.md`](./community-sources.md)). **Confirmed live on his channel 2026-06-04** (~640K views in ~4 hrs). |
 
 ## Fundraisers & other channels
 
