@@ -67,7 +67,7 @@ export function renderOgImage(
               {SUBTITLE}
             </div>
           </div>
-          <div style={{ display: "flex", fontSize: 80, fontWeight: 700, lineHeight: 1.05 }}>{title}</div>
+          <div style={{ display: "flex", fontSize: graphMotif ? 68 : 80, fontWeight: 700, lineHeight: 1.05, ...(graphMotif ? { maxWidth: 540 } : {}) }}>{title}</div>
           <div style={{ display: "flex", fontSize: 30, color: "#9aa3b2" }}>{tagline}</div>
         </div>
 

@@ -8,5 +8,8 @@ export const alt = "Where Is My Lego — the BAM × Reckless Ben relationship gr
 export default function Image() {
   const graph = getRelationships();
   const motif = graphMotifDataUri(graph, { width: 1200, height: 630, theme: "dark", pad: 90 });
-  return renderOgImage("Sourced Research Archive", { graphMotif: motif });
+  return renderOgImage("Sourced Research Archive", {
+    graphMotif: motif,
+    tagline: "Every claim labeled Confirmed or Allegation",
+  });
 }
