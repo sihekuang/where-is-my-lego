@@ -206,8 +206,9 @@ function reconcileParties(partiesMd, labels, warn) {
 // Deterministic 2D layout (Fruchterman–Reingold style). Pure & dependency-free
 // so it runs in the zero-dep derive step and produces byte-identical output every
 // run (seeded from node ids). Result: each node gets `pos:{x,y}` normalized to
-// [0,1], consumed by the homepage hero canvas AND the OG graph still so the two
-// always show the SAME composition.
+// [margin, 1-margin] (margin 0.07, i.e. roughly [0.07, 0.93]), consumed by the
+// homepage hero canvas AND the OG graph still so the two always show the SAME
+// composition.
 // ---------------------------------------------------------------------------
 
 // FNV-1a hash of a string → two deterministic unit floats in [0,1).
@@ -223,6 +224,7 @@ function seededUnit(id) {
   return [a, b];
 }
 
+// Mutates nodes in place (sets n.pos on each node) and returns the same array (for convenience/testing).
 export function layoutRelationships(nodes, edges, opts = {}) {
   const iterations = opts.iterations ?? 400;
   const k = Math.sqrt(1 / Math.max(1, nodes.length)); // ideal edge length in unit square
@@ -243,12 +245,18 @@ export function layoutRelationships(nodes, edges, opts = {}) {
       for (let j = i + 1; j < nodes.length; j++) {
         const pa = pos.get(nodes[i].id), pb = pos.get(nodes[j].id);
         const dx = pa.x - pb.x, dy = pa.y - pb.y;
-        const dist = Math.hypot(dx, dy) || 1e-4;
-        const force = (k * k) / dist;
-        const ux = dx / dist, uy = dy / dist;
+        const dist = Math.hypot(dx, dy);
         const di = disp.get(nodes[i].id), dj = disp.get(nodes[j].id);
-        di.x += ux * force; di.y += uy * force;
-        dj.x -= ux * force; dj.y -= uy * force;
+        if (dist < 1e-6) {
+          // Coincident points: push apart along a deterministic diagonal so they never
+          // stay permanently overlapped (guards against any future id seed collision).
+          di.x += k; di.y += k; dj.x -= k; dj.y -= k;
+        } else {
+          const force = (k * k) / dist;
+          const ux = dx / dist, uy = dy / dist;
+          di.x += ux * force; di.y += uy * force;
+          dj.x -= ux * force; dj.y -= uy * force;
+        }
       }
     }
 

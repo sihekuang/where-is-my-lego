@@ -29,7 +29,7 @@ export type GraphNode = {
   icon?: string;
   role?: string;
   statement?: string;
-  /** Deterministic build-time layout position, normalized [0,1]. Set by layoutRelationships. */
+  /** Deterministic build-time layout position, normalized to [margin, 1-margin] (margin 0.07, i.e. roughly [0.07, 0.93]). Set by layoutRelationships. */
   pos?: { x: number; y: number };
 };
 export type GraphEdge = {

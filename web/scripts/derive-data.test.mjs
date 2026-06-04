@@ -189,7 +189,9 @@ console.log("deriveRelationships: validation throws verified");
 
   // Layout actually spreads nodes (not all stacked at one point).
   const xs = new Set(a.nodes.map((n) => n.pos.x));
-  assert.ok(xs.size > a.nodes.length / 2, "positions are spread, not degenerate");
+  const ys = new Set(a.nodes.map((n) => n.pos.y));
+  assert.ok(xs.size > a.nodes.length / 2, "x positions are spread, not degenerate");
+  assert.ok(ys.size > a.nodes.length / 2, "y positions are spread, not degenerate");
 
   console.log(`layoutRelationships: ${a.nodes.length} nodes positioned, deterministic`);
 }
