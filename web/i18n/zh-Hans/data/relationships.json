@@ -113,61 +113,61 @@
     {
       "id": "mckay-valadez",
       "label": "McKay Valadez",
-      "role": "武装部队警察局官员（响应/起诉）",
+      "role": "AFPD警官（响应/起诉）",
       "statement": "回应了03/10/2026的投诉，在现场联系了Schneider，并撰写了指控其跟踪骚扰及针对性住宅附近示威活动的犯罪事实陈述（AFPD案号26AF02033）。转录自AFPD扫描档案（OCR）。"
     },
     {
       "id": "spencer-tonga",
       "label": "Spencer Tonga",
-      "role": "武装部队人民党官员",
+      "role": "AFPD警官",
       "statement": "提交了Schneider 03/11/2026年跟踪骚扰逮捕案（案号26AF02066；由Det. Nicosia撰写）的可能原因陈述；同时也是相关擅自闯入报告（案号26AF01974）的出警/报告警员。转录自扫描的AFPD档案（OCR）。"
     },
     {
       "id": "det-nicosia",
-      "label": "尼科西亚侦探",
-      "role": "空军部队警察局侦探",
+      "label": "Det. Nicosia",
+      "role": "AFPD侦探",
       "statement": "起草了施耐德2026年03月11日跟踪骚扰逮捕（案号26AF02066）的可能原因陈述，由Tonga警官提交。转录自扫描的AFPD档案（OCR）；名字未见于记录。"
     },
     {
       "id": "cole-richardson",
       "label": "Cole G. Richardson",
-      "role": "武装部队人民党官员",
+      "role": "AFPD警官",
       "statement": "施耐德案（案号26AF02066）搜查令宣誓书的宣誓人，该文件提交于犹他县第四区法院。根据扫描的AFPD档案（OCR）转录。"
     },
     {
       "id": "s-hawkins",
       "label": "S. Hawkins",
-      "role": "阿富汗国家警察局官员（应急响应）",
+      "role": "AFPD警官（响应）",
       "statement": "回应并撰写了针对Schneider被捕前住宅活动的骚扰报告（案件编号26AF02007）。转录自扫描的AFPD记录（OCR）。"
     },
     {
       "id": "rj-bibeau",
       "label": "RJ Bibeau",
-      "role": "阿富汗国家警察局官员（应急响应）",
+      "role": "AFPD警官（响应）",
       "statement": "响应与住宅纠察活动相关的骚扰投诉（案号26AF02007）的警员之一。转录自扫描的AFPD档案（OCR）。"
     },
     {
       "id": "k-faughton",
       "label": "K. Faughton",
-      "role": "阿富汗国家警察局官员（应急响应）",
+      "role": "AFPD警官（响应）",
       "statement": "回应了骚扰投诉（案件编号 26AF02007）。⚠ 姓氏不确定——转录自扫描件（OCR）。"
     },
     {
       "id": "g-mecham",
       "label": "G. Mecham",
-      "role": "阿富汗国家警察局官员（应急响应）",
+      "role": "AFPD警官（响应）",
       "statement": "回应了骚扰投诉（案件编号 26AF02007）。⚠ 姓氏不确定——转录自扫描件（OCR）。"
     },
     {
       "id": "m-bishop",
       "label": "M. Bishop",
-      "role": "AFPD官员（受理）",
+      "role": "AFPD警官（受理）",
       "statement": "登记/接收了关于住宅活动的非法侵入报告（案件编号26AF01974）——行政受理职能（可能为前台/调度）。转录自扫描的AFPD档案（OCR）。"
     },
     {
       "id": "h-wood",
       "label": "H. Wood",
-      "role": "AFPD官员（受理）",
+      "role": "AFPD警官（受理）",
       "statement": "记录/接收骚扰举报（案件编号 26AF02007）——行政受理职能（可能为前台/调度）。转录自扫描版 AFPD 档案（OCR）。"
     }
   ],

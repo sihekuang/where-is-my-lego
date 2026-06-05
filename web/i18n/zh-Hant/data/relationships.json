@@ -113,61 +113,61 @@
     {
       "id": "mckay-valadez",
       "label": "McKay Valadez",
-      "role": "警察局警員（回應／提告）",
+      "role": "AFPD 警員（回應／提告）",
       "statement": "回應了 03/10/2026 的投訴，在現場聯繫了 Schneider，並撰寫了指控其跟蹤騷擾及針對性住宅前糾察（AFPD 案號 26AF02033）的相當理由陳述書。轉錄自 AFPD 掃描紀錄（OCR）。"
     },
     {
       "id": "spencer-tonga",
       "label": "Spencer Tonga",
-      "role": "空軍人事指揮部軍官",
+      "role": "AFPD 警員",
       "statement": "提交了 Schneider 於 03/11/2026 遭逮捕之跟蹤騷擾案的相當理由陳述書（案號 26AF02066；由 Det. Nicosia 撰寫）；亦為相關侵入他人不動產報告（案號 26AF01974）之出勤／製作報告員警。轉錄自 AFPD 掃描檔案（OCR）。"
     },
     {
       "id": "det-nicosia",
-      "label": "尼科西亞偵探",
-      "role": "空軍憲兵部隊偵探",
+      "label": "Det. Nicosia",
+      "role": "AFPD 偵探",
       "statement": "為 Schneider 於 03/11/2026 跟蹤騷擾逮捕案（案號 26AF02066）撰寫相當理由陳述書，由 Ofc. Tonga 提交。轉錄自 AFPD 掃描檔案（OCR）；名字未見於記錄中。"
     },
     {
       "id": "cole-richardson",
       "label": "Cole G. Richardson",
-      "role": "空軍人事指揮部軍官",
+      "role": "AFPD 警員",
       "statement": "在施耐德案（案號26AF02066）搜查令宣誓書上的宣誓陳述人，該宣誓書已提交至猶他縣第四地區法院。轉錄自掃描的AFPD檔案（OCR）。"
     },
     {
       "id": "s-hawkins",
       "label": "S. Hawkins",
-      "role": "空軍特別調查辦公室官員（回應方）",
+      "role": "AFPD 警員（回應方）",
       "statement": "回應並撰寫了與Schneider被捕前住宅活動相關的騷擾報告（案號26AF02007）。轉錄自掃描的AFPD檔案（OCR）。"
     },
     {
       "id": "rj-bibeau",
       "label": "RJ Bibeau",
-      "role": "空軍特別調查辦公室官員（回應方）",
+      "role": "AFPD 警員（回應方）",
       "statement": "回應與住宅示威活動相關之騷擾投訴（案號 26AF02007）的其中一名警員。轉錄自掃描之 AFPD 記錄（OCR）。"
     },
     {
       "id": "k-faughton",
       "label": "K. Faughton",
-      "role": "空軍特別調查辦公室官員（回應方）",
+      "role": "AFPD 警員（回應方）",
       "statement": "已回應騷擾投訴（案號 26AF02007）。⚠ 姓氏不確定——係從掃描件（OCR）轉錄。"
     },
     {
       "id": "g-mecham",
       "label": "G. Mecham",
-      "role": "空軍特別調查辦公室官員（回應方）",
+      "role": "AFPD 警員（回應方）",
       "statement": "已回應騷擾投訴（案號 26AF02007）。⚠ 姓氏不確定——係從掃描件（OCR）轉錄。"
     },
     {
       "id": "m-bishop",
       "label": "M. Bishop",
-      "role": "AFPD 官員（接案）",
+      "role": "AFPD 警員（接案）",
       "statement": "記錄／受理非法侵入報案（案號26AF01974），涉及住宅活動——行政收件角色（可能為櫃台／派遣）。轉錄自掃描之AFPD檔案（OCR）。"
     },
     {
       "id": "h-wood",
       "label": "H. Wood",
-      "role": "AFPD 官員（接案）",
+      "role": "AFPD 警員（接案）",
       "statement": "登錄／受理騷擾投訴（案號 26AF02007）——行政收件角色（可能為櫃台／調度）。轉錄自掃描之 AFPD 紙本記錄（OCR）。"
     }
   ],
