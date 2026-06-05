@@ -17,6 +17,9 @@ This guide is written for both human contributors and AI agents. Agents should a
   `npm run derive`; editing generated output has no effect. A content change is just a Markdown edit.
 - Put new content in the right file: an event → `timeline.md`; a person/entity → `parties.md`
   **and** the graph in `relationships.md`; a source → the catalogs in `media/`.
+- **Write in English only — don't translate.** The site's other languages are machine-translated
+  from your English and human-reviewed by maintainers as a separate build step; there are no
+  parallel-language source files to edit. (Maintainers: see [`web/i18n/README.md`](web/i18n/README.md).)
 
 ## Pre-submit checklist (every change must pass)
 
