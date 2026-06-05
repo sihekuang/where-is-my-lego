@@ -1,0 +1,359 @@
+{
+  "sections": [
+    {
+      "heading": "收藏品所有者（委托人）",
+      "columns": [
+        "姓名",
+        "公共职务",
+        "备注",
+        "来源"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "**Bryan Mansell**",
+            "藏品所有者/委托人；俄勒冈州民事原告；犹他州BAM诉讼中的**民事被告**。",
+            "与Schneider合作追回收藏品。GoFundMe的受益人。",
+            "[收藏周刊 / Ben的调查](./media/primary-sources.md) · [Mansell GoFundMe](https://www.gofundme.com/f/help-bryan-recover-his-lego-collection) · [犹他州及俄勒冈州立案文件](./media/community-sources.md) · [诉讼摘要](./lawsuit/README.md)"
+          ],
+          "plain": "**Bryan Mansell** • 藏品所有者/委托人；俄勒冈州民事原告；犹他州BAM诉讼中的**民事被告**。 • 与Schneider合作追回收藏品。GoFundMe的受益人。 • [收藏周刊 / Ben的调查](./media/primary-sources.md) · [Mansell GoFundMe](https://www.gofundme.com/f/help-bryan-recover-his-lego-collection) · [犹他州及俄勒冈州立案文件](./media/community-sources.md) · [诉讼摘要](./lawsuit/README.md)"
+        },
+        {
+          "cells": [
+            "**曼塞尔的父亲**",
+            "收藏品的共同所有人（据报道约83岁）。",
+            "未收集更多个人详细信息。",
+            "[Ben的报道](./media/primary-sources.md) · [新闻报道](./media/news-articles.md)"
+          ],
+          "plain": "**曼塞尔的父亲** • 收藏品的共同所有人（据报道约83岁）。 • 未收集更多个人详细信息。 • [Ben的报道](./media/primary-sources.md) · [新闻报道](./media/news-articles.md)"
+        }
+      ]
+    },
+    {
+      "heading": "鲁莽的本 / 调查方",
+      "columns": [
+        "姓名",
+        "公共职务",
+        "备注",
+        "来源"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "**Benjamin \"Reckless Ben\" Schneider**",
+            "YouTuber / 自封调查员，将该纠纷公之于众；**刑事被告**（犹他州轻罪）及**民事被告**。",
+            "预订姓名报告为Benjamin Paul Schneider。称其前往犹他州送达民事传票；ALLEGATION警察不当行为；称其随后离境前往墨西哥。",
+            "[Ben的YouTube上传内容及出镜视频](./media/primary-sources.md) · [AFPD案件档案 (26AF02033 / 26AF02066)](./media/community-sources.md) · [犹他州诉讼](./lawsuit/README.md)"
+          ],
+          "plain": "**Benjamin \"Reckless Ben\" Schneider** • YouTuber / 自封调查员，将该纠纷公之于众；**刑事被告**（犹他州轻罪）及**民事被告**。 • 预订姓名报告为Benjamin Paul Schneider。称其前往犹他州送达民事传票；ALLEGATION警察不当行为；称其随后离境前往墨西哥。 • [Ben的YouTube上传内容及出镜视频](./media/primary-sources.md) · [AFPD案件档案 (26AF02033 / 26AF02066)](./media/community-sources.md) · [犹他州诉讼](./lawsuit/README.md)"
+        },
+        {
+          "cells": [
+            "**Reckless Ben LLC**",
+            "施耐德的媒体/商业实体；被列为**民事被告**。",
+            "—",
+            "[犹他州投诉](./lawsuit/README.md)"
+          ],
+          "plain": "**Reckless Ben LLC** • 施耐德的媒体/商业实体；被列为**民事被告**。 • — • [犹他州投诉](./lawsuit/README.md)"
+        },
+        {
+          "cells": [
+            "**Victor Nguyen**",
+            "Schneider的关联人；被列为**民事被告**。",
+            "具体角色在现有二手报道中未有明确说明。",
+            "[犹他州投诉](./lawsuit/README.md) · [\"与Victor的播客\"](./media/primary-sources.md)"
+          ],
+          "plain": "**Victor Nguyen** • Schneider的关联人；被列为**民事被告**。 • 具体角色在现有二手报道中未有明确说明。 • [犹他州投诉](./lawsuit/README.md) · [\"与Victor的播客\"](./media/primary-sources.md)"
+        },
+        {
+          "cells": [
+            "**被告 1–15**",
+            "未确认的其他**民事被告**。",
+            "—",
+            "[犹他州诉状标题](./lawsuit/README.md)"
+          ],
+          "plain": "**被告 1–15** • 未确认的其他**民事被告**。 • — • [犹他州诉状标题](./lawsuit/README.md)"
+        }
+      ]
+    },
+    {
+      "heading": "积木与迷你人偶 / 特许经营方",
+      "columns": [
+        "姓名",
+        "公共职务",
+        "备注",
+        "来源"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "**BAM Franchising, LLC**",
+            "Bricks & Minifigs的特许经营商/母公司；**民事原告**。",
+            "从前加盟商处收回了塞勒姆/基泽店。否认盗窃/不当行为。⚠ 法律形式：根据FDD，**BAM Franchising, Inc.** 现为**特拉华州**公司（于2024年4月18日合并；最初为2011年成立的俄勒冈州公司），总部位于犹他州普若沃；部分资料称其为\"LLC\"（其加盟协议附件仍载明\"一家俄勒冈州公司\"）。",
+            "[BAM FDD — 州特许经营监管机构（WI/CA/MN）](./media/community-sources.md) · [BAM 声明及采访](./media/primary-sources.md) · [GlobeNewswire 06/01](https://www.globenewswire.com/news-release/2026/06/01/3304463/0/en/Bricks-Minifigs-Issues-Comprehensive-Public-Statement-on-Salem-Oregon-Dispute-Reaffirms-Offer-to-Help-Mansell-Family.html)"
+          ],
+          "plain": "**BAM Franchising, LLC** • Bricks & Minifigs的特许经营商/母公司；**民事原告**。 • 从前加盟商处收回了塞勒姆/基泽店。否认盗窃/不当行为。⚠ 法律形式：根据FDD，**BAM Franchising, Inc.** 现为**特拉华州**公司（于2024年4月18日合并；最初为2011年成立的俄勒冈州公司），总部位于犹他州普若沃；部分资料称其为\"LLC\"（其加盟协议附件仍载明\"一家俄勒冈州公司\"）。 • [BAM FDD — 州特许经营监管机构（WI/CA/MN）](./media/community-sources.md) · [BAM 声明及采访](./media/primary-sources.md) · [GlobeNewswire 06/01](https://www.globenewswire.com/news-release/2026/06/01/3304463/0/en/Bricks-Minifigs-Issues-Comprehensive-Public-Statement-on-Salem-Oregon-Dispute-Reaffirms-Offer-to-Help-Mansell-Family.html)"
+        },
+        {
+          "cells": [
+            "**Ammon McNeff**",
+            "Bricks & Minifigs首席执行官（2018年联合收购该品牌）；**民事原告**；公司发言人。",
+            "公开向Mansell家族道歉，提出调解，否认盗窃/共谋指控。根据BAM的特许经营披露文件，曾任**Legally Mine, LLC总裁**（2011–2020年）。",
+            "[BAM FDD第2条（州监管机构备案）](./media/community-sources.md) · [ACOB首席执行官采访](https://www.youtube.com/watch?v=9dmR3Flk49k) · [Legally Mine记录](./media/community-sources.md)"
+          ],
+          "plain": "**Ammon McNeff** • Bricks & Minifigs首席执行官（2018年联合收购该品牌）；**民事原告**；公司发言人。 • 公开向Mansell家族道歉，提出调解，否认盗窃/共谋指控。根据BAM的特许经营披露文件，曾任**Legally Mine, LLC总裁**（2011–2020年）。 • [BAM FDD第2条（州监管机构备案）](./media/community-sources.md) · [ACOB首席执行官采访](https://www.youtube.com/watch?v=9dmR3Flk49k) · [Legally Mine记录](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**Matthew（\"Matt\"）McNeff**",
+            "首席运营官／联合所有人（Ammon 的兄弟）；**民事原告**。",
+            "根据BAM的FDD，曾任**Legally Mine, LLC市场营销副总裁**（2011–2020）。",
+            "[BAM FDD第2项](./media/community-sources.md) · [ACOB首席运营官访谈](./media/community-sources.md)"
+          ],
+          "plain": "**Matthew（\"Matt\"）McNeff** • 首席运营官／联合所有人（Ammon 的兄弟）；**民事原告**。 • 根据BAM的FDD，曾任**Legally Mine, LLC市场营销副总裁**（2011–2020）。 • [BAM FDD第2项](./media/community-sources.md) · [ACOB首席运营官访谈](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**Joshua（\"Josh\"）Johnson**",
+            "**作为BAM企业代理人工作** — 在BAM的FDD中列为**\"特许经营销售员\"** — 但非经确认的受薪雇员；亦与2024年后萨勒姆/基泽尔门店运营相关；犹他州刑事案件中的**投诉人**；**民事原告**。",
+            "FDD的企业代理人名单有助于厘清各门店所使用的\"新业主/经理/员工\"等标签不一致的问题。亦有社区举报（威斯康星州FDD）称其曾为McNeffs的**Legally Mine, LLC**（2018–2020）前员工——未经独立核实。系\"摩门黑手党\"网络热点话题的当事人。**2026年6月4日：BAM宣布与Johnson和Best\"分道扬镳\"（系*双方协议*分离），并永久关闭塞勒姆门店**——但两人仍作为具名原告参与犹他州诉讼。",
+            "[BAM FDD — 特许经营商名单](./media/community-sources.md) · [传教士剪报（2004年）](./media/community-sources.md) · [犹他州刑事案件](./media/community-sources.md) · [BAM\"分道扬镳\"公关稿（06/04）](./media/news-articles.md)"
+          ],
+          "plain": "**Joshua（\"Josh\"）Johnson** • **作为BAM企业代理人工作** — 在BAM的FDD中列为**\"特许经营销售员\"** — 但非经确认的受薪雇员；亦与2024年后萨勒姆/基泽尔门店运营相关；犹他州刑事案件中的**投诉人**；**民事原告**。 • FDD的企业代理人名单有助于厘清各门店所使用的\"新业主/经理/员工\"等标签不一致的问题。亦有社区举报（威斯康星州FDD）称其曾为McNeffs的**Legally Mine, LLC**（2018–2020）前员工——未经独立核实。系\"摩门黑手党\"网络热点话题的当事人。**2026年6月4日：BAM宣布与Johnson和Best\"分道扬镳\"（系*双方协议*分离），并永久关闭塞勒姆门店**——但两人仍作为具名原告参与犹他州诉讼。 • [BAM FDD — 特许经营商名单](./media/community-sources.md) · [传教士剪报（2004年）](./media/community-sources.md) · [犹他州刑事案件](./media/community-sources.md) · [BAM\"分道扬镳\"公关稿（06/04）](./media/news-articles.md)"
+        },
+        {
+          "cells": [
+            "**Brandon Best**",
+            "与2024年后的门店运营（Baker Bricks）相关；**民事原告**。",
+            "同一所有人/经理措辞不一致。俄勒冈州务卿记录显示，他在前门店的Keizer地址以**\"Salem-Baker Bricks Inc.\"**（注册号2332041-97）的**总裁兼秘书**身份登记——注册日期为2024年11月15日，2026年1月行政解散。**2026年6月4日：BAM宣布已与Best和Johnson\"分道扬镳\"（系*双方协商*分离），并永久关闭Salem门店**；两人仍列为具名原告。（⚠ 所有来源——包括BAM自己的新闻稿——均将名字拼写为**\"Brandon\"**，而非\"Brendon\"。）",
+            "[OR SOS 注册编号 2332041-97](./media/community-sources.md) · [犹他州诉讼](./lawsuit/README.md) · [BAM\"分道扬镳\"公关稿（06/04）](./media/news-articles.md)"
+          ],
+          "plain": "**Brandon Best** • 与2024年后的门店运营（Baker Bricks）相关；**民事原告**。 • 同一所有人/经理措辞不一致。俄勒冈州务卿记录显示，他在前门店的Keizer地址以**\"Salem-Baker Bricks Inc.\"**（注册号2332041-97）的**总裁兼秘书**身份登记——注册日期为2024年11月15日，2026年1月行政解散。**2026年6月4日：BAM宣布已与Best和Johnson\"分道扬镳\"（系*双方协商*分离），并永久关闭Salem门店**；两人仍列为具名原告。（⚠ 所有来源——包括BAM自己的新闻稿——均将名字拼写为**\"Brandon\"**，而非\"Brendon\"。） • [OR SOS 注册编号 2332041-97](./media/community-sources.md) · [犹他州诉讼](./lawsuit/README.md) · [BAM\"分道扬镳\"公关稿（06/04）](./media/news-articles.md)"
+        },
+        {
+          "cells": [
+            "**Baker Bricks, LLC**",
+            "与过渡后门店运营相关联的实体；**民事原告**。",
+            "⚠ 诉讼中被命名为\"Baker Bricks, LLC\"；俄勒冈州登记机构中对应实体为**\"Salem-Baker Bricks Inc.\"**（Brandon Best，总裁/秘书；注册编号 2332041-97），地址为前门店的 Keizer 地址——注册日期为 2024年11月15日，2026年1月行政解散。其运营的 Salem 门店已于**2026年6月4日被 BAM 永久关闭**，此时 BAM 与 Best 及 Johnson 终止了合作关系。",
+            "[OR SOS 注册编号 2332041-97](./media/community-sources.md) · [犹他州诉讼](./lawsuit/README.md) · [BAM\"分道扬镳\"公关稿（06/04）](./media/news-articles.md)"
+          ],
+          "plain": "**Baker Bricks, LLC** • 与过渡后门店运营相关联的实体；**民事原告**。 • ⚠ 诉讼中被命名为\"Baker Bricks, LLC\"；俄勒冈州登记机构中对应实体为**\"Salem-Baker Bricks Inc.\"**（Brandon Best，总裁/秘书；注册编号 2332041-97），地址为前门店的 Keizer 地址——注册日期为 2024年11月15日，2026年1月行政解散。其运营的 Salem 门店已于**2026年6月4日被 BAM 永久关闭**，此时 BAM 与 Best 及 Johnson 终止了合作关系。 • [OR SOS 注册编号 2332041-97](./media/community-sources.md) · [犹他州诉讼](./lawsuit/README.md) · [BAM\"分道扬镳\"公关稿（06/04）](./media/news-articles.md)"
+        }
+      ]
+    },
+    {
+      "heading": "前加盟商——原萨勒姆/凯泽所有者（企业收购前）",
+      "columns": [
+        "姓名",
+        "公共职务",
+        "备注",
+        "来源"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "**Chrystal Law-Gorman**",
+            "萨勒姆-凯泽门店的特许经营登记人/运营者（约2023年2月至2024年11月）；2023年11月Mansell寄售协议签署方；**现作为原告对BAM提起**单独诉讼。",
+            "据报道，在获得特许经营权之前（约2023年2月——月份来自单一来源）*管理*该门店。她表示，特许经营商在未给予任何通知或补偿的情况下，\"以警察介入相威胁\"将她驱逐（TikTok，2026年5月26日——**ALLEGATION**）；她公开发布了合同条款，称该条款允许寄售，以此反驳BAM所称\"未经授权\"的定性。",
+            "[Techdirt / Salem Business Journal](./media/news-articles.md) · [合同反驳 (Instagram)](./media/primary-sources.md) · [Gorman夫妇的诉讼文件](./media/community-sources.md) · [Gorman夫妇的视频回应](https://www.youtube.com/watch?v=zedmOopRTm0)"
+          ],
+          "plain": "**Chrystal Law-Gorman** • 萨勒姆-凯泽门店的特许经营登记人/运营者（约2023年2月至2024年11月）；2023年11月Mansell寄售协议签署方；**现作为原告对BAM提起**单独诉讼。 • 据报道，在获得特许经营权之前（约2023年2月——月份来自单一来源）*管理*该门店。她表示，特许经营商在未给予任何通知或补偿的情况下，\"以警察介入相威胁\"将她驱逐（TikTok，2026年5月26日——**ALLEGATION**）；她公开发布了合同条款，称该条款允许寄售，以此反驳BAM所称\"未经授权\"的定性。 • [Techdirt / Salem Business Journal](./media/news-articles.md) · [合同反驳 (Instagram)](./media/primary-sources.md) · [Gorman夫妇的诉讼文件](./media/community-sources.md) · [Gorman夫妇的视频回应](https://www.youtube.com/watch?v=zedmOopRTm0)"
+        },
+        {
+          "cells": [
+            "**Benjamin (\"Ben\") Gorman**",
+            "Chrystal的合作者/配偶；BAM的共同索赔人。",
+            "另行经营**Not A Pipe Publishing**（俄勒冈州一家小型出版社）。据Techdirt报道，这对夫妇在被收购前曾联系BAM总部，商讨**出售或关闭**特许经营店事宜；BAM方面将此定性为Law宣布将**关闭**该店。**存在争议。**",
+            "[Techdirt](./media/news-articles.md) · [Gorman夫妇的诉讼文件](./media/community-sources.md) · [Gorman夫妇的GoFundMe](https://www.gofundme.com/f/help-us-fight-back-against-unfair-business-practices)"
+          ],
+          "plain": "**Benjamin (\"Ben\") Gorman** • Chrystal的合作者/配偶；BAM的共同索赔人。 • 另行经营**Not A Pipe Publishing**（俄勒冈州一家小型出版社）。据Techdirt报道，这对夫妇在被收购前曾联系BAM总部，商讨**出售或关闭**特许经营店事宜；BAM方面将此定性为Law宣布将**关闭**该店。**存在争议。** • [Techdirt](./media/news-articles.md) · [Gorman夫妇的诉讼文件](./media/community-sources.md) · [Gorman夫妇的GoFundMe](https://www.gofundme.com/f/help-us-fight-back-against-unfair-business-practices)"
+        }
+      ]
+    },
+    {
+      "heading": "执法机关／政府（仅限官方职务）",
+      "columns": [
+        "实体/官员",
+        "本案中的公众角色/行为",
+        "来源"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "**American Fork 警察局（AFPD）**",
+            "犹他州市政执法机构，负责逮捕施耐德并执行搜查令；系公众不当行为指控的对象（该机构对此提出异议）。",
+            "[AFPD发布文件 + 案件档案](./media/community-sources.md) · [警察争议](./police-controversy.md)"
+          ],
+          "plain": "**American Fork 警察局（AFPD）** • 犹他州市政执法机构，负责逮捕施耐德并执行搜查令；系公众不当行为指控的对象（该机构对此提出异议）。 • [AFPD发布文件 + 案件档案](./media/community-sources.md) · [警察争议](./police-controversy.md)"
+        },
+        {
+          "cells": [
+            "**Cameron Paul**",
+            "AFPD局长；以官方身份主导制作了约26分钟的部门官方视频声明，为该部门的行为进行辩护（仅代表官方职务）。",
+            "[AFPD媒体发布](https://www.youtube.com/watch?v=IcVmSQpIPRY) · [AFPD新闻发布](./media/community-sources.md)"
+          ],
+          "plain": "**Cameron Paul** • AFPD局长；以官方身份主导制作了约26分钟的部门官方视频声明，为该部门的行为进行辩护（仅代表官方职务）。 • [AFPD媒体发布](https://www.youtube.com/watch?v=IcVmSQpIPRY) · [AFPD新闻发布](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**McKay Valadez**",
+            "AFPD警官；回应了03/10/2026的投诉，在现场联系了Schneider，并撰写了指控其**跟踪骚扰**和**针对性住宅纠察**的probable-cause陈述。",
+            "AFPD案件 **26AF02033** — [已公开案件文件](./media/community-sources.md)"
+          ],
+          "plain": "**McKay Valadez** • AFPD警官；回应了03/10/2026的投诉，在现场联系了Schneider，并撰写了指控其**跟踪骚扰**和**针对性住宅纠察**的probable-cause陈述。 • AFPD案件 **26AF02033** — [已公开案件文件](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**Spencer Tonga**",
+            "AFPD警官；**提交**了Schneider 03/11/2026年跟踪逮捕的可能原因陈述书（由Det. Nicosia撰写），并担任相关**擅自闯入**报告的响应/报告警官。",
+            "AFPD案件 **26AF02066**、**26AF01974** — [案件档案](./media/community-sources.md)"
+          ],
+          "plain": "**Spencer Tonga** • AFPD警官；**提交**了Schneider 03/11/2026年跟踪逮捕的可能原因陈述书（由Det. Nicosia撰写），并担任相关**擅自闯入**报告的响应/报告警官。 • AFPD案件 **26AF02066**、**26AF01974** — [案件档案](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**Det. Nicosia**",
+            "AFPD侦探；**撰写**了针对Schneider于03/11/2026被捕的跟踪骚扰案的可能原因陈述（名字未见于记录）。",
+            "AFPD案件 **26AF02066** — [案件文件](./media/community-sources.md)"
+          ],
+          "plain": "**Det. Nicosia** • AFPD侦探；**撰写**了针对Schneider于03/11/2026被捕的跟踪骚扰案的可能原因陈述（名字未见于记录）。 • AFPD案件 **26AF02066** — [案件文件](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**Cole G. Richardson**",
+            "AFPD警官；犹他县第四地区法院搜查令宣誓书上的宣誓**陈述人**。",
+            "AFPD案件 **26AF02066** — [案件文件](./media/community-sources.md)"
+          ],
+          "plain": "**Cole G. Richardson** • AFPD警官；犹他县第四地区法院搜查令宣誓书上的宣誓**陈述人**。 • AFPD案件 **26AF02066** — [案件文件](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**S. Hawkins**",
+            "AFPD警官；**回应并撰写**了针对逮捕前住宅区活动的骚扰报告。",
+            "AFPD案件 **26AF02007** — [案件档案](./media/community-sources.md)"
+          ],
+          "plain": "**S. Hawkins** • AFPD警官；**回应并撰写**了针对逮捕前住宅区活动的骚扰报告。 • AFPD案件 **26AF02007** — [案件档案](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**RJ Bibeau**",
+            "AFPD警员；**响应**骚扰投诉的警员之一。",
+            "AFPD案件 **26AF02007** — [案件档案](./media/community-sources.md)"
+          ],
+          "plain": "**RJ Bibeau** • AFPD警员；**响应**骚扰投诉的警员之一。 • AFPD案件 **26AF02007** — [案件档案](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**K. Faughton** ⚠",
+            "AFPD警官；**回应**了骚扰投诉。⚠ 姓氏不确定（扫描件）。",
+            "AFPD案件 **26AF02007** — [案件档案](./media/community-sources.md)"
+          ],
+          "plain": "**K. Faughton** ⚠ • AFPD警官；**回应**了骚扰投诉。⚠ 姓氏不确定（扫描件）。 • AFPD案件 **26AF02007** — [案件档案](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**G. Mecham** ⚠",
+            "AFPD警官；**回应**了骚扰投诉。⚠ 姓氏不确定（扫描件）。",
+            "AFPD案件 **26AF02007** — [案件档案](./media/community-sources.md)"
+          ],
+          "plain": "**G. Mecham** ⚠ • AFPD警官；**回应**了骚扰投诉。⚠ 姓氏不确定（扫描件）。 • AFPD案件 **26AF02007** — [案件档案](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**M. Bishop**",
+            "AFPD警员；**接收/登记**了非法侵入报告（受理角色；可能为值班台/调度）。",
+            "AFPD案件 **26AF01974** — [案件档案](./media/community-sources.md)"
+          ],
+          "plain": "**M. Bishop** • AFPD警员；**接收/登记**了非法侵入报告（受理角色；可能为值班台/调度）。 • AFPD案件 **26AF01974** — [案件档案](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**H. Wood**",
+            "AFPD警员；**接收/记录**了骚扰报告（受理角色；可能为值班台/调度）。",
+            "AFPD案件 **26AF02007** — [案件档案](./media/community-sources.md)"
+          ],
+          "plain": "**H. Wood** • AFPD警员；**接收/记录**了骚扰报告（受理角色；可能为值班台/调度）。 • AFPD案件 **26AF02007** — [案件档案](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**塞勒姆（犹他州）警察局**",
+            "发表\"零参与\"公开声明的无关机构（因被误拨电话所致）。",
+            "[塞勒姆犹他州警察局帖子](./media/primary-sources.md)"
+          ],
+          "plain": "**塞勒姆（犹他州）警察局** • 发表\"零参与\"公开声明的无关机构（因被误拨电话所致）。 • [塞勒姆犹他州警察局帖子](./media/primary-sources.md)"
+        },
+        {
+          "cells": [
+            "**中央犹他州911**",
+            "报告呼叫激增及调度员遭受骚扰的地区调度主管部门。",
+            "[警察争议](./police-controversy.md)"
+          ],
+          "plain": "**中央犹他州911** • 报告呼叫激增及调度员遭受骚扰的地区调度主管部门。 • [警察争议](./police-controversy.md)"
+        },
+        {
+          "cells": [
+            "**犹他县监狱**",
+            "犹他县治安官办公室预订设施（Schneider被收押处）。",
+            "[AFPD案件档案](./media/community-sources.md)"
+          ],
+          "plain": "**犹他县监狱** • 犹他县治安官办公室预订设施（Schneider被收押处）。 • [AFPD案件档案](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**基泽市（俄勒冈州）警察局 / 马里恩县地方检察官**",
+            "负责开展/审查俄勒冈州调查。",
+            "[警察争议](./police-controversy.md) · [时间线](./timeline.md)"
+          ],
+          "plain": "**基泽市（俄勒冈州）警察局 / 马里恩县地方检察官** • 负责开展/审查俄勒冈州调查。 • [警察争议](./police-controversy.md) · [时间线](./timeline.md)"
+        }
+      ]
+    },
+    {
+      "heading": "背景实体（非诉讼当事方）",
+      "columns": [
+        "姓名",
+        "公共职务",
+        "备注",
+        "来源"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "**Legally Mine, LLC**",
+            "犹他州资产保护公司；**非本案当事方**。持有450,000股BAM Franchising股份（已质押为担保品）。",
+            "Ammon与Matt McNeff曾担任总裁/市场营销副总裁职务（2011–2020，据FDD记载）；**Daniel McNeff**为其唯一成员/管理人。",
+            "[BAM FDD 第2条](./media/community-sources.md) · [犹他州 UCC-11](./media/community-sources.md) · [俄亥俄州非法执业令](./media/community-sources.md)"
+          ],
+          "plain": "**Legally Mine, LLC** • 犹他州资产保护公司；**非本案当事方**。持有450,000股BAM Franchising股份（已质押为担保品）。 • Ammon与Matt McNeff曾担任总裁/市场营销副总裁职务（2011–2020，据FDD记载）；**Daniel McNeff**为其唯一成员/管理人。 • [BAM FDD 第2条](./media/community-sources.md) · [犹他州 UCC-11](./media/community-sources.md) · [俄亥俄州非法执业令](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**Daniel McNeff**",
+            "Legally Mine的唯一成员/管理人；**不是乐高诉讼的当事方**。",
+            "共同债务人（与Legally Mine共同），依据2021年和解协议/票据对Ammon & Matt McNeff负债约$1,728,000；无照执法被申请人（俄亥俄州最高法院2025-0037）。",
+            "[俄亥俄州非法执业令](./media/community-sources.md) · [犹他州UCC-11](./media/community-sources.md) · [McNeff v. McNeff（犹他州联邦地区法院）](./media/community-sources.md)"
+          ],
+          "plain": "**Daniel McNeff** • Legally Mine的唯一成员/管理人；**不是乐高诉讼的当事方**。 • 共同债务人（与Legally Mine共同），依据2021年和解协议/票据对Ammon & Matt McNeff负债约$1,728,000；无照执法被申请人（俄亥俄州最高法院2025-0037）。 • [俄亥俄州非法执业令](./media/community-sources.md) · [犹他州UCC-11](./media/community-sources.md) · [McNeff v. McNeff（犹他州联邦地区法院）](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**John Masek**",
+            "Legally Mine的有担保债权人；**非本案当事方**。",
+            "持有Legally Mine公司450,000股BAM Franchising股份的担保权益（2020年UCC-1申报）。",
+            "[犹他州UCC-11](./media/community-sources.md)"
+          ],
+          "plain": "**John Masek** • Legally Mine的有担保债权人；**非本案当事方**。 • 持有Legally Mine公司450,000股BAM Franchising股份的担保权益（2020年UCC-1申报）。 • [犹他州UCC-11](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**大卫·奥尔蒂斯**",
+            "Legally Mine的有担保债权人；同时也是BAM的\"特许经营销售商\"；**非本案当事方**。",
+            "与Masek共同担保方（就Legally Mine的45万股BAM股份）；列于BAM的FDD特许经营销售商名单中。",
+            "[犹他州UCC-11](./media/community-sources.md) · [BAM特许经营披露文件](./media/community-sources.md)"
+          ],
+          "plain": "**大卫·奥尔蒂斯** • Legally Mine的有担保债权人；同时也是BAM的\"特许经营销售商\"；**非本案当事方**。 • 与Masek共同担保方（就Legally Mine的45万股BAM股份）；列于BAM的FDD特许经营销售商名单中。 • [犹他州UCC-11](./media/community-sources.md) · [BAM特许经营披露文件](./media/community-sources.md)"
+        }
+      ]
+    }
+  ]
+}

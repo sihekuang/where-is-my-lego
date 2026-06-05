@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
-import { SITE_URL } from "@/lib/seo";
+import { SITE_URL, localizedPath } from "@/lib/seo";
 import { generatedMtime } from "@/lib/content";
+import { LOCALES, DEFAULT_LOCALE } from "@/lib/locales.mjs";
 
 type Entry = {
   path: string;
@@ -22,10 +23,22 @@ const ROUTES: Entry[] = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return ROUTES.map((r) => ({
-    url: `${SITE_URL}${r.path}`,
-    lastModified: generatedMtime(r.file),
-    changeFrequency: r.changeFrequency,
-    priority: r.priority,
-  }));
+  const entries: MetadataRoute.Sitemap = [];
+  for (const r of ROUTES) {
+    const lastModified = generatedMtime(r.file);
+    // Every locale version of this route lists the full hreflang set (incl. x-default).
+    const languages: Record<string, string> = {};
+    for (const l of LOCALES) languages[l.hreflang] = `${SITE_URL}${localizedPath(l.code, r.path)}`;
+    languages["x-default"] = `${SITE_URL}${localizedPath(DEFAULT_LOCALE, r.path)}`;
+    for (const l of LOCALES) {
+      entries.push({
+        url: `${SITE_URL}${localizedPath(l.code, r.path)}`,
+        lastModified,
+        changeFrequency: r.changeFrequency,
+        priority: r.priority,
+        alternates: { languages },
+      });
+    }
+  }
+  return entries;
 }

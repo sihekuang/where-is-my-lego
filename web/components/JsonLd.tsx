@@ -14,7 +14,7 @@ export function JsonLd({ data }: { data: object }) {
   );
 }
 
-type Props = { title: string; description: string; path: string; dateModified?: string };
+type Props = { title: string; description: string; path: string; dateModified?: string; locale?: string };
 export function PageStructuredData(props: Props) {
   return <JsonLd data={pageJsonLd(props)} />;
 }

@@ -1,0 +1,357 @@
+{
+  "nodes": [
+    {
+      "id": "bryan-mansell",
+      "label": "Bryan Mansell",
+      "role": "Propietario de la colección / consignador",
+      "statement": "Actuó junto con Schneider para recuperar la colección."
+    },
+    {
+      "id": "mansell-father",
+      "label": "El padre de Mansell",
+      "role": "Copropietario de la colección (~83)"
+    },
+    {
+      "id": "chrystal-law-gorman",
+      "label": "Chrystal Law-Gorman",
+      "role": "Exoperador de franquicia / signatario",
+      "statement": "Dice que el contrato permitía la consignación."
+    },
+    {
+      "id": "ben-gorman",
+      "label": "Benjamin (Ben) Gorman",
+      "role": "Expareja / cónyuge de Chrystal",
+      "statement": "Dirige Not A Pipe Publishing; dice que BAM incumplió primero."
+    },
+    {
+      "id": "ben-schneider",
+      "label": "Imprudente Ben (Schneider)",
+      "role": "YouTuber / investigador autoproclamado",
+      "statement": "Dice que fue a entregar documentos legales; alega mala conducta policial."
+    },
+    {
+      "id": "reckless-ben-llc",
+      "label": "Reckless Ben LLC",
+      "role": "Entidad mediática/empresarial de Schneider"
+    },
+    {
+      "id": "victor-nguyen",
+      "label": "Victor Nguyen",
+      "role": "Asociado de Schneider (demandado)"
+    },
+    {
+      "id": "bam-franchising",
+      "label": "BAM Franchising",
+      "role": "Franquiciador / empresa matriz (demandante)",
+      "statement": "Niega el robo/conducta indebida; ofreció mediación."
+    },
+    {
+      "id": "ammon-mcneff",
+      "label": "Ammon McNeff",
+      "role": "Director Ejecutivo, Bricks & Minifigs (demandante)",
+      "statement": "Se disculpó públicamente; rechaza los cargos de robo/conspiración."
+    },
+    {
+      "id": "matt-mcneff",
+      "label": "Matt McNeff",
+      "role": "COO / copropietario (demandante)"
+    },
+    {
+      "id": "josh-johnson",
+      "label": "Josh Johnson",
+      "role": "Trabaja para BAM como agente corporativo (vendedor de franquicias según el FDD), no como empleado confirmado; denunciante penal",
+      "statement": "El FDD lo menciona entre los \"franchise sellers\" de BAM; las etiquetas anteriores de \"new owner / manager / employee\" eran inconsistentes. 4 de jun de 2026: BAM \"parted ways\" con él (separación mutua) y cerró la tienda de Salem; sigue siendo demandante nombrado."
+    },
+    {
+      "id": "brandon-best",
+      "label": "Brandon Best",
+      "role": "Vinculado a la operación de la tienda (demandante)",
+      "statement": "4 de jun de 2026: BAM \"se separó\" de él (separación mutua) y cerró permanentemente la tienda de Salem; sigue siendo demandante nominado. (Se escribe \"Brandon,\" no \"Brendon.\")"
+    },
+    {
+      "id": "baker-bricks",
+      "label": "Baker Bricks",
+      "role": "Entidad vinculada a la operación de la tienda (Best)",
+      "statement": "⚠ Nombrada \"Baker Bricks, LLC\" en la demanda; el Registro del Secretario de Estado de Oregón muestra \"Salem-Baker Bricks Inc.\" (Brandon Best, Pres/Sec; reg. 2332041-97) en la dirección de la antigua tienda en Keizer — disuelta administrativamente en enero de 2026. Tienda de Salem cerrada permanentemente por BAM el 4 de junio de 2026."
+    },
+    {
+      "id": "legally-mine",
+      "label": "Legally Mine, LLC",
+      "role": "Empresa de protección de activos de Utah; Ammon (Pres.) y Matt (VP de Mktg) McNeff ocuparon cargos aquí de 2011 a 2020 (según el FDD de BAM)",
+      "statement": "⚠ El hallazgo de ejercicio ilegal de la abogacía de la Corte Suprema de Ohio de 2025 (Caso 2025-0037) nombra a un McNeff *diferente* — **Daniel** — como su único miembro/gerente; no confundir con Ammon/Matt."
+    },
+    {
+      "id": "daniel-mcneff",
+      "label": "Daniel McNeff",
+      "role": "Legally Mine miembro único/gerente",
+      "statement": "Codeudor (junto con Legally Mine) en un acuerdo/pagaré de 2021 adeudado a Ammon & Matt McNeff; demandado por ejercicio ilegal de la abogacía (Ohio 2025-0037)."
+    },
+    {
+      "id": "john-masek",
+      "label": "John Masek",
+      "role": "Acreedor garantizado de Legally Mine",
+      "statement": "Tiene un interés de garantía en las 450,000 acciones de BAM Franchising de Legally Mine (UCC-1 de Utah, 2020)."
+    },
+    {
+      "id": "david-ortiz",
+      "label": "David Ortiz",
+      "role": "Acreedor garantizado de Legally Mine; vendedor de franquicia BAM",
+      "statement": "Co-parte asegurada (con Masek) en las 450k acciones de BAM de Legally Mine; figura entre los \"vendedores de franquicia\" de BAM (FDD)."
+    },
+    {
+      "id": "afpd",
+      "label": "American Fork PD",
+      "role": "Agencia de policía municipal",
+      "statement": "Publicó metraje de cámara corporal; defiende su conducta."
+    },
+    {
+      "id": "cameron-paul",
+      "label": "Cameron Paul",
+      "role": "Director de AFPD (en capacidad oficial)",
+      "statement": "Redactó el video declaratorio del departamento de ~26 minutos."
+    },
+    {
+      "id": "mckay-valadez",
+      "label": "McKay Valadez",
+      "role": "Oficial de la AFPD (que responde/acusa)",
+      "statement": "Respondió a la queja del 03/10/2026, contactó a Schneider en el lugar de los hechos y redactó la declaración de causa probable que lo acusa de acoso y piquete residencial dirigido (caso AFPD 26AF02033). Transcrito de registros escaneados de AFPD (OCR)."
+    },
+    {
+      "id": "spencer-tonga",
+      "label": "Spencer Tonga",
+      "role": "Oficial de la AFPD",
+      "statement": "Presentó la declaración de causa probable para el arresto de Schneider por acecho del 03/11/2026 (caso 26AF02066; redactada por el Det. Nicosia); también fue el oficial de respuesta/reporte en el informe de allanamiento relacionado (caso 26AF01974). Transcrito de registros escaneados del AFPD (OCR)."
+    },
+    {
+      "id": "det-nicosia",
+      "label": "Det. Nicosia",
+      "role": "Detective de la AFPD",
+      "statement": "Redactó la declaración de causa probable para el arresto de Schneider por acoso el 03/11/2026 (caso 26AF02066), que el Oficial Tonga presentó. Transcrito de registros escaneados de AFPD (OCR); el nombre de pila no consta en el registro."
+    },
+    {
+      "id": "cole-richardson",
+      "label": "Cole G. Richardson",
+      "role": "Oficial de la AFPD",
+      "statement": "Declarante bajo juramento en la declaración jurada para la orden de allanamiento en el caso de Schneider (caso 26AF02066), presentada en el Cuarto Tribunal de Distrito del Condado de Utah. Transcrito de registros escaneados de la AFPD (OCR)."
+    },
+    {
+      "id": "s-hawkins",
+      "label": "S. Hawkins",
+      "role": "Oficial de la AFPD (que responde)",
+      "statement": "Respondió y redactó el informe de acoso (caso 26AF02007) relacionado con la actividad residencial que precedió al arresto de Schneider. Transcrito de registros escaneados de la AFPD (OCR)."
+    },
+    {
+      "id": "rj-bibeau",
+      "label": "RJ Bibeau",
+      "role": "Oficial de la AFPD (que responde)",
+      "statement": "Uno de los agentes que respondió a la queja por acoso (caso 26AF02007) relacionada con la actividad de piquete residencial. Transcrito de registros escaneados de la AFPD (OCR)."
+    },
+    {
+      "id": "k-faughton",
+      "label": "K. Faughton",
+      "role": "Oficial de la AFPD (que responde)",
+      "statement": "Respondió a la queja de acoso (caso 26AF02007). ⚠ Apellido incierto — transcrito de un escaneo (OCR)."
+    },
+    {
+      "id": "g-mecham",
+      "label": "G. Mecham",
+      "role": "Oficial de la AFPD (que responde)",
+      "statement": "Respondió a la queja de acoso (caso 26AF02007). ⚠ Apellido incierto — transcrito de un escaneo (OCR)."
+    },
+    {
+      "id": "m-bishop",
+      "label": "M. Bishop",
+      "role": "Oficial de AFPD (admisión)",
+      "statement": "Se registró/recibió el reporte de invasión de propiedad (caso 26AF01974) relacionado con la actividad residencial — una función administrativa de recepción (posiblemente de escritorio/despacho). Transcrito de registros escaneados de la AFPD (OCR)."
+    },
+    {
+      "id": "h-wood",
+      "label": "H. Wood",
+      "role": "Oficial de AFPD (admisión)",
+      "statement": "Registró/recibió el reporte de acoso (caso 26AF02007) — un rol administrativo de recepción (posiblemente de escritorio/despacho). Transcrito de registros escaneados de la AFPD (OCR)."
+    }
+  ],
+  "edges": [
+    {
+      "label": "co-propietario de la colección"
+    },
+    {
+      "label": "colección consignada a (noviembre de 2023)"
+    },
+    {
+      "label": "tienda removida / recuperada"
+    },
+    {
+      "label": "tienda removida / recuperada"
+    },
+    {
+      "label": "casado/a con"
+    },
+    {
+      "label": "demandado (demanda separada)",
+      "note": "Incumplimiento de contrato, conversión, difamación, conspiración civil"
+    },
+    {
+      "label": "demandado (demanda separada)"
+    },
+    {
+      "label": "disputa publicada por"
+    },
+    {
+      "label": "es propietario de"
+    },
+    {
+      "label": "asociado"
+    },
+    {
+      "label": "CEO de"
+    },
+    {
+      "label": "Director de Operaciones de"
+    },
+    {
+      "label": "hermanos"
+    },
+    {
+      "label": "presidente de (2011–2020)",
+      "note": "Según el punto 2 del FDD de BAM \"Experiencia Empresarial\" (presentación ante el regulador estatal)."
+    },
+    {
+      "label": "VP de marketing de (2011–2020)",
+      "note": "Según el punto 2 del FDD de BAM."
+    },
+    {
+      "label": "único miembro/gerente de",
+      "note": "Según la orden de UPL del Tribunal Supremo de Ohio (2025-0037) y el UCC-1 de Utah de 2021."
+    },
+    {
+      "label": "posee 450k acciones de",
+      "note": "Pignorado como garantía en un UCC-1 de Utah de 2020 (expediente 200810703927-7) — es decir, Legally Mine es propietaria de acciones de BAM."
+    },
+    {
+      "label": "acciones de BAM pignoradas a (garantizadas)",
+      "note": "2020 UCC-1: 450k acciones de BAM Franchising como garantía."
+    },
+    {
+      "label": "acciones de BAM pignoradas a (garantizadas)",
+      "note": "2020 UCC-1: 450k acciones de BAM Franchising como garantía."
+    },
+    {
+      "label": "vendedor de franquicia para",
+      "note": "Listado entre los \"franchise sellers\" (vendedores de franquicia) de BAM en el FDD."
+    },
+    {
+      "label": "acreedor de la liquidación de 2021 de",
+      "note": "Acuerdo/pagaré de $1,728,000 garantizado por el 21% de Legally Mine (UCC 210216749881-3); resuelve McNeff v. McNeff (D. Utah 2:21-cv-00048)."
+    },
+    {
+      "label": "acreedor de la liquidación de 2021 de",
+      "note": "Mismo acuerdo/pagaré de 2021 (co-parte asegurada)."
+    },
+    {
+      "label": "sirvieron juntos como misioneros (2004)",
+      "note": "Según un recorte de periódico de 2004 encontrado por la comunidad (ver media/community-sources.md); detrás de un muro de pago — verifique antes de utilizarlo. La conexión profesional a continuación es la conexión mejor documentada."
+    },
+    {
+      "label": "vendedor de franquicia para",
+      "note": "El FDD lo lista como \"vendedor de franquicias\" de BAM — trabaja para BAM como agente corporativo, aunque no es un empleado asalariado confirmado."
+    },
+    {
+      "label": "exempleado de",
+      "note": "Reportado por la comunidad a través del FDD de Wisconsin (Director Ejecutivo de Reservas de Eventos, 2018–2020); no verificado de forma independiente."
+    },
+    {
+      "label": "vinculado a la operación de la tienda",
+      "note": "El rol en la tienda local está en disputa; el FDD lo lista como vendedor corporativo de franquicias de BAM, no como un principal de Baker Bricks."
+    },
+    {
+      "label": "opera"
+    },
+    {
+      "label": "se separó de (Jun 4, 2026)",
+      "note": "Separación mutua descrita por BAM; tienda de Salem cerrada permanentemente. Ambos siguen siendo demandantes nombrados."
+    },
+    {
+      "label": "se separó de (Jun 4, 2026)",
+      "note": "Separación mutua descrita por BAM; tienda de Salem cerrada permanentemente. Ambos siguen siendo demandantes nombrados."
+    },
+    {
+      "label": "arrestado (mar 2026)"
+    },
+    {
+      "label": "orden de registro ejecutada",
+      "note": "Devolución: ningún artículo incautado"
+    },
+    {
+      "label": "jefe de"
+    },
+    {
+      "label": "oficial en"
+    },
+    {
+      "label": "oficial en"
+    },
+    {
+      "label": "detective en"
+    },
+    {
+      "label": "oficial en"
+    },
+    {
+      "label": "oficial en"
+    },
+    {
+      "label": "oficial en"
+    },
+    {
+      "label": "oficial en",
+      "note": "⚠ Apellido incierto (OCR)."
+    },
+    {
+      "label": "oficial en",
+      "note": "⚠ Apellido incierto (OCR)."
+    },
+    {
+      "label": "oficial en"
+    },
+    {
+      "label": "oficial en"
+    },
+    {
+      "label": "declarante de causa probable vs",
+      "note": "Declaración de CP del 03/10 (acoso/acecho; piquete residencial dirigido). Registros de AFPD escaneados (OCR)."
+    },
+    {
+      "label": "declaración PC presentada contra",
+      "note": "Declaración PC de acoso del 03/11. Registros AFPD escaneados (OCR)."
+    },
+    {
+      "label": "escribió declaración de PC vs",
+      "note": "Declaración PC de acoso del 03/11. Registros AFPD escaneados (OCR)."
+    },
+    {
+      "label": "affiante de orden de allanamiento vs",
+      "note": "Declaración jurada para orden de allanamiento. Registros escaneados de la AFPD (OCR)."
+    },
+    {
+      "label": "denunciante penal vs"
+    },
+    {
+      "label": "demandado",
+      "note": "Número de caso no verificado (260402353 / 260400253)"
+    },
+    {
+      "label": "demandado"
+    },
+    {
+      "label": "demandado",
+      "note": "Codemandado nombrado (junto a Schneider, Reckless Ben LLC, Nguyen, Does 1–15) en la demanda presentada por BAM el 27 de mayo de 2026 en Utah, que alega una \"campaña coordinada de extorsión/acoso\" — las alegaciones subyacentes no han sido probadas. ⚠ 4 de jun de 2026: BAM indicó que está *dispuesto a hablar* sobre retirar la demanda contra Mansell y compensarlo íntegramente; no se ha presentado ningún desistimiento hasta la fecha de este registro (litigio pendiente). Mansell es, por separado, *demandante* en Oregon por la consignación no devuelta."
+    },
+    {
+      "label": "demandado"
+    },
+    {
+      "label": "alega que la colección no fue devuelta"
+    }
+  ]
+}

@@ -7,11 +7,15 @@ import { BrickTableFrame } from "@/components/brick/BrickTableFrame";
 
 export default function SectionedTable({
   data,
-  searchPlaceholder = "Search…",
+  labels,
+  searchPlaceholder,
 }: {
   data: Sectioned;
+  labels: Record<string, string>;
   searchPlaceholder?: string;
 }) {
+  const tt = (k: string) => labels[k] ?? k;
+  const placeholder = searchPlaceholder ?? tt("table.search");
   const [q, setQ] = useState("");
   const needle = q.trim().toLowerCase();
 
@@ -32,11 +36,13 @@ export default function SectionedTable({
     <div>
       <div className="my-2 flex flex-wrap items-center gap-3">
         <input className="min-w-[200px] flex-1 rounded-lg border-2 border-border bg-card px-3 py-2 text-sm"
-          placeholder={searchPlaceholder} value={q} onChange={(e) => setQ(e.target.value)} />
-        <p className="text-[13px] text-muted-foreground">{shown} of {total} entries</p>
+          placeholder={placeholder} value={q} onChange={(e) => setQ(e.target.value)} />
+        <p className="text-[13px] text-muted-foreground">
+          {tt("table.entries").replace("{shown}", String(shown)).replace("{total}", String(total))}
+        </p>
       </div>
 
-      {sections.length === 0 && <p className="text-muted-foreground">No matches.</p>}
+      {sections.length === 0 && <p className="text-muted-foreground">{tt("table.noMatches")}</p>}
 
       {sections.map((s, si) => (
         <section key={si} className="mt-6">

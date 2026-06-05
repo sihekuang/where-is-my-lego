@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { createContext, useContext, useEffect, useMemo, useState } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useTheme } from "next-themes";
@@ -9,22 +9,25 @@ import { CATEGORY_COLORS, SIDE_PALETTE, initialsDataUri, readableText } from "@/
 import { minifigDataUri } from "@/lib/minifig.mjs";
 import { BrickCard, type BrickVariant } from "@/components/brick/BrickCard";
 import { StudRow } from "@/components/brick/StudRow";
+import { Rich } from "@/components/Rich";
 
+type Labels = Record<string, string>;
+const tt = (labels: Labels, key: string) => labels[key] ?? key;
+
+// next/dynamic's `loading` element receives no props, so the localized loading text
+// is provided via context (set by RelationshipGraph, read by the loading fallback).
+const GraphLoadingContext = createContext("Loading graph…");
 const GraphCanvas = dynamic(() => import("./GraphCanvas"), {
   ssr: false,
-  loading: () => (
-    <div className="flex h-[720px] w-full items-center justify-center text-muted-foreground max-[640px]:h-[520px]">
-      Loading graph…
-    </div>
-  ),
+  loading: function GraphLoading() {
+    const text = useContext(GraphLoadingContext);
+    return (
+      <div className="flex h-[720px] w-full items-center justify-center text-muted-foreground max-[640px]:h-[520px]">
+        {text}
+      </div>
+    );
+  },
 });
-
-const SIDE_LABEL: Record<string, string> = {
-  plaintiff: "Plaintiff",
-  defendant: "Defendant",
-  official: "Official",
-  neutral: "Neutral",
-};
 
 // Map a party "side" to a brick top-edge accent for the detail card.
 const SIDE_VARIANT: Record<GraphNode["side"], BrickVariant> = {
@@ -53,7 +56,17 @@ function MinimizeIcon() {
   );
 }
 
-export default function RelationshipGraph({ data, rosterIds = [] }: { data: GraphData; rosterIds?: string[] }) {
+export default function RelationshipGraph({
+  data,
+  labels,
+  disclaimerHref,
+  rosterIds = [],
+}: {
+  data: GraphData;
+  labels: Labels;
+  disclaimerHref: string;
+  rosterIds?: string[];
+}) {
   const [hidden, setHidden] = useState<string[]>([]);
   const [showAllLabels, setShowAllLabels] = useState(false);
   const [query, setQuery] = useState("");
@@ -80,6 +93,7 @@ export default function RelationshipGraph({ data, rosterIds = [] }: { data: Grap
   }, [fullscreen]);
 
   return (
+    <GraphLoadingContext.Provider value={tt(labels, "graph.loading")}>
     <div
       className={`brick-card border-t-brick-blue text-brick-blue overflow-hidden ${
         fullscreen ? "fixed inset-0 z-50 m-0 flex flex-col rounded-none" : "my-2"
@@ -91,7 +105,7 @@ export default function RelationshipGraph({ data, rosterIds = [] }: { data: Grap
         <div className="flex flex-wrap items-center gap-2.5 border-b-2 border-border bg-muted px-3.5 py-3">
           <input
             className="min-w-[200px] flex-1 rounded-lg border-2 border-border bg-card px-3 py-2 text-sm"
-            placeholder="Search people, orgs, agencies…"
+            placeholder={tt(labels, "graph.search")}
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />
@@ -105,7 +119,7 @@ export default function RelationshipGraph({ data, rosterIds = [] }: { data: Grap
                 aria-pressed={!hidden.includes(c)}
               >
                 <span className="inline-block h-2.5 w-2.5 rounded-[3px]" style={{ background: CATEGORY_COLORS[c] }} />
-                {c}
+                {tt(labels, `cat.${c}`)}
               </button>
             ))}
           </div>
@@ -115,17 +129,17 @@ export default function RelationshipGraph({ data, rosterIds = [] }: { data: Grap
             onClick={() => setShowAllLabels((v) => !v)}
             aria-pressed={showAllLabels}
           >
-            Show all labels
+            {tt(labels, "graph.showLabels")}
           </button>
           <button
             type="button"
             className={chip}
             onClick={() => setFullscreen((v) => !v)}
             aria-pressed={fullscreen}
-            aria-label={fullscreen ? "Exit full screen" : "Full screen"}
+            aria-label={tt(labels, fullscreen ? "graph.exitFullscreen" : "graph.fullscreen")}
           >
             {fullscreen ? <MinimizeIcon /> : <MaximizeIcon />}
-            {fullscreen ? "Exit" : "Full screen"}
+            {tt(labels, fullscreen ? "graph.exit" : "graph.fullscreen")}
           </button>
         </div>
 
@@ -148,7 +162,7 @@ export default function RelationshipGraph({ data, rosterIds = [] }: { data: Grap
                     type="button"
                     className="absolute right-2.5 top-2 text-muted-foreground hover:text-foreground"
                     onClick={() => setSelected(null)}
-                    aria-label="Close"
+                    aria-label={tt(labels, "graph.close")}
                   >
                     ✕
                   </button>
@@ -166,7 +180,7 @@ export default function RelationshipGraph({ data, rosterIds = [] }: { data: Grap
                   />
                   <h3 className="mb-1.5 mt-3 text-base">{selected.label}</h3>
                   <span className="brick-badge" style={{ background: sideColor[selected.side], color: readableText(sideColor[selected.side]) }}>
-                    {SIDE_LABEL[selected.side]}
+                    {tt(labels, `side.${selected.side}`)}
                   </span>
                   {selected.role && <p className="mt-2.5 text-[13px] text-muted-foreground">{selected.role}</p>}
                   {selected.statement && (
@@ -175,11 +189,8 @@ export default function RelationshipGraph({ data, rosterIds = [] }: { data: Grap
                     </p>
                   )}
                   {rosterIds.includes(selected.id) && (
-                    <a
-                      className="mt-3 inline-block text-xs text-primary hover:underline"
-                      href={`#party-${selected.id}`}
-                    >
-                      ↓ View in roster
+                    <a className="mt-3 inline-block text-xs text-primary hover:underline" href={`#party-${selected.id}`}>
+                      {tt(labels, "graph.viewRoster")}
                     </a>
                   )}
                 </div>
@@ -190,25 +201,34 @@ export default function RelationshipGraph({ data, rosterIds = [] }: { data: Grap
 
         <div className="border-t-2 border-border px-3.5 py-2.5">
           <div className="flex flex-wrap gap-3.5 text-xs text-muted-foreground">
-            <span>● person</span>
-            <span>▢ org</span>
-            <span>◇ agency</span>
-            <span style={{ color: sideColor.plaintiff }}>● plaintiff</span>
-            <span style={{ color: sideColor.defendant }}>● defendant</span>
-            <span style={{ color: sideColor.official }}>● official/neutral</span>
+            <span>● {tt(labels, "graph.legend.person")}</span>
+            <span>▢ {tt(labels, "graph.legend.org")}</span>
+            <span>◇ {tt(labels, "graph.legend.agency")}</span>
+            <span style={{ color: sideColor.plaintiff }}>● {tt(labels, "graph.legend.plaintiff")}</span>
+            <span style={{ color: sideColor.defendant }}>● {tt(labels, "graph.legend.defendant")}</span>
+            <span style={{ color: sideColor.official }}>● {tt(labels, "graph.legend.officialNeutral")}</span>
           </div>
           <p className="mt-1.5 text-[11px] text-muted-foreground">
-            Imagery linked from public sources; private individuals shown as initials only. See{" "}
-            <Link href="/disclaimer" className="text-primary hover:underline">DISCLAIMER</Link>.
+            <Rich
+              text={tt(labels, "graph.imagery")}
+              tokens={{
+                disclaimer: (
+                  <Link href={disclaimerHref} className="text-primary hover:underline">
+                    {tt(labels, "graph.disclaimerLink")}
+                  </Link>
+                ),
+              }}
+            />
           </p>
         </div>
 
         <noscript>
           <p className="px-3.5 py-2.5 text-[11px] text-muted-foreground">
-            The interactive relationship graph requires JavaScript. The full roster is in the table below.
+            {tt(labels, "graph.noscript")}
           </p>
         </noscript>
       </div>
     </div>
+    </GraphLoadingContext.Provider>
   );
 }

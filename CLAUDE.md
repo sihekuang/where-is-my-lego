@@ -104,6 +104,23 @@ pnpm test     # runs derive-data.test + og-image.test + check-ui.test
   root Markdown that feeds structured views (`timeline.md`, `parties.md`, `relationships.md`), run
   `pnpm derive` (or `pnpm test`) to confirm it still parses.
 
+### Translations (i18n)
+
+The viewer is multilingual, but you still author content **once in English** (the root Markdown).
+Other languages are **machine-translated at build time, committed, and human-reviewed** — there are no
+parallel-language source files. After editing/merging English content, refresh the translations:
+
+```bash
+cd web && node --env-file=.env scripts/translate.mjs   # re-translates only what changed; bills the Anthropic API
+git add i18n && git commit
+```
+
+Only changed units are re-translated (per-unit SHA-256 drift), and **hand-corrections are
+drift-durable** — they survive re-seeds. Missing/stale translations fall back to English at render
+time, so the build never breaks on drift. **Full how-to (including adding a language and the review
+pass): [`web/i18n/README.md`](web/i18n/README.md).** `web/.env` holds `ANTHROPIC_API_KEY` and is
+gitignored — never commit it.
+
 ## Sourcing & labeling conventions (content)
 
 ### Two-agent independent verification (required)
