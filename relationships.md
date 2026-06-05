@@ -75,8 +75,8 @@ Role / Statement: optional short public captions for the node detail card.
 | josh-johnson | former employee of | legally-mine | corporate | → | ALLEGATION | Community-reported via the Wisconsin FDD (Exec. Event Booking Director, 2018–2020); not independently re-verified. |
 | josh-johnson | tied to store operation | baker-bricks | corporate | → | ALLEGATION | Local-store role contested; the FDD lists him as a BAM corporate franchise seller, not a Baker Bricks principal. |
 | brandon-best | operates | baker-bricks | corporate | → | CONFIRMED |  |
-| bam-franchising | parted ways with (Jun 4, 2026) | josh-johnson | corporate | → | CONFIRMED | Mutual separation; Salem store permanently closed. Both remain named plaintiffs. |
-| bam-franchising | parted ways with (Jun 4, 2026) | brandon-best | corporate | → | CONFIRMED | Mutual separation; Salem store permanently closed. Both remain named plaintiffs. |
+| bam-franchising | parted ways with (Jun 4, 2026) | josh-johnson | corporate | → | CONFIRMED | BAM-described mutual separation; Salem store permanently closed. Both remain named plaintiffs. |
+| bam-franchising | parted ways with (Jun 4, 2026) | brandon-best | corporate | → | CONFIRMED | BAM-described mutual separation; Salem store permanently closed. Both remain named plaintiffs. |
 | afpd | arrested (Mar 2026) | ben-schneider | law-enforcement | → | CONFIRMED |  |
 | afpd | executed search warrant | ben-schneider | law-enforcement | → | CONFIRMED | Return: no items seized |
 | cameron-paul | chief of | afpd | corporate | → | CONFIRMED |  |
