@@ -1,0 +1,356 @@
+{
+  "nodes": [
+    {
+      "id": "bryan-mansell",
+      "label": "Bryan Mansell",
+      "role": "收藏所有人／委託人",
+      "statement": "與 Schneider 共同採取行動以追回收藏品。"
+    },
+    {
+      "id": "mansell-father",
+      "label": "曼塞爾的父親",
+      "role": "收藏品共同所有人（約83歲）"
+    },
+    {
+      "id": "chrystal-law-gorman",
+      "label": "Chrystal Law-Gorman",
+      "role": "前特許經營業者／簽約人",
+      "statement": "表示合約允許寄售。"
+    },
+    {
+      "id": "ben-gorman",
+      "label": "Benjamin (Ben) Gorman",
+      "role": "前合作者／配偶，Chrystal 之前伴侶",
+      "statement": "經營 Not A Pipe Publishing；稱 BAM 率先違約。"
+    },
+    {
+      "id": "ben-schneider",
+      "label": "魯莽的班（施耐德）",
+      "role": "YouTuber／自封的調查者",
+      "statement": "稱其前往送達文書；指控警察瀆職。"
+    },
+    {
+      "id": "reckless-ben-llc",
+      "label": "Reckless Ben LLC",
+      "role": "施耐德的媒體／商業實體"
+    },
+    {
+      "id": "victor-nguyen",
+      "label": "Victor Nguyen",
+      "role": "Schneider（被告）的同夥"
+    },
+    {
+      "id": "bam-franchising",
+      "label": "BAM 特許經營",
+      "role": "特許經營商／母公司（原告）",
+      "statement": "否認竊盜／不當行為；提出調解。"
+    },
+    {
+      "id": "ammon-mcneff",
+      "label": "Ammon McNeff",
+      "role": "執行長，Bricks & Minifigs（原告）",
+      "statement": "公開道歉；否認盜竊／共謀指控。"
+    },
+    {
+      "id": "matt-mcneff",
+      "label": "Matt McNeff",
+      "role": "營運長／共同所有人（原告）"
+    },
+    {
+      "id": "josh-johnson",
+      "label": "Josh Johnson",
+      "role": "以企業代理人（FDD「加盟銷售人員」）身分為 BAM 工作，非經確認之正式員工；刑事告訴人",
+      "statement": "FDD將他列為BAM的「特許經銷商」；早先「新業主／經理／員工」等標籤前後不一致。2026年6月4日：BAM與他「分道揚鑣」（雙方合意分離），並關閉了Salem門市；他仍為具名原告。"
+    },
+    {
+      "id": "brandon-best",
+      "label": "Brandon Best",
+      "role": "與商店營運相關（原告）",
+      "statement": "2026年6月4日：BAM 與他「分道揚鑣」（雙方協議離職），並永久關閉塞勒姆門市；仍為具名原告。（拼寫為「Brandon」，而非「Brendon」。）"
+    },
+    {
+      "id": "baker-bricks",
+      "label": "Baker Bricks",
+      "role": "與該店鋪營運相關的實體（Best）",
+      "statement": "⚠ 訴訟中名稱為「Baker Bricks, LLC」；OR州務卿記錄顯示「Salem-Baker Bricks Inc.」（Brandon Best，總裁／秘書；登記號 2332041-97）地址為前門市之 Keizer 地址——已於 2026 年 1 月行政解散。Salem 門市由 BAM 於 2026 年 6 月 4 日永久關閉。"
+    },
+    {
+      "id": "legally-mine",
+      "label": "Legally Mine, LLC",
+      "role": "猶他州資產保護公司；Ammon（總裁）與 Matt（行銷副總裁）McNeff 於 2011–2020 年間在此擔任職務（依據 BAM FDD）",
+      "statement": "⚠ 2025年俄亥俄州最高法院非法執業裁定（案號 2025-0037）所指名的 McNeff 是另一人——**Daniel**——為其唯一成員／管理人；請勿與 Ammon／Matt 混淆。"
+    },
+    {
+      "id": "daniel-mcneff",
+      "label": "Daniel McNeff",
+      "role": "Legally Mine 唯一成員／管理人",
+      "statement": "與Legally Mine共同債務人，涉及2021年和解協議／票據，欠款對象為Ammon & Matt McNeff；未經授權執業法律被申訴人（俄亥俄州 2025-0037）。"
+    },
+    {
+      "id": "john-masek",
+      "label": "John Masek",
+      "role": "Legally Mine 的擔保債權人",
+      "statement": "持有 Legally Mine 的 450,000 股 BAM Franchising 股份之擔保權益（2020 年猶他州 UCC-1）。"
+    },
+    {
+      "id": "david-ortiz",
+      "label": "David Ortiz",
+      "role": "Legally Mine 的有擔保債權人；BAM 特許經營權賣方",
+      "statement": "與 Masek 共同擔任 Legally Mine 450k BAM 股份之共同擔保方；列於 BAM「特許經銷商」名單中（FDD）。"
+    },
+    {
+      "id": "afpd",
+      "label": "美國福克警察局",
+      "role": "市立警察機關",
+      "statement": "公布隨身攝影機畫面；為其行為辯護。"
+    },
+    {
+      "id": "cameron-paul",
+      "label": "Cameron Paul",
+      "role": "AFPD 首長（職務身分）",
+      "statement": "撰寫了約26分鐘的部門影片聲明。"
+    },
+    {
+      "id": "mckay-valadez",
+      "label": "McKay Valadez",
+      "role": "警察局警員（回應／提告）",
+      "statement": "回應了 03/10/2026 的投訴，在現場聯繫了 Schneider，並撰寫了指控其跟蹤騷擾及針對性住宅前糾察（AFPD 案號 26AF02033）的相當理由陳述書。轉錄自 AFPD 掃描紀錄（OCR）。"
+    },
+    {
+      "id": "spencer-tonga",
+      "label": "Spencer Tonga",
+      "role": "空軍人事指揮部軍官",
+      "statement": "提交了 Schneider 於 03/11/2026 遭逮捕之跟蹤騷擾案的相當理由陳述書（案號 26AF02066；由 Det. Nicosia 撰寫）；亦為相關侵入他人不動產報告（案號 26AF01974）之出勤／製作報告員警。轉錄自 AFPD 掃描檔案（OCR）。"
+    },
+    {
+      "id": "det-nicosia",
+      "label": "尼科西亞偵探",
+      "role": "空軍憲兵部隊偵探",
+      "statement": "為 Schneider 於 03/11/2026 跟蹤騷擾逮捕案（案號 26AF02066）撰寫相當理由陳述書，由 Ofc. Tonga 提交。轉錄自 AFPD 掃描檔案（OCR）；名字未見於記錄中。"
+    },
+    {
+      "id": "cole-richardson",
+      "label": "Cole G. Richardson",
+      "role": "空軍人事指揮部軍官",
+      "statement": "在施耐德案（案號26AF02066）搜查令宣誓書上的宣誓陳述人，該宣誓書已提交至猶他縣第四地區法院。轉錄自掃描的AFPD檔案（OCR）。"
+    },
+    {
+      "id": "s-hawkins",
+      "label": "S. Hawkins",
+      "role": "空軍特別調查辦公室官員（回應方）",
+      "statement": "回應並撰寫了與Schneider被捕前住宅活動相關的騷擾報告（案號26AF02007）。轉錄自掃描的AFPD檔案（OCR）。"
+    },
+    {
+      "id": "rj-bibeau",
+      "label": "RJ Bibeau",
+      "role": "空軍特別調查辦公室官員（回應方）",
+      "statement": "回應與住宅示威活動相關之騷擾投訴（案號 26AF02007）的其中一名警員。轉錄自掃描之 AFPD 記錄（OCR）。"
+    },
+    {
+      "id": "k-faughton",
+      "label": "K. Faughton",
+      "role": "空軍特別調查辦公室官員（回應方）",
+      "statement": "已回應騷擾投訴（案號 26AF02007）。⚠ 姓氏不確定——係從掃描件（OCR）轉錄。"
+    },
+    {
+      "id": "g-mecham",
+      "label": "G. Mecham",
+      "role": "空軍特別調查辦公室官員（回應方）",
+      "statement": "已回應騷擾投訴（案號 26AF02007）。⚠ 姓氏不確定——係從掃描件（OCR）轉錄。"
+    },
+    {
+      "id": "m-bishop",
+      "label": "M. Bishop",
+      "role": "AFPD 官員（接案）",
+      "statement": "記錄／受理非法侵入報案（案號26AF01974），涉及住宅活動——行政收件角色（可能為櫃台／派遣）。轉錄自掃描之AFPD檔案（OCR）。"
+    },
+    {
+      "id": "h-wood",
+      "label": "H. Wood",
+      "role": "AFPD 官員（接案）",
+      "statement": "登錄／受理騷擾投訴（案號 26AF02007）——行政收件角色（可能為櫃台／調度）。轉錄自掃描之 AFPD 紙本記錄（OCR）。"
+    }
+  ],
+  "edges": [
+    {
+      "label": "共同擁有館藏"
+    },
+    {
+      "label": "委託收藏至（2023年11月）"
+    },
+    {
+      "label": "已移除／收回的門市"
+    },
+    {
+      "label": "已移除／收回的門市"
+    },
+    {
+      "label": "已婚於"
+    },
+    {
+      "label": "被起訴（另案）",
+      "note": "違反契約、侵占（轉換財產）、誹謗、民事共謀"
+    },
+    {
+      "label": "被起訴（另案）"
+    },
+    {
+      "label": "公開爭議關於"
+    },
+    {
+      "label": "擁有"
+    },
+    {
+      "label": "合夥人"
+    },
+    {
+      "label": "執行長，任職於"
+    },
+    {
+      "label": "的營運長"
+    },
+    {
+      "label": "兄弟"
+    },
+    {
+      "label": "總統（2011–2020）",
+      "note": "依據 BAM FDD 第2項「業務經驗」（州監管機關申報文件）。"
+    },
+    {
+      "label": "行銷副總裁（2011–2020）",
+      "note": "依照BAM FDD第2項。"
+    },
+    {
+      "label": "唯一成員／管理人",
+      "note": "依據俄亥俄州最高法院UPL命令（2025-0037）及2021年猶他州UCC-1。"
+    },
+    {
+      "label": "持有45萬股",
+      "note": "於2020年猶他州UCC-1（檔案編號200810703927-7）中質押為擔保品——即Legally Mine擁有BAM股票。"
+    },
+    {
+      "label": "將BAM股份質押給（擔保）",
+      "note": "2020年統一商業法典第1條融資聲明：以45萬股 BAM Franchising 股份作為擔保品。"
+    },
+    {
+      "label": "將BAM股份質押給（擔保）",
+      "note": "2020年統一商業法典第1條融資聲明：以45萬股 BAM Franchising 股份作為擔保品。"
+    },
+    {
+      "label": "特許經營授權賣方，代表",
+      "note": "列於BAM加盟披露文件（FDD）中的「特許經銷商」。"
+    },
+    {
+      "label": "2021年和解債權人，屬於",
+      "note": "以1,728,000美元和解／票據，以Legally Mine公司21%股權擔保（UCC 210216749881-3）；解決McNeff v. McNeff案（美國猶他州地方法院，案號2:21-cv-00048）。"
+    },
+    {
+      "label": "2021年和解債權人，屬於",
+      "note": "同一2021年和解/票據（共同擔保方）。"
+    },
+    {
+      "label": "共同擔任傳教士（2004）",
+      "note": "根據社群發掘的2004年報紙剪報（見 media/community-sources.md）；設有付費牆——使用前請先查證。以下的職業關聯是有較完整文件佐證的連結。"
+    },
+    {
+      "label": "特許經營授權賣方，代表",
+      "note": "FDD將其列為BAM的「特許經營銷售員」——以企業代理人身份為BAM工作，但並非經確認的受薪員工。"
+    },
+    {
+      "label": "前員工（隸屬於）",
+      "note": "透過威斯康辛州 FDD（執行活動預訂總監，2018–2020）由社群回報；未經獨立重新核實。"
+    },
+    {
+      "label": "與商店營運相關",
+      "note": "加盟披露文件（FDD）將其列為 BAM 企業加盟銷售人員，而非 Baker Bricks 主要負責人，其本地門市角色因此受到質疑。"
+    },
+    {
+      "label": "營運"
+    },
+    {
+      "label": "於（2026年6月4日）分道揚鑣",
+      "note": "BAM描述為雙方合意分離；Salem分店永久關閉。兩人仍列為具名原告。"
+    },
+    {
+      "label": "於（2026年6月4日）分道揚鑣",
+      "note": "BAM描述為雙方合意分離；Salem分店永久關閉。兩人仍列為具名原告。"
+    },
+    {
+      "label": "遭逮捕（2026年3月）"
+    },
+    {
+      "label": "執行搜索令",
+      "note": "返還：未沒收任何物品"
+    },
+    {
+      "label": "首席"
+    },
+    {
+      "label": "於……任職軍官"
+    },
+    {
+      "label": "於……任職軍官"
+    },
+    {
+      "label": "偵探在"
+    },
+    {
+      "label": "於……任職軍官"
+    },
+    {
+      "label": "於……任職軍官"
+    },
+    {
+      "label": "於……任職軍官"
+    },
+    {
+      "label": "於……任職軍官",
+      "note": "⚠ 姓氏不確定（OCR）。"
+    },
+    {
+      "label": "於……任職軍官",
+      "note": "⚠ 姓氏不確定（OCR）。"
+    },
+    {
+      "label": "於……任職軍官"
+    },
+    {
+      "label": "於……任職軍官"
+    },
+    {
+      "label": "相當理由宣誓書陳述人對",
+      "note": "03/10 PC 聲明（跟蹤騷擾；針對性住宅示威抗議）。已掃描聯邦公設辯護人辦公室記錄（OCR）。"
+    },
+    {
+      "label": "提交的 PC 聲明 對比",
+      "note": "03/11 跟蹤騷擾警察陳述。掃描AFPD紀錄（OCR）。"
+    },
+    {
+      "label": "撰寫個人陳述書，反對",
+      "note": "03/11 跟蹤騷擾警察陳述。掃描AFPD紀錄（OCR）。"
+    },
+    {
+      "label": "搜索令宣誓人訴",
+      "note": "搜索令宣誓書。已掃描之聯邦公設辯護人辦公室紀錄（OCR辨識）。"
+    },
+    {
+      "label": "刑事告訴人對"
+    },
+    {
+      "label": "被起訴",
+      "note": "案號未經驗證（260402353 / 260400253）"
+    },
+    {
+      "label": "被起訴"
+    },
+    {
+      "label": "被起訴"
+    },
+    {
+      "label": "被起訴"
+    },
+    {
+      "label": "聲稱收藏品未被歸還"
+    }
+  ]
+}

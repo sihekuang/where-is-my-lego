@@ -10,6 +10,6 @@ export default async function Image({ params }: { params: Promise<{ locale: stri
   const labels = getDictObject(locale);
   const title = labels["og.lawsuit"];
   const tagline = labels["og.tagline"];
-  const cjkFont = getLocale(locale)?.isCJK ? await loadOgCjkFont(title, tagline) : null;
+  const cjkFont = getLocale(locale)?.isCJK ? await loadOgCjkFont(title, tagline, getLocale(locale)?.ogFont) : null;
   return renderOgImage(title, { tagline, cjkFont });
 }

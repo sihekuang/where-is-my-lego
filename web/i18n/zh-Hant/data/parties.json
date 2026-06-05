@@ -1,0 +1,359 @@
+{
+  "sections": [
+    {
+      "heading": "收藏品所有人（委託寄售人）",
+      "columns": [
+        "姓名",
+        "公職角色",
+        "備註",
+        "來源"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "**Bryan Mansell**",
+            "收藏品所有人／委託寄售人；俄勒岡州民事原告；猶他州BAM訴訟中的**民事被告**。",
+            "與Schneider合作追回收藏品。GoFundMe的受益人。",
+            "[Collecting Weekly / Ben 的調查](./media/primary-sources.md) · [Mansell GoFundMe](https://www.gofundme.com/f/help-bryan-recover-his-lego-collection) · [猶他州與奧勒岡州訴訟文件](./media/community-sources.md) · [訴訟摘要](./lawsuit/README.md)"
+          ],
+          "plain": "**Bryan Mansell** • 收藏品所有人／委託寄售人；俄勒岡州民事原告；猶他州BAM訴訟中的**民事被告**。 • 與Schneider合作追回收藏品。GoFundMe的受益人。 • [Collecting Weekly / Ben 的調查](./media/primary-sources.md) · [Mansell GoFundMe](https://www.gofundme.com/f/help-bryan-recover-his-lego-collection) · [猶他州與奧勒岡州訴訟文件](./media/community-sources.md) · [訴訟摘要](./lawsuit/README.md)"
+        },
+        {
+          "cells": [
+            "**曼塞爾的父親**",
+            "收藏品的共同所有人（據報約83歲）。",
+            "未收集進一步的個人資料。",
+            "[Ben的報導](./media/primary-sources.md) · [新聞報導](./media/news-articles.md)"
+          ],
+          "plain": "**曼塞爾的父親** • 收藏品的共同所有人（據報約83歲）。 • 未收集進一步的個人資料。 • [Ben的報導](./media/primary-sources.md) · [新聞報導](./media/news-articles.md)"
+        }
+      ]
+    },
+    {
+      "heading": "魯莽本／調查員方",
+      "columns": [
+        "姓名",
+        "公職角色",
+        "備註",
+        "來源"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "**Benjamin \"Reckless Ben\" Schneider**",
+            "YouTuber／自封調查者，將此糾紛公開披露；**刑事被告**（猶他州輕罪）及**民事被告**。",
+            "預訂姓名登記為 Benjamin Paul Schneider。表示其前往猶他州送達民事文件；指稱警察不當行為；表示其後離境前往墨西哥。",
+            "[Ben的YouTube上傳內容與出鏡紀錄](./media/primary-sources.md) · [AFPD案件檔案（26AF02033 / 26AF02066）](./media/community-sources.md) · [猶他州訴訟](./lawsuit/README.md)"
+          ],
+          "plain": "**Benjamin \"Reckless Ben\" Schneider** • YouTuber／自封調查者，將此糾紛公開披露；**刑事被告**（猶他州輕罪）及**民事被告**。 • 預訂姓名登記為 Benjamin Paul Schneider。表示其前往猶他州送達民事文件；指稱警察不當行為；表示其後離境前往墨西哥。 • [Ben的YouTube上傳內容與出鏡紀錄](./media/primary-sources.md) · [AFPD案件檔案（26AF02033 / 26AF02066）](./media/community-sources.md) · [猶他州訴訟](./lawsuit/README.md)"
+        },
+        {
+          "cells": [
+            "**Reckless Ben LLC**",
+            "許奈德的媒體／商業實體；被列為**民事被告**。",
+            "—",
+            "[猶他州訴狀](./lawsuit/README.md)"
+          ],
+          "plain": "**Reckless Ben LLC** • 許奈德的媒體／商業實體；被列為**民事被告**。 • — • [猶他州訴狀](./lawsuit/README.md)"
+        },
+        {
+          "cells": [
+            "**Victor Nguyen**",
+            "施耐德的關係人；被列為**民事被告**。",
+            "現有二手報導中未明確說明具體職務。",
+            "[猶他州投訴](./lawsuit/README.md) · [\"與Victor的播客\"](./media/primary-sources.md)"
+          ],
+          "plain": "**Victor Nguyen** • 施耐德的關係人；被列為**民事被告**。 • 現有二手報導中未明確說明具體職務。 • [猶他州投訴](./lawsuit/README.md) · [\"與Victor的播客\"](./media/primary-sources.md)"
+        },
+        {
+          "cells": [
+            "**第1至15名被告**",
+            "未經確認的其他**民事被告**。",
+            "—",
+            "[猶他州訴狀封面](./lawsuit/README.md)"
+          ],
+          "plain": "**第1至15名被告** • 未經確認的其他**民事被告**。 • — • [猶他州訴狀封面](./lawsuit/README.md)"
+        }
+      ]
+    },
+    {
+      "heading": "Bricks & Minifigs／特許加盟總部方",
+      "columns": [
+        "姓名",
+        "公職角色",
+        "備註",
+        "來源"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "**BAM Franchising, LLC**",
+            "Bricks & Minifigs 的特許經營商／母公司；**民事原告**。",
+            "從前任加盟商處收回Salem/Keizer門市。否認竊盜／不當行為。⚠ 法律形式：依據FDD，**BAM Franchising, Inc.** 現為**德拉瓦州**法人（於2024年4月18日合併；原為2011年成立之奧勒岡州法人），總部位於猶他州普若佛市；部分資料稱其為「LLC」（其加盟協議附件仍記載為「奧勒岡州法人」）。",
+            "[BAM FDD — 州特許經營監管機構（WI/CA/MN）](./media/community-sources.md) · [BAM 聲明與採訪](./media/primary-sources.md) · [GlobeNewswire 06/01](https://www.globenewswire.com/news-release/2026/06/01/3304463/0/en/Bricks-Minifigs-Issues-Comprehensive-Public-Statement-on-Salem-Oregon-Dispute-Reaffirms-Offer-to-Help-Mansell-Family.html)"
+          ],
+          "plain": "**BAM Franchising, LLC** • Bricks & Minifigs 的特許經營商／母公司；**民事原告**。 • 從前任加盟商處收回Salem/Keizer門市。否認竊盜／不當行為。⚠ 法律形式：依據FDD，**BAM Franchising, Inc.** 現為**德拉瓦州**法人（於2024年4月18日合併；原為2011年成立之奧勒岡州法人），總部位於猶他州普若佛市；部分資料稱其為「LLC」（其加盟協議附件仍記載為「奧勒岡州法人」）。 • [BAM FDD — 州特許經營監管機構（WI/CA/MN）](./media/community-sources.md) · [BAM 聲明與採訪](./media/primary-sources.md) · [GlobeNewswire 06/01](https://www.globenewswire.com/news-release/2026/06/01/3304463/0/en/Bricks-Minifigs-Issues-Comprehensive-Public-Statement-on-Salem-Oregon-Dispute-Reaffirms-Offer-to-Help-Mansell-Family.html)"
+        },
+        {
+          "cells": [
+            "**Ammon McNeff**",
+            "Bricks & Minifigs 執行長（2018年共同收購該品牌）；**民事原告**；公司發言人。",
+            "公開向 Mansell 家族道歉，提出調解，否認竊盜／共謀指控。依據 BAM 的加盟連鎖揭露文件，前任 **Legally Mine, LLC 總裁**（2011–2020）。",
+            "[BAM FDD 第2項（州監管機構申報）](./media/community-sources.md) · [ACOB 執行長訪談](https://www.youtube.com/watch?v=9dmR3Flk49k) · [Legally Mine 紀錄](./media/community-sources.md)"
+          ],
+          "plain": "**Ammon McNeff** • Bricks & Minifigs 執行長（2018年共同收購該品牌）；**民事原告**；公司發言人。 • 公開向 Mansell 家族道歉，提出調解，否認竊盜／共謀指控。依據 BAM 的加盟連鎖揭露文件，前任 **Legally Mine, LLC 總裁**（2011–2020）。 • [BAM FDD 第2項（州監管機構申報）](./media/community-sources.md) · [ACOB 執行長訪談](https://www.youtube.com/watch?v=9dmR3Flk49k) · [Legally Mine 紀錄](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**Matthew（\"Matt\"）McNeff**",
+            "營運長／共同所有人（Ammon 的兄弟）；**民事原告**。",
+            "根據BAM的FDD，曾任**Legally Mine, LLC行銷副總裁**（2011–2020）。",
+            "[BAM FDD 第2項](./media/community-sources.md) · [ACOB 營運長訪談](./media/community-sources.md)"
+          ],
+          "plain": "**Matthew（\"Matt\"）McNeff** • 營運長／共同所有人（Ammon 的兄弟）；**民事原告**。 • 根據BAM的FDD，曾任**Legally Mine, LLC行銷副總裁**（2011–2020）。 • [BAM FDD 第2項](./media/community-sources.md) · [ACOB 營運長訪談](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**Joshua（\"Josh\"）Johnson**",
+            "**為BAM擔任企業代理人** — 在BAM的FDD中被列為**「特許經營銷售人員」** — 雖未經確認為領薪員工；亦與2024年後Salem/Keizer門市營運有所關聯；**刑事案件告訴人**（猶他州刑事案件）；**民事原告**。",
+            "FDD的公司代理人名單有助於釐清各門市所使用的「新業主／經理／員工」等標籤不一致的問題。亦有社群回報（威斯康辛州FDD）其曾於2018至2020年間擔任McNeffs的**Legally Mine, LLC**員工——此點未經獨立重新查證。其為網路「摩門黑手黨」趨勢的相關當事人。**2026年6月4日：BAM宣布與Johnson及Best「分道揚鑣」（屬*雙方合意*之分離），並永久關閉塞勒姆門市**——惟兩人仍為猶他州訴訟案的具名原告。",
+            "[BAM FDD — 特許經銷商名單](./media/community-sources.md) · [傳教士剪報（2004年）](./media/community-sources.md) · [猶他州刑事案件](./media/community-sources.md) · [BAM「分道揚鑣」公關稿（06/04）](./media/news-articles.md)"
+          ],
+          "plain": "**Joshua（\"Josh\"）Johnson** • **為BAM擔任企業代理人** — 在BAM的FDD中被列為**「特許經營銷售人員」** — 雖未經確認為領薪員工；亦與2024年後Salem/Keizer門市營運有所關聯；**刑事案件告訴人**（猶他州刑事案件）；**民事原告**。 • FDD的公司代理人名單有助於釐清各門市所使用的「新業主／經理／員工」等標籤不一致的問題。亦有社群回報（威斯康辛州FDD）其曾於2018至2020年間擔任McNeffs的**Legally Mine, LLC**員工——此點未經獨立重新查證。其為網路「摩門黑手黨」趨勢的相關當事人。**2026年6月4日：BAM宣布與Johnson及Best「分道揚鑣」（屬*雙方合意*之分離），並永久關閉塞勒姆門市**——惟兩人仍為猶他州訴訟案的具名原告。 • [BAM FDD — 特許經銷商名單](./media/community-sources.md) · [傳教士剪報（2004年）](./media/community-sources.md) · [猶他州刑事案件](./media/community-sources.md) · [BAM「分道揚鑣」公關稿（06/04）](./media/news-articles.md)"
+        },
+        {
+          "cells": [
+            "**Brandon Best**",
+            "與2024年後的門市營運（Baker Bricks）相關；**民事原告**。",
+            "相同所有人／管理人的措辭不一致。奧勒岡州務卿將其登記為 **\"Salem-Baker Bricks Inc.\"**（登記號 2332041-97）的 **President & Secretary**，地址為前門市的 Keizer 地址——登記日期為 2024 年 11 月 15 日，2026 年 1 月行政解散。**2026 年 6 月 4 日：BAM 宣布已與 Best 及 Johnson「分道揚鑣」（*雙方合意*分離），並永久關閉 Salem 門市**；兩人仍列為具名原告。（⚠ 所有資料來源——包括 BAM 自身的新聞稿——均將名字拼寫為 **\"Brandon\"**，而非 \"Brendon\"。）",
+            "[OR SOS 登記號 2332041-97](./media/community-sources.md) · [猶他州訴訟](./lawsuit/README.md) · [BAM「分道揚鑣」公關聲明（06/04）](./media/news-articles.md)"
+          ],
+          "plain": "**Brandon Best** • 與2024年後的門市營運（Baker Bricks）相關；**民事原告**。 • 相同所有人／管理人的措辭不一致。奧勒岡州務卿將其登記為 **\"Salem-Baker Bricks Inc.\"**（登記號 2332041-97）的 **President & Secretary**，地址為前門市的 Keizer 地址——登記日期為 2024 年 11 月 15 日，2026 年 1 月行政解散。**2026 年 6 月 4 日：BAM 宣布已與 Best 及 Johnson「分道揚鑣」（*雙方合意*分離），並永久關閉 Salem 門市**；兩人仍列為具名原告。（⚠ 所有資料來源——包括 BAM 自身的新聞稿——均將名字拼寫為 **\"Brandon\"**，而非 \"Brendon\"。） • [OR SOS 登記號 2332041-97](./media/community-sources.md) · [猶他州訴訟](./lawsuit/README.md) · [BAM「分道揚鑣」公關聲明（06/04）](./media/news-articles.md)"
+        },
+        {
+          "cells": [
+            "**Baker Bricks, LLC**",
+            "與過渡期後門市營運相關的實體；**民事原告**。",
+            "⚠ 訴狀中命名為「Baker Bricks, LLC」；俄勒岡州登記處中相符的實體為 **\"Salem-Baker Bricks Inc.\"**（Brandon Best，總裁／秘書；登記編號 2332041-97），地址為前門市的 Keizer 地址——登記日期 11-15-2024，2026 年 1 月遭行政解散。該實體所營運的 Salem 門市已於 **2026 年 6 月 4 日由 BAM 永久關閉**，時值 BAM 與 Best 及 Johnson 終止合作關係之際。",
+            "[OR SOS 登記號 2332041-97](./media/community-sources.md) · [猶他州訴訟](./lawsuit/README.md) · [BAM「分道揚鑣」公關聲明（06/04）](./media/news-articles.md)"
+          ],
+          "plain": "**Baker Bricks, LLC** • 與過渡期後門市營運相關的實體；**民事原告**。 • ⚠ 訴狀中命名為「Baker Bricks, LLC」；俄勒岡州登記處中相符的實體為 **\"Salem-Baker Bricks Inc.\"**（Brandon Best，總裁／秘書；登記編號 2332041-97），地址為前門市的 Keizer 地址——登記日期 11-15-2024，2026 年 1 月遭行政解散。該實體所營運的 Salem 門市已於 **2026 年 6 月 4 日由 BAM 永久關閉**，時值 BAM 與 Best 及 Johnson 終止合作關係之際。 • [OR SOS 登記號 2332041-97](./media/community-sources.md) · [猶他州訴訟](./lawsuit/README.md) · [BAM「分道揚鑣」公關聲明（06/04）](./media/news-articles.md)"
+        }
+      ]
+    },
+    {
+      "heading": "前加盟主——薩勒姆／凱澤的原始業主（企業接管前）",
+      "columns": [
+        "姓名",
+        "公職角色",
+        "備註",
+        "來源"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "**Chrystal Law-Gorman**",
+            "薩倫-基澤門市的在冊加盟商／營運者（約2023年2月至2024年11月）；2023年11月Mansell寄售合約的簽署人；**現已作為原告對BAM提起**另案訴訟。",
+            "據報導，她在取得加盟權之前（約2023年2月——月份來自單一消息來源）曾*管理*該店。她表示自己遭加盟總部「以警察行動相威脅」、在毫無通知或補償的情況下被驅離（TikTok，2026年5月26日——**ALLEGATION**）；她公開張貼合約條文，聲稱其中允許寄售安排，藉此反駁BAM所稱「未經授權」的說法。",
+            "[Techdirt / Salem Business Journal](./media/news-articles.md) · [合約反駁聲明（Instagram）](./media/primary-sources.md) · [Gorman 夫婦的訴訟文件](./media/community-sources.md) · [Gorman 夫婦的影片回應](https://www.youtube.com/watch?v=zedmOopRTm0)"
+          ],
+          "plain": "**Chrystal Law-Gorman** • 薩倫-基澤門市的在冊加盟商／營運者（約2023年2月至2024年11月）；2023年11月Mansell寄售合約的簽署人；**現已作為原告對BAM提起**另案訴訟。 • 據報導，她在取得加盟權之前（約2023年2月——月份來自單一消息來源）曾*管理*該店。她表示自己遭加盟總部「以警察行動相威脅」、在毫無通知或補償的情況下被驅離（TikTok，2026年5月26日——**ALLEGATION**）；她公開張貼合約條文，聲稱其中允許寄售安排，藉此反駁BAM所稱「未經授權」的說法。 • [Techdirt / Salem Business Journal](./media/news-articles.md) · [合約反駁聲明（Instagram）](./media/primary-sources.md) · [Gorman 夫婦的訴訟文件](./media/community-sources.md) · [Gorman 夫婦的影片回應](https://www.youtube.com/watch?v=zedmOopRTm0)"
+        },
+        {
+          "cells": [
+            "**Benjamin（「Ben」）Gorman**",
+            "與 Chrystal 的合作者／配偶；共同向 BAM 提出索賠的共同申索人。",
+            "另行經營 **Not A Pipe Publishing**（一家奧勒岡州小型出版社）。據 Techdirt 報導，這對夫妻在收購事件發生前曾聯繫 BAM 總部，討論**出售或關閉**加盟店事宜；BAM 方面則將此描述為 Law 宣布將**關閉**該店。**Disputed.**",
+            "[Techdirt](./media/news-articles.md) · [Gorman夫婦的訴訟文件](./media/community-sources.md) · [Gorman夫婦的GoFundMe](https://www.gofundme.com/f/help-us-fight-back-against-unfair-business-practices)"
+          ],
+          "plain": "**Benjamin（「Ben」）Gorman** • 與 Chrystal 的合作者／配偶；共同向 BAM 提出索賠的共同申索人。 • 另行經營 **Not A Pipe Publishing**（一家奧勒岡州小型出版社）。據 Techdirt 報導，這對夫妻在收購事件發生前曾聯繫 BAM 總部，討論**出售或關閉**加盟店事宜；BAM 方面則將此描述為 Law 宣布將**關閉**該店。**Disputed.** • [Techdirt](./media/news-articles.md) · [Gorman夫婦的訴訟文件](./media/community-sources.md) · [Gorman夫婦的GoFundMe](https://www.gofundme.com/f/help-us-fight-back-against-unfair-business-practices)"
+        }
+      ]
+    },
+    {
+      "heading": "執法機關／政府（僅限官方職務）",
+      "columns": [
+        "實體／官員",
+        "本案中的公開角色／行動",
+        "來源"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "**美國福克警察局（AFPD）**",
+            "猶他州市政執法機構，曾逮捕 Schneider 並執行搜索令；為公眾不當行為指控之對象（該機構對此提出異議）。",
+            "[AFPD 新聞稿 + 案件檔案](./media/community-sources.md) · [警察爭議](./police-controversy.md)"
+          ],
+          "plain": "**美國福克警察局（AFPD）** • 猶他州市政執法機構，曾逮捕 Schneider 並執行搜索令；為公眾不當行為指控之對象（該機構對此提出異議）。 • [AFPD 新聞稿 + 案件檔案](./media/community-sources.md) · [警察爭議](./police-controversy.md)"
+        },
+        {
+          "cells": [
+            "**Cameron Paul**",
+            "AFPD局長；以官方身分製作並主導約26分鐘的部門官方影片聲明，為該部門的行為進行辯護（僅限官方職務）。",
+            "[AFPD 媒體發布](https://www.youtube.com/watch?v=IcVmSQpIPRY) · [AFPD 新聞稿](./media/community-sources.md)"
+          ],
+          "plain": "**Cameron Paul** • AFPD局長；以官方身分製作並主導約26分鐘的部門官方影片聲明，為該部門的行為進行辯護（僅限官方職務）。 • [AFPD 媒體發布](https://www.youtube.com/watch?v=IcVmSQpIPRY) · [AFPD 新聞稿](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**McKay Valadez**",
+            "AFPD警員；回應03/10/2026的投訴，在現場與Schneider接觸，並撰寫對其提出**跟蹤騷擾**及**針對性住宅示威**指控的相當理由陳述書。",
+            "AFPD 案件 **26AF02033** — [已公開案件檔案](./media/community-sources.md)"
+          ],
+          "plain": "**McKay Valadez** • AFPD警員；回應03/10/2026的投訴，在現場與Schneider接觸，並撰寫對其提出**跟蹤騷擾**及**針對性住宅示威**指控的相當理由陳述書。 • AFPD 案件 **26AF02033** — [已公開案件檔案](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**Spencer Tonga**",
+            "AFPD警員；**提交**了Schneider於03/11/2026遭逮捕之跟蹤騷擾案的相當理由陳述書（由Nicosia偵探撰寫），並為相關**非法侵入**報告中的到場/報告警員。",
+            "AFPD 案件 **26AF02066**、**26AF01974** — [案件檔案](./media/community-sources.md)"
+          ],
+          "plain": "**Spencer Tonga** • AFPD警員；**提交**了Schneider於03/11/2026遭逮捕之跟蹤騷擾案的相當理由陳述書（由Nicosia偵探撰寫），並為相關**非法侵入**報告中的到場/報告警員。 • AFPD 案件 **26AF02066**、**26AF01974** — [案件檔案](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**Nicosia 偵探**",
+            "AFPD 偵探；**撰寫**了 Schneider 於 03/11/2026 遭逮捕之跟蹤騷擾案的相當理由陳述書（名字未見於紀錄）。",
+            "AFPD 案件 **26AF02066** — [案件檔案](./media/community-sources.md)"
+          ],
+          "plain": "**Nicosia 偵探** • AFPD 偵探；**撰寫**了 Schneider 於 03/11/2026 遭逮捕之跟蹤騷擾案的相當理由陳述書（名字未見於紀錄）。 • AFPD 案件 **26AF02066** — [案件檔案](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**Cole G. Richardson**",
+            "AFPD警員；猶他郡第四區法院搜索令宣誓書上的宣誓**陳述人**。",
+            "AFPD 案件 **26AF02066** — [案件檔案](./media/community-sources.md)"
+          ],
+          "plain": "**Cole G. Richardson** • AFPD警員；猶他郡第四區法院搜索令宣誓書上的宣誓**陳述人**。 • AFPD 案件 **26AF02066** — [案件檔案](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**S. Hawkins**",
+            "AFPD警員；**回應並撰寫**了關於逮捕前住宅活動的騷擾報告。",
+            "AFPD 案件 **26AF02007** — [案件檔案](./media/community-sources.md)"
+          ],
+          "plain": "**S. Hawkins** • AFPD警員；**回應並撰寫**了關於逮捕前住宅活動的騷擾報告。 • AFPD 案件 **26AF02007** — [案件檔案](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**RJ Bibeau**",
+            "AFPD警員；**回應**騷擾投訴的警員之一。",
+            "AFPD 案件 **26AF02007** — [案件檔案](./media/community-sources.md)"
+          ],
+          "plain": "**RJ Bibeau** • AFPD警員；**回應**騷擾投訴的警員之一。 • AFPD 案件 **26AF02007** — [案件檔案](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**K. Faughton** ⚠",
+            "AFPD警員；**回應**了騷擾投訴。⚠ 姓氏不確定（掃描件）。",
+            "AFPD 案件 **26AF02007** — [案件檔案](./media/community-sources.md)"
+          ],
+          "plain": "**K. Faughton** ⚠ • AFPD警員；**回應**了騷擾投訴。⚠ 姓氏不確定（掃描件）。 • AFPD 案件 **26AF02007** — [案件檔案](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**G. Mecham** ⚠",
+            "AFPD警員；**回應**了騷擾投訴。⚠ 姓氏不確定（掃描件）。",
+            "AFPD 案件 **26AF02007** — [案件檔案](./media/community-sources.md)"
+          ],
+          "plain": "**G. Mecham** ⚠ • AFPD警員；**回應**了騷擾投訴。⚠ 姓氏不確定（掃描件）。 • AFPD 案件 **26AF02007** — [案件檔案](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**M. Bishop**",
+            "AFPD警員；**接收／登錄**了擅自闖入的報案（受理角色；可能為值班台／派遣）。",
+            "AFPD 案件 **26AF01974** — [案件檔案](./media/community-sources.md)"
+          ],
+          "plain": "**M. Bishop** • AFPD警員；**接收／登錄**了擅自闖入的報案（受理角色；可能為值班台／派遣）。 • AFPD 案件 **26AF01974** — [案件檔案](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**H. Wood**",
+            "AFPD警員；**接收／登錄**騷擾報案（受理角色；可能為值班台／派遣）。",
+            "AFPD 案件 **26AF02007** — [案件檔案](./media/community-sources.md)"
+          ],
+          "plain": "**H. Wood** • AFPD警員；**接收／登錄**騷擾報案（受理角色；可能為值班台／派遣）。 • AFPD 案件 **26AF02007** — [案件檔案](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**塞勒姆（猶他州）警察局**",
+            "無關機構，因來電誤打而發出「零涉入」公開聲明。",
+            "[塞勒姆猶他州警察局貼文](./media/primary-sources.md)"
+          ],
+          "plain": "**塞勒姆（猶他州）警察局** • 無關機構，因來電誤打而發出「零涉入」公開聲明。 • [塞勒姆猶他州警察局貼文](./media/primary-sources.md)"
+        },
+        {
+          "cells": [
+            "**Central Utah 911**",
+            "報告呼叫量激增及調度員遭受騷擾的地區調度管理機構。",
+            "[警察爭議](./police-controversy.md)"
+          ],
+          "plain": "**Central Utah 911** • 報告呼叫量激增及調度員遭受騷擾的地區調度管理機構。 • [警察爭議](./police-controversy.md)"
+        },
+        {
+          "cells": [
+            "**猶他郡監獄**",
+            "預訂設施（猶他縣警長辦公室），Schneider 在此辦理入監登記。",
+            "[AFPD案件檔案](./media/community-sources.md)"
+          ],
+          "plain": "**猶他郡監獄** • 預訂設施（猶他縣警長辦公室），Schneider 在此辦理入監登記。 • [AFPD案件檔案](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**凱澤市（奧勒岡州）警察局／馬里恩郡地方檢察官**",
+            "負責進行／審查奧勒岡州調查。",
+            "[警察爭議](./police-controversy.md) · [時間軸](./timeline.md)"
+          ],
+          "plain": "**凱澤市（奧勒岡州）警察局／馬里恩郡地方檢察官** • 負責進行／審查奧勒岡州調查。 • [警察爭議](./police-controversy.md) · [時間軸](./timeline.md)"
+        }
+      ]
+    },
+    {
+      "heading": "背景實體（非訴訟當事人）",
+      "columns": [
+        "姓名",
+        "公職角色",
+        "備註",
+        "來源"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "**Legally Mine, LLC**",
+            "猶他州資產保護公司；**非本案當事人**。持有450,000股BAM Franchising股份（作為擔保品質押）。",
+            "Ammon 與 Matt McNeff 擔任總裁／行銷副總裁職務（2011–2020年，依據FDD）；**Daniel McNeff** 為其唯一成員／管理人。",
+            "[BAM FDD Item 2](./media/community-sources.md) · [Utah UCC-11](./media/community-sources.md) · [Ohio UPL order](./media/community-sources.md)"
+          ],
+          "plain": "**Legally Mine, LLC** • 猶他州資產保護公司；**非本案當事人**。持有450,000股BAM Franchising股份（作為擔保品質押）。 • Ammon 與 Matt McNeff 擔任總裁／行銷副總裁職務（2011–2020年，依據FDD）；**Daniel McNeff** 為其唯一成員／管理人。 • [BAM FDD Item 2](./media/community-sources.md) · [Utah UCC-11](./media/community-sources.md) · [Ohio UPL order](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**Daniel McNeff**",
+            "Legally Mine的唯一成員／管理人；**非LEGO訴訟的當事人**。",
+            "與 Legally Mine 共同負債人，依據 2021 年和解協議／票據，積欠 Ammon & Matt McNeff 約 1,728,000 美元；非法執業法律回應人（俄亥俄州最高法院案號 2025-0037）。",
+            "[俄亥俄州非法執業律師裁令](./media/community-sources.md) · [猶他州UCC-11](./media/community-sources.md) · [McNeff v. McNeff（猶他州聯邦地區法院）](./media/community-sources.md)"
+          ],
+          "plain": "**Daniel McNeff** • Legally Mine的唯一成員／管理人；**非LEGO訴訟的當事人**。 • 與 Legally Mine 共同負債人，依據 2021 年和解協議／票據，積欠 Ammon & Matt McNeff 約 1,728,000 美元；非法執業法律回應人（俄亥俄州最高法院案號 2025-0037）。 • [俄亥俄州非法執業律師裁令](./media/community-sources.md) · [猶他州UCC-11](./media/community-sources.md) · [McNeff v. McNeff（猶他州聯邦地區法院）](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**John Masek**",
+            "Legally Mine 的有擔保債權人；**並非本案當事人**。",
+            "持有Legally Mine的45萬股BAM Franchising股份之擔保權益（2020年UCC-1申報）。",
+            "[猶他州UCC-11](./media/community-sources.md)"
+          ],
+          "plain": "**John Masek** • Legally Mine 的有擔保債權人；**並非本案當事人**。 • 持有Legally Mine的45萬股BAM Franchising股份之擔保權益（2020年UCC-1申報）。 • [猶他州UCC-11](./media/community-sources.md)"
+        },
+        {
+          "cells": [
+            "**David Ortiz**",
+            "Legally Mine的擔保債權人；同時也是BAM的「特許經銷商」；**非本案當事人**。",
+            "與 Masek 共同擔任 Legally Mine 之 450,000 股 BAM 股份的共同擔保方；列於 BAM 特許經營披露文件（FDD）的特許銷售人名單中。",
+            "[猶他州UCC-11](./media/community-sources.md) · [BAM加盟披露文件](./media/community-sources.md)"
+          ],
+          "plain": "**David Ortiz** • Legally Mine的擔保債權人；同時也是BAM的「特許經銷商」；**非本案當事人**。 • 與 Masek 共同擔任 Legally Mine 之 450,000 股 BAM 股份的共同擔保方；列於 BAM 特許經營披露文件（FDD）的特許銷售人名單中。 • [猶他州UCC-11](./media/community-sources.md) · [BAM加盟披露文件](./media/community-sources.md)"
+        }
+      ]
+    }
+  ]
+}

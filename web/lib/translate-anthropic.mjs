@@ -35,6 +35,7 @@ Output ONLY the translation: no preamble, no quotation marks, no explanation, no
 
 const LANG = {
   "zh-Hans": "Simplified Chinese (简体中文, Mainland terminology)",
+  "zh-Hant": "Traditional Chinese (繁體中文, Taiwan terminology — 臺灣正體, as written in Taiwan; use Taiwan vocabulary and standard Traditional characters, NOT Hong Kong or Simplified forms)",
   "es": "US Spanish (español de los Estados Unidos) — neutral Latin American Spanish as written for U.S. Hispanic audiences (Univision / AP Spanish style): use 'ustedes' (never 'vosotros'), Latin American vocabulary (e.g. 'computadora', not 'ordenador'); avoid Spain-specific terms",
 };
 

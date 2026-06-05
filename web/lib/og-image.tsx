@@ -11,16 +11,20 @@ const SUBTITLE = "BAM × Reckless Ben";
 // (one per page) don't refetch. Build-time only; failures fall back gracefully.
 const fontCache = new Map<string, Promise<ArrayBuffer | null>>();
 
-/** Fetch a Noto Sans SC subset covering exactly the glyphs on the card. Returns null on any
- *  failure so OG generation never breaks the build (the card just renders without CJK). */
-export function loadOgCjkFont(title: string, tagline: string): Promise<ArrayBuffer | null> {
+/** Fetch a CJK font subset covering exactly the glyphs on the card. `family` is a Google Fonts
+ *  family name (e.g. "Noto Sans SC" for Simplified, "Noto Sans TC" for Traditional) so each
+ *  locale renders with the correct regional glyphs. Returns null on any failure so OG generation
+ *  never breaks the build (the card just renders without CJK). */
+export function loadOgCjkFont(title: string, tagline: string, family = "Noto Sans SC"): Promise<ArrayBuffer | null> {
   // Include the Latin brand lines too: when `fonts` is supplied it replaces next/og's
   // built-in font, so the subset must cover every glyph drawn on the card.
   const chars = [...new Set(`${BRAND}${SUBTITLE}? ${title}${tagline}`)].join("");
-  if (fontCache.has(chars)) return fontCache.get(chars)!;
+  // Key the cache by family too, so the SC and TC subsets never collide.
+  const cacheKey = `${family}:${chars}`;
+  if (fontCache.has(cacheKey)) return fontCache.get(cacheKey)!;
   const p = (async () => {
     try {
-      const api = `https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&text=${encodeURIComponent(chars)}`;
+      const api = `https://fonts.googleapis.com/css2?family=${encodeURIComponent(family).replace(/%20/g, "+")}:wght@700&text=${encodeURIComponent(chars)}`;
       const css = await (await fetch(api, {
         headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" },
       })).text();
@@ -31,7 +35,7 @@ export function loadOgCjkFont(title: string, tagline: string): Promise<ArrayBuff
       return null;
     }
   })();
-  fontCache.set(chars, p);
+  fontCache.set(cacheKey, p);
   return p;
 }
 
