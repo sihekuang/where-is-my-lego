@@ -7,6 +7,7 @@ import { useTheme } from "next-themes";
 import type { Core, ElementDefinition } from "cytoscape";
 import type { GraphData, GraphNode } from "@/lib/content";
 import { buildStylesheet, initialsDataUri, nodeSize } from "@/lib/graph-style";
+import { minifigDataUri } from "@/lib/minifig.mjs";
 import { drawGlow } from "@/lib/graph-glow";
 
 cytoscape.use(fcose);
@@ -58,7 +59,10 @@ export default function GraphCanvas({
           label: n.label,
           type: n.type,
           side: n.side,
-          face: initialsDataUri(n.ini, n.label),
+          face:
+            n.type === "person" && !n.icon
+              ? minifigDataUri(n.fig)
+              : initialsDataUri(n.ini, n.label),
           size: nodeSize(degree.get(n.id) ?? 0),
         },
       })),

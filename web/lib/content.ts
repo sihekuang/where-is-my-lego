@@ -51,6 +51,7 @@ export type GraphNode = {
   type: "person" | "org" | "agency";
   side: "plaintiff" | "defendant" | "official" | "neutral";
   ini: string;
+  fig: string;
   icon?: string;
   role?: string;
   statement?: string;
