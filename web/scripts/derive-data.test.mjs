@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { parseDateKey, deriveTimeline } from "./derive-data.mjs";
+import { parseDateKey, deriveTimeline, deriveRelationships, figForNode } from "./derive-data.mjs";
 
 const cases = [
   ["**Nov 22, 2023**", { y: 2023, m: 11, d: 22 }],
@@ -77,7 +77,6 @@ console.log(`deriveTimeline: ${tiesChecked} exact-date tie groups preserve sourc
 // ---------------------------------------------------------------------------
 // deriveRelationships
 // ---------------------------------------------------------------------------
-import { deriveRelationships } from "./derive-data.mjs";
 
 const SAMPLE = `
 ## Nodes
@@ -166,3 +165,29 @@ console.log("deriveRelationships: validation throws verified");
   assert.ok(rel.nodes.filter((n) => n.type === "person" && n.id !== "ben-schneider").every((n) => !n.icon), "real: no other person has an icon");
   console.log(`deriveRelationships: real file OK (${rel.nodes.length} nodes, ${rel.edges.length} edges)`);
 }
+
+// --- minifig Fig-code derivation -------------------------------------------
+// figForNode: defaults fill missing axes (group from side, gender m, age a).
+assert.equal(figForNode("official", ""), "pma", "blank + official -> pma");
+assert.equal(figForNode("plaintiff", ""), "bma", "blank + plaintiff -> bma");
+assert.equal(figForNode("neutral", ""), "cma", "blank + neutral -> cma");
+assert.equal(figForNode("defendant", ""), "cma", "blank + defendant -> cma");
+assert.equal(figForNode("neutral", "f"), "cfa", "partial f + neutral -> cfa");
+assert.equal(figForNode("neutral", "b"), "bma", "explicit group b override -> bma");
+assert.equal(figForNode("neutral", "cme"), "cme", "full explicit code passthrough");
+
+const rel = deriveRelationships();
+const fig = (id) => rel.nodes.find((n) => n.id === id).fig;
+assert.equal(fig("cameron-paul"), "pma", "officer -> pma");
+assert.equal(fig("ammon-mcneff"), "bma", "plaintiff -> bma");
+assert.equal(fig("david-ortiz"), "bma", "BAM-affiliate neutral (explicit b) -> bma");
+assert.equal(fig("chrystal-law-gorman"), "cfa", "Chrystal -> cfa");
+assert.equal(fig("mansell-father"), "cme", "Mansell's father -> cme");
+assert.equal(fig("bryan-mansell"), "cma", "civilian -> cma");
+assert.equal(
+  rel.nodes.find((n) => n.id === "ben-schneider").icon,
+  "https://unavatar.io/youtube/RecklessBen",
+  "icon person keeps real icon",
+);
+
+console.log(`deriveRelationships: fig codes verified on ${rel.nodes.length} nodes`);
