@@ -150,6 +150,21 @@ const STATUSES = new Set(["CONFIRMED", "ALLEGATION"]);
 // person-type node ids permitted to carry an Icon (public figures only).
 const ICON_ALLOWLIST = new Set(["ben-schneider"]);
 
+// Avatar minifig code: group(p|b|c) gender(m|f) age(y|a|e). Group defaults from
+// legal side; gender defaults male; age defaults adult. First token per axis wins.
+function sideToGroup(side) {
+  return side === "official" ? "p" : side === "plaintiff" ? "b" : "c";
+}
+export function figForNode(side, raw) {
+  let g, x, a;
+  for (const ch of String(raw || "").toLowerCase()) {
+    if (g === undefined && "pbc".includes(ch)) g = ch;
+    else if (x === undefined && "mf".includes(ch)) x = ch;
+    else if (a === undefined && "yae".includes(ch)) a = ch;
+  }
+  return (g || sideToGroup(side)) + (x || "m") + (a || "a");
+}
+
 function findTable(sections, required) {
   return sections.find((s) => {
     const cols = s.columns.map((c) => c.toLowerCase());
@@ -213,7 +228,7 @@ export function deriveRelationships(opts = {}) {
   if (!nodeTable) throw new Error("relationships.md: Nodes table not found");
   if (!edgeTable) throw new Error("relationships.md: Edges table not found");
 
-  const n = colMap(nodeTable, ["id", "label", "type", "side", "icon", "role", "statement"]);
+  const n = colMap(nodeTable, ["id", "label", "type", "side", "icon", "role", "statement", "fig"]);
   const nodes = nodeTable.rows.map((r) => {
     const id = r.cells[n.id];
     const label = r.cells[n.label];
@@ -222,7 +237,10 @@ export function deriveRelationships(opts = {}) {
     if (!NODE_TYPES.has(type)) throw new Error(`relationships.md: node "${id}" has unknown Type "${type}"`);
     if (!SIDES.has(side)) throw new Error(`relationships.md: node "${id}" has unknown Side "${side}"`);
     const icon = n.icon >= 0 ? (r.cells[n.icon] || "").trim() : "";
-    const node = { id, label, type, side, ini: initialsFor(label) };
+    const node = {
+      id, label, type, side, ini: initialsFor(label),
+      fig: figForNode(side, n.fig >= 0 ? r.cells[n.fig] : ""),
+    };
     if (icon) {
       if (type === "person" && !ICON_ALLOWLIST.has(id)) {
         warn(`node "${id}" is a person with an Icon but not in the public-figure allowlist; dropping icon (ethics guard).`);

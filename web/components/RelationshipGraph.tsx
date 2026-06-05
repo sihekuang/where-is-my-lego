@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 import type { GraphData, GraphNode } from "@/lib/content";
 import { CATEGORY_COLORS, SIDE_PALETTE, initialsDataUri, readableText } from "@/lib/graph-style";
+import { minifigDataUri } from "@/lib/minifig.mjs";
 import { BrickCard, type BrickVariant } from "@/components/brick/BrickCard";
 import { StudRow } from "@/components/brick/StudRow";
 
@@ -153,7 +154,15 @@ export default function RelationshipGraph({ data, rosterIds = [] }: { data: Grap
                   </button>
                   <div
                     className="h-16 w-16 rounded-full border-[3px] bg-cover bg-center"
-                    style={{ backgroundImage: `url("${selected.icon || initialsDataUri(selected.ini, selected.label)}")`, borderColor: sideColor[selected.side] }}
+                    style={{
+                      backgroundImage: `url("${
+                        selected.icon ||
+                        (selected.type === "person"
+                          ? minifigDataUri(selected.fig)
+                          : initialsDataUri(selected.ini, selected.label))
+                      }")`,
+                      borderColor: sideColor[selected.side],
+                    }}
                   />
                   <h3 className="mb-1.5 mt-3 text-base">{selected.label}</h3>
                   <span className="brick-badge" style={{ background: sideColor[selected.side], color: readableText(sideColor[selected.side]) }}>
