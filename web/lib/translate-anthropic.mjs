@@ -1,6 +1,7 @@
 // Real Claude translator. Lazy-imported by translate.mjs so tests/--check never
 // require the SDK or a key. Build-time only; never in the request path.
 import Anthropic from "@anthropic-ai/sdk";
+import { glossaryPromptBlock } from "./glossary.mjs";
 
 const MODEL = "claude-sonnet-4-6";
 
@@ -42,7 +43,9 @@ const LANG = {
 export function makeTranslator(localeCode, mode = "document") {
   const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
   const rules = PROMPTS[mode] ?? PROMPTS.document;
-  const system = rules.replace("{LANG}", LANG[localeCode] ?? localeCode);
+  // Append the shared protected-terms glossary so proper nouns (American Fork, AFPD,
+  // BAM, party names) and the case-sensitive status tokens survive every mode.
+  const system = `${rules.replace("{LANG}", LANG[localeCode] ?? localeCode)}\n\n${glossaryPromptBlock(localeCode)}`;
   return async (text) => {
     const res = await client.messages.create({
       model: MODEL,

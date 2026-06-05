@@ -176,6 +176,8 @@ can do it; it isn't specialized work. The recurring nits are predictable:
 |---|---|---|
 | `Confirmed` / `Allegation` left as uppercase `CONFIRMED` / `ALLEGATION` in prose/labels | The prompt protects the literal legal tokens; it bleeds onto the ordinary title-case/adjective words | Translate them (es `Confirmada`/`Alegación`, zh `已确认`/`指控`). **Exceptions kept uppercase:** the read-only **banner**, and the README/home definitional blockquote (the English there *is* uppercase by design). |
 | Proper nouns / company names translated (`Baker Bricks` → `贝克砖业`, `Bricks & Minifigs` → …) | The model over-translates brand names | Keep brand/company/person names in English. (Well-known **news outlet** names *are* translated by convention in the zh media table — `盐湖城论坛报` = Salt Lake Tribune.) |
+| **`American Fork` transliterated (`美國福克`); `AFPD`/`AF` expanded to the wrong agency** (Air Force `空軍`, Afghan `阿富汗`, Armed Forces `武装部队`, even `人民党`) | A context-free short field (e.g. role `"AFPD detective"`) gives the model nothing to anchor the acronym, so it guesses | **Now guarded by the [protected-terms glossary](#protected-terms-glossary)** — the prompt pins these and `npm test` *fails* if a forbidden rendering is committed. Keep `American Fork` and `AFPD` Latin. |
+| Same person rendered two ways in **graph vs roster** | `/parties` graph reads `relationships.json`; the roster reads `parties.json` — two independent passes | When hand-fixing a name/role, fix it in **both** files (and cross-refs in other nodes' statements). |
 | Stray English / mistranslation | Normal MT error | Fix the specific string. |
 
 **Where to fix:**
@@ -185,6 +187,37 @@ can do it; it isn't specialized work. The recurring nits are predictable:
 
 All fixes are **drift-durable** (see [drift detection](#drift-detection--why-your-hand-fixes-survive)) — they won't be clobbered by future seeds. After fixing, re-run
 `npm run translate:check` (should report 0 stale — hand-edits don't create drift) and `npm test`.
+
+---
+
+## Protected-terms glossary
+
+`web/lib/glossary.mjs` is the single source of truth for archive-specific proper nouns and the
+case-sensitive status tokens the translator keeps mangling on re-seed (e.g. `American Fork` →
+`美國福克`, `AFPD detective` → "Air Force ... detective"). One list, wired three ways:
+
+1. **Prevention** — `glossaryPromptBlock(locale)` is appended to every translator prompt
+   (`document` / `fragment` / `ui`), so seeds get the terms right.
+2. **Warning** — `npm run translate:check` scans the committed translations and warns (non-fatal,
+   like drift) on any forbidden rendering.
+3. **Hard gate** — `scripts/glossary.test.mjs` (in `npm test`) **fails** if a committed
+   translation contains a forbidden term, so a bad re-seed is caught before commit. No API key
+   needed (pure string scan).
+
+**To add a protected term**, add one entry to `PROTECTED_TERMS`:
+
+```js
+{
+  term: "American Fork",
+  instruction: 'Keep "American Fork" (a Utah city) in Latin — never transliterate.',
+  forbid: { "zh-Hans": ["美国福克"], "zh-Hant": ["美國福克"] },  // optional: per-locale outputs that are ALWAYS wrong
+}
+```
+
+`instruction` shows in the prompt for all locales; `forbid` (optional) lists per-locale substrings
+that are never correct in this archive — those become the detector for the warning + the failing
+test. Omit `forbid` for terms with no reliable single-substring signal (the prompt still carries
+the rule). Fast manual detector: `grep -rl '美國福克\|空軍\|阿富汗' web/i18n/*/data`.
 
 ---
 
@@ -209,3 +242,6 @@ All fixes are **drift-durable** (see [drift detection](#drift-detection--why-you
 - `scripts/i18n-ui.test.mjs` — every `i18n/ui/<loc>.json` matches `en.json`'s key set and
   preserves markup parity (`{tokens}`, `**bold**`, the CONFIRMED/ALLEGATION literals).
 - `scripts/overlay.test.mjs` — overlay merge + English fallback.
+- `scripts/glossary.test.mjs` — the [protected-terms glossary](#protected-terms-glossary): prompt
+  block + detector unit tests, and a scan that **fails** if any committed translation contains a
+  forbidden rendering (transliterated `American Fork`, `AFPD`-as-Air-Force, Best→Best Buy, etc.).

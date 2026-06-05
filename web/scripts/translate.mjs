@@ -3,10 +3,11 @@
 // --check never need the SDK or an API key.
 
 import { createHash } from "node:crypto";
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
-import { dirname, resolve } from "node:path";
+import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from "node:fs";
+import { dirname, resolve, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { TARGET_LOCALES } from "../lib/locales.mjs";
+import { findViolations } from "../lib/glossary.mjs";
 
 const SCRIPT_DIR = dirname(fileURLToPath(import.meta.url));
 const WEB = resolve(SCRIPT_DIR, "..");
@@ -150,6 +151,35 @@ function currentManifest(sources, structured, uiSource) {
   return m;
 }
 
+// Committed translation files for a locale: data tables, prose content, and the UI dict.
+function committedFiles(code) {
+  const files = [];
+  for (const sub of ["data", "content"]) {
+    const dir = join(I18N, code, sub);
+    if (existsSync(dir)) for (const f of readdirSync(dir)) if (sub === "content" || f.endsWith(".json")) files.push(join(dir, f));
+  }
+  const ui = join(I18N, "ui", `${code}.json`);
+  if (existsSync(ui)) files.push(ui);
+  return files;
+}
+
+// Non-fatal glossary scan: warns if any committed translation contains a forbidden
+// rendering (e.g. American Fork transliterated, AFPD expanded to Air Force). The
+// hard gate is scripts/glossary.test.mjs, which fails the build on the same finding.
+function runGlossaryScan() {
+  let total = 0;
+  for (const loc of TARGET_LOCALES) {
+    for (const file of committedFiles(loc.code)) {
+      for (const v of findViolations(readFileSync(file, "utf8"), loc.code)) {
+        total++;
+        console.warn(`translate:check [${loc.code}] forbidden term "${v.found}" (${v.term}) in ${file.replace(WEB + "/", "")}`);
+      }
+    }
+  }
+  if (total) console.warn(`translate:check: ${total} glossary violation(s) — see web/i18n/README.md to hand-fix. (non-fatal; npm test fails on these)`);
+  return total;
+}
+
 async function runCheck() {
   const sources = loadSources();
   const structured = loadStructured();
@@ -165,7 +195,8 @@ async function runCheck() {
   }
   if (totalStale === 0) console.log("translate:check: all locales up to date");
   else console.warn(`translate:check: ${totalStale} stale unit(s). Run "pnpm translate" to refresh. (non-fatal)`);
-  if (process.argv.includes("--strict") && totalStale > 0) process.exit(1);
+  const violations = runGlossaryScan();
+  if (process.argv.includes("--strict") && (totalStale > 0 || violations > 0)) process.exit(1);
 }
 
 async function runSeed() {
