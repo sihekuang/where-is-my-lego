@@ -7,6 +7,10 @@ Status: CONFIRMED | ALLEGATION (ALLEGATION renders dashed).
 Icon: optional PUBLIC image URL — linked, never re-hosted. Only org/agency logos, public
 emblems, or a self-publishing public figure's own channel avatar. NEVER a private citizen's
 photo (the derive step drops + warns on any person icon not in the public-figure allowlist).
+The graph draws icons on a <canvas> (crossOrigin=anonymous), so the host MUST send CORS headers
+(Access-Control-Allow-Origin) or the icon silently falls back to initials. A logo on a non-CORS
+host is routed through an image proxy (e.g. images.weserv.nl/?url=…) so it can load — still a
+link to the original, never re-hosted.
 Role / Statement: optional short public captions for the node detail card.
 Fig: OPTIONAL minifig avatar code for the graph (people only). Tokens, any order:
 group p|b|c (police/biz/civilian) · gender m|f · age y|a|e (young/adult/elder). Missing axes
@@ -25,7 +29,7 @@ nothing about the case; never a real likeness.
 | ben-schneider | Reckless Ben (Schneider) | person | defendant | https://unavatar.io/youtube/RecklessBen | YouTuber / self-styled investigator | Says he went to serve papers; alleges police misconduct. |  |
 | reckless-ben-llc | Reckless Ben LLC | org | defendant | https://unavatar.io/youtube/RecklessBen | Schneider's media/business entity |  |  |
 | victor-nguyen | Victor Nguyen | person | defendant |  | Associate of Schneider (defendant) |  | cma |
-| bam-franchising | BAM Franchising | org | plaintiff | https://bricksandminifigs.com/wp-content/uploads/2025/04/cropped-BAM_mini_blue-192x192.png | Franchisor / corporate parent (plaintiff) | Denies theft/wrongdoing; offered mediation. |  |
+| bam-franchising | BAM Franchising | org | plaintiff | https://images.weserv.nl/?url=bricksandminifigs.com/wp-content/uploads/2025/04/cropped-BAM_mini_blue-192x192.png | Franchisor / corporate parent (plaintiff) | Denies theft/wrongdoing; offered mediation. |  |
 | ammon-mcneff | Ammon McNeff | person | plaintiff |  | CEO, Bricks & Minifigs (plaintiff) | Publicly apologized; rejects theft/conspiracy claims. | bma |
 | matt-mcneff | Matt McNeff | person | plaintiff |  | COO / co-owner (plaintiff) |  | bma |
 | josh-johnson | Josh Johnson | person | plaintiff |  | Works for BAM as a corporate agent (FDD "franchise seller"), not a confirmed employee; criminal complainant | FDD lists him among BAM's "franchise sellers"; earlier "new owner / manager / employee" labels were inconsistent. Jun 4, 2026: BAM "parted ways" with him (mutual separation) and closed the Salem store; still a named plaintiff. | bma |
