@@ -105,6 +105,6 @@ nothing about the case; never a real likeness.
 | josh-johnson | criminal complainant vs | ben-schneider | legal | → | CONFIRMED |  |
 | bam-franchising | sued | ben-schneider | legal | → | CONFIRMED | Case no. unverified (260402353 / 260400253) |
 | bam-franchising | sued | reckless-ben-llc | legal | → | CONFIRMED |  |
-| bam-franchising | sued | bryan-mansell | legal | → | CONFIRMED |  |
+| bam-franchising | sued | bryan-mansell | legal | → | CONFIRMED | Named co-defendant (with Schneider, Reckless Ben LLC, Nguyen, Does 1–15) in BAM's May 27, 2026 Utah suit alleging a coordinated "extortion/harassment campaign" — the underlying allegations are unproven. ⚠ Jun 4, 2026: BAM said it is *prepared to discuss* dropping the suit against Mansell and making him whole; no dismissal has been filed as of this record (litigation pending). Mansell is separately a *plaintiff* in Oregon over the unreturned consignment. |
 | bam-franchising | sued | victor-nguyen | legal | → | CONFIRMED |  |
 | bryan-mansell | alleges collection not returned | bam-franchising | legal | → | ALLEGATION |  |
