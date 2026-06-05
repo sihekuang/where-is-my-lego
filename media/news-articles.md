@@ -56,6 +56,11 @@ environment had no network egress). Author bylines marked "—" were not confirm
 | KSL.com | Viral videos allege pricey Lego theft. Here's how Utah police entered the conversation | 2026-06-02 | https://www.ksl.com/article/51505848/viral-videos-allege-pricey-lego-theft-heres-how-utah-police-entered-the-conversation |
 | East Idaho News | Viral videos allege pricey Lego theft… (syndication of the KSL piece) | 2026-06-03 | https://www.eastidahonews.com/2026/06/viral-videos-allege-pricey-lego-theft-heres-how-utah-police-entered-the-conversation/ |
 | Techdirt | Everyone In This LEGO Dispute Should Have Spoken To A Lawyer Earlier Than They Did | 2026-06-02 | https://www.techdirt.com/2026/06/02/everyone-in-this-lego-dispute-should-have-spoken-to-a-lawyer-earlier-than-they-did/ |
+| BusinessWire | Bricks & Minifigs Parts Ways with Salem, Oregon Franchise Owners Brandon Best and Joshua Johnson (BAM press release) | 2026-06-04 | https://www.businesswire.com/news/home/20260604138712/en/Bricks-Minifigs-Parts-Ways-with-Salem-Oregon-Franchise-Owners-Brandon-Best-and-Joshua-Johnson |
+| Dexerto | Bricks & Minifigs permanently closes Salem, Oregon store after "gross negligence" from previous owners | 2026-06-04 | https://www.dexerto.com/entertainment/bricks-minifigs-permanently-closes-salem-oregon-store-after-gross-negligence-from-previous-owners-3371973/ |
+| ABC4 (Utah) | Bricks & Minifigs 'parts ways' with franchise owners at center of stolen Lego scandal, offers to meet with collector | 2026-06-04 | https://www.abc4.com/news/wasatch-front/bricks-minifigs-franchise-lego-scandal/ |
+| Geeks + Gamers | Bricks & Minifigs Shuts Down Salem Store & Seeks Resolution With Mansell Family After Lego Scandal | 2026-06-04 | https://geeksandgamers.com/bricks-minifigs-shuts-down-salem-store/ |
+| Las Vegas Sun | Bricks & Minifigs Parts Ways with Salem, Oregon Franchise Owners Brandon Best and Joshua Johnson (BusinessWire reprint) | 2026-06-04 | https://lasvegassun.com/news/2026/jun/04/bricks-minifigs-parts-ways-with-salem-oregon-franc/ |
 
 ## Forum / community discussion
 

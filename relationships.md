@@ -24,9 +24,9 @@ Role / Statement: optional short public captions for the node detail card.
 | bam-franchising | BAM Franchising | org | plaintiff | https://bricksandminifigs.com/wp-content/uploads/2025/04/cropped-BAM_mini_blue-192x192.png | Franchisor / corporate parent (plaintiff) | Denies theft/wrongdoing; offered mediation. |
 | ammon-mcneff | Ammon McNeff | person | plaintiff |  | CEO, Bricks & Minifigs (plaintiff) | Publicly apologized; rejects theft/conspiracy claims. |
 | matt-mcneff | Matt McNeff | person | plaintiff |  | COO / co-owner (plaintiff) |  |
-| josh-johnson | Josh Johnson | person | plaintiff |  | Works for BAM as a corporate agent (FDD "franchise seller"), not a confirmed employee; criminal complainant | FDD lists him among BAM's "franchise sellers"; earlier "new owner / manager / employee" labels were inconsistent. |
-| brandon-best | Brandon Best | person | plaintiff |  | Tied to store operation (plaintiff) |  |
-| baker-bricks | Baker Bricks | org | plaintiff |  | Entity tied to the store operation (Best) | ⚠ Named "Baker Bricks, LLC" in the suit; OR SOS shows "Salem-Baker Bricks Inc." (Brandon Best, Pres/Sec; reg. 2332041-97) at the former store's Keizer address — admin-dissolved Jan 2026. |
+| josh-johnson | Josh Johnson | person | plaintiff |  | Works for BAM as a corporate agent (FDD "franchise seller"), not a confirmed employee; criminal complainant | FDD lists him among BAM's "franchise sellers"; earlier "new owner / manager / employee" labels were inconsistent. Jun 4, 2026: BAM "parted ways" with him (mutual separation) and closed the Salem store; still a named plaintiff. |
+| brandon-best | Brandon Best | person | plaintiff |  | Tied to store operation (plaintiff) | Jun 4, 2026: BAM "parted ways" with him (mutual separation) and permanently closed the Salem store; still a named plaintiff. (Spelled "Brandon," not "Brendon.") |
+| baker-bricks | Baker Bricks | org | plaintiff |  | Entity tied to the store operation (Best) | ⚠ Named "Baker Bricks, LLC" in the suit; OR SOS shows "Salem-Baker Bricks Inc." (Brandon Best, Pres/Sec; reg. 2332041-97) at the former store's Keizer address — admin-dissolved Jan 2026. Salem store permanently closed by BAM Jun 4, 2026. |
 | legally-mine | Legally Mine, LLC | org | neutral |  | Utah asset-protection firm; Ammon (Pres.) & Matt (VP Mktg) McNeff held roles here 2011–2020 (per BAM FDD) | ⚠ The 2025 Ohio Supreme Court UPL finding (Case 2025-0037) names a *different* McNeff — **Daniel** — as its sole member/manager; don't conflate with Ammon/Matt. |
 | daniel-mcneff | Daniel McNeff | person | neutral |  | Legally Mine sole member/manager | Co-debtor (with Legally Mine) on a 2021 settlement/note owed to Ammon & Matt McNeff; UPL respondent (Ohio 2025-0037). |
 | john-masek | John Masek | person | neutral |  | Secured creditor of Legally Mine | Holds a security interest in Legally Mine's 450,000 BAM Franchising shares (2020 Utah UCC-1). |
@@ -75,6 +75,8 @@ Role / Statement: optional short public captions for the node detail card.
 | josh-johnson | former employee of | legally-mine | corporate | → | ALLEGATION | Community-reported via the Wisconsin FDD (Exec. Event Booking Director, 2018–2020); not independently re-verified. |
 | josh-johnson | tied to store operation | baker-bricks | corporate | → | ALLEGATION | Local-store role contested; the FDD lists him as a BAM corporate franchise seller, not a Baker Bricks principal. |
 | brandon-best | operates | baker-bricks | corporate | → | CONFIRMED |  |
+| bam-franchising | parted ways with (Jun 4, 2026) | josh-johnson | corporate | → | CONFIRMED | Mutual separation; Salem store permanently closed. Both remain named plaintiffs. |
+| bam-franchising | parted ways with (Jun 4, 2026) | brandon-best | corporate | → | CONFIRMED | Mutual separation; Salem store permanently closed. Both remain named plaintiffs. |
 | afpd | arrested (Mar 2026) | ben-schneider | law-enforcement | → | CONFIRMED |  |
 | afpd | executed search warrant | ben-schneider | law-enforcement | → | CONFIRMED | Return: no items seized |
 | cameron-paul | chief of | afpd | corporate | → | CONFIRMED |  |

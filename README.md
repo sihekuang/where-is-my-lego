@@ -21,7 +21,7 @@ involving the American Fork Police Department, and a multi-count civil lawsuit f
 > adjudicated). As of the compilation date, **no court had found any party liable**. Please read
 > [`DISCLAIMER.md`](./DISCLAIMER.md) before using anything here.
 
-**Compiled:** 2026-06-03 · **Status of matter:** active civil litigation + pending criminal matter
+**Compiled:** 2026-06-03 · **Last updated:** 2026-06-05 · **Status of matter:** active civil litigation + pending criminal matter
 
 ---
 
@@ -42,7 +42,11 @@ If the names and legal terms below get confusing, this is the whole thing in fou
   return reported **nothing seized**). The case sparked national backlash against the **American Fork
   Police Department**.
 - **Where it stands now.** **BAM is suing** Schneider, Mansell, and others in Utah — **13 causes of
-  action**. Every side disputes the other's version, and **no court has found anyone liable**.
+  action**. On **June 4, 2026** BAM said it had **"parted ways"** (a *mutual* separation) with the two
+  Salem franchise owners, **Joshua Johnson and Brandon Best**, and **permanently closed** the Salem
+  store; CEO Ammon McNeff also said BAM was *prepared to discuss* dropping the suit against Mansell —
+  though no source yet shows Mansell accepting or anyone being dismissed. Every side disputes the
+  other's version, and **no court has found anyone liable**.
 
 > Why it's hard to follow: the dispute spans **two states** (Oregon and Utah), **two lawsuits** (the
 > family/BAM fight *and* a separate former-franchisee suit), a criminal case, and a police
@@ -86,7 +90,15 @@ individuals sued** Schneider and others in **Utah Fourth District Court** (case 
 [`lawsuit/court-documents.md`](./lawsuit/court-documents.md)),
 alleging defamation, a Utah RICO "pattern of unlawful activity," civil stalking, and more — **13
 causes of action** in total. **BAM denies any theft; Schneider and the Mansell family deny the
-harassment/extortion framing.** The matter remains unresolved.
+harassment/extortion framing.** On **June 4, 2026**, BAM announced (via a BusinessWire press release
+and company blog) that it had **"parted ways"** — described as a *mutual* separation — with the Salem
+franchise owners **Joshua Johnson and Brandon Best** and **permanently closed** the Salem store,
+citing "a devastating social media campaign." In the same statements BAM re-valued the collection at
+**$95,000–$100,000** (calling the ~$200,000 figure "promotional"), framed the consignment as an
+"unauthorized" side-deal predating Best/Johnson (a characterization Techdirt's June 2 reporting
+disputes), and said CEO Ammon McNeff was "prepared to discuss dropping the lawsuit against" Mansell
+and making him whole. ⚠ That offer is unilateral: **no source shows Mansell accepting, the suit being
+dropped, or any party being dismissed**, and the matter remains unresolved.
 
 ## Methodology & a note on what is *not* here
 
