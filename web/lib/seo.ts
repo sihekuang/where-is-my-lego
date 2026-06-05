@@ -8,7 +8,7 @@ export const SITE_URL = (
 ).replace(/\/+$/, "");
 
 export const DEFAULT_DESCRIPTION =
-  "A sourced, read-only research archive of the Bricks & Minifigs (BAM) – Reckless Ben controversy. Content is derived from canonical Markdown.";
+  "A man and his elderly father spent 25 years building a LEGO Star Wars collection, then say a shop never gave it back. A sourced, read-only research archive of the Bricks & Minifigs (BAM) – Reckless Ben controversy, with every claim labeled Confirmed or Allegation.";
 
 export const ROOT_TITLE = "Where Is My Lego — Sourced Research Archive";
 

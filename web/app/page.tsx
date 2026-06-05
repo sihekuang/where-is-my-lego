@@ -18,7 +18,7 @@ export default function Home() {
     <div>
       <h1 className="font-display text-4xl font-extrabold tracking-tight">Where Is My Lego</h1>
       <p className="mt-2 max-w-[60ch] text-muted-foreground">
-        An archival record of the Bricks &amp; Minifigs &ldquo;Reckless Ben&rdquo; dispute — every claim labeled Confirmed or Allegation.
+        A man and his elderly father (reported ~83) spent 25 years building a LEGO Star Wars collection — then say a shop never gave it back. An archival record of the Bricks &amp; Minifigs &ldquo;Reckless Ben&rdquo; dispute that followed, every claim labeled Confirmed or Allegation.
       </p>
       <div className="my-6 grid grid-cols-[repeat(auto-fill,minmax(220px,1fr))] gap-4">
         {CARDS.map((c) => (

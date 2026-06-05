@@ -1,11 +1,19 @@
 # where-is-my-lego
 
-An archival research record of the **Bricks & Minifigs (BAM) – "Reckless Ben" controversy**: a
-public dispute over a LEGO Star Wars collection (family-valued at ~$200,000; see the value dispute
-below) consigned to a Bricks & Minifigs franchise
-in Keizer/Salem, Oregon, which escalated into a viral YouTube investigation, criminal charges against
-YouTuber Benjamin "Reckless Ben" Schneider in Utah, a law-enforcement controversy involving the
-American Fork Police Department, and a multi-count civil lawsuit filed in Utah County.
+**At its heart, this is a simple human story.** A man and his **elderly father** — reported to be
+around **83** — spent roughly **25 years** building a LEGO Star Wars collection together: about
+**780 sets and 1,200 minifigures**. In 2023 they handed it to a local LEGO resale shop to sell on
+consignment, with a signed contract saying any unsold sets stayed *their* property. After that shop
+changed hands in a business dispute, **the family says their life's collection was never returned.**
+One family's effort to get it back pulled in a YouTuber — and from there it snowballed into a viral
+video, criminal charges, a police controversy, and a 13-count lawsuit.
+
+This repository is an **archival research record** of everything that followed — the
+**Bricks & Minifigs (BAM) – "Reckless Ben" controversy**: a public dispute over that LEGO Star Wars
+collection (family-valued at ~$200,000; see the value dispute below) consigned to a Bricks & Minifigs
+franchise in Keizer/Salem, Oregon, which escalated into a viral YouTube investigation, criminal
+charges against YouTuber Benjamin "Reckless Ben" Schneider in Utah, a law-enforcement controversy
+involving the American Fork Police Department, and a multi-count civil lawsuit filed in Utah County.
 
 > **This is a research archive, not advocacy.** Every substantive claim below is attributed to a
 > public source and is labeled **CONFIRMED** (documented by court records, agency statements, or
@@ -14,6 +22,31 @@ American Fork Police Department, and a multi-count civil lawsuit filed in Utah C
 > [`DISCLAIMER.md`](./DISCLAIMER.md) before using anything here.
 
 **Compiled:** 2026-06-03 · **Status of matter:** active civil litigation + pending criminal matter
+
+---
+
+## The story in plain terms
+
+If the names and legal terms below get confusing, this is the whole thing in four beats:
+
+- **Who.** Collector **Bryan Mansell** and his **father** (reported to be ~83), who built a LEGO Star
+  Wars collection together over about 25 years.
+- **What the family says happened.** They consigned the collection to a **Bricks & Minifigs** shop in
+  Keizer/Salem, Oregon. The shop later changed hands in a separate business dispute, and the family
+  says the unsold sets — still theirs under the signed contract — were **never given back**.
+  *(**BAM denies any theft** and says only a small remnant was ever at the store. Nothing has been
+  decided by a court.)*
+- **How it blew up.** YouTuber **Benjamin "Reckless Ben" Schneider** made a video about it that went
+  viral (~3M views), raised six figures on a GoFundMe for the family, and traveled to Utah to confront
+  a store-side figure — where he was **arrested twice** and a residence was searched (the warrant
+  return reported **nothing seized**). The case sparked national backlash against the **American Fork
+  Police Department**.
+- **Where it stands now.** **BAM is suing** Schneider, Mansell, and others in Utah — **13 causes of
+  action**. Every side disputes the other's version, and **no court has found anyone liable**.
+
+> Why it's hard to follow: the dispute spans **two states** (Oregon and Utah), **two lawsuits** (the
+> family/BAM fight *and* a separate former-franchisee suit), a criminal case, and a police
+> controversy — but they all trace back to that one consigned collection. The detailed record is below.
 
 ---
 
@@ -35,7 +68,7 @@ American Fork Police Department, and a multi-count civil lawsuit filed in Utah C
 
 ---
 
-## One-paragraph summary
+## The full summary (every name, date, and figure)
 
 In November 2023, collector **Bryan Mansell** and his elderly father consigned a large LEGO Star Wars
 collection (**family-valued at ~$200,000; the figure is disputed** — BAM and an inventory estimate put
