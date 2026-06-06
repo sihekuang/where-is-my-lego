@@ -28,7 +28,7 @@ nothing about the case; never a real likeness.
 | ben-gorman | Benjamin (Ben) Gorman | person | neutral |  | Former co-operator / spouse of Chrystal | Runs Not A Pipe Publishing; says BAM breached first. | cma |
 | ben-schneider | Reckless Ben (Schneider) | person | defendant | https://unavatar.io/youtube/RecklessBen | YouTuber / self-styled investigator | Says he went to serve papers; alleges police misconduct. |  |
 | reckless-ben-llc | Reckless Ben LLC | org | defendant | https://unavatar.io/youtube/RecklessBen | Schneider's media/business entity |  |  |
-| patreon | Patreon | org | neutral | https://images.weserv.nl/?url=upload.wikimedia.org/wikipedia/commons/a/a8/Patreon_logomark.svg&output=png | Funding platform hosting Schneider's page | Refused BAM's May 29 takedown request; CEO Jack Conte (Jun 2, 2026): "Bricks & Minifigs can stuff it… they can sue us." Took no side in the underlying dispute. |  |
+| patreon | Patreon | org | neutral | https://unavatar.io/patreon.com | Funding platform hosting Schneider's page | Refused BAM's May 29 takedown request; CEO Jack Conte (Jun 2, 2026): "Bricks & Minifigs can stuff it… they can sue us." Took no side in the underlying dispute. |  |
 | victor-nguyen | Victor Nguyen | person | defendant |  | Associate of Schneider (defendant) |  | cma |
 | bam-franchising | BAM Franchising | org | plaintiff | https://images.weserv.nl/?url=bricksandminifigs.com/wp-content/uploads/2025/04/cropped-BAM_mini_blue-192x192.png | Franchisor / corporate parent (plaintiff) | Denies theft/wrongdoing; offered mediation. |  |
 | ammon-mcneff | Ammon McNeff | person | plaintiff |  | CEO, Bricks & Minifigs (plaintiff) | Publicly apologized; rejects theft/conspiracy claims. | bma |
