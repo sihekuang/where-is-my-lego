@@ -15,9 +15,10 @@ function swapLocale(pathname: string, target: string) {
 }
 
 // Remember an explicit language pick so the "/" auto-redirect honors it next
-// time instead of re-guessing from Accept-Language. 1 year, site-wide, Lax.
+// time instead of re-guessing from Accept-Language. NEXT_LOCALE is the
+// ecosystem-standard cookie name. 1 year, site-wide, Lax.
 function rememberLocale(code: string) {
-  document.cookie = `locale=${code};path=/;max-age=31536000;samesite=lax`;
+  document.cookie = `NEXT_LOCALE=${code};path=/;max-age=31536000;samesite=lax`;
 }
 
 export function LanguageSwitcher({ current }: { current: string }) {

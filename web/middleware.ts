@@ -3,7 +3,9 @@ import { isLocale, negotiateLocale } from "@/lib/locales.mjs";
 
 // Cookie written by the language switcher to remember an explicit choice. An
 // explicit pick beats the browser's Accept-Language guess on the next "/" visit.
-const LOCALE_COOKIE = "locale";
+// NEXT_LOCALE is the ecosystem-standard name (Next.js built-in i18n,
+// next-i18n-router, next-intl all read it).
+const LOCALE_COOKIE = "NEXT_LOCALE";
 
 export function middleware(req: NextRequest) {
   if (req.nextUrl.pathname !== "/") return NextResponse.next();
