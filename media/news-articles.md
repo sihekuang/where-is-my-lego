@@ -61,6 +61,12 @@ environment had no network egress). Author bylines marked "—" were not confirm
 | ABC4 (Utah) | Bricks & Minifigs 'parts ways' with franchise owners at center of stolen Lego scandal, offers to meet with collector | 2026-06-04 | https://www.abc4.com/news/wasatch-front/bricks-minifigs-franchise-lego-scandal/ |
 | Geeks + Gamers | Bricks & Minifigs Shuts Down Salem Store & Seeks Resolution With Mansell Family After Lego Scandal | 2026-06-04 | https://geeksandgamers.com/bricks-minifigs-shuts-down-salem-store/ |
 | Las Vegas Sun | Bricks & Minifigs Parts Ways with Salem, Oregon Franchise Owners Brandon Best and Joshua Johnson (BusinessWire reprint) | 2026-06-04 | https://lasvegassun.com/news/2026/jun/04/bricks-minifigs-parts-ways-with-salem-oregon-franc/ |
+| Dexerto | Patreon CEO tells Bricks & Minifigs to "sue us" after refusing to remove Reckless Ben | 2026-06-02 | https://www.dexerto.com/entertainment/patreon-ceo-tells-bricks-minifigs-to-sue-us-after-refusing-to-remove-reckless-ben-3371050/ |
+| Kotaku | Patreon CEO stands by Reckless Ben following takedown notice and lawsuit | 2026-06-02 | https://kotaku.com/lego-star-wars-reckless-ben-youtube-bricks-minifigs-patreon-mormon-mafia-2000701942 |
+| Brick Fanatics | Patreon stands by Reckless Ben after Bricks & Minifigs requests takedown | 2026-06-02 | https://www.brickfanatics.com/patreon-stands-reckless-ben-bricks-minifigs- |
+| Sportskeeda | "Bricks & Minifigs can stuff it": Patreon CEO Jack Conte responds to official takedown request | 2026-06-02 | https://www.sportskeeda.com/us/streamers/news-bricks-minifigs-can-stuff-it-patreon-ceo-jack-conte-responds-organization-s-official-takedown-request-reckless-ben-s-content |
+| Primetimer | Who is Jack Conte? "Bricks & Minifigs can stuff it" says Patreon CEO amid takedown request | 2026-06-02 | https://www.primetimer.com/news/who-is-jack-conte-bricks-minifigs-can-stuff-it-says-patreon-ceo-amid-takedown-request-for-reckless-ben-s-videos |
+| Soap Central | "That's the guy from Pomplamoose": Patreon CEO Jack Conte's link to indie band surprises fans | 2026-06-02 | https://www.soapcentral.com/entertainment/that-s-guy-pomplamoose-patreon-ceo-jack-conte-s-link-indie-band-surprises-fans-video-slamming-bricks-minifigs-goes-viral |
 
 ## Forum / community discussion
 
