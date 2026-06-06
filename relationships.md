@@ -28,6 +28,7 @@ nothing about the case; never a real likeness.
 | ben-gorman | Benjamin (Ben) Gorman | person | neutral |  | Former co-operator / spouse of Chrystal | Runs Not A Pipe Publishing; says BAM breached first. | cma |
 | ben-schneider | Reckless Ben (Schneider) | person | defendant | https://unavatar.io/youtube/RecklessBen | YouTuber / self-styled investigator | Says he went to serve papers; alleges police misconduct. |  |
 | reckless-ben-llc | Reckless Ben LLC | org | defendant | https://unavatar.io/youtube/RecklessBen | Schneider's media/business entity |  |  |
+| patreon | Patreon | org | neutral | https://images.weserv.nl/?url=upload.wikimedia.org/wikipedia/commons/a/a8/Patreon_logomark.svg&output=png | Funding platform hosting Schneider's page | Refused BAM's May 29 takedown request; CEO Jack Conte (Jun 2, 2026): "Bricks & Minifigs can stuff it… they can sue us." Took no side in the underlying dispute. |  |
 | victor-nguyen | Victor Nguyen | person | defendant |  | Associate of Schneider (defendant) |  | cma |
 | bam-franchising | BAM Franchising | org | plaintiff | https://images.weserv.nl/?url=bricksandminifigs.com/wp-content/uploads/2025/04/cropped-BAM_mini_blue-192x192.png | Franchisor / corporate parent (plaintiff) | Denies theft/wrongdoing; offered mediation. |  |
 | ammon-mcneff | Ammon McNeff | person | plaintiff |  | CEO, Bricks & Minifigs (plaintiff) | Publicly apologized; rejects theft/conspiracy claims. | bma |
@@ -66,6 +67,7 @@ nothing about the case; never a real likeness.
 | ben-schneider | publicized dispute for | bryan-mansell | investigative | → | CONFIRMED |  |
 | ben-schneider | owns | reckless-ben-llc | corporate | → | CONFIRMED |  |
 | ben-schneider | associate | victor-nguyen | investigative | ↔ | CONFIRMED |  |
+| ben-schneider | hosts funding page on | patreon | transactional | → | CONFIRMED | Patreon kept the page up after BAM's takedown demand. |
 | ammon-mcneff | CEO of | bam-franchising | corporate | → | CONFIRMED |  |
 | matt-mcneff | COO of | bam-franchising | corporate | → | CONFIRMED |  |
 | ammon-mcneff | brothers | matt-mcneff | familial | — | CONFIRMED |  |
@@ -107,4 +109,5 @@ nothing about the case; never a real likeness.
 | bam-franchising | sued | reckless-ben-llc | legal | → | CONFIRMED |  |
 | bam-franchising | sued | bryan-mansell | legal | → | CONFIRMED | Named co-defendant (with Schneider, Reckless Ben LLC, Nguyen, Does 1–15) in BAM's May 27, 2026 Utah suit alleging a coordinated "extortion/harassment campaign" — the underlying allegations are unproven. ⚠ Jun 4, 2026: BAM said it is *prepared to discuss* dropping the suit against Mansell and making him whole; no dismissal has been filed as of this record (litigation pending). Mansell is separately a *plaintiff* in Oregon over the unreturned consignment. |
 | bam-franchising | sued | victor-nguyen | legal | → | CONFIRMED |  |
+| bam-franchising | demanded takedown of Schneider's page (refused) | patreon | legal | → | CONFIRMED | May 29, 2026 request attached the verified complaint, a TRO-based immediate-removal demand, and the TRO/PI motion; Patreon CEO Jack Conte publicly refused on Jun 2, 2026. |
 | bryan-mansell | alleges collection not returned | bam-franchising | legal | → | ALLEGATION |  |
