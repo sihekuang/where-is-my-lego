@@ -14,13 +14,6 @@ function swapLocale(pathname: string, target: string) {
   return parts.join("/") || `/${target}`;
 }
 
-// Remember an explicit language pick so the "/" auto-redirect honors it next
-// time instead of re-guessing from Accept-Language. NEXT_LOCALE is the
-// ecosystem-standard cookie name. 1 year, site-wide, Lax.
-function rememberLocale(code: string) {
-  document.cookie = `NEXT_LOCALE=${code};path=/;max-age=31536000;samesite=lax`;
-}
-
 export function LanguageSwitcher({ current }: { current: string }) {
   const pathname = usePathname() || `/${current}`;
   return (
@@ -30,7 +23,7 @@ export function LanguageSwitcher({ current }: { current: string }) {
       />
       <DropdownMenuContent align="end">
         {LOCALES.map((l) => (
-          <DropdownMenuItem key={l.code} render={<Link href={swapLocale(pathname, l.code)} onClick={() => rememberLocale(l.code)} />} className={l.code === current ? "font-semibold" : ""}>
+          <DropdownMenuItem key={l.code} render={<Link href={swapLocale(pathname, l.code)} />} className={l.code === current ? "font-semibold" : ""}>
             {l.endonym}
           </DropdownMenuItem>
         ))}
