@@ -56,12 +56,12 @@ export default async function MediaPage({ params }: { params: Promise<{ locale: 
       </div>
 
       <h2 className="mt-7 text-xl">{t("media.news")}</h2>
-      <SectionedTable data={news} labels={labels} searchPlaceholder={t("media.search")} />
+      <SectionedTable data={news} labels={labels} searchPlaceholder={t("media.search")} locale={locale} />
 
       <h2 id="primary" className="mt-10 text-xl">
         {t("media.primary")}
       </h2>
-      <SectionedTable data={primary} labels={labels} searchPlaceholder={t("media.searchPrimary")} />
+      <SectionedTable data={primary} labels={labels} searchPlaceholder={t("media.searchPrimary")} locale={locale} />
     </div>
   );
 }

@@ -22,7 +22,7 @@ export default async function CommunitySourcesPage({ params }: { params: Promise
   return (
     <>
       <PageStructuredData {...META} locale={locale} dateModified={generatedMtime("content/community-sources.md").toISOString()} />
-      <Markdown>{md}</Markdown>
+      <Markdown locale={locale}>{md}</Markdown>
     </>
   );
 }

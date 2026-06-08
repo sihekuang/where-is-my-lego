@@ -40,6 +40,12 @@
       "role": "Asociado de Schneider (demandado)"
     },
     {
+      "id": "tyler-shaw",
+      "label": "Tyler Shaw",
+      "role": "Asociado de Schneider; conductor en las paradas de la AFPD del 8 al 9 de marzo (no es una parte nombrada)",
+      "statement": "Citado por una infracción de señal de alto; liberado de cargos por conducir en estado de ebriedad (prueba de aliento .00; búsqueda con perro K-9 no encontró nada). Lo relató en \"The Civil Rights Lawyer\" (7 de jun de 2026)."
+    },
+    {
       "id": "bam-franchising",
       "label": "BAM Franchising",
       "role": "Franquiciador / empresa matriz (demandante)",
@@ -352,6 +358,14 @@
     },
     {
       "label": "alega que la colección no fue devuelta"
+    },
+    {
+      "label": "asociado",
+      "note": "\"El otro tipo con Ben en los videos\"; conducía (Schneider iba de pasajero) durante las paradas de la AFPD del 8 al 9 de marzo de 2026. No es una parte nombrada en la demanda."
+    },
+    {
+      "label": "detenido y citado (8–9 de mar de 2026)",
+      "note": "Citación por señal de alto (8 de mar); el 9 de mar la policía señaló sospecha de deterioro, pero Shaw pasó una prueba de aliento de .00 y una búsqueda motivada por un perro K-9 no encontró sustancias ilegales. El encuadre de \"acusación pretextual / falsa acusación de drogas\" (Shaw/Schneider/Bryan) es un ALLEGATION. Según American Fork Citizen + la entrevista Civil Rights Lawyer Part 2."
     }
   ]
 }

@@ -29,7 +29,7 @@ export default async function TimelinePage({ params }: { params: Promise<{ local
       <p className="mt-2 max-w-[70ch] text-muted-foreground">
         <Rich text={t("timeline.intro")} />
       </p>
-      <TimelineView data={data} labels={getDictObject(locale)} />
+      <TimelineView data={data} labels={getDictObject(locale)} locale={locale} />
     </div>
   );
 }

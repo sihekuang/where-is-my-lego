@@ -31,7 +31,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </Link>
         ))}
       </div>
-      <Markdown>{md}</Markdown>
+      <Markdown locale={locale}>{md}</Markdown>
     </div>
   );
 }

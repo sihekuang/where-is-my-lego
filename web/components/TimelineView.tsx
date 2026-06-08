@@ -14,7 +14,7 @@ type FilterKey = (typeof FILTER_KEYS)[number];
 const filterLabel = (labels: Labels, key: FilterKey) =>
   key === "all" ? tt(labels, "timeline.filterAll") : tt(labels, `status.${key}`);
 
-export default function TimelineView({ data, labels }: { data: Timeline; labels: Labels }) {
+export default function TimelineView({ data, labels, locale }: { data: Timeline; labels: Labels; locale?: string }) {
   const [filter, setFilter] = useState<FilterKey>("all");
   const [q, setQ] = useState("");
   const [sortDir, setSortDir] = useState<"asc" | "desc">("asc");
@@ -87,15 +87,15 @@ export default function TimelineView({ data, labels }: { data: Timeline; labels:
               <BrickCard variant={v} studs={2} className="px-4 py-3">
                 <div className="flex items-center justify-between gap-2.5">
                   <span className="font-display font-bold text-card-foreground">
-                    <InlineMarkdown>{r.cells[idx.date] ?? ""}</InlineMarkdown>
+                    <InlineMarkdown locale={locale}>{r.cells[idx.date] ?? ""}</InlineMarkdown>
                   </span>
                   <span className="brick-badge" style={{ background: `var(--${r.status})` }}>
                     {tt(labels, `status.${r.status}`)}
                   </span>
                 </div>
-                <div className="mt-1 text-card-foreground"><InlineMarkdown>{r.cells[idx.event] ?? ""}</InlineMarkdown></div>
+                <div className="mt-1 text-card-foreground"><InlineMarkdown locale={locale}>{r.cells[idx.event] ?? ""}</InlineMarkdown></div>
                 {idx.source >= 0 && r.cells[idx.source] && (
-                  <div className="mt-1.5 text-[13px] text-muted-foreground"><InlineMarkdown>{r.cells[idx.source]}</InlineMarkdown></div>
+                  <div className="mt-1.5 text-[13px] text-muted-foreground"><InlineMarkdown locale={locale}>{r.cells[idx.source]}</InlineMarkdown></div>
                 )}
               </BrickCard>
             </li>

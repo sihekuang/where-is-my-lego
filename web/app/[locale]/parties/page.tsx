@@ -48,7 +48,7 @@ export default async function PartiesPage({ params }: { params: Promise<{ locale
       <RelationshipGraph data={graph} labels={labels} disclaimerHref={`/${locale}/disclaimer`} rosterIds={rosterIds} />
 
       <div id="roster">
-        <SectionedTable data={{ sections }} labels={labels} searchPlaceholder={t("parties.search")} />
+        <SectionedTable data={{ sections }} labels={labels} searchPlaceholder={t("parties.search")} locale={locale} />
       </div>
     </div>
   );

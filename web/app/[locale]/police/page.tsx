@@ -22,7 +22,7 @@ export default async function PolicePage({ params }: { params: Promise<{ locale:
   return (
     <>
       <PageStructuredData {...META} locale={locale} dateModified={generatedMtime("content/police.md").toISOString()} />
-      <Markdown>{md}</Markdown>
+      <Markdown locale={locale}>{md}</Markdown>
     </>
   );
 }

@@ -9,10 +9,12 @@ export default function SectionedTable({
   data,
   labels,
   searchPlaceholder,
+  locale,
 }: {
   data: Sectioned;
   labels: Record<string, string>;
   searchPlaceholder?: string;
+  locale?: string;
 }) {
   const tt = (k: string) => labels[k] ?? k;
   const placeholder = searchPlaceholder ?? tt("table.search");
@@ -60,7 +62,7 @@ export default function SectionedTable({
                 {s.rows.map((r, ri) => (
                   <tr key={ri} id={r.anchor}>
                     {r.cells.map((cell, ci) => (
-                      <td key={ci}><InlineMarkdown>{cell}</InlineMarkdown></td>
+                      <td key={ci}><InlineMarkdown locale={locale}>{cell}</InlineMarkdown></td>
                     ))}
                   </tr>
                 ))}

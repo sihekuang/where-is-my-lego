@@ -22,7 +22,7 @@ export default async function CourtDocumentsPage({ params }: { params: Promise<{
   return (
     <>
       <PageStructuredData {...META} locale={locale} dateModified={generatedMtime("content/lawsuit-documents.md").toISOString()} />
-      <Markdown>{md}</Markdown>
+      <Markdown locale={locale}>{md}</Markdown>
     </>
   );
 }
