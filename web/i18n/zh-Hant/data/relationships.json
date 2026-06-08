@@ -40,6 +40,12 @@
       "role": "Schneider（被告）的同夥"
     },
     {
+      "id": "tyler-shaw",
+      "label": "Tyler Shaw",
+      "role": "施奈德的同夥；Mar 8–9 AFPD 攔查事件中的駕駛（非具名當事人）",
+      "statement": "因闖越停車標誌被開罰單；飲酒測試結果為 .00，K-9 搜查亦無所獲，排除酒駕嫌疑。事後於「The Civil Rights Lawyer」節目（2026 年 6 月 7 日）中陳述此經歷。"
+    },
+    {
       "id": "bam-franchising",
       "label": "BAM 特許經營",
       "role": "特許經營商／母公司（原告）",
@@ -352,6 +358,14 @@
     },
     {
       "label": "聲稱收藏品未被歸還"
+    },
+    {
+      "label": "同事",
+      "note": "「影片中與Ben同行的另一名男子」；在2026年3月8日至9日的AFPD攔查中負責駕駛（Schneider為乘客）。並非訴訟中的具名當事人。"
+    },
+    {
+      "label": "遭攔停並受傳票（2026年3月8–9日）",
+      "note": "闖停車牌告票（3月8日）；3月9日警方標記疑似藥物影響，但Shaw通過了.00呼氣測試，且K-9引導的搜查未發現任何違禁物質。「藉故／捏造毒品指控」的說法（Shaw／Schneider／Bryan）為ALLEGATION。資料來源：American Fork Citizen及《公民自由律師》第2集訪談。"
     }
   ]
 }
