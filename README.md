@@ -1,12 +1,17 @@
 # where-is-my-lego
 
-**At its heart, this is a simple human story.** A man and his **elderly father** — reported to be
-around **83** — spent roughly **25 years** building a LEGO Star Wars collection together: about
-**780 sets and 1,200 minifigures**. In 2023 they handed it to a local LEGO resale shop to sell on
-consignment, with a signed contract saying any unsold sets stayed *their* property. After that shop
-changed hands in a business dispute, **the family says their life's collection was never returned.**
-One family's effort to get it back pulled in a YouTuber — and from there it snowballed into a viral
-video, criminal charges, a police controversy, and a 13-count lawsuit.
+For about **25 years**, a man and his father built something together one brick at a time — a LEGO
+Star Wars collection of roughly **780 sets and 1,200 minifigures**, the work of a quarter-century of
+weekends. The father is now reported to be around **83**. In 2023 the family consigned the collection
+to a local LEGO resale shop to sell, under a signed contract that said any unsold sets stayed *their*
+property. Then the shop changed hands in a business dispute — and **the family says their life's
+collection was never returned.** One family's effort to get it back drew in a YouTuber, and from there
+it snowballed into a viral investigation, **two arrests**, a police-conduct controversy, and a
+**13-count lawsuit** spanning two states. Underneath the legal filings and the viral noise, it began
+as something simple: a family trying to get back what they built.
+
+What follows is the complete, sourced record — first the story in plain terms, then every name, date,
+and figure, then the detailed files behind each claim.
 
 This repository is an **archival research record** of everything that followed — the
 **Bricks & Minifigs (BAM) – "Reckless Ben" controversy**: a public dispute over that LEGO Star Wars
@@ -29,8 +34,8 @@ involving the American Fork Police Department, and a multi-count civil lawsuit f
 
 If the names and legal terms below get confusing, this is the whole thing in four beats:
 
-- **Who.** Collector **Bryan Mansell** and his **father** (reported to be ~83), who built a LEGO Star
-  Wars collection together over about 25 years.
+- **Who.** Collector **Bryan Mansell** and his **father** (reported to be ~83), who spent about
+  **25 years** building a LEGO Star Wars collection together.
 - **What the family says happened.** They consigned the collection to a **Bricks & Minifigs** shop in
   Keizer/Salem, Oregon. The shop later changed hands in a separate business dispute, and the family
   says the unsold sets — still theirs under the signed contract — were **never given back**.
