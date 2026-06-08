@@ -30,6 +30,7 @@ nothing about the case; never a real likeness.
 | reckless-ben-llc | Reckless Ben LLC | org | defendant | https://unavatar.io/youtube/RecklessBen | Schneider's media/business entity |  |  |
 | victor-nguyen | Victor Nguyen | person | defendant |  | Associate of Schneider (defendant) |  | cma |
 | tyler-shaw | Tyler Shaw | person | neutral |  | Associate of Schneider; driver in the Mar 8–9 AFPD stops (not a named party) | Cited for a stop-sign violation; cleared on impairment (.00 breath test; K-9 search found nothing). Recounted it on "The Civil Rights Lawyer" (Jun 7, 2026). | cma |
+| sheldon-norcross | Sheldon Norcross | person | neutral |  | Associate of Schneider; detained at the Mar 11 scene, released (not a named party) | On a FaceTime call with Schneider when AFPD arrived; AFPD seized his phone. ⚠ Single-sourced (American Fork Citizen). | cma |
 | bam-franchising | BAM Franchising | org | plaintiff | https://images.weserv.nl/?url=bricksandminifigs.com/wp-content/uploads/2025/04/cropped-BAM_mini_blue-192x192.png | Franchisor / corporate parent (plaintiff) | Denies theft/wrongdoing; offered mediation. |  |
 | ammon-mcneff | Ammon McNeff | person | plaintiff |  | CEO, Bricks & Minifigs (plaintiff) | Publicly apologized; rejects theft/conspiracy claims. | bma |
 | matt-mcneff | Matt McNeff | person | plaintiff |  | COO / co-owner (plaintiff) |  | bma |
@@ -111,3 +112,5 @@ nothing about the case; never a real likeness.
 | bryan-mansell | alleges collection not returned | bam-franchising | legal | → | ALLEGATION |  |
 | ben-schneider | associate | tyler-shaw | investigative | ↔ | CONFIRMED | "The other guy with Ben in the videos"; was driving (Schneider a passenger) during the Mar 8–9, 2026 AFPD stops. Not a named party in the suit. |
 | afpd | stopped & cited (Mar 8–9, 2026) | tyler-shaw | law-enforcement | → | CONFIRMED | Stop-sign citation (Mar 8); on Mar 9 police flagged suspected impairment but Shaw passed a .00 breath test and a K-9-prompted search found no illegal substances. The "pretextual / false drug accusation" framing (Shaw/Schneider/Bryan) is an ALLEGATION. Per American Fork Citizen + the Civil Rights Lawyer Part 2 interview. |
+| ben-schneider | associate (on the call during the Mar 11 arrest) | sheldon-norcross | investigative | ↔ | ALLEGATION | ⚠ Single-sourced (American Fork Citizen) — reported, below CONFIRMED's multi-source bar; not a contested claim. |
+| afpd | detained & seized phone (Mar 11) | sheldon-norcross | law-enforcement | → | ALLEGATION | AFPD's account (afcitizen): phone seized after he allegedly handled it when told it'd be evidence; taken into custody and released (not booked). Single-sourced. |

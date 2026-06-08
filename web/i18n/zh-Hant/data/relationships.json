@@ -46,6 +46,12 @@
       "statement": "因闖越停車標誌被開罰單；飲酒測試結果為 .00，K-9 搜查亦無所獲，排除酒駕嫌疑。事後於「The Civil Rights Lawyer」節目（2026 年 6 月 7 日）中陳述此經歷。"
     },
     {
+      "id": "sheldon-norcross",
+      "label": "Sheldon Norcross",
+      "role": "Schneider 的同夥；於 3 月 11 日現場被拘留，隨後獲釋（非具名當事人）",
+      "statement": "在 AFPD 抵達時，正與 Schneider 進行 FaceTime 通話；AFPD 沒收了他的手機。⚠ 單一來源（American Fork Citizen）。"
+    },
+    {
       "id": "bam-franchising",
       "label": "BAM 特許經營",
       "role": "特許經營商／母公司（原告）",
@@ -366,6 +372,14 @@
     {
       "label": "遭攔停並受傳票（2026年3月8–9日）",
       "note": "闖停車牌告票（3月8日）；3月9日警方標記疑似藥物影響，但Shaw通過了.00呼氣測試，且K-9引導的搜查未發現任何違禁物質。「藉故／捏造毒品指控」的說法（Shaw／Schneider／Bryan）為ALLEGATION。資料來源：American Fork Citizen及《公民自由律師》第2集訪談。"
+    },
+    {
+      "label": "同夥（3月11日逮捕當天在通話中）",
+      "note": "⚠ 單一來源（American Fork Citizen）——已報導，未達 CONFIRMED 的多來源標準；非爭議性聲稱。"
+    },
+    {
+      "label": "拘留並扣押手機（3月11日）",
+      "note": "AFPD 的陳述（帳號 afcitizen）：據稱他在被告知手機將作為證據後仍繼續使用，手機因此遭到沒收；他被帶走羈押後隨即獲釋（未正式入案起訴）。僅有單一消息來源。"
     }
   ]
 }
