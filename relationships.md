@@ -67,8 +67,6 @@ nothing about the case; never a real likeness.
 | ben-schneider | publicized dispute for | bryan-mansell | investigative | → | CONFIRMED |  |
 | ben-schneider | owns | reckless-ben-llc | corporate | → | CONFIRMED |  |
 | ben-schneider | associate | victor-nguyen | investigative | ↔ | CONFIRMED |  |
-| ben-schneider | associate | tyler-shaw | investigative | ↔ | CONFIRMED | "The other guy with Ben in the videos"; was driving (Schneider a passenger) during the Mar 8–9, 2026 AFPD stops. Not a named party in the suit. |
-| afpd | stopped & cited (Mar 8–9, 2026) | tyler-shaw | law-enforcement | → | CONFIRMED | Stop-sign citation (Mar 8); on Mar 9 police flagged suspected impairment but Shaw passed a .00 breath test and a K-9-prompted search found no illegal substances. The "pretextual / false drug accusation" framing (Shaw/Schneider/Bryan) is an ALLEGATION. Per American Fork Citizen + the Civil Rights Lawyer Part 2 interview. |
 | ammon-mcneff | CEO of | bam-franchising | corporate | → | CONFIRMED |  |
 | matt-mcneff | COO of | bam-franchising | corporate | → | CONFIRMED |  |
 | ammon-mcneff | brothers | matt-mcneff | familial | — | CONFIRMED |  |
@@ -111,3 +109,5 @@ nothing about the case; never a real likeness.
 | bam-franchising | sued | bryan-mansell | legal | → | CONFIRMED | Named co-defendant (with Schneider, Reckless Ben LLC, Nguyen, Does 1–15) in BAM's May 27, 2026 Utah suit alleging a coordinated "extortion/harassment campaign" — the underlying allegations are unproven. ⚠ Jun 4, 2026: BAM said it is *prepared to discuss* dropping the suit against Mansell and making him whole; no dismissal has been filed as of this record (litigation pending). Mansell is separately a *plaintiff* in Oregon over the unreturned consignment. |
 | bam-franchising | sued | victor-nguyen | legal | → | CONFIRMED |  |
 | bryan-mansell | alleges collection not returned | bam-franchising | legal | → | ALLEGATION |  |
+| ben-schneider | associate | tyler-shaw | investigative | ↔ | CONFIRMED | "The other guy with Ben in the videos"; was driving (Schneider a passenger) during the Mar 8–9, 2026 AFPD stops. Not a named party in the suit. |
+| afpd | stopped & cited (Mar 8–9, 2026) | tyler-shaw | law-enforcement | → | CONFIRMED | Stop-sign citation (Mar 8); on Mar 9 police flagged suspected impairment but Shaw passed a .00 breath test and a K-9-prompted search found no illegal substances. The "pretextual / false drug accusation" framing (Shaw/Schneider/Bryan) is an ALLEGATION. Per American Fork Citizen + the Civil Rights Lawyer Part 2 interview. |
