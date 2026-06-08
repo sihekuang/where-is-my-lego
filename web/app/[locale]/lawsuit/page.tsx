@@ -25,7 +25,7 @@ export default async function LawsuitPage({ params }: { params: Promise<{ locale
   return (
     <div>
       <PageStructuredData {...META} locale={locale} dateModified={generatedMtime("content/lawsuit.md").toISOString()} />
-      <Markdown>{md}</Markdown>
+      <Markdown locale={locale}>{md}</Markdown>
       <p className="mt-6">
         → <Link href={`/${locale}/lawsuit/documents`} className="text-primary hover:underline">{t("lawsuit.docsLink")}</Link>
       </p>

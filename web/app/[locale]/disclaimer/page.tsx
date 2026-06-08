@@ -22,7 +22,7 @@ export default async function DisclaimerPage({ params }: { params: Promise<{ loc
   return (
     <>
       <PageStructuredData {...META} locale={locale} dateModified={generatedMtime("content/disclaimer.md").toISOString()} />
-      <Markdown>{md}</Markdown>
+      <Markdown locale={locale}>{md}</Markdown>
     </>
   );
 }
