@@ -10,7 +10,7 @@
 | **3月10日**（日期存疑） | **第一次逮捕** —— Schneider 被指控**跟踪骚扰、针对性住宅前示威、扰乱公共秩序、非法侵入**。⚠ Wikipedia/Dexerto 称3月10日；American Fork Citizen 将两次逮捕均置于3月11日；KSL/East Idaho News 称"3月27日被起诉"。 | CONFIRMED（逮捕）；日期存疑 |
 | **3月11日** | 第二份可能原因宣誓书寻求追加一项跟踪骚扰指控（指控其在宣传 GoFundMe 期间，通过支持者持续在住所附近活动）。 | 报告（宣誓书） |
 | **3月11日** | **搜查令**由法官批准，对 Schneider 所住的 **Airbnb** 实施搜查；宣誓书援引 Airbnb 房东无意间听到的"可能涉及被盗乐高玩具"谈话；搜查令寻找"任何被盗商品，特指乐高商品"。 | CONFIRMED |
-| **3月11日晚** | 在 Airbnb 实施**第二次逮捕**；**被关押至犹他县监狱**。约4名同行者被拘留，除 Schneider 外均获释放。 | CONFIRMED |
+| **3月11日傍晚** | **第二次逮捕**发生于该 Airbnb；Schneider **被收押至犹他县监狱**。约4名同伴被临时拘留，除 Schneider 外均获释放——其中包括 **Sheldon Norcross**，警员到达时其正与 Schneider 进行 FaceTime 通话，**AFPD 扣押了其手机**（警方说法）。⚠ Norcross 相关细节仅来源于 American Fork Citizen，属单一来源。 | CONFIRMED（逮捕）；Norcross 细节属已报告内容 |
 | 搜查令归还 | 归还记录据报显示**"Benjamin Schneider 已被捕。未扣押任何物品。"** —— 未缴获乐高或其他任何物品。 | CONFIRMED |
 | 3月11日后 | Schneider 据报离开美国前往**墨西哥**，继续进行募款活动。 | 报告（未经机构证实） |
 | **5月29日** | AFPD 发布随身摄像机录像及新闻稿；**局长 Cameron Paul** 发布约26分钟的视频声明。 | CONFIRMED |
