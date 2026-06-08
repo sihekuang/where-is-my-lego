@@ -1,11 +1,22 @@
 import { ImageResponse } from "next/og";
-import { brickDataUri } from "./brick-svg.mjs";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 const BRAND = "Where Is My Lego";
 const SUBTITLE = "BAM × Reckless Ben";
+
+// The hero photo (1200×630 JPEG in /public), read once from disk at build and inlined as a
+// data URI so next/og can composite it. Cached across the per-page OG routes.
+let heroUri: string | null = null;
+function heroBackground(): string {
+  if (heroUri) return heroUri;
+  const buf = readFileSync(join(process.cwd(), "public", "og-hero.jpg"));
+  heroUri = `data:image/jpeg;base64,${buf.toString("base64")}`;
+  return heroUri;
+}
 
 // Fetched CJK font buffers are cached per character-subset so repeated OG routes
 // (one per page) don't refetch. Build-time only; failures fall back gracefully.
@@ -39,8 +50,9 @@ export function loadOgCjkFont(title: string, tagline: string, family = "Noto San
   return p;
 }
 
-/** Branded social card with the Lego-brick logo. When `cjkFont` is provided, all text renders
- *  in Noto Sans SC (which covers Latin too) so Chinese titles display correctly. */
+/** Branded social card: the cinematic hero photo with a dark scrim and the page title centered
+ *  over it. When `cjkFont` is provided, all text renders in Noto Sans (which covers Latin too)
+ *  so Chinese titles display correctly. */
 export function renderOgImage(
   title: string,
   { tagline = "Sourced Research Archive", cjkFont = null }: { tagline?: string; cjkFont?: ArrayBuffer | null } = {},
@@ -49,64 +61,54 @@ export function renderOgImage(
   const options = cjkFont
     ? { ...size, fonts: [{ name: "NotoSC", data: cjkFont, weight: 700 as const, style: "normal" as const }] }
     : size;
+  // Avoid showing the same line twice on the home card (where title === tagline).
+  const sub = tagline && tagline !== title ? tagline : SUBTITLE;
   return new ImageResponse(
     (
-      <div
-        style={{
-          height: "100%",
-          width: "100%",
-          display: "flex",
-          flexDirection: "row",
-          alignItems: "center",
-          justifyContent: "space-between",
-          background: "#13161c",
-          color: "#e6e8ec",
-          padding: "80px",
-          fontFamily: family,
-        }}
-      >
+      <div style={{ height: "100%", width: "100%", display: "flex", position: "relative", fontFamily: family }}>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          width={1200}
+          height={630}
+          src={heroBackground()}
+          alt=""
+          style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
+        />
+        {/* dark scrim for legibility */}
         <div
           style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            display: "flex",
+            background: "linear-gradient(180deg, rgba(8,10,14,0.55) 0%, rgba(8,10,14,0.78) 100%)",
+          }}
+        />
+        <div
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
             display: "flex",
             flexDirection: "column",
-            justifyContent: "space-between",
-            height: "100%",
-            flex: 1,
-            paddingRight: 56,
+            alignItems: "center",
+            justifyContent: "center",
+            padding: "72px",
+            textAlign: "center",
           }}
         >
-          <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-            <div style={{ display: "flex", fontSize: 34, letterSpacing: 4, color: "#4c9be6", textTransform: "uppercase" }}>
-              {BRAND}
-            </div>
-            <div style={{ display: "flex", fontSize: 22, letterSpacing: 3, color: "#9aa3b2", fontWeight: 500 }}>
-              {SUBTITLE}
-            </div>
+          <div style={{ display: "flex", fontSize: 30, letterSpacing: 6, color: "#f0b45a", textTransform: "uppercase", fontWeight: 700 }}>
+            {BRAND}
           </div>
-          <div style={{ display: "flex", fontSize: 80, fontWeight: 700, lineHeight: 1.05 }}>{title}</div>
-          <div style={{ display: "flex", fontSize: 30, color: "#9aa3b2" }}>{tagline}</div>
-        </div>
-
-        <div style={{ position: "relative", display: "flex", width: 320, height: 320, flexShrink: 0 }}>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img width={320} height={320} src={brickDataUri} alt="" />
-          <div
-            style={{
-              position: "absolute",
-              left: 48,
-              top: 122,
-              width: 180,
-              height: 130,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              color: "#ffffff",
-              fontSize: 112,
-              fontWeight: 900,
-              lineHeight: 1,
-            }}
-          >
-            ?
+          <div style={{ display: "flex", fontSize: 76, fontWeight: 700, color: "#ffffff", lineHeight: 1.05, marginTop: 20, maxWidth: 1000 }}>
+            {title}
+          </div>
+          <div style={{ display: "flex", fontSize: 26, color: "#cdd3dd", marginTop: 20, letterSpacing: 2 }}>
+            {sub}
           </div>
         </div>
       </div>
