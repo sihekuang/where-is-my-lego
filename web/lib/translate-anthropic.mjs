@@ -52,7 +52,8 @@ export function makeTranslator(localeCode, mode = "document") {
       max_tokens: 16384,
       system: [{ type: "text", text: system, cache_control: { type: "ephemeral" } }],
       messages: [{ role: "user", content: text }],
-    });
+    }, { timeout: 600_000 }); // whole-doc prose can be slow to generate; the SDK's default
+    // per-request timeout can trip on large docs (e.g. zh-Hant home.md), so give it room.
     // Guard against silently writing a bad translation (an empty/blocked reply or
     // a max_tokens truncation would otherwise be saved AND recorded as current in
     // the manifest, so the corruption would never be re-detected).

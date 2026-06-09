@@ -49,7 +49,6 @@ root *.md  ──(web/scripts/derive-data.mjs)──►  web/.generated/{data,co
 | `police-controversy.md` | Arrests, search warrant, AFPD controversy → `/police` |
 | `media/news-articles.md` | Cataloged news & commentary → `/media` |
 | `media/primary-sources.md` | Cataloged videos, official statements, social posts → `/media#primary` |
-| `media/download_manifest.md` | Link manifest + `fetch_media.sh` to fetch media elsewhere |
 | `DISCLAIMER.md` | Scope, methodology, limitations, ethics → `/disclaimer` |
 
 ### Web viewer (`web/`)

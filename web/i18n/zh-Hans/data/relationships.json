@@ -40,6 +40,18 @@
       "role": "施耐德（被告）的同伙"
     },
     {
+      "id": "tyler-shaw",
+      "label": "Tyler Shaw",
+      "role": "施奈德的同伙；在3月8日至9日AFPD拦停事件中的驾驶员（非具名当事方）",
+      "statement": "因闯停车标志被开罚单；经测试呼气酒精含量为0.00，K-9搜查一无所获，随后被排除酒驾嫌疑。事后在\"The Civil Rights Lawyer\"节目（2026年6月7日）中讲述了此事。"
+    },
+    {
+      "id": "sheldon-norcross",
+      "label": "Sheldon Norcross",
+      "role": "施奈德的同伙；在3月11日现场被拘留，后获释（非具名当事人）",
+      "statement": "FaceTime通话中与Schneider连线时AFPD到达；AFPD没收了他的手机。⚠ 单一来源（American Fork Citizen）。"
+    },
+    {
       "id": "bam-franchising",
       "label": "BAM特许经营",
       "role": "特许经营商/母公司（原告）",
@@ -352,6 +364,22 @@
     },
     {
       "label": "指控藏品未被归还"
+    },
+    {
+      "label": "关联方",
+      "note": "视频中与Ben同行的另一人；在2026年3月8日至9日的AFPD拦停事件中担任驾驶员（Schneider为乘客）。非诉讼中的具名当事人。"
+    },
+    {
+      "label": "被拦停并收到传票（2026年3月8日至9日）",
+      "note": "闯停车标志传票（3月8日）；3月9日警方怀疑其存在受损状态，但Shaw通过了.00呼气测试，K-9引导的搜查未发现任何违禁物质。\"借口性/虚假毒品指控\"的定性（Shaw/Schneider/Bryan方）属于ALLEGATION。来源：American Fork Citizen及《民权律师第二部分》访谈。"
+    },
+    {
+      "label": "同伙（在3月11日逮捕行动期间参与通话）",
+      "note": "⚠ 单一来源（American Fork Citizen）——已报道，低于 CONFIRMED 的多来源标准；非争议性声明。"
+    },
+    {
+      "label": "拘留并没收手机（3月11日）",
+      "note": "AFPD的账户（afcitizen）：在被告知手机将作为证据后，他据称仍触碰了手机，随后手机被没收；其本人被带走羁押后释放（未予登记入案）。单一来源。"
     }
   ]
 }

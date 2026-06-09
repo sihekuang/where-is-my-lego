@@ -1,12 +1,17 @@
 # where-is-my-lego
 
-**At its heart, this is a simple human story.** A man and his **elderly father** — reported to be
-around **83** — spent roughly **25 years** building a LEGO Star Wars collection together: about
-**780 sets and 1,200 minifigures**. In 2023 they handed it to a local LEGO resale shop to sell on
-consignment, with a signed contract saying any unsold sets stayed *their* property. After that shop
-changed hands in a business dispute, **the family says their life's collection was never returned.**
-One family's effort to get it back pulled in a YouTuber — and from there it snowballed into a viral
-video, criminal charges, a police controversy, and a 13-count lawsuit.
+For about **25 years**, a man and his father built something together one brick at a time — a LEGO
+Star Wars collection of roughly **780 sets and 1,200 minifigures**, the work of a quarter-century of
+weekends. The father is now reported to be around **83**. In 2023 the family consigned the collection
+to a local LEGO resale shop to sell, under a signed contract that said any unsold sets stayed *their*
+property. Then the shop changed hands in a business dispute — and **the family says their life's
+collection was never returned.** One family's effort to get it back drew in a YouTuber, and from there
+it snowballed into a viral investigation, **two arrests**, a police-conduct controversy, and a
+**13-count lawsuit** spanning two states. Underneath the legal filings and the viral noise, it began
+as something simple: a family trying to get back what they built.
+
+What follows is the complete, sourced record — first the story in plain terms, then every name, date,
+and figure, then the detailed files behind each claim.
 
 This repository is an **archival research record** of everything that followed — the
 **Bricks & Minifigs (BAM) – "Reckless Ben" controversy**: a public dispute over that LEGO Star Wars
@@ -29,8 +34,8 @@ involving the American Fork Police Department, and a multi-count civil lawsuit f
 
 If the names and legal terms below get confusing, this is the whole thing in four beats:
 
-- **Who.** Collector **Bryan Mansell** and his **father** (reported to be ~83), who built a LEGO Star
-  Wars collection together over about 25 years.
+- **Who.** Collector **Bryan Mansell** and his **father** (reported to be ~83), who spent about
+  **25 years** building a LEGO Star Wars collection together.
 - **What the family says happened.** They consigned the collection to a **Bricks & Minifigs** shop in
   Keizer/Salem, Oregon. The shop later changed hands in a separate business dispute, and the family
   says the unsold sets — still theirs under the signed contract — were **never given back**.
@@ -68,7 +73,6 @@ If the names and legal terms below get confusing, this is the whole thing in fou
 | [`police-controversy.md`](./police-controversy.md) | The arrests, search warrant, AFPD controversy, agency responses |
 | [`media/news-articles.md`](./media/news-articles.md) | Cataloged news & commentary coverage |
 | [`media/primary-sources.md`](./media/primary-sources.md) | Cataloged videos, official statements, social posts |
-| [`media/download_manifest.md`](./media/download_manifest.md) | Link manifest + script to fetch public-record media elsewhere |
 | [`DISCLAIMER.md`](./DISCLAIMER.md) | Scope, methodology, limitations, and ethics notes |
 | [`CONTRIBUTING.md`](./CONTRIBUTING.md) | How to propose a change / open a PR — **no local clone needed** |
 | [`AGENTS.md`](./AGENTS.md) · [`SKILL.md`](./SKILL.md) | Guidance for **AI agents** to query and contribute to this archive |
@@ -77,39 +81,69 @@ If the names and legal terms below get confusing, this is the whole thing in fou
 
 ## The full summary (every name, date, and figure)
 
-In November 2023, collector **Bryan Mansell** and his elderly father consigned a large LEGO Star Wars
-collection (**family-valued at ~$200,000; the figure is disputed** — BAM and an inventory estimate put
-it far lower, roughly $60K–$98K) to a **Bricks & Minifigs** franchise in the Salem/Keizer,
-Oregon area, then run by franchisees **Chrystal Law-Gorman and Benjamin "Ben" Gorman**. After the
-franchisor repossessed the store from the Gormans (~November 2024) and it changed hands,
-the family alleged the collection was not returned. YouTuber **Benjamin "Reckless Ben" Schneider**
-publicized the dispute in a May 21, 2026 video that went viral, launched a six-figure GoFundMe, and
-traveled to American Fork, Utah, where store-side figure **Joshua Johnson** lives. Schneider was
-**arrested twice (March 10–11, 2026)** on misdemeanor charges and a judge-approved search warrant was
-executed; the warrant return reported **no items seized**. The episode drew national attention and
-heavy public backlash against the **American Fork Police Department**, which released body-cam footage
-and statements defending its conduct. On **May 27, 2026**, **BAM Franchising and associated
-individuals sued** Schneider and others in **Utah Fourth District Court** (case no. **260402353**,
-confirmed against a signed court order; see
-[`lawsuit/court-documents.md`](./lawsuit/court-documents.md)),
-alleging defamation, a Utah RICO "pattern of unlawful activity," civil stalking, and more — **13
-causes of action** in total. **BAM denies any theft; Schneider and the Mansell family deny the
-harassment/extortion framing.** On **June 4, 2026**, BAM announced (via a BusinessWire press release
-and company blog) that it had **"parted ways"** — described as a *mutual* separation — with the Salem
-franchise owners **Joshua Johnson and Brandon Best** and **permanently closed** the Salem store,
-citing "a devastating social media campaign." In the same statements BAM re-valued the collection at
-**$95,000–$100,000** (calling the ~$200,000 figure "promotional"), framed the consignment as an
-"unauthorized" side-deal predating Best/Johnson (a characterization Techdirt's June 2 reporting
-disputes), and said CEO Ammon McNeff was "prepared to discuss dropping the lawsuit against" Mansell
-and making him whole. ⚠ That offer is unilateral: **no source shows Mansell accepting, the suit being
-dropped, or any party being dismissed**, and the matter remains unresolved. On **June 8, 2026**,
-**Judge Tony F. Graf Jr. granted BAM an order for alternative service** ("Order Granting Ex Parte
-Motion Regarding Alternative Service," Tier 3, case 260402353), authorizing the plaintiffs to serve
-the defendants — **Schneider/Reckless Ben LLC, Mansell, and Nguyen** — by alternative means after
-personal service was not effected. The order shows the suit (including the claim **against Mansell**)
-**proceeding** at the service stage despite the Jun 4 "discuss dropping" offer. ⚠ This order is
-sourced to a single court-document image; the case, caption, and number are independently corroborated,
-but cross-check the order against Utah XChange.
+**The build (1999–2023).** Over roughly a quarter-century, collector **Bryan Mansell** and his father
+— reported to be around **83** — assembled one of the more complete private LEGO Star Wars collections
+anywhere: about **780 sets and 1,200 minifigures**, down to a still-sealed *Cloud City* (set 10123).
+In **November 2023** they consigned it to a **Bricks & Minifigs** franchise in the Salem/Keizer, Oregon
+area, then run by franchisees **Chrystal Law-Gorman and her husband Benjamin "Ben" Gorman**. The signed
+agreement let the store keep 35% of gross sales (65% to the family), paid monthly, and — the clause that
+matters most now — said **any unsold sets remained the family's property**. The collection was
+**family-valued at ~$200,000**, but **that figure is disputed**: BAM and an inventory estimate put it
+far lower, roughly **$60K–$98K**. *(The signed consignment is **CONFIRMED**.)*
+
+**The turn (Nov 2024).** A year later the franchise changed hands. BAM corporate issued a reported
+"Notice of Immediate Termination," repossessed the store from the Gormans over alleged unpaid
+installments and royalties, and the location was tied to a new entity, **Baker Bricks LLC** (**Brandon
+Best** and **Joshua Johnson**). The Gormans say BAM breached first; BAM says they defaulted — **both
+sides' reasons are contested (ALLEGATION).** From here the family alleged the unsold collection was
+never returned. **BAM denies any theft, saying only a small remnant (~$2,000–$5,000 worth) was ever at
+the store, which it offered to return.** No court has decided it.
+
+**The Utah trip and the arrests (March 2026).** Months *before* the video that made this famous,
+YouTuber **Benjamin "Reckless Ben" Schneider** traveled to American Fork, Utah, where **Joshua Johnson**
+lives. Johnson reportedly contacted the **American Fork Police Department** about four times describing
+the conduct as harassment; Schneider says he was there to serve civil papers. He was **arrested twice
+(March 10–11, 2026)** on misdemeanor charges — first for stalking, targeted residential picketing,
+disorderly conduct, and criminal trespass; then, after a judge approved a search warrant for his Airbnb
+(the affidavit cited an overheard remark about "possible stolen Lego"), a second time, and was booked
+into the Utah County Jail. **The warrant return reported "no items seized."** *(The two arrests are
+**CONFIRMED**; the exact dates are ⚠ disputed across outlets.)*
+
+**It goes viral (May 21, 2026).** The local contract fight became a national story when Schneider posted
+*"I tracked down the thief who stole $200,000 of LEGO"* — reported at about **3.1 million views in two
+weeks**. A six-figure **GoFundMe** for the family blew past **$100,000** (and, by reporting around
+June 3–4, **over $300,000** — ⚠ that higher figure is single-outlet).
+
+**The police backlash (late May 2026).** As the video collided with the arrest record, public anger
+turned on the **American Fork Police Department**. AFPD released body-cam footage and a news release on
+May 29; Chief **Cameron Paul** posted a ~26-minute statement; BAM CEO **Ammon McNeff** appeared in a
+livestream, apologized to the family, and offered mediation. It spilled offline — "Mormon Mafia"
+trended and Central Utah 911 reported a call surge — while AFPD maintained it had enforced Utah law
+within its jurisdiction. **Whether police acted improperly is unadjudicated.**
+
+**The lawsuit and the "parting" (late May–June 2026).** On **May 27, 2026**, **BAM Franchising and
+associated individuals sued** Schneider and others in **Utah Fourth District Court** (case no.
+**260402353**, confirmed against a signed court order; see
+[`lawsuit/court-documents.md`](./lawsuit/court-documents.md)) — **13 causes of action**,
+including a Utah RICO "pattern of unlawful activity," defamation per se, civil stalking, and trespass,
+with BAM calling the campaign a "coordinated, viral extortion." A TRO followed around May 28. **BAM
+denies any theft; Schneider and the Mansell family deny the harassment/extortion framing, casting his
+actions as serving legal papers and investigating the missing collection — and those allegations are
+unproven.** On **June 4, 2026**, BAM announced (via a BusinessWire press release and company blog) that
+it had **"parted ways"** — described as a *mutual* separation — with the Salem franchise owners **Joshua
+Johnson and Brandon Best** and **permanently closed** the Salem store, citing "a devastating social
+media campaign." In the same statements BAM re-valued the collection at **$95,000–$100,000** (calling
+the ~$200,000 figure "promotional"), framed the consignment as an "unauthorized" side-deal predating
+Best/Johnson (a characterization Techdirt's June 2 reporting disputes), and said CEO **Ammon McNeff**
+was "prepared to discuss dropping the lawsuit against" Mansell and making him whole. ⚠ That offer is
+unilateral: **no source shows Mansell accepting, the suit being dropped, or any party being dismissed**,
+and the matter remains unresolved. On **June 8, 2026**, **Judge Tony F. Graf Jr. granted BAM an order
+for alternative service** ("Order Granting Ex Parte Motion Regarding Alternative Service," Tier 3, case
+260402353), authorizing the plaintiffs to serve the defendants — **Schneider/Reckless Ben LLC, Mansell,
+and Nguyen** — by alternative means after personal service was not effected. The order shows the suit
+(including the claim **against Mansell**) **proceeding** at the service stage despite the Jun 4
+"discuss dropping" offer. ⚠ This order is sourced to a single court-document image; the case, caption,
+and number are independently corroborated, but cross-check the order against Utah XChange.
 
 ## Methodology & a note on what is *not* here
 
@@ -117,8 +151,8 @@ but cross-check the order against Utah XChange.
   Touch, The Express Tribune, Brick Fanatics, Kotaku, Primetimer, NewsNation, American Fork Citizen),
   the parties' own public statements, and references to the public court docket.
 - The compilation environment had **no outbound network access** (egress allowlist), so media and
-  court documents are **cataloged by link** rather than re-hosted. `media/download_manifest.md`
-  lets you fetch them in an unrestricted environment.
+  court documents are **cataloged by link** rather than re-hosted. Court filings can be obtained from
+  the official systems noted in [`lawsuit/court-documents.md`](./lawsuit/court-documents.md).
 - **No private personal information** (home addresses, personal phone numbers, family details,
   workplace schedules, etc.) about any individual — private citizen or police officer — is collected
   here. Individuals appear only in their **public roles** and **public statements**. This is a

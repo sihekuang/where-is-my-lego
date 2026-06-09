@@ -34,7 +34,7 @@ export function diffManifest(current, stored) {
 
 // Prose docs as written by derive-data.mjs into .generated/content/.
 export const PROSE_DOCS = [
-  "home.md", "disclaimer.md", "lawsuit.md", "lawsuit-documents.md", "police.md", "media-manifest.md",
+  "home.md", "disclaimer.md", "lawsuit.md", "lawsuit-documents.md", "police.md",
   "community-sources.md",
 ];
 

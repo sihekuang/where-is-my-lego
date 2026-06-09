@@ -108,6 +108,7 @@
 | Ben——门店重新开业"诱捕"事件（"Bricks and Minifigs reopened?"） | https://youtu.be/x7_InQEaHQA | 一手上传。 |
 | Ben——出镜 **H3 Podcast** | https://youtu.be/IdII08PDlUE?t=3858 | Ben 在节目中讨论了受伤/X光声明及诉讼——可作为核实该争议细节的来源。 |
 | Ben——出镜 **Civil Rights Lawyer** | https://youtu.be/Hs3bElrHKUE | 一手出镜。 |
+| **Tyler Shaw**（Ben 的司机／同行人）——出镜 **Civil Rights Lawyer**（第 2 部分） | https://www.youtube.com/watch?v=mAu76DjwGGQ | 2026 年 6 月 7 日由律师 **John H. Bryan** 进行的采访。Shaw 是 3 月 8 日至 9 日 AFPD 拦截行动中的**司机**（Schneider 为乘客）；他描述了停车标志引用的经过，以及一次因怀疑驾驶员受药物影响而实施的检查——该怀疑**经 .00 呼气测试 + 警犬搜查后未获证实**。与第 1 部分 Ben 采访（Hs3bElrHKUE，见上）相配套。⚠ 采访核心涉及 AFPD **未打码**的随身摄像机录像批次，本档案**以隐私保护为由将其排除**——仅收录采访条目；录像**不予**链接。关于不当行为的定性 = **ALLEGATION**（AFPD 否认）。 |
 | **Chrystal & Benjamin（Salem 前特许经营商）**——回应企业总部声明 | https://www.youtube.com/watch?v=zedmOopRTm0 | 当事方直接陈述。 |
 | **Collecting Weekly**——原始调查 | https://www.youtube.com/watch?v=21qTe07ij-g | 最初协助 Bryan 并汇编库存文件夹的当事方。 |
 | Patreon CEO——下架通知 | https://www.youtube.com/watch?v=36jxNeV5L1Q | Patreon 对 BAM 下架请求的回应。 |

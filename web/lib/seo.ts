@@ -11,7 +11,7 @@ export const SITE_URL = (
 export const DEFAULT_DESCRIPTION =
   "A man and his elderly father spent 25 years building a LEGO Star Wars collection, then say a shop never gave it back. A sourced, read-only research archive of the Bricks & Minifigs (BAM) – Reckless Ben controversy, with every claim labeled Confirmed or Allegation.";
 
-export const ROOT_TITLE = "Where Is My Lego — Sourced Research Archive";
+export const ROOT_TITLE = "Where Is My Lego — Disputed ~$200K LEGO collection";
 
 /** Locale-prefixed path: "/" → "/en"; "/timeline" → "/en/timeline". */
 export function localizedPath(locale: string, path: string): string {

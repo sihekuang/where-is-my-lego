@@ -208,9 +208,10 @@
     background-size: 12px 4px;
   }
 
-  /* prose (markdown pages) — body copy stays at a readable measure; tables span full width */
+  /* prose (markdown pages) — body copy and tables span the full content width,
+     consistent with the hero, cards, intros, and tables across the rest of the site */
   .prose { @apply max-w-none leading-relaxed; }
-  .prose p, .prose ul, .prose ol, .prose blockquote { @apply max-w-[760px]; }
+  .prose p, .prose ul, .prose ol, .prose blockquote { @apply max-w-none; }
   .prose h1 { @apply font-display text-3xl mt-0 mb-3; }
   .prose h2 { @apply font-display text-2xl mt-8 mb-3 pb-1.5 border-b-2 border-border; }
   .prose h3 { @apply font-display text-lg mt-6 mb-2; }

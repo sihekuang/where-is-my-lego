@@ -2,6 +2,12 @@
 // site's routes. Applied at render time so the canonical Markdown keeps its
 // original GitHub-friendly relative links untouched.
 
+import { isLocale, DEFAULT_LOCALE } from "./locales.mjs";
+
+// Contributor docs that live at the repo root but have no rendered site route —
+// link them to the canonical GitHub source (external) rather than a dead route.
+const REPO_BLOB = "https://github.com/sihekuang/where-is-my-lego/blob/main";
+
 const MAP: Record<string, string> = {
   "readme.md": "/",
   "timeline.md": "/timeline",
@@ -14,10 +20,12 @@ const MAP: Record<string, string> = {
   "media/news-articles.md": "/media",
   "media/primary-sources.md": "/media#primary",
   "primary-sources.md": "/media#primary",
-  "media/download_manifest.md": "/media",
   "media/community-sources.md": "/media/community-sources",
   "community-sources.md": "/media/community-sources",
   "relationships.md": "/parties",
+  "agents.md": `${REPO_BLOB}/AGENTS.md`,
+  "contributing.md": `${REPO_BLOB}/CONTRIBUTING.md`,
+  "skill.md": `${REPO_BLOB}/SKILL.md`,
 };
 
 /** Rewrite an href found inside archive Markdown to a site route (or leave it). */
@@ -34,3 +42,21 @@ export function rewriteHref(href: string | undefined): string {
 
 export const isExternal = (href: string | undefined): boolean =>
   !!href && /^https?:\/\//i.test(href);
+
+/**
+ * Rewrite an internal Markdown link AND prepend the active locale segment, so
+ * in-content links resolve under the `[locale]` route (e.g. `/zh-Hant/media`).
+ * External links and pure `#fragments` are returned untouched. The site only
+ * serves locale-prefixed routes, so a bare `/media` would 404 — this is the fix.
+ */
+export function localizeHref(href: string | undefined, locale: string): string {
+  const target = rewriteHref(href);
+  if (isExternal(target) || target.startsWith("#")) return target;
+  if (!target.startsWith("/")) return target; // unmapped relative — leave as-is
+  const loc = isLocale(locale) ? locale : DEFAULT_LOCALE;
+  const [path, ...rest] = target.split("#");
+  const hash = rest.length ? "#" + rest.join("#") : "";
+  // Defensive: don't double-prefix something already under a known locale.
+  if (isLocale(path.split("/")[1] ?? "")) return target;
+  return `/${loc}${path === "/" ? "" : path}${hash}`;
+}
