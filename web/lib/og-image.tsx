@@ -55,7 +55,7 @@ export function loadOgCjkFont(title: string, tagline: string, family = "Noto San
  *  so Chinese titles display correctly. */
 export function renderOgImage(
   title: string,
-  { tagline = "Sourced Research Archive", cjkFont = null }: { tagline?: string; cjkFont?: ArrayBuffer | null } = {},
+  { tagline = "Disputed ~$200K LEGO collection", cjkFont = null }: { tagline?: string; cjkFont?: ArrayBuffer | null } = {},
 ) {
   const family = cjkFont ? "NotoSC" : "sans-serif";
   const options = cjkFont

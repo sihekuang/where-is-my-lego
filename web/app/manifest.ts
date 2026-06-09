@@ -3,7 +3,7 @@ import { SITE_NAME, DEFAULT_DESCRIPTION } from "@/lib/seo";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: `${SITE_NAME} — Sourced Research Archive`,
+    name: `${SITE_NAME} — Disputed ~$200K LEGO collection`,
     short_name: SITE_NAME,
     description: DEFAULT_DESCRIPTION,
     start_url: "/",
