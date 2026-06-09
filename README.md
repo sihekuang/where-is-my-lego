@@ -70,7 +70,6 @@ If the names and legal terms below get confusing, this is the whole thing in fou
 | [`police-controversy.md`](./police-controversy.md) | The arrests, search warrant, AFPD controversy, agency responses |
 | [`media/news-articles.md`](./media/news-articles.md) | Cataloged news & commentary coverage |
 | [`media/primary-sources.md`](./media/primary-sources.md) | Cataloged videos, official statements, social posts |
-| [`media/download_manifest.md`](./media/download_manifest.md) | Link manifest + script to fetch public-record media elsewhere |
 | [`DISCLAIMER.md`](./DISCLAIMER.md) | Scope, methodology, limitations, and ethics notes |
 | [`CONTRIBUTING.md`](./CONTRIBUTING.md) | How to propose a change / open a PR — **no local clone needed** |
 | [`AGENTS.md`](./AGENTS.md) · [`SKILL.md`](./SKILL.md) | Guidance for **AI agents** to query and contribute to this archive |
@@ -142,8 +141,8 @@ and the matter remains unresolved.
   Touch, The Express Tribune, Brick Fanatics, Kotaku, Primetimer, NewsNation, American Fork Citizen),
   the parties' own public statements, and references to the public court docket.
 - The compilation environment had **no outbound network access** (egress allowlist), so media and
-  court documents are **cataloged by link** rather than re-hosted. `media/download_manifest.md`
-  lets you fetch them in an unrestricted environment.
+  court documents are **cataloged by link** rather than re-hosted. Court filings can be obtained from
+  the official systems noted in [`lawsuit/court-documents.md`](./lawsuit/court-documents.md).
 - **No private personal information** (home addresses, personal phone numbers, family details,
   workplace schedules, etc.) about any individual — private citizen or police officer — is collected
   here. Individuals appear only in their **public roles** and **public statements**. This is a

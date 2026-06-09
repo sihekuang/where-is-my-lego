@@ -1,4 +1,4 @@
-# Downloaded media (fetch locally via media/fetch_media.sh; do not commit copyrighted media)
+# Downloaded media — never commit copyrighted/downloaded media (the archive catalogs it by link)
 media/_downloads/
 lawsuit/filings/
 lawsuit/police/

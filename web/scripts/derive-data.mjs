@@ -333,7 +333,6 @@ const PROSE = [
   ["lawsuit/README.md", "lawsuit.md"],
   ["lawsuit/court-documents.md", "lawsuit-documents.md"],
   ["police-controversy.md", "police.md"],
-  ["media/download_manifest.md", "media-manifest.md"],
   ["media/community-sources.md", "community-sources.md"],
 ];
 

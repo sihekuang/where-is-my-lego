@@ -20,7 +20,6 @@ const MAP: Record<string, string> = {
   "media/news-articles.md": "/media",
   "media/primary-sources.md": "/media#primary",
   "primary-sources.md": "/media#primary",
-  "media/download_manifest.md": "/media",
   "media/community-sources.md": "/media/community-sources",
   "community-sources.md": "/media/community-sources",
   "relationships.md": "/parties",
