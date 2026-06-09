@@ -58,7 +58,7 @@ root *.md ──derive──► .generated/{content,data}  (English, canonical)
 
 | Source | Translated into | Notes |
 |---|---|---|
-| `.generated/content/*.md` (7 prose docs) | `i18n/<loc>/content/*.md` | `home`, `disclaimer`, `lawsuit`, `lawsuit-documents`, `police`, `media-manifest`, `community-sources`. Set in `PROSE_DOCS` in `translate.mjs`. |
+| `.generated/content/*.md` (6 prose docs) | `i18n/<loc>/content/*.md` | `home`, `disclaimer`, `lawsuit`, `lawsuit-documents`, `police`, `community-sources`. Set in `PROSE_DOCS` in `translate.mjs`. |
 | `.generated/data/*.json` (timeline, relationships, parties, media) | `i18n/<loc>/data/*.json` | Per-cell / per-label / per-node / per-edge. |
 | `i18n/ui/en.json` (UI chrome dict) | `i18n/ui/<loc>.json` | Nav, buttons, banners, status words, table headings. |
 

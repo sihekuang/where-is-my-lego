@@ -1,8 +1,7 @@
 # Primary-Source Media — Catalog
 
 Videos, official statements, and social posts. **Linked, not re-hosted** (copyright + no network
-egress at compile time). To pull copies in an unrestricted environment, see
-[`download_manifest.md`](./download_manifest.md).
+egress at compile time).
 
 > **Verify channel ownership before classifying as a true primary source.** Several titles below may be
 > third-party reaction/commentary videos rather than uploads by Reckless Ben or BAM. The list flags
