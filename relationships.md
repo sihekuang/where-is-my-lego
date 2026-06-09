@@ -28,6 +28,7 @@ nothing about the case; never a real likeness.
 | ben-gorman | Benjamin (Ben) Gorman | person | neutral |  | Former co-operator / spouse of Chrystal | Runs Not A Pipe Publishing; says BAM breached first. | cma |
 | ben-schneider | Reckless Ben (Schneider) | person | defendant | https://unavatar.io/youtube/RecklessBen | YouTuber / self-styled investigator | Says he went to serve papers; alleges police misconduct. |  |
 | reckless-ben-llc | Reckless Ben LLC | org | defendant | https://unavatar.io/youtube/RecklessBen | Schneider's media/business entity |  |  |
+| patreon | Patreon | org | neutral | data:image/svg+xml;utf8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'80'%20height%3D'80'%3E%3Crect%20width%3D'80'%20height%3D'80'%20fill%3D'%23ffffff'%2F%3E%3Crect%20x%3D'20'%20y%3D'14'%20width%3D'11'%20height%3D'52'%20fill%3D'%23f96854'%2F%3E%3Ccircle%20cx%3D'52'%20cy%3D'33'%20r%3D'19'%20fill%3D'%23f96854'%2F%3E%3C%2Fsvg%3E | Funding platform hosting Schneider's page | Refused BAM's May 29 takedown request; CEO Jack Conte (Jun 2, 2026): "Bricks & Minifigs can stuff it… they can sue us." Took no side in the underlying dispute. |  |
 | victor-nguyen | Victor Nguyen | person | defendant |  | Associate of Schneider (defendant) |  | cma |
 | tyler-shaw | Tyler Shaw | person | neutral |  | Associate of Schneider; driver in the Mar 8–9 AFPD stops (not a named party) | Cited for a stop-sign violation; cleared on impairment (.00 breath test; K-9 search found nothing). Recounted it on "The Civil Rights Lawyer" (Jun 7, 2026). | cma |
 | sheldon-norcross | Sheldon Norcross | person | neutral |  | Associate of Schneider; detained at the Mar 11 scene, released (not a named party) | On a FaceTime call with Schneider when AFPD arrived; AFPD seized his phone. ⚠ Single-sourced (American Fork Citizen). | cma |
@@ -68,6 +69,7 @@ nothing about the case; never a real likeness.
 | ben-schneider | publicized dispute for | bryan-mansell | investigative | → | CONFIRMED |  |
 | ben-schneider | owns | reckless-ben-llc | corporate | → | CONFIRMED |  |
 | ben-schneider | associate | victor-nguyen | investigative | ↔ | CONFIRMED |  |
+| ben-schneider | hosts funding page on | patreon | transactional | → | CONFIRMED | Patreon kept the page up after BAM's takedown demand. |
 | ammon-mcneff | CEO of | bam-franchising | corporate | → | CONFIRMED |  |
 | matt-mcneff | COO of | bam-franchising | corporate | → | CONFIRMED |  |
 | ammon-mcneff | brothers | matt-mcneff | familial | — | CONFIRMED |  |
@@ -109,6 +111,7 @@ nothing about the case; never a real likeness.
 | bam-franchising | sued | reckless-ben-llc | legal | → | CONFIRMED |  |
 | bam-franchising | sued | bryan-mansell | legal | → | CONFIRMED | Named co-defendant (with Schneider, Reckless Ben LLC, Nguyen, Does 1–15) in BAM's May 27, 2026 Utah suit alleging a coordinated "extortion/harassment campaign" — the underlying allegations are unproven. ⚠ Jun 4, 2026: BAM said it is *prepared to discuss* dropping the suit against Mansell and making him whole; no dismissal has been filed as of this record (litigation pending). Mansell is separately a *plaintiff* in Oregon over the unreturned consignment. |
 | bam-franchising | sued | victor-nguyen | legal | → | CONFIRMED |  |
+| bam-franchising | demanded takedown of Schneider's page (refused) | patreon | legal | → | CONFIRMED | May 29, 2026 request attached the verified complaint, a TRO-based immediate-removal demand, and the TRO/PI motion; Patreon CEO Jack Conte publicly refused on Jun 2, 2026. |
 | bryan-mansell | alleges collection not returned | bam-franchising | legal | → | ALLEGATION |  |
 | ben-schneider | associate | tyler-shaw | investigative | ↔ | CONFIRMED | "The other guy with Ben in the videos"; was driving (Schneider a passenger) during the Mar 8–9, 2026 AFPD stops. Not a named party in the suit. |
 | afpd | stopped & cited (Mar 8–9, 2026) | tyler-shaw | law-enforcement | → | CONFIRMED | Stop-sign citation (Mar 8); on Mar 9 police flagged suspected impairment but Shaw passed a .00 breath test and a K-9-prompted search found no illegal substances. The "pretextual / false drug accusation" framing (Shaw/Schneider/Bryan) is an ALLEGATION. Per American Fork Citizen + the Civil Rights Lawyer Part 2 interview. |

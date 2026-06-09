@@ -26,7 +26,7 @@ involving the American Fork Police Department, and a multi-count civil lawsuit f
 > adjudicated). As of the compilation date, **no court had found any party liable**. Please read
 > [`DISCLAIMER.md`](./DISCLAIMER.md) before using anything here.
 
-**Compiled:** 2026-06-03 · **Last updated:** 2026-06-05 · **Status of matter:** active civil litigation + pending criminal matter
+**Compiled:** 2026-06-03 · **Last updated:** 2026-06-09 · **Status of matter:** active civil litigation + pending criminal matter
 
 ---
 
@@ -47,11 +47,14 @@ If the names and legal terms below get confusing, this is the whole thing in fou
   return reported **nothing seized**). The case sparked national backlash against the **American Fork
   Police Department**.
 - **Where it stands now.** **BAM is suing** Schneider, Mansell, and others in Utah — **13 causes of
-  action**. On **June 4, 2026** BAM said it had **"parted ways"** (a *mutual* separation) with the two
-  Salem franchise owners, **Joshua Johnson and Brandon Best**, and **permanently closed** the Salem
-  store; CEO Ammon McNeff also said BAM was *prepared to discuss* dropping the suit against Mansell —
-  though no source yet shows Mansell accepting or anyone being dismissed. Every side disputes the
-  other's version, and **no court has found anyone liable**.
+  action** (case no. **260402353**, Judge Tony F. Graf Jr.). On **June 4, 2026** BAM said it had
+  **"parted ways"** (a *mutual* separation) with the two Salem franchise owners, **Joshua Johnson and
+  Brandon Best**, and **permanently closed** the Salem store; CEO Ammon McNeff also said BAM was
+  *prepared to discuss* dropping the suit against Mansell — though no source shows Mansell accepting or
+  anyone being dismissed. On **June 8, 2026** the court granted BAM an **alternative-service order** to
+  serve the defendants — **including Mansell** — by alternative means, so the suit is **proceeding**
+  against him at the service stage. Every side disputes the other's version, and **no court has found
+  anyone liable**.
 
 > Why it's hard to follow: the dispute spans **two states** (Oregon and Utah), **two lawsuits** (the
 > family/BAM fight *and* a separate former-franchisee suit), a criminal case, and a police
@@ -120,7 +123,8 @@ within its jurisdiction. **Whether police acted improperly is unadjudicated.**
 
 **The lawsuit and the "parting" (late May–June 2026).** On **May 27, 2026**, **BAM Franchising and
 associated individuals sued** Schneider and others in **Utah Fourth District Court** (case no.
-unverified; see [`lawsuit/court-documents.md`](./lawsuit/court-documents.md)) — **13 causes of action**,
+**260402353**, confirmed against a signed court order; see
+[`lawsuit/court-documents.md`](./lawsuit/court-documents.md)) — **13 causes of action**,
 including a Utah RICO "pattern of unlawful activity," defamation per se, civil stalking, and trespass,
 with BAM calling the campaign a "coordinated, viral extortion." A TRO followed around May 28. **BAM
 denies any theft; Schneider and the Mansell family deny the harassment/extortion framing, casting his
@@ -133,7 +137,13 @@ the ~$200,000 figure "promotional"), framed the consignment as an "unauthorized"
 Best/Johnson (a characterization Techdirt's June 2 reporting disputes), and said CEO **Ammon McNeff**
 was "prepared to discuss dropping the lawsuit against" Mansell and making him whole. ⚠ That offer is
 unilateral: **no source shows Mansell accepting, the suit being dropped, or any party being dismissed**,
-and the matter remains unresolved.
+and the matter remains unresolved. On **June 8, 2026**, **Judge Tony F. Graf Jr. granted BAM an order
+for alternative service** ("Order Granting Ex Parte Motion Regarding Alternative Service," Tier 3, case
+260402353), authorizing the plaintiffs to serve the defendants — **Schneider/Reckless Ben LLC, Mansell,
+and Nguyen** — by alternative means after personal service was not effected. The order shows the suit
+(including the claim **against Mansell**) **proceeding** at the service stage despite the Jun 4
+"discuss dropping" offer. ⚠ This order is sourced to a single court-document image; the case, caption,
+and number are independently corroborated, but cross-check the order against Utah XChange.
 
 ## Methodology & a note on what is *not* here
 

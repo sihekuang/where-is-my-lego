@@ -22,7 +22,7 @@ Two kinds of pointer appear below:
 | Field | Value |
 |---|---|
 | **Court** | Utah Fourth Judicial District Court, Utah County (Provo) |
-| **Case No.** | **Unverified** — reported as **260402353** (news/aggregators) vs **260400253** (community case page, the only primary-style page reachable as of 2026-06-03). Confirm against the docket before relying on either. |
+| **Case No.** | **260402353** — confirmed against a signed court order (the Jun 8, 2026 alternative-service order, captioned *BAM Franchising, Inc., a Delaware corporation v. Schneider et al.*) and the public DocumentCloud complaint. The community case page's **260400253** appears to be a transcription error. |
 | **Access system** | Utah State Courts **XChange** (https://www.utcourts.gov/en/court-records-publications/records/court-records/coris.html) — Utah district-court records are *not* on PACER (PACER is federal). XChange generally requires an account and may charge fees. |
 | **Document types to request** | Verified Complaint (filed 2026-05-27); TRO + order setting preliminary-injunction hearing (signed ~2026-05-28, Judge Tony F. Graf Jr.); any answer/responsive pleadings; docket sheet. |
 
@@ -41,6 +41,7 @@ caveats); the **authoritative** column names the official system to confirm agai
 |---|---|---|---|
 | Verified Complaint | 2026-05-27 | [Catalog §1](../media/community-sources.md) — Utah filings folder (Proton Drive: complaint + consignment agreement + "sold sets" investigation + incident logs) | XChange |
 | TRO + preliminary-injunction hearing notice | ~2026-05-28 | [Catalog §1](../media/community-sources.md) — same Utah filings folder ⚠ confirm the order itself is present | XChange |
+| Order Granting Ex Parte Motion re Alternative Service (Tier 3) | 2026-06-08 | *(single court-document image supplied to the archive; not yet in a community mirror)* ⚠ cross-check | XChange |
 | Docket sheet | — | *(not mirrored)* | XChange only |
 | Answer / responsive pleadings | if/when filed | *(not mirrored)* | XChange |
 
