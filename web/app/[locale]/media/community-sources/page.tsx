@@ -3,6 +3,8 @@ import { Markdown } from "@/components/Markdown";
 import { getProse, generatedMtime } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
 import { PageStructuredData } from "@/components/JsonLd";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { getDict } from "@/lib/i18n";
 
 const META = {
   title: "Community-Curated Sources",
@@ -18,10 +20,17 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function CommunitySourcesPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const t = getDict(locale);
   const md = getProse("community-sources.md", locale);
+  const trail = [
+    { name: t("nav.overview"), href: `/${locale}` },
+    { name: t("nav.media"), href: `/${locale}/media` },
+    { name: t("nav.sources") },
+  ];
   return (
     <>
-      <PageStructuredData {...META} locale={locale} dateModified={generatedMtime("content/community-sources.md").toISOString()} />
+      <PageStructuredData {...META} locale={locale} dateModified={generatedMtime("content/community-sources.md").toISOString()} breadcrumb={trail} />
+      <Breadcrumbs trail={trail} />
       <Markdown locale={locale}>{md}</Markdown>
     </>
   );

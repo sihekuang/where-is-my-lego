@@ -48,6 +48,13 @@ assert.match(home, /name="twitter:card" content="summary_large_image"/, "twitter
 assert.match(home, /"@type":"WebSite"/, "home WebSite JSON-LD");
 assert.match(home, /"@type":"Organization"/, "home Organization JSON-LD");
 assert.match(home, /<html lang="en"/, "home html lang en");
+// neutral subject entity (referenced by every Article's `about`) ships site-wide via the layout
+assert.match(home, new RegExp(`"@id":"${CANON}/#subject"`), "subject entity @id present");
+assert.match(home, /"@type":"Thing"/, "subject entity is a Thing (a topic, not a verdict)");
+// FAQPage on the home page, with neutral sourced Q&A
+assert.match(home, /"@type":"FAQPage"/, "home FAQPage JSON-LD");
+assert.match(home, /"@type":"Question"/, "home FAQ has Questions");
+assert.match(home, /"@type":"Answer"/, "home FAQ has Answers");
 
 // a content page (default locale): unique canonical/title + Article + BreadcrumbList JSON-LD + hreflang
 const timeline = await get("/en/timeline");
@@ -57,6 +64,13 @@ assert.match(timeline, new RegExp(`hreflang="zh-Hans" href="${CANON}/zh-Hans/tim
 assert.match(timeline, /"@type":"Article"/, "timeline Article JSON-LD");
 assert.match(timeline, /"@type":"BreadcrumbList"/, "timeline BreadcrumbList JSON-LD");
 assert.match(timeline, /name="twitter:card" content="summary_large_image"/, "content page large twitter card");
+// Article enrichment: free-to-read, keyworded, and tied to the subject entity
+assert.match(timeline, /"isAccessibleForFree":true/, "Article isAccessibleForFree");
+assert.match(timeline, /"keywords":\[/, "Article keywords");
+assert.match(timeline, new RegExp(`"about":\\{"@id":"${CANON}/#subject"\\}`), "Article about → subject");
+// Dataset JSON-LD for the timeline view
+assert.match(timeline, /"@type":"Dataset"/, "timeline Dataset JSON-LD");
+assert.match(timeline, /"temporalCoverage":"2023-11\/2026-06"/, "Dataset temporal coverage");
 
 // non-default locale: localized canonical, lang attribute, og:locale, and inLanguage in JSON-LD
 const zh = await get("/zh-Hans/timeline");
@@ -64,6 +78,13 @@ assert.match(zh, new RegExp(`<link rel="canonical" href="${CANON}/zh-Hans/timeli
 assert.match(zh, /<html lang="zh-Hans"/, "zh html lang");
 assert.match(zh, /property="og:locale" content="zh_CN"/, "zh og:locale zh_CN");
 assert.match(zh, /"inLanguage":"zh-Hans"/, "zh Article inLanguage");
+
+// a nested route: 3-level BreadcrumbList JSON-LD + a matching visible breadcrumb nav
+const docs = await get("/en/lawsuit/documents");
+assert.match(docs, /"@type":"BreadcrumbList"/, "docs BreadcrumbList JSON-LD");
+assert.match(docs, /"position":3/, "docs breadcrumb is 3 levels deep");
+assert.match(docs, new RegExp(`"item":"${CANON}/en/lawsuit"`), "docs breadcrumb links its Lawsuit parent");
+assert.match(docs, /<nav aria-label="Breadcrumb"/, "docs renders a visible breadcrumb nav");
 
 // per-page OG image route exists for each locale
 for (const p of ["/en/timeline/opengraph-image", "/zh-Hans/timeline/opengraph-image"]) {

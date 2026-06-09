@@ -3,7 +3,8 @@ import TimelineView from "@/components/TimelineView";
 import { getTimeline, generatedMtime } from "@/lib/content";
 import { getDict, getDictObject } from "@/lib/i18n";
 import { pageMetadata } from "@/lib/seo";
-import { PageStructuredData } from "@/components/JsonLd";
+import { PageStructuredData, JsonLd } from "@/components/JsonLd";
+import { timelineDatasetJsonLd } from "@/lib/structured-data";
 import { Rich } from "@/components/Rich";
 
 const META = {
@@ -22,9 +23,11 @@ export default async function TimelinePage({ params }: { params: Promise<{ local
   const { locale } = await params;
   const t = getDict(locale);
   const data = getTimeline(locale);
+  const mtime = generatedMtime("data/timeline.json").toISOString();
   return (
     <div>
-      <PageStructuredData {...META} locale={locale} dateModified={generatedMtime("data/timeline.json").toISOString()} />
+      <PageStructuredData {...META} locale={locale} dateModified={mtime} />
+      <JsonLd data={timelineDatasetJsonLd(locale, mtime)} />
       <h1 className="font-display text-3xl font-extrabold tracking-tight">{t("nav.timeline")}</h1>
       <p className="mt-2 text-muted-foreground">
         <Rich text={t("timeline.intro")} />
