@@ -35,6 +35,12 @@
       "role": "Entidad mediática/empresarial de Schneider"
     },
     {
+      "id": "patreon",
+      "label": "Patreon",
+      "role": "Plataforma de financiamiento colectivo que aloja la página de Schneider",
+      "statement": "Rechazó la solicitud de eliminación de BAM del 29 de mayo; el CEO Jack Conte (2 de jun, 2026): \"Bricks & Minifigs puede irse a paseo… pueden demandarnos.\" No tomó partido en la disputa subyacente."
+    },
+    {
       "id": "victor-nguyen",
       "label": "Victor Nguyen",
       "role": "Asociado de Schneider (demandado)"
@@ -216,6 +222,10 @@
       "label": "asociado"
     },
     {
+      "label": "aloja la página de financiamiento en",
+      "note": "Patreon mantuvo la página activa después de la demanda de eliminación de BAM."
+    },
+    {
       "label": "CEO de"
     },
     {
@@ -226,47 +236,47 @@
     },
     {
       "label": "presidente de (2011–2020)",
-      "note": "Según el punto 2 del FDD de BAM \"Experiencia Empresarial\" (presentación ante el regulador estatal)."
+      "note": "Según el artículo 2 \"Business Experience\" del FDD de BAM (presentación ante el regulador estatal)."
     },
     {
       "label": "VP de marketing de (2011–2020)",
-      "note": "Según el punto 2 del FDD de BAM."
+      "note": "Según el ítem 2 del FDD de BAM."
     },
     {
       "label": "único miembro/gerente de",
-      "note": "Según la orden de UPL del Tribunal Supremo de Ohio (2025-0037) y el UCC-1 de Utah de 2021."
+      "note": "Según la orden UPL del Tribunal Supremo de Ohio (2025-0037) y el UCC-1 de Utah de 2021."
     },
     {
-      "label": "posee 450k acciones de",
-      "note": "Pignorado como garantía en un UCC-1 de Utah de 2020 (expediente 200810703927-7) — es decir, Legally Mine es propietaria de acciones de BAM."
-    },
-    {
-      "label": "acciones de BAM pignoradas a (garantizadas)",
-      "note": "2020 UCC-1: 450k acciones de BAM Franchising como garantía."
+      "label": "posee 450,000 acciones de",
+      "note": "Comprometido como garantía colateral en un UCC-1 de Utah de 2020 (expediente 200810703927-7) — es decir, Legally Mine es propietaria de acciones de BAM."
     },
     {
       "label": "acciones de BAM pignoradas a (garantizadas)",
       "note": "2020 UCC-1: 450k acciones de BAM Franchising como garantía."
+    },
+    {
+      "label": "acciones de BAM pignoradas a (garantizadas)",
+      "note": "2020 UCC-1: 450k acciones de BAM Franchising como garantía colateral."
     },
     {
       "label": "vendedor de franquicia para",
-      "note": "Listado entre los \"franchise sellers\" (vendedores de franquicia) de BAM en el FDD."
+      "note": "Listado entre los \"franchise sellers\" de BAM en el FDD."
     },
     {
-      "label": "acreedor de la liquidación de 2021 de",
+      "label": "acreedor de acuerdo de 2021 de",
       "note": "Acuerdo/pagaré de $1,728,000 garantizado por el 21% de Legally Mine (UCC 210216749881-3); resuelve McNeff v. McNeff (D. Utah 2:21-cv-00048)."
     },
     {
-      "label": "acreedor de la liquidación de 2021 de",
-      "note": "Mismo acuerdo/pagaré de 2021 (co-parte asegurada)."
+      "label": "acreedor de acuerdo de 2021 de",
+      "note": "Misma liquidación/nota de 2021 (co-parte asegurada)."
     },
     {
       "label": "sirvieron juntos como misioneros (2004)",
-      "note": "Según un recorte de periódico de 2004 encontrado por la comunidad (ver media/community-sources.md); detrás de un muro de pago — verifique antes de utilizarlo. La conexión profesional a continuación es la conexión mejor documentada."
+      "note": "Según un recorte de periódico de 2004 hallado por la comunidad (ver media/community-sources.md); está detrás de un muro de pago — verifique antes de utilizarlo. El vínculo profesional a continuación es la conexión mejor documentada."
     },
     {
       "label": "vendedor de franquicia para",
-      "note": "El FDD lo lista como \"vendedor de franquicias\" de BAM — trabaja para BAM como agente corporativo, aunque no es un empleado asalariado confirmado."
+      "note": "El FDD lo enumera como \"vendedor de franquicias\" de BAM — trabaja para BAM como agente corporativo, aunque no es un empleado asalariado confirmado."
     },
     {
       "label": "exempleado de",
@@ -274,7 +284,7 @@
     },
     {
       "label": "vinculado a la operación de la tienda",
-      "note": "El rol en la tienda local está en disputa; el FDD lo lista como vendedor corporativo de franquicias de BAM, no como un principal de Baker Bricks."
+      "note": "El papel de la tienda local está en disputa; el FDD lo menciona como vendedor de franquicias corporativas de BAM, no como principal de Baker Bricks."
     },
     {
       "label": "opera"
@@ -284,15 +294,15 @@
       "note": "Separación mutua descrita por BAM; tienda de Salem cerrada permanentemente. Ambos siguen siendo demandantes nombrados."
     },
     {
-      "label": "se separó de (Jun 4, 2026)",
-      "note": "Separación mutua descrita por BAM; tienda de Salem cerrada permanentemente. Ambos siguen siendo demandantes nombrados."
+      "label": "se separaron (Jun 4, 2026)",
+      "note": "Separación mutua descrita por BAM; tienda de Salem cerrada permanentemente. Ambos permanecen como demandantes nombrados."
     },
     {
       "label": "arrestado (mar 2026)"
     },
     {
-      "label": "orden de registro ejecutada",
-      "note": "Devolución: ningún artículo incautado"
+      "label": "orden de allanamiento ejecutada",
+      "note": "Devolución: ningún artículo confiscado"
     },
     {
       "label": "jefe de"
@@ -330,20 +340,20 @@
       "label": "oficial en"
     },
     {
-      "label": "declarante de causa probable vs",
-      "note": "Declaración de CP del 03/10 (acoso/acecho; piquete residencial dirigido). Registros de AFPD escaneados (OCR)."
+      "label": "affiante de causa probable vs",
+      "note": "Declaración de causa probable del 03/10 (acoso; piquetes residenciales dirigidos). Registros escaneados de AFPD (OCR)."
     },
     {
-      "label": "declaración PC presentada contra",
-      "note": "Declaración PC de acoso del 03/11. Registros AFPD escaneados (OCR)."
+      "label": "declaración de PC presentada vs",
+      "note": "Declaración de causa probable por acecho del 03/11. Registros de AFPD escaneados (OCR)."
     },
     {
-      "label": "escribió declaración de PC vs",
-      "note": "Declaración PC de acoso del 03/11. Registros AFPD escaneados (OCR)."
+      "label": "escribió una declaración de PC contra",
+      "note": "Declaración de causa probable por acecho del 03/11. Registros de AFPD escaneados (OCR)."
     },
     {
-      "label": "affiante de orden de allanamiento vs",
-      "note": "Declaración jurada para orden de allanamiento. Registros escaneados de la AFPD (OCR)."
+      "label": "affiante de la orden de registro vs",
+      "note": "Declaración jurada para orden de cateo. Registros escaneados de AFPD (OCR)."
     },
     {
       "label": "denunciante penal vs"
@@ -357,29 +367,33 @@
     },
     {
       "label": "demandado",
-      "note": "Codemandado nombrado (junto a Schneider, Reckless Ben LLC, Nguyen, Does 1–15) en la demanda presentada por BAM el 27 de mayo de 2026 en Utah, que alega una \"campaña coordinada de extorsión/acoso\" — las alegaciones subyacentes no han sido probadas. ⚠ 4 de jun de 2026: BAM indicó que está *dispuesto a hablar* sobre retirar la demanda contra Mansell y compensarlo íntegramente; no se ha presentado ningún desistimiento hasta la fecha de este registro (litigio pendiente). Mansell es, por separado, *demandante* en Oregon por la consignación no devuelta."
+      "note": "Codemandado nombrado (junto con Schneider, Reckless Ben LLC, Nguyen y Does 1–15) en la demanda presentada por BAM en Utah el 27 de mayo de 2026, en la que se alega una \"campaña coordinada de extorsión/acoso\" — los alegatos subyacentes no han sido probados. ⚠ 4 de jun. de 2026: BAM indicó estar *dispuesto a discutir* el retiro de la demanda contra Mansell y compensarlo; no se ha presentado ningún desestimiento hasta la fecha de este registro (litigio pendiente). Mansell es además *demandante* en Oregon por la consignación no devuelta."
     },
     {
       "label": "demandado"
+    },
+    {
+      "label": "exigió la eliminación de la página de Schneider (rechazada)",
+      "note": "La solicitud del 29 de mayo de 2026 adjuntó la queja verificada, una demanda de eliminación inmediata basada en una orden de restricción temporal (TRO) y la moción de TRO/PI; el CEO de Patreon, Jack Conte, se negó públicamente el 2 de junio de 2026."
     },
     {
       "label": "alega que la colección no fue devuelta"
     },
     {
       "label": "asociado",
-      "note": "\"El otro tipo con Ben en los videos\"; conducía (Schneider iba de pasajero) durante las paradas de la AFPD del 8 al 9 de marzo de 2026. No es una parte nombrada en la demanda."
+      "note": "\"El otro sujeto que aparece con Ben en los videos\"; conducía el vehículo (Schneider iba de pasajero) durante las paradas de la AFPD del 8 al 9 de marzo de 2026. No es una parte identificada en la demanda."
     },
     {
       "label": "detenido y citado (8–9 de mar de 2026)",
-      "note": "Citación por señal de alto (8 de mar); el 9 de mar la policía señaló sospecha de deterioro, pero Shaw pasó una prueba de aliento de .00 y una búsqueda motivada por un perro K-9 no encontró sustancias ilegales. El encuadre de \"acusación pretextual / falsa acusación de drogas\" (Shaw/Schneider/Bryan) es un ALLEGATION. Según American Fork Citizen + la entrevista Civil Rights Lawyer Part 2."
+      "note": "Citación por señal de alto (8 de marzo); el 9 de marzo la policía señaló sospecha de deterioro, pero Shaw pasó una prueba de aliento de .00 y una búsqueda provocada por un K-9 no encontró sustancias ilegales. El encuadre de \"acusación de drogas pretextual / falsa\" (Shaw/Schneider/Bryan) es un ALLEGATION. Según American Fork Citizen + la entrevista Civil Rights Lawyer Part 2."
     },
     {
       "label": "asociado (en la llamada durante el arresto del 11 de marzo)",
-      "note": "⚠ Fuente única (American Fork Citizen) — reportado, por debajo del umbral multifuente de CONFIRMED; no es una afirmación controvertida."
+      "note": "⚠ Fuente única (American Fork Citizen) — reportado, por debajo del umbral de múltiples fuentes de CONFIRMED; no es un reclamo controvertido."
     },
     {
-      "label": "detenido y teléfono confiscado (11 de mar)",
-      "note": "Relato de AFPD (afcitizen): teléfono confiscado después de que supuestamente lo manipuló cuando le dijeron que sería evidencia; detenido y puesto en libertad (sin cargos formales). Fuente única."
+      "label": "detenido y confiscado el teléfono (11 de mar)",
+      "note": "Relato de AFPD (afcitizen): teléfono confiscado después de que supuestamente lo manipuló cuando le dijeron que sería evidencia; detenido y puesto en libertad (sin registro formal). Fuente única."
     }
   ]
 }
