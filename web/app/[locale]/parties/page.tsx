@@ -41,7 +41,7 @@ export default async function PartiesPage({ params }: { params: Promise<{ locale
     <div>
       <PageStructuredData {...META} locale={locale} dateModified={generatedMtime("data/parties.json").toISOString()} />
       <h1 className="font-display text-3xl font-extrabold tracking-tight">{t("nav.parties")}</h1>
-      <p className="mt-2 max-w-[70ch] text-muted-foreground">
+      <p className="mt-2 text-muted-foreground">
         <Rich text={t("parties.intro")} />
       </p>
 
