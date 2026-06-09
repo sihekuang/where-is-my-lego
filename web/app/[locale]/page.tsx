@@ -3,6 +3,7 @@ import { Markdown } from "@/components/Markdown";
 import { getProse } from "@/lib/content";
 import { getDict } from "@/lib/i18n";
 import { BrickCard, type BrickVariant } from "@/components/brick/BrickCard";
+import { Hero } from "@/components/Hero";
 
 const CARDS: { href: string; key: string; descKey: string; variant: BrickVariant }[] = [
   { href: "/timeline", key: "nav.timeline", descKey: "home.card.timeline", variant: "confirmed" },
@@ -19,8 +20,8 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   const md = getProse("home.md", locale);
   return (
     <div>
-      <h1 className="font-display text-4xl font-extrabold tracking-tight">Where Is My Lego</h1>
-      <p className="mt-2 max-w-[60ch] text-muted-foreground">{t("home.tagline")}</p>
+      <Hero title="Where Is My Lego" subtitle={t("og.tagline")} />
+      <p className="text-muted-foreground">{t("home.tagline")}</p>
       <div className="my-6 grid grid-cols-[repeat(auto-fill,minmax(220px,1fr))] gap-4">
         {CARDS.map((c) => (
           <Link key={c.href} href={`/${locale}${c.href}`} className="group no-underline">
