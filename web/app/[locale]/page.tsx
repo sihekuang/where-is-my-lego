@@ -4,6 +4,8 @@ import { getProse } from "@/lib/content";
 import { getDict } from "@/lib/i18n";
 import { BrickCard, type BrickVariant } from "@/components/brick/BrickCard";
 import { Hero } from "@/components/Hero";
+import { JsonLd } from "@/components/JsonLd";
+import { homeFaqJsonLd } from "@/lib/structured-data";
 
 const CARDS: { href: string; key: string; descKey: string; variant: BrickVariant }[] = [
   { href: "/timeline", key: "nav.timeline", descKey: "home.card.timeline", variant: "confirmed" },
@@ -20,6 +22,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   const md = getProse("home.md", locale);
   return (
     <div>
+      <JsonLd data={homeFaqJsonLd()} />
       <Hero title="Where Is My Lego" subtitle={t("og.tagline")} />
       <p className="text-muted-foreground">{t("home.tagline")}</p>
       <div className="my-6 grid grid-cols-[repeat(auto-fill,minmax(220px,1fr))] gap-4">
