@@ -10,11 +10,12 @@
 
 | Field | Value |
 |---|---|
-| **Caption (reported)** | *BAM Franchising, LLC; Ammon McNeff; Matthew McNeff; Josh (Joshua) Johnson; Brandon Best; Baker Bricks, LLC v. Benjamin Schneider; Reckless Ben LLC; Bryan Mansell; Victor Nguyen; Does 1–15* (⚠ the community case page renders the lead plaintiff as "BAM Franchising, **Inc.**" — entity suffix unverified against the docket) |
+| **Caption (per court order)** | ***BAM Franchising, Inc.**, a Delaware corporation; Ammon McNeff; Matthew McNeff; Josh (Joshua) Johnson; Brandon Best; **Baker Bricks, LLC**, a Utah LLC (dba Salem-Baker Bricks) **v.** Benjamin Paul Schneider (dba/aka "Reckless Ben"); **Reckless Ben LLC**, a California LLC; Bryan Mansell; Victor Nguyen; Does 1–15.* The **Jun 8, 2026 alternative-service order** confirms the lead plaintiff is **"BAM Franchising, Inc., a Delaware corporation"** (resolving the earlier LLC-vs-Inc. flag in favor of **Inc.**) and the entity forms above. |
 | **Court** | Utah Fourth Judicial District Court, Utah County (Provo) |
 | **Filing date** | May 27, 2026 (verified complaint) |
-| **Case number** | **Unverified.** Reported as **260402353** in news/aggregator summaries; the community case page (the only primary-style page reachable as of 2026-06-03) shows **260400253**. Do not treat either as a typo of the other — confirm against the XChange docket. |
-| **Interim order** | Temporary Restraining Order + preliminary-injunction hearing notice reportedly signed **May 28, 2026** by **Judge Tony F. Graf Jr.** (⚠ judge name is from secondary reporting only, not a fetched court doc; the **March search warrant** was separately approved by **Judge Roger W. Griffin** — different proceeding) |
+| **Case number** | **260402353** — confirmed against a signed court order (the Jun 8, 2026 alternative-service order) and the DocumentCloud complaint; multiple outlets concur. ⚠ The community case page had shown **260400253**; that appears to be a transcription error — the authoritative number is **260402353**. |
+| **Interim order** | Temporary Restraining Order + preliminary-injunction hearing notice reportedly signed **May 28, 2026** by **Judge Tony F. Graf Jr.** — whose assignment is now **confirmed from a court order** (he signed the Jun 8 alternative-service order), no longer secondary-only. (The **March search warrant** was separately approved by **Judge Roger W. Griffin** — different proceeding.) |
+| **Service order** | **Jun 8, 2026 — "Order Granting Ex Parte Motion Regarding Alternative Service" (Tier 3),** signed by Judge Graf, permitting the plaintiffs to serve the defendants (Schneider/Reckless Ben LLC, Mansell, Nguyen) by **alternative means** after personal service was not effected. Indicates the suit — including the claim **against Mansell** — is **proceeding**; no dismissal of Mansell appears on the record despite BAM's Jun 4 offer to "discuss dropping" it. ⚠ Sourced to a single court-document image; cross-check against XChange. |
 
 ## The 13 causes of action
 
