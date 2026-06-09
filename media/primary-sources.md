@@ -20,12 +20,13 @@ egress at compile time).
 | I got arrested because of legos | https://www.youtube.com/watch?v=cxZPfj8AlmY | ~2026-05-30 | His follow-up on the two arrests (the megathread's "Part 2"). **Confirmed live on his channel 2026-06-04** (~3.4M views). |
 | My response to the Police | https://www.youtube.com/watch?v=2YEzhDn0jY8 | ~2026-06-01 | His reply to the AFPD media release / Chief Paul statement. **Confirmed live on his channel 2026-06-04** (~2.7M views). |
 | All the footage is released! | https://www.youtube.com/watch?v=Ih2XwNN0aVY | **2026-06-04** | Newest upload; announces a tranche of AFPD body/dash-cam footage going public (see the "unredacted footage" development + exclusion note in [`community-sources.md`](./community-sources.md)). **Confirmed live on his channel 2026-06-04** (~640K views in ~4 hrs). |
+| bad news (Part 3 will not release) | https://www.youtube.com/channel/UC_UE7maDDe8OqqC8-TtXaKg | **2026-06-09** | Short video: he says he **won't release "Part 3"** and can't discuss the case under the court order, citing the suit/TRO. His framing that violating it risks jail / losing the suit / diverting the GoFundMe is **his characterization** (see the Jun 9 [timeline](../timeline.md) row). ⚠ Direct video ID not captured — linked to his channel (`UC_UE7maDDe8OqqC8-TtXaKg`); corroborated by Kotaku, UNILAD, Geeks+Gamers, Brick Fanatics. |
 
 ## Fundraisers & other channels
 
 | Item | URL | Note |
 |---|---|---|
-| **GoFundMe — Mansell family** | https://www.gofundme.com/f/help-bryan-recover-his-lego-collection | *"Help Bryan Recover His Stolen LEGO Collection"* (organizer: Ben Schneider; beneficiaries: Bryan Mansell & his father). **~$333,799 of a $350K goal from ~11,979 donors as of 2026-06-03** (created Mar 10, 2026); the total climbed fast (~$128K around May 31), so **anchor any figure to its timestamp.** ⚠ The campaign's own title asserts the collection was "stolen" — a **contested, unadjudicated** framing (BAM denies theft), shown here as the campaign's wording, not a finding. **Do not transcribe payment or personal contact details.** |
+| **GoFundMe — Mansell family** | https://www.gofundme.com/f/help-bryan-recover-his-lego-collection | *"Help Bryan Recover His Stolen LEGO Collection"* (organizer: Ben Schneider; beneficiaries: Bryan Mansell & his father). **~$333,799 of a $350K goal from ~11,979 donors as of 2026-06-03** (created Mar 10, 2026); the total climbed fast (~$128K around May 31, and **reportedly >$445K by the morning of Jun 8** per Dallas Express, echoed by Wikipedia citing that same article), so **anchor any figure to its timestamp.** ⚠ The campaign's own title asserts the collection was "stolen" — a **contested, unadjudicated** framing (BAM denies theft), shown here as the campaign's wording, not a finding. **Do not transcribe payment or personal contact details.** |
 | **GoFundMe — the Gormans (former store owners)** | https://www.gofundme.com/f/help-us-fight-back-against-unfair-business-practices | *"They Took Our LEGO Store & Life Savings. Help Us Fight Back."* — a **separate** campaign by the former Keizer franchisees Chrystal & Benjamin Gorman (~$67,095 of a $75K goal when checked, 2026-06-03). Their account of the store loss is a **contested ALLEGATION** (see the Parties page). |
 | **Reckless Ben — Patreon** | https://www.patreon.com/c/RecklessBen | Reported to host extended cuts. |
 
@@ -56,6 +57,7 @@ egress at compile time).
 | "A toy seller's take" | https://www.youtube.com/watch?v=rcd71Uhchlk | Industry/reseller perspective. |
 | "Theft of $200k Lego Star Wars collection?" explainer | https://www.youtube.com/watch?v=BGT412CuStk | Short explainer. |
 | MoistCr1TiKaL / penguinz0 coverage | https://www.youtube.com/watch?v=0c60CnipRUY | "LEGO Scandal Situation is Actually Crazy" (penguinz0), ~35 min, reported ~5M views; follow-up "Unexpected Twist in the LEGO Scandal": https://www.youtube.com/watch?v=6ABrV38vkNE |
+| Coffeezilla — "Bricks and Minifigs Investigation (CEO and Reckless Ben Interviews)" | https://www.youtube.com/watch?v=-igedTWbbA8 | Investigative video incl. interviews with BAM CEO **Ammon McNeff** and **Reckless Ben**; posted ~early Jun 2026. ⚠ Exact channel/upload-date not directly readable from the page; the title + Coffeezilla's ~May 30 X post (announcing interviews with both) confirm the interviews. |
 
 ## Notable social / community posts
 
