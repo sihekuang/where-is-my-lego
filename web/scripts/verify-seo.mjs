@@ -15,6 +15,23 @@ const root = await fetch(`${SERVER}/`, { redirect: "manual" });
 assert.ok([301, 302, 307, 308].includes(root.status), `/ should redirect (got ${root.status})`);
 assert.match(root.headers.get("location") ?? "", /\/en$/, "/ redirects to /en");
 
+// locale-resolution redirects: a locale-less or wrong-locale URL → the default-locale equivalent
+const redirectsTo = async (from, toSuffix) => {
+  const res = await fetch(`${SERVER}${from}`, { redirect: "manual" });
+  assert.ok([301, 302, 307, 308].includes(res.status), `${from} should redirect (got ${res.status})`);
+  assert.match(res.headers.get("location") ?? "", new RegExp(`${toSuffix}$`), `${from} → ${toSuffix}`);
+};
+await redirectsTo("/timeline", "/en/timeline"); // locale-less known route
+await redirectsTo("/lawsuit/documents", "/en/lawsuit/documents"); // nested locale-less route
+await redirectsTo("/fr/timeline", "/en/timeline"); // wrong locale in front of a known route
+
+// genuinely-unknown URLs return a real 404 (NOT a soft-404 redirect) with a link back home
+for (const p of ["/totally-made-up", "/en/totally-made-up"]) {
+  const res = await fetch(`${SERVER}${p}`, { redirect: "manual" });
+  assert.equal(res.status, 404, `${p} should be a real 404 (got ${res.status})`);
+  assert.match(await res.text(), /href="\/en"/, `${p} 404 page links to /en`);
+}
+
 // robots.txt
 const robots = await get("/robots.txt");
 assert.match(robots, /User-Agent:\s*\*/i, "robots names a user-agent");

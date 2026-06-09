@@ -52,6 +52,11 @@ export function generateStaticParams() {
   return LOCALES.map((l) => ({ locale: l.code }));
 }
 
+// Only the locales above are valid. Any other ":locale" segment (e.g. /totally-made-up) returns a
+// real 404 via the not-found boundary WITHOUT rendering this layout — so a bogus locale never
+// inherits the home page's canonical/OpenGraph/JSON-LD metadata.
+export const dynamicParams = false;
+
 const NAV = [
   { href: "", key: "nav.overview" },
   { href: "/timeline", key: "nav.timeline" },

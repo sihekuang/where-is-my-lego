@@ -14,7 +14,7 @@
     "lint": "eslint .",
     "translate": "node scripts/translate.mjs",
     "translate:check": "node scripts/translate.mjs --check",
-    "test": "node scripts/derive-data.test.mjs && node scripts/og-image.test.mjs && node scripts/check-ui.test.mjs && node scripts/minifig.test.mjs && node scripts/translate.test.mjs && node scripts/i18n-ui.test.mjs && node scripts/overlay.test.mjs && node scripts/glossary.test.mjs && node scripts/links.test.mjs && node scripts/structured-data.test.mjs"
+    "test": "node scripts/derive-data.test.mjs && node scripts/og-image.test.mjs && node scripts/check-ui.test.mjs && node scripts/minifig.test.mjs && node scripts/translate.test.mjs && node scripts/i18n-ui.test.mjs && node scripts/overlay.test.mjs && node scripts/glossary.test.mjs && node scripts/links.test.mjs && node scripts/structured-data.test.mjs && node scripts/routes.test.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.5.0",
