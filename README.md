@@ -112,7 +112,7 @@ into the Utah County Jail. **The warrant return reported "no items seized."** *(
 **It goes viral (May 21, 2026).** The local contract fight became a national story when Schneider posted
 *"I tracked down the thief who stole $200,000 of LEGO"* — reported at about **3.1 million views in two
 weeks**. A six-figure **GoFundMe** for the family blew past **$100,000** (and, by reporting around
-June 3–4, **over $300,000** — ⚠ that higher figure is single-outlet).
+June 3–4, **over $300,000**, and by June 8 **over $445,000** — ⚠ those higher figures are single-outlet).
 
 **The police backlash (late May 2026).** As the video collided with the arrest record, public anger
 turned on the **American Fork Police Department**. AFPD released body-cam footage and a news release on
@@ -144,6 +144,11 @@ and Nguyen** — by alternative means after personal service was not effected. T
 (including the claim **against Mansell**) **proceeding** at the service stage despite the Jun 4
 "discuss dropping" offer. ⚠ This order is sourced to a single court-document image; the case, caption,
 and number are independently corroborated, but cross-check the order against Utah XChange.
+
+On **June 9, 2026**, Schneider posted a short video (**"bad news"**) saying he **would not release "Part 3"**
+of his investigation and could not discuss the case under the court order — effectively **halting his
+public coverage**. (He frames a violation as risking jail, his own lawsuit, and the family's GoFundMe;
+those are his characterizations, and **no contempt finding has been reported**.)
 
 ## Methodology & a note on what is *not* here
 
