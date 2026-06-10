@@ -37,25 +37,55 @@ assert.notEqual(hashEdge({ label: "ab" }), hashEdge({ label: "a", note: "b" }), 
 }
 console.log("translate: hashing + diff assertions passed");
 
-import { seedProse, PROSE_DOCS } from "./translate.mjs";
+import { seedProse, splitProse, expandStoredProse, PROSE_DOCS } from "./translate.mjs";
+
+// splitProse: lossless `## `-section blocks.
+{
+  const doc = "Intro line.\n\n## One\na\n\n## Two\nb\n";
+  const blocks = splitProse(doc);
+  assert.equal(blocks.length, 3, "preamble + two sections");
+  assert.equal(blocks.join(""), doc, "split is lossless");
+  assert.ok(blocks[1].startsWith("## One"), "block starts at its heading");
+  assert.deepEqual(splitProse("no headings at all"), ["no headings at all"], "headingless doc = one block");
+  const headFirst = "## A\nx\n## B\ny";
+  assert.equal(splitProse(headFirst).join(""), headFirst, "doc starting with ## stays lossless");
+  assert.equal(splitProse(headFirst).length, 2, "no empty leading block");
+  assert.equal(splitProse("text with ## inline\nnot a heading").length, 1, "mid-line ## is not a heading");
+}
 
 {
-  const sources = { "home.md": "Hello CONFIRMED.", "police.md": "World." };
+  const sources = { "home.md": "Intro.\n\n## A\nHello CONFIRMED.\n\n## B\nBye.\n", "police.md": "World." };
   const fake = (text) => `[zh]${text}`;
 
-  // Cold: nothing stored -> both translated.
+  // Cold: nothing stored -> every block translated.
   const cold = seedProse(sources, {}, fake);
-  assert.equal(cold.files["home.md"], "[zh]Hello CONFIRMED.", "translates prose");
-  assert.equal(cold.manifest["prose:home.md"], hashProse("Hello CONFIRMED."), "records source hash");
-  assert.deepEqual(cold.stale.sort(), ["prose:home.md", "prose:police.md"], "cold = all stale");
+  assert.equal(cold.files["home.md"], "[zh]Intro.\n\n[zh]## A\nHello CONFIRMED.\n\n[zh]## B\nBye.\n", "translates per block");
+  assert.equal(cold.manifest["prose:home.md#1"], hashProse("## A\nHello CONFIRMED.\n\n"), "records per-block hash");
+  assert.deepEqual(cold.stale.sort(), ["prose:home.md#0", "prose:home.md#1", "prose:home.md#2", "prose:police.md#0"], "cold = all blocks stale");
 
-  // Warm: home unchanged, police changed -> only police re-translated, home reused.
-  const stored = { "prose:home.md": hashProse("Hello CONFIRMED."), "prose:police.md": hashProse("OLD") };
-  const prev = { "home.md": "保留的人工翻译", "police.md": "[zh]OLD" };
-  const warm = seedProse(sources, stored, fake, prev);
-  assert.equal(warm.files["home.md"], "保留的人工翻译", "unchanged prose keeps prior (human) translation");
-  assert.equal(warm.files["police.md"], "[zh]World.", "changed prose is re-translated");
-  assert.deepEqual(warm.stale, ["prose:police.md"], "only changed unit stale");
+  // Warm: only section B changed -> A (with a human fix) survives, B re-translates.
+  // A realistic prior translation keeps the `## ` headings, so it splits into
+  // the same number of blocks as the English source.
+  const prevHome = "简介。\n\n## A 部分\n人工修正的A段\n\n## B 部分\n再见。\n";
+  const stored = { ...cold.manifest };
+  const edited = { ...sources, "home.md": "Intro.\n\n## A\nHello CONFIRMED.\n\n## B\nChanged.\n" };
+  const warm = seedProse(edited, stored, fake, { "home.md": prevHome, "police.md": "[zh]World." });
+  assert.equal(warm.files["home.md"], "简介。\n\n## A 部分\n人工修正的A段\n\n[zh]## B\nChanged.\n", "unchanged blocks keep prior (human) translation; only edited block re-translates");
+  assert.deepEqual(warm.stale, ["prose:home.md#2"], "only the edited block is stale");
+
+  // Migration: an old whole-file manifest key vouches for all blocks (zero API).
+  const legacy = { "prose:home.md": hashProse(sources["home.md"]) };
+  const mig = seedProse({ "home.md": sources["home.md"] }, legacy, () => { throw new Error("must not translate"); }, { "home.md": prevHome });
+  assert.equal(mig.files["home.md"], prevHome, "whole-file match reuses committed translation per block");
+  assert.deepEqual(mig.stale, [], "migration is zero-cost");
+  assert.ok(mig.manifest["prose:home.md#0"], "migration emits per-block keys");
+  const expanded = expandStoredProse(legacy, { "home.md": sources["home.md"] });
+  assert.equal(expanded["prose:home.md#2"], hashProse("## B\nBye.\n"), "expandStoredProse synthesizes block hashes");
+
+  // Misaligned prev (section count differs) -> positional reuse refused, re-translate.
+  const misStored = { ...cold.manifest };
+  const mis = seedProse({ "home.md": sources["home.md"] }, misStored, fake, { "home.md": "[zh]only one block, no sections" });
+  assert.equal(mis.stale.length, 3, "misaligned prior translation re-translates all blocks");
 }
 assert.ok(PROSE_DOCS.includes("home.md"), "home.md is a known prose doc");
 console.log("translate: prose seeding assertions passed");

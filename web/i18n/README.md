@@ -71,8 +71,9 @@ root *.md ──derive──► .generated/{content,data}  (English, canonical)
 ## Drift detection — why your hand-fixes survive
 
 Each target locale has `i18n/<loc>/_translation-manifest.json`. It stores a **SHA-256 of the
-English source** for every unit (keyed `prose:<file>`, `ui:<key>`, and per-row/node/edge for
-data). On a seed:
+English source** for every unit (keyed `prose:<file>#<section>` — one unit per `## ` section
+block, so editing one section of a long doc re-translates only that section — plus `ui:<key>`
+and per-row/node/edge for data). On a seed:
 
 - If a unit's **English hash is unchanged** *and* a prior translation exists → **reuse the
   prior translation verbatim.**
@@ -82,7 +83,13 @@ Because the manifest hashes the **English source** (not the translation), **edit
 translation by hand never marks it stale.** Your review fixes are *drift-durable* — they
 survive every future re-seed until the English they correspond to actually changes. This is why
 the workflow is **auto-seed → commit → review**, and the review only ever needs to look at the
-units that changed.
+units that changed. Prose section units make this protection finer-grained: a hand-fix in one
+section now survives even when *another* section of the same document is re-translated.
+(Caveat: prose sections pair positionally — like table rows, **append new `## ` sections at
+the end** of a doc; a mid-doc insert shifts later indices and re-translates them.)
+
+Seeding translates stale units **a few at a time** (default 4 concurrent requests after a
+cache-warming first call per request type; tune with `TRANSLATE_CONCURRENCY=<n>`).
 
 Check drift without translating (no API key needed):
 
