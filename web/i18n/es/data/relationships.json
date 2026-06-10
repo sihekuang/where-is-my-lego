@@ -95,8 +95,8 @@
     {
       "id": "legally-mine",
       "label": "Legally Mine, LLC",
-      "role": "Empresa de protección de activos de Utah; Ammon (Pres.) y Matt (VP de Mktg) McNeff ocuparon cargos aquí de 2011 a 2020 (según el FDD de BAM)",
-      "statement": "⚠ El hallazgo de ejercicio ilegal de la abogacía de la Corte Suprema de Ohio de 2025 (Caso 2025-0037) nombra a un McNeff *diferente* — **Daniel** — como su único miembro/gerente; no confundir con Ammon/Matt."
+      "role": "Empresa de protección de activos de Utah; Ammon (Pres.) y Matt (VP de Mktg) McNeff desempeñaron funciones aquí 2011–2020 (según el FDD de BAM); renombrada \"LM Oldco, LLC\" el 21 de mayo de 2026",
+      "statement": "⚠ El hallazgo de práctica ilegal del derecho de 2025 del Tribunal Supremo de Ohio (Caso 2025-0037) nombra a un *diferente* McNeff — **Daniel** — como su único miembro/gerente; no confundir con Ammon/Matt. Renombrada \"LM Oldco, LLC\" mediante una enmienda sellada el 21 de mayo de 2026 — el día en que se publicó el primer video; el expediente no indica ninguna razón, y las interpretaciones causales son especulación."
     },
     {
       "id": "daniel-mcneff",
@@ -187,6 +187,12 @@
       "label": "H. Wood",
       "role": "Oficial de AFPD (admisión)",
       "statement": "Registró/recibió el reporte de acoso (caso 26AF02007) — un rol administrativo de recepción (posiblemente de escritorio/despacho). Transcrito de registros escaneados de la AFPD (OCR)."
+    },
+    {
+      "id": "centra-wealth",
+      "label": "Centra Wealth Solutions, LLC",
+      "role": "LLC de Utah (formada el 6 de abr. de 2026); propietaria de los nombres comerciales asumidos re-registrados de \"Legally Mine\"",
+      "statement": "Registró los nombres asumidos (DBAs) \"Legally Mine\" y \"Legally Mine Tax and Accounting\" el 29 de mayo de 2026, después de que Legally Mine, LLC fuera renombrada LM Oldco, LLC. No aparece McNeff entre sus directivos registrados; no es parte en el litigio."
     }
   ],
   "edges": [
@@ -244,7 +250,7 @@
     },
     {
       "label": "único miembro/gerente de",
-      "note": "Según la orden UPL del Tribunal Supremo de Ohio (2025-0037) y el UCC-1 de Utah de 2021."
+      "note": "Según la orden de práctica ilegal de la ley del Tribunal Supremo de Ohio (2025-0037) y el UCC-1 de Utah de 2021; sigue siendo el miembro registrado después de que la entidad fue renombrada LM Oldco, LLC — él firmó la enmienda de cambio de nombre del 21 de mayo de 2026."
     },
     {
       "label": "posee 450,000 acciones de",
@@ -394,6 +400,10 @@
     {
       "label": "detenido y confiscado el teléfono (11 de mar)",
       "note": "Relato de AFPD (afcitizen): teléfono confiscado después de que supuestamente lo manipuló cuando le dijeron que sería evidencia; detenido y puesto en libertad (sin registro formal). Fuente única."
+    },
+    {
+      "label": "ahora posee los nombres comerciales de \"Legally Mine\"",
+      "note": "Los nombres asumidos de Utah 14701446-0151 y 14701452-0151 (presentados el 29 de mayo de 2026), registrados ocho días después de que la entidad se renombrara a sí misma como LM Oldco, LLC (enmienda registrada el 21 de mayo de 2026, 4:49 PM; firmada por Daniel J. McNeff). Si esto refleja una venta/transferencia del negocio no consta en el registro público."
     }
   ]
 }
