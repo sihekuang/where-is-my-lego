@@ -148,7 +148,12 @@ and number are independently corroborated, but cross-check the order against Uta
 On **June 9, 2026**, Schneider posted a short video (**"bad news"**) saying he **would not release "Part 3"**
 of his investigation and could not discuss the case under the court order — effectively **halting his
 public coverage**. (He frames a violation as risking jail, his own lawsuit, and the family's GoFundMe;
-those are his characterizations, and **no contempt finding has been reported**.)
+those are his characterizations, and **no contempt finding has been reported**.) Around the same time,
+the **GoFundMe for the family** — live and showing **~$442K** in a June 8 archived snapshot — **stopped
+resolving**, returning GoFundMe's generic "Page not found." ⚠ **No news outlet has reported this**, and
+who removed it (or why) is **unconfirmed**: community posts tie it to the TRO, but that cause rests on a
+single social-media source, and a bare 404 cannot distinguish a takedown from a deactivation or paused
+campaign.
 
 ## Methodology & a note on what is *not* here
 
