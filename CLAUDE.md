@@ -143,6 +143,11 @@ done by **at least two agents verifying the sources independently**:
 This is a guardrail against a single agent hallucinating or over-reading a source — the failure mode
 that would most damage the archive's credibility.
 
+> **End-to-end playbook:** when a new case development is reported (news link, Reddit thread, video,
+> filing) and needs to be verified and shipped, follow the project skill
+> [`.claude/skills/news-update/SKILL.md`](./.claude/skills/news-update/SKILL.md) — it covers source
+> access, evidence anchoring, this two-agent rule, the branch/PR workflow, and the i18n pass.
+
 ### Status & attribution
 
 - Each substantive timeline/claim carries a **Status**: `CONFIRMED` (court records, agency
