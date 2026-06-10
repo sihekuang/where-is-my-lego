@@ -26,7 +26,7 @@ involving the American Fork Police Department, and a multi-count civil lawsuit f
 > adjudicated). As of the compilation date, **no court had found any party liable**. Please read
 > [`DISCLAIMER.md`](./DISCLAIMER.md) before using anything here.
 
-**Compiled:** 2026-06-03 · **Last updated:** 2026-06-09 · **Status of matter:** active civil litigation + pending criminal matter
+**Compiled:** 2026-06-03 · **Last updated:** 2026-06-10 · **Status of matter:** active civil litigation + pending criminal matter
 
 ---
 
@@ -53,8 +53,10 @@ If the names and legal terms below get confusing, this is the whole thing in fou
   *prepared to discuss* dropping the suit against Mansell — though no source shows Mansell accepting or
   anyone being dismissed. On **June 8, 2026** the court granted BAM an **alternative-service order** to
   serve the defendants — **including Mansell** — by alternative means, so the suit is **proceeding**
-  against him at the service stage. Every side disputes the other's version, and **no court has found
-  anyone liable**.
+  against him at the service stage. A **preliminary-injunction hearing is set for June 22, 2026**, when
+  Judge Graf will weigh whether to extend the May 28 TRO for the rest of the case and Schneider gets his
+  first chance to be heard (separate from his **July 1** criminal appearance). Every side disputes the
+  other's version, and **no court has found anyone liable**.
 
 > Why it's hard to follow: the dispute spans **two states** (Oregon and Utah), **two lawsuits** (the
 > family/BAM fight *and* a separate former-franchisee suit), a criminal case, and a police
@@ -149,11 +151,13 @@ On **June 9, 2026**, Schneider posted a short video (**"bad news"**) saying he *
 of his investigation and could not discuss the case under the court order — effectively **halting his
 public coverage**. (He frames a violation as risking jail, his own lawsuit, and the family's GoFundMe;
 those are his characterizations, and **no contempt finding has been reported**.) Around the same time,
-the **GoFundMe for the family** — live and showing **~$442K** in a June 8 archived snapshot — **stopped
-resolving**, returning GoFundMe's generic "Page not found." ⚠ **No news outlet has reported this**, and
-who removed it (or why) is **unconfirmed**: community posts tie it to the TRO, but that cause rests on a
-single social-media source, and a bare 404 cannot distinguish a takedown from a deactivation or paused
-campaign.
+the **GoFundMe for the family** — live and showing **~$442K** in a June 8 archived snapshot (reported
+peak ~**$454K**) — **stopped resolving**, returning GoFundMe's "Fundraiser not found." First flagged by a
+creator post and r/RecklessBen on June 9, the removal was **corroborated by multiple outlets on June 9–10**
+(UNILAD Tech, MSN, Kotaku, Soap Central), so it is **no longer media-uncorroborated**. **Who removed it,
+and why, is still unconfirmed:** outlets float several possibilities — GoFundMe pulling it under BAM's legal
+pressure, a court order, or the organizer taking it down to comply — and note it is **not publicly confirmed
+whether the May 28 TRO even covered the fundraiser**. Refund handling is **speculative**.
 
 ## Methodology & a note on what is *not* here
 
