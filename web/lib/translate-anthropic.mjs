@@ -47,13 +47,19 @@ export function makeTranslator(localeCode, mode = "document") {
   // BAM, party names) and the case-sensitive status tokens survive every mode.
   const system = `${rules.replace("{LANG}", LANG[localeCode] ?? localeCode)}\n\n${glossaryPromptBlock(localeCode)}`;
   return async (text) => {
-    const res = await client.messages.create({
-      model: MODEL,
-      max_tokens: 16384,
-      system: [{ type: "text", text: system, cache_control: { type: "ephemeral" } }],
-      messages: [{ role: "user", content: text }],
-    }, { timeout: 600_000 }); // whole-doc prose can be slow to generate; the SDK's default
-    // per-request timeout can trip on large docs (e.g. zh-Hant home.md), so give it room.
+    // Stream the generation: whole-doc prose units (community-sources.md, home.md)
+    // now take longer than any single-read HTTP timeout can reliably cover — a
+    // non-streaming create() hits APIConnectionTimeoutError at the timeout even
+    // though the model is still generating. Streaming keeps the connection alive
+    // per-chunk; finalMessage() returns the same shape create() would.
+    const res = await client.messages
+      .stream({
+        model: MODEL,
+        max_tokens: 16384,
+        system: [{ type: "text", text: system, cache_control: { type: "ephemeral" } }],
+        messages: [{ role: "user", content: text }],
+      }, { timeout: 600_000 })
+      .finalMessage();
     // Guard against silently writing a bad translation (an empty/blocked reply or
     // a max_tokens truncation would otherwise be saved AND recorded as current in
     // the manifest, so the corruption would never be re-detected).

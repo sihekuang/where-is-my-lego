@@ -95,8 +95,8 @@
     {
       "id": "legally-mine",
       "label": "Legally Mine, LLC",
-      "role": "犹他州资产保护公司；Ammon（总裁）及 Matt（市场副总裁）McNeff 于 2011–2020 年在此任职（据 BAM FDD）",
-      "statement": "⚠ 2025年俄亥俄州最高法院非法执业裁定（案号2025-0037）所指的McNeff为另一人——**Daniel**——系该实体唯一成员/管理人；请勿与Ammon/Matt混淆。"
+      "role": "犹他州资产保护公司；Ammon（总裁）及Matt（营销副总裁）McNeff于2011–2020年间在此任职（据BAM FDD）；于2026年5月21日更名为\"LM Oldco, LLC\"",
+      "statement": "⚠ 2025年俄亥俄州最高法院非法执业裁定（案件编号2025-0037）将一名*不同的* McNeff——**Daniel**——列为其唯一成员/管理人；请勿与Ammon/Matt混淆。该实体经一份于2026年5月21日（即第一个视频发布当日）盖章的修正案更名为\"LM Oldco, LLC\"——记录中未说明任何原因，对因果关系的解读属于推测。"
     },
     {
       "id": "daniel-mcneff",
@@ -187,6 +187,12 @@
       "label": "H. Wood",
       "role": "AFPD警官（受理）",
       "statement": "记录/接收骚扰举报（案件编号 26AF02007）——行政受理职能（可能为前台/调度）。转录自扫描版 AFPD 档案（OCR）。"
+    },
+    {
+      "id": "centra-wealth",
+      "label": "Centra Wealth Solutions, LLC",
+      "role": "犹他州有限责任公司（成立于2026年4月6日）；重新注册的\"Legally Mine\"假定名称的所有者",
+      "statement": "在 Legally Mine, LLC 更名为 LM Oldco, LLC 之后，于 2026 年 5 月 29 日注册了\"Legally Mine\"及\"Legally Mine Tax and Accounting\"假定名称（DBA）。其注册负责人中无 McNeff；非本案当事人。"
     }
   ],
   "edges": [
@@ -244,7 +250,7 @@
     },
     {
       "label": "唯一成员/管理人",
-      "note": "根据俄亥俄州最高法院非法律师执业令（2025-0037）及2021年犹他州UCC-1。"
+      "note": "根据俄亥俄州最高法院非法执业令（2025-0037）及2021年犹他州UCC-1；在该实体更名为LM Oldco, LLC后，仍为登记在册的成员——他签署了2026年5月21日的更名修正案。"
     },
     {
       "label": "持有450k股",
@@ -394,6 +400,10 @@
     {
       "label": "拘留并没收手机（3月11日）",
       "note": "AFPD的账号（afcitizen）：据称在被告知手机将作为证据后，他仍触碰手机，随后手机被没收；本人被带走羁押后释放（未被正式登记入案）。单一来源。"
+    },
+    {
+      "label": "现持有\"Legally Mine\"商号",
+      "note": "犹他州假名登记 14701446-0151 及 14701452-0151（2026年5月29日提交），在该实体将自身更名为 LM Oldco, LLC 八天后登记（修正案盖章时间：2026年5月21日下午4:49；由 Daniel J. McNeff 签署）。此举是否反映业务的出售/转让，公开记录中未有记载。"
     }
   ]
 }
