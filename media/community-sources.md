@@ -6,7 +6,9 @@ material people point to (much of the reporting elsewhere leans on *secondary* s
 cited directly. This catalog is meant to **grow**: new sources can be added under the sections below, and
 their origin recorded in *Where these came from*. **Linked, not re-hosted** (copyright + no network
 egress at compile time). Last reviewed **2026-06-03**; **Reddit + YouTube follow-up pass 2026-06-04**
-(see [*2026-06-04 update*](#2026-06-04-update--reddit--youtube-follow-up-pass) near the end).
+(see [*2026-06-04 update*](#2026-06-04-update--reddit--youtube-follow-up-pass) near the end); **news
+watcher pass 2026-06-10, re-verified and amended** (see [*2026-06-10
+update*](#2026-06-10-update--news-watcher-pass-re-verified) at the end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -42,6 +44,7 @@ The catalog currently draws from these community indexes. Add new origins here a
 | Inventory spreadsheet (surfaced in comments) | https://docs.google.com/spreadsheets/d/1ns2j7xR9AIMfo33HwFmAnvtCSCYhzQcrNv82j1LH0qE/edit | Line-item inventory list. ⚠ Verify; community-hosted. |
 | **Utah — complete court filings** | https://drive.proton.me/urls/7S5XSPWJF4#rQxnVZe5sUVc | Proton Drive. Contains **B&M v. Schneider & Mansell** (complaint, consignment agreement, "sold sets" investigation, incident logs) **and** the **franchise owners' suit v. B&M** (complaint, LEGO email, franchise agreement, termination letter, motion to compel arbitration). Directly addresses the "secondary-sources-only" critique. |
 | **Oregon — small-claims filings** | https://drive.proton.me/urls/RFVCJFMS4R#t20KYp5itsmP | Proton Drive. Ben's Oregon filings (reportedly the ones B&M **defaulted** on). |
+| **Utah — May 28 TRO (signed PDF)** | https://bamsucks.com/Bricks-and-Minifigs-v-Benjamin-Paul-Schneider-Reckless-Ben-Utah-Case-260402353-Temporary-Restraining-Order-TRO.pdf | Community-archived copy of the **May 28, 2026 "Temporary Restraining Order and Notice of Preliminary Injunction Hearing" (Tier 3)** — **read directly for this archive (Jun 10)**: signed **/s/ Tony F. Graf Jr., 5:25 PM**, case **260402353**; plaintiffs BAM Franchising, Inc. + the McNeffs, Johnson, Best, Baker Bricks; restraints (a)–(k) covering threats, doxxing, a "not less than 1,000 yards" stay-away, impersonation, signage, "undercover agents," and fabricated instruments, plus **evidence preservation** (i) and **removal of the "Publications" from any streaming platform** (k); **no bond**; PI-hearing date **left blank** in the order; **no provision expressly names the GoFundMe**. ⚠ **Partisan host** (a "bamsucks.com" public-archive site) and a community copy, **not** the clerk's record — cross-check against Utah **XChange**. The preliminary-injunction hearing — reported for **Jun 22, 2026** per KSL (⚠ Dexerto says Jun 30) — will decide whether to extend it. |
 | Oregon — full list of case numbers | https://pastebin.com/CdKUzxpM | Index of every Oregon case number for pulling the rest from OJCIN. |
 | Proof of relationship — image | https://imgur.com/a/GXZ7m2f | Pairs with the newspaper archive below. |
 | Proof of relationship — newspaper archive | https://www.newspapers.com/newspage/360215635/ | Old news article placing CEO **Ammon McNeff** and franchisee **Joshua Johnson** together as **missionaries in 2004** — primary support for a CEO↔franchisee tie (now reflected in [`../relationships.md`](../relationships.md) as the `ammon-mcneff ↔ josh-johnson` edge). ⚠ Paywalled clipping; verify. |
@@ -259,3 +262,22 @@ fails the CONFIRMED bar). Recorded here only so the exclusions are auditable.
 > the source channel; ⚠ items are community-sourced leads. Per the repo's two-agent rule, a second agent
 > should independently confirm each cited source before any of these is promoted into `timeline.md` /
 > `parties.md` or relabeled **CONFIRMED**.
+
+---
+
+## 2026-06-10 update — news watcher pass (re-verified)
+
+An automated news-watcher pass surfaced developments after the archive's **Jun 9** cutoff (that pass
+could not reach Reddit and ran on WebSearch + outlet coverage only); its findings were then
+**independently re-verified and amended** before being merged here. Outcome per item:
+
+| # | Item | Where it landed | Status after re-verification |
+|---|---|---|---|
+| 1 | **Civil preliminary-injunction hearing reported for Jun 22, 2026** (Judge Graf, case 260402353) — whether to extend the May 28 TRO; Schneider's first chance to be heard. Distinct from the **Jul 1** criminal appearance. ⚠ The pass had proposed CONFIRMED across four outlets — **re-verification narrowed it**: only KSL carries Jun 22 (East Idaho News is a syndication of the same story), UNILAD doesn't mention the hearing, and **Dexerto conflicts, reporting Jun 30**. | `timeline.md` (new row); `README.md`; `lawsuit/README.md` | **Reported** (KSL + syndication); ⚠ Dexerto says Jun 30 — cross-check XChange |
+| 2 | **Mansell GoFundMe removal got next-day coverage** (UNILAD Tech ×2, an MSN-syndicated piece; reported peak ~$454,151). ⚠ The pass had claimed Kotaku + Soap Central as further corroboration and proposed raising the removal to CONFIRMED — **re-verification refuted that**: Kotaku's Jun 9 piece described the fund as having reached >$450K with no mention of a takedown, and Soap Central could not be re-opened. Removal therefore **stays `Reported`**. **Superseded within hours anyway: the page came back online Jun 10** (see the Jun 10 timeline row). | `timeline.md` (Jun 9–10 rows); `primary-sources.md`; `README.md` | Removal **Reported**; cause **ALLEGATION/unconfirmed**; restoration **Reported** |
+| 3 | **May 28 TRO signed PDF** surfaced on a community public-archive host (`bamsucks.com`) — **read directly during re-verification**, confirming the judge's signature, case number, the (a)–(k) restraints, no-bond, and that **no provision names the GoFundMe**. Resolved two standing ⚠ flags (TRO judge name; the RICO framing is recited in the order). | §*Court filings* table above; `timeline.md` (May 27–28 rows) | Primary doc via **partisan/community mirror** — cross-check XChange |
+
+**Deliberately not promoted:** the Jun 9–10 cluster of *Part-3 reaction / "final message"* recaps (Brick
+Fanatics, Geeks+Gamers, Sportskeeda, Soap Central, Dexerto — cataloged in `news-articles.md`, but they
+restate the already-recorded Jun 9 "bad news" video rather than adding facts); refund-mechanics
+speculation (no outlet confirms it); and the unredacted body-cam tranche (still excluded on PII grounds).
