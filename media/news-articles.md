@@ -67,6 +67,9 @@ environment had no network egress). Author bylines marked "—" were not confirm
 | Sportskeeda | "Bricks & Minifigs can stuff it": Patreon CEO Jack Conte responds to official takedown request | 2026-06-02 | https://www.sportskeeda.com/us/streamers/news-bricks-minifigs-can-stuff-it-patreon-ceo-jack-conte-responds-organization-s-official-takedown-request-reckless-ben-s-content |
 | Primetimer | Who is Jack Conte? "Bricks & Minifigs can stuff it" says Patreon CEO amid takedown request | 2026-06-02 | https://www.primetimer.com/news/who-is-jack-conte-bricks-minifigs-can-stuff-it-says-patreon-ceo-amid-takedown-request-for-reckless-ben-s-videos |
 | Soap Central | "That's the guy from Pomplamoose": Patreon CEO Jack Conte's link to indie band surprises fans | 2026-06-02 | https://www.soapcentral.com/entertainment/that-s-guy-pomplamoose-patreon-ceo-jack-conte-s-link-indie-band-surprises-fans-video-slamming-bricks-minifigs-goes-viral |
+| UNILAD Tech | Former LEGO franchise owner gives Brickgate update as $450,000 GoFundMe vanishes overnight (notes the fund "briefly vanishing but appearing to be back in action") | 2026-06-10 | https://www.uniladtech.com/social-media/youtube/brian-gorman-lego-franchise-brickgate-update-gofundme-461132-20260610 |
+| UNILAD Tech | Reckless Ben's GoFundMe disappears after raising $450,000 for 'stolen' LEGO | 2026-06-10 | https://www.uniladtech.com/social-media/youtube/reckless-ben-gofundme-stolen-lego-disappears-103431-20260610 |
+| MSN (syndicated; original outlet unidentified) | Bricks and Minifigs got the Mansell family GoFundMe taken down? ⚠ headline phrased as a question; cataloged for the takedown coverage, not as confirmation of cause | 2026-06-10 | https://www.msn.com/en-us/money/companies/bricks-and-minifigs-got-the-mansell-family-gofundme-taken-down/ar-AA25elSR |
 
 ## Forum / community discussion
 

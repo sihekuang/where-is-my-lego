@@ -150,10 +150,12 @@ of his investigation and could not discuss the case under the court order — ef
 public coverage**. (He frames a violation as risking jail, his own lawsuit, and the family's GoFundMe;
 those are his characterizations, and **no contempt finding has been reported**.) Around the same time,
 the **GoFundMe for the family** — live and showing **~$442K** in a June 8 archived snapshot — **stopped
-resolving**, returning GoFundMe's generic "Page not found." ⚠ **No news outlet has reported this**, and
-who removed it (or why) is **unconfirmed**: community posts tie it to the TRO, but that cause rests on a
-single social-media source, and a bare 404 cannot distinguish a takedown from a deactivation or paused
-campaign.
+resolving**, returning GoFundMe's generic "Page not found." The outage proved temporary: on **June 10**
+Schneider posted *"GoFundMe is back up!"*, and the page was confirmed live again the same day at
+**$465K+ of a (raised) $500K goal**. ⚠ Why it vanished — and what restored it — is **unconfirmed**:
+community posts tie the takedown to the TRO, but that cause rests on a single social-media source, a
+bare 404 cannot distinguish a takedown from a deactivation or paused campaign, and Schneider says only
+that "maybe some day" he'll be allowed to explain.
 
 ## Methodology & a note on what is *not* here
 
