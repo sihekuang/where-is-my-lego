@@ -19,6 +19,7 @@ capacity** — no personal information about any officer is included.
 | **May 29** | AFPD releases body-cam footage + news release; **Chief Cameron Paul** posts a ~26-minute video statement. | CONFIRMED |
 | ~May 30–Jun 2 | Story goes viral; nationwide call-in backlash; unrelated agencies issue disclaimers. | CONFIRMED |
 | **Jun 8** (disputed) | Schneider reportedly scheduled to appear in court. ⚠ Wikipedia says June 8; KSL & East Idaho News say **July 1, 2026**. | Reported (scheduled); date disputed |
+| **Jun 9** | **American Fork City Council** public meeting: during public comment, multiple residents spoke **in support of Schneider** and demanded an **independent review** of AFPD's conduct; the city **did not announce** any formal/independent investigation. ⚠ A council member expressed **appreciation for local police** and cited a **separate recent incident affecting their family** (single substantive source). | Meeting + "no investigation announced" CONFIRMED (city's own meeting video + coverage); speakers' claims ALLEGATION; council-member detail Reported |
 
 ## Allegations against AFPD (ALLEGATION — raised by Schneider, amplified online)
 
@@ -65,6 +66,15 @@ audio…"*) and stood by his allegations.
   "review-bombing" is widely asserted online, but reporting confirms only a low Google rating and
   dispute-related reviews — it does not confirm coordination, cite a numeric rating, or verify Yelp
   specifically.
+- **American Fork City Council meeting (Jun 9, 2026).** The backlash reached the city's own forum:
+  at a regularly scheduled council meeting, **members of the public spoke in support of Schneider**
+  during public comment and pressed for an **independent review** of AFPD's handling of the matter.
+  **The city did not announce any formal or independent investigation.** ⚠ A council member
+  expressed appreciation for local police and referenced a separate recent incident affecting their
+  family (single substantive source). The meeting itself is a **primary record** — American Fork
+  City's official channel posted "June 9, 2026 AF City Council Meeting." The speakers' misconduct
+  claims remain **ALLEGATIONS** (AFPD denies); the *event* and the *no-investigation* outcome are
+  confirmed by the city video plus secondary coverage (Dexerto, The Express Tribune).
 
 ## A separate, distinct AFPD matter (don't conflate)
 
@@ -78,7 +88,8 @@ them because it fed the broader "AFPD under the spotlight" narrative.
 - **CONFIRMED:** two arrests (Mar 10 & 11); the four misdemeanor charges; the judge-approved Airbnb
   search warrant; the warrant return ("no items seized"); booking into Utah County Jail; the May 29
   AFPD release and Chief Paul's video; Salem (Utah) PD's disclaimer; the Central Utah 911 figures; the
-  separate Kitchen traffic-stop apology.
+  separate Kitchen traffic-stop apology; the **Jun 9 American Fork City Council meeting** (public
+  comments backing Schneider; **no investigation announced**).
 - **ALLEGATION / unproven:** the underlying Oregon "stolen Lego" theft; police bias/corruption;
   religious favoritism; the shoulder-injury claim (disputed by AFPD's body-cam account); "to scare
   him" characterizations. The Mexico departure is reported but not agency-confirmed.

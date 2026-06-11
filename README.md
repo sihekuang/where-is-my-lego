@@ -26,7 +26,7 @@ involving the American Fork Police Department, and a multi-count civil lawsuit f
 > adjudicated). As of the compilation date, **no court had found any party liable**. Please read
 > [`DISCLAIMER.md`](./DISCLAIMER.md) before using anything here.
 
-**Compiled:** 2026-06-03 · **Last updated:** 2026-06-10 · **Status of matter:** active civil litigation + pending criminal matter
+**Compiled:** 2026-06-03 · **Last updated:** 2026-06-11 · **Status of matter:** active civil litigation + pending criminal matter
 
 ---
 
@@ -122,7 +122,10 @@ turned on the **American Fork Police Department**. AFPD released body-cam footag
 May 29; Chief **Cameron Paul** posted a ~26-minute statement; BAM CEO **Ammon McNeff** appeared in a
 livestream, apologized to the family, and offered mediation. It spilled offline — "Mormon Mafia"
 trended and Central Utah 911 reported a call surge — while AFPD maintained it had enforced Utah law
-within its jurisdiction. **Whether police acted improperly is unadjudicated.**
+within its jurisdiction. On **June 9, 2026** the backlash reached the city's own forum: members of the
+public spoke in support of Schneider at an **American Fork City Council** meeting and pressed for an
+**independent review** of AFPD's conduct, though **the city announced no investigation**.
+**Whether police acted improperly is unadjudicated.**
 
 **The lawsuit and the "parting" (late May–June 2026).** On **May 27, 2026**, **BAM Franchising and
 associated individuals sued** Schneider and others in **Utah Fourth District Court** (case no.
