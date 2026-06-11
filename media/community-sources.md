@@ -9,7 +9,11 @@ egress at compile time). Last reviewed **2026-06-03**; **Reddit + YouTube follow
 (see [*2026-06-04 update*](#2026-06-04-update--reddit--youtube-follow-up-pass) near the end); **news
 watcher pass 2026-06-10, re-verified and amended** (see [*2026-06-10
 update*](#2026-06-10-update--news-watcher-pass-re-verified) near the end); **news watcher pass
-2026-06-11** (see [*2026-06-11 update*](#2026-06-11-update--news-watcher-pass) at the very end).
+2026-06-11** (see [*2026-06-11 update*](#2026-06-11-update--news-watcher-pass) near the end); **second
+2026-06-11 sweep, re-verified against re-opened sources** — franchise-spillover harassment
+(Sacramento/SLO/Ohio), Minifigs.me supplier exit, Coffeezilla's full investigation (see [*2026-06-11
+update — second sweep*](#2026-06-11-update--news-watcher-pass-second-sweep-re-verified) at the very
+end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -314,3 +318,50 @@ reporting, not a new development; the archive already notes the DA review.
 > single-substantive-source (downgraded to *Reported*; "defended police" softened to "expressed
 > appreciation"). ⚠ `WebFetch` egress was blocked this run, so full-text re-opening of sources was not
 > possible — corroboration rests on multiple WebSearch snippets plus the primary municipal video record.
+
+---
+
+## 2026-06-11 update — news watcher pass (second sweep, re-verified)
+
+A second sweep the same day (originating as automated bot PR #46, then **independently re-verified with
+every promoted source re-opened** — the bot's own run had no full-text access). The re-verification
+**moved most of the bot's event dates earlier** (the "post-Jun-10 developments" mostly broke Jun 4–8) and
+corrected several source attributions. Outcome:
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Harassment spills over to uninvolved BAM franchises (reported Jun 4–9).** The independently owned **Bricks & Minifigs Sacramento (Pocket)** reported threatening calls/emails/messages and announced a **~week-long closure** (⚠ from Jun 12 per CBS vs "week of Jun 13" per the Sacramento Bee and KCRA; reopen ~Jun 19). GM Dylan Anderson told KCRA some calls and emails *"have been death threats"* (KCRA carries it in its headline). ⚠ Police-report picture **conflicts**: per FOX40, Anderson said the store has filed multiple police reports ("There are active police reports"), while the Bee reports Sacramento PD said the store's **May 23 & 30** calls produced **"no direct threats"** and **no official report was filed in its online system**. A **San Luis Obispo** location reported **calls about the controversy** — non-threatening, ended "peacefully" (KSBW, Jun 8 — a KCRA sister station, not independent corroboration); **central-Ohio stores reported "hate"/backlash and decreased sales** (Columbus Dispatch, Jun 9, also reporting BAM corporate citing **bomb threats** nationally); **BAM corporate's own May 21/27 note** cited *"direct threats and doxxing of local staff and their families."* | `timeline.md` (Jun 4–9 row); `police-controversy.md` (backlash section + ledger); `news-articles.md` (FOX40, CBS, KCRA, Sacramento Bee, KSBW, Columbus Dispatch) | **CONFIRMED** (closure announcement + harassment reports — four independent Sacramento-market outlets: FOX40/Nexstar, CBS/Paramount, KCRA/Hearst, Bee/McClatchy); "death threats" = the store's/GM's characterization; police-report detail ⚠ conflicting |
+| 2 | **Supplier exit — Minifigs.me / Custom Minifigs ends its BAM relationship (posted Jun 4).** The UK custom-minifigure maker's owners (**Nick and Caroline** — the post gives no surname) announced on Facebook/Instagram they are ending their long-running supplier arrangement over the allegations — *"we can no longer continue to do this in good conscience."* **The Facebook post is public and was re-opened directly this pass.** Kotaku's Jun 10 recap covers it secondhand. ⚠ A factually.co fact-check (researched Jun 5) found supplier pull-aways **undocumented in its own source set** — cited as *skeptical*; any broader supplier "exodus" remains **unestablished**. | `timeline.md` (Jun 4 row); `primary-sources.md` (social-posts table) | Announcement **CONFIRMED** (company's own public statement, read directly; + Kotaku secondhand); breadth unestablished ⚠ |
+| 3 | **Coffeezilla's full investigation, "I Found The $200,000 Missing Lego" (Jun 10).** **Title, channel, upload date (Jun 10, 2026), and ~54-min length verified directly from the video metadata.** Frames the dispute as record-keeping/compensation/legal conflict more than wholesale "theft": **~$10K–$20K** "unexplained," Mansell **possibly owed ~$50K–$83K**, collection likely worth **~$107K** — his own estimates, corroborated by The Express Tribune (story 2612574, Jun 11). | `timeline.md` (Jun 10 row); `primary-sources.md` (new entry, split from the earlier interviews clip) | **Reported** (Coffeezilla's findings; figures corroborated by one outlet) |
+| 4 | **Local Oregon TV coverage of the Jun 4 closure** (KOIN, KEZI, KOMO/KATU) — better-sourced local angle; corroborates the already-CONFIRMED closure. KOIN re-opened via browser (bot-walled to plain HTTP clients); KEZI/KOMO resolve normally. | `news-articles.md` | Catalog enrichment |
+| 5 | **"New witness" / U-Haul claim** (Express Tribune 2612466 — salon owner next to the **Eugene** store recalls a U-Haul + staff unloading on Nov 22, **2024**). | **Still not promoted** | ⚠ Single outlet, self-flagged as unverified social-media recollection, PII-adjacent, and an **Eugene-vs-Salem/Keizer location mismatch** (~65 mi; and don't conflate the 2024 date with the Nov 22, **2023** consignment). Re-evaluate only on a court record, the named witness on the record, or a second independent outlet. |
+
+> **Verification.** Two-agent rule applied — and because the originating bot PR (#46) was produced
+> **without source access** (WebSearch snippets only), this pass treated its claims as *unverified
+> authorship* and re-opened everything: FOX40 (full text via browser — bot-walled), CBS Sacramento,
+> Sacramento Bee (via its NewsBreak syndication), the public **Minifigs.me Facebook post**, factually.co
+> (via browser), Kotaku, the **YouTube video metadata** for Coffeezilla's investigation, KOIN, and
+> KEZI/KOMO. Corrections vs. the bot draft, all applied: (a) event dates moved from "~Jun 10–12" to
+> **Jun 4–8** (FOX40 Jun 4; CBS/KCRA Jun 5; Bee Jun 6; the Minifigs.me post is **Jun 4**); (b) the
+> bot's "Sacramento Bee (via AOL)" citation was actually an **AOL syndication of the FOX40 story** —
+> replaced with the real Bee article, and KCRA/KSBW/Columbus Dispatch added as the true sources of the
+> "death threats" / San Luis Obispo / nationwide-spread details; (c) "filed multiple Sacramento PD
+> reports" was **demoted from fact to the GM's account** and ⚠-flagged against the Bee's contradicting
+> PD statement; (d) the claimed UNILAD corroboration of the Minifigs.me exit **does not exist in the
+> cited UNILAD timeline** — replaced with Kotaku (Jun 10); (e) the owners' surname ("Savage") could not
+> be verified in any opened source and was dropped; (f) the Coffeezilla row was re-dated to the verified
+> **Jun 10** upload; (g) an editor-facing instruction the bot had copied into two content rows was
+> removed. The Minifigs.me announcement was **upgraded to CONFIRMED-as-statement** (primary re-opened
+> directly), and the Sacramento item's CONFIRMED core was narrowed to the closure announcement +
+> harassment reports. **Agent B (independent verifier, all sources re-opened from bare URLs incl. the
+> full 54-min video transcript) then caught three errors in the re-write itself, all fixed:** the
+> "'alleged' in KCRA's headline" hedge was **false** (verified against the live H1/og:title/JSON-LD and
+> a Jun 5 Wayback capture — KCRA asserts "harassment and death threats" unhedged; "alleged" modifies
+> the consignment dispute; the GM's verbatim quote is *"Some of the calls and emails have been death
+> threats"*); the San Luis Obispo calls were **not "harassing"** (KSBW describes non-threatening calls
+> ended "peacefully" — and KSBW is a **Hearst sister of KCRA**, so it doesn't independently corroborate
+> Sacramento facts); and "filed multiple police reports" is FOX40's **paraphrase**, not an Anderson
+> quote (de-quoted). B also re-dated the range to **Jun 4–9** (the Dispatch piece is Jun 9), flagged
+> the bot's unverified "BAM's $95K–$100K" valuation (replaced with the Dispatch-reported **~$80K** BAM
+> claim), and surfaced Schneider's on-camera admission that the $200K figure was promotional (*"a nice
+> even number that will grab attention"*).

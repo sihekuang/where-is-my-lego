@@ -66,6 +66,25 @@ audio…"*) and stood by his allegations.
   "review-bombing" is widely asserted online, but reporting confirms only a low Google rating and
   dispute-related reviews — it does not confirm coordination, cite a numeric rating, or verify Yelp
   specifically.
+- **Spillover to uninvolved BAM franchises (reported Jun 4–9, 2026).** The harassment pile-on spread
+  beyond the parties: the independently owned **Bricks & Minifigs in Sacramento, CA (Pocket
+  neighborhood)** — which had **no role** in the Oregon dispute — reported a flood of threatening
+  calls, emails, and messages and announced it would **close for about a week** (⚠ from Jun 12 per CBS
+  Sacramento vs. the "week of Jun 13" per the Sacramento Bee and KCRA; aiming to reopen Jun 19). GM
+  **Dylan Anderson** told KCRA some of the calls and emails *"have been death threats."*
+  ⚠ **The police-report picture conflicts:** per FOX40, Anderson said the store has filed multiple
+  police reports with Sacramento PD (*"There are active police reports"*), but per the Sacramento Bee,
+  regarding the store's **May 23 & 30** calls the department said **"no direct threats were made"**
+  and **no official report was filed in its online system** — don't launder either account into a
+  police finding. A **San Luis Obispo** location also reported **calls about the controversy**
+  (described as non-threatening and ended "peacefully" — KSBW, a KCRA sister station), **central-Ohio
+  stores reported "hate"/backlash and decreased sales** (Columbus Dispatch, Jun 9, which also reports
+  BAM corporate citing **bomb threats** against stores nationally), and **BAM corporate's own
+  community note** (May 21, updated May 27) cited *"direct threats and doxxing of local staff and
+  their families."* Like the 911 surge, this is a **concrete public-safety/harassment harm of the
+  pile-on** directed at people uninvolved in the underlying matter. **CONFIRMED** (the closure
+  announcement + harassment reports — FOX40, CBS Sacramento, KCRA, Sacramento Bee); "death threats"
+  is the store's/GM's characterization.
 - **American Fork City Council meeting (Jun 9, 2026).** The backlash reached the city's own forum:
   at a regularly scheduled council meeting, **members of the public spoke in support of Schneider**
   during public comment and pressed for an **independent review** of AFPD's handling of the matter.
@@ -89,7 +108,10 @@ them because it fed the broader "AFPD under the spotlight" narrative.
   search warrant; the warrant return ("no items seized"); booking into Utah County Jail; the May 29
   AFPD release and Chief Paul's video; Salem (Utah) PD's disclaimer; the Central Utah 911 figures; the
   separate Kitchen traffic-stop apology; the **Jun 9 American Fork City Council meeting** (public
-  comments backing Schneider; **no investigation announced**).
+  comments backing Schneider; **no investigation announced**); the **Jun 4–9 spillover harassment** of
+  uninvolved BAM franchises (the Sacramento store's announced week-long closure after threats;
+  controversy calls to a San Luis Obispo store; Ohio stores' backlash reports — ⚠ the Sacramento
+  police-report detail conflicts between the store and Sacramento PD).
 - **ALLEGATION / unproven:** the underlying Oregon "stolen Lego" theft; police bias/corruption;
   religious favoritism; the shoulder-injury claim (disputed by AFPD's body-cam account); "to scare
   him" characterizations. The Mexico departure is reported but not agency-confirmed.
