@@ -8,7 +8,8 @@ their origin recorded in *Where these came from*. **Linked, not re-hosted** (cop
 egress at compile time). Last reviewed **2026-06-03**; **Reddit + YouTube follow-up pass 2026-06-04**
 (see [*2026-06-04 update*](#2026-06-04-update--reddit--youtube-follow-up-pass) near the end); **news
 watcher pass 2026-06-10, re-verified and amended** (see [*2026-06-10
-update*](#2026-06-10-update--news-watcher-pass-re-verified) at the end).
+update*](#2026-06-10-update--news-watcher-pass-re-verified) near the end); **news watcher pass
+2026-06-11** (see [*2026-06-11 update*](#2026-06-11-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -285,3 +286,31 @@ could not reach Reddit and ran on WebSearch + outlet coverage only); its finding
 Fanatics, Geeks+Gamers, Sportskeeda, Soap Central, Dexerto — cataloged in `news-articles.md`, but they
 restate the already-recorded Jun 9 "bad news" video rather than adding facts); refund-mechanics
 speculation (no outlet confirms it); and the unredacted body-cam tranche (still excluded on PII grounds).
+
+---
+
+## 2026-06-11 update — news watcher pass
+
+A targeted pass for developments after the **Jun 10** cutoff. **Reddit was unreachable this run**
+(r/RecklessBen blocked to non-browser clients; `old.reddit.com`/`*.json` not in the egress allowlist and
+`WebFetch` returned 403 across all hosts), so this pass ran on **WebSearch** + outlet snippets +
+primary-record listings only. Outcome:
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **American Fork City Council meeting (Jun 9, 2026).** Members of the public spoke in support of Schneider during public comment and demanded an **independent review** of AFPD's conduct; the city **announced no investigation**. ⚠ A council member expressed appreciation for police and cited a separate recent family incident (single substantive source). | `timeline.md` (Jun 9 row); `police-controversy.md` (events table + backlash section + ledger) | Meeting + no-investigation outcome **CONFIRMED** (city's own meeting video `Vrr9boJhEhw` + Dexerto + The Express Tribune); speakers' claims **ALLEGATION**; council detail **Reported**. ⚠ The two secondary outlets share near-identical phrasing (not fully independent) — the primary anchor is the **city's official meeting video**. |
+| 2 | **"New witness" claim** — a neighboring business owner (salon next to the **Eugene** B&M store) reportedly said she and a client saw a **U-Haul** parked outside on the night of **Nov 22, 2024** (deliveries normally came via major freight). | **Not promoted** | ⚠ **Single outlet** (The Express Tribune, story 2612466), which **itself flags it as unverified social-media recollection**; PII-adjacent (a private individual's personal account). Recorded here only as an excluded lead — re-evaluate if a court record, the named witness on the record, or a second independent outlet corroborates. |
+| 3 | **Supplier "cuts ties" claim** — a custom-minifigure supplier reportedly ending its arrangement with BAM over the allegations. | **Not promoted** | ⚠ Surfaced only as a passing line in one aggregated timeline snippet; **could not be independently corroborated** this run. Re-check next pass. |
+
+**Also checked, nothing new to add:** the Jun 9 "bad news"/Part-3 gag, the Jun 9–10 GoFundMe
+outage→restoration, the Jun 4 store closure/"parting ways," the Patreon standoff, and the Jun 22 PI /
+Jul 1 criminal hearing dates are all **already recorded**. The Marion County DA "≈30 pages / charges
+under active consideration" detail traces to the **Salem Business Journal (Mar 30, 2026)** — pre-existing
+reporting, not a new development; the archive already notes the DA review.
+
+> **Verification.** Two-agent rule applied: an independent verifier re-checked the Jun 9 council-meeting
+> claims via WebSearch and confirmed the meeting date (against the city's own video title), the
+> "no investigation announced" outcome (both outlets), and flagged the council-member detail as
+> single-substantive-source (downgraded to *Reported*; "defended police" softened to "expressed
+> appreciation"). ⚠ `WebFetch` egress was blocked this run, so full-text re-opening of sources was not
+> possible — corroboration rests on multiple WebSearch snippets plus the primary municipal video record.
