@@ -66,6 +66,19 @@ audio…"*) and stood by his allegations.
   "review-bombing" is widely asserted online, but reporting confirms only a low Google rating and
   dispute-related reviews — it does not confirm coordination, cite a numeric rating, or verify Yelp
   specifically.
+- **Spillover to uninvolved BAM franchises (~Jun 10–12, 2026).** The harassment pile-on spread beyond
+  the parties: the independently owned **Bricks & Minifigs in Sacramento, CA (Pocket neighborhood)** —
+  which had **no role** in the Oregon dispute — said it received threats of harm, **which the store
+  characterized as including death threats**, **filed multiple reports with Sacramento PD**, and
+  announced it would **close for about a week** (~Jun 12–13, aiming to reopen Jun 19). A **San Luis
+  Obispo** location also reported harassing calls, and BAM corporate said franchise owners and
+  employees had been **doxxed and threatened nationwide**. Like the 911 surge, this is a **concrete
+  public-safety/harassment harm of the pile-on** directed at people uninvolved in the underlying
+  matter. **CONFIRMED** (store's closure + harassment reports, multiple independent local outlets:
+  CBS Sacramento, FOX40, Sacramento Bee). ⚠ Don't launder the store's framing into a police finding:
+  per the Sacramento Bee, on earlier reported calls (May 23 & 30) **Sacramento PD said no direct
+  threats were made** and referred the manager to online-reporting channels. ⚠ Exact closure start
+  date varies by outlet (Jun 12 vs Jun 13).
 - **American Fork City Council meeting (Jun 9, 2026).** The backlash reached the city's own forum:
   at a regularly scheduled council meeting, **members of the public spoke in support of Schneider**
   during public comment and pressed for an **independent review** of AFPD's handling of the matter.
@@ -89,7 +102,9 @@ them because it fed the broader "AFPD under the spotlight" narrative.
   search warrant; the warrant return ("no items seized"); booking into Utah County Jail; the May 29
   AFPD release and Chief Paul's video; Salem (Utah) PD's disclaimer; the Central Utah 911 figures; the
   separate Kitchen traffic-stop apology; the **Jun 9 American Fork City Council meeting** (public
-  comments backing Schneider; **no investigation announced**).
+  comments backing Schneider; **no investigation announced**); the **~Jun 10–12 spillover harassment**
+  of uninvolved BAM franchises (Sacramento store's week-long closure after threats + Sacramento PD
+  reports; San Luis Obispo harassing calls).
 - **ALLEGATION / unproven:** the underlying Oregon "stolen Lego" theft; police bias/corruption;
   religious favoritism; the shoulder-injury claim (disputed by AFPD's body-cam account); "to scare
   him" characterizations. The Mexico departure is reported but not agency-confirmed.

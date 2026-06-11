@@ -122,7 +122,9 @@ turned on the **American Fork Police Department**. AFPD released body-cam footag
 May 29; Chief **Cameron Paul** posted a ~26-minute statement; BAM CEO **Ammon McNeff** appeared in a
 livestream, apologized to the family, and offered mediation. It spilled offline — "Mormon Mafia"
 trended and Central Utah 911 reported a call surge — while AFPD maintained it had enforced Utah law
-within its jurisdiction. On **June 9, 2026** the backlash reached the city's own forum: members of the
+within its jurisdiction. By mid-June the harassment had **spread to uninvolved BAM franchises
+nationwide** — a Sacramento store closed for about a week after staff received threats (a concrete
+spillover harm of the pile-on; CONFIRMED by multiple local outlets). On **June 9, 2026** the backlash reached the city's own forum: members of the
 public spoke in support of Schneider at an **American Fork City Council** meeting and pressed for an
 **independent review** of AFPD's conduct, though **the city announced no investigation**.
 **Whether police acted improperly is unadjudicated.**

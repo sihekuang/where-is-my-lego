@@ -9,7 +9,10 @@ egress at compile time). Last reviewed **2026-06-03**; **Reddit + YouTube follow
 (see [*2026-06-04 update*](#2026-06-04-update--reddit--youtube-follow-up-pass) near the end); **news
 watcher pass 2026-06-10, re-verified and amended** (see [*2026-06-10
 update*](#2026-06-10-update--news-watcher-pass-re-verified) near the end); **news watcher pass
-2026-06-11** (see [*2026-06-11 update*](#2026-06-11-update--news-watcher-pass) at the very end).
+2026-06-11** (see [*2026-06-11 update*](#2026-06-11-update--news-watcher-pass) near the end); **second
+2026-06-11 sweep** — Sacramento/franchise-threat fallout, Minifigs.me supplier, Coffeezilla's 54-min
+investigation (see [*2026-06-11 update — second sweep*](#2026-06-11-update--news-watcher-pass-second-sweep)
+at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -314,3 +317,32 @@ reporting, not a new development; the archive already notes the DA review.
 > single-substantive-source (downgraded to *Reported*; "defended police" softened to "expressed
 > appreciation"). ⚠ `WebFetch` egress was blocked this run, so full-text re-opening of sources was not
 > possible — corroboration rests on multiple WebSearch snippets plus the primary municipal video record.
+
+---
+
+## 2026-06-11 update — news watcher pass (second sweep)
+
+A follow-up sweep later the same day, re-running WebSearch across local outlets and the prior pass's two
+open leads. **Reddit was again unreachable** (r/RecklessBen blocked to non-browser clients;
+`old.reddit.com`/`*.json` not in the egress allowlist; `WebFetch` returned 403 across every host), so this
+ran on **WebSearch snippets + outlet listings only** — no full-text re-opening. Outcome:
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Harassment fallout spreads to uninvolved BAM franchises (~Jun 10–12).** The independently owned **Bricks & Minifigs in Sacramento (Pocket)** — no role in the Oregon dispute — got threats of harm incl. **death threats**, filed **multiple Sacramento PD reports**, and announced it would **close ~a week** (~Jun 12–13, reopen ~Jun 19); a **San Luis Obispo** location also reported harassing calls; BAM corporate says franchisees/employees were **doxxed and threatened nationwide**. | `timeline.md` (new Jun 10–12 row); `police-controversy.md` (backlash section + ledger); `news-articles.md` | **CONFIRMED** — multiple independent local outlets (**CBS Sacramento**, **FOX40**, **Sacramento Bee**/AOL). ⚠ exact closure start date varies (Jun 12 vs 13). |
+| 2 | **Supplier fallout — Minifigs.me / Custom Minifigs ends ties with BAM.** Resolves the prior pass's open **lead #3** ("supplier cuts ties — could not corroborate; re-check next pass"): owners **Nick & Caroline Savage** posted a public statement (**Facebook + Instagram**) ending the arrangement over the allegations; **UNILAD Tech's** timeline corroborates it secondhand. ⚠ A **factually.co** fact-check found the specific cut **undocumented/uncorroborated** in its own source set — *cite as skeptical, not support*; any broader supplier "exodus" is unestablished. | `timeline.md` (new ~Jun 10 row); `primary-sources.md` (social-posts table) | **Reported ⚠** — company's own social post is primary but **not independently re-opened** this run (egress); one secondary. |
+| 3 | **Coffeezilla's full ~54-minute investigation released (~Jun 9–10).** The archive previously stubbed his video; now the **findings** are recorded: he frames the dispute as record-keeping/compensation/legal rather than wholesale theft, estimating **~$10K–$20K** "unexplained" while Mansell **may be owed ~$50K–$83K** (his own estimates). | `timeline.md` (new ~Jun 9 row); `primary-sources.md` (Coffeezilla entry updated) | **Reported** — Coffeezilla's findings via his video + The Express Tribune (2612574). |
+| 4 | **Local Oregon TV coverage of the Jun 4 closure** (KOIN, KEZI, KOMO/KATU Sinclair) — better-sourced local angle than the aggregators; corroborates the already-recorded closure. | `news-articles.md` | Catalog enrichment (closure already CONFIRMED). |
+| 5 | **"New witness" / U-Haul claim** (Express Tribune 2612466 — salon owner next to the **Eugene** store says she saw a U-Haul + staff unloading on Nov 22, 2024). | **Still not promoted** | ⚠ **Single outlet**, self-flagged as **unverified social-media recollection**, and **PII-adjacent** (a private individual's personal account). ⚠ **Location mismatch:** the account places the store in **Eugene**, ~65 mi from the **Salem/Keizer** franchise at the center of the dispute (and the date is Nov 22, **2024** — do not conflate with the Nov 22, **2023** consignment). Unchanged from the prior pass — re-evaluate only if a court record, the named witness on the record, or a second independent outlet corroborates. |
+
+> **Verification.** Two-agent rule applied: an independent verifier subagent re-checked each promoted
+> claim above via its own WebSearch queries — confirming the Sacramento closure/threats across CBS
+> Sacramento + FOX40 + Sacramento Bee, the Minifigs.me supplier statement, and Coffeezilla's estimate
+> figures — and confirmed the U-Haul lead remained single-outlet with an Eugene-vs-Salem location
+> mismatch. The verifier flagged three corrections, all applied here: (a) the **factually.co**
+> fact-check **refutes/undocuments** the Minifigs.me cut and must be cited as skeptical, not support;
+> (b) the owners are **Nick & Caroline Savage**; (c) Sacramento PD on earlier calls **said no direct
+> threats were made**, so "death threats" is the store's own characterization (the *closure* and
+> *harassment reports* are the CONFIRMED core). ⚠ `WebFetch` egress was blocked, so neither agent could
+> re-open primary social posts or paywalled pages in full; the Minifigs.me item is labeled **Reported ⚠**
+> accordingly. Cross-check primary social/court sources from a networked client.
