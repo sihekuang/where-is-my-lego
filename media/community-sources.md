@@ -12,8 +12,10 @@ update*](#2026-06-10-update--news-watcher-pass-re-verified) near the end); **new
 2026-06-11** (see [*2026-06-11 update*](#2026-06-11-update--news-watcher-pass) near the end); **second
 2026-06-11 sweep, re-verified against re-opened sources** — franchise-spillover harassment
 (Sacramento/SLO/Ohio), Minifigs.me supplier exit, Coffeezilla's full investigation (see [*2026-06-11
-update — second sweep*](#2026-06-11-update--news-watcher-pass-second-sweep-re-verified) at the very
-end).
+update — second sweep*](#2026-06-11-update--news-watcher-pass-second-sweep-re-verified) near the
+end); **news watcher pass 2026-06-12** — the ~$1.3M suit-against-Mansell figure and BAM's Nov 14, 2024
+handover CCTV, both surfacing from Coffeezilla's Jun 10 video (see [*2026-06-12
+update*](#2026-06-12-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -365,3 +367,37 @@ corrected several source attributions. Outcome:
 > the bot's unverified "BAM's $95K–$100K" valuation (replaced with the Dispatch-reported **~$80K** BAM
 > claim), and surfaced Schneider's on-camera admission that the $200K figure was promotional (*"a nice
 > even number that will grab attention"*).
+
+---
+
+## 2026-06-12 update — news watcher pass
+
+A targeted pass for developments after the **Jun 11** cutoff. **Reddit was again unreachable this run**
+(r/RecklessBen blocked to non-browser clients; `reddit.com` / `old.reddit.com` not in the egress
+allowlist, and `WebFetch` returned **HTTP 403 across all hosts** — Wikipedia, Tribune, GoFundMe,
+Nerdbeak included), so this pass ran on **WebSearch snippets only**. Outcome:
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **BAM is suing Mansell for ~$1.3 million** (per Coffeezilla's Jun 10 video). Coffeezilla calls the suit against Mansell "ridiculous" and urges BAM's CEO/COO to drop it. | `timeline.md` (augments the Jun 10 Coffeezilla row); `lawsuit/README.md` (relief/damages); `primary-sources.md` (Coffeezilla entry); `news-articles.md` | **Reported** ⚠ — Coffeezilla's figure, single-origin to his video (UNILAD Tech + Dexerto, Jun 11, both summarize the video, not an independent docket figure); conflicts with KSL's earlier "over $300,000." Cross-check Utah XChange. |
+| 2 | **BAM's never-before-seen CCTV footage** of the **Nov 14, 2024** ownership handover, presented by **COO Matt McNeff** in the Coffeezilla interview, offered as evidence the Mansell sets were **not stolen by the incoming owners**; brightened footage shows a **U-Haul** outside the store, significance **disputed/inconclusive**. | Same rows as #1 | Footage-exists/shown **Reported** (single-origin to the video); "not stolen" inference **ALLEGATION** (BAM's contested contention); U-Haul **inconclusive** (CEO Ammon McNeff: unrelated camper/tow; Coffeezilla flags timeline gaps). ⚠ Salem-vs-Keizer location naming varies across outlets. |
+
+**Verification.** Two-agent rule applied: an independent verifier re-checked both claims from the bare
+citation URLs (UNILAD Tech ×2, Dexerto) and corroborated them via WebSearch snippets, with two wording
+corrections folded in — (a) the ~$1.3M is the figure for the **campaign that names Mansell among
+multiple defendants**, not a verified Mansell-only demand (softened accordingly); (b) BAM's "not
+stolen" framing is **ALLEGATION**, and the U-Haul point is **inconclusive** per the sources. Both items
+ultimately trace to **Coffeezilla's single Jun 10 video** (already cataloged), so they were folded into
+the existing Jun 10 row rather than booked as a separate event — and neither was labeled CONFIRMED.
+⚠ `WebFetch` egress was blocked this run, so full-text re-opening was not possible; corroboration rests
+on multiple WebSearch snippets. **Translations (`i18n/`) need a follow-up pass** (no API key in this
+environment).
+
+**Also checked, nothing new to promote:** the Jun 9 "bad news"/Part-3 gag, the Jun 9–10 GoFundMe
+outage→restoration (still ~$457K–$465K of a $500K goal), the Jun 9 American Fork City Council meeting,
+the Jun 4 store closure/"parting ways," the Jun 4–9 franchise-spillover harassment, and the Jun 22 PI /
+Jul 1 criminal hearing dates are all **already recorded**. The Express Tribune "**scores major win**"
+piece (story 2611572) is a **recap of the Jun 4 drop-suit/compensation offer**, not a new legal event —
+not promoted. The Eugene "U-Haul witness" lead (Express Tribune 2612466) remains **excluded** (single
+outlet, self-flagged, PII-adjacent) and is **distinct** from the Salem/Keizer Nov 14 handover CCTV
+above — do not conflate the two (different store, different date).
