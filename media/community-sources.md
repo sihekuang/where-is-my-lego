@@ -12,8 +12,10 @@ update*](#2026-06-10-update--news-watcher-pass-re-verified) near the end); **new
 2026-06-11** (see [*2026-06-11 update*](#2026-06-11-update--news-watcher-pass) near the end); **second
 2026-06-11 sweep, re-verified against re-opened sources** — franchise-spillover harassment
 (Sacramento/SLO/Ohio), Minifigs.me supplier exit, Coffeezilla's full investigation (see [*2026-06-11
-update — second sweep*](#2026-06-11-update--news-watcher-pass-second-sweep-re-verified) at the very
-end).
+update — second sweep*](#2026-06-11-update--news-watcher-pass-second-sweep-re-verified) near the
+end); **news watcher pass 2026-06-12, re-verified** — the ~$1.3M suit-against-Mansell figure and BAM's
+Nov 14, 2024 handover footage, both from Coffeezilla's Jun 10 video (see [*2026-06-12
+update*](#2026-06-12-update--news-watcher-pass-re-verified) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -365,3 +367,44 @@ corrected several source attributions. Outcome:
 > the bot's unverified "BAM's $95K–$100K" valuation (replaced with the Dispatch-reported **~$80K** BAM
 > claim), and surfaced Schneider's on-camera admission that the $200K figure was promotional (*"a nice
 > even number that will grab attention"*).
+
+---
+
+## 2026-06-12 update — news watcher pass (re-verified)
+
+A targeted pass for developments after the **Jun 11** cutoff, **re-verified against the primary video
+and re-opened sources** (this replaces automated bot PR #49, whose run had only WebSearch snippets — no
+full-text or video access). Two new facts, both surfacing in **Jun 11** coverage of Coffeezilla's
+**Jun 10** investigation video (already cataloged), were folded into the existing **Jun 10**
+Coffeezilla row rather than booked as a separate event:
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **BAM is suing Mansell for ~$1.3 million.** Per Coffeezilla, *"Brian Mansell is being sued for 1.3 million as part of a legal campaign against him and Reckless Ben and any of the associates"*; he calls the suit against Mansell *"ridiculous"* and urges BAM to drop it. | `timeline.md` (Jun 10 row); `lawsuit/README.md` (relief/damages); `primary-sources.md`; `news-articles.md` | **Reported** ⚠ — Coffeezilla's figure, **single-origin to his video** (UNILAD Tech + Nerdbeak summarize it; Dexerto omits the figure). Per Nerdbeak it attaches to the **existing** BAM-side suit, not a new filing; ⚠ does not cleanly reconcile with **KSL's earlier "over $300,000"** for that suit. Cross-check Utah XChange. |
+| 2 | **BAM's Nov 14, 2024 handover footage.** COO **Matt McNeff** cites in-store/ring-camera footage from the **Salem** ownership transfer (Gorman owners → Best/Johnson) to argue incoming owner Brandon Best came in a **rental car with no U-Haul**, BAM's basis for contending the sets were **not stolen by the new owners**. ⚠ **Coffeezilla disputes it** — brightened footage reveals a **U-Haul** that night — but reaches **no concrete conclusion** (possible camper/trailer explanation). | Same rows as #1 | Footage-shown/discussed **Reported** (single-origin); BAM's "not stolen" inference **ALLEGATION**; U-Haul significance **inconclusive**. ⚠ Salem-vs-Keizer naming varies across outlets — the handover store is **Salem**. |
+
+> **Verification.** Two-agent rule applied. **Agent A** re-opened UNILAD Tech ×2, Dexerto, and Nerdbeak,
+> found the **KSL** "over $300,000" figure (the May 27 BAM suit) to confirm the conflict is real, **and
+> pulled the full 54-minute video transcript** (`yt-dlp` captions) to anchor the quotes to the primary
+> source — the $1.3M line (*"being sued for 1.3 million as part of a legal campaign against him and
+> Reckless Ben and any of the associates"*), the *"I told the CEO and COO that's ridiculous and they
+> should drop this"* quote, and the Nov 14 U-Haul dispute (*"a U-Haul in the parking lot right outside
+> of the store the night of November 14th, 2024 … something that Matt said he had seen footage of and
+> it couldn't be true"*) all verify verbatim. Corrections vs. the bot draft, all applied: (a) the
+> ~$1.3M is the **existing suit's** figure (Nerdbeak + the transcript's *"part of a legal campaign"*),
+> not a new suit; (b) the bot's silent rewrite of `lawsuit/README` from *"not confirmable from
+> secondary sources"* to *"not confirmable from the filed complaint"* (implying someone read the
+> docket) was **reverted** — we have not seen the complaint; (c) the U-Haul/CCTV framing was corrected:
+> McNeff cited footage to claim **no** U-Haul, and it was **Coffeezilla** who brightened footage to
+> reveal one (undercutting McNeff), not BAM footage cleanly proving "not stolen"; (d) the bot put
+> **"ALLEGATION" in the timeline status cell**, which (per `classifyStatus`) would have flipped the
+> whole row's status pill from "Reported" to "Allegation" — moved to the event prose. **Nerdbeak** was
+> added as a corroborating outlet. **Agent B** (independent verifier — re-opened all four articles +
+> KSL from the bare URLs and pulled its *own* copy of the 54-min transcript) returned **SUPPORTED** on
+> both claims at "Reported," confirmed the KSL "over $300,000" tension is real and the $1.3M is the
+> *existing* suit's figure, and applied two precision fixes: (a) **Dexerto** supports only the
+> ~$20K-missing / valuation angle — it cites neither the $1.3M Mansell figure nor the U-Haul/CCTV (and
+> frames the suit as against Reckless Ben, not Mansell), so its citation was scoped accordingly; (b)
+> BAM's narrow *"incoming owners didn't carry the sets off"* inference (ALLEGATION) must not be
+> conflated with Coffeezilla's separate *"mostly mismanagement, ~$20k missing"* conclusion — the
+> wording keeps them distinct. B found **nothing fabricated**.

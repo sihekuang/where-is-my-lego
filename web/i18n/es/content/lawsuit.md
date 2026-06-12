@@ -35,15 +35,13 @@ Fuentes secundarias (Dexerto, Wikipedia) reportan **13 cargos**, enumerados a co
 12. **Alivio declaratorio** — solicita una declaración judicial sobre los derechos y obligaciones de las partes.
 13. **Alivio mediante mandato** — solicita órdenes que prohíban el supuesto acoso, allanamiento, suplantación de identidad, documentos falsos, doxxing, carteles y publicaciones relacionadas.
 
-## Alivio / daños solicitados
+## Compensación / daños solicitados
 
-- **Daños monetarios** (compensatorios; la exposición a daños punitivos/triplicados es típica de las demandas bajo Utah RICO y difamación per se). *No fue posible confirmar una cifra específica en dólares a partir de fuentes secundarias — obténgala de la demanda presentada.*
-- **Honorarios de abogados y costos.**
-- **Recuperación de ganancias** supuestamente vinculadas a los videos, la mercancía y la recaudación de fondos.
-- **Alivio mediante mandato** (la base del TRO del 28 de mayo).
-- **Alivio declaratorio** que establezca los derechos de las partes.
-
-## Planteamiento de los demandantes (su posición)
+- **Daños monetarios** (compensatorios; la exposición punitiva/triple es típica en demandas bajo RICO de Utah y de difamación per se). *Una cifra específica en dólares no ha sido confirmada de manera independiente a partir del expediente judicial.* ⚠ En su video de investigación del **10 de junio de 2026** (reportado el 11 de junio por UNILAD Tech, Dexerto y Nerdbeak), **Coffeezilla afirma que Mansell enfrenta una demanda por aproximadamente $1.3 millones** *"como parte de una campaña legal"* que también menciona a Schneider y a sus asociados — es decir, los daños que él atribuye a **esta misma demanda del lado de BAM**, no a una presentación nueva. Traten la cifra de **~$1.3M como Reported** (cifra de Coffeezilla — de fuente única en su video, no verificada de manera independiente contra el expediente judicial), y noten que **no concuerda claramente** con **el reporte anterior de KSL que indicaba que la demanda buscaba *"más de $300,000"***; verifiquen con la demanda presentada / Utah XChange.
+- **Honorarios de abogados y costas judiciales.**
+- **Restitución de ganancias** presuntamente vinculadas a los videos, la mercancía y la recaudación de fondos.
+- **Medidas cautelares** (la base de la orden de restricción temporal del 28 de mayo).
+- **Resolución declaratoria** que establezca los derechos de las partes.## Planteamiento de los demandantes (su posición)
 
 BAM caracterizó públicamente la conducta de los demandados como una **"campaña coordinada y viral de extorsión,"**
 afirmando que "no recompensará a personas que usen uniformes de entrega falsos, firmas falsificadas, encuentros policiales simulados y acoso residencial para fabricar una historia con fines de lucro." *(Alegación de los demandantes — no probada.)*
