@@ -41,8 +41,14 @@ against the filed complaint:
 ## Relief / damages sought
 
 - **Monetary damages** (compensatory; punitive/treble exposure is typical of Utah RICO and
-  defamation-per-se claims). *A specific dollar figure was not confirmable from secondary sources —
-  obtain it from the filed complaint.*
+  defamation-per-se claims). *A specific dollar figure has not been independently confirmed from the
+  court docket.* ⚠ In his **Jun 10, 2026** investigation video (reported Jun 11 by UNILAD Tech,
+  Dexerto, and Nerdbeak), **Coffeezilla states Mansell is being sued for ~$1.3 million** *"as part of
+  a legal campaign"* that also names Schneider and their associates — i.e. the damages he attaches to
+  **this same BAM-side suit**, not a new filing. Treat the **~$1.3M as Reported** (Coffeezilla's
+  figure — single-origin to his video, not independently verified against the docket), and note it
+  does **not cleanly reconcile** with **KSL's earlier report that the suit sought *"over $300,000"***;
+  cross-check the filed complaint / Utah XChange.
 - **Attorneys' fees and costs.**
 - **Disgorgement of profits** allegedly tied to the videos, merchandise, and fundraising.
 - **Injunctive relief** (the basis for the May 28 TRO).
