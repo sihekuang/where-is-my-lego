@@ -15,7 +15,10 @@ update*](#2026-06-10-update--news-watcher-pass-re-verified) near the end); **new
 update — second sweep*](#2026-06-11-update--news-watcher-pass-second-sweep-re-verified) near the
 end); **news watcher pass 2026-06-12, re-verified** — the ~$1.3M suit-against-Mansell figure and BAM's
 Nov 14, 2024 handover footage, both from Coffeezilla's Jun 10 video (see [*2026-06-12
-update*](#2026-06-12-update--news-watcher-pass-re-verified) at the very end).
+update*](#2026-06-12-update--news-watcher-pass-re-verified)); **news watcher pass 2026-06-13** — a
+third fundraiser (GiveSendGo legal-defense fund for Schneider) plus CBC/Franchise Times recap coverage;
+no new case event Jun 11–13 (see [*2026-06-13 update*](#2026-06-13-update--news-watcher-pass) at the
+very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -408,3 +411,38 @@ Coffeezilla row rather than booked as a separate event:
 > BAM's narrow *"incoming owners didn't carry the sets off"* inference (ALLEGATION) must not be
 > conflated with Coffeezilla's separate *"mostly mismanagement, ~$20k missing"* conclusion — the
 > wording keeps them distinct. B found **nothing fabricated**.
+
+---
+
+## 2026-06-13 update — news watcher pass
+
+A targeted pass for developments after the **Jun 12** cutoff. **Total bot-wall this run:** every relevant
+outlet (CBC, Wikipedia, GoFundMe, Geeks+Gamers, That Park Place, Nerdbeak, Franchise Times) returned
+**HTTP 403** to both `WebFetch` and `curl`; **`givesendgo.com` is off the egress allowlist**; and **Reddit
+was unreachable** (blocked to non-browser clients, no browser here). So — like the Jun 11 pass — this run
+ran on **WebSearch result snippets only**, with **no full-text or primary-page access**. Findings:
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **A third fundraiser surfaced — a GiveSendGo "Legal Defense Fund For Reckless Ben."** Reported started **~Jun 9–10, 2026** by **Sean Fitzgerald** (YouTuber "Actual Justice Warrior") to fund **Schneider's legal defense** — **separate** from the Mansell-family GoFundMe (which it post-dates and which briefly went offline Jun 9–10). | `primary-sources.md` (Fundraisers table) | **Reported** ⚠ — existence + organizer + distinctness independently corroborated, but **figures unverifiable** (page off-allowlist; only a vague "~10% of goal" snippet); secondary coverage is **partisan/entertainment** (Geeks+Gamers, That Park Place) + the organizer's own channel. Any "rival fund pressured GoFundMe to restore the Mansell page" reading is **speculation**. ⚠ Don't conflate with a **fourth**, distinct GiveSendGo ("Help me hire Ben Schneider…"). |
+| 2 | **CBC News** — "Breaking down the Bricks & Minifigs Lego scandal involving YouTube's 'Reckless Ben'" (**Jun 12, 2026**); mainstream Canadian broadcaster, also syndicated on Yahoo News Canada/UK. | `news-articles.md` | **Catalog enrichment** — notable mainstream/international outlet, but a **recap/explainer**: latest dated facts are the Jun 8 GoFundMe + the upcoming PI hearing; **no new post-Jun-10 development**. |
+| 3 | **Franchise Times** — "Viral Bricks & Minifigs Dispute Highlights Systemwide Effects of Franchise Litigation" (~Jun 12–13); franchise-industry **trade** outlet, franchisor-compliance angle. | `news-articles.md` | **Catalog enrichment** — industry-analysis **recap**; no new dated case event. |
+
+**Deliberately not promoted:**
+- **A "~$670,000" Mansell-GoFundMe figure** that appeared in the CBC search snippet (vs. the archive's
+  last anchored ~$465K on Jun 10). **Unverifiable** this run — GoFundMe 403'd, and a single fast-model
+  search-snippet number is too thin to enter the carefully-timestamped fundraiser ledger. Re-check and
+  anchor to a direct snapshot next pass.
+- **Anything dated Jun 11–13 as a case event** — none found. The latest *substantive* developments remain
+  the **Jun 9** Part-3 gag, the **Jun 9–10** GoFundMe outage→restoration, and the **Jun 10** Coffeezilla
+  investigation (all already recorded). The CBC/Franchise Times pieces are **Jun 12–13 publications about
+  older events**, not new events.
+
+> **Verification.** Two-agent rule applied. An **independent verifier subagent** was given only the
+> claims-as-written + citation URLs and re-ran its own searches: it returned **SUPPORTED** on the
+> GiveSendGo fund's existence/organizer/distinctness (**confidence high**) while **refuting any confirmable
+> dollar figure** (page unreachable — "drop/soft-label any amount"), and confirmed CBC (Jun 12) and
+> Franchise Times as **real but recap-only**. Its independent Jun 11–13 sweep found **no** ruling,
+> settlement, Mansell dismissal, or new filing. ⚠ As in the Jun 11 pass, **full-text re-opening of sources
+> was blocked**, so corroboration rests on multiple WebSearch snippets, not primary-page reads — every
+> item above is labeled accordingly and **nothing was raised to CONFIRMED**.
