@@ -18,7 +18,10 @@ Nov 14, 2024 handover footage, both from Coffeezilla's Jun 10 video (see [*2026-
 update*](#2026-06-12-update--news-watcher-pass-re-verified)); **news watcher pass 2026-06-13** — a
 third fundraiser (GiveSendGo legal-defense fund for Schneider) plus CBC/Franchise Times recap coverage;
 no new case event Jun 11–13 (see [*2026-06-13 update*](#2026-06-13-update--news-watcher-pass) at the
-very end).
+very end); **news watcher pass 2026-06-17** — one new mainstream item (KSL, ~Jun 16: Schneider now
+**representing himself (pro se)** in the criminal case; the civil injunction hearing now reported for
+**June 30**), no new dated case event Jun 13–17 (see [*2026-06-17
+update*](#2026-06-17-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -446,3 +449,46 @@ ran on **WebSearch result snippets only**, with **no full-text or primary-page a
 > settlement, Mansell dismissal, or new filing. ⚠ As in the Jun 11 pass, **full-text re-opening of sources
 > was blocked**, so corroboration rests on multiple WebSearch snippets, not primary-page reads — every
 > item above is labeled accordingly and **nothing was raised to CONFIRMED**.
+
+---
+
+## 2026-06-17 update — news watcher pass
+
+A targeted pass for developments after the **Jun 13** cutoff. **Access was again heavily restricted:**
+Reddit (and `old.reddit.com`), `web.archive.org`, `givesendgo.com`, and **`ksl.com` are off the egress
+allowlist**, and `WebFetch` returned **HTTP 403** on every other primary host tried (Wikipedia, Deseret,
+Nerdbeak, YouTube). So — like the Jun 11 and Jun 13 passes — this run ran on **WebSearch result snippets
+only**, with **no full-text or primary-page reads**. Findings:
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Schneider is now representing himself (pro se) in the Utah criminal case.** Surfaced via a new KSL article (~Jun 16, art. 51509919, *"Are Utah laws at fault?…"*), which reports *"At his last hearing, Schneider was granted permission to represent himself,"* and is echoed by community commentary videos (YouTube `8FDsyLhe5l4` *"Reckless Ben Represents Himself in Utah Criminal Court with NO Lawyer"*, `HRJ8OjQlxbs` *"Reckless Ben is representing himself"*) and a Nerdbeak recap. ⚠ The **date** the grant was made is unconfirmed (the videos date to ~Jun 11–12; the hearing itself is undated in available snippets). | `timeline.md` (appended to the Jun 8 criminal-hearing row); `news-articles.md` (KSL + Nerdbeak rows) | **Reported ⚠** — single mainstream outlet (KSL) for the procedural fact + community videos + Nerdbeak; full text not accessible; not raised to CONFIRMED. |
+| 2 | **Civil preliminary-injunction hearing now reported for June 30** by the same newer KSL article **and** Nerdbeak (which quotes a BAM spokesperson — *"There will be a preliminary injunction hearing on June 30"*), corroborating Dexerto's earlier June 30 and shifting weight away from the older KSL "June 22." The criminal hearing stays **July 1**. ⚠ The June 22 vs June 30 split may reflect a separate evidentiary setting vs. the PI hearing — unresolved from snippets. | `timeline.md` (appended to the Jun 22 PI row + the Jun 8 row) | **Reported** — three outlets now report June 30 (Dexerto, KSL ~Jun 16, Nerdbeak); cross-check Utah XChange. |
+| 3 | **KSL defense-attorney commentary** — Utah attorney **Steve Burton** opines the case raises constitutional questions and that **vague Utah statutes** may complicate Schneider's defense. | `news-articles.md` (KSL row) | **Commentary, catalog-only** — legal opinion, not a case event; not promoted to the timeline. |
+
+**Deliberately not promoted:**
+- **A "~$670,000" Mansell-GoFundMe figure** (carried over from the Jun 13 pass). **Refuted this run:** the
+  independent verifier found the reported total clusters at **~$445K–$457K** against a $500K goal — **no
+  source reports ~$670,000**. The figure is **unsourced**; one possibility is that it conflates the
+  GoFundMe with the separate **GiveSendGo** legal-defense fund, but no source states a combined total.
+  Dropped, not recorded.
+- **Recap/explainer pieces** restating already-recorded events (Nerdbeak *"RICO Suit and a Closed Store"*;
+  inkl, Geeks+Gamers, drezzed/ClownfishTV, games.gg, thewatchdogonline, Yahoo *"We Steal From Old People"*).
+  The one Nerdbeak recap that **carries a new fact** (pro se + the June 30 date) is cataloged in
+  `news-articles.md`; the rest add no new dated facts.
+- **No new dated case event Jun 13–17** — no ruling, settlement, Mansell dismissal, new arrest, or new
+  filing. The June 30 civil / July 1 criminal hearings are both still **upcoming**.
+
+> **Verification.** Two-agent rule applied. An **independent verifier subagent** was given only the
+> claims-as-written + citation URLs (not these notes) and re-ran its own searches: it returned
+> **SUPPORTED** on the KSL article's existence/headline (high), the pro-se report (med-high, corroborated
+> by Nerdbeak + the community videos), and the July 1-criminal / June 30-civil split (med-high, with
+> Nerdbeak independently confirming June 30 via a BAM spokesperson and Judge **Tony F. Graf Jr.** as the
+> TRO judge); **PARTIALLY SUPPORTED** on the YouTube videos (IDs/titles real, **upload dates unverified**);
+> and **REFUTED / not corroborated** on the ~$670K GoFundMe figure (reported total ~$445K–$457K). Its
+> independent Jun 13–17 sweep found **no** new ruling, settlement, Mansell dismissal, filing, or arrest.
+> ⚠ Both agents were **blocked from full-text/primary-page reads** (all primary hosts 403'd or were
+> off-allowlist), so corroboration rests on WebSearch snippets — **nothing was raised to CONFIRMED**, and
+> the pro-se item should be re-opened against the **KSL article body** and the **criminal docket** before
+> any upgrade. **Translations were not refreshed this run** (no API key in this environment) — the i18n
+> pass is a follow-up.
