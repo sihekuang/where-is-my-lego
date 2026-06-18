@@ -97,6 +97,7 @@ environment had no network egress). Author bylines marked "—" were not confirm
 | KOIN (Portland) | Keizer store closes after Lego dispute (local OR coverage of the Jun 4 closure) | ~2026-06-05 | https://www.koin.com/local/marion-county/bricks-and-minifigs-closes-keizer-store-amid-star-wars-lego-collection-dispute/ |
 | KEZI (Eugene) | Keizer Bricks & Minifigs shut down after viral LEGO collection controversy (local OR coverage) | ~2026-06-05 | https://www.kezi.com/news/local/keizer-bricks-minifigs-shut-down-after-viral-lego-collection-controversy/article_1aa51be8-4eef-465c-ad57-5c34fad72d4d.html |
 | KOMO/KATU (Sinclair) | How a $200,000 LEGO collection sparked a national internet frenzy (Oregon-local overview; runs on multiple Sinclair affiliates) | ~2026-06-04 | https://komonews.com/news/local/keizer-lego-collection-dispute-sparks-multiple-lawsuits-national-attention-keizer-oregon-viral-dispute-reckless-ben-youtube-consignment-local-lawsuit-legal |
+| Dexerto | Reckless Ben's Bricks & Minifigs investigation Part 3 could be back on the table after new court filing (the **Jun 16, 2026 Law-Gorman motion** to intervene + modify/dissolve the May 28 TRO; **⚠ single original report** — other coverage echoes its wording; full text not accessible this pass) | ~2026-06-17 | https://www.dexerto.com/youtube/reckless-bens-bricks-minifigs-investigation-part-3-could-be-back-on-the-table-after-new-court-filing-3376819/ |
 
 ## Forum / community discussion
 

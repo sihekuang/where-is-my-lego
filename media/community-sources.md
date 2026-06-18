@@ -446,3 +446,41 @@ ran on **WebSearch result snippets only**, with **no full-text or primary-page a
 > settlement, Mansell dismissal, or new filing. ⚠ As in the Jun 11 pass, **full-text re-opening of sources
 > was blocked**, so corroboration rests on multiple WebSearch snippets, not primary-page reads — every
 > item above is labeled accordingly and **nothing was raised to CONFIRMED**.
+
+---
+
+## 2026-06-18 update — news watcher pass
+
+A targeted pass for developments after the **Jun 13** cutoff (and after open watcher PR #53, the Jun 17
+run, which recorded Schneider going **pro se** in the criminal case and the **Jun 30** civil PI-hearing
+date). One genuinely new, dated case event surfaced; it is added to the archive, labeled **Reported ⚠**.
+**Reddit was unreachable** (blocked to non-browser clients; no browser here), and **`WebFetch` returned
+HTTP 403 on every primary host** (Dexerto, Nerdbeak, `bamsucks.com`, YouTube), so — like the Jun 11/13
+passes — corroboration rests on **WebSearch result snippets**, not full-text/primary-page reads.
+**Nothing was raised to CONFIRMED.**
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Former Salem franchisees move to limit the TRO (Jun 16, 2026).** The **"Law-Gorman parties"** — **Chrystal Law(-Gorman)**, **Benjamin Gorman**, and **BAMF Salem 1, LLC** — reportedly filed in the Utah civil case (No. 260402353) to **intervene** and to **modify or dissolve the May 28 TRO**, arguing it is overbroad, restrains protected speech about their separate Salem-franchise dispute, and reaches them via a clause covering publications that *"in any way relate to the private legal dispute … between Bryan and Chrystal."* They ask the court to strike/narrow the takedown clause, clarify the order does not bind them, and decline a PI of the same scope. The court had not ruled. | `timeline.md` (Jun 16 row); `lawsuit/README.md` (Interim-order field); `news-articles.md` (Dexerto) | **Reported ⚠** — **single original outlet (Dexerto)**; Nerdbeak etc. echo near-identical wording (derivative, not independent docket review); the motion itself was not accessible this pass. Cross-check Utah XChange; confirm whether the intervention and the dissolution are one motion or two. |
+
+**Deliberately not promoted:**
+- **A floating "~$673K" Mansell-GoFundMe figure** reappearing in a Yahoo-derived search snippet. As in the
+  Jun 13/17 passes this is **unverifiable** (GoFundMe off-allowlist; the archive's last anchored figure is
+  ~$465K on Jun 10, and PR #53's verifier found the reported total clustering at ~$445K–$457K with no source
+  confirming ~$670K). Possible conflation with the separate **GiveSendGo** legal-defense fund. Not recorded.
+- **Already covered by open PR #53** (not duplicated here): Schneider representing himself **pro se** in the
+  criminal case, and the civil PI hearing now reported for **June 30** (vs. the older KSL "Jun 22"). Those
+  belong to that pass; this PR only adds the Jun 16 TRO-modification motion.
+- **Recap/explainer pieces** (CBC, Franchise Times, games.gg, thatparkplace, thewatchdogonline, etc.) with
+  no new dated facts.
+
+> **Verification.** Two-agent rule applied: an independent verifier subagent was given **only the
+> claim-as-written + the Dexerto URL** and re-ran its own searches. It returned **SUPPORTED** on the
+> Jun 16 filing date, the filing parties (Law / Gorman / BAMF Salem 1), the intervene + modify/dissolve
+> nature, the "not defendants / separate Salem litigation" framing, the three specific requests, and
+> "court has not ruled" — but found the development **effectively single-sourced to Dexerto** (other
+> outlets echo near-identical wording), **PARTIALLY SUPPORTED** the full trailing TRO quotation ("…between
+> Bryan and Chrystal" appeared in only one snippet), and flagged that the claim may compress **one vs. two
+> motions**. It could **not** reach the actual motion or the court docket (all hosts 403). The Dexerto
+> article's publication date estimates to **~Jun 17–18, 2026**. Per the verifier, this stays **Reported ⚠**,
+> not CONFIRMED, until the June 16 filing or the Utah Fourth District docket can be obtained.
