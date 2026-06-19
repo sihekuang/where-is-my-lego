@@ -17,8 +17,10 @@ end); **news watcher pass 2026-06-12, re-verified** — the ~$1.3M suit-against-
 Nov 14, 2024 handover footage, both from Coffeezilla's Jun 10 video (see [*2026-06-12
 update*](#2026-06-12-update--news-watcher-pass-re-verified)); **news watcher pass 2026-06-13** — a
 third fundraiser (GiveSendGo legal-defense fund for Schneider) plus CBC/Franchise Times recap coverage;
-no new case event Jun 11–13 (see [*2026-06-13 update*](#2026-06-13-update--news-watcher-pass) at the
-very end).
+no new case event Jun 11–13 (see [*2026-06-13 update*](#2026-06-13-update--news-watcher-pass)); **news
+watcher pass 2026-06-18** — the Jun 16 Law-Gorman TRO-modification motion; **news watcher pass
+2026-06-19** — voice actress Tara Strong's public plea to BAM (a notable public reaction; no new case
+event, see [*2026-06-19 update*](#2026-06-19-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -484,3 +486,43 @@ passes — corroboration rests on **WebSearch result snippets**, not full-text/p
 > motions**. It could **not** reach the actual motion or the court docket (all hosts 403). The Dexerto
 > article's publication date estimates to **~Jun 17–18, 2026**. Per the verifier, this stays **Reported ⚠**,
 > not CONFIRMED, until the June 16 filing or the Utah Fourth District docket can be obtained.
+
+---
+
+## 2026-06-19 update — news watcher pass
+
+A targeted pass for developments after the **Jun 18** cutoff (today is Jun 19). **No new *case* event**
+(no ruling on the pending Jun 16 Law-Gorman TRO motion, no settlement, no Mansell dismissal, no new
+filing or arrest; the civil PI hearing remains reported for **Jun 30**, the criminal appearance for
+**Jul 1**). One genuinely new, multi-sourced **public-reaction** development surfaced and is cataloged
+(media only — not the litigation timeline). As in the Jun 11/13/17/18 passes, **Reddit was unreachable**
+(blocked to non-browser clients; no browser here) and **`WebFetch` returned HTTP 403 on every primary
+host** (Dexerto, UNILAD Tech, Central Oregon Daily, AOL, Tribune), so corroboration rests on **WebSearch
+result snippets across multiple independent outlets**, not full-text/primary-page reads.
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Voice actress Tara Strong publicly backs the Mansell family (~Jun 17–18, 2026).** Prolific voice actress **Tara Strong** (Powerpuff Girls' Bubbles, Teen Titans' Raven, Harley Quinn, My Little Pony's Twilight Sparkle, Loki's Miss Minutes; with Star Wars voice credits — additional voices in *The Rise of Skywalker*, Risha/Holiday in *The Old Republic*) posted a ~90-second video using ~10 of her iconic character voices while holding the matching LEGO minifigures, urging BAM to *"do the right thing"* / *"give back the LEGOs,"* calling the company "bullies" and Schneider a hero/"Batman," and saying *"Let them keep the GoFundMe, and also drop your lawsuit against Ben."* Reported ~380K+ views / ~73K likes. | `primary-sources.md` (Notable social/community posts); `news-articles.md` (Dexerto, UNILAD Tech, Central Oregon Daily/AOL) | **Public reaction — cataloged, not a litigation event.** The *fact she posted it* and its content are corroborated by **multiple independent outlets** (Dexerto + UNILAD Tech + an AP-wire write-up on Central Oregon Daily/AOL) **plus her own public video**; but it is a **one-sided advocacy plea** by a public figure, **not** a finding on the merits (BAM denies theft) — framed neutrally and kept **out of the timeline**. ⚠ Platform: outlets describe a **TikTok** post cross-posted to her Facebook page; exact post date inferred (~Jun 17). |
+
+**Deliberately not promoted:**
+- **The Jun 16 Law-Gorman TRO motion recap coverage** (Express Tribune story 2613906, UNILAD Tech Jun 18,
+  Geeks+Gamers) — **already recorded** (PR #54, Jun 16 timeline row). These Jun 17–18 pieces restate the
+  pending motion; no court ruling has been reported.
+- **A floating "~$673K" Mansell-GoFundMe figure** still appearing in Yahoo-derived snippets — **unverifiable**
+  (GoFundMe off-allowlist; last anchored figure ~$465K on Jun 10; reported totals cluster ~$445K–$457K).
+  A Jun-2026 snippet put the fund at **$457,730 of $500K** — within the already-noted range, not a new event.
+  Possible conflation with the separate GiveSendGo legal-defense fund. Not recorded.
+- **Techdirt "And Now Basically Everyone In This LEGO Dispute Looks Sketchy" (Jun 12)** and other
+  recap/explainer pieces — no new dated case fact.
+
+> **Verification.** Two-agent rule applied: an independent verifier subagent was given **only the
+> claim-as-written + the citation URLs** (not these notes) and re-ran its own searches. It returned
+> **SUPPORTED** that Tara Strong posted the video (~Jun 17–18) and on its substance — the "do the right
+> thing" / "give back the LEGOs" plea, the "drop your lawsuit against Ben" / "let them keep the GoFundMe"
+> line, the character-voices-with-minifigures format, and her identity/credits — corroborated across
+> **Dexerto, UNILAD Tech, and the AP-wire (Central Oregon Daily/AOL)** plus her own public video. It
+> flagged (and the entry reflects) that **the posting platform varies across outlets** (Facebook vs.
+> TikTok) and that this is **advocacy, not a case development** — so it is cataloged as a public reaction,
+> not entered in the timeline, and **nothing was raised to a litigation CONFIRMED**. Full-text re-opening
+> of every source was blocked (403/off-allowlist), so corroboration rests on multiple WebSearch snippets
+> across independent outlets, not primary-page reads.
