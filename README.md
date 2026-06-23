@@ -110,7 +110,11 @@ the conduct as harassment; Schneider says he was there to serve civil papers. He
 disorderly conduct, and criminal trespass; then, after a judge approved a search warrant for his Airbnb
 (the affidavit cited an overheard remark about "possible stolen Lego"), a second time, and was booked
 into the Utah County Jail. **The warrant return reported "no items seized."** *(The two arrests are
-**CONFIRMED**; the exact dates are ⚠ disputed across outlets.)*
+**CONFIRMED**; the exact dates are ⚠ disputed across outlets.)* Mid-June reporting (KSL) later clarified
+the charges actually **split across two separate criminal cases** — the **American Fork** case (stalking
++ targeted residential picketing, charged ~Mar 27) and a **separate Provo Justice Court** case
+(disorderly conduct + trespass, charged ~Apr 7) tied to a **Dec 10, 2025** visit to BAM's corporate
+office — a split the early coverage had blurred (*Reported*; see the timeline).
 
 **It goes viral (May 21, 2026).** The local contract fight became a national story when Schneider posted
 *"I tracked down the thief who stole $200,000 of LEGO"* — reported at about **3.1 million views in two

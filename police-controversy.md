@@ -10,11 +10,12 @@ capacity** — no personal information about any officer is included.
 | Date (2026) | Event | Status |
 |---|---|---|
 | Mar 8–11 | Joshua Johnson reportedly contacts AFPD ~4 times reporting conduct he described as escalating harassment. | Reported by police |
-| **Mar 10** (date disputed) | **First arrest** — Schneider charged with **stalking, targeted residential picketing, disorderly conduct, criminal trespass**. ⚠ Wikipedia/Dexerto say Mar 10; American Fork Citizen places both arrests on Mar 11; KSL/East Idaho News say "charged March 27." | CONFIRMED (arrest); date disputed |
+| **Mar 10** (date disputed) | **First arrest** — Schneider charged with **stalking, targeted residential picketing, disorderly conduct, criminal trespass**. ⚠ Wikipedia/Dexerto say Mar 10; American Fork Citizen places both arrests on Mar 11; KSL/East Idaho News say "charged March 27." ⚠ Per KSL these charges split across **two cases** — the **American Fork** 4th-District case is **stalking** (class A) + **targeted residential picketing** (class B); the **disorderly conduct** + **trespass** counts are a **separate Provo case** (see below). | CONFIRMED (arrest); date disputed |
 | **Mar 11** | Second probable-cause affidavit seeks an additional stalking charge (alleging continued activity near the residence via supporters while promoting the GoFundMe). | Reported (affidavit) |
 | **Mar 11** | **Search warrant** approved by a judge for the **Airbnb** Schneider was staying in; affidavit cited the Airbnb owner overhearing talk of "possible stolen Lego toys"; warrant sought "any stolen merchandise, specifically Lego merchandise." | CONFIRMED |
 | **Evening Mar 11** | **Second arrest** at the Airbnb; **booked into Utah County Jail**. ~4 associates detained; all but Schneider released — among them **Sheldon Norcross**, on a FaceTime call with Schneider when officers arrived, whose **phone AFPD seized** (police account). ⚠ Norcross single-sourced (American Fork Citizen). | CONFIRMED (arrests); Norcross detail Reported |
 | Warrant return | Return reportedly states **"Benjamin Schneider was arrested. No items seized."** — no LEGO or other items recovered. | CONFIRMED |
+| **Apr 7** | **Separate Provo Justice Court case filed** — Schneider charged with **disorderly conduct** (class C misdemeanor) + **trespassing** (class B misdemeanor) over a **Dec 10, 2025** visit to BAM's **corporate office in Provo** (distinct from the American Fork residential matter). ⚠ Community-circulated docket no. **261000376** — cross-check Utah XChange. | Reported (KSL); ⚠ case no. via community mirror |
 | After Mar 11 | Schneider reportedly left the U.S. for **Mexico**, continuing to fundraise. | Reported (not agency-confirmed) |
 | **May 29** | AFPD releases body-cam footage + news release; **Chief Cameron Paul** posts a ~26-minute video statement. | CONFIRMED |
 | ~May 30–Jun 2 | Story goes viral; nationwide call-in backlash; unrelated agencies issue disclaimers. | CONFIRMED |
@@ -102,9 +103,38 @@ Kitchen** phoned a driver to apologize after dash-cam footage contradicted the s
 stop. This is a **different incident** from the Schneider arrests but is frequently cited alongside
 them because it fed the broader "AFPD under the spotlight" narrative.
 
+## Two criminal cases, not one (don't conflate)
+
+Reporting that surfaced mid-June 2026 (KSL / KSL NewsRadio) makes clear Schneider faces **two
+separate misdemeanor criminal matters in two Utah courts** — a distinction the early coverage often
+blurred by listing all four charges together:
+
+- **American Fork case (Utah Fourth District Court).** **Stalking** (class A misdemeanor) and
+  **targeted residential picketing** (class B misdemeanor), **charged ~Mar 27, 2026**, arising from
+  Schneider's March visits to franchisee **Joshua Johnson's** home in American Fork (the matter that
+  produced the **two March arrests** and the Airbnb search warrant above).
+- **Provo case (Provo Justice Court).** **Disorderly conduct** (class C misdemeanor) and
+  **trespassing** (class B misdemeanor), **charged ~Apr 7, 2026**, based on a **Dec 10, 2025** visit
+  to **Bricks & Minifigs' corporate office in Provo**. **BAM alleges** Schneider and an associate
+  entered and filmed without permission with concealed devices, refused to leave, and demanded
+  $200,000 (an **ALLEGATION**, drawn from BAM's civil complaint); Schneider's side frames the broader
+  effort as investigating the missing-collection dispute. The conduct details trace to BAM's
+  complaint via a **partisan community mirror** and are unproven; KSL independently reports the
+  charges, the Apr 7 charge date, and the Dec 10, 2025 corporate-office basis.
+
+> **Sourcing & caveats.** The charges/dates/courts are reported by **KSL** (a single mainstream
+> outlet network — KSL.com + KSL NewsRadio syndication), so this is labeled **Reported**, not
+> CONFIRMED. ⚠ A community-circulated docket gives the Provo case number **261000376**, but that
+> number appears only on a **partisan mirror (bamsucks.com)** and a YouTube title — **cross-check the
+> case against Utah XChange** before treating the number as authoritative. Mid-June KSL coverage also
+> reported Schneider had been **granted permission to represent himself (pro se)** in the criminal
+> matter (cf. the separate watcher pass tracking that detail).
+
 ## Confirmed vs. allegation — quick ledger
 
-- **CONFIRMED:** two arrests (Mar 10 & 11); the four misdemeanor charges; the judge-approved Airbnb
+- **CONFIRMED:** two arrests (Mar 10 & 11); the four misdemeanor charges (⚠ which **split across two
+  separate cases** — American Fork stalking/picketing and a Provo disorderly-conduct/trespass case;
+  see "Two criminal cases, not one" above — that split is *Reported* per KSL); the judge-approved Airbnb
   search warrant; the warrant return ("no items seized"); booking into Utah County Jail; the May 29
   AFPD release and Chief Paul's video; Salem (Utah) PD's disclaimer; the Central Utah 911 figures; the
   separate Kitchen traffic-stop apology; the **Jun 9 American Fork City Council meeting** (public

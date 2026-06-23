@@ -20,7 +20,10 @@ third fundraiser (GiveSendGo legal-defense fund for Schneider) plus CBC/Franchis
 no new case event Jun 11–13 (see [*2026-06-13 update*](#2026-06-13-update--news-watcher-pass)); **news
 watcher pass 2026-06-18** — the Jun 16 Law-Gorman TRO-modification motion; **news watcher pass
 2026-06-19** — voice actress Tara Strong's public plea to BAM (a notable public reaction; no new case
-event, see [*2026-06-19 update*](#2026-06-19-update--news-watcher-pass) at the very end).
+event, see [*2026-06-19 update*](#2026-06-19-update--news-watcher-pass)); **news watcher pass
+2026-06-23** — surfaced a *second*, archive-missing criminal case (Provo Justice Court: disorderly
+conduct + trespass over a Dec 10, 2025 BAM corporate-office visit); no new adjudicated event in the
+window (see [*2026-06-23 update*](#2026-06-23-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -526,3 +529,51 @@ result snippets across multiple independent outlets**, not full-text/primary-pag
 > not entered in the timeline, and **nothing was raised to a litigation CONFIRMED**. Full-text re-opening
 > of every source was blocked (403/off-allowlist), so corroboration rests on multiple WebSearch snippets
 > across independent outlets, not primary-page reads.
+
+---
+
+## 2026-06-23 update — news watcher pass
+
+A targeted pass for developments after the **Jun 19** cutoff (today is Jun 23). **No new *adjudicated*
+case event** in the Jun 19–23 window: the civil **preliminary-injunction hearing is reported for
+Jun 30** (it has **not** occurred; ⚠ the older KSL "Jun 22" is best read as article timestamps, not a
+competing hearing date — the date is consistently Jun 30), the **Jun 16 Law-Gorman motion** to
+modify/dissolve the TRO is **still pending** (no ruling), and there is no settlement, Mansell dismissal,
+new filing, or new arrest. As in recent passes, **Reddit was unreachable** (off the egress allowlist; no
+browser here) and **`WebFetch` returned HTTP 403 on every primary host** (KSL, KSL NewsRadio, Wikipedia,
+bamsucks.com, Tribune, CBC, YouTube), so corroboration rests on **WebSearch result snippets** across
+outlets, not full-text/primary-page reads.
+
+One genuinely **archive-missing fact** surfaced and is added (the events are older, but the archive had
+never recorded them — they were under-captured by earlier passes that bundled all four charges into the
+single American Fork arrest):
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Schneider faces a *second*, separate criminal case in Provo Justice Court** — **disorderly conduct** (class C misdemeanor) + **trespassing** (class B misdemeanor), **charged ~Apr 7, 2026**, based on a **Dec 10, 2025** visit to **Bricks & Minifigs' corporate office in Provo** — **distinct** from the American Fork stalking/targeted-residential-picketing case. This means the four charges the archive had lumped under the "first arrest" actually **split across two Utah courts**. | `timeline.md` (new ~Dec 10, 2025 + Apr 7, 2026 rows; clarifying note on the Mar 10 row); `police-controversy.md` ("Two criminal cases, not one" section + table row + ledger); `news-articles.md` (KSL NewsRadio) | **Reported** — charges/date/court per **KSL** (single mainstream outlet network: KSL.com + KSL NewsRadio). ⚠ The Provo **case number 261000376** appears only on a **partisan mirror (bamsucks.com)** + a YouTube title — **cross-check Utah XChange**. BAM's account of the Dec 10 conduct (concealed-device filming, refusing to leave, demanding $200K) is an **ALLEGATION** drawn from its complaint via a partisan mirror. |
+
+**Deliberately not promoted / re-confirmed already-recorded:**
+- **"Pro se" criminal status + the Jun 30 PI date** — these are the subject of **open watcher PR #53**
+  (`auto/news-20260617T000000Z`), built on the *same* KSL article; this pass does **not** re-add the
+  `ksl.com/article/51509919` catalog row or duplicate those facts. (This PR cites the KSL NewsRadio
+  syndication for the distinct two-cases detail PR #53 did not capture.)
+- **Leaked "Provo pretrial conference" audio** circulating on YouTube (`mVgkAfPrCJs`, `Qba0uVefgXM`,
+  `iz1cf8JdTeI`) and partisan docket scans (bamsucks.com, salembricktrials.com) — **excluded** as
+  unverifiable provenance + PII-bearing leaked court audio, consistent with the archive's exclusion of
+  the unredacted body-cam tranche. Cited only as community leads for the case's *existence*, not adopted.
+- **The Jun 16 Law-Gorman TRO-modification motion** — already recorded (Jun 16 timeline row, PR #54); no
+  court ruling reported.
+- **A floating "~$673K" Mansell-GoFundMe figure** — still unverifiable (GoFundMe off-allowlist; last
+  anchored ~$465K on Jun 10).
+
+> **Verification.** Two-agent rule applied: an independent verifier subagent was given **only the
+> claims-as-written + citation URLs** (not these notes) and re-ran its own searches. It returned
+> **SUPPORTED** on the Provo case existence, its charges (disorderly C + trespass B), the **Apr 7** charge
+> date, and the **Dec 10, 2025 BAM-corporate-office** basis (all anchored to **KSL**), and **SUPPORTED**
+> the parallel American Fork charges (stalking class A + targeted residential picketing class B, ~Mar 27)
+> and the **Jun 30** PI-hearing date (CBC, Nerdbeak, Dexerto). It flagged — and the entries reflect — that
+> (a) the **case number 261000376** is mainstream-unconfirmed (partisan mirror / YouTube only), (b) the
+> granular Dec 10 conduct details are BAM-allegation, not mainstream-sourced, and (c) "**June 22**" is an
+> article-timestamp artifact, **not** a competing hearing date. Its independent Jun 19–23 sweep found
+> **no** ruling, settlement, Mansell dismissal, new filing, or arrest. Both agents were blocked from
+> full-text reads (403/off-allowlist), so nothing was raised to CONFIRMED.
