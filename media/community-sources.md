@@ -23,7 +23,11 @@ watcher pass 2026-06-18** — the Jun 16 Law-Gorman TRO-modification motion; **n
 event, see [*2026-06-19 update*](#2026-06-19-update--news-watcher-pass)); **news watcher pass
 2026-06-23** — surfaced a *second*, archive-missing criminal case (Provo Justice Court: disorderly
 conduct + trespass over a Dec 10, 2025 BAM corporate-office visit); no new adjudicated event in the
-window (see [*2026-06-23 update*](#2026-06-23-update--news-watcher-pass) at the very end).
+window (see [*2026-06-23 update*](#2026-06-23-update--news-watcher-pass)); **news watcher pass
+2026-06-25** — a reported **Jun 24 joint move by the parties** to convert the May 28 TRO into a
+**stipulated preliminary injunction** (loosening the speech bar) and **vacate the Jun 30 hearing** for
+mediation; no court ruling and no "Part 3" release (see [*2026-06-25
+update*](#2026-06-25-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -577,3 +581,47 @@ single American Fork arrest):
 > article-timestamp artifact, **not** a competing hearing date. Its independent Jun 19–23 sweep found
 > **no** ruling, settlement, Mansell dismissal, new filing, or arrest. Both agents were blocked from
 > full-text reads (403/off-allowlist), so nothing was raised to CONFIRMED.
+
+---
+
+## 2026-06-25 update — news watcher pass
+
+A targeted pass for developments after the **Jun 23** cutoff (today is Jun 25). One genuinely new,
+dated **civil** development surfaced and is added, labeled **Reported ⚠**. As in recent passes,
+**Reddit was unreachable** (off the egress allowlist; no browser here) and **`WebFetch`/`curl` returned
+HTTP 403 on every primary host** (Dexerto, tribune.com.pk, Wikipedia, KSL, YouTube, Geeks+Gamers, the
+threads.com Dexerto post), so corroboration rests on **WebSearch result snippets** across queries, not
+full-text/primary-page reads. **Nothing was raised to CONFIRMED.**
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **The parties jointly move to soften the TRO and vacate the Jun 30 hearing (reported Jun 24, 2026).** Per Dexerto (story 3376819, which appears **updated** from its earlier Jun 16 Law-Gorman framing) and a *new* Express Tribune story (2615026), **BAM Franchising and the defendants** reportedly filed a **joint** request in the Utah civil case (No. 260402353) to **modify the May 28 TRO into a stipulated preliminary injunction** and **vacate the scheduled Jun 30 PI hearing** to pursue **mediation/settlement**. The proposed order would keep bars on **threats, doxxing, trespass, impersonation, and interference**, but **expressly permit discussion of the lawsuit, publication of court filings, and journalism/commentary** on YouTube/TikTok/Instagram/podcasts — which, if entered, would **lift the speech restriction behind Schneider's withheld "Part 3."** | `timeline.md` (new Jun 24 row + note on the Jun 22 PI row); `lawsuit/README.md` (Interim-order field); `news-articles.md` (Dexerto annotation updated; Express Tribune 2615026 added) | **Reported ⚠** — **single source family** (Dexerto→Express Tribune; the Tribune piece is derivative). **Distinct from the Jun 16 Law-Gorman non-party motion** (the Jun 24 move is by the actual parties, jointly). ⚠ The Dexerto URL is the **same article previously cataloged for the Jun 16 motion** (apparently updated in place), so the new-vs-conflated distinction is **unconfirmed pending the docket**; **court had not ruled** and **Part 3 not released** as of Jun 25. Cross-check Utah XChange. |
+
+**Deliberately not promoted / re-confirmed already-recorded:**
+- **No Jun 23–25 *adjudicated* event** — an independent sweep found **no court ruling** on the TRO/PI,
+  **no settlement executed**, **no Mansell dismissal**, **no new arrest**, and **no "Part 3" release**.
+  BAM's standing Jun 4 *offer* to make Mansell whole / "discuss dropping" his claim remains an **offer**,
+  not a settlement.
+- **The Jun 16 Law-Gorman TRO-modification motion** (Geeks+Gamers "…After Former Owners' Motion",
+  UNILAD Jun 18, Express Tribune 2613906) — **already recorded** (Jun 16 row, PR #54). These are a
+  *different* filing from the Jun 24 joint move; do not double-count.
+- **"Pro se" criminal status + the Jun 30 PI date** — subject of **open watcher PR #53**; not re-added.
+- **Misleading YouTube titles** (e.g. "Bricks & Minifigs Just LIFTED The Restraining Order") — these
+  refer to the Jun 24 *request*, **not** a court order; excluded as unverifiable hyperbole.
+- **A floating "~$673K" Mansell-GoFundMe figure** — still unverifiable (GoFundMe off-allowlist; last
+  anchored ~$465K on Jun 10; reported totals cluster ~$445K–$457K).
+
+> **Verification.** Two-agent rule applied: an **independent verifier subagent** was given **only the
+> claims-as-written + citation URLs** (not these notes) and re-ran its own searches. It returned the
+> Jun 24 joint-filing core (CLAIM 1) and the proposed-terms detail (CLAIM 2) as **PARTIALLY SUPPORTED
+> (med confidence)** — consistently snippeted but resting on a **single source family** (Dexerto→Tribune),
+> with **no independent second outlet** carrying the "joint by BAM + defendants" framing — and the
+> conditional, not-yet-ruled, Part-3 framing (CLAIM 3) as **SUPPORTED (med/high)**, corroborated across
+> multiple outlets. Crucially, it **confirmed the disambiguation**: the Jun 24 joint-by-parties filing
+> and the **Jun 16 Law-Gorman non-party motion are two distinct events** (separate Express Tribune story
+> IDs: 2613906 = Jun 16; 2615026 = Jun 24), and the Geeks+Gamers "Former Owners' Motion" coverage maps to
+> the **Jun 16** event — so it must **not** be counted as independent support for the Jun 24 specifics.
+> Its independent Jun 23–25 sweep found **no** ruling, settlement, dismissal, arrest, or Part-3 release.
+> Both agents were blocked from full-text reads (403/off-allowlist), so **nothing was raised to
+> CONFIRMED**, and the residual "updated-in-place vs. genuinely-new" ambiguity on the shared Dexerto URL
+> is flagged for docket cross-check.
