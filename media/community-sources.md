@@ -460,9 +460,10 @@ ran on **WebSearch result snippets only**, with **no full-text or primary-page a
 
 ## 2026-06-18 update — news watcher pass
 
-A targeted pass for developments after the **Jun 13** cutoff (and after open watcher PR #53, the Jun 17
-run, which recorded Schneider going **pro se** in the criminal case and the **Jun 30** civil PI-hearing
-date). One genuinely new, dated case event surfaced; it is added to the archive, labeled **Reported ⚠**.
+A targeted pass for developments after the **Jun 13** cutoff (and after the **Jun 17** watcher run —
+PR #53, since **closed as superseded**; see the "Deliberately not promoted" note below — which had
+surfaced Schneider going **pro se** in the criminal case and a **Jun 30** civil PI-hearing date). One
+genuinely new, dated case event surfaced; it is added to the archive, labeled **Reported ⚠**.
 **Reddit was unreachable** (blocked to non-browser clients; no browser here), and **`WebFetch` returned
 HTTP 403 on every primary host** (Dexerto, Nerdbeak, `bamsucks.com`, YouTube), so — like the Jun 11/13
 passes — corroboration rests on **WebSearch result snippets**, not full-text/primary-page reads.
@@ -475,11 +476,15 @@ passes — corroboration rests on **WebSearch result snippets**, not full-text/p
 **Deliberately not promoted:**
 - **A floating "~$673K" Mansell-GoFundMe figure** reappearing in a Yahoo-derived search snippet. As in the
   Jun 13/17 passes this is **unverifiable** (GoFundMe off-allowlist; the archive's last anchored figure is
-  ~$465K on Jun 10, and PR #53's verifier found the reported total clustering at ~$445K–$457K with no source
-  confirming ~$670K). Possible conflation with the separate **GiveSendGo** legal-defense fund. Not recorded.
-- **Already covered by open PR #53** (not duplicated here): Schneider representing himself **pro se** in the
-  criminal case, and the civil PI hearing now reported for **June 30** (vs. the older KSL "Jun 22"). Those
-  belong to that pass; this PR only adds the Jun 16 TRO-modification motion.
+  ~$465K on Jun 10, and the Jun 17 pass's verifier found the reported total clustering at ~$445K–$457K with
+  no source confirming ~$670K). Possible conflation with the separate **GiveSendGo** legal-defense fund. Not recorded.
+- **Deferred to watcher PR #53 at the time** (the Jun 17 run, `auto/news-20260617T000000Z`): Schneider
+  representing himself **pro se** in the criminal case, and the civil PI hearing then reported for **June 30**
+  (vs. the older KSL "Jun 22"). ⚠ **PR #53 was later closed as superseded** (2026-06-25): the **pro se**
+  detail is now cataloged on main via the **KSL NewsRadio** row in `news-articles.md` (alongside the distinct
+  two-criminal-cases split — see PR #56 / the Apr 7 timeline row), and the **June 30** date was overtaken by
+  the **Jun 24** joint move to *vacate* that hearing (see the `timeline.md` Jun 24 row). This pass itself
+  added only the Jun 16 TRO-modification motion.
 - **Recap/explainer pieces** (CBC, Franchise Times, games.gg, thatparkplace, thewatchdogonline, etc.) with
   no new dated facts.
 
@@ -557,10 +562,11 @@ single American Fork arrest):
 | 1 | **Schneider faces a *second*, separate criminal case in Provo Justice Court** — **disorderly conduct** (class C misdemeanor) + **trespassing** (class B misdemeanor), **charged ~Apr 7, 2026**, based on a **Dec 10, 2025** visit to **Bricks & Minifigs' corporate office in Provo** — **distinct** from the American Fork stalking/targeted-residential-picketing case. This means the four charges the archive had lumped under the "first arrest" actually **split across two Utah courts**. | `timeline.md` (new ~Dec 10, 2025 + Apr 7, 2026 rows; clarifying note on the Mar 10 row); `police-controversy.md` ("Two criminal cases, not one" section + table row + ledger); `news-articles.md` (KSL NewsRadio) | **Reported** — charges/date/court per **KSL** (single mainstream outlet network: KSL.com + KSL NewsRadio). ⚠ The Provo **case number 261000376** appears only on a **partisan mirror (bamsucks.com)** + a YouTube title — **cross-check Utah XChange**. BAM's account of the Dec 10 conduct (concealed-device filming, refusing to leave, demanding $200K) is an **ALLEGATION** drawn from its complaint via a partisan mirror. |
 
 **Deliberately not promoted / re-confirmed already-recorded:**
-- **"Pro se" criminal status + the Jun 30 PI date** — these are the subject of **open watcher PR #53**
-  (`auto/news-20260617T000000Z`), built on the *same* KSL article; this pass does **not** re-add the
-  `ksl.com/article/51509919` catalog row or duplicate those facts. (This PR cites the KSL NewsRadio
-  syndication for the distinct two-cases detail PR #53 did not capture.)
+- **"Pro se" criminal status + the Jun 30 PI date** — were the subject of **watcher PR #53**
+  (`auto/news-20260617T000000Z`, since **closed as superseded** — see the 2026-06-18 note above), built on
+  the *same* KSL article; this pass does **not** re-add the `ksl.com/article/51509919` catalog row or
+  duplicate those facts. (This PR cites the KSL NewsRadio syndication for the distinct two-cases detail
+  PR #53 did not capture — which is how the **pro se** detail now lands on main.)
 - **Leaked "Provo pretrial conference" audio** circulating on YouTube (`mVgkAfPrCJs`, `Qba0uVefgXM`,
   `iz1cf8JdTeI`) and partisan docket scans (bamsucks.com, salembricktrials.com) — **excluded** as
   unverifiable provenance + PII-bearing leaked court audio, consistent with the archive's exclusion of
@@ -605,7 +611,9 @@ full-text/primary-page reads. **Nothing was raised to CONFIRMED.**
 - **The Jun 16 Law-Gorman TRO-modification motion** (Geeks+Gamers "…After Former Owners' Motion",
   UNILAD Jun 18, Express Tribune 2613906) — **already recorded** (Jun 16 row, PR #54). These are a
   *different* filing from the Jun 24 joint move; do not double-count.
-- **"Pro se" criminal status + the Jun 30 PI date** — subject of **open watcher PR #53**; not re-added.
+- **"Pro se" criminal status + the Jun 30 PI date** — were the subject of **watcher PR #53** (since
+  **closed as superseded**; see the 2026-06-18 note above — pro se now cataloged via the KSL NewsRadio row,
+  the Jun 30 hearing overtaken by the Jun 24 vacatur move). Not re-added.
 - **Misleading YouTube titles** (e.g. "Bricks & Minifigs Just LIFTED The Restraining Order") — these
   refer to the Jun 24 *request*, **not** a court order; excluded as unverifiable hyperbole.
 - **A floating "~$673K" Mansell-GoFundMe figure** — still unverifiable (GoFundMe off-allowlist; last
@@ -653,7 +661,9 @@ development:
   says the order was only *submitted* and **not yet signed** — so this is **not** an entered order or a
   finalized settlement. Do not read the headline as a court ruling.
 - **The Jun 16 Law-Gorman non-party motion** and **"pro se" criminal status / Jun 30 PI date** — already
-  recorded / subject of earlier passes (PR #54, PR #53). Not re-added.
+  recorded (Jun 16 row, PR #54) / surfaced by the Jun 17 pass (**PR #53, since closed as superseded** — see
+  the 2026-06-18 note above; pro se now cataloged via the KSL NewsRadio row, the Jun 30 hearing overtaken by
+  the Jun 24 vacatur). Not re-added.
 - **A floating "~$673K" Mansell-GoFundMe figure** — still unverifiable (GoFundMe off-allowlist; last
   anchored ~$465K on Jun 10; reported totals cluster ~$445K–$457K).
 
