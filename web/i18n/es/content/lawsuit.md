@@ -1,65 +1,52 @@
-# Resumen legal — *BAM Franchising et al. v. Schneider et al.*
+# Resumen Legal — *BAM Franchising et al. v. Schneider et al.*
 
-> Compilado a partir de informes secundarios (Wikipedia, Dexerto, Brick Fanatics, Salt Lake Tribune,
+> Compilado a partir de reportajes secundarios (Wikipedia, Dexerto, Brick Fanatics, Salt Lake Tribune,
 > American Fork Citizen, Yahoo/In Touch) y declaraciones de las partes. El PDF de la demanda principal no pudo
-> abrirse durante la compilación (sin acceso a la red). **Todas las alegaciones de la demanda son las
-> afirmaciones no probadas de los demandantes.** Consulte [`court-documents.md`](./court-documents.md) para saber cómo obtener los
-> expedientes, y [`../DISCLAIMER.md`](../DISCLAIMER.md) para conocer el alcance.
-
-## Identificación del caso
+> abrirse durante la compilación (sin salida de red). **Todas las alegaciones de la demanda son afirmaciones
+> no probadas de los demandantes.** Consulten [`court-documents.md`](./court-documents.md) para saber cómo obtener
+> los expedientes, y [`../DISCLAIMER.md`](../DISCLAIMER.md) para el alcance del documento.## Identificación del caso
 
 | Campo | Valor |
 |---|---|
-| **Carátula (según orden judicial)** | ***BAM Franchising, Inc.**, una corporación de Delaware; Ammon McNeff; Matthew McNeff; Josh (Joshua) Johnson; Brandon Best; **Baker Bricks, LLC**, una LLC de Utah (dba Salem-Baker Bricks) **v.** Benjamin Paul Schneider (dba/aka "Reckless Ben"); **Reckless Ben LLC**, una LLC de California; Bryan Mansell; Victor Nguyen; Does 1–15.* La **orden de notificación alternativa del 8 de junio de 2026** confirma que el demandante principal es **"BAM Franchising, Inc., una corporación de Delaware"** (resolviendo la discrepancia anterior entre LLC e Inc. a favor de **Inc.**) y las formas de entidad indicadas arriba. |
-| **Tribunal** | Tribunal del Cuarto Distrito Judicial de Utah, Condado de Utah (Provo) |
+| **Título (según orden judicial)** | ***BAM Franchising, Inc.**, una corporación de Delaware; Ammon McNeff; Matthew McNeff; Josh (Joshua) Johnson; Brandon Best; **Baker Bricks, LLC**, una LLC de Utah (dba Salem-Baker Bricks) **contra** Benjamin Paul Schneider (dba/aka "Reckless Ben"); **Reckless Ben LLC**, una LLC de California; Bryan Mansell; Victor Nguyen; Does 1–15.* La **orden de notificación alternativa del 8 de junio de 2026** confirma que la demandante principal es **"BAM Franchising, Inc., una corporación de Delaware"** (resolviendo la discrepancia anterior entre LLC e Inc. a favor de **Inc.**) y las formas de entidad indicadas arriba. |
+| **Tribunal** | Tribunal de Distrito Judicial Cuarto de Utah, Condado de Utah (Provo) |
 | **Fecha de presentación** | 27 de mayo de 2026 (demanda verificada) |
-| **Número de caso** | **260402353** — confirmado contra una orden judicial firmada (la orden de notificación alternativa del 8 de junio de 2026) y la demanda en DocumentCloud; múltiples fuentes concuerdan. ⚠ La página comunitaria del caso había mostrado **260400253**; aparentemente se trata de un error de transcripción — el número autorizado es **260402353**. |
-| **Orden provisional** | **"Orden de Restricción Temporal y Aviso de Audiencia de Mandato Preliminar (Tier 3)"**, firmada **/s/ Tony F. Graf Jr., 28 de mayo de 2026, 5:25 PM** — la orden firmada ha **aparecido a través de un archivo comunitario** (⚠ espejo partidista, no el registro de la secretaría del tribunal — verifique en XChange). Emitida **ex parte**; restringe amenazas, doxxing, acercarse a menos de "no menos de 1,000 yardas" tras la notificación, suplantación de identidad, carteles que impliquen robo, reclutamiento de "agentes encubiertos" e instrumentos fabricados; ordena la **preservación de evidencia** y la **eliminación de las "Publicaciones" de cualquier plataforma de transmisión en línea**; **sin fianza** requerida (Utah R. Civ. P. 65A(d)); permanece en vigor hasta el fallo sobre el mandato preliminar. **Ninguna disposición menciona expresamente el GoFundMe.** Se **reporta una audiencia de mandato preliminar para el 22 de junio de 2026** según KSL (sobre si el TRO se extiende; primera oportunidad de Schneider de ser escuchado) — **⚠ Dexerto reporta el 30 de junio**; verifique en XChange. (La **orden de allanamiento de marzo** fue aprobada por separado por el **Juez Roger W. Griffin** — procedimiento distinto.) |
-| **Orden de notificación** | **8 de junio de 2026 — "Orden que Concede la Moción Ex Parte sobre Notificación Alternativa" (Tier 3),** firmada por el Juez Graf, que permite a los demandantes notificar a los demandados (Schneider/Reckless Ben LLC, Mansell, Nguyen) por **medios alternativos** después de que no se efectuó la notificación personal. Indica que el juicio — incluida la demanda **contra Mansell** — está **en curso**; no consta en el expediente ningún desestimamiento de Mansell a pesar de la oferta de BAM del 4 de junio de "discutir el retiro" de la misma. ⚠ Basado en una sola imagen de documento judicial; verifique en XChange. |
+| **Número de caso** | **260402353** — confirmado contra una orden judicial firmada (la orden de notificación alternativa del 8 de junio de 2026) y la demanda en DocumentCloud; múltiples fuentes coinciden. ⚠ La página comunitaria del caso había mostrado **260400253**; eso parece ser un error de transcripción — el número autorizado es **260402353**. |
+| **Orden provisional** | **"Orden de Restricción Temporal y Aviso de Audiencia sobre Injunction Preliminar" (Nivel 3)**, firmada **/s/ Tony F. Graf Jr., 28 de mayo de 2026, 5:25 PM** — la orden firmada ha **salido a la luz a través de un archivo comunitario** (⚠ espejo partidista, no el expediente del secretario — verifique en XChange). Dictada **ex parte**; restringe amenazas, doxxing, acercarse a menos de "no menos de 1,000 yardas" tras la notificación, suplantación de identidad, señalización que implique robo, reclutar "agentes encubiertos" e instrumentos fabricados; ordena la **preservación de evidencia** y la **eliminación de las "Publications" de cualquier plataforma de transmisión en línea**; **no se requiere fianza** (Utah R. Civ. P. 65A(d)); permanece en vigor hasta el fallo sobre el injunction preliminar. **Ninguna disposición menciona expresamente el GoFundMe.** Se **reporta una audiencia sobre el injunction preliminar para el 22 de junio de 2026** según KSL (en cuanto a si el TRO se extiende; primera oportunidad de Schneider para ser escuchado) — **⚠ Dexerto reporta el 30 de junio**; verifique en XChange. **Alrededor del 16 de junio de 2026, las "partes Law-Gorman" (que no son parte en el caso) — Chrystal Law(-Gorman), Benjamin Gorman, BAMF Salem 1, LLC — supuestamente solicitaron intervenir y modificar o disolver este TRO**, argumentando que es excesivamente amplio, alcanza su disputa separada sobre la franquicia de Salem (una cláusula abarca publicaciones que *"de cualquier manera se relacionen con la disputa legal privada… entre Bryan y Chrystal"*) y restringe expresión protegida; solicitan al tribunal que elimine o reduzca la cláusula de eliminación de contenido, aclare que la orden no las vincula y rechace un injunction preliminar del mismo alcance — **el tribunal no había resuelto** (⚠ fuente única/Dexerto; vea la fila del 16 de junio en [`../timeline.md`](../timeline.md)). **Por separado, alrededor del 24 de junio de 2026, BAM y los demandados supuestamente presentaron una solicitud *conjunta* para convertir el TRO en un injunction preliminar pactado — manteniendo las prohibiciones sobre amenazas/doxxing/allanamiento/suplantación de identidad/interferencia, pero permitiendo expresamente el debate sobre el litigio, la publicación de escritos judiciales y el periodismo/comentario — y para *dejar sin efecto* la audiencia del 30 de junio con el fin de buscar mediación; el tribunal no había resuelto y la Parte 3 no había sido publicada al 25 de junio** (⚠ fuente única por familia — Dexerto→Express Tribune; distinto de la moción Law-Gorman del 16 de junio; no verificado en el expediente — vea la fila del 24 de junio en [`../timeline.md`](../timeline.md)). (La **orden de allanamiento de marzo** fue aprobada por separado por el **Juez Roger W. Griffin** — procedimiento distinto.) |
+| **Orden de notificación** | **8 de junio de 2026 — "Orden que Concede Moción Ex Parte sobre Notificación Alternativa" (Nivel 3),** firmada por el Juez Graf, que permite a los demandantes notificar a los demandados (Schneider/Reckless Ben LLC, Mansell, Nguyen) por **medios alternativos** tras no haberse logrado la notificación personal. Indica que el litigio — incluida la demanda **contra Mansell** — está **en curso**; no consta en el expediente ningún desestimamiento de Mansell a pesar de la oferta de BAM del 4 de junio de "hablar sobre desistir" de dicha demanda. ⚠ Procedente de una sola imagen de documento judicial; verifique en XChange. |## Las 13 causas de acción
 
-## Las 13 causas de acción
+Fuentes secundarias (Dexerto, Wikipedia) reportan **13 cargos**, enumerados a continuación. ⚠ **Nota sobre un conflicto de fuentes:** KSL resume un conjunto más breve ("difamación, menoscabo, conspiración, acoso, allanamiento e IIED") y daños "superiores a $300,000". La lista completa y la numeración precisa de los cargos deben verificarse contra la demanda presentada:
 
-Fuentes secundarias (Dexerto, Wikipedia) reportan **13 cargos**, enumerados a continuación. ⚠ **Nota sobre un conflicto de fuentes:** KSL resume un conjunto más reducido ("difamación, menoscabo, conspiración, acecho, allanamiento e IIED") y daños "superiores a $300,000". La lista completa y la numeración precisa de los cargos deben verificarse contra la demanda presentada:
-
-1. **Patrón de Actividad Ilegal de Utah (Utah RICO)** — alega un patrón coordinado de actos ilegales por parte de los demandados que actúan como una empresa dirigida contra los demandantes.
-2. **Difamación per se** — declaraciones tan inherentemente dañinas (p. ej., acusar a los demandantes de robo/delito) que se presume el perjuicio.
-3. **Difamación** — declaraciones falsas de hecho adicionales que, según se alega, dañaron las reputaciones.
-4. **Falsedad perjudicial (menoscabo comercial)** — declaraciones falsas que, según se alega, dañaron los intereses comerciales del negocio.
+1. **Patrón de Actividad Ilícita de Utah (Utah RICO)** — ALLEGATION de un patrón coordinado de actos ilícitos por parte de los demandados actuando como una empresa que tiene como objetivo a los demandantes.
+2. **Difamación per se** — declaraciones tan intrínsecamente dañinas (por ejemplo, acusar a los demandantes de robo/delito) que el perjuicio se presume.
+3. **Difamación** — declaraciones falsas adicionales sobre hechos que se alega han lesionado la reputación.
+4. **Falsedad perjudicial (menoscabo comercial)** — declaraciones falsas que se alega han dañado los intereses comerciales del negocio.
 5. **Conspiración civil** — se alega que los demandados acordaron y actuaron conjuntamente para llevar a cabo la campaña.
-6. **Interferencia dolosa** — supuesta interferencia con las relaciones comerciales/económicas de los demandantes.
-7. **Acecho civil** — supuesta conducta reiterada que causó temor/angustia a los demandantes individuales (acecho civil estatutario).
-8. **Molestia** — supuesta interferencia irrazonable con el uso y disfrute del local/operaciones de la tienda.
-9. **Allanamiento** — supuesta entrada física no autorizada a la propiedad de los demandantes.
-10. **Infligimiento intencional de angustia emocional (IIED)** — supuesta conducta escandalosa que causó grave angustia emocional.
-11. **Enriquecimiento injusto** — se alega que los demandados obtuvieron ganancias indebidas (videos / mercancía / donaciones) a expensas de los demandantes.
-12. **Alivio declaratorio** — solicita una declaración judicial sobre los derechos y obligaciones de las partes.
-13. **Alivio mediante mandato** — solicita órdenes que prohíban el supuesto acoso, allanamiento, suplantación de identidad, documentos falsos, doxxing, carteles y publicaciones relacionadas.
+6. **Interferencia dolosa** — presunta interferencia con las relaciones comerciales/económicas de los demandantes.
+7. **Acoso civil** — presunta conducta reiterada que causa temor/angustia a los demandantes individuales (acoso civil estatutario).
+8. **Molestia pública o privada (nuisance)** — presunta interferencia irrazonable con el uso y disfrute de la propiedad/operaciones de la tienda.
+9. **Allanamiento** — presunta entrada física no autorizada en la propiedad de los demandantes.
+10. **Infligir intencionalmente angustia emocional (IIED)** — presunta conducta ultrajante que causa angustia emocional grave.
+11. **Enriquecimiento injusto** — se alega que los demandados obtuvieron beneficios de manera injusta (videos/mercancía/donaciones) a expensas de los demandantes.
+12. **Resolución declaratoria** — solicita una declaración judicial sobre los derechos y obligaciones de las partes.
+13. **Resolución cautelar** — solicita órdenes que prohíban el presunto acoso, allanamiento, suplantación de identidad, documentos falsos, doxxing, señalización y publicaciones relacionadas.## Indemnización / daños solicitados
 
-## Compensación / daños solicitados
+- **Daños monetarios** (compensatorios; la exposición a daños punitivos/triplicados es típica de las reclamaciones bajo RICO de Utah y difamación per se). *Una cifra específica en dólares no ha sido confirmada de forma independiente a partir del expediente judicial.* ⚠ En su video de investigación del **10 de junio de 2026** (reportado el 11 de junio por UNILAD Tech, Dexerto y Nerdbeak), **Coffeezilla afirma que Mansell está siendo demandado por aproximadamente $1.3 millones** *"como parte de una campaña legal"* que también menciona a Schneider y sus asociados — es decir, los daños que él atribuye a **esta misma demanda del lado de BAM**, no a una nueva presentación. Tratar el **~$1.3M como Reportado** (cifra de Coffeezilla — de origen único a su video, no verificada de forma independiente contra el expediente), y tener en cuenta que **no concuerda claramente** con **el reporte anterior de KSL de que la demanda solicitaba *"más de $300,000"***; verificar contra la queja presentada / Utah XChange.
+- **Honorarios de abogados y costas.**
+- **Restitución de ganancias** presuntamente vinculadas a los videos, la mercancía y las campañas de recaudación de fondos.
+- **Medida cautelar** (la base de la orden de restricción temporal del 28 de mayo).
+- **Declaración judicial** que establezca los derechos de las partes.## Encuadre de los demandantes (su argumento)
 
-- **Daños monetarios** (compensatorios; la exposición punitiva/triple es típica en demandas bajo RICO de Utah y de difamación per se). *Una cifra específica en dólares no ha sido confirmada de manera independiente a partir del expediente judicial.* ⚠ En su video de investigación del **10 de junio de 2026** (reportado el 11 de junio por UNILAD Tech, Dexerto y Nerdbeak), **Coffeezilla afirma que Mansell enfrenta una demanda por aproximadamente $1.3 millones** *"como parte de una campaña legal"* que también menciona a Schneider y a sus asociados — es decir, los daños que él atribuye a **esta misma demanda del lado de BAM**, no a una presentación nueva. Traten la cifra de **~$1.3M como Reported** (cifra de Coffeezilla — de fuente única en su video, no verificada de manera independiente contra el expediente judicial), y noten que **no concuerda claramente** con **el reporte anterior de KSL que indicaba que la demanda buscaba *"más de $300,000"***; verifiquen con la demanda presentada / Utah XChange.
-- **Honorarios de abogados y costas judiciales.**
-- **Restitución de ganancias** presuntamente vinculadas a los videos, la mercancía y la recaudación de fondos.
-- **Medidas cautelares** (la base de la orden de restricción temporal del 28 de mayo).
-- **Resolución declaratoria** que establezca los derechos de las partes.## Planteamiento de los demandantes (su posición)
+BAM caracterizó públicamente la conducta de los demandados como una **"campaña de extorsión coordinada y viral,"**
+declarando que "no recompensará a personas que usen uniformes de entrega falsos, firmas falsificadas, encuentros policiales simulados y hostigamiento residencial para fabricar una narrativa con fines de lucro." *(Alegación de los demandantes — no probada.)*## Respuesta del lado de la defensa (su postura)
 
-BAM caracterizó públicamente la conducta de los demandados como una **"campaña coordinada y viral de extorsión,"**
-afirmando que "no recompensará a personas que usen uniformes de entrega falsos, firmas falsificadas, encuentros policiales simulados y acoso residencial para fabricar una historia con fines de lucro." *(Alegación de los demandantes — no probada.)*
+- Según se informó, Schneider apareció en **The H3 Podcast** el día en que se presentó la demanda, bromeando que le "garantizaba al menos dos años más de contenido para YouTube", y continuó publicando videos.
+- **Disputa** el enfoque de acoso, caracterizando sus acciones como la entrega de documentos legales e investigación de la colección supuestamente desaparecida.
+- El lado Mansell/Schneider sostiene que la colección de aproximadamente $200,000 consignada en noviembre de 2023 nunca fue devuelta tras el cambio de propietario y la reposesión de la tienda en noviembre de 2024.
+- Un **GoFundMe** para la familia Mansell recaudó seis cifras.## Asunto penal relacionado (distinto de esta demanda civil)
 
-## Respuesta de la defensa (su posición)
+Schneider fue **arrestado en marzo de 2026** por la policía de American Fork y acusado de **acecho,
+piquete residencial dirigido, allanamiento de morada y alteración del orden público**. Se ejecutó una orden de allanamiento en su Airbnb; el inventario de la orden reportó **ningún artículo confiscado**. Estas son **acusaciones**; se le presume inocente. Véase [`../police-controversy.md`](../police-controversy.md).## Establecido vs. alegado
 
-- Se reporta que Schneider apareció en **The H3 Podcast** el día en que se presentó la demanda, bromeando con que le "garantizaba al menos dos años más de contenido para YouTube," y continuó publicando videos.
-- **Disputa** el planteamiento del acecho, caracterizando sus acciones como la entrega de documentos legales e investigación sobre la supuesta colección desaparecida.
-- La parte de Mansell/Schneider sostiene que la colección de aproximadamente $200,000 consignada en noviembre de 2023 nunca fue devuelta tras el cambio de propiedad de noviembre de 2024 y la recuperación de la tienda.
-- Un **GoFundMe** para la familia Mansell recaudó seis cifras.
-
-## Asunto penal relacionado (distinto de esta demanda civil)
-
-Schneider fue **arrestado en marzo de 2026** por el AFPD y se le imputaron cargos de **acecho,
-piquete residencial dirigido, allanamiento de morada y conducta desordenada**. Se ejecutó una orden de allanamiento en su Airbnb; el informe de ejecución indicó **ningún artículo incautado**. Estas son **acusaciones**;
-se le presume inocente. Consulte [`../police-controversy.md`](../police-controversy.md).
-
-## Establecido frente a alegado
-
-- **Razonablemente establecido:** se presentó una demanda verificada el 27 de mayo de 2026 en el Cuarto Distrito de Utah con 13 causas de acción; se emitió un TRO aproximadamente el 28 de mayo; la consignación de noviembre de 2023 existió; la corporación recuperó la tienda; Schneider fue arrestado e imputado en marzo de 2026; se llevó a cabo un GoFundMe de seis cifras.
-- **Solo alegación (no adjudicada):** la "campaña de extorsión/acoso," las firmas falsificadas, los uniformes falsos, los encuentros simulados (posición de BAM); el "robo" de la colección (posición de Mansell/Schneider); si la consignación fue "no autorizada."
+- **Razonablemente establecido:** se presentó una queja verificada el 27 de mayo de 2026 en el Tribunal del Cuarto Distrito de Utah con 13 causas de acción; se emitió una orden de restricción temporal aproximadamente el 28 de mayo; el consignatario de noviembre de 2023 existió; la corporación tomó posesión de la tienda; Schneider fue arrestado y acusado en marzo de 2026; se realizó una campaña de GoFundMe de seis cifras.
+- **Solo alegación (sin adjudicar):** la "campaña de extorsión/acoso," las firmas falsificadas, los uniformes falsos, los encuentros manipulados (afirmaciones de BAM); el "robo" de la colección (afirmación de Mansell/Schneider); si el consignatario fue "no autorizado."
