@@ -680,3 +680,29 @@ development:
 > **nothing was raised to CONFIRMED**, and the docket cross-check (Utah XChange) on the order's entry
 > remains outstanding. ⚠ "Independent" here means independent of the Dexerto source family; note KSL's
 > ownership is LDS-Church-affiliated (Deseret) — a real news org, not an unaffiliated one.
+
+### Second sweep (same day) — ABC4 corroboration
+
+A later Jun 26 sweep surfaced a **third outlet, and a second one independent of the Dexerto/Tribune
+family**, for the already-recorded Jun 24 joint move — directly answering the caveat above that the only
+prior non-Dexerto outlet (KSL) is Deseret/LDS-affiliated:
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **ABC4 (Nexstar's Salt Lake City station) independently reports the Jun 24 joint mediation/stipulated-injunction move.** *"Bricks & Minifigs and YouTuber Reckless Ben try to cool things down through mediation in civil lawsuit"* — original Utah-local reporting (ABC4 has covered this case from the start), **non-Deseret**, **not a Dexerto/Tribune reprint**. It reports the same joint move to convert the May 28 TRO into a **stipulated preliminary injunction** (lifting the speech bar, keeping threats/stalking/trespass/doxxing/stay-away bars), the **mediation** path, and the requested **Jun 30 vacatur**, and — crucially — that the order is marked **"PROPOSED"** and *"as of Thursday, Graf had not yet signed the new order."* | `timeline.md` (Jun 24 row — ABC4 added as the third corroborating outlet); `news-articles.md` (ABC4 row + the second Tribune write-up, story 2615213) | **Reported** — strengthens the *fact of the joint move* to two outlets independent of the Dexerto family (KSL + ABC4). ⚠ **Not a new event** and **changes nothing on the merits**: no signed/entered injunction, no granted vacatur, no settlement, no Mansell dismissal, no Part 3. ⚠ Still **not docket-verified** (Utah XChange); ABC4 read via headline + search snippets only (off-allowlist 403). |
+
+**Not promoted:** Express Tribune story **2615213** ("…agree to mediate lawsuit") — a *second* Tribune
+write-up of the same Jun 24 move; **derivative of Dexerto** (same source family), cataloged in
+`news-articles.md` but **not** counted as independent corroboration. Recap/partisan pieces
+(thatparkplace, Nerdbeak "Offers to Settle", Geeks+Gamers) add no new dated fact.
+
+> **Verification.** Two-agent rule applied: an **independent verifier subagent** was given **only the
+> claims-as-written + the ABC4/Tribune URLs** (not these notes) and re-ran its own searches. It returned
+> **SUPPORTED (high)** that the ABC4 story exists, reports the Jun 24 mediation/stipulated-injunction
+> development, states the order is "PROPOSED"/unsigned ("as of Thursday, Graf had not yet signed"), and is
+> **genuine independent ABC4 reporting** (Nexstar SLC; its own prior original coverage of this case; no
+> Dexerto/Tribune syndication line) — caveated only that the page body was 403 to automated fetches, so
+> byline rests on snippets. It confirmed **Tribune 2615213 is derivative of Dexerto** (not an independent
+> outlet). Its own fresh Jun 25–26 sweep found **no** adjudicated development — order unsigned, Jun 30
+> hearing not yet vacated, **no settlement, no Mansell dismissal, no Part 3 release**. **Nothing was
+> raised to CONFIRMED**; the Utah XChange docket cross-check on the order's entry remains outstanding.
