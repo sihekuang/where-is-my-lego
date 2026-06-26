@@ -625,3 +625,48 @@ full-text/primary-page reads. **Nothing was raised to CONFIRMED.**
 > Both agents were blocked from full-text reads (403/off-allowlist), so **nothing was raised to
 > CONFIRMED**, and the residual "updated-in-place vs. genuinely-new" ambiguity on the shared Dexerto URL
 > is flagged for docket cross-check.
+
+---
+
+## 2026-06-26 update — news watcher pass
+
+A targeted pass for developments after the **Jun 25** cutoff (today is Jun 26). **No new adjudicated
+event** surfaced — an independent sweep found **no court ruling** on the TRO/PI, **no entered stipulated
+injunction**, **no settlement executed**, **no Mansell dismissal**, **no new arrest**, and **no "Part 3"
+release**. As in recent passes, **Reddit was unreachable** (off the egress allowlist; no browser here)
+and **`WebFetch`/`curl` returned HTTP 403 on every primary host** (KSL, Dexerto, tribune.com.pk,
+Wikipedia, Nerdbeak, YouTube), so corroboration rests on **WebSearch result snippets**, not
+full-text/primary-page reads. **Nothing was raised to CONFIRMED.**
+
+The one genuinely new, source-backed item is an **independent second outlet for the already-recorded
+Jun 24 joint move** — not a new event, but a material strengthening of the most recent recorded
+development:
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **KSL.com independently corroborates the Jun 24 joint stipulated-injunction move.** *"Bricks and Minifigs reaches truce with Reckless Ben in civil lawsuit"* (art. **51546879**, ~Jun 25) — a **mainstream Utah outlet (Deseret Digital Media), not a Dexerto reprint** — independently reports the **actual parties** (BAM + Schneider) *"agreed to mediate"* and *"both parties submitted to the court"* an agreed order that **does not prohibit** commenting on the lawsuit, publishing court findings, or *"opinions, criticism, satire and/or commentary"* by lawful means, while bars on threats/property-destruction/stalking/trespass/personal-contact-info remain. Crucially, KSL adds that the proposed order **still needed Judge Graf's signature** and *"as of Thursday [Jun 25], Graf had not yet signed"* — **the court had not ruled.** | `timeline.md` (Jun 24 row updated — KSL added as the independent second outlet; "single source family"/"possible mis-summary of the Jun 16 motion" caveats resolved); `news-articles.md` (KSL row added) | **Reported** — now **two independent outlets** (Dexerto/Tribune family + KSL) carry the joint-by-parties framing, resolving the earlier single-source-family doubt; ⚠ **still not docket-verified**, court has not ruled — cross-check Utah XChange. |
+
+**Deliberately not promoted / re-confirmed already-recorded:**
+- **No Jun 25–26 *adjudicated* event** — see the sweep result above. The Jun 24 joint move remains a
+  *pending* request; per KSL, Judge Graf had **not signed** the new order as of Jun 25.
+- **"Truce reached" hyperbole.** KSL's headline says "reaches truce," but its own body (per snippet)
+  says the order was only *submitted* and **not yet signed** — so this is **not** an entered order or a
+  finalized settlement. Do not read the headline as a court ruling.
+- **The Jun 16 Law-Gorman non-party motion** and **"pro se" criminal status / Jun 30 PI date** — already
+  recorded / subject of earlier passes (PR #54, PR #53). Not re-added.
+- **A floating "~$673K" Mansell-GoFundMe figure** — still unverifiable (GoFundMe off-allowlist; last
+  anchored ~$465K on Jun 10; reported totals cluster ~$445K–$457K).
+
+> **Verification.** Two-agent rule applied: an **independent verifier subagent** was given **only the
+> claims-as-written + the KSL citation URL** (not these notes) and re-ran its own searches. It returned
+> **SUPPORTED** on (A) the Jun 24 joint move + speech carve-out (high confidence on substance; the exact
+> enumerated *remaining* prohibitions are snippet-/Reported-grade, not quote-confirmed), (B) KSL being a
+> real, separate news organization (Deseret Digital Media) **independent of the Dexerto→Tribune source
+> family** — and it independently surfaced KSL's load-bearing line that **Judge Graf "had not yet signed"
+> the new order as of Jun 25**, confirming (C) **no ruling/entered order, hearing-vacatur still pending,
+> Part 3 unreleased, no settlement or dismissal**. Its own Jun 25–26 sweep found **no** newer adjudicated
+> development. ⚠ Both agents were blocked from full-text reads (KSL/Dexerto/Tribune all 403), so the KSL
+> corroboration rests on its headline + repeated verbatim search snippets, **not** a primary-page read —
+> **nothing was raised to CONFIRMED**, and the docket cross-check (Utah XChange) on the order's entry
+> remains outstanding. ⚠ "Independent" here means independent of the Dexerto source family; note KSL's
+> ownership is LDS-Church-affiliated (Deseret) — a real news org, not an unaffiliated one.
