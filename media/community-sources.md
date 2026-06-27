@@ -27,7 +27,10 @@ window (see [*2026-06-23 update*](#2026-06-23-update--news-watcher-pass)); **new
 2026-06-25** — a reported **Jun 24 joint move by the parties** to convert the May 28 TRO into a
 **stipulated preliminary injunction** (loosening the speech bar) and **vacate the Jun 30 hearing** for
 mediation; no court ruling and no "Part 3" release (see [*2026-06-25
-update*](#2026-06-25-update--news-watcher-pass) at the very end).
+update*](#2026-06-25-update--news-watcher-pass)); **news watcher pass 2026-06-27** — Judge Graf reportedly
+**declined to sign** that proposed stipulated injunction as drafted (stay-away clause flagged "very
+broad"), prompting a **joint clarification** by the parties; order still unsigned, no "Part 3" release
+(see [*2026-06-27 update*](#2026-06-27-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -680,3 +683,49 @@ development:
 > **nothing was raised to CONFIRMED**, and the docket cross-check (Utah XChange) on the order's entry
 > remains outstanding. ⚠ "Independent" here means independent of the Dexerto source family; note KSL's
 > ownership is LDS-Church-affiliated (Deseret) — a real news org, not an unaffiliated one.
+
+---
+
+## 2026-06-27 update — news watcher pass
+
+A targeted pass for developments after the **Jun 26** cutoff (today is Jun 27). One genuinely new,
+source-backed procedural detail surfaced and is folded into the existing **Jun 24** civil row (not booked
+as a separate dated event — the only hard date is a "Jun 24 court note"). As in recent passes, **Reddit
+was unreachable** (off the egress allowlist; no browser here) and **`WebFetch`/`curl` returned HTTP 403
+on every primary host** (Dexerto, ABC4, KSL, Nerdbeak, That Park Place, Wikipedia, YouTube), so
+corroboration rests on **WebSearch result snippets** across ~10 queries, not full-text/primary-page reads.
+**Nothing was raised to CONFIRMED.**
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Judge Graf reportedly *declined to sign* the proposed stipulated preliminary injunction as drafted.** Per **Dexerto** (story 3376819, since re-headlined *"…Part 3 hits setback after judge declines to sign modified restraining order"*), a **Jun 24 court note** records **Judge Graf declining to sign** the stipulated injunction because one section — the stay-away clause barring defendants from entering, filming, blocking access to, or coming **within at least 100 yards** of plaintiffs'/franchisees' stores, offices, warehouses, parking areas, or employee/franchisee homes — was **"very broad,"** adding it was **"unknown if the Defendants know who the employees & franchisees are"** and that the order **"does not address the videos that were taken down."** The **parties then filed a joint clarification** (injunction meant to "narrow" the TRO and allow *"a full and free exchange of public information"*; plaintiffs *"unaware"* of any takedowns). The order **stayed unsigned and "Part 3" unreleased.** | `timeline.md` (Jun 24 row — "⚠ Update (Jun 27)"); `lawsuit/README.md` (Interim-order field); `news-articles.md` (Dexerto row re-annotated) | **Reported ⚠** — the **active "declined to sign" detail + its reasoning are single-origin (Dexerto)**, echoed by That Park Place / Nerdbeak / Express Tribune (same content family); **ABC4 and KSL carry only the passive "marked PROPOSED / not yet signed" framing** (the multi-sourced part). A community YouTube title ("The Judge Refused To Sign…") independently asserts the refusal but is not a news outlet. Court has **not** entered any order; not docket-verified — cross-check Utah XChange. |
+
+**Deliberately not promoted / re-confirmed already-recorded:**
+- **No Jun 26–27 *adjudicated* event** — an independent verifier sweep found **no signed order** by Graf,
+  **no "Part 3" release**, **no executed settlement** (mediation only), **no Mansell dismissal** (BAM's
+  Jun 4 offer to drop his claim remains an *offer*), and **no new arrest**. Schneider's next **criminal**
+  appearance remains **Jul 1, 2026** (in the future; no outcome reported).
+- **The Jun 24 joint move itself** (parties' agreement to mediate / convert the TRO into a stipulated PI /
+  vacate the Jun 30 hearing) — **already recorded** (Jun 24 row, PRs #57/#58; ABC4 corroboration pending
+  in open PR #61). This pass adds only the **court's declination + the parties' clarification**, a *next
+  step* on that same motion.
+- **"Truce reached" / "Gag order is GONE" hyperbole** (YouTube titles, Dallas Express "agree to lift gag
+  order") — the order is **unsigned**; the speech bar is **not** yet lifted. Do not read the requests or
+  headlines as a court ruling.
+- **A floating "~$673K" Mansell-GoFundMe figure** — still unverifiable (GoFundMe off-allowlist; last
+  anchored ~$465K on Jun 10; reported totals cluster ~$445K–$457K).
+
+> **Verification.** Two-agent rule applied: an **independent verifier subagent** was given **only the
+> claims-as-written + citation URLs** (not these notes) and re-ran its own searches. It returned
+> **SUPPORTED** on (1) the declination + "very broad" / 100-yard / "unknown if Defendants know" /
+> "does not address the videos taken down" reasoning (med-high; consistent verbatim snippets), (2) the
+> parties' **joint clarification** + *"full and free exchange of public information"* phrase (med), and
+> (3) order-still-unsigned / no-Part-3 / no-settlement / no-dismissal / no-arrest (high on the first
+> three, med on the last two as verified absences). Crucially it **confirmed the source-independence
+> caveat**: the *active* "declined to sign + reasoning" is **effectively single-origin (Dexerto/3376819,
+> an evergreen article updated in place)**, echoed downstream; **ABC4 and KSL carry only the passive
+> "PROPOSED / not yet signed" framing**, and a community YouTube title independently asserts the refusal
+> but is not an outlet. It also **could not pin the refusal/clarification to a distinct Jun 25/26/27
+> date** — the only hard date is the **Jun 24 court note**, clarification "later." Both agents were
+> blocked from full-text reads (403/off-allowlist), so **nothing was raised to CONFIRMED**, and the
+> docket cross-check (Utah XChange) on the order's entry remains outstanding.
