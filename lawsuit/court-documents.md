@@ -49,6 +49,17 @@ caveats); the **authoritative** column names the official system to confirm agai
 > letter, motion to compel arbitration) sits in the same Proton Drive folder — see
 > [catalog §1](../media/community-sources.md).
 
+> **⚠ Federal docket (after the Jun 26, 2026 removal).** Following the defendants' **Notice of Removal**
+> (reported Jun 26, 2026; see [`README.md`](./README.md) "Removal to federal court" and the Jun 26 row in
+> [`../timeline.md`](../timeline.md)), the action also has a **federal docket**: ***BAM Franchising Inc v.
+> Schneider*, No. 2:26-cv-00593, U.S. District Court for the District of Utah** — accessed via **PACER /
+> CM-ECF (D. Utah)** and mirrored on the PACER-sourced trackers **CourtListener**
+> (https://www.courtlistener.com/docket/73542292/bam-franchising-inc-v-schneider/) and **PacerMonitor**
+> (https://www.pacermonitor.com/public/case/65408971/BAM_Franchising_Inc_et_al_v_Schneider_et_al). The
+> federal case number is confirmed from both trackers; ⚠ the docket *pages* were not directly readable when
+> checked (HTTP 403), so pull the full **docket sheet** (assigned judge, entries, exact filed-date) from
+> PACER. **Plaintiffs may move to remand**, which could return the case to the Utah Fourth District (XChange).
+
 ### Criminal matter — American Fork PD (distinct from the civil suit)
 
 These belong to the **March 2026** criminal case, not the civil suit; background and exact dates are in

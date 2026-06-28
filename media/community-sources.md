@@ -34,7 +34,11 @@ broad"), prompting a **joint clarification** by the parties; order still unsigne
 2026-06-27 (second sweep)** — the **defendants reportedly removed the civil case to federal court** (U.S.
 District Court for the District of Utah) on **diversity** grounds via a **Jun 26 Notice of Removal**; a
 **genuinely new** dated procedural event, **single-origin to Dexerto** and not docket-verified (see
-[*2026-06-27 update — second sweep*](#2026-06-27-update--news-watcher-pass-second-sweep) at the very end).
+[*2026-06-27 update — second sweep*](#2026-06-27-update--news-watcher-pass-second-sweep) near the end);
+**news watcher pass 2026-06-28** — **docket-verified** that Jun 26 federal removal: the case now appears on
+two independent PACER-sourced trackers (CourtListener + PacerMonitor) as **No. 2:26-cv-00593** (D. Utah);
+**no new dated event** surfaced since Jun 26 (see [*2026-06-28 update*](#2026-06-28-update--news-watcher-pass)
+at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -769,3 +773,42 @@ full-text/primary-page reads. **Nothing was raised to CONFIRMED.**
 > **no** newer adjudicated development. Both agents were blocked from full-text reads (403/off-allowlist),
 > so **nothing was raised to CONFIRMED**, and the docket cross-check (PACER D. Utah / Utah XChange) remains
 > outstanding.
+
+---
+
+## 2026-06-28 update — news watcher pass
+
+A targeted pass for developments after the **Jun 26** federal-removal cutoff. **No genuinely new dated
+event** surfaced (no remand motion, no signed order / "Part 3," no settlement, no Mansell dismissal, no new
+arrest; the **Jul 1** criminal appearance is still future). The one source-backed result is a
+**verification upgrade** on the already-recorded **Jun 26 federal removal**, not a new development. As in
+recent passes, **Reddit was unreachable** (off the egress allowlist; no browser) and
+**`WebFetch`/direct fetches returned HTTP 403** on the news outlets *and* the docket trackers, so reads were
+**WebSearch result titles + snippets**, not full pages.
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **The Jun 26 federal removal is now docket-verified.** The case appears on **two independent PACER-sourced docket trackers** — **CourtListener** (docket 73542292) and **PacerMonitor** — as ***BAM Franchising Inc v. Schneider*, No. 2:26-cv-00593, U.S. District Court for the District of Utah**, Notice of Removal **filed 06/26/2026** by Schneider / Reckless Ben LLC / Nguyen (removing Utah 4th Dist. case 260402353). Resolves the prior pass's "cross-check PACER / CM-ECF" flag. | `timeline.md` (Jun 26 row — "⚠ Update (Jun 28)"); `lawsuit/README.md` (Court + Removal fields); `lawsuit/court-documents.md` (new federal-docket note); `news-articles.md` (Dexerto row re-annotated + Tribune 2615352 added, flagged derivative) | **Docket-anchored / CONFIRMED-tier** for the *fact of removal* (court record via two independent trackers); ⚠ docket pages 403 this pass — case number from the trackers' result **titles**/snippets, not a live docket-sheet read; the removal's **news** coverage stays **single-origin (Dexerto** + derivative Express Tribune rewrite 2615352). |
+
+**Deliberately not promoted / re-confirmed already-recorded:**
+- **No new event since Jun 26** — the independent sweep found no remand motion, no judge assignment or
+  docket entry dated **Jun 27–28**, no signed stipulated injunction, no "Part 3," no settlement, no Mansell
+  dismissal, no new arrest.
+- **No independent NEWS outlet** (KSL, ABC4, Nerdbeak, Wikipedia) carries the federal removal; their
+  coverage still stops at the **Jun 24** mediation/declination story. The **Express Tribune** piece (story
+  2615352) is **derivative** of Dexerto (same source family) — cataloged but **not** independent corroboration.
+
+> **Verification.** Two-agent rule applied. An **independent sweep agent** first searched for any
+> post-Jun-26 development and surfaced the federal docket number (**2:26-cv-00593**) from CourtListener +
+> PacerMonitor. A **separate verifier agent**, given **only the claim-as-written + the two tracker URLs**
+> (not the first agent's notes), re-ran its own searches and returned every element **SUPPORTED** — the
+> federal case number, court, and caption appear in the **result titles** of both independent PACER-sourced
+> trackers (title text, not just snippet); the state case number **260402353** is independently corroborated
+> by the TRO PDF's own filename; the removing-parties list (Schneider / Reckless Ben LLC / Nguyen, **not**
+> Mansell) and the Jun 26 date are corroborated across trackers + news. CourtListener (Free Law Project /
+> RECAP) and PacerMonitor (a PACER reseller) both ingest **PACER** directly, so they corroborate each other
+> as two independent reflections of the authoritative federal source — and both are independent of the news
+> outlet **Dexerto**. Both agents were **blocked from live docket reads (403)**, so confirmation is at
+> **title/snippet level** from two independent trackers — strong for the *fact* of the federal case, but the
+> **full docket sheet (assigned judge, exact filed-date stamp, entries) should still be pulled from PACER**.
+> Neither agent found any newer dated event.
