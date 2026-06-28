@@ -38,7 +38,10 @@ District Court for the District of Utah) on **diversity** grounds via a **Jun 26
 **news watcher pass 2026-06-28** — **docket-verified** that Jun 26 federal removal: the case now appears on
 two independent PACER-sourced trackers (CourtListener + PacerMonitor) as **No. 2:26-cv-00593** (D. Utah);
 **no new dated event** surfaced since Jun 26 (see [*2026-06-28 update*](#2026-06-28-update--news-watcher-pass)
-at the very end).
+near the end); **news watcher pass 2026-06-28 (second sweep)** — **no new dated event**, but a source-backed
+refinement to the Jun 26 removal row: co-defendant **Bryan Mansell** reportedly filed a notice **consenting**
+to the federal removal (resolving the prior "not stated" flag; Reported, single-newsroom + docket entry) —
+see [*2026-06-28 update — second sweep*](#2026-06-28-update--news-watcher-pass-second-sweep) at the very end.
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -812,3 +815,39 @@ recent passes, **Reddit was unreachable** (off the egress allowlist; no browser)
 > **title/snippet level** from two independent trackers — strong for the *fact* of the federal case, but the
 > **full docket sheet (assigned judge, exact filed-date stamp, entries) should still be pulled from PACER**.
 > Neither agent found any newer dated event.
+
+---
+
+## 2026-06-28 update — news watcher pass (second sweep)
+
+A second Jun 28 sweep surfaced **no new dated event** (no remand motion, signed order, "Part 3," settlement,
+Mansell dismissal, or new arrest; the **Jul 1** criminal appearance is still future). It did surface **one
+source-backed detail not previously captured**, which **refines the already-recorded Jun 26 federal-removal
+row** rather than adding a new event. As in recent passes, **Reddit was unreachable** (off the egress
+allowlist; no browser) and **`WebFetch`/direct fetches returned HTTP 403** on the news outlets *and* the
+docket trackers, so reads were **WebSearch result titles + snippets**, not full pages.
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Co-defendant Bryan Mansell filed a notice *consenting* to the Jun 26 removal.** The earlier Jun 28 pass had recorded that the removal was filed by Schneider / Reckless Ben LLC / Nguyen and that "whether Mansell joined … is **not stated**." This sweep found that Mansell **separately consented** — reported as a "Notice of Consent by Bryan Mansell" docket entry dated **06/26/2026** (defendant consent to removal is procedurally required under **28 U.S.C. § 1446(b)(2)(A)**). Resolves the prior "not stated" flag. | `timeline.md` (Jun 26 row — "⚠ Update (Jun 28, second sweep)"); `lawsuit/README.md` (Removal field) | **Reported ⚠** — single-news-origin (**Dexerto** + its derivative Express Tribune rewrite 2615352) plus the **CourtListener/PacerMonitor** docket entry; pages 403 so the consent entry rests on tracker snippets, not a live docket-sheet read — cross-check the PACER docket sheet. |
+
+**Deliberately not promoted / re-confirmed already-recorded:**
+- **No newer adjudicated event** — the verifier's own Jun 27–28 sweep found no remand ruling, no signed
+  stipulated injunction, no "Part 3," no settlement executed, no Mansell dismissal, and no new arrest; no
+  federal judge assignment surfaced.
+- The **federal removal core** (Jun 26; D. Utah No. 2:26-cv-00593; diversity + >$300K) is already recorded
+  (Jun 28 first pass) — this sweep adds only the **Mansell-consent** sub-detail.
+
+> **Verification.** Two-agent rule applied. The author surfaced the Mansell-consent detail across several
+> distinct WebSearch passes (consistent verbatim wording — *"Mansell also filed a notice consenting to the
+> removal"* — across independent query syntheses). An **independent verifier agent**, given **only the
+> claim-as-written + the citation URLs** (Dexerto 3380261, Express Tribune 2615352, CourtListener 73542292,
+> PacerMonitor), re-ran its own searches and returned **Reported (supported, not synthesis)**: it
+> independently surfaced both the Dexerto sentence **and** a docket-register entry it described as a
+> *"Notice of Consent by Bryan Mansell … entered 06/26/2026"*, while confirming the **news** sourcing is
+> **single-family (Dexerto + derivative Tribune)** — no independent newsroom (KSL/ABC4/Nerdbeak/Wikipedia)
+> carries the consent detail — and that **both agents were blocked from live docket/full-text reads (403)**.
+> The removal **core** (date, filers, court, case number, diversity grounds) it re-confirmed as already
+> CONFIRMED-tier. It found **no newer dated development** after Jun 26. Accordingly the Mansell-consent line
+> is labeled **Reported ⚠** (docket-backed but single-newsroom and snippet-level), **not** raised to
+> CONFIRMED.
