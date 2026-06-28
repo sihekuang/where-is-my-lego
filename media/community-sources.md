@@ -30,7 +30,11 @@ mediation; no court ruling and no "Part 3" release (see [*2026-06-25
 update*](#2026-06-25-update--news-watcher-pass)); **news watcher pass 2026-06-27** — Judge Graf reportedly
 **declined to sign** that proposed stipulated injunction as drafted (stay-away clause flagged "very
 broad"), prompting a **joint clarification** by the parties; order still unsigned, no "Part 3" release
-(see [*2026-06-27 update*](#2026-06-27-update--news-watcher-pass) at the very end).
+(see [*2026-06-27 update*](#2026-06-27-update--news-watcher-pass) near the end); **news watcher pass
+2026-06-27 (second sweep)** — the **defendants reportedly removed the civil case to federal court** (U.S.
+District Court for the District of Utah) on **diversity** grounds via a **Jun 26 Notice of Removal**; a
+**genuinely new** dated procedural event, **single-origin to Dexerto** and not docket-verified (see
+[*2026-06-27 update — second sweep*](#2026-06-27-update--news-watcher-pass-second-sweep) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -729,3 +733,39 @@ corroboration rests on **WebSearch result snippets** across ~10 queries, not ful
 > date** — the only hard date is the **Jun 24 court note**, clarification "later." Both agents were
 > blocked from full-text reads (403/off-allowlist), so **nothing was raised to CONFIRMED**, and the
 > docket cross-check (Utah XChange) on the order's entry remains outstanding.
+
+---
+
+## 2026-06-27 update — news watcher pass (second sweep)
+
+A second Jun 27 sweep (after the declination-to-sign pass above) surfaced **one genuinely new, dated
+procedural event** that the earlier pass had not: a **federal-court removal**. As in recent passes,
+**Reddit was unreachable** (off the egress allowlist; no browser here) and **`WebFetch` returned HTTP 403
+on Dexerto/Wikipedia**, so corroboration rests on **WebSearch result snippets** across ~9 queries, not
+full-text/primary-page reads. **Nothing was raised to CONFIRMED.**
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Defendants remove the civil case to federal court (Jun 26, 2026).** Per **Dexerto** (story 3380261), attorneys for **Schneider, Reckless Ben LLC, and Nguyen** filed a **Notice of Removal** moving *BAM Franchising et al. v. Schneider et al.* (Utah 4th Dist. case 260402353) to the **U.S. District Court for the District of Utah**, asserting **diversity jurisdiction** (different-state citizenship; amount in controversy > $300,000). Reported to follow Judge Graf's declination to sign the stipulated PI. | `timeline.md` (new Jun 26 row); `lawsuit/README.md` (new "Removal to federal court" field + Court field note); `news-articles.md` (Dexerto story 3380261) | **Reported ⚠** — **single original outlet (Dexerto)**; no mainstream second outlet (KSL/ABC4/Tribune/Nerdbeak) corroborates the removal as of this pass, and Wikipedia omits it; a community YouTube title asserts it but is not an outlet. Not docket-verified — **cross-check PACER / CM-ECF (D. Utah)** + Utah XChange. Plaintiffs may move to **remand** (outcome unresolved). |
+
+**Deliberately not promoted / re-confirmed already-recorded:**
+- **No Jun 26–27 *adjudicated* event** — an independent verifier sweep found **no signed order** by Graf,
+  **no ruling on the removal or any remand motion**, **no executed settlement** (mediation only), **no
+  Mansell dismissal**, **no new arrest**, and **no "Part 3" release**. The criminal appearance remains
+  **Jul 1, 2026** (future).
+- **The Jun 24 declination-to-sign + joint clarification** — already recorded (Jun 24 row, prior commit).
+  This pass adds only the *Jun 26 federal removal*, a distinct procedural step.
+- **A floating "~$673K" Mansell-GoFundMe figure** — still unverifiable (GoFundMe off-allowlist; last
+  anchored ~$465K on Jun 10).
+
+> **Verification.** Two-agent rule applied: an **independent verifier subagent** was given **only the
+> claims-as-written + the Dexerto URL** (not these notes) and re-ran its own searches. It returned the
+> removal filing (CLAIM 1) and the diversity/>$300K grounds (CLAIM 2) as **SUPPORTED but single-sourced
+> (moderate confidence)**, the removal-follows-declination sequencing (CLAIM 3) as **SUPPORTED
+> (moderate-high)** — the *declination* it follows is itself multi-sourced — and confirmed the federal
+> removal is **single-origin to Dexerto (high confidence)**: KSL, ABC4, Express Tribune, Nerdbeak, That
+> Park Place, Kotaku, UNILAD, Dallas Express, and CBC all stop at the Jun 24 declined-injunction/mediation
+> story, and Wikipedia (via snippet) does not mention removal or diversity. Its own Jun 26–27 sweep found
+> **no** newer adjudicated development. Both agents were blocked from full-text reads (403/off-allowlist),
+> so **nothing was raised to CONFIRMED**, and the docket cross-check (PACER D. Utah / Utah XChange) remains
+> outstanding.
