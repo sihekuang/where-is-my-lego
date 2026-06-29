@@ -41,7 +41,11 @@ two independent PACER-sourced trackers (CourtListener + PacerMonitor) as **No. 2
 near the end); **news watcher pass 2026-06-28 (second sweep)** — **no new dated event**, but a source-backed
 refinement to the Jun 26 removal row: co-defendant **Bryan Mansell** reportedly filed a notice **consenting**
 to the federal removal (resolving the prior "not stated" flag; Reported, single-newsroom + docket entry) —
-see [*2026-06-28 update — second sweep*](#2026-06-28-update--news-watcher-pass-second-sweep) at the very end.
+see [*2026-06-28 update — second sweep*](#2026-06-28-update--news-watcher-pass-second-sweep); **news watcher
+pass 2026-06-29** — **no new dated event**, one docket refinement to the Jun 26 removal: a **federal judge
+assignment** (Magistrate Judge **Cecilia M. Romero**, D. Utah) surfaced on the CourtListener tracker
+(Reported ⚠, docket-tracker-only) — see [*2026-06-29 update*](#2026-06-29-update--news-watcher-pass) at the
+very end.
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -851,3 +855,48 @@ docket trackers, so reads were **WebSearch result titles + snippets**, not full 
 > CONFIRMED-tier. It found **no newer dated development** after Jun 26. Accordingly the Mansell-consent line
 > is labeled **Reported ⚠** (docket-backed but single-newsroom and snippet-level), **not** raised to
 > CONFIRMED.
+
+---
+
+## 2026-06-29 update — news watcher pass
+
+A targeted pass for developments after the **Jun 28** cutoff (today is Jun 29). **No genuinely new dated
+event** surfaced — an independent sweep found **no remand motion, no signed stipulated injunction, no
+"Part 3" release, no settlement, no Mansell dismissal, and no new arrest**; the **Jul 1** criminal
+appearance is still future. The one source-backed result is a **docket refinement** to the already-recorded
+**Jun 26 federal removal** — a **federal judge assignment** that resolves the Jun 28 pass's open "no judge
+assignment visible" flag. As in recent passes, **Reddit was unreachable** (off the egress allowlist; no
+browser) and **`WebFetch`/`curl` returned HTTP 403** on the news outlets *and* the docket trackers
+(CourtListener, PacerMonitor) *and* NewsNation/KSL/ABC4, so reads were **WebSearch result titles + snippets**,
+not full pages. **Nothing was raised to CONFIRMED.**
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **The Jun 26 federal case has a judge assignment.** PACER-sourced **CourtListener** tracker data lists the assigned judge as **U.S. Magistrate Judge Cecilia M. Romero** (*"Assigned To: Cecilia M. Romero,"* Date Filed 06/26/2026), independently confirmed as D. Utah's **Chief Magistrate Judge** (utd.uscourts.gov). Resolves the prior "no judge assignment visible" note. | `timeline.md` (Jun 26 row — "⚠ Update (Jun 29)"); `lawsuit/README.md` (Removal field) | **Reported ⚠** — **docket-tracker-only, snippet-level**: tracker pages 403; **no news outlet** reports the federal case number or the judge; the **"-CMR" suffix** consistent with Romero appears only in a search summary, **not** the tracker titles (unverified). Cross-check the PACER docket sheet. |
+
+**Deliberately not promoted:**
+- **A "notice of dismissal filed Friday in Utah's 4th District Court" claim** appearing **only** in a
+  **NewsNation** (newsnationnow.com) WebSearch fast-model summary. **Rejected as a likely summarization
+  artifact:** it **conflicts** with the multi-outlet framing of the Jun 24 development (a *proposed
+  stipulated preliminary injunction* / *agreement to mediate*, with the order **unsigned** per KSL/ABC4/Dexerto)
+  **and** with the **Jun 26 removal to federal court** (one would not file a state-court dismissal after
+  removing the case). No established outlet (KSL "truce," ABC4 "mediation," Dexerto) reports a dismissal; the
+  page was 403 so the snippet could not be checked against article text. Recorded here only as an excluded
+  lead — re-evaluate if a docket entry or a non-AI-summary source corroborates an actual notice of dismissal.
+- **NewsNation as a new mainstream outlet** for the Jun 24 mediation move — the move is already well-recorded,
+  and **open watcher PR #61** already adds ABC4 as the independent corroboration; not duplicated here.
+- **A floating "~$673K" Mansell-GoFundMe figure** — still unverifiable (GoFundMe off-allowlist; last anchored
+  ~$465K on Jun 10).
+
+> **Verification.** Two-agent rule applied: an **independent verifier subagent** was given **only the
+> claim-as-written + the two tracker URLs** (CourtListener 73542292, PacerMonitor) and re-ran its own
+> searches. It returned **PARTIALLY SUPPORTED (moderate)**: it independently surfaced the
+> *"Assigned To: Cecilia M. Romero, Date Filed: 06/26/2026"* CourtListener-derived snippet and both trackers'
+> bare-number result titles (`2:26-cv-00593`, **no `-CMR` in either title**), and independently confirmed via
+> **utd.uscourts.gov** that Romero is D. Utah's Chief Magistrate Judge — but **could not corroborate the
+> literal `-CMR` suffix** from any page text (it appeared only inside an AI search summary that echoed it
+> across queries), and noted the two PACER trackers may reflect the **same** underlying feed (not fully
+> independent). It found **no** remand motion, district-judge co-assignment, or post-Jun-26 docket entry, and
+> **no news outlet** carrying the case number/judge. Accordingly the assignment is labeled **Reported ⚠**, the
+> `-CMR` suffix flagged unverified, and **nothing was raised to CONFIRMED**; the PACER docket-sheet cross-check
+> remains outstanding.
