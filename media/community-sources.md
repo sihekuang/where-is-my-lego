@@ -49,7 +49,12 @@ watcher pass 2026-07-01** — **one new dated docket event**: a **Jun 30, 2026**
 Modification and Entry of Preliminary Injunction" on the removed federal case (No. 2:26-cv-00593, D. Utah),
 apparently carrying the Jun 24 stipulated-injunction effort into the federal forum after removal (Reported ⚠,
 docket-tracker-only; ⚠ Jun 30-vs-Jun 24 date conflict); the **Jul 1** criminal hearing outcome is not yet
-reported — see [*2026-07-01 update*](#2026-07-01-update--news-watcher-pass) at the very end.
+reported — see [*2026-07-01 update*](#2026-07-01-update--news-watcher-pass) near the end; **news watcher pass
+2026-07-01 (second sweep)** — a broader same-day sweep surfaced **BAM's Jun 29, 2026 "amicable resolution"
+statement** (BusinessWire + BAM blog + Dexerto/Brick Fanatics/UNILAD; the earlier Jul 1 pass had caught only
+the federal docket), promoted as **BAM's contentions (ALLEGATION)**; the Jul 1 criminal-hearing outcome is
+still unreported (see [*2026-07-01 update — second
+sweep*](#2026-07-01-update--news-watcher-pass-second-sweep) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -945,3 +950,49 @@ pages. **Nothing was raised to CONFIRMED.**
 >   **Reported (not CONFIRMED)**. Applied.
 > - **Jul 1 hearing — REFUTED/not found:** no Jul 1 docket entry and no report of the criminal-hearing
 >   outcome surfaced.
+
+---
+
+## 2026-07-01 update — news watcher pass (second sweep)
+
+A broader same-day sweep (beyond the federal docket) surfaced **one genuinely new dated non-docket
+development** the earlier Jul 1 pass had missed: **BAM's Jun 29, 2026 public statement** *"Bricks & Minifigs
+Determined to Find Amicable Resolution with Mansell Family."* (The Jun 29 pass above recorded only the
+federal **judge assignment** and did not catch this BAM statement.) As in recent passes, **Reddit was
+unreachable** (`WebFetch` to both `www.reddit.com` and `old.reddit.com` failed; off the egress allowlist; no
+browser), and the **allowlist proxy 403'd every target URL** — BAM's blog, BusinessWire, Dexerto, Brick
+Fanatics, UNILAD, Yahoo Finance, Las Vegas Sun — so reads were **WebSearch titles + snippets only**, no
+full-page/primary-text reads. **Nothing was raised to CONFIRMED.**
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **BAM's Jun 29, 2026 statement — "Determined to Find Amicable Resolution with Mansell Family."** A **BusinessWire** press release (release `20260629727135`, also on BAM's own blog and syndicated to Yahoo Finance / Las Vegas Sun; independent editorial coverage from **Dexerto** + **Brick Fanatics** + **UNILAD Tech**). BAM's most detailed response yet: reiterates the Jun 4 **"make whole"** / amicable-resolution offer; values the collection at **$95K–$100K** (disputing the ~$200K *promotional* figure); says POS records show **~$61K+ sold before the Nov 14, 2024 ownership change** vs. **~$15K reportedly paid to Mansell** (a gap it is "still investigating"); offers to hand over **all remaining Salem Star Wars LEGO regardless of provable ownership**. | `timeline.md` (new **Jun 29** row); `primary-sources.md` (BAM official-statements table); `news-articles.md` (Dexerto / Brick Fanatics / UNILAD) | **Statement issued & multi-sourced** (BusinessWire + BAM blog + Dexerto/Brick Fanatics/UNILAD); its **valuation/sales figures & "make whole" offer are BAM's own contentions — ALLEGATION**, unadjudicated; offer **unilateral** (no acceptance/settlement/Mansell dismissal shown). ⚠ The **$95K–$100K** valuation is multi-outlet; the **~$61K/~$15K specifics are single-outlet (Dexerto), snippet-level**. |
+
+**Deliberately not promoted / re-confirmed already-recorded:**
+- **Jul 1 criminal hearing — still no outcome.** No source reports what happened at Schneider's Jul 1
+  criminal appearance (American Fork stalking / targeted residential picketing; Provo disorderly
+  conduct / trespass). Re-check next pass.
+- **No newer adjudicated civil event** — the verifier's independent Jun 30–Jul 1 sweep found no signed
+  stipulated/preliminary injunction, no remand ruling, no settlement executed, no Mansell dismissal, no
+  "Part 3" release, and no new arrest. The Jun 24 mediation move, the Jun 26 federal removal, and the
+  Jun 30 joint federal motion are all already recorded.
+- **A reported ~Jun 20 American Fork protest / march to the police station** (surfaced via YouTube titles +
+  a Dexerto "community rallies behind Reckless Ben" piece) — **not promoted**: the "Jun 20" date came only
+  from a WebSearch AI summary, no primary/date-anchored source was readable this pass, and it *predates* the
+  archive's Jun 30 cutoff (public-reaction backfill, not a newer development). Re-evaluate with a
+  date-anchored source next pass.
+
+> **Verification.** Two-agent rule applied. An **independent verifier subagent** was given **only the
+> claims-as-written + the six citation URLs** (BAM blog, BusinessWire, Dexerto, Brick Fanatics, UNILAD,
+> Yahoo Finance/Las Vegas Sun) and re-ran its own searches. It returned **all four claims SUPPORTED at
+> snippet level**, with the **Jun 29 date + the statement's existence solidly multi-sourced** (BusinessWire
+> release date matching the `20260629` URL stamp; identical headline on Yahoo/Las Vegas Sun/BAM blog;
+> independent editorial write-ups from Dexerto + Brick Fanatics). Caveats it raised, all applied: (1) it read
+> **zero full article text** (every URL 403'd) — all wording is from search snippets; (2) the **~$61K/~$15K
+> figures rest on a single outlet's snippet (Dexerto)** and warrant a second independent source before any
+> CONFIRMED label — so they stay flagged single-outlet; (3) the **CEO's name could not be pinned down** from
+> snippets, so **no individual is named** in the promoted rows; (4) its own independent Jun 30–Jul 1 sweep
+> found **no newer development** — recent motion practice (mediation, federal removal, unsigned injunction)
+> is Jun 24–26, and the Jul 1 criminal-hearing outcome is not public. **Nothing was raised to CONFIRMED**;
+> the statement's *substance* is labeled **ALLEGATION** (BAM's contentions) while its *issuance* is noted as
+> multi-sourced. Cross-check the press-release text and Utah XChange/PACER as access allows.
