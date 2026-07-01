@@ -44,8 +44,12 @@ to the federal removal (resolving the prior "not stated" flag; Reported, single-
 see [*2026-06-28 update — second sweep*](#2026-06-28-update--news-watcher-pass-second-sweep); **news watcher
 pass 2026-06-29** — **no new dated event**, one docket refinement to the Jun 26 removal: a **federal judge
 assignment** (Magistrate Judge **Cecilia M. Romero**, D. Utah) surfaced on the CourtListener tracker
-(Reported ⚠, docket-tracker-only) — see [*2026-06-29 update*](#2026-06-29-update--news-watcher-pass) at the
-very end.
+(Reported ⚠, docket-tracker-only) — see [*2026-06-29 update*](#2026-06-29-update--news-watcher-pass); **news
+watcher pass 2026-07-01** — **one new dated docket event**: a **Jun 30, 2026** "Joint Motion for TRO
+Modification and Entry of Preliminary Injunction" on the removed federal case (No. 2:26-cv-00593, D. Utah),
+apparently carrying the Jun 24 stipulated-injunction effort into the federal forum after removal (Reported ⚠,
+docket-tracker-only; ⚠ Jun 30-vs-Jun 24 date conflict); the **Jul 1** criminal hearing outcome is not yet
+reported — see [*2026-07-01 update*](#2026-07-01-update--news-watcher-pass) at the very end.
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -900,3 +904,44 @@ not full pages. **Nothing was raised to CONFIRMED.**
 > **no news outlet** carrying the case number/judge. Accordingly the assignment is labeled **Reported ⚠**, the
 > `-CMR` suffix flagged unverified, and **nothing was raised to CONFIRMED**; the PACER docket-sheet cross-check
 > remains outstanding.
+
+---
+
+## 2026-07-01 update — news watcher pass
+
+A targeted pass for developments after the **Jun 29** cutoff (today is Jul 1). **One genuinely new dated
+docket event** surfaced — the **first federal docket entry dated after the Jun 26 removal**: a **Jun 30,
+2026 "Joint Motion for Temporary Restraining Order Modification and Entry of Preliminary Injunction."**
+As in recent passes, **Reddit was unreachable** (off the egress allowlist; no browser — `WebFetch`/`curl`
+to reddit failed), and **`WebFetch`/direct fetches returned HTTP 403** on the docket trackers (CourtListener,
+PacerMonitor, Justia) *and* the news outlets, so reads were **WebSearch result titles + snippets**, not full
+pages. **Nothing was raised to CONFIRMED.**
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Jun 30, 2026 — Joint Motion for TRO Modification and Entry of Preliminary Injunction (federal case).** A docket entry dated **06/30/2026**, tagged as filed by defendants **Nguyen / Reckless Ben / Schneider**, appears on the removed federal case (*BAM Franchising Inc v. Schneider*, No. **2:26-cv-00593**, D. Utah) — apparently carrying the **Jun 24 stipulated-injunction effort** (convert the May 28 TRO into a speech-permitting stipulated PI) into the **federal forum** after removal. If entered, would lift the speech bar Schneider cited for withholding "Part 3." | `timeline.md` (new **Jun 30** row); `lawsuit/README.md` (Removal field) | **Reported ⚠** — federal docket-tracker/snippet only (CourtListener 73542292; PacerMonitor 65408971; Justia 165286), pages 403, **no news outlet** reports a discrete Jun 30 motion; ⚠ **Jun 30-vs-Jun 24 date conflict** (news dates the *joint* stipulation to Jun 24, with Jun 30 the hearing asked to be vacated — the docket entry may be a re-filing/re-entry after removal, **unconfirmed**); ⚠ **"joint"** = jointly-with-plaintiffs vs. among-defendants **unresolved** from the snippet; magistrate (Romero) had **not ruled**. |
+
+**Deliberately not promoted / re-confirmed already-recorded:**
+- **Jul 1 criminal hearing — no outcome yet.** Schneider's next *criminal* appearance was reported for
+  **Jul 1** (stalking / targeted residential picketing in American Fork + disorderly conduct / trespass in
+  Provo). It fell on this archive's compile date; **no source reports what happened.** Re-check next pass.
+- **No newer adjudicated event** — the verifier's own Jun 29–Jul 1 sweep found no remand ruling, no signed
+  stipulated/preliminary injunction, no "Part 3" release, no settlement executed, no Mansell dismissal, and
+  no new arrest.
+
+> **Verification.** Two-agent rule applied. An **independent verifier subagent** was given **only the
+> claim-as-written + the three tracker URLs** (CourtListener 73542292, PacerMonitor 65408971, Justia 165286)
+> and re-ran its own searches. It returned:
+> - **Structural facts SUPPORTED** (snippet-level, not a live docket read): case No. **2:26-cv-00593(-CMR)**,
+>   Magistrate Judge **Cecilia M. Romero**, Notice of Removal **06/26/2026** by Schneider / Reckless Ben LLC /
+>   Nguyen, and the six-plaintiff list (BAM Franchising, Baker Bricks, Best, Johnson, Ammon & Matthew McNeff).
+> - **Jun 30 motion PARTIALLY-SUPPORTED:** it independently surfaced the recurring docket-format snippet
+>   (*"A Joint Motion for Temporary Restraining Order Modification and Entry of Preliminary Injunction was
+>   filed by Defendants Victor Nguyen, Reckless Ben, Benjamin Paul Schneider, and was entered on 06/30/2026"*)
+>   but **could not read any docket sheet directly** (all trackers 403; the proxy status log confirms
+>   CourtListener is policy-denied at the gateway), and found **no news article** reporting a discrete Jun 30
+>   motion — every outlet dates the *joint* move to **Jun 24** and treats **Jun 30** as the hearing-to-vacate.
+>   It flagged the **Jun 30-vs-Jun 24 date conflict** and the **"joint" filer ambiguity**, and recommended
+>   **Reported (not CONFIRMED)**. Applied.
+> - **Jul 1 hearing — REFUTED/not found:** no Jul 1 docket entry and no report of the criminal-hearing
+>   outcome surfaced.
