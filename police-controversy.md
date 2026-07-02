@@ -129,6 +129,19 @@ blurred by listing all four charges together:
 > case against Utah XChange** before treating the number as authoritative. Mid-June KSL coverage also
 > reported Schneider had been **granted permission to represent himself (pro se)** in the criminal
 > matter (cf. the separate watcher pass tracking that detail).
+>
+> ⚠ **Update (Jul 2, 2026) — docket detail (Reported, community-mirror/snippet-level).** A
+> **Provo Justice Court docket-events PDF** for case **261000376** surfaced on the same partisan mirror
+> (`bamsucks.com/Reckless-Ben-Utah-Case-261000376-Docket-Events.pdf`). Read only via **WebSearch
+> snippets of its text** — the PDF **403'd and was not opened this pass** — it reflects: caption
+> **Provo City v. Schneider** (a **city prosecution**; prosecutor **Robert Trombly**), **Judge Stephen
+> H. Schreiner**, the two counts above (disorderly conduct 76-9-102, class C; criminal trespass
+> 76-6-206, class B; **offense date Dec 10, 2025**), **Not Guilty pleas entered May 14, 2026**, and a
+> **WebEx pretrial conference set for Jun 8, 2026 that was continued to Jul 6, 2026**. This
+> **clarifies the archive's "Jun 8 vs. July 1" date confusion**: the **July 1, 2026** appearance in
+> KSL/East Idaho News is the **American Fork stalking/picketing case**, while the **Provo** case's next
+> pretrial is **Jul 6, 2026**. **Still community-mirror-sourced at snippet level — cross-check Utah
+> XChange.** As of Jul 2, **no outlet reports any July 1 criminal-hearing outcome.**
 
 ## Confirmed vs. allegation — quick ledger
 
