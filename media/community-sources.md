@@ -49,7 +49,13 @@ watcher pass 2026-07-01** — **one new dated docket event**: a **Jun 30, 2026**
 Modification and Entry of Preliminary Injunction" on the removed federal case (No. 2:26-cv-00593, D. Utah),
 apparently carrying the Jun 24 stipulated-injunction effort into the federal forum after removal (Reported ⚠,
 docket-tracker-only; ⚠ Jun 30-vs-Jun 24 date conflict); the **Jul 1** criminal hearing outcome is not yet
-reported — see [*2026-07-01 update*](#2026-07-01-update--news-watcher-pass) at the very end.
+reported — see [*2026-07-01 update*](#2026-07-01-update--news-watcher-pass); **news watcher pass 2026-07-02**
+— **no new adjudicated event**, but a **corrective docket refinement**: a community-mirrored Provo Justice
+Court docket-events PDF (case 261000376) indicates the **Provo** case's pretrial was **Jun 8 → continued →
+Jul 6, 2026** and that the tracked **"July 1"** hearing date belongs to the **American Fork** stalking case,
+not the Provo matter (also surfaces Judge **Stephen H. Schreiner**, Provo City prosecutor **Robert Trombly**,
+and **Not Guilty pleas May 14, 2026**) — Reported ⚠, snippet-level; the **Jul 1 outcome remains unreported**
+by any outlet (see [*2026-07-02 update*](#2026-07-02-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -86,6 +92,7 @@ The catalog currently draws from these community indexes. Add new origins here a
 | **Utah — complete court filings** | https://drive.proton.me/urls/7S5XSPWJF4#rQxnVZe5sUVc | Proton Drive. Contains **B&M v. Schneider & Mansell** (complaint, consignment agreement, "sold sets" investigation, incident logs) **and** the **franchise owners' suit v. B&M** (complaint, LEGO email, franchise agreement, termination letter, motion to compel arbitration). Directly addresses the "secondary-sources-only" critique. |
 | **Oregon — small-claims filings** | https://drive.proton.me/urls/RFVCJFMS4R#t20KYp5itsmP | Proton Drive. Ben's Oregon filings (reportedly the ones B&M **defaulted** on). |
 | **Utah — May 28 TRO (signed PDF)** | https://bamsucks.com/Bricks-and-Minifigs-v-Benjamin-Paul-Schneider-Reckless-Ben-Utah-Case-260402353-Temporary-Restraining-Order-TRO.pdf | Community-archived copy of the **May 28, 2026 "Temporary Restraining Order and Notice of Preliminary Injunction Hearing" (Tier 3)** — **read directly for this archive (Jun 10)**: signed **/s/ Tony F. Graf Jr., 5:25 PM**, case **260402353**; plaintiffs BAM Franchising, Inc. + the McNeffs, Johnson, Best, Baker Bricks; restraints (a)–(k) covering threats, doxxing, a "not less than 1,000 yards" stay-away, impersonation, signage, "undercover agents," and fabricated instruments, plus **evidence preservation** (i) and **removal of the "Publications" from any streaming platform** (k); **no bond**; PI-hearing date **left blank** in the order; **no provision expressly names the GoFundMe**. ⚠ **Partisan host** (a "bamsucks.com" public-archive site) and a community copy, **not** the clerk's record — cross-check against Utah **XChange**. The preliminary-injunction hearing — reported for **Jun 22, 2026** per KSL (⚠ Dexerto says Jun 30) — will decide whether to extend it. |
+| **Provo — criminal docket-events PDF** (case 261000376) | https://bamsucks.com/Reckless-Ben-Utah-Case-261000376-Docket-Events.pdf | Community-archived **Provo Justice Court** docket for the criminal case *Provo City v. Schneider* (disorderly conduct + trespass over the Dec 10, 2025 corporate-office visit). ⚠ **Partisan host (bamsucks.com); the PDF 403'd this pass and was NOT opened** — its contents below are from **WebSearch snippets of the PDF text** only: Judge **Stephen H. Schreiner**, Provo City prosecutor **Robert Trombly**, counts **76-9-102** (disorderly conduct, class C) + **76-6-206** (criminal trespass, class B), **Not Guilty pleas May 14, 2026**, WebEx pretrial **Jun 8 → continued → Jul 6, 2026**. **Cross-check Utah XChange** before relying on any of it. |
 | Oregon — full list of case numbers | https://pastebin.com/CdKUzxpM | Index of every Oregon case number for pulling the rest from OJCIN. |
 | Proof of relationship — image | https://imgur.com/a/GXZ7m2f | Pairs with the newspaper archive below. |
 | Proof of relationship — newspaper archive | https://www.newspapers.com/newspage/360215635/ | Old news article placing CEO **Ammon McNeff** and franchisee **Joshua Johnson** together as **missionaries in 2004** — primary support for a CEO↔franchisee tie (now reflected in [`../relationships.md`](../relationships.md) as the `ammon-mcneff ↔ josh-johnson` edge). ⚠ Paywalled clipping; verify. |
@@ -184,6 +191,7 @@ The full, categorized list lives in the **Video Coverage megathread** (linked ab
 | **Collecting Weekly** — original investigation | https://www.youtube.com/watch?v=21qTe07ij-g | The party who first helped Bryan and compiled the inventory drive. |
 | Patreon CEO — take-down notification | https://www.youtube.com/watch?v=36jxNeV5L1Q | Patreon's response to BAM's takedown request. |
 | American Fork City — official YouTube channel | https://youtube.com/@americanforkcity | Municipal channel (council meetings, releases). |
+| **Provo pretrial-conference recordings** (community) | https://www.youtube.com/watch?v=mVgkAfPrCJs · https://www.youtube.com/watch?v=Qba0uVefgXM · https://www.youtube.com/watch?v=iz1cf8JdTeI | Community uploads captioned *"Provo City v. Schneider — Pretrial Conference"* / *"Pretrial Court Conference Audio Leaked… Ben Has No Lawyer?"* — apparently audio of the **Provo** criminal case's pretrial (per upload age ≈ **Jun 11**, these track the **Jun 8, 2026** conference, *continued* to Jul 6 — see the docket PDF above). ⚠ **Community/defense-aligned; NOT opened this pass** (YouTube 403); titles only. Any editorialized "outcome" in the titles is **not** adopted. |
 
 ### Added 2026-06-04 (from the Video Coverage megathread + direct channel check)
 
@@ -945,3 +953,50 @@ pages. **Nothing was raised to CONFIRMED.**
 >   **Reported (not CONFIRMED)**. Applied.
 > - **Jul 1 hearing — REFUTED/not found:** no Jul 1 docket entry and no report of the criminal-hearing
 >   outcome surfaced.
+
+---
+
+## 2026-07-02 update — news watcher pass
+
+A targeted pass for developments after the **Jun 30 / Jul 1** cutoff (today is Jul 2). **No new adjudicated
+event** surfaced — no remand ruling, no signed stipulated/preliminary injunction, no "Part 3" release, no
+settlement, no Mansell dismissal, and no new arrest. The one source-backed result is a **corrective docket
+refinement** to the archive's **Provo** criminal case (a *correction*, not a new event): the "Jul 1 hearing"
+the prior pass was waiting on is now clarified, and newly-surfaced Provo docket text fills several standing ⚠
+gaps. As in recent passes, **Reddit was unreachable** (off the egress allowlist; no browser) and
+**`WebFetch`/`curl` returned HTTP 403 on every primary host** — the docket PDF (`bamsucks.com`), YouTube, and
+the news outlets (KSL, Dexerto, ABC4, Express Tribune, Nerdbeak, UNILAD) — so reads were **WebSearch result
+titles + snippets** (including snippets that quote the bamsucks docket PDF text), not full-page/primary reads.
+**Nothing was raised to CONFIRMED.**
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Provo criminal case docket refinement + "July 1" date correction.** A community-mirrored **Provo Justice Court docket-events PDF** (case **261000376**, caption *Provo City v. Schneider*) indicates the Provo case's WebEx **pretrial conference was set for Jun 8 and *continued* to Jul 6, 2026** — so the **"July 1"** hearing KSL/East Idaho News reported belongs to the **separate American Fork stalking/targeted-picketing case**, not the Provo matter. The docket text also surfaces **Judge Stephen H. Schreiner**, Provo City prosecutor **Robert Trombly**, counts 76-9-102 (disorderly conduct, class C) + 76-6-206 (criminal trespass, class B) over the **Dec 10, 2025** office visit, and **Not Guilty pleas entered May 14, 2026** — details the archive previously lacked (it had case no. 261000376 only from a YouTube title). | `timeline.md` (Jun 8 disputed row — "⚠ Update (Jul 2)"); `police-controversy.md` (Provo sourcing caveat); `community-sources.md` (§1 docket PDF cataloged; §6 pretrial recordings) | **Reported ⚠** — a **partisan community mirror (bamsucks.com)** read at **WebSearch-snippet level**; the docket PDF **403'd and was not opened** this pass. **Cross-check Utah XChange.** |
+
+**Deliberately not promoted:**
+- **The July 1 criminal-hearing outcome / disposition — NOT recorded.** No news outlet reports it; the docket
+  shows only the Provo pretrial "continued" to Jul 6. A **fresh (~Jul 2) community video** ("The Judge &
+  Prosecutor Went OFF on Reckless Ben in Court," `3y16yNi1fsY`) is billed as "actual audio" of a hearing, but
+  its **date and which case are unverified** (YouTube 403), and one search summary tied its audio to the
+  **May 28 civil TRO (Judge Graf)** matter, not a criminal ruling — **not adopted**. Likewise the
+  **"Judge Orders Reckless Ben To Delete Everything"** title (`bG5nep833dw`) refers to the **civil TRO**, not
+  a July 1 criminal disposition — do not conflate.
+- **No new civil-case development** — the removed federal case (D. Utah **No. 2:26-cv-00593**, Magistrate
+  Judge Romero) shows nothing newer than the **Jun 30** joint motion already recorded; **BAM's Jun 29
+  "amicable resolution" statement** is covered in **open PR #68**; **ABC4's corroboration of the Jun 24
+  mediation move** is in **open PR #61**. Not duplicated here.
+
+> **Verification.** Two-agent rule applied. An **independent verifier subagent** was given **only the
+> claims-as-written + the citation URLs** (the two pretrial-video URLs and the docket-PDF URL) and re-ran its
+> own searches. It **REFUTED the initial "pretrial held ~July 1" framing** — independently surfacing the
+> docket-derived snippet that the 261000376 pretrial was **Jun 8, continued to Jul 6, 2026**, that the two
+> cited videos display as **≈3 weeks old** (tracking the Jun 8 conference, not a Jul 1 event), and that the
+> **"July 1" date attaches to the separate stalking case** — so the promoted item was rewritten as a
+> *correction*. It **SUPPORTED (high)** that **no mainstream outlet reports any July 1 outcome** (all coverage
+> stops at the Jun 24 mediation / Jun 26 removal / Jun 29 statement cluster), independently confirmed the
+> Provo docket metadata (caption *Provo City v. Schneider*, Judge **Schreiner**, prosecutor **Trombly**,
+> statutes, **May 14 Not Guilty pleas**), and returned the July 1 disposition as **UNVERIFIABLE — do not
+> record** (flagging the "delete everything" video as the civil TRO). ⚠ Both agents were **blocked from
+> full-text/primary reads (403 on the docket PDF, YouTube, and news outlets)**, so corroboration rests on
+> WebSearch snippets (some quoting the docket PDF text), **not** a live docket-sheet read — **nothing was
+> raised to CONFIRMED**, and the Utah XChange cross-check on case 261000376 remains outstanding.
