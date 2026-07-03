@@ -55,7 +55,14 @@ Court docket-events PDF (case 261000376) indicates the **Provo** case's pretrial
 Jul 6, 2026** and that the tracked **"July 1"** hearing date belongs to the **American Fork** stalking case,
 not the Provo matter (also surfaces Judge **Stephen H. Schreiner**, Provo City prosecutor **Robert Trombly**,
 and **Not Guilty pleas May 14, 2026**) — Reported ⚠, snippet-level; the **Jul 1 outcome remains unreported**
-by any outlet (see [*2026-07-02 update*](#2026-07-02-update--news-watcher-pass) at the very end).
+by any outlet (see [*2026-07-02 update*](#2026-07-02-update--news-watcher-pass) at the very end); **news watcher
+pass 2026-07-03** — **two new dated federal-docket events**: a **Jul 1, 2026** non-party motion for limited
+intervention to vacate the TRO's speech restrictions (**Gregory C. Belmont / "CereBel Legal Intelligence"**, a
+stranger to the dispute) and **Jul 2, 2026** unopposed "Motion for Extension of Time to File Answer" filings (one
+by **Mansell**, one by the **Schneider/Nguyen** defendants) on the removed federal case (No. 2:26-cv-00593, D.
+Utah); no ruling on the stipulated-injunction motion, no remand, and the **Jul 1 criminal outcome still
+unreported** (Reported ⚠, docket-tracker/snippet-level; see
+[*2026-07-03 update*](#2026-07-03-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -1000,3 +1007,53 @@ titles + snippets** (including snippets that quote the bamsucks docket PDF text)
 > full-text/primary reads (403 on the docket PDF, YouTube, and news outlets)**, so corroboration rests on
 > WebSearch snippets (some quoting the docket PDF text), **not** a live docket-sheet read — **nothing was
 > raised to CONFIRMED**, and the Utah XChange cross-check on case 261000376 remains outstanding.
+
+---
+
+## 2026-07-03 update — news watcher pass
+
+A targeted pass for developments after the **Jul 2** cutoff. **Two genuinely new dated docket events** surfaced
+on the removed **federal** case (a **Jul 1** third-party intervention motion and **Jul 2** extension-of-time
+motions); **no new adjudicated development** otherwise — no ruling on the Jun 30 stipulated-injunction motion, no
+motion to remand, no signed preliminary injunction, no "Part 3" release, no settlement, no Mansell dismissal, and
+no reported outcome of the **Jul 1** criminal hearing. As in recent passes, **Reddit was unreachable** (off the
+egress allowlist; no browser) and **`WebFetch` returned HTTP 403** on every primary host — the docket trackers
+(CourtListener, PacerMonitor, Justia), Wikipedia, Patreon, `blog.cerebel.law`, and the news outlets (KSL,
+Dexerto, ABC4, NewsNation, Yahoo) — so reads were **WebSearch result titles + snippets** (including snippets that
+quote the CourtListener/PacerMonitor docket-format text), not full-page/primary reads. **Nothing was raised to
+CONFIRMED.**
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Jul 1 — non-party moves to intervene and vacate the speech restrictions.** On the removed federal docket (*BAM Franchising Inc v. Schneider*, No. **2:26-cv-00593**, D. Utah), **Gregory C. Belmont** — founder of an AI legal-tech venture, **"CereBel Legal Intelligence"**, and a **stranger to the dispute** (not a party) — files for **limited intervention** to **vacate the May 28 TRO's speech restrictions as to all speakers** (per the movant, on **Rule 24 / Rule 65A / First Amendment** grounds, asserting **"listener standing"** and requesting **immediate consideration**). A docket entry, a **"Notice of Changed Circumstances and Narrowed Request for Limited Intervention" by Gregory C. Belmont**, is **entered 07/01/2026**. A *third* would-be intervenor track, separate from the parties' Jun 24/Jun 30 stipulated-injunction effort and the non-party **Jun 16 Law-Gorman** motion. **Court had not ruled.** | `timeline.md` (new **Jul 1, 2026** row) | **Reported ⚠** — docket-tracker snippet (CourtListener 73542292) + the **movant's own blog** (`blog.cerebel.law`, self-promotional) + a community YouTube title; **no mainstream news**; all sources 403'd (snippet-level). **Cross-check the PACER docket sheet.** |
+| 2 | **Jul 2 — two extension-of-time motions on the federal docket.** In the same case (Magistrate Judge **Cecilia M. Romero**), **two unopposed "Motion for Extension of Time to File Answer" filings** appear dated **07/02/2026** — one by defendant **Bryan Mansell** (with a memorandum in support + proposed order), one by defendants **Victor Nguyen / Reckless Ben / Benjamin Paul Schneider** (with a proposed order) — both re: the **Jun 26 Notice of Removal**. Routine pleading-stage motions, but they show the case is still at the **answer stage**, that both filings are **unopposed** (BAM did not object — consistent with the Jun 24 mediation posture), that **Mansell is still actively litigating** in federal court (consistent with his Jun 28 consent), and that **no ruling on the Jun 30 stipulated-injunction motion and no remand motion** had surfaced. | `timeline.md` (new **Jul 2, 2026** row) | **Reported ⚠** — federal docket-tracker/snippet only (CourtListener 73542292; PacerMonitor 65408971; Justia 165286); tracker pages 403; **no news outlet** reports these motions. **Cross-check the PACER docket sheet.** |
+
+**Deliberately not promoted / re-confirmed already-recorded:**
+- **Jul 1 criminal hearing — still no outcome.** No news outlet reports what happened at Schneider's **Jul 1**
+  American Fork stalking / targeted-residential-picketing appearance (the verifier notes it as 4th-District case
+  **261401094** before Judge **Thomas Low** — ⚠ single-source, not adopted into a row); the Provo case's next
+  date is **Jul 6** (pretrial, continued). Re-check next pass.
+- **No new civil merits development** — the wave of late-June/early-July coverage (NewsNation, Yahoo "lift gag
+  order," ABC4, KSL "truce") all restates the **Jun 24 mediation / stipulated-injunction** move already
+  recorded; **BAM's Jun 29 "amicable resolution" statement** is covered in **open PR #68**; **ABC4's
+  corroboration of the Jun 24 move** is in **open PR #61**. Not duplicated here.
+- **"Part 3 update" / "Episode 3" Patreon posts** (`patreon.com/posts/part-3-update-159961156`,
+  `/RecklessBen/posts/episode-3-159628969`) surfaced in search but are **paywalled/authenticated (403)** — no
+  readable date or public text, no confirmation Part 3 was released. **Not adopted** (Part 3 remained withheld
+  per all readable reporting this pass).
+
+> **Verification.** Two-agent rule applied. An **independent verifier subagent** was given **only the
+> claims-as-written + the three tracker URLs** (CourtListener 73542292, PacerMonitor 65408971, Justia 165286)
+> and re-ran its own searches. It returned: **Jul 2 extension motions — CONFIRMED at snippet level** (both
+> filings, parties, "unopposed," and the 07/02/2026 date recur verbatim across independent searches);
+> **assigned judge Romero / No. 2:26-cv-00593 — CONFIRMED** ("-CMR" suffix secondary); **no Jul 1 criminal
+> outcome anywhere — CONFIRMED negative** (it warned the search summarizer keeps *conflating* the vacated
+> **civil** Jun 30 hearing with the separate **criminal** July 1 matter — do not adopt any "hearing canceled"
+> phrasing as a criminal disposition). Critically, it **REFUTED** the draft's claim that the Jul 2 motions were
+> the *first* entries after Jun 30: it independently surfaced a **Jul 1 docket entry** — Belmont's "Narrowed
+> Request for Limited Intervention" — corroborated by the movant's own `blog.cerebel.law`. That correction was
+> applied: the Jul 1 Belmont intervention is now its **own row**, and the Jul 2 row's "first entry" wording was
+> removed. ⚠ Both author and verifier were **blocked from full-text/primary reads (403 on all trackers, the
+> blog, Wikipedia, and news outlets; Reddit unreachable)**, so corroboration rests on WebSearch snippets that
+> surface the docket-format text, **not** a live docket-sheet read — **nothing was raised to CONFIRMED**, and
+> the PACER docket-sheet cross-check remains outstanding.
