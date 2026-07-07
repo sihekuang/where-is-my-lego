@@ -49,7 +49,11 @@ watcher pass 2026-07-01** — **one new dated docket event**: a **Jun 30, 2026**
 Modification and Entry of Preliminary Injunction" on the removed federal case (No. 2:26-cv-00593, D. Utah),
 apparently carrying the Jun 24 stipulated-injunction effort into the federal forum after removal (Reported ⚠,
 docket-tracker-only; ⚠ Jun 30-vs-Jun 24 date conflict); the **Jul 1** criminal hearing outcome is not yet
-reported — see [*2026-07-01 update*](#2026-07-01-update--news-watcher-pass); **news watcher pass 2026-07-02**
+reported — see [*2026-07-01 update*](#2026-07-01-update--news-watcher-pass); **news watcher pass 2026-07-01
+(second sweep)** — a broader same-day sweep surfaced **BAM's Jun 29, 2026 "amicable resolution" statement**
+(BusinessWire + BAM blog + Dexerto/Brick Fanatics/UNILAD): reiterated "make whole" offer, collection valued
+**$95K–$100K**, and **~$61K+ sold vs. ~$15K paid to Mansell** figures — **BAM's contentions (ALLEGATION)**
+(see [*2026-07-01 update — second sweep*](#2026-07-01-update--news-watcher-pass-second-sweep)); **news watcher pass 2026-07-02**
 — **no new adjudicated event**, but a **corrective docket refinement**: a community-mirrored Provo Justice
 Court docket-events PDF (case 261000376) indicates the **Provo** case's pretrial was **Jun 8 → continued →
 Jul 6, 2026** and that the tracked **"July 1"** hearing date belongs to the **American Fork** stalking case,
@@ -725,6 +729,32 @@ development:
 > remains outstanding. ⚠ "Independent" here means independent of the Dexerto source family; note KSL's
 > ownership is LDS-Church-affiliated (Deseret) — a real news org, not an unaffiliated one.
 
+### Second sweep (same day) — ABC4 corroboration
+
+A later Jun 26 sweep surfaced a **third outlet, and a second one independent of the Dexerto/Tribune
+family**, for the already-recorded Jun 24 joint move — directly answering the caveat above that the only
+prior non-Dexerto outlet (KSL) is Deseret/LDS-affiliated:
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **ABC4 (Nexstar's Salt Lake City station) independently reports the Jun 24 joint mediation/stipulated-injunction move.** *"Bricks & Minifigs and YouTuber Reckless Ben try to cool things down through mediation in civil lawsuit"* — original Utah-local reporting (ABC4 has covered this case from the start), **non-Deseret**, **not a Dexerto/Tribune reprint**. It reports the same joint move to convert the May 28 TRO into a **stipulated preliminary injunction** (lifting the speech bar, keeping threats/stalking/trespass/doxxing/stay-away bars), the **mediation** path, and the requested **Jun 30 vacatur**, and — crucially — that the order is marked **"PROPOSED"** and *"as of Thursday, Graf had not yet signed the new order."* | `timeline.md` (Jun 24 row — ABC4 added as the third corroborating outlet); `news-articles.md` (ABC4 row + the second Tribune write-up, story 2615213) | **Reported** — strengthens the *fact of the joint move* to two outlets independent of the Dexerto family (KSL + ABC4). ⚠ **Not a new event** and **changes nothing on the merits**: no signed/entered injunction, no granted vacatur, no settlement, no Mansell dismissal, no Part 3. ⚠ Still **not docket-verified** (Utah XChange); ABC4 read via headline + search snippets only (off-allowlist 403). |
+
+**Not promoted:** Express Tribune story **2615213** ("…agree to mediate lawsuit") — a *second* Tribune
+write-up of the same Jun 24 move; **derivative of Dexerto** (same source family), cataloged in
+`news-articles.md` but **not** counted as independent corroboration. Recap/partisan pieces
+(thatparkplace, Nerdbeak "Offers to Settle", Geeks+Gamers) add no new dated fact.
+
+> **Verification.** Two-agent rule applied: an **independent verifier subagent** was given **only the
+> claims-as-written + the ABC4/Tribune URLs** (not these notes) and re-ran its own searches. It returned
+> **SUPPORTED (high)** that the ABC4 story exists, reports the Jun 24 mediation/stipulated-injunction
+> development, states the order is "PROPOSED"/unsigned ("as of Thursday, Graf had not yet signed"), and is
+> **genuine independent ABC4 reporting** (Nexstar SLC; its own prior original coverage of this case; no
+> Dexerto/Tribune syndication line) — caveated only that the page body was 403 to automated fetches, so
+> byline rests on snippets. It confirmed **Tribune 2615213 is derivative of Dexerto** (not an independent
+> outlet). Its own fresh Jun 25–26 sweep found **no** adjudicated development — order unsigned, Jun 30
+> hearing not yet vacated, **no settlement, no Mansell dismissal, no Part 3 release**. **Nothing was
+> raised to CONFIRMED**; the Utah XChange docket cross-check on the order's entry remains outstanding.
+
 ---
 
 ## 2026-06-27 update — news watcher pass
@@ -747,8 +777,8 @@ corroboration rests on **WebSearch result snippets** across ~10 queries, not ful
   Jun 4 offer to drop his claim remains an *offer*), and **no new arrest**. Schneider's next **criminal**
   appearance remains **Jul 1, 2026** (in the future; no outcome reported).
 - **The Jun 24 joint move itself** (parties' agreement to mediate / convert the TRO into a stipulated PI /
-  vacate the Jun 30 hearing) — **already recorded** (Jun 24 row, PRs #57/#58; ABC4 corroboration pending
-  in open PR #61). This pass adds only the **court's declination + the parties' clarification**, a *next
+  vacate the Jun 30 hearing) — **already recorded** (Jun 24 row, PRs #57/#58; ABC4 corroboration folded in
+  via the **Jun 26 second-sweep** above). This pass adds only the **court's declination + the parties' clarification**, a *next
   step* on that same motion.
 - **"Truce reached" / "Gag order is GONE" hyperbole** (YouTube titles, Dallas Express "agree to lift gag
   order") — the order is **unsigned**; the speech bar is **not** yet lifted. Do not read the requests or
@@ -910,7 +940,7 @@ not full pages. **Nothing was raised to CONFIRMED.**
   page was 403 so the snippet could not be checked against article text. Recorded here only as an excluded
   lead — re-evaluate if a docket entry or a non-AI-summary source corroborates an actual notice of dismissal.
 - **NewsNation as a new mainstream outlet** for the Jun 24 mediation move — the move is already well-recorded,
-  and **open watcher PR #61** already adds ABC4 as the independent corroboration; not duplicated here.
+  and the **Jun 26 second-sweep (above)** already records ABC4 as the independent corroboration; not duplicated here.
 - **A floating "~$673K" Mansell-GoFundMe figure** — still unverifiable (GoFundMe off-allowlist; last anchored
   ~$465K on Jun 10).
 
@@ -970,6 +1000,52 @@ pages. **Nothing was raised to CONFIRMED.**
 
 ---
 
+## 2026-07-01 update — news watcher pass (second sweep)
+
+A broader same-day sweep (beyond the federal docket) surfaced **one genuinely new dated non-docket
+development** the earlier Jul 1 pass had missed: **BAM's Jun 29, 2026 public statement** *"Bricks & Minifigs
+Determined to Find Amicable Resolution with Mansell Family."* (The Jun 29 pass above recorded only the
+federal **judge assignment** and did not catch this BAM statement.) As in recent passes, **Reddit was
+unreachable** (`WebFetch` to both `www.reddit.com` and `old.reddit.com` failed; off the egress allowlist; no
+browser), and the **allowlist proxy 403'd every target URL** — BAM's blog, BusinessWire, Dexerto, Brick
+Fanatics, UNILAD, Yahoo Finance, Las Vegas Sun — so reads were **WebSearch titles + snippets only**, no
+full-page/primary-text reads. **Nothing was raised to CONFIRMED.**
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **BAM's Jun 29, 2026 statement — "Determined to Find Amicable Resolution with Mansell Family."** A **BusinessWire** press release (release `20260629727135`, also on BAM's own blog and syndicated to Yahoo Finance / Las Vegas Sun; independent editorial coverage from **Dexerto** + **Brick Fanatics** + **UNILAD Tech**). BAM's most detailed response yet: reiterates the Jun 4 **"make whole"** / amicable-resolution offer; values the collection at **$95K–$100K** (disputing the ~$200K *promotional* figure); says POS records show **~$61K+ sold before the Nov 14, 2024 ownership change** vs. **~$15K reportedly paid to Mansell** (a gap it is "still investigating"); offers to hand over **all remaining Salem Star Wars LEGO regardless of provable ownership**. | `timeline.md` (new **Jun 29** row); `primary-sources.md` (BAM official-statements table); `news-articles.md` (Dexerto / Brick Fanatics / UNILAD) | **Statement issued & multi-sourced** (BusinessWire + BAM blog + Dexerto/Brick Fanatics/UNILAD); its **valuation/sales figures & "make whole" offer are BAM's own contentions — ALLEGATION**, unadjudicated; offer **unilateral** (no acceptance/settlement/Mansell dismissal shown). ⚠ The **$95K–$100K** valuation is multi-outlet; the **~$61K/~$15K specifics are single-outlet (Dexerto), snippet-level**. |
+
+**Deliberately not promoted / re-confirmed already-recorded:**
+- **Jul 1 criminal hearing — still no outcome.** No source reports what happened at Schneider's Jul 1
+  criminal appearance (American Fork stalking / targeted residential picketing; Provo disorderly
+  conduct / trespass). Re-check next pass.
+- **No newer adjudicated civil event** — the verifier's independent Jun 30–Jul 1 sweep found no signed
+  stipulated/preliminary injunction, no remand ruling, no settlement executed, no Mansell dismissal, no
+  "Part 3" release, and no new arrest. The Jun 24 mediation move, the Jun 26 federal removal, and the
+  Jun 30 joint federal motion are all already recorded.
+- **A reported ~Jun 20 American Fork protest / march to the police station** (surfaced via YouTube titles +
+  a Dexerto "community rallies behind Reckless Ben" piece) — **not promoted**: the "Jun 20" date came only
+  from a WebSearch AI summary, no primary/date-anchored source was readable this pass, and it *predates* the
+  archive's Jun 30 cutoff (public-reaction backfill, not a newer development). Re-evaluate with a
+  date-anchored source next pass.
+
+> **Verification.** Two-agent rule applied. An **independent verifier subagent** was given **only the
+> claims-as-written + the six citation URLs** (BAM blog, BusinessWire, Dexerto, Brick Fanatics, UNILAD,
+> Yahoo Finance/Las Vegas Sun) and re-ran its own searches. It returned **all four claims SUPPORTED at
+> snippet level**, with the **Jun 29 date + the statement's existence solidly multi-sourced** (BusinessWire
+> release date matching the `20260629` URL stamp; identical headline on Yahoo/Las Vegas Sun/BAM blog;
+> independent editorial write-ups from Dexerto + Brick Fanatics). Caveats it raised, all applied: (1) it read
+> **zero full article text** (every URL 403'd) — all wording is from search snippets; (2) the **~$61K/~$15K
+> figures rest on a single outlet's snippet (Dexerto)** and warrant a second independent source before any
+> CONFIRMED label — so they stay flagged single-outlet; (3) the **CEO's name could not be pinned down** from
+> snippets, so **no individual is named** in the promoted rows; (4) its own independent Jun 30–Jul 1 sweep
+> found **no newer development** — recent motion practice (mediation, federal removal, unsigned injunction)
+> is Jun 24–26, and the Jul 1 criminal-hearing outcome is not public. **Nothing was raised to CONFIRMED**;
+> the statement's *substance* is labeled **ALLEGATION** (BAM's contentions) while its *issuance* is noted as
+> multi-sourced. Cross-check the press-release text and Utah XChange/PACER as access allows.
+
+---
+
 ## 2026-07-02 update — news watcher pass
 
 A targeted pass for developments after the **Jun 30 / Jul 1** cutoff (today is Jul 2). **No new adjudicated
@@ -997,8 +1073,8 @@ titles + snippets** (including snippets that quote the bamsucks docket PDF text)
   a July 1 criminal disposition — do not conflate.
 - **No new civil-case development** — the removed federal case (D. Utah **No. 2:26-cv-00593**, Magistrate
   Judge Romero) shows nothing newer than the **Jun 30** joint motion already recorded; **BAM's Jun 29
-  "amicable resolution" statement** is covered in **open PR #68**; **ABC4's corroboration of the Jun 24
-  mediation move** is in **open PR #61**. Not duplicated here.
+  "amicable resolution" statement** is now recorded (the Jun 29 timeline row + the Jul 1 second-sweep above); **ABC4's corroboration of the Jun 24
+  mediation move** is now recorded (the Jun 24 row + the Jun 26 second-sweep above). Not duplicated here.
 
 > **Verification.** Two-agent rule applied. An **independent verifier subagent** was given **only the
 > claims-as-written + the citation URLs** (the two pretrial-video URLs and the docket-PDF URL) and re-ran its
@@ -1042,8 +1118,8 @@ CONFIRMED.**
   date is **Jul 6** (pretrial, continued). Re-check next pass.
 - **No new civil merits development** — the wave of late-June/early-July coverage (NewsNation, Yahoo "lift gag
   order," ABC4, KSL "truce") all restates the **Jun 24 mediation / stipulated-injunction** move already
-  recorded; **BAM's Jun 29 "amicable resolution" statement** is covered in **open PR #68**; **ABC4's
-  corroboration of the Jun 24 move** is in **open PR #61**. Not duplicated here.
+  recorded; **BAM's Jun 29 "amicable resolution" statement** is now recorded (the Jun 29 timeline row + the Jul 1 second-sweep above); **ABC4's
+  corroboration of the Jun 24 move** is now recorded (the Jun 24 row + the Jun 26 second-sweep above). Not duplicated here.
 - **"Part 3 update" / "Episode 3" Patreon posts** (`patreon.com/posts/part-3-update-159961156`,
   `/RecklessBen/posts/episode-3-159628969`) surfaced in search but are **paywalled/authenticated (403)** — no
   readable date or public text, no confirmation Part 3 was released. **Not adopted** (Part 3 remained withheld
@@ -1088,8 +1164,8 @@ docket-format text), not full-page/primary reads. **Nothing was raised to CONFIR
 - **"Part 3" not confirmed released.** All coverage frames Ben as now *"free to"* / *"could finally"* upload —
   none reports an actual upload, premiere, or reaction to a released Part 3. Not adopted as released.
 - **No settlement, no remand ruling, no Mansell dismissal** surfaced this pass.
-- Already-recorded and not duplicated: the **Jun 24 mediation** move (open PR #61 adds ABC4), **BAM's Jun 29
-  "amicable resolution" statement** (open PR #68), the **Jun 26 removal**, and the **Jun 30 / Jul 1 / Jul 2**
+- Already-recorded and not duplicated: the **Jun 24 mediation** move (ABC4 corroboration now in the Jun 24 row + the Jun 26 second-sweep), **BAM's Jun 29
+  "amicable resolution" statement** (now the Jun 29 row + the Jul 1 second-sweep), the **Jun 26 removal**, and the **Jun 30 / Jul 1 / Jul 2**
   federal docket entries.
 
 > **Verification.** Two-agent rule applied. An **independent verifier subagent** was given **only the
