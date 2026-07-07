@@ -41,7 +41,11 @@ const LANG = {
 };
 
 export function makeTranslator(localeCode, mode = "document") {
-  const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+  // Raise maxRetries above the SDK default (2): during a catch-up seed we make
+  // dozens of sequential calls, and a transient `overloaded_error` (HTTP 529) on
+  // any one of them aborts the whole run mid-locale. The SDK retries 429/5xx/529
+  // with exponential backoff, so a higher cap rides out the overload windows.
+  const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY, maxRetries: 8 });
   const rules = PROMPTS[mode] ?? PROMPTS.document;
   // Append the shared protected-terms glossary so proper nouns (American Fork, AFPD,
   // BAM, party names) and the case-sensitive status tokens survive every mode.
