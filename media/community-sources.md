@@ -62,7 +62,14 @@ stranger to the dispute) and **Jul 2, 2026** unopposed "Motion for Extension of 
 by **Mansell**, one by the **Schneider/Nguyen** defendants) on the removed federal case (No. 2:26-cv-00593, D.
 Utah); no ruling on the stipulated-injunction motion, no remand, and the **Jul 1 criminal outcome still
 unreported** (Reported ⚠, docket-tracker/snippet-level; see
-[*2026-07-03 update*](#2026-07-03-update--news-watcher-pass) at the very end).
+[*2026-07-03 update*](#2026-07-03-update--news-watcher-pass) at the very end); **news watcher pass 2026-07-07**
+— **one genuinely new, significant dated event**: on **Jul 6, 2026** a federal judge (**U.S. District Judge David
+Barlow**, D. Utah No. 2:26-cv-00593) reportedly **granted the joint motion and entered the modified stipulated
+preliminary injunction** — **lifting the speech bar** Schneider cited for withholding **"Part 3"** (while keeping
+bars on threats/doxxing/trespass/impersonation/interference); the docket also shows the case **reassigned from
+Magistrate Judge Romero to District Judge Barlow** and the **answer deadline extended to Aug 3, 2026**; ⚠ news
+single-origin (Dexerto) + docket-tracker snippets, ⚠ Part 3 not confirmed released, and the **Jul 1 criminal
+outcome still unreported** (see [*2026-07-07 update*](#2026-07-07-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -1057,3 +1064,50 @@ CONFIRMED.**
 > blog, Wikipedia, and news outlets; Reddit unreachable)**, so corroboration rests on WebSearch snippets that
 > surface the docket-format text, **not** a live docket-sheet read — **nothing was raised to CONFIRMED**, and
 > the PACER docket-sheet cross-check remains outstanding.
+
+---
+
+## 2026-07-07 update — news watcher pass
+
+A targeted pass for developments after the **Jul 2 / Jul 3** cutoff (today is Jul 7). **One genuinely new — and
+significant — dated event** surfaced: a **federal judge entered the modified stipulated preliminary injunction on
+Jul 6, 2026**, the biggest civil development since the May 28 TRO. As in recent passes, **Reddit was unreachable**
+(off the egress allowlist; no browser) and **`WebFetch` returned HTTP 403** on every primary host — the docket
+trackers (CourtListener, PacerMonitor, Justia) *and* the news outlets (Dexerto, KSL, ABC4, Express Tribune) — so
+reads were **WebSearch result titles + snippets** (including snippets that surface the CourtListener/PacerMonitor
+docket-format text), not full-page/primary reads. **Nothing was raised to CONFIRMED.**
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Jul 6, 2026 — federal court enters the modified stipulated preliminary injunction, lifting the speech bar.** In the removed federal case (*BAM Franchising Inc v. Schneider*, No. **2:26-cv-00593**, D. Utah), **U.S. District Judge David Barlow** reportedly **grants the parties' joint motion for a preliminary injunction**, converting the May 28 TRO into a PI that **expressly permits** discussing the plaintiffs, commenting on the litigation, publishing court filings, and journalism/commentary/criticism/satire across YouTube/TikTok/Instagram/podcasts/TV/radio, while **retaining** bars on threats/doxxing/trespass/impersonation/interference/soliciting-leaks (incl. a "within 100 yards" stay-away). PI in effect until further court order. On its face this **lifts the speech bar** Schneider cited for withholding **"Part 3"** (⚠ no source confirms Part 3 was actually released). The docket also shows the case **reassigned from Magistrate Judge Romero → District Judge Barlow** (a motion for immediate injunctive relief made it ineligible for magistrate-consent jurisdiction), and a **related extension order (reportedly signed by Magistrate Judge Romero, 7/6) extended the defendants' answer deadline to Aug 3, 2026**. Order **signed 7/6/26, entered 07/07/2026** per docket snippets. | `timeline.md` (new **Jul 6** row); `lawsuit/README.md` (Removal field); `media/news-articles.md` (Dexerto 3383948) | **Reported ⚠** — **news single-origin (Dexerto, story 3383948)** + federal **docket-tracker snippets** (CourtListener 73542292; PacerMonitor 65408971); tracker/outlet pages 403 — **no live docket-sheet read**; **no mainstream second outlet** reports the Jul 6 *grant* (KSL/ABC4 cover only the Jun 24 mediation *agreement*). **Cross-check the PACER docket sheet.** |
+
+**Deliberately not promoted / re-confirmed already-recorded:**
+- **Jul 1 criminal hearing — still no outcome.** No news outlet reports what happened at Schneider's Jul 1
+  American Fork stalking / targeted-residential-picketing appearance; the Provo case's next date was **Jul 6**
+  (pretrial, continued). Re-check next pass.
+- **"Part 3" not confirmed released.** All coverage frames Ben as now *"free to"* / *"could finally"* upload —
+  none reports an actual upload, premiere, or reaction to a released Part 3. Not adopted as released.
+- **No settlement, no remand ruling, no Mansell dismissal** surfaced this pass.
+- Already-recorded and not duplicated: the **Jun 24 mediation** move (open PR #61 adds ABC4), **BAM's Jun 29
+  "amicable resolution" statement** (open PR #68), the **Jun 26 removal**, and the **Jun 30 / Jul 1 / Jul 2**
+  federal docket entries.
+
+> **Verification.** Two-agent rule applied. An **independent verifier subagent** was given **only the
+> claims-as-written + the three citation URLs** (Dexerto 3383948, CourtListener 73542292, PacerMonitor 65408971)
+> and re-ran its own searches. It returned: **Claim 1 (Jul 6 PI grant + speech-bar lift) SUPPORTED** at
+> search-snippet level (medium-high) — independently reproducing the Barlow grant, the permitted-speech list, the
+> retained bars, and "remains in effect until further order"; **Claim 2 (Romero→Barlow reassignment; signed 7/6)
+> SUPPORTED** at docket-snippet level (the reassignment reason — injunctive-relief motion made it ineligible for
+> magistrate-consent jurisdiction — recurs verbatim), with the **entered 07/07/2026** date flagged snippet-only;
+> **Claim 3 (Aug 3 answer deadline) SUPPORTED** at docket-snippet level, noting the extension order is attributed
+> to **Magistrate Judge Romero (7/6)** and that the "Jul 2 / unopposed" underlying-motion detail is snippet-only;
+> **Claim 4 negatives both TRUE** — **no outlet reports the Jul 1 criminal outcome** (high confidence) and **no
+> evidence Part 3 was actually posted** (med-high). It **confirmed the Jul 6 grant is effectively single-outlet
+> (Dexerto)** for the news disposition — Express Tribune 2615026 is a Dexerto rewrite; KSL 51546879 "truce" and
+> ABC4 cover only the **Jun 24** mediation, **not** the Jul 6 entry; a Jul 6 Techdirt piece is a different
+> (RICO/settlement) topic — so the meaningful independent corroboration is the **court docket itself**, reachable
+> only at snippet level. Wording adjustments (Dexerto+docket framing, the "within 100 yards" concrete language,
+> the Romero-signed extension order, and ⚠ on the entered-date/Jul-2 detail) were **applied**. ⚠ Both agents were
+> **blocked from full-text/primary reads (403 on all trackers and outlets; Reddit unreachable)**, so corroboration
+> rests on WebSearch snippets, **not** a live docket-sheet read — **nothing was raised to CONFIRMED**, and the
+> PACER docket-sheet cross-check remains outstanding.
