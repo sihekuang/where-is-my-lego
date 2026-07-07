@@ -278,7 +278,13 @@ async function runSeed() {
   const sources = loadSources();
   const structured = loadStructured();
   const enUi = loadUiSource();
-  for (const loc of TARGET_LOCALES) {
+  // Optional per-locale checkpointing: `ONLY_LOCALES=zh-Hans,es` restricts this
+  // seed to those locales. Each locale's files are written when that locale
+  // finishes, so on a transient API outage (e.g. HTTP 529 mid-run) you can retry
+  // just the unfinished locales instead of re-billing the ones already done.
+  const only = (process.env.ONLY_LOCALES ?? "").split(",").map((s) => s.trim()).filter(Boolean);
+  const locales = only.length ? TARGET_LOCALES.filter((l) => only.includes(l.code)) : TARGET_LOCALES;
+  for (const loc of locales) {
     const base = resolve(I18N, loc.code);
     const stored = readJson(resolve(base, "_translation-manifest.json")) ?? {};
     const prev = {};
