@@ -19,8 +19,10 @@ capacity** — no personal information about any officer is included.
 | After Mar 11 | Schneider reportedly left the U.S. for **Mexico**, continuing to fundraise. | Reported (not agency-confirmed) |
 | **May 29** | AFPD releases body-cam footage + news release; **Chief Cameron Paul** posts a ~26-minute video statement. | CONFIRMED |
 | ~May 30–Jun 2 | Story goes viral; nationwide call-in backlash; unrelated agencies issue disclaimers. | CONFIRMED |
-| **Jun 8** (disputed) | Schneider reportedly scheduled to appear in court. ⚠ Wikipedia says June 8; KSL & East Idaho News say **July 1, 2026**. | Reported (scheduled); date disputed |
+| **Jun 8** (disputed → resolved) | The "June 8 vs. July 1" scheduled-appearance confusion is **resolved**: the tracked date was the **American Fork** stalking/picketing case's **July 1, 2026** hearing — see the **Jul 1** and **Jul 6** rows below for the first reported outcomes. | Reported |
 | **Jun 9** | **American Fork City Council** public meeting: during public comment, multiple residents spoke **in support of Schneider** and demanded an **independent review** of AFPD's conduct; the city **did not announce** any formal/independent investigation. ⚠ A council member expressed **appreciation for local police** and cited a **separate recent incident affecting their family** (single substantive source). | Meeting + "no investigation announced" CONFIRMED (city's own meeting video + coverage); speakers' claims ALLEGATION; council-member detail Reported |
+| **Jul 1** | **American Fork hearing continued to Aug. 12, 2026.** The 4th District Court hearing (stalking, class A; targeted residential picketing, class B) was **continued to Aug. 12, 2026** — per KSL, Schneider's attorneys **Jeremy Delicino** and **Jon Williams** were in a **federal trial in St. George** the prior week and asked for more time to review the case. First reported outcome of the long-tracked "July 1" date. ⚠ Single mainstream outlet (KSL.com art. 51595241 / KSL NewsRadio — same network). | Reported (KSL) |
+| **Jul 6** | **Provo case pretrial held; next hearing Sept. 15, 2026.** At the Provo Justice Court pretrial (continued from Jun 8 → Jul 6), Schneider **told the judge he would comply with the fingerprinting requirement**; the **next hearing was scheduled for Sept. 15, 2026**. First **mainstream-reported** Provo-case outcome (previously a community-mirror docket snippet only). ⚠ Single mainstream outlet (KSL). Distinct from the same-day **Jul 6 federal civil** preliminary-injunction order. | Reported (KSL) |
 
 ## Allegations against AFPD (ALLEGATION — raised by Schneider, amplified online)
 
@@ -142,6 +144,18 @@ blurred by listing all four charges together:
 > KSL/East Idaho News is the **American Fork stalking/picketing case**, while the **Provo** case's next
 > pretrial is **Jul 6, 2026**. **Still community-mirror-sourced at snippet level — cross-check Utah
 > XChange.** As of Jul 2, **no outlet reports any July 1 criminal-hearing outcome.**
+>
+> ⚠ **Update (Jul 7–8, 2026) — both cases' next dates now mainstream-reported (KSL).** Per **KSL.com**
+> (art. **51595241**, "Lego saga updates: Reckless Ben posts new video as federal court lifts ban,"
+> ~Jul 7–8): the **American Fork** (4th District) **July 1, 2026** hearing was **continued to Aug. 12,
+> 2026** because Schneider's attorneys **Jeremy Delicino** and **Jon Williams** were in a **federal
+> trial in St. George** the prior week and **asked for more time** to review the case (this **updates
+> the earlier "pro se" note** — Schneider is now reported to have counsel in **both** criminal cases);
+> and at the **Provo** case's **Jul 6** pretrial Schneider **agreed to comply with the fingerprinting
+> requirement**, with the **next hearing set for Sept. 15, 2026**. These **resolve the standing "July 1
+> outcome unreported" flag** and **mainstream-source** the Provo Jul 6 pretrial (previously
+> community-mirror snippet only). ⚠ **Single mainstream outlet/network** (KSL.com + KSL NewsRadio — no
+> independent second outlet reports the criminal-hearing dates); **cross-check Utah XChange.**
 
 ## Confirmed vs. allegation — quick ledger
 
