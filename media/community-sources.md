@@ -79,7 +79,13 @@ Patreon patrons ~Jul 7–8** (a new Reckless Ben Patreon post, *"They Tried to T
 Came Out (Episode 3)"*, `163172902`), following the Jul 6 speech-bar lift — corroborated by a wave of community
 reaction/reupload videos but **no mainstream outlet** (coverage still stops at *"free to post"*); patron-only, not
 docket/agency-backed, and the paywalled contents are **not** cataloged (see [*2026-07-08
-update*](#2026-07-08-update--news-watcher-pass) at the very end).
+update*](#2026-07-08-update--news-watcher-pass) at the very end); **news watcher pass 2026-07-08 (second
+sweep)** — **KSL.com** (art. 51595241) mainstream-reported **two criminal-case outcomes** the archive had
+flagged as unreported: the **American Fork** July 1 stalking hearing was **continued to Aug. 12, 2026**
+(attorneys **Delicino** + **Williams** in a St. George federal trial, sought more time) and the **Provo**
+**Jul 6** pretrial set a **Sept. 15, 2026** next hearing (Schneider to be fingerprinted); the same article
+gives the first **mainstream** corroboration of the patron-only **Part 3** release (see [*2026-07-08 update —
+second sweep*](#2026-07-08-update--news-watcher-pass-second-sweep) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -1238,3 +1244,43 @@ every primary host — Patreon, YouTube, TikTok, and the news outlets (Dexerto, 
 > Patreon, YouTube, TikTok, and news outlets; Reddit unreachable)**, so corroboration rests on **WebSearch snippets**,
 > not a direct read of the Patreon post — **nothing was raised to CONFIRMED**, and a direct read of the Patreon
 > release (and any eventual public upload / mainstream pickup) remains the outstanding cross-check.
+
+---
+
+## 2026-07-08 update — news watcher pass (second sweep)
+
+A broader same-day sweep, run **after** the patron-only Part-3 pass above, surfaced a single **mainstream**
+article — **KSL.com** art. **51595241**, *"Lego saga updates: Reckless Ben posts new video as federal court
+lifts ban"* (~Jul 7–8) — that **resolves two long-standing "unreported" flags** in the archive and adds
+mainstream corroboration to a third. KSL is the archive's throughline outlet for the **criminal** matters,
+and here it reports directly from both courts. **Reddit was unreachable this run** (blocked to non-browser
+clients; `old.reddit.com`/`*.json`/`WebFetch` all 403 or refused), so this pass ran on **WebSearch snippets**
+of the KSL piece (the article itself 403'd to direct fetch, as KSL has all along).
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **American Fork (4th District) criminal hearing continued.** The **July 1, 2026** hearing (stalking, class A; targeted residential picketing, class B) was **continued to Aug. 12, 2026** — Schneider's attorneys **Jeremy Delicino** and **Jon Williams** were in a **federal trial in St. George** the prior week and asked for more time. First reported outcome of the "July 1" date the archive had repeatedly flagged as unreported. Also: Schneider is **now represented by counsel in both criminal cases** (updates the earlier "pro se" note). | `timeline.md` (new Jul 1 row); `police-controversy.md` (events table + "Two criminal cases" update) | **Reported** ⚠ — single mainstream outlet/network (KSL.com + KSL NewsRadio); no independent second outlet reports the criminal-hearing dates. Cross-check Utah XChange. |
+| 2 | **Provo Justice Court pretrial held (Jul 6).** Schneider **agreed to comply with the fingerprinting requirement**; **next hearing set for Sept. 15, 2026.** Mainstream-sources the Provo Jul 6 pretrial, previously carried only from a community-mirror docket snippet. | `timeline.md` (new Jul 6 row); `police-controversy.md` (events table + "Two criminal cases" update) | **Reported** ⚠ — single mainstream outlet/network (KSL). Cross-check Utah XChange. |
+| 3 | **Mainstream corroboration of the patron-only Part-3 release.** KSL: Schneider *"posted the next update to paid subscribers on Tuesday"* (~Jul 7) and the video is *"at least for now only available to Patreon subscribers."* This is the **first mainstream outlet** to report the release itself — but **still patron-only**, not a public YouTube upload. | Amends `timeline.md` (Jul 7–8 row) | **Reported** — corroborates the prior pass; patron-only. |
+| 4 | **Source conflict on the Jul 6 federal PI stay-away distance.** KSL renders it **"at least 100 meters"**; **Dexerto** said **"within 100 yards."** (The earlier *state* TRO/agreement used 100 yards.) | Flagged in `timeline.md` (Jul 6 federal-PI row) | ⚠ Conflicting press figure — cross-check the signed order (PACER, D. Utah). |
+
+**Also checked, nothing new to add:** the Jul 6 federal preliminary-injunction grant (already recorded), the
+Jun 26 removal arc, the Jun 24 mediation/stipulation move, and the Jun 29 BAM statement are all already in the
+archive. No outlet reports an actual **public** Part-3 upload yet; no post-Jul-6 federal docket entry (remand,
+ruling on the stipulated injunction) surfaced this pass.
+
+> **Verification.** Two-agent rule applied. An **independent verifier subagent** was given **only the
+> claims-as-written + the single citation URL** (the KSL article) and re-ran its own searches. It **SUPPORTED**
+> all four factual claims verbatim from KSL snippets — quoting *"A hearing on July 1 in the 4th District Court
+> case was continued to Aug. 12 because the attorneys were in another trial"* / *"a federal court trial in St.
+> George that they were both involved in last week"*; *"In his two criminal cases, Ben Schneider is now
+> represented by attorneys Jeremy Delicino and Jon Williams"*; *"At a hearing in the Provo Justice Court case
+> on Monday, Schneider told the judge he would comply with the requirements to be fingerprinted, and his next
+> hearing was scheduled for Sept. 15"*; and *"posted the next update to paid subscribers on Tuesday … only
+> available to Patreon subscribers."* It independently **confirmed no non-KSL outlet** carries the two
+> criminal-hearing dates (Dexerto/ABC4/Yahoo/Express Tribune cover only the federal-injunction/Part-3 angle) —
+> so both are **Reported (single-network), not CONFIRMED** under this repo's multi-outlet standard — and it
+> **surfaced the 100 meters (KSL) vs. 100 yards (Dexerto)** distance discrepancy on the federal PI. ⚠ Both
+> agents were **blocked from a direct read of KSL (403)**; corroboration rests on consistent WebSearch snippets
+> across multiple queries, not a full-text read — cross-check Utah XChange / the PACER docket sheet. **Nothing
+> was raised to CONFIRMED.**
