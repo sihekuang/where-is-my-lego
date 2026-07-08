@@ -73,7 +73,13 @@ preliminary injunction** — **lifting the speech bar** Schneider cited for with
 bars on threats/doxxing/trespass/impersonation/interference); the docket also shows the case **reassigned from
 Magistrate Judge Romero to District Judge Barlow** and the **answer deadline extended to Aug 3, 2026**; ⚠ news
 single-origin (Dexerto) + docket-tracker snippets, ⚠ Part 3 not confirmed released, and the **Jul 1 criminal
-outcome still unreported** (see [*2026-07-07 update*](#2026-07-07-update--news-watcher-pass) at the very end).
+outcome still unreported** (see [*2026-07-07 update*](#2026-07-07-update--news-watcher-pass) at the very end); **news
+watcher pass 2026-07-08** — **one genuinely new, community-only signal**: **"Part 3" appears to have been released to
+Patreon patrons ~Jul 7–8** (a new Reckless Ben Patreon post, *"They Tried to Throw Me in Jail Before This Documentary
+Came Out (Episode 3)"*, `163172902`), following the Jul 6 speech-bar lift — corroborated by a wave of community
+reaction/reupload videos but **no mainstream outlet** (coverage still stops at *"free to post"*); patron-only, not
+docket/agency-backed, and the paywalled contents are **not** cataloged (see [*2026-07-08
+update*](#2026-07-08-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -1187,3 +1193,48 @@ docket-format text), not full-page/primary reads. **Nothing was raised to CONFIR
 > **blocked from full-text/primary reads (403 on all trackers and outlets; Reddit unreachable)**, so corroboration
 > rests on WebSearch snippets, **not** a live docket-sheet read — **nothing was raised to CONFIRMED**, and the
 > PACER docket-sheet cross-check remains outstanding.
+
+---
+
+## 2026-07-08 update — news watcher pass
+
+A targeted pass for developments after the **Jul 6 / Jul 7** cutoff (today is Jul 8). **One genuinely new — and
+long-anticipated — development** surfaced: **"Part 3" appears to have finally been released**, to **Patreon patrons**,
+following the Jul 6 speech-bar lift. As in recent passes, **Reddit was unreachable** (off the egress allowlist; no
+browser — `old.reddit.com`/`*.json`/direct `curl` all returned proxy 403) and **`WebFetch` returned HTTP 403** on
+every primary host — Patreon, YouTube, TikTok, and the news outlets (Dexerto, ABC4, thatparkplace) — so reads were
+**WebSearch result titles + snippets** only, **not** full-page/primary reads. **Nothing was raised to CONFIRMED.**
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **~Jul 7–8 — Schneider releases Part 3 ("Episode 3") to Patreon patrons.** A new post on **Reckless Ben's own Patreon** — *"They Tried to Throw Me in Jail Before This Documentary Came Out (Episode 3)"* (post **`163172902`**, reported **~8–9 hours old as of Jul 8**) — is the first release signal for the **"Part 3"** Schneider said (Jun 9 "bad news" video) he could not post without going to jail; it post-dates the **Jul 6** federal preliminary injunction that lifted the speech bar. Corroborated by a wave of community **reaction/reupload** videos (YouTube `EdUd1vIbF50`, `GFdBxKFW1vM`, `RQLJv5SUJyA`, `vWfUkWyWUKY`; TikTok "…Patreon Part 3 Live") and an X/Twitter share. ⚠ **Patron-only; no mainstream outlet reports the actual release** (all news stops at *"free to"* / *"could finally"* upload — Dexerto 3383948, Express Tribune 2615026, KSL 51546879, Jul 6). The earlier *"Episode 3:"* / *"Part 3 update"* posts (`159628969` / `159961156`) **predate the Jul 6 order** as withheld placeholders and are **not** proof of release — the new anchor is `163172902`. Reuploads are **unauthorized** re-hosts of paywalled content (one flagged "less than complete"); this archive **does not host or catalog the video's substance**, only the neutral fact of a release. | `timeline.md` (new **~Jul 7–8** row) | **Reported ⚠** — self-published Patreon post + community reaction/reuploads; **no mainstream corroboration**; patron-only; paywalled/unreadable. |
+
+**Deliberately not promoted / re-confirmed already-recorded:**
+- **Public YouTube release of Part 3 — not established.** The only public artifacts are **third-party reaction/reupload**
+  videos, not a public upload on Reckless Ben's own YouTube channel. If/when a public upload appears, revisit.
+- **Jul 1 criminal hearing — still no outcome.** No news outlet reports what happened at Schneider's Jul 1 American
+  Fork stalking / targeted-residential-picketing appearance; the Provo case's next date was **Jul 6** (pretrial,
+  continued). Re-check next pass.
+- **No new civil-merits development, no settlement, no remand ruling, no Mansell dismissal** surfaced this pass. The
+  late-June/early-July "mediation / free-to-post" coverage (Dexerto, KSL, ABC4, Express Tribune) all restates the
+  already-recorded **Jun 24 mediation / Jul 6 PI** arc. The recurring search-summary phrasing that "Bricks & Minifigs
+  agreed to drop its case… notice of dismissal filed in Utah's 4th District Court" traces to the **Jun 24 KSL 'truce'**
+  reporting already recorded (Jun 24 row) — **not** a new dismissal, and no source shows the suit actually dismissed.
+
+> **Verification.** Two-agent rule applied. An **independent verifier subagent** was given **only the claims-as-written
+> + the citation URLs** (the reaction/reupload video URLs and the two originally-cited Patreon post URLs) and re-ran its
+> own searches. It **SUPPORTED** (medium-high) that a genuinely new, post-Jul-6 release signal exists — and, critically,
+> **surfaced the correct evidence anchor the author had missed**: the newer Patreon post **`163172902`** (*"They Tried to
+> Throw Me in Jail Before This Documentary Came Out (Episode 3)"*, ~"8 hours ago as of Jul 8"), whose post-ID is higher
+> than the two originally-cited posts — so those two (`159628969` / `159961156`) were **demoted to pre-existing
+> withheld placeholders** and `163172902` adopted as the anchor (the author then independently re-confirmed that post's
+> existence and title by search). It **REFUTED** (high) any mainstream-news confirmation of the actual release —
+> every outlet stops at *permission* ("free to post"), and the "Part 3 has been released" phrasing in some search
+> summaries is the **search engine's synthesis of reaction-video titles**, not any outlet's reporting. It confirmed the
+> release vehicle is **patron-only Patreon** (the YouTube items literally say "REUPLOAD"), flagged the reuploads as
+> **unauthorized and of unverified completeness**, and returned the **Jul 1 criminal outcome as UNVERIFIABLE — none
+> reported**. Recommended label: **Reported ⚠** — do not write it as a public YouTube upload, keep the
+> "~$200,000 (family-valued, disputed)" framing. ⚠ Both agents were **blocked from full-text/primary reads (403 on
+> Patreon, YouTube, TikTok, and news outlets; Reddit unreachable)**, so corroboration rests on **WebSearch snippets**,
+> not a direct read of the Patreon post — **nothing was raised to CONFIRMED**, and a direct read of the Patreon
+> release (and any eventual public upload / mainstream pickup) remains the outstanding cross-check.

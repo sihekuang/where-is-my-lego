@@ -8,6 +8,10 @@ English (the root Markdown), and every other language is **machine-translated at
 committed, and human-reviewed**. There is no hand-maintained Spanish or Chinese copy of the
 archive — only generated overlays plus your review fixes on top.
 
+The seed runs on a **local model first** (Ollama, free & offline — no API key) and falls back to
+the Anthropic API only when no local model is reachable. See [Which model
+translates](#which-model-translates--local-first) for setup and how to force a backend.
+
 ---
 
 ## TL;DR — the two things you'll actually do
@@ -16,16 +20,21 @@ archive — only generated overlays plus your review fixes on top.
 
 ```bash
 cd web
-node --env-file=.env scripts/translate.mjs   # re-translates ONLY what changed
+node --env-file=.env scripts/translate.mjs   # re-translates ONLY what changed (local model by default)
 git add i18n && git commit                    # commit the updated translations
 ```
+
+By default this uses your **local model** (Ollama `qwen2.5:14b`) — free, offline, no key. If no
+local model is reachable it **falls back to the Anthropic API** (which needs `web/.env`). See
+[Which model translates](#which-model-translates--local-first).
 
 **2. You want to add a new language** → see [Adding a language](#adding-a-language). It's ~2
 config lines + the seed command + a short review pass.
 
-> ⚠️ Use `node --env-file=.env scripts/translate.mjs`, **not** `npm run translate`. The npm
-> script doesn't load `.env`, so the API key won't reach the translator. (`npm run translate`
-> works only if `ANTHROPIC_API_KEY` is already exported in your shell.)
+> ⚠️ The `--env-file=.env` is only needed for the **Anthropic fallback** (it loads the key);
+> the local model ignores it. It's harmless to keep it always — that way the seed still works if
+> the local model is down. (Plain `npm run translate` also works for the local backend, since no
+> key is required.)
 
 ---
 
@@ -34,7 +43,7 @@ config lines + the seed command + a short review pass.
 ```
 root *.md ──derive──► .generated/{content,data}  (English, canonical)
                               │
-                              ├─ scripts/translate.mjs  (Claude, build-time, ONE-TIME per change)
+                              ├─ scripts/translate.mjs  (local model by default, Claude fallback; build-time, ONE-TIME per change)
                               ▼
                    i18n/<locale>/{content,data} + i18n/ui/<locale>.json  (committed translations)
                               │
@@ -88,8 +97,9 @@ section now survives even when *another* section of the same document is re-tran
 (Caveat: prose sections pair positionally — like table rows, **append new `## ` sections at
 the end** of a doc; a mid-doc insert shifts later indices and re-translates them.)
 
-Seeding translates stale units **a few at a time** (default 4 concurrent requests after a
-cache-warming first call per request type; tune with `TRANSLATE_CONCURRENCY=<n>`).
+Seeding translates stale units **a few at a time** (Anthropic: 4 concurrent after a
+cache-warming first call per request type; local: 1, since it's a single resident model — tune
+either with `TRANSLATE_CONCURRENCY=<n>`).
 
 Check drift without translating (no API key needed):
 
@@ -101,6 +111,49 @@ node scripts/translate.mjs --check --strict   # same, but exits 1 on drift (use 
 > **Build behavior:** `prebuild` runs `derive` then `translate:check` (the **non-strict**
 > form). Drift makes the build **warn, not fail** — missing units render as English fallback.
 > If you want CI to *block* on drift, run the `--strict` form yourself.
+
+---
+
+## Which model translates — local-first
+
+The seed picks its backend at run time, **preferring a local model** so a routine catch-up runs
+offline and free:
+
+| `TRANSLATE_BACKEND` | Behavior |
+|---|---|
+| unset / `auto` (default) | **Prefer local**: if the local endpoint is reachable *and* has the configured model, use it; **otherwise fall back to Anthropic** (`claude-sonnet-4-6`). |
+| `local` | Force the local model; **error** if it isn't reachable (no silent paid fallback). |
+| `anthropic` | Force Claude (the fallback), e.g. for a from-scratch new-language seed where you want top quality. |
+
+The local backend (`lib/translate-local.mjs`) talks to any **OpenAI-compatible** chat endpoint —
+[Ollama](https://ollama.com) (default) or LM Studio. Both backends build the **same** prompt +
+protected-terms glossary from `lib/translate-prompts.mjs`, so only the model differs.
+
+**Local setup (one time):**
+
+```bash
+# install Ollama (https://ollama.com), then:
+ollama pull qwen2.5:14b     # strong zh-Hans/zh-Hant/es; non-thinking → clean output
+ollama serve                # or just have the app running (default port 11434)
+```
+
+**Config (env, all optional):**
+
+| Var | Default | Notes |
+|---|---|---|
+| `TRANSLATE_LOCAL_BASE_URL` | `http://localhost:11434/v1` | Ollama. LM Studio is `http://localhost:1234/v1`. |
+| `TRANSLATE_LOCAL_MODEL` | `qwen2.5:14b` | Any pulled chat model. **Qwen** is recommended (best open zh). Avoid `qwen3.5:27b` here — much slower with little gain. |
+| `TRANSLATE_LOCAL_MAX_TOKENS` | `8192` | The seed **errors** rather than commit a `length`-truncated translation. |
+| `TRANSLATE_CONCURRENCY` | `1` for local, `4` for Anthropic | Local is one resident model — parallel requests just thrash. |
+
+The run logs its choice: `translate: backend = local (qwen2.5:14b @ …)`.
+
+> **Quality caveat — review local output a little harder.** Local models (Qwen) are a notch
+> below Claude on legal nuance. Recurring nits to catch in the [review pass](#the-review-pass),
+> on top of the usual ones: the **status word "Reported"** wants *据报道 / reportedly* — **not**
+> `报告` ("a report"); and the model may **drop the `⚠` marker** or fullwidth-punctuate around it.
+> The [protected-terms glossary](#protected-terms-glossary) test still gates every commit
+> regardless of backend.
 
 ---
 
@@ -120,10 +173,11 @@ reuses everything else. Then:
 git add i18n && git commit -m "i18n(web): translate <what changed>"
 ```
 
-**Cost:** the seed calls the Anthropic API (`claude-sonnet-4-6`) and is billed to **your API
-account** (separate from any Claude Code session). It scales with the **size of the change**,
-not the whole archive — a few new timeline rows is a few units, not 300. A brand-new language
-is a full archive (~340 units).
+**Cost:** by default the seed runs on your **local model** — free and offline. Only the
+**Anthropic fallback** (`claude-sonnet-4-6`) is billed to your API account (separate from any
+Claude Code session). Either way it scales with the **size of the change**, not the whole
+archive — a few new timeline rows is a few units, not 300. A brand-new language is a full
+archive (~340 units); for that, `TRANSLATE_BACKEND=anthropic` is worth it for quality.
 
 ---
 
@@ -144,7 +198,8 @@ Worked example: how `zh-Hant` (Traditional Chinese) was added.
   (`Noto Sans SC` for Simplified, `Noto Sans TC` for Traditional). **Latin languages set
   neither** (`isCJK: false`, no `ogFont`).
 
-**2. Set the translation register** — `lib/translate-anthropic.mjs`, one entry in `LANG`:
+**2. Set the translation register** — `lib/translate-prompts.mjs`, one entry in `LANG` (shared by
+both backends):
 
 ```js
 "zh-Hant": "Traditional Chinese (繁體中文, Taiwan terminology — 臺灣正體 …)",
@@ -231,8 +286,9 @@ the rule). Fast manual detector: `grep -rl '美國福克\|空軍\|阿富汗' web
 ## Guardrails
 
 - **`web/.env` holds `ANTHROPIC_API_KEY` and is gitignored. Never commit it; never print the
-  key.** Only `scripts/translate.mjs` (the seed) needs it — it lazy-imports the SDK, so
-  `derive`, `build`, `test`, and `translate:check` run **without** a key.
+  key.** It's only needed for the **Anthropic fallback** of `scripts/translate.mjs` (the local
+  default needs no key) — and the seed lazy-imports the SDK, so `derive`, `build`, `test`, and
+  `translate:check` run **without** a key regardless.
 - **Translations are committed artifacts.** Don't `.gitignore` `i18n/<loc>/` — the build reads
   them; CI does not (and should not) call the API.
 - **Don't hand-edit `_translation-manifest.json`.** It's regenerated by the seed; editing it
