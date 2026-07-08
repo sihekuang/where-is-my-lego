@@ -250,9 +250,9 @@ async function runCheck() {
 // cache (and its cost/latency win) on every request of the batch.
 const CONCURRENCY = Math.max(1, parseInt(process.env.TRANSLATE_CONCURRENCY ?? "4", 10) || 4);
 
-/** Translate every string in `texts` (Set/array), CONCURRENCY at a time after a
- * cache-warming first call. Returns Map(source -> translation). */
-async function pooledTranslate(texts, translate, log) {
+/** Translate every string in `texts` (Set/array), `concurrency` at a time after
+ * a cache-warming first call. Returns Map(source -> translation). */
+async function pooledTranslate(texts, translate, log, concurrency = CONCURRENCY) {
   const list = [...texts];
   const tmap = new Map();
   if (!list.length) return tmap;
@@ -260,7 +260,7 @@ async function pooledTranslate(texts, translate, log) {
   tmap.set(list[0], await translate(list[0]));
   const rest = list.slice(1);
   let next = 0;
-  const workers = Array.from({ length: Math.min(CONCURRENCY, rest.length) }, async () => {
+  const workers = Array.from({ length: Math.min(concurrency, rest.length) }, async () => {
     while (next < rest.length) {
       const s = rest[next++];
       log(s);
@@ -274,7 +274,16 @@ async function pooledTranslate(texts, translate, log) {
 const oneLine = (s, n = 40) => `${s.slice(0, n).replace(/\n/g, "⏎")}${s.length > n ? "…" : ""}`;
 
 async function runSeed() {
-  const { makeTranslator } = await import("../lib/translate-anthropic.mjs");
+  // Local-first backend selection: prefer the offline/free local model, fall
+  // back to the Anthropic API. Force with TRANSLATE_BACKEND=local|anthropic.
+  const { resolveTranslatorFactory } = await import("../lib/translate-backend.mjs");
+  const backend = await resolveTranslatorFactory();
+  const makeTranslator = backend.makeTranslator;
+  // Local = one resident model on one machine: parallel requests serialize or
+  // thrash, and there's no prompt cache to warm — so default to 1. Anthropic
+  // keeps the cache-warming default of 4. TRANSLATE_CONCURRENCY overrides both.
+  const concurrency = Math.max(1, parseInt(process.env.TRANSLATE_CONCURRENCY ?? (backend.name === "local" ? "1" : "4"), 10) || 1);
+  console.log(`translate: backend = ${backend.name} (${backend.detail}), concurrency = ${concurrency}`);
   const sources = loadSources();
   const structured = loadStructured();
   const enUi = loadUiSource();
@@ -308,7 +317,7 @@ async function runSeed() {
     const proseNeeded = new Set();
     seedProse(sources, stored, (s) => { proseNeeded.add(s); return s; }, prev);
     const proseMap = await pooledTranslate(proseNeeded, translateDoc,
-      (s) => console.log(`translate [${loc.code}] prose: "${oneLine(s)}"`));
+      (s) => console.log(`translate [${loc.code}] prose: "${oneLine(s)}"`), concurrency);
     const prose = seedProse(sources, stored, (s) => proseMap.get(s) ?? s, prev);
     for (const [name, body] of Object.entries(prose.files)) writeOut(resolve(base, "content", name), body);
     Object.assign(manifest, prose.manifest);
@@ -322,7 +331,7 @@ async function runSeed() {
     const needed = new Set();
     runStructured(structured, stored, prevStruct, (s) => { needed.add(s); return s; });
     const tmap = await pooledTranslate(needed, translateCell,
-      (s) => console.log(`translate [${loc.code}] structured: "${oneLine(s)}"`));
+      (s) => console.log(`translate [${loc.code}] structured: "${oneLine(s)}"`), concurrency);
     const { writes, manifest: sm } = runStructured(structured, stored, prevStruct, (s) => tmap.get(s) ?? s);
     for (const [name, obj] of Object.entries(writes)) {
       writeOut(resolve(base, "data", name), JSON.stringify(obj, null, 2) + "\n");
@@ -335,14 +344,14 @@ async function runSeed() {
     const uiNeeded = new Set();
     seedUiDict(enUi, stored, (s) => { uiNeeded.add(s); return s; }, prevUi);
     const uiMap = await pooledTranslate(uiNeeded, translateUi,
-      (s) => console.log(`translate [${loc.code}] ui: "${oneLine(s)}"`));
+      (s) => console.log(`translate [${loc.code}] ui: "${oneLine(s)}"`), concurrency);
     const ui = seedUiDict(enUi, stored, (s) => uiMap.get(s) ?? s, prevUi);
     writeOut(resolve(I18N, "ui", `${loc.code}.json`), JSON.stringify(ui.dict, null, 2) + "\n");
     Object.assign(manifest, ui.manifest);
     console.log(`translate [${loc.code}]: ${uiNeeded.size} ui string(s) translated, ${Object.keys(enUi).length - uiNeeded.size} reused`);
 
     writeOut(resolve(base, "_translation-manifest.json"), JSON.stringify(manifest, null, 2) + "\n");
-    console.log(`translate [${loc.code}]: ${prose.stale.length} prose section(s) refreshed, concurrency=${CONCURRENCY}`);
+    console.log(`translate [${loc.code}]: ${prose.stale.length} prose section(s) refreshed, concurrency=${concurrency}`);
   }
 }
 

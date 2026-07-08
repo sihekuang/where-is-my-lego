@@ -34,7 +34,8 @@ Per CLAUDE.md's two-agent rule: dispatch a verifier with the claims **as written
 
 ## Translate
 
-- Same PR **iff** the branch is fresh off current `origin/main` and `node scripts/translate.mjs --check` shows only your units (no key needed); otherwise a separate PR after merge. Then `node --env-file=.env scripts/translate.mjs` (key in gitignored `web/.env`).
+- Same PR **iff** the branch is fresh off current `origin/main` and `node scripts/translate.mjs --check` shows only your units (no key needed); otherwise a separate PR after merge. Then `node --env-file=.env scripts/translate.mjs`.
+- **Local-first backend:** the seed prefers a **local model** (Ollama `qwen2.5:14b` — free/offline, no key; needs Ollama running) and falls back to the Anthropic API (key in gitignored `web/.env`) only if none is reachable. Force with `TRANSLATE_BACKEND=local|anthropic`. Local (Qwen) is a notch below Claude — review the changed units harder: "Reported" → *据报道* (not `报告`), keep the `⚠` marker. Full detail: `web/i18n/README.md`.
 - **Quote-normalization sweep (always)**: machine translation renders the same verbatim quote differently per file. Pick one faithful rendering per locale and sweep timeline + media data files (**cells AND `plain` copies**) + prose. Hand-edits are drift-durable. Re-run `pnpm test` (glossary) and `translate.mjs --check` (must be 0).
 
 ## Ask the owner only for

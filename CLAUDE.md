@@ -110,15 +110,19 @@ Other languages are **machine-translated at build time, committed, and human-rev
 parallel-language source files. After editing/merging English content, refresh the translations:
 
 ```bash
-cd web && node --env-file=.env scripts/translate.mjs   # re-translates only what changed; bills the Anthropic API
+cd web && node --env-file=.env scripts/translate.mjs   # re-translates only what changed
 git add i18n && git commit
 ```
 
-Only changed units are re-translated (per-unit SHA-256 drift), and **hand-corrections are
-drift-durable** — they survive re-seeds. Missing/stale translations fall back to English at render
-time, so the build never breaks on drift. **Full how-to (including adding a language and the review
-pass): [`web/i18n/README.md`](web/i18n/README.md).** `web/.env` holds `ANTHROPIC_API_KEY` and is
-gitignored — never commit it.
+The seed is **local-first**: it runs on a **local model by default** (Ollama `qwen2.5:14b` — free,
+offline, no key), and **falls back to the Anthropic API** only when no local model is reachable
+(force either with `TRANSLATE_BACKEND=local|anthropic`). Only changed units are re-translated
+(per-unit SHA-256 drift), and **hand-corrections are drift-durable** — they survive re-seeds.
+Missing/stale translations fall back to English at render time, so the build never breaks on drift.
+Local (Qwen) output is a notch below Claude — review the changed units a little harder (see the
+README's quality caveat). **Full how-to (backends, adding a language, the review pass):
+[`web/i18n/README.md`](web/i18n/README.md).** `web/.env` holds `ANTHROPIC_API_KEY` (needed only for
+the Anthropic fallback) and is gitignored — never commit it.
 
 ## Sourcing & labeling conventions (content)
 
