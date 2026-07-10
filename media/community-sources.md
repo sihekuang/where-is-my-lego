@@ -85,7 +85,14 @@ flagged as unreported: the **American Fork** July 1 stalking hearing was **conti
 (attorneys **Delicino** + **Williams** in a St. George federal trial, sought more time) and the **Provo**
 **Jul 6** pretrial set a **Sept. 15, 2026** next hearing (Schneider to be fingerprinted); the same article
 gives the first **mainstream** corroboration of the patron-only **Part 3** release (see [*2026-07-08 update —
-second sweep*](#2026-07-08-update--news-watcher-pass-second-sweep) at the very end).
+second sweep*](#2026-07-08-update--news-watcher-pass-second-sweep) at the very end); **news watcher pass
+2026-07-10** — **one genuinely new dated event**: a **Jul 7, 2026** federal **memorandum decision and order**
+(**Judge David Barlow**, D. Utah No. 2:26-cv-00593) **questioning the court's own diversity jurisdiction** —
+the Jun 26 removal notice failed to state the citizenship of each **member** of **Reckless Ben LLC**, and the
+court ordered the defendants to cure that **by Jul 21, 2026 "or [the] case will be remanded for lack of
+jurisdiction"** (docket-tracker order + independent **KSL** corroboration; ⚠ snippet-level; "members" [order]
+vs. "employees" [KSL]); no remand ruling, settlement, new charge, or Part 4 surfaced (see
+[*2026-07-10 update*](#2026-07-10-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -1284,3 +1291,39 @@ ruling on the stipulated injunction) surfaced this pass.
 > agents were **blocked from a direct read of KSL (403)**; corroboration rests on consistent WebSearch snippets
 > across multiple queries, not a full-text read — cross-check Utah XChange / the PACER docket sheet. **Nothing
 > was raised to CONFIRMED.**
+
+---
+
+## 2026-07-10 update — news watcher pass
+
+A targeted pass for developments after the **~Jul 8–9** cutoff (the public Part-3 upload + first
+post-gag interviews). **Reddit was unreachable this run** (r/RecklessBen blocked to non-browser clients;
+`old.reddit.com`, `*.json`, and `WebFetch` all 403 or refused), so this pass ran on **WebSearch snippets**
++ docket-tracker/news snippets only. **One genuinely new, significant dated event** surfaced — a **federal
+court order questioning its own jurisdiction** — which also **updates** the Jul 8–9 row's "no order followed
+the Jul 6 injunction / no remand surfaced" note:
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Jul 7, 2026 federal order — diversity jurisdiction challenged; Jul 21 show-or-remand deadline.** One day after entering the stipulated preliminary injunction, **U.S. District Judge David Barlow** issued a **memorandum decision and order** (***BAM Franchising Inc v. Schneider***, No. **2:26-cv-00593**, D. Utah) finding the **Jun 26 Notice of Removal did not state the citizenship of each *member* of Reckless Ben LLC**, and ordering the defendants to **show that citizenship "on or before July 21, 2026 … Otherwise, this case will be remanded for lack of jurisdiction."** This is the court **testing removal *sua sponte*** (not a plaintiffs' remand motion), putting the case's continued federal presence in genuine doubt. | `timeline.md` (new **Jul 7** row, placed after the Jul 6 federal-PI row) | **CONFIRMED** that the court raised diversity jurisdiction + set the Jul 21 show-or-remand deadline (federal docket-tracker order + independent **KSL** corroboration); ⚠ read at **docket-tracker/snippet + single-news-outlet** level only (all pages 403'd — no live docket-sheet read); ⚠ **"members"** (order) vs. **"employees"** (KSL) wording differs. Cross-check the PACER docket sheet (D. Utah). |
+
+**Also checked, nothing new to add:** the Jul 8 public Part-3 YouTube upload, the Jul 6 federal PI grant, the
+Jul 1/Jul 6 criminal-hearing outcomes, and the NewsNation/ABC4 interviews are all **already recorded**. No
+outlet reported a **remand ruling**, a **settlement/mediation outcome**, a new **criminal charge** (the
+"aggravated commercial obstruction" felony remains *floated in police discussion, not filed* — already noted
+in the Jul 8–9 row), or a **Part 4** release this pass. The "July 10" search hits were all recaps of the
+already-recorded Jul 8 Part-3 release.
+
+> **Verification.** Two-agent rule applied. An **independent verifier subagent** was given **only the
+> claim-as-written + the four citation URLs** (CourtListener, PacerMonitor, Justia, KSL) and re-ran its own
+> searches. It **CONFIRMED (snippet-level)**: (a) a **7/7/26** order **signed by Judge David Barlow** requiring
+> the defendants to show **"the citizenship of each of the members of Defendant Reckless Ben LLC to show
+> diversity"** by **July 21, 2026**; (b) that the order states **"Otherwise, this case will be remanded for
+> lack of jurisdiction"**; and (c) independent **KSL** (art. 51595241) corroboration that Barlow **"has not yet
+> decided whether the case should be in the federal courts and asked for information about where employees of
+> Schneider's company, Reckless Ben, live."** It **flagged** the **"members" (order) vs. "employees" (KSL)**
+> discrepancy (an LLC's citizenship follows its *members*, not its employees) — preserved inline rather than
+> blended — and noted a stray ">$300,000 amount-in-controversy" snippet it **could not** independently confirm
+> from the order text (not used). ⚠ Both agents were **blocked from a live docket-sheet / full-article read
+> (all four URLs 403'd)**; corroboration rests on consistent WebSearch snippets across independent queries,
+> not a full-text read — cross-check the **PACER docket sheet** (D. Utah).
