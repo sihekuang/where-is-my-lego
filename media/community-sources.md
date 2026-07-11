@@ -85,7 +85,12 @@ flagged as unreported: the **American Fork** July 1 stalking hearing was **conti
 (attorneys **Delicino** + **Williams** in a St. George federal trial, sought more time) and the **Provo**
 **Jul 6** pretrial set a **Sept. 15, 2026** next hearing (Schneider to be fingerprinted); the same article
 gives the first **mainstream** corroboration of the patron-only **Part 3** release (see [*2026-07-08 update —
-second sweep*](#2026-07-08-update--news-watcher-pass-second-sweep) at the very end).
+second sweep*](#2026-07-08-update--news-watcher-pass-second-sweep) at the very end); **news watcher pass
+2026-07-11** — **no new dated event**; the **Salt Lake Tribune** (Jul 10, 2026) provides **independent
+mainstream corroboration** of the **Jul 6 federal preliminary injunction** (previously flagged single-origin
+Dexerto), and the Jul 7 diversity-jurisdiction / Jul 21 show-or-remand order it also touches is already the
+subject of **open PR #79** (not duplicated) — see [*2026-07-11
+update*](#2026-07-11-update--news-watcher-pass) at the very end.
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -1284,3 +1289,37 @@ ruling on the stipulated injunction) surfaced this pass.
 > agents were **blocked from a direct read of KSL (403)**; corroboration rests on consistent WebSearch snippets
 > across multiple queries, not a full-text read — cross-check Utah XChange / the PACER docket sheet. **Nothing
 > was raised to CONFIRMED.**
+
+---
+
+## 2026-07-11 update — news watcher pass
+
+A targeted pass for developments after the **~Jul 8–9** cutoff (the public "Part 3" upload + Schneider's first
+post-gag interviews). **Reddit was unreachable this run** — r/RecklessBen is blocked to non-browser clients,
+`old.reddit.com`/`*.json` are off the egress allowlist (curl got `CONNECT tunnel failed, 403`), and `WebFetch`
+refused reddit.com — so this pass ran on **WebSearch** + outlet/docket snippets only. **No genuinely new dated
+event** surfaced.
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Salt Lake Tribune (Jul 10, 2026) — independent mainstream corroboration of the Jul 6 federal preliminary injunction.** *"Reckless Ben dispute with Bricks & Minifigs over Star Wars Lego sets lands in court"* (headline also runs as *"…can keep posting… but he faces new restrictions"*) independently reports **Judge David Barlow** signing the PI that modified the state-court TRO, and the court's not-yet-decided **federal-jurisdiction** question (*"asked for information about where employees of Schneider's company, Reckless Ben, live"*). SLTrib is its **own Utah newsroom**, not a Dexerto reprint — a **second independent mainstream outlet** for the Jul 6 grant, which the archive had flagged **single-origin (Dexerto)**. | `timeline.md` (Jul 6 row — sourcing note + Status/Source columns); `news-articles.md` | Jul 6 grant **strengthened** — now two independent mainstream outlets (Dexerto + Salt Lake Tribune); ⚠ **snippet-level only** (sltrib.com 403'd), and SLTrib's **stay-away distance figure was not readable** so it does **not** resolve the "100 yards" vs. "100 meters" conflict |
+| 2 | **Brick Fanatics — "Reckless Ben gets animated… 'freedom of speech back'."** Editorial coverage of the public Part 3 release + the first post-gag interviews. | `news-articles.md` | Catalog enrichment (recap of already-recorded Jul 8–9 events) |
+| 3 | **Jul 7, 2026 federal diversity-jurisdiction order (Jul 21 show-or-remand deadline).** Barlow questioned the court's own diversity jurisdiction and ordered defendants to show each member's citizenship by Jul 21 or face remand. SLTrib (item 1) also touches this. | **Not added here** | Already the subject of **open PR #79** (`auto/news-2026-07-10…`); **not duplicated** — the SLTrib corroboration is noted so it can be folded into that PR. |
+
+**Also checked, nothing new to add:** the Jul 8 public Part-3 YouTube upload, the Jul 6 federal PI grant, the
+Jul 1 (American Fork → Aug 12) / Jul 6 (Provo → Sept 15) criminal-hearing outcomes, the NewsNation/ABC4
+interviews, and the "Part 4 in development" tease are all **already recorded**. **No** outlet reported a **remand
+ruling**, a settlement/mediation outcome, a newly *filed* criminal charge (the "aggravated commercial obstruction"
+felony remains *floated in police discussion, not filed* — already noted), or an actual **Part 4** release. "July
+10/11" search hits were recaps of the already-recorded Jul 8–9 release.
+
+> **Verification.** Two-agent rule applied. An **independent verifier subagent** was given **only the
+> claim-as-written + the SLTrib citation URL** and re-ran its own searches. It **confirmed at snippet level**:
+> the article/URL/Jul-10 date, the **Jul 6 Barlow preliminary-injunction-modifying-TRO** event, the
+> federal-jurisdiction-undecided / *"where employees of Schneider's company … live"* detail, and that the
+> **Salt Lake Tribune is an independent newsroom, not a Dexerto reprint**. It **could NOT confirm** that the
+> SLTrib article itself uses **"100 yards"** (a competing **"100 meters"** figure exists, tied to KSL) — so the
+> distance claim was **dropped** and the "100 yards" vs. "100 meters" conflict left **unresolved**. ⚠ Both agents
+> were **blocked from a live sltrib/KSL full-text read (403)**; corroboration rests on consistent WebSearch
+> snippets — cross-check the primary court order in **D. Utah No. 2:26-cv-00593**. **Nothing was raised to
+> CONFIRMED.**
