@@ -92,7 +92,12 @@ the Jun 26 removal notice failed to state the citizenship of each **member** of 
 court ordered the defendants to cure that **by Jul 21, 2026 "or [the] case will be remanded for lack of
 jurisdiction"** (docket-tracker order + independent **KSL** corroboration; ⚠ snippet-level; "members" [order]
 vs. "employees" [KSL]); no remand ruling, settlement, new charge, or Part 4 surfaced (see
-[*2026-07-10 update*](#2026-07-10-update--news-watcher-pass) at the very end).
+[*2026-07-10 update*](#2026-07-10-update--news-watcher-pass) at the very end); **news watcher pass
+2026-07-11** — **no new dated event**; the **Salt Lake Tribune** (Jul 10, 2026, staff byline *Jordan Miller*)
+gives **independent mainstream corroboration** of the **Jul 6 federal order** (previously flagged single-origin
+Dexerto) — an independent Utah newsroom report, not a Dexerto reprint; it does **not** address the diversity-
+jurisdiction question (that stays tied to the Jul 7 order / KSL) (see [*2026-07-11
+update*](#2026-07-11-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -1327,3 +1332,40 @@ already-recorded Jul 8 Part-3 release.
 > from the order text (not used). ⚠ Both agents were **blocked from a live docket-sheet / full-article read
 > (all four URLs 403'd)**; corroboration rests on consistent WebSearch snippets across independent queries,
 > not a full-text read — cross-check the **PACER docket sheet** (D. Utah).
+
+---
+
+## 2026-07-11 update — news watcher pass
+
+A targeted pass for developments after the **~Jul 8–9** cutoff (the public "Part 3" upload + Schneider's
+first post-gag interviews). **Reddit was unreachable this run** — r/RecklessBen is blocked to non-browser
+clients, `old.reddit.com` / `*.json` are off the egress allowlist, and `WebFetch` refused reddit.com — so
+this pass ran on **WebSearch + outlet/docket snippets** only. **No genuinely new dated event** surfaced; the
+one source-backed item is a **sourcing refinement** — a second independent mainstream outlet for the Jul 6
+federal order.
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Salt Lake Tribune (Jul 10, 2026) — independent mainstream corroboration of the Jul 6 federal order.** A staff-bylined (**Jordan Miller**) original report — *"'Reckless Ben' can keep posting… but he faces new restrictions"* (SEO/tab title *"…dispute with Bricks & Minifigs… lands in court"*) — independently states **Judge David Barlow "signed off on the order Monday"** (= Jul 6), the new **federal order** replacing Judge Graf's **Jun 2** state-court TRO and letting Schneider comment *"through any lawful means or methods they choose."* SLTrib is its **own Utah newsroom**, not a Dexerto reprint (zero syndication footprint) — a **second independent mainstream outlet** for the Jul 6 grant, which the archive had flagged single-origin (Dexerto). | `timeline.md` (Jul 6 row — sourcing note + Status/Source columns); `news-articles.md` | Jul 6 grant **strengthened** — now multiple independent mainstream outlets (Dexerto + Salt Lake Tribune, with KSL). ⚠ SLTrib calls it *"the order,"* **not** a *"preliminary injunction"* (that label stays with Dexerto); it does **not** touch the diversity-jurisdiction question; and its stay-away figure is **"within 100 yards"** — a paraphrase siding with Dexerto over KSL's *"100 meters,"* not resolving that conflict |
+| 2 | **Brick Fanatics — "Reckless Ben gets animated and has 'freedom of speech back'."** Editorial recap of the public Part 3 release. | `news-articles.md` | Catalog enrichment (recap of already-recorded Jul 8–9 events); ⚠ read at snippet level only (Cloudflare-blocked full read) |
+| 3 | **Jul 7, 2026 federal diversity-jurisdiction order (Jul 21 show-or-remand deadline).** | **Not added here** | Already recorded — the **Jul 7 row** + the [*2026-07-10 update*](#2026-07-10-update--news-watcher-pass); **not duplicated**. ⚠ The SLTrib article does **not** cover this order (an earlier draft misattributed it to SLTrib; corrected on independent re-read) |
+
+**Also checked, nothing new to add:** the Jul 8 public Part-3 YouTube upload, the Jul 6 federal order, the
+Jul 1 (American Fork → Aug 12) / Jul 6 (Provo → Sept 15) criminal-hearing outcomes, the NewsNation/ABC4
+interviews, and the "Part 4 in development" tease are all **already recorded**. No outlet reported a **remand
+ruling**, a settlement/mediation outcome, a newly *filed* criminal charge, or an actual **Part 4** release.
+"July 10/11" search hits were recaps of the already-recorded Jul 8–9 release.
+
+> **Verification.** Two-agent rule applied. An **independent verifier** re-opened the sources from the bare
+> citation URLs — and this time **retrieved the full SLTrib article body** (via the page's Arc Publishing
+> JSON; the markdown pass had only seen the headline). It **CONFIRMED**: the **Jul 10, 2026** date/URL/byline
+> (Jordan Miller), that the article independently reports **Barlow "signed off on the order Monday"** (= Jul 6)
+> replacing the Jun 2 state TRO, and that SLTrib is a **genuine independent newsroom** (no Dexerto/syndication
+> footprint). It **corrected three over-reaches** in the initial draft: (a) SLTrib says *"the order,"* **not**
+> *"preliminary injunction"* (label kept with Dexerto); (b) SLTrib does **not** mention diversity jurisdiction
+> or "where employees live" — that material belongs to the **Jul 7** order / KSL, **not** the Tribune (the
+> draft's misattribution was removed); and (c) SLTrib **does** state a distance — **"within 100 yards"** (3× in
+> the body) — its own paraphrase, siding with Dexerto against KSL's *"100 meters,"* so the figure is attributed
+> to SLTrib but not laundered into the order's text. ⚠ Brick Fanatics stayed Cloudflare-blocked (snippet-level
+> only); its "first post-gag interviews" angle was **not** verifiable, so the catalog entry claims only the
+> Part 3 recap. Cross-check the primary order in **D. Utah No. 2:26-cv-00593**.
