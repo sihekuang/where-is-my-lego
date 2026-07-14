@@ -97,7 +97,12 @@ vs. "employees" [KSL]); no remand ruling, settlement, new charge, or Part 4 surf
 gives **independent mainstream corroboration** of the **Jul 6 federal order** (previously flagged single-origin
 Dexerto) — an independent Utah newsroom report, not a Dexerto reprint; it does **not** address the diversity-
 jurisdiction question (that stays tied to the Jul 7 order / KSL) (see [*2026-07-11
-update*](#2026-07-11-update--news-watcher-pass) at the very end).
+update*](#2026-07-11-update--news-watcher-pass) at the very end); **news watcher pass 2026-07-14** — **no new
+adjudicated/legal event** (the Jul 7 order's **Jul 21** show-or-remand deadline had not yet arrived), but one
+genuinely new **primary-source appearance**: **Schneider (+ Victor Nguyen) on the Unsubscribe Podcast, Ep. 272
+(~Jul 12, 2026)**, a ~3 hr post-gag appearance teasing "Part 4"; existence corroborated across three independent
+platform listings, ⚠ date/runtime snippet-level only (Reddit + all platform pages unreachable this run) — see
+[*2026-07-14 update*](#2026-07-14-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -1369,3 +1374,38 @@ ruling**, a settlement/mediation outcome, a newly *filed* criminal charge, or an
 > to SLTrib but not laundered into the order's text. ⚠ Brick Fanatics stayed Cloudflare-blocked (snippet-level
 > only); its "first post-gag interviews" angle was **not** verifiable, so the catalog entry claims only the
 > Part 3 recap. Cross-check the primary order in **D. Utah No. 2:26-cv-00593**.
+
+---
+
+## 2026-07-14 update — news watcher pass
+
+A targeted pass for developments after the **~Jul 10–11** cutoff (the Jul 8–9 public "Part 3" release + first
+post-gag interviews; the ~Jul 10 CAA signing; the Jul 11 SLTrib sourcing refinement). **Reddit was unreachable
+this run** — r/RecklessBen is blocked to non-browser clients, `old.reddit.com` / `*.json` are off the egress
+allowlist, and the org egress proxy returned a **403 policy denial** on `www.reddit.com` — so this pass ran on
+**WebSearch + platform/outlet snippets** only. **YouTube, Apple Podcasts, Spotify, Wikipedia, CourtListener, and
+most news outlets also 403'd** to direct fetch/`yt-dlp`, so everything below is **snippet-level**. **No new
+adjudicated / legal event** surfaced in the window; the one genuinely new, verifiable item is a **new dated
+Schneider media appearance**.
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Unsubscribe Podcast Ep. 272 — "Stolen Lego, Police Corruption & Part 4 — Reckless Ben SPEAKS OUT" (~Jul 12, 2026).** A long-form (~3 hr) appearance by **Schneider** and co-defendant **Victor Nguyen** on the third-party comedy/commentary **Unsubscribe Podcast**, published after the **Jul 6** federal preliminary injunction lifted the speech bar. Per the episode's own title/description across platforms they discuss the LEGO dispute, alleged "police corruption," the litigation, and **tease "Part 4"** as in development. A distinct **new primary-source appearance** not previously cataloged (the Part-4 tease itself was already noted from the Jul 8 Part-3 upload's closing promo). | `primary-sources.md` (Reckless Ben appearances table) | Appearance's **existence CONFIRMED** across three independent platform listings (YouTube `I0BQad-BdOY`, Apple Podcasts, Spotify); ⚠ **Reported / snippet-level** on the ~Jul 12 **date** and ~3 hr **runtime** (inferable from listings only — every platform page 403'd, no direct read). Contents are **not** cataloged (partisan primary for Schneider's own narrative; "corruption" = unadjudicated **ALLEGATION**). |
+
+**Also checked, nothing new to add:** the **Jul 7 federal diversity-jurisdiction order** and its **Jul 21
+show-or-remand deadline** are already recorded (the deadline had **not** arrived as of this pass — no response,
+no remand ruling surfaced); the **Aug 12** (American Fork) and **Sept 15** (Provo) criminal hearings are future
+and unchanged; the **Jun 24 mediation** posture shows no reported outcome; **no actual "Part 4" release**, no
+settlement/dismissal, and no newly *filed* criminal charge surfaced. "July 11–14" search hits were **recaps** of
+the already-recorded Jul 8–9 Part-3 release (e.g. Techdirt's Jul 6 *"still suing him for RICO"* commentary,
+That Oregon Life, EarlyGame) — catalog-optional recaps, not new events, and **not promoted**.
+
+> **Verification.** Two-agent rule applied. An **independent verifier** (Agent B) was given only the claim
+> as-written and the three bare citation URLs — not the author's notes — and independently tested each field.
+> It **confirmed** across three independent platform listings: the exact title, **episode number (272)**,
+> multi-platform existence, the **guests (Reckless Ben + Victor)**, the topics (B&M dispute / police corruption /
+> litigation), and the **"Part 4"** reference (which is in the title itself). It **flagged as snippet-inferable
+> only** (could not open any source directly — all three 403'd): the **~Jul 12, 2026 date** and the **~3 hr
+> runtime**, both consistent across searches but not read as a primary field — hence the **Reported ⚠**
+> label and the "~" date qualifier. No claim was raised to CONFIRMED beyond the appearance's *existence*; its
+> contents remain uncataloged. **Reddit was not reachable** for either agent this run.
