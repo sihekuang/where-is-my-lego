@@ -1369,3 +1369,44 @@ ruling**, a settlement/mediation outcome, a newly *filed* criminal charge, or an
 > to SLTrib but not laundered into the order's text. ⚠ Brick Fanatics stayed Cloudflare-blocked (snippet-level
 > only); its "first post-gag interviews" angle was **not** verifiable, so the catalog entry claims only the
 > Part 3 recap. Cross-check the primary order in **D. Utah No. 2:26-cv-00593**.
+
+## 2026-07-14 update — news watcher pass
+
+A targeted pass for developments after the archive's **~Jul 10–11** cutoff (the Jul 8–9 public "Part 3"
+release + first post-gag interviews; the ~Jul 10 CAA signing; the Jul 11 SLTrib sourcing refinement).
+**No new adjudicated / legal event** surfaced: the **Jul 7** federal order's **Jul 21 show-or-remand
+deadline had not yet arrived** (no response filed, no remand ruling), the **Aug 12** (American Fork) and
+**Sept 15** (Provo) criminal hearings are future/unchanged, and no settlement, dismissal, newly *filed*
+charge, or actual **"Part 4"** release was reported. Most "Jul 11–14" search hits were **recaps** of the
+already-recorded Jul 8–9 Part-3 release and were **not promoted**. As in recent passes, **Reddit was
+unreachable** (`WebFetch` on `www.reddit.com` failed; `old.reddit.com` / `*.json` off the allowlist, no
+browser) and `WebFetch` returned **HTTP 403** on the primary hosts (Techdirt, KSL, Dexerto, SLTrib, THR),
+so reads were **WebSearch result titles + snippets**, not full-page reads. **Nothing was raised to
+CONFIRMED.**
+
+The one genuinely new, verifiable item is a **new dated commentary/analysis article** from a
+recurring-cited outlet, cataloged in [`news-articles.md`](./news-articles.md):
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Techdirt (Jul 13, 2026) — "'Reckless' Ben's Videos Keep Getting More Damning. His Pro Se Lawyering Keeps Getting Worse."** A **legal-analysis / opinion** follow-up by **Mike Masnick** to the outlet's **Jun 2** piece (already cataloged), arguing Schneider's **pro se** self-representation is hurting him — especially in the **criminal** cases — and urging him to hire counsel, while crediting his public **Part 3** video with damning BAM/police footage. **Commentary/recap of already-recorded Jul 6–9 developments — not a report of a new adjudicated court event.** | `media/news-articles.md` (one new row after the Jul 10 CAA rows) | **Reported ⚠** — recurring cited outlet, but read at **search-snippet level only** (page + Techdirt's Jul 13 index both 403'd). Cataloged as commentary, **not** a source for any timeline event. |
+
+**Deliberately not promoted / re-confirmed already-recorded:**
+- **No new court development.** The Jul 7 order's **Jul 21** diversity-jurisdiction deadline is still pending
+  (no member-citizenship showing, no remand ruling surfaced); the **Jun 24 mediation** posture is unchanged;
+  no settlement or Mansell dismissal. Re-check after Jul 21.
+- **"Part 4."** Only *teased* (in the Jul 8 Part-3 closing promo, already noted); **no release** reported this
+  pass. A separate **~Jul 12 Unsubscribe Podcast Ep. 272** appearance (Schneider + Victor Nguyen) is being
+  cataloged in **co-pending open PR #83** (`auto/news-20260714T061455Z`) — **not duplicated here.**
+- **Part-3 recaps** (earlygame, Brick Fanatics, backyarddrunkard, FindLaw explainer) restate the
+  already-recorded Jul 8–9 public release — no new dated fact.
+
+> **Verification.** Two-agent rule applied. An **independent verifier subagent** was given **only the
+> claim-as-written + the bare Techdirt URL** and re-ran its own searches. It **CONFIRMED** (snippet-level;
+> the page and the Jul 13 index both 403'd) the exact **title**, the **2026-07-13** date (index timestamp
+> "Mon, Jul 13th 2026 09:36am"), the **author (Mike Masnick**, per the index "Author:" line + his Techdirt
+> profile), that the piece is **about the BAM / Reckless Ben case**, and that it is **commentary/analysis,
+> not a report of a new adjudicated event**. Critically, it **found no post-Jul-10 dated court event** in the
+> article's snippets (no new federal filing responding to the Jul 21 deadline, no remand, no settlement, no
+> new charge) — so the item is cataloged as coverage only. Neither agent could open the page directly (403),
+> so nothing was raised to CONFIRMED.
