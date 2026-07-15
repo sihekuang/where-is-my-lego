@@ -97,7 +97,25 @@ vs. "employees" [KSL]); no remand ruling, settlement, new charge, or Part 4 surf
 gives **independent mainstream corroboration** of the **Jul 6 federal order** (previously flagged single-origin
 Dexerto) — an independent Utah newsroom report, not a Dexerto reprint; it does **not** address the diversity-
 jurisdiction question (that stays tied to the Jul 7 order / KSL) (see [*2026-07-11
-update*](#2026-07-11-update--news-watcher-pass) at the very end).
+update*](#2026-07-11-update--news-watcher-pass) at the very end); **news watcher pass 2026-07-14** — **no new
+adjudicated/legal event** (the Jul 7 order's **Jul 21** show-or-remand deadline had not yet arrived), but two
+genuinely new dated items: **Schneider (+ "Victor," identified per the case record as Victor Nguyen) on the
+Unsubscribe Podcast, Ep. 272 (Jul 12, 2026)**, a ~3 hr post-gag **primary-source appearance** teasing "Part 4"
+(directly verified on all three platform listings at consolidation), and a **Techdirt legal-analysis follow-up
+(Jul 13, 2026, Mike Masnick)** on Schneider's **pro se** lawyering — commentary on already-recorded Jul 6–10
+developments, not a new court event (see [*2026-07-14
+update*](#2026-07-14-update--news-watcher-pass) at the very end); **news watcher pass 2026-07-15** — **one
+small new dated docket refinement**: on **Jul 8, 2026** the federal court (D. Utah No. 2:26-cv-00593) set
+**non-party Gregory C. Belmont's filings** aside as **"LODGED" per Chambers** (two docket events — the Jul 1
+intervention notice retroactively marked, plus a second Jul 7 document lodged at entry) — because he "has not
+been granted leave to intervene and should not be submitting filings" — held "for reference purposes only"
+pending any grant of leave; the **intervention motion itself remains undecided**, and no
+remand/settlement/new-charge/Part-4 surfaced (folded into the Jul 1 Belmont timeline row; **docket-verified at
+consolidation** — direct reads of two PACER trackers); consolidation (Jul 15) also surfaced **BAM's Jul 10
+blog statement** ("An Update on Brand Improvements and Pending Litigation" — its first public statement after
+"Part 3" went public; new Jul 10 timeline row + `primary-sources.md` row) and **docket-anchored the Jul 6
+order's "preliminary injunction" label** (entry #21, read directly — the Jul 6 row is now CONFIRMED) (see
+[*2026-07-15 update*](#2026-07-15-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -1369,3 +1387,99 @@ ruling**, a settlement/mediation outcome, a newly *filed* criminal charge, or an
 > to SLTrib but not laundered into the order's text. ⚠ Brick Fanatics stayed Cloudflare-blocked (snippet-level
 > only); its "first post-gag interviews" angle was **not** verifiable, so the catalog entry claims only the
 > Part 3 recap. Cross-check the primary order in **D. Utah No. 2:26-cv-00593**.
+
+---
+
+## 2026-07-14 update — news watcher pass
+
+A targeted pass (two sweeps, consolidated here) for developments after the **~Jul 10–11** cutoff (the Jul 8–9
+public "Part 3" release + first post-gag interviews; the ~Jul 10 CAA signing; the Jul 11 SLTrib sourcing
+refinement). **Reddit was unreachable on the watcher runs** — r/RecklessBen is blocked to non-browser clients,
+`old.reddit.com` / `*.json` are off the egress allowlist, and the org egress proxy returned a **403 policy
+denial** on `www.reddit.com` — so the watcher sweeps ran on **WebSearch + platform/outlet snippets** only.
+**No new adjudicated / legal event** surfaced in the window: the **Jul 7** federal order's **Jul 21
+show-or-remand deadline had not yet arrived** (no response filed, no remand ruling), the **Aug 12** (American
+Fork) and **Sept 15** (Provo) criminal hearings are future/unchanged, and no settlement, dismissal, newly
+*filed* charge, or actual **"Part 4"** release was reported. Two genuinely new, dated items surfaced:
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Unsubscribe Podcast Ep. 272 — "Stolen Lego, Police Corruption & Part 4 - Reckless Ben SPEAKS OUT" (Jul 12, 2026).** A long-form (~3 hr) appearance by **Schneider** and **"Victor"** (identified per the case record as co-defendant **Victor Nguyen** — the episode itself credits him only by first name) on the third-party comedy/commentary **Unsubscribe Podcast**, published after the **Jul 6** federal preliminary injunction lifted the speech bar. Per the episode's own title/description they discuss the LEGO dispute, alleged "police corruption," the litigation, and **tease "Part 4"** as in development. A distinct **new primary-source appearance** not previously cataloged (the Part-4 tease itself was already noted from the Jul 8 Part-3 upload's closing promo). | `primary-sources.md` (Reckless Ben appearances table) | Appearance **CONFIRMED** — at consolidation (Jul 15) **directly verified by two agents independently** on all three platforms (YouTube `I0BQad-BdOY` metadata; Spotify embed; Apple/iTunes + Megaphone RSS `itunes:episode` 272): released **Jul 12, 2026**, runtime **2:56:45** (video) / 3:02:30 (audio), availability public — superseding the watcher run's snippet-level read (all platform pages had 403'd it). Contents are **not** cataloged (partisan primary for Schneider's own narrative; "corruption" = unadjudicated **ALLEGATION**). |
+| 2 | **Techdirt (Jul 13, 2026) — "'Reckless' Ben's Videos Keep Getting More Damning. His Pro Se Lawyering Keeps Getting Worse."** A **legal-analysis / opinion** piece by **Mike Masnick** — the 4th Techdirt piece on the case, following the cataloged **Jun 2** piece — arguing Schneider's **pro se** self-representation is hurting him — especially in the **criminal** cases — and urging him to hire counsel, while crediting his public **Part 3** video with damning BAM/police footage. **Commentary/recap of already-recorded Jul 6–10 developments — not a report of a new adjudicated court event.** | `media/news-articles.md` (one new row after the Jul 10 CAA rows) | **Read in full at consolidation (Jul 15)** — direct fetch succeeded (byline **Mike Masnick**, `article:published_time` 2026-07-13T16:36 UTC), superseding the watcher run's snippet-level read (page + index had 403'd). Its back third covers **BAM's Jul 10 blog statement**, promoted at consolidation to its own timeline + `primary-sources.md` rows. Cataloged as commentary, **not** a source for any adjudicated timeline event. |
+
+**Also checked, nothing new to add:** the **Jul 7 federal diversity-jurisdiction order** and its **Jul 21
+show-or-remand deadline** are already recorded (the deadline had **not** arrived as of this pass — no response,
+no remand ruling surfaced); the **Jun 24 mediation** posture shows no reported outcome; **no actual "Part 4"
+release**, no settlement/dismissal, and no newly *filed* criminal charge surfaced (Part 4 remains only
+*teased* — in the Jul 8 Part-3 closing promo and now in the Ep. 272 title, item 1 above). Other "Jul 11–14"
+search hits were **recaps** of the already-recorded Jul 8–9 Part-3 release (That Oregon Life, EarlyGame,
+Brick Fanatics, backyarddrunkard, a FindLaw explainer) — catalog-optional recaps, not new events, and **not
+promoted**.
+
+> **Verification.** Two-agent rule applied — twice. Each item was first authored and independently verified on
+> its own watcher sweep (verifier given only the claim-as-written + bare citation URLs; both sweeps
+> snippet-level — every platform/outlet page 403'd that environment). At **consolidation (Jul 15)** both items
+> were **re-verified by fresh independent agents from the bare URLs, this time with full direct reads**:
+> (1) the podcast episode's metadata was read directly on **all three platforms** (YouTube metadata; Spotify
+> embed data; Apple/iTunes lookup + the show's canonical Megaphone RSS) — exact title, **Ep 272**, channel,
+> **public**, released **Jul 12, 2026** (19:29 UTC video / 23:53 UTC audio feed), runtime 2:56:45 / 3:02:30 —
+> resolving the watcher's date/runtime ⚠; the verifier also **flagged an over-specification**: every platform
+> credits the guest only as **"Victor"** (the **Nguyen** surname is the archive's case-record identification,
+> now marked as such — a genuine two-agent catch). (2) the Techdirt article was **fetched in full** (HTTP 200) —
+> headline, **2026-07-13** publication, **Mike Masnick** byline, and every content claim verified verbatim;
+> the verifier **corrected the recap window to Jul 6–10** (the back third mocks BAM's Jul 10 blog post) and
+> surfaced Masnick's assertion that Schneider **now has civil-case counsel** (his assertion, folded into the
+> catalog row as such). That full read also surfaced **BAM's Jul 10 statement itself**, which two agents then
+> read directly and promoted to its own timeline + `primary-sources.md` rows (see the
+> [*2026-07-15 update*](#2026-07-15-update--news-watcher-pass) below).
+
+---
+
+## 2026-07-15 update — news watcher pass
+
+A targeted pass for developments after the **~Jul 10–11** cutoff (the Jul 8–9 public "Part 3" release + first
+post-gag interviews; the ~Jul 10 CAA signing; the Jul 11 SLTrib sourcing refinement). **Reddit was unreachable
+this run** (org egress proxy 403'd `www.reddit.com`; `old.reddit.com` / `*.json` off the allowlist; no browser),
+so it ran on **WebSearch + docket/outlet snippets** only. **The Jul 12–14 window's genuine items — the ~Jul 12
+Unsubscribe Podcast Ep. 272 appearance and the Jul 13 Techdirt pro-se-lawyering analysis — are recorded in the
+[*2026-07-14 update*](#2026-07-14-update--news-watcher-pass) just above** and are **not duplicated here.** One
+genuinely new, dated docket item surfaced past the archive's Jul 7 cutoff on the watcher run, and the
+consolidation verification pass (Jul 15) added a party statement and a docket-anchoring bonus.
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Jul 8, 2026 — Belmont non-party filings set aside as "LODGED" (two docket events).** On the removed federal docket (*BAM Franchising Inc v. Schneider*, No. **2:26-cv-00593**, D. Utah): (a) the entry for **Gregory C. Belmont's** Jul 1 "Notice of Changed Circumstances and Narrowed Request for Limited Intervention" (docket **#12**) was **modified on 7/8/2026 to add "LODGED" per Chambers** — the modification entry explaining *"Document was filed in error as it was submitted by someone who has not been granted leave to intervene. … If the Motion to Intervene is granted, then Gregory C Belmont may file in this case"*; and (b) a **second Belmont document (received Jul 7) was entered 07/08/2026 as docket #24** and likewise lodged — *"for reference purposes only; no response required unless specifically ordered by the court."* The court is thus **declining to entertain his non-party filings** pending leave, but **has not ruled on the underlying Motion to Intervene** (docket #10; no grant/denial through the trackers' Jul 14–15 refresh). ⚠ The watcher draft had **collapsed the two lodging events into one** and spliced their quotes — corrected at consolidation from the direct docket read. | `timeline.md` (folded into the **Jul 1 Belmont row** as a ⚠ Jul 8 update — not a separate row, since these are clerk actions on the same non-party's filings) | Initially Reported ⚠ (watcher snippets — all trackers 403'd that run); **docket-verified at consolidation (Jul 15)** — direct full docket-page reads of **CourtListener (docket 73542292) + PacerMonitor (case 65408971)** by **two agents independently** (Justia still 403'd); **no news outlet reports the lodgings** |
+| 2 | **Jul 10, 2026 — BAM publishes "An Update on Brand Improvements and Pending Litigation"** — its **first public statement after "Part 3" went public** (surfaced during the consolidation full read of the Jul 13 Techdirt piece, which mocks it as *"tone deaf"*). Seven self-reported operational changes; an apology for *"the concern, confusion, and loss of confidence this situation has caused"*; a refusal to drop the litigation (*"accountability and integrity must run both ways"*) while remaining open to *"a mediated, amicable resolution"*; a *"harassment, misrepresentation, and targeted harm"* characterization of critics' conduct (⚠ its own unadjudicated contention); and the party's own **"Preliminary Injunction"** label for the Jul 6 federal order. | `timeline.md` (new **Jul 10, 2026** row, physical table end) + `primary-sources.md` (BAM official-statements table) | **CONFIRMED as to publication + wording** — BAM's own page read directly in full by **two agents independently (Jul 15)**; independently covered by **Techdirt (Jul 13)**. ⚠ All characterizations and the operational-changes claims are BAM's own |
+
+**Also checked, nothing new to add:** the **Jul 7** federal diversity-jurisdiction order's **Jul 21
+show-or-remand deadline had not arrived** (no member-citizenship showing for Reckless Ben LLC, no motion to
+remand, no remand ruling); the **Aug 12** (American Fork) and **Sept 15** (Provo) criminal hearings are
+future/unchanged; and **no settlement, dismissal, newly *filed* charge, or actual "Part 4" release** was
+reported (Part 4 remains only *teased*). The Jul 6 federal PI, the ~Jul 8 public Part-3 upload, the
+NewsNation/ABC4 interviews, the CAA signing, and the mediation posture are all **already recorded**. Most
+"Jul 12–15" search hits were **recaps** of the already-recorded Jul 8–9 release. **Consolidation bonus:** the
+direct docket read also showed **entry #21** — *"ORDER GRANTING 11 JOINT MOTION FOR PRELIMINARY INJUNCTION …
+Signed by Judge David Barlow on 7/6/26"* (entered 07/07) — **docket-anchoring the "preliminary injunction"
+label** for the Jul 6 order (previously resting on Dexerto; SLTrib's "order"-only phrasing stands as word
+choice, not conflict) and directly confirming the **Aug 3, 2026 answer deadline** (entry #20) — so the **Jul 6
+timeline row is now CONFIRMED** (docket entry read directly by two agents + multiple independent outlets).
+
+> **Verification.** Two-agent rule applied — twice. On the watcher run, an independent verifier worked from
+> **only the claim-as-written and the three bare docket URLs** (CourtListener / PacerMonitor / Justia); all
+> three **403'd** that environment, so that pass rested on **WebSearch snippets quoting the docket text**,
+> reproduced consistently across five independent queries — and the item shipped as Reported ⚠. At
+> **consolidation (Jul 15)** a fresh independent verifier — and then a **second agent independently** — made
+> **direct full docket-page reads** (CourtListener docket 73542292, "Last Updated: July 14, 2026"; PacerMonitor
+> case 65408971, refreshed ~Jul 14–15; Justia still 403'd). The direct read **confirmed every core assertion**
+> (case/court; Belmont as non-party movant; the 7/8/2026 "LODGED" modification per Chambers; the
+> reason-language; the "reference purposes only / no response required" note; the "[i]f the Motion to
+> Intervene is granted…" sentence) — and **corrected two over-reaches in the watcher draft**: (a) there are
+> **two distinct lodging events** (the #12 modification and the separate lodged document #24) — the draft had
+> collapsed them and attributed #24's "reference purposes only" language to the #12 modification; (b) the
+> draft's single spliced quotation **exists verbatim nowhere** (entry #12's note carries a clerk's typo,
+> *"party has not granted leave"*) — each source is now quoted separately. The sweep also verified **zero
+> docket entries after Jul 8** through the trackers' refresh (no response to the Jul 7 diversity order, no
+> remand motion/ruling, no settlement, no answer — the answer deadline runs to **Aug 3** per entry #20), and
+> the **BAM Jul 10 statement** (item 2) was read directly in full by **both** agents with all quotes matched
+> verbatim against the page. The lodging facts and the BAM statement are docket-/page-verified; the PACER
+> docket sheet (D. Utah No. 2:26-cv-00593) remains the canonical cross-check.
