@@ -1013,6 +1013,15 @@
             "https://www.primetimer.com/features/independent-filmmaker-and-youtuber-ben-schneider-officially-joins-the-caa-roster"
           ],
           "plain": "Primetimer • Independent filmmaker and YouTuber Ben Schneider officially joins the CAA roster（⚠ **對 THR 獨家報導的改寫/彙整** — 複述了 CAA 的聲明及“2800 萬次觀看”數據；**並非**獨立佐證） • ~2026-07-10 • https://www.primetimer.com/features/independent-filmmaker-and-youtuber-ben-schneider-officially-joins-the-caa-roster"
+        },
+        {
+          "cells": [
+            "Techdirt",
+            "\"'Reckless' Ben's Videos Keep Getting More Damning. His Pro Se Lawyering Keeps Getting Worse.\"（**Mike Masnick** 撰寫的**法律分析/評論**文章——Techdirt 關於本案的**第4篇**文章，前有已編目的6月2日文章及未編目的6月12日/7月6日兩篇後續——認為 Schneider 的 **pro se** 自我辯護正在損害他自己，*「尤其是他在這裡是在刑事案件中這麼做」*，他*「真的需要聘請律師」*；同時肯定其公開的**第三部分**影片包含對 BAM/警方不利的畫面（*「警察一步步教證人如何編造指控，還嘲笑 Schneider……這一切都……相當有殺傷力」*）——並反覆提醒：所示畫面是 Schneider 的**選擇性剪輯**。文章還斷言*「我們現在知道 Schneider 在民事案件中已有法律代理」*（Masnick 的說法——pro se 之憂針對的是**刑事**案件），並用最後三分之一的篇幅批評 **BAM 7月10日的部落格聲明***「不合時宜」*（\"tone deaf\"）（見[時間軸](../timeline.md) 7月10日列 + [`primary-sources.md`](./primary-sources.md)）。⚠ **對已記錄的7月6日–10日進展的評論/回顧**——未報導**任何新的經裁決法院事件**（無新裁定、發回審理、和解或新提起的指控）。**於合併時全文讀取（7月15日）**——直接抓取成功（`article:published_time` 2026-07-13T16:36 UTC，作者 Mike Masnick），取代了監看輪次的摘要層級讀取）",
+            "2026-07-13",
+            "https://www.techdirt.com/2026/07/13/reckless-bens-videos-keep-getting-more-damning-his-pro-se-lawyering-keeps-getting-worse/"
+          ],
+          "plain": "Techdirt • \"'Reckless' Ben's Videos Keep Getting More Damning. His Pro Se Lawyering Keeps Getting Worse.\"（**Mike Masnick** 撰寫的**法律分析/評論**文章——Techdirt 關於本案的**第4篇**文章，前有已編目的6月2日文章及未編目的6月12日/7月6日兩篇後續——認為 Schneider 的 **pro se** 自我辯護正在損害他自己，*「尤其是他在這裡是在刑事案件中這麼做」*，他*「真的需要聘請律師」*；同時肯定其公開的**第三部分**影片包含對 BAM/警方不利的畫面（*「警察一步步教證人如何編造指控，還嘲笑 Schneider……這一切都……相當有殺傷力」*）——並反覆提醒：所示畫面是 Schneider 的**選擇性剪輯**。文章還斷言*「我們現在知道 Schneider 在民事案件中已有法律代理」*（Masnick 的說法——pro se 之憂針對的是**刑事**案件），並用最後三分之一的篇幅批評 **BAM 7月10日的部落格聲明***「不合時宜」*（\"tone deaf\"）（見[時間軸](../timeline.md) 7月10日列 + [`primary-sources.md`](./primary-sources.md)）。⚠ **對已記錄的7月6日–10日進展的評論/回顧**——未報導**任何新的經裁決法院事件**（無新裁定、發回審理、和解或新提起的指控）。**於合併時全文讀取（7月15日）**——直接抓取成功（`article:published_time` 2026-07-13T16:36 UTC，作者 Mike Masnick），取代了監看輪次的摘要層級讀取） • 2026-07-13 • https://www.techdirt.com/2026/07/13/reckless-bens-videos-keep-getting-more-damning-his-pro-se-lawyering-keeps-getting-worse/"
         }
       ]
     },
