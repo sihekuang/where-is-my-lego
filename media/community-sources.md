@@ -97,7 +97,14 @@ vs. "employees" [KSL]); no remand ruling, settlement, new charge, or Part 4 surf
 gives **independent mainstream corroboration** of the **Jul 6 federal order** (previously flagged single-origin
 Dexerto) — an independent Utah newsroom report, not a Dexerto reprint; it does **not** address the diversity-
 jurisdiction question (that stays tied to the Jul 7 order / KSL) (see [*2026-07-11
-update*](#2026-07-11-update--news-watcher-pass) at the very end).
+update*](#2026-07-11-update--news-watcher-pass) at the very end); **news watcher pass 2026-07-15** — **one
+small new dated docket refinement**: on **Jul 8, 2026** the federal court (D. Utah No. 2:26-cv-00593)
+**modified the docket entry for non-party Gregory C. Belmont's Jul 1 intervention notice to add "LODGED" per
+Chambers** — because he "has not been granted leave to intervene and should not be submitting filings" — so
+his non-party filings are held "for reference purposes only" pending any grant of leave; the **intervention
+motion itself remains undecided**, and no remand/settlement/new-charge/Part-4 surfaced (folded into the Jul 1
+Belmont timeline row; Reported ⚠, docket-tracker snippet-level; see [*2026-07-15
+update*](#2026-07-15-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -1369,3 +1376,41 @@ ruling**, a settlement/mediation outcome, a newly *filed* criminal charge, or an
 > to SLTrib but not laundered into the order's text. ⚠ Brick Fanatics stayed Cloudflare-blocked (snippet-level
 > only); its "first post-gag interviews" angle was **not** verifiable, so the catalog entry claims only the
 > Part 3 recap. Cross-check the primary order in **D. Utah No. 2:26-cv-00593**.
+
+---
+
+## 2026-07-15 update — news watcher pass
+
+A targeted pass for developments after the **~Jul 10–11** cutoff (the Jul 8–9 public "Part 3" release + first
+post-gag interviews; the ~Jul 10 CAA signing; the Jul 11 SLTrib sourcing refinement). **Reddit was unreachable
+this run** (org egress proxy 403'd `www.reddit.com`; `old.reddit.com` / `*.json` off the allowlist; no browser),
+so it ran on **WebSearch + docket/outlet snippets** only. **The Jul 12–14 window's genuine items were already
+captured in co-pending open PRs** — the **~Jul 12 Unsubscribe Podcast Ep. 272** appearance (PR #83) and the
+**Jul 13 Techdirt** pro-se-lawyering analysis (PR #84) — and were **not duplicated here.** One genuinely new,
+dated docket item surfaced past the archive's Jul 7 cutoff.
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Jul 8, 2026 — non-party Belmont intervention notice marked "LODGED."** On the removed federal docket (*BAM Franchising Inc v. Schneider*, No. **2:26-cv-00593**, D. Utah), the entry for **Gregory C. Belmont's** Jul 1 "Notice of Changed Circumstances and Narrowed Request for Limited Intervention" was **modified on 7/8/2026 to add "LODGED" per Chambers** — because he **"has not been granted leave to intervene and should not be submitting filings"**; the note holds the document **"for reference purposes only … with no response required unless specifically ordered by the court"** and adds **"[i]f the Motion to Intervene is granted, then [he] may file in this case."** The court is thus **declining to entertain his non-party filings** pending leave, but **has not ruled on the intervention motion** (no grant/denial through Jul 15). | `timeline.md` (folded into the **Jul 1 Belmont row** as a ⚠ Jul 8 update — not a separate row, since it is a clerk modification of the same Jul 1 filing) | Reported ⚠ (docket-tracker/snippet-level; CourtListener/PacerMonitor/Justia all 403'd — no live docket-sheet read; **no news outlet reports the Jul 8 lodging**) |
+
+**Also checked, nothing new to add:** the **Jul 7** federal diversity-jurisdiction order's **Jul 21
+show-or-remand deadline had not arrived** (no member-citizenship showing for Reckless Ben LLC, no motion to
+remand, no remand ruling); the **Aug 12** (American Fork) and **Sept 15** (Provo) criminal hearings are
+future/unchanged; and **no settlement, dismissal, newly *filed* charge, or actual "Part 4" release** was
+reported (Part 4 remains only *teased*). The Jul 6 federal PI, the ~Jul 8 public Part-3 upload, the
+NewsNation/ABC4 interviews, the CAA signing, and the mediation posture are all **already recorded**. Most
+"Jul 12–15" search hits were **recaps** of the already-recorded Jul 8–9 release.
+
+> **Verification.** Two-agent rule applied. An **independent verifier (Agent B)** was given **only the
+> claim-as-written and the three bare docket URLs** (CourtListener / PacerMonitor / Justia) and independently
+> tested each field. All three dockets **403'd** to direct fetch, so verification rested on **WebSearch
+> snippets that quote the docket text verbatim**, reproduced consistently across five independent queries. B
+> **confirmed** at snippet level: the case number/court (No. 2:26-cv-00593, D. Utah); Belmont as a **non-party
+> movant**; the **7/8/2026 "LODGED" modification per Chambers**; the reason ("has not been granted leave …
+> should not be submitting filings"); and the "for reference purposes only / no response required unless
+> specifically ordered" language. B added two precisions, both folded in: (a) the underlying **Notice was
+> originally docketed Jul 1**, with the LODGED annotation added by a **Jul 8 modification** (so the row keeps
+> the Jul 1 home and dates the lodging Jul 8); and (b) **no** response to the Jul 7 diversity order, motion to
+> remand, remand ruling, settlement, new answer, or intervention ruling surfaced in **Jul 9–15**. Because all
+> trackers 403'd, **nothing was raised to CONFIRMED** — the item is **Reported ⚠**; cross-check the **PACER
+> docket sheet** (D. Utah No. 2:26-cv-00593).
