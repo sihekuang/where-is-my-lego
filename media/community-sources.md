@@ -115,7 +115,14 @@ consolidation** — direct reads of two PACER trackers); consolidation (Jul 15) 
 blog statement** ("An Update on Brand Improvements and Pending Litigation" — its first public statement after
 "Part 3" went public; new Jul 10 timeline row + `primary-sources.md` row) and **docket-anchored the Jul 6
 order's "preliminary injunction" label** (entry #21, read directly — the Jul 6 row is now CONFIRMED) (see
-[*2026-07-15 update*](#2026-07-15-update--news-watcher-pass) at the very end).
+[*2026-07-15 update*](#2026-07-15-update--news-watcher-pass) at the very end); **news watcher pass
+2026-07-29** — **no new dated case event**; one **sourcing refinement**: fresh mainstream local-Oregon
+coverage (**KOIN**, Jul 21, 2026, Amanda Rhoades) of the **Gormans' own ~Mar 2026 suit** against BAM
+sharpens the archive's vague row with the **Utah Business and Chancery Court** venue, the claims
+(breach of contract, defamation, fraudulent inducement) and Gorman's on-record quote (⚠ case no.
+**260200029** is community-mirror/Wikipedia-sourced only); the **Jul 21 federal diversity-jurisdiction /
+remand deadline** passed but its **outcome is unreported/PACER-gated**, and **Part 4** is still unreleased
+(see [*2026-07-29 update*](#2026-07-29-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -1483,3 +1490,46 @@ timeline row is now CONFIRMED** (docket entry read directly by two agents + mult
 > the **BAM Jul 10 statement** (item 2) was read directly in full by **both** agents with all quotes matched
 > verbatim against the page. The lodging facts and the BAM statement are docket-/page-verified; the PACER
 > docket sheet (D. Utah No. 2:26-cv-00593) remains the canonical cross-check.
+
+---
+
+## 2026-07-29 update — news watcher pass
+
+A pass for developments after the **Jul 15** consolidation (and after the still-open Jul 22 watcher PR #87,
+which covers the ~Jul 21–22 Schneider video surfacing McNeff's "arm my staff" police-call audio — **not
+re-touched here**). **Reddit was unreachable this run** (proxy denied `old.reddit.com`; `.json` and WebFetch
+403'd), so this pass ran on **WebSearch** + outlet snippets; **direct WebFetch/curl to news sites and court
+trackers (KOIN, Yahoo, Wikipedia, CourtListener, PacerMonitor, DocumentCloud, bamsucks.com) all returned
+HTTP 403** — same environment limit prior passes hit. Outcome:
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Fresh mainstream local-Oregon coverage of the Gormans' own suit (KOIN, Jul 21, 2026).** KOIN (Portland) — *"'An absolutely miserable experience': Former Keizer Bricks & Minifigs owners sue for defamation"* (byline **Amanda Rhoades**) — a dedicated report on **Chrystal Law & Benjamin Gorman v. BAM**. **Not a new filing** — it covers the **already-recorded ~Mar 2026 suit** (filing date now given as **Mar 27, 2026**) — but it **sharpens** the archive's previously vague row with mainstream-anchored specifics: the **Utah Business and Chancery Court** venue, the claims (**breach of contract, defamation, fraudulent inducement**, among ~a dozen counts), and Gorman's on-record quote. ⚠ The **case number 260200029** surfaces only via a community-mirror filing filename (bamsucks.com) + Wikipedia — **no mainstream outlet prints it** — so it is flagged single/community-sourced (cross-check **Utah XChange**). All read at WebSearch-snippet level (KOIN 403'd). | `timeline.md` (⚠ update folded into the **~Mar 2026** Gorman-suit row — not a new row, since the suit is already recorded); `media/news-articles.md` (new KOIN Jul 21 catalog row) | **Reported** (suit + fresh mainstream KOIN anchor — corroborated across KOIN/KATU/Yahoo snippets); the suit's claims are the **Gormans' ALLEGATION** (unadjudicated); ⚠ case no. community-sourced |
+
+**Also checked, nothing new to add:**
+- **Federal diversity-jurisdiction / remand outcome (No. 2:26-cv-00593, D. Utah).** Judge Barlow's **Jul 7**
+  order set a **Jul 21, 2026** deadline for the defendants to show each **Reckless Ben LLC** member's
+  citizenship "or the case will be remanded." The deadline has now passed (today is Jul 29), **but no
+  outcome is reported** — no member-citizenship showing, no remand order, no order retaining jurisdiction is
+  visible in any accessible source; CourtListener/PacerMonitor/Justia all **403'd** this pass. **Outcome
+  UNREPORTED / PACER-gated** — cross-check the D. Utah docket sheet next pass; this is the single most likely
+  next hard development.
+- **"Part 4"** — still only **teased / in development** (podcast + YouTube-teaser discussion), **not
+  released**.
+- **Settlement / dismissal / new charge / Belmont intervention ruling** — none reported; the mediation
+  posture and the Aug 12 (American Fork) / Sept 15 (Provo) criminal hearings are future/unchanged.
+- The **~Jul 21–22 McNeff "arm staff" video** is already captured by **open PR #87** (auto/news-20260722…) —
+  deliberately not duplicated.
+
+> **Verification.** Two-agent rule applied. Author (Agent A) drafted the Gorman-suit refinement; an
+> **independent verifier (Agent B)** was given **only the claims-as-written and the bare source URLs** and
+> re-checked each: KOIN Jul 21 headline/byline/date, the plaintiffs and **Mar 27, 2026** filing date, the
+> **Utah Business and Chancery Court** venue, the claims, and Gorman's quote — all **SUPPORTED** at
+> search-snippet level (every page 403'd environment-wide, so no full-page read was possible). B independently
+> flagged that the **case number 260200029 is thinly sourced** (community-mirror filename + Wikipedia, no
+> mainstream outlet) — applied as the ⚠ marker — and that the loose "filed in July 2026" phrasing in some
+> auto-summaries is a **snippet conflation** with the Jul 21 coverage date, **not** a second filing (the
+> archive keeps **Mar 2026**). B's independent completeness check found **nothing genuinely new** in the
+> Jul 15–29 window: the federal remand outcome is **unreported/PACER-gated**, Part 4 **unreleased**, and no
+> settlement. Because corroboration is snippet-level and the case number is community-sourced, the item ships
+> **Reported** with the suit's allegations kept as the Gormans' **ALLEGATION**.
