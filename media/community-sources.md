@@ -123,6 +123,15 @@ sharpens the archive's vague row with the **Utah Business and Chancery Court** v
 **260200029** is community-mirror/Wikipedia-sourced only); the **Jul 21 federal diversity-jurisdiction /
 remand deadline** passed but its **outcome is unreported/PACER-gated**, and **Part 4** is still unreleased
 (see [*2026-07-29 update*](#2026-07-29-update--news-watcher-pass) at the very end).
+2026-07-31** — **one genuinely new dated docket event**: on **Jul 30, 2026** the federal court (D. Utah No.
+2:26-cv-00593, Judge **David Barlow**) found **Reckless Ben's Corporate Disclosure Statement (docket #25)**
+*"complies with the court's order at ECF No. 23 and adequately demonstrates diversity"* — **curing the
+diversity defect** the Jul 7 order had flagged and **resolving the Jul 21 show-or-remand deadline**, so the
+case **stays in federal court** (no remand); Reported ⚠ (**CourtListener** docket-tracker snippet-level,
+**single tracker**, no news corroboration; docket #25's contents/filing-date unverified) — folded into a new
+Jul 30 `timeline.md` row; the ~Jul 21–22 McNeff "arm staff" video (open PR #87) and the KOIN Gorman-suit
+refinement (open PR #88) are **not** re-touched here (see [*2026-07-31
+update*](#2026-07-31-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -1533,3 +1542,34 @@ HTTP 403** — same environment limit prior passes hit. Outcome:
 > Jul 15–29 window: the federal remand outcome is **unreported/PACER-gated**, Part 4 **unreleased**, and no
 > settlement. Because corroboration is snippet-level and the case number is community-sourced, the item ships
 > **Reported** with the suit's allegations kept as the Gormans' **ALLEGATION**.
+## 2026-07-31 update — news watcher pass
+
+A targeted pass for developments after the **Jul 15** consolidation. The archive's two still-open watcher PRs
+were checked and are **not** duplicated: **PR #87** (~Jul 21–22 McNeff "arm staff" police-call video) and
+**PR #88** (Jul 29 — KOIN mainstream anchor for the Gormans' own suit + Utah Business & Chancery Court venue).
+Both flagged the **Jul 21 federal show-or-remand deadline** as the pending item with no reported outcome — and
+that outcome is what this pass surfaced.
+
+**Reddit was unreachable this run** (proxy denied `CONNECT` to `old.reddit.com`; `*.json` fetched via `curl`
+returned proxy **403**; `WebFetch` 403'd across CourtListener/PacerMonitor/Justia/thebammap), so this pass ran
+on **WebSearch snippets** + outlet listings only.
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Federal court retains the case — diversity defect cured, no remand (Jul 30, 2026).** In *BAM Franchising Inc v. Schneider*, No. **2:26-cv-00593** (D. Utah), Judge **David Barlow** signed an order finding **Reckless Ben's Corporate Disclosure Statement (docket #25)** *"complies with the court's order at ECF No. 23 and adequately demonstrates diversity"* and that *"the court's Order has been resolved, and no further action is necessary."* This **cures the diversity-jurisdiction defect** the **Jul 7** order raised *sua sponte* and **resolves the Jul 21 show-or-remand deadline** — the case **stays in federal court**. | `timeline.md` (new **Jul 30, 2026** row) | **Reported ⚠** — **CourtListener** (docket 73542292) snippet-level, **single tracker** (PacerMonitor/Justia list the case but did not independently surface this order; all trackers 403'd); **no news outlet reports it**. The "stays in federal court" effect is the archive's characterization, not an order quote; docket #25's contents/filing-date unverified. Cross-check the PACER docket sheet. |
+
+**Also checked, nothing new to add:** Schneider's teased **"Part 4"** remains in development, **not released**;
+no **remand ruling**, **settlement/dismissal**, or **new criminal charge** surfaced (the **Aug 12** American
+Fork and **Sept 15** Provo criminal hearings are future/unchanged); the **Belmont** non-party intervention
+motion still shows **no ruling**; loose search-summary phrasing that BAM "agreed to drop its lawsuit" is a
+**mischaracterization** of the pending **mediation** posture (no dismissal on the record) and is **not adopted**.
+
+> **Verification.** Two-agent rule applied. Author (Agent A) drafted the claim; an **independent verifier
+> (Agent B)** was given **only the claims-as-written and the bare tracker URLs** and re-triangulated each via
+> WebSearch. B **confirmed** the Jul 30 Barlow order and the *"adequately demonstrates diversity"* wording
+> (multi-query-consistent), the Jul 7/Jul 21 background, and that **no mainstream outlet** covers the Jul 30
+> order — and **flagged**: (a) the order rests on a **single tracker** (CourtListener) in what was reachable
+> (Justia/PacerMonitor 403'd, their snippets echoing CourtListener text), so it is **Reported**, not CONFIRMED;
+> (b) docket #25's **contents** (member citizenship) and **filing date** are **inferences**, not sourced text —
+> kept as characterization, not asserted; (c) the full order text reads *"…at ECF No. 23…"* (the archive quotes
+> it in full). All caveats were applied to the shipped row.
