@@ -132,6 +132,15 @@ case **stays in federal court** (no remand); Reported ⚠ (**CourtListener** doc
 Jul 30 `timeline.md` row; the ~Jul 21–22 McNeff "arm staff" video (open PR #87) and the KOIN Gorman-suit
 refinement (open PR #88) are **not** re-touched here (see [*2026-07-31
 update*](#2026-07-31-update--news-watcher-pass) at the very end).
+[*2026-07-15 update*](#2026-07-15-update--news-watcher-pass) at the very end); **news watcher pass 2026-08-04**
+— **one new dated docket event**: on **Jul 29, 2026** U.S. District Judge **David Barlow** **denied non-party
+Gregory C. Belmont's Motion to Intervene "without prejudice" as MOOT** (removed federal case No.
+**2:26-cv-00593**, D. Utah), reciting Belmont's own "Notice of Changed Circumstances" that he "no longer
+seeks to intervene at this time" — **resolving the archive's standing "intervention motion still undecided"
+flag** (folded into the **Jul 1 Belmont** timeline row as a ⚠ Jul 29 update); Reported ⚠, docket-tracker /
+snippet-level, **no news outlet reports it**; the separate **Jul 30** diversity-cure order is carried by an
+earlier open watcher PR and **not** duplicated here (see
+[*2026-08-04 update*](#2026-08-04-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -1573,3 +1582,42 @@ motion still shows **no ruling**; loose search-summary phrasing that BAM "agreed
 > (b) docket #25's **contents** (member citizenship) and **filing date** are **inferences**, not sourced text —
 > kept as characterization, not asserted; (c) the full order text reads *"…at ECF No. 23…"* (the archive quotes
 > it in full). All caveats were applied to the shipped row.
+## 2026-08-04 update — news watcher pass
+
+A targeted pass for developments after the **Jul 15** consolidation (latest recorded dated events: Jul 10 BAM
+blog statement + the ~Jul 10 CAA signing). **Reddit was unreachable this run** — `WebFetch` to `www.reddit.com`
+returned "unable to fetch," a `site:reddit.com/r/RecklessBen` WebSearch returned only unrelated results, and
+there is no browser in this environment — so this pass ran on **WebSearch + docket/outlet snippets** only.
+**Three watcher PRs from prior runs remain open and are NOT duplicated here:** **#87** (~Jul 21–22 McNeff
+"arm staff" police-call video), **#88** (Jul 21 KOIN mainstream anchor for the Gormans' own suit), and **#89**
+(**Jul 30** federal order — Reckless Ben LLC's Corporate Disclosure Statement cures the diversity defect, so
+the case **stays in federal court**, no remand). **One genuinely new, dated docket event** surfaced past those.
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Jul 29, 2026 — non-party Gregory C. Belmont's Motion to Intervene denied "without prejudice" as MOOT.** On the removed federal docket (*BAM Franchising Inc v. Schneider*, No. **2:26-cv-00593**, D. Utah), **U.S. District Judge David Barlow** signed an order **denying Belmont's Motion to Intervene** — the stranger-to-the-case bid to **vacate the May 28 TRO's speech restrictions** (see the Jul 1 Belmont row) — **without prejudice, as moot**, reciting that Belmont had filed a "Notice of Changed Circumstances" stating he **"no longer seeks to intervene at this time."** This **resolves the archive's standing "intervention motion still undecided" flag**: the court does **not reach the merits**, and the point is moot in any event because the **Jul 6 federal preliminary injunction had already lifted** the speech bar Belmont sought to challenge. | `timeline.md` — folded into the **Jul 1 Belmont row** as a **⚠ Jul 29 update** (not a separate row — same non-party's same intervention thread) | **Reported ⚠** (docket-tracker / snippet-level — CourtListener docket 73542292 + PacerMonitor case 65408971, both **403'd** this pass, reproduced across multiple queries; **no news outlet** reports it; non-tracker mentions are **self-interested/community** — Belmont's own `blog.cerebel.law`, `thebammap.com`, commentary YouTube — not corroboration; **no ECF entry numbers asserted** — they were mutually inconsistent across snippets) |
+
+**Also checked, nothing new to add:** the **Jul 30** diversity-cure order (open **PR #89**, not duplicated); the
+**Aug 3, 2026** answer deadline (per the Jul 6 order / entry #20) — the docket's last tracker refresh was
+timestamped **Aug 3, 2026**, but **no actual Answer filing** surfaced in snippets, so none is asserted; **no
+settlement, dismissal, remand ruling, or newly *filed* criminal charge**; the **Aug 12** (American Fork
+stalking) and **Sept 15** (Provo) criminal hearings are **future/unchanged**; and **no actual "Part 4" release**
+— it remains only *teased* (Jul 8 Part-3 closing promo; Unsubscribe Ep. 272 title). The Jul 6 federal PI, the
+~Jul 8 public Part-3 upload, the NewsNation/ABC4 interviews, the CAA signing, and the mediation posture are all
+**already recorded**; most fresh search hits were **recaps** of those.
+
+> **Verification.** Two-agent rule applied. The author (Agent A) drafted the Jul 29 claim; an **independent
+> verifier (Agent B)** was given **only the claim-as-written and the three bare docket-tracker URLs**
+> (CourtListener / PacerMonitor / Justia) and re-checked each. Findings, all applied: (a) the **Jul 29 Barlow
+> denial "without prejudice" as MOOT** reproduced **strongly and consistently** across ~9 differently-worded
+> queries (SUPPORTED — but tracker pages 403'd, so it rests on snippet text, not a live docket-sheet read →
+> **Reported**, not CONFIRMED); (b) the *"no longer seeks to intervene at this time"* wording reproduced
+> verbatim, but Agent B **flagged a date/framing tension** with Belmont's **Jul 1** filing (titled a *"Narrowed
+> Request for Limited Intervention"* — still seeking to intervene, and itself **LODGED, not filed**) and warned
+> against flattening it to a clean "withdrawal" — so the row **preserves the distinction with a ⚠** rather than
+> resolving it; (c) Agent B found the **ECF entry numbers mutually inconsistent** across queries (a
+> hallucination signature) — so **no entry numbers are stated**; (d) **no mainstream outlet** (KSL, ABC4,
+> SLTrib, Dexerto, UNILAD, Express Tribune) reports the Jul 29 ruling — confirmed, and the only non-tracker
+> mentions (`blog.cerebel.law`, `thebammap.com`) are **self-interested**, not corroboration; (e) the **Jul 30**
+> diversity order was confirmed **distinct** from the Jul 29 Belmont order (and is left to open PR #89).
+> **Cross-check the PACER docket sheet (D. Utah No. 2:26-cv-00593).**
