@@ -141,6 +141,14 @@ flag** (folded into the **Jul 1 Belmont** timeline row as a ⚠ Jul 29 update); 
 snippet-level, **no news outlet reports it**; the separate **Jul 30** diversity-cure order is carried by an
 earlier open watcher PR and **not** duplicated here (see
 [*2026-08-04 update*](#2026-08-04-update--news-watcher-pass) at the very end).
+[*2026-07-15 update*](#2026-07-15-update--news-watcher-pass) at the very end); **news watcher pass 2026-08-07** —
+**one genuinely new dated docket event**: on **Aug 3, 2026** the federal court (**Magistrate Judge Cecilia M.
+Romero**, D. Utah No. 2:26-cv-00593) **extended all defendants' answer deadline from Aug 3 to Sept 2, 2026** via an
+order granting the defendants' unopposed extension motions — the case stays at the **pleading stage** and **in
+federal court** (no Answer filed, no remand, no settlement); Reported ⚠ (docket-tracker/snippet-level, single
+tracker family, no live docket-sheet read, no news); a two-agent pass also **caught and excluded** a search-summary
+conflation that mis-attributed the **Gorman case's** (No. 260200029) stay/arbitration motion to this Schneider
+federal case (see [*2026-08-07 update*](#2026-08-07-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -1621,3 +1629,50 @@ stalking) and **Sept 15** (Provo) criminal hearings are **future/unchanged**; an
 > mentions (`blog.cerebel.law`, `thebammap.com`) are **self-interested**, not corroboration; (e) the **Jul 30**
 > diversity order was confirmed **distinct** from the Jul 29 Belmont order (and is left to open PR #89).
 > **Cross-check the PACER docket sheet (D. Utah No. 2:26-cv-00593).**
+## 2026-08-07 update — news watcher pass
+
+A targeted pass for developments after the archive's recorded cutoff (the **Jul 15** consolidation — latest dated
+events: the Jul 10 BAM blog statement + the ~Jul 10 CAA signing). **Four earlier watcher PRs remain open and are
+NOT duplicated here:** **#87** (~Jul 21–22 McNeff "arm staff" police-call video), **#88** (Jul 21 KOIN mainstream
+anchor for the Gormans' own suit), **#89** (**Jul 30** federal diversity-cure — case stays federal, no remand), and
+**#90** (**Jul 29** federal denial of the Belmont non-party intervention as moot). This run surfaced **one genuinely
+new dated docket event** past all of those. **Reddit was unreachable this run** (org egress proxy 403'd
+`www.reddit.com`; `old.reddit.com` / `*.json` via `curl` also 403'd; no browser), so the pass ran on **WebSearch +
+docket/outlet snippets** only.
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Aug 3, 2026 — the federal court extends all defendants' answer deadline to Sept 2, 2026.** In the removed federal case (*BAM Franchising Inc v. Schneider*, No. **2:26-cv-00593**, D. Utah), **U.S. Magistrate Judge Cecilia M. Romero** signed an order granting the defendants' two unopposed "Motion for Extension of Time to File Answer" filings (Mansell's + the Nguyen/Schneider/"Reckless Ben" "second" motion), **extending the deadline for all defendants to answer or otherwise respond to the complaint to and through Sept 2, 2026** — the prior deadline having been **Aug 3, 2026** (set by a Jul 6, 2026 Romero order). Confirms the case is **still at the pleading stage** (no Answer filed), **still in federal court** (no remand after the Jul 7 diversity order / reported Jul 30 cure, no remand motion), and that both defendant groups — **including Mansell** — are still actively litigating; the motions being **"unopposed"** is consistent with the Jun 24 mediation posture. | `timeline.md` (new **Aug 3, 2026** row, physical table end; Date + Status columns intact) | **Reported ⚠** — federal docket-tracker only, snippet-level, single tracker family (CourtListener docket 73542292 / PacerMonitor case 65408971); **no live docket-sheet read** (all trackers 403'd this pass) and **no news outlet** reports it. Both agents reached the order independently from the bare tracker URLs via consistent multi-query snippet reproduction — but on **snippets, not a primary docket read** → Reported, not CONFIRMED. |
+
+No `news-articles.md` / `primary-sources.md` edits — this is purely a federal-docket event with no news source (same pattern as PRs #89/#90).
+
+**Also checked, nothing new to add:** **no actual Answer** filed (deadline now Sept 2); **no remand order, settlement,
+dismissal, or mediation-scheduling order** in the Aug 1–7 window; **no "Part 4" release** (still only *teased* — in the
+Jul 8 Part-3 closing promo and the Ep. 272 title); and the **Aug 12** (American Fork stalking / targeted-picketing) and
+**Sept 15** (Provo disorderly-conduct/trespass) criminal hearings are **future dates with no reported outcome** (Aug 12
+had not yet occurred as of this pass). Most search hits were **recaps** of the already-recorded Jul 6–10 developments
+(the federal PI, the public Part 3, the NewsNation/ABC4 interviews, the CAA signing), **not** new events.
+
+**Deliberately NOT promoted — a source conflation the two-agent pass caught:** several WebSearch summaries attributed a
+*"Motion to Stay and Compel Mediation and Then Arbitration"* (invoking a **franchise agreement's** Section-17 arbitration
+clause) to this federal Schneider case. That motion is **not** in the Schneider case — it belongs to the **separate
+Law-Gorman v. BAM** suit (**Utah Business & Chancery Court No. 260200029**), where the former Salem/Keizer franchisees
+resist BAM's arbitration clause; the hosted filing is literally named
+`bamsucks.com/Bricks-and-Minifigs-Case-260200029-Motion-To-Stay-Compel-Mediation-Arbitration.pdf`. Schneider is not a
+franchisee, so a franchise-agreement arbitration clause does not reach him. The conflation is recorded here so the
+exclusion is auditable; the Aug 3 timeline row carries an explicit ⚠ against it.
+
+> **Verification.** Two-agent rule applied. Author (Agent A) drafted the Aug 3 claim and cited the three bare docket-
+> tracker URLs (CourtListener / PacerMonitor / Justia). An **independent verifier (Agent B)** was given **only the
+> claim-as-written and those bare URLs** and re-triangulated each (direct fetch of all three, plus DocumentCloud /
+> Wikipedia / tufo.dev / thebammap.com, **403'd** this environment — so B worked from ~18 differently-worded WebSearch
+> queries). Findings, all applied: (a) the **Aug 3 order → Sept 2, 2026 deadline**, **signed by Magistrate Judge
+> Cecilia M. Romero**, moving **all** defendants (Nguyen, Schneider/Reckless Ben, Mansell) — **SUPPORTED**, reproduced
+> cleanly and consistently with no inconsistent variants (independently corroborated by the case's **-CMR** suffix =
+> Romero's initials); (b) the **prior Aug 3 deadline set by a Jul 6 Romero order** — **SUPPORTED** (the current motion
+> being a *"second"* motion independently corroborates a prior extension); (c) the **arbitration/stay motion** —
+> **REFUTED** as belonging to this case; it is the **Gorman case 260200029** (see the exclusion note above); (d)
+> **completeness** — no Answer, remand, settlement, dismissal, mediation order, Part 4, or criminal outcome surfaced
+> for Aug 1–7. Because corroboration rests on **consistent snippet reproduction, not a primary docket read** (every
+> tracker 403'd), the entry is **Reported ⚠**, not CONFIRMED. The **PACER docket sheet (D. Utah No. 2:26-cv-00593)**
+> remains the canonical cross-check.
