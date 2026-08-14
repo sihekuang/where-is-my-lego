@@ -149,6 +149,14 @@ federal court** (no Answer filed, no remand, no settlement); Reported ⚠ (docke
 tracker family, no live docket-sheet read, no news); a two-agent pass also **caught and excluded** a search-summary
 conflation that mis-attributed the **Gorman case's** (No. 260200029) stay/arbitration motion to this Schneider
 federal case (see [*2026-08-07 update*](#2026-08-07-update--news-watcher-pass) at the very end).
+[*2026-07-15 update*](#2026-07-15-update--news-watcher-pass) at the very end); **news watcher pass 2026-08-14**
+— **one genuinely new dated federal-docket event**: on **Aug 6, 2026** Magistrate Judge **Cecilia M. Romero**
+(D. Utah No. 2:26-cv-00593) granted a **stipulated/joint** motion **tolling the defendants' deadline to file a
+"Special Motion for Expedited Relief" to Sept 7, 2026** — the first surfacing of that contemplated defensive
+motion (⚠ docket-tracker/snippet-level, no news corroboration, no live docket-sheet read); the **Aug 12**
+(American Fork) criminal-hearing outcome was **not yet reported** by any outlet, "Part 4" remains only *teased*,
+and no settlement/dismissal/remand surfaced (see [*2026-08-14
+update*](#2026-08-14-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -1676,3 +1684,51 @@ exclusion is auditable; the Aug 3 timeline row carries an explicit ⚠ against i
 > for Aug 1–7. Because corroboration rests on **consistent snippet reproduction, not a primary docket read** (every
 > tracker 403'd), the entry is **Reported ⚠**, not CONFIRMED. The **PACER docket sheet (D. Utah No. 2:26-cv-00593)**
 > remains the canonical cross-check.
+## 2026-08-14 update — news watcher pass
+
+A targeted pass for developments after the archive's recorded frontier. **State of the frontier:** `main`
+records developments through the **Jul 15** consolidation (latest dated events: the **Jul 10** BAM blog
+statement + the **~Jul 10** CAA signing); **five earlier watcher PRs remain open and were NOT duplicated**
+this run — **#87** (~Jul 21–22 McNeff "arm staff" police-call video), **#88** (Jul 21 KOIN mainstream anchor
+for the Gormans' own suit), **#89** (**Jul 30** federal diversity-cure — case stays federal), **#90**
+(**Jul 29** federal denial of the Belmont non-party intervention as moot), and **#91** (**Aug 3** federal order
+extending all defendants' answer deadline to **Sept 2**). This run surfaced **one genuinely new dated docket
+event** past all of those.
+
+**Reddit was unreachable this run** (org egress proxy blocked `www.reddit.com`; `old.reddit.com` / `*.json`
+off the allowlist; no browser), and the court trackers (CourtListener / PacerMonitor / Justia) and Wikipedia
+were **egress-blocked to direct fetch**, so this pass ran on **WebSearch snippets** of the docket-tracker text
+and outlet coverage only.
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Aug 6, 2026 — the federal court tolls the defendants' deadline to file a "Special Motion for Expedited Relief" to Sept 7, 2026.** In the removed federal case *BAM Franchising Inc v. Schneider*, No. **2:26-cv-00593** (D. Utah), **Magistrate Judge Cecilia M. Romero** signed an order (dated 08/06/2026) granting a **stipulated/joint** motion by the defendants (**Victor Nguyen, "Reckless Ben" / Reckless Ben LLC, and Benjamin Paul Schneider**) to **toll (extend) the deadline to file a "Special Motion for Expedited Relief," moving it to Sept 7, 2026** (motion reportedly filed ~**Aug 5, 2026**). First surfacing of that contemplated defensive motion; ⚠ the tracker snippets do **not** describe its substance (community/YouTube "anti-SLAPP / First-Amendment" framing is community-sourced only). Stipulated/joint = plaintiffs did not oppose, consistent with the Jun 24 mediation posture. No Answer filed, no remand motion, case stays federal. | `timeline.md` (new **Aug 6, 2026** row, physical table end; Date + Status columns intact) | **Reported ⚠** — federal docket-tracker only (CourtListener docket 73542292 / PacerMonitor case 65408971), snippet-level, no live docket-sheet read, **no mainstream outlet** reports it |
+
+**Also checked, nothing new to add:** the **Aug 12, 2026** (American Fork — stalking, class A + targeted
+residential picketing, class B) and **Sept 15, 2026** (Provo — disorderly conduct + trespass) criminal
+hearings had **no reported outcome** (Aug 12 fell two days before this pass and drew no coverage; Sept 15 is
+future); the **Sept 2, 2026** federal answer deadline (open PR #91) is future; **"Part 4"** remains only
+*teased* (Jul 8 Part-3 closing promo + the Jul 12 Unsubscribe Ep. 272 title), **not released**; and **no
+settlement, dismissal, or remand** surfaced — a recurring WebSearch auto-summary that "BAM agreed to drop its
+case / a notice of dismissal was filed in Utah's 4th District Court" is a **mischaracterization of the pending
+mediation posture** (the case is in **federal** court and was **active** as of the Aug 6 order — a live
+tolling motion is inconsistent with a dismissal), and is **deliberately not adopted**. The open PRs #87–#91
+were not duplicated.
+
+> **Verification.** Two-agent rule applied. Author (Agent A) surfaced the Aug 5–6 docket event and drafted the
+> claim; an **independent verifier (Agent B)** was given **only the claim-as-written and the three bare
+> docket-tracker URLs** (CourtListener / PacerMonitor / Justia) and re-checked each (direct fetch of all three
+> **egress-blocked**, so B reproduced the docket text across many differently-worded WebSearch queries).
+> Findings, all applied: ✅ **Aug 6 order → Sept 7, 2026 deadline, signed by Magistrate Judge Cecilia M.
+> Romero, granting a stipulated/joint motion to toll the deadline to file a "Special Motion for Expedited
+> Relief," moving all three defendant movants** — **SUPPORTED**, reproduced verbatim and consistently across
+> multiple independent queries (independently corroborated by the **-CMR** case suffix = Romero's initials).
+> ⚠ **Wrapper-motion title varies** between "…to **Toll** Deadline…" and "…for **Extension of Time** Deadline…"
+> across queries (same motion; both renderings noted). ⚠ The **~Aug 5 filing date** rests on a **single clean
+> reproduction**, and a search-index **"Aug 8–11" crawl-date artifact** leaves a small gap on whether any minor
+> administrative entry post-dates Aug 6 — both flagged in the row, kept as characterization. ✅ **No mainstream
+> outlet** reports the Aug 5–6 event (KSL/ABC4/SLTrib/Dexerto/UNILAD/Express Tribune coverage stops at the
+> late-June/early-July removal + PI/gag-lift arc). ✅ **Aug 12 American Fork hearing** — no reported outcome.
+> Because corroboration rests on **consistent snippet reproduction, not a primary docket read** (every tracker
+> egress-blocked), the entry is **Reported ⚠**, not CONFIRMED; a direct PACER/CourtListener read is the
+> canonical cross-check before any upgrade.
