@@ -115,7 +115,19 @@ consolidation** — direct reads of two PACER trackers); consolidation (Jul 15) 
 blog statement** ("An Update on Brand Improvements and Pending Litigation" — its first public statement after
 "Part 3" went public; new Jul 10 timeline row + `primary-sources.md` row) and **docket-anchored the Jul 6
 order's "preliminary injunction" label** (entry #21, read directly — the Jul 6 row is now CONFIRMED) (see
-[*2026-07-15 update*](#2026-07-15-update--news-watcher-pass) at the very end).
+[*2026-07-15 update*](#2026-07-15-update--news-watcher-pass) at the very end); **news watcher pass
+2026-08-19** — **no new *BAM-case* development** (the **Aug 12** American Fork criminal hearing drew **no
+reported outcome** from any outlet; the federal docket, No. 2:26-cv-00593, shows **nothing past the Aug 6
+tolling order**; no settlement/dismissal/remand and no actual **"Part 4"** surfaced — the recurring "BAM filed
+a notice of dismissal in 4th District Court" is a WebSearch **auto-summary mischaracterization** of the
+mediation posture, **not adopted**), but **one genuinely new, multi-sourced, *adjacent* development**:
+on **Aug 15, 2026** Schneider released a **new undercover documentary on Provo Canyon School** ("I Went
+Undercover in a Troubled Teen Facility," YouTube `Uojiqmis_Oo`) — a **separate investigation outside the LEGO
+dispute**, involving an associate named only as **"Sheldon"** (⚠ plausibly, but not confirmably, the
+archive's **Sheldon Norcross**) — added as a clearly-flagged *adjacent* item (⚠ the
+school's closure was **state-ordered** by Utah DHHS and **independent** of the video — that framing is
+**refuted**, not adopted); Reddit unreachable again this run (see
+[*2026-08-19 update*](#2026-08-19-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -1483,3 +1495,52 @@ timeline row is now CONFIRMED** (docket entry read directly by two agents + mult
 > the **BAM Jul 10 statement** (item 2) was read directly in full by **both** agents with all quotes matched
 > verbatim against the page. The lodging facts and the BAM statement are docket-/page-verified; the PACER
 > docket sheet (D. Utah No. 2:26-cv-00593) remains the canonical cross-check.
+
+---
+
+## 2026-08-19 update — news watcher pass
+
+A targeted pass for developments after the **Jul 15** consolidation cutoff (latest recorded BAM-case events:
+the Jul 10 BAM blog statement + the ~Jul 10 CAA signing). Six earlier watcher PRs (**#87–#92**) remain **open**
+and carry the intervening BAM-case docket arc through the **Aug 6** federal tolling order — **not duplicated
+here.** **Reddit was unreachable again this run** (org egress proxy blocked `www.reddit.com`; `old.reddit.com`
+/ `*.json` off the allowlist; no browser), and direct fetch of SLTrib / Dexerto / Express Tribune / KSL and the
+court trackers (CourtListener / PacerMonitor) was **egress-blocked**, so this pass ran on **WebSearch snippets**
+only.
+
+**No new *BAM-case* development surfaced**, but one genuinely new, multi-sourced *adjacent* item did:
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Aug 15, 2026 — Schneider releases a new undercover documentary on Provo Canyon School** ("I Went Undercover in a Troubled Teen Facility," YouTube `Uojiqmis_Oo`, reported ~52 min). He poses as a 17-year-old prospective student (pretext: a father enrolling him over "gay thoughts"; reported **$49,400** fee) while an associate named only as **"Sheldon"** poses as a prospective employee; the video alleges facility mistreatment. ⚠ Coverage gives the associate **no surname** — the archive's existing **Sheldon Norcross** (Mar 11 Airbnb detainee) is a plausible but **inferred** match, flagged as such, not asserted. A **Part 2** is expected. **A *separate investigation*, outside the BAM/LEGO dispute** — added as a clearly-flagged *adjacent* item (precedent: the ~Jul 10 CAA row, likewise a non-case career development). ⚠ **The school's closure was state-ordered and independent of the video** — Utah DHHS revoked the Springville (~Jul 6) and Provo (eff. Jul 17, 2026) campus licenses over abuse/neglect findings, with an **Aug 16, 2026** shutdown deadline (video posted ~24 h prior); the "video caused the closure" framing (EarlyGame, Fashion Times) is **refuted, not adopted**. ⚠ Per SLTrib (Aug 19) the program **"is now weighing action against him."** | `timeline.md` (new **Aug 15, 2026** row, physical table end, explicitly flagged adjacent/not-a-case-event); `primary-sources.md` (Reckless Ben YouTube table) | **Reported ⚠** (release + core facts multi-sourced incl. **SLTrib** mainstream + Dexerto + Express Tribune, snippet-level; abuse claims are **Schneider's ALLEGATIONS**; the "closure caused by the video" framing **REFUTED**; YouTube not opened — channel ownership unverified) |
+
+**Also checked, nothing to promote:**
+- **Aug 12, 2026 American Fork criminal hearing** (stalking, class A + targeted residential picketing, class B)
+  — **no reported outcome** from any outlet as of this pass (KSL, the sole mainstream anchor for the criminal
+  dates, had not covered a result); the **Sept 15** Provo hearing is future. Cross-check Utah XChange next pass.
+- **Federal docket** (*BAM Franchising Inc v. Schneider*, No. 2:26-cv-00593, D. Utah) — **nothing past the
+  Aug 6 tolling order** (open PR #92); the **Sept 2** answer deadline (PR #91) and **Sept 7** Special-Motion
+  deadline (PR #92) are future. Trackers egress-blocked; WebSearch put "last known filing" at **Aug 6**.
+- **"BAM filed a notice of dismissal in Utah's 4th District Court"** — a recurring WebSearch **auto-summary
+  mischaracterization** of the pending **mediation** posture (the case is in **federal** court and was active as
+  of Aug 6); **no reliable outlet reports a dismissal.** **Not adopted** (same call as PRs #89/#92).
+- **"Part 4"** — still only *teased*; **not released.**
+- **Open PRs #87–#92** — deliberately not duplicated.
+
+> **Verification.** Two-agent rule applied. Author (Agent A) drafted the claims; an **independent verifier
+> (Agent B)** was given **only the claims-as-written and the bare citation URLs** (SLTrib Aug 19 + Jul 17;
+> Dexerto 3398740; Express Tribune 2624206; YouTube `Uojiqmis_Oo`; Deseret Jul 17; KSL 51599155) and
+> re-triangulated each via its own WebSearch queries (direct fetch egress-blocked, so snippet-level). Agent B
+> also independently ran the **completeness check** (Aug 12 hearing outcome; any federal docket entry after
+> Aug 6; any settlement/dismissal/remand; any actual Part 4). Verifier findings are recorded in the PR
+> description; three were **applied to the draft**: (a) the associate's surname **"Norcross" is unverified**
+> (coverage says only "Sheldon") → softened to an inferred, flagged linkage; (b) **"expired food"** did not
+> surface in any snippet → **dropped** from the mistreatment list (kept: restraints/"slamming," solitary
+> confinement, inadequate schooling); (c) **"weighing action"** is **single-sourced to SLTrib** (the school
+> owner's words) → marked single-sourced and not generalized. The completeness check independently confirmed
+> **no reported Aug 12 hearing outcome, no federal docket move after Aug 6, no federal dismissal/settlement/
+> remand, and no actual Part 4** — i.e., nothing squarely in-scope was missed. Because corroboration rests on
+> **consistent snippet reproduction across independent outlets**
+> (not a primary read of the video or a court record), the item is **Reported ⚠**, not CONFIRMED; the video's
+> abuse claims stay **ALLEGATIONS**, and the state-ordered, video-independent nature of the school's closure is
+> the load-bearing neutrality correction.
