@@ -169,6 +169,12 @@ archive's **Sheldon Norcross**) — added as a clearly-flagged *adjacent* item (
 school's closure was **state-ordered** by Utah DHHS and **independent** of the video — that framing is
 **refuted**, not adopted); Reddit unreachable again this run (see
 [*2026-08-19 update*](#2026-08-19-update--news-watcher-pass) at the very end).
+2026-08-20** — **no new BAM-case development since the Aug 19 BAM–Mansell settlement**, which (with the
+rest of the Jul 21–Aug 19 record) sits in **eight still-open watcher PRs (#87–#94)** and is **not
+duplicated** here; the one genuinely new, uncovered, on-topic item this pass is a **primary-source catalog
+addition** — Schneider's **Aug 1, 2026 appearance on Channel 5's *5CAST w/ Andrew Callaghan*** (Ep. #23,
+"Reckless Ben Interview (Ft. Courtney Love)") — while the **Aug 12 American Fork criminal hearing outcome
+remains unreported** (see [*2026-08-20 update*](#2026-08-20-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -1790,3 +1796,48 @@ only.
 > (not a primary read of the video or a court record), the item is **Reported ⚠**, not CONFIRMED; the video's
 > abuse claims stay **ALLEGATIONS**, and the state-ordered, video-independent nature of the school's closure is
 > the load-bearing neutrality correction.
+## 2026-08-20 update — news watcher pass
+
+Automated watcher pass for **2026-08-20**. **Reddit was unreachable this run** (proxy blocks
+`www.reddit.com`; `old.reddit.com` / `*.json` off the egress allowlist; no browser), and **direct page
+fetches were broadly egress-blocked** (Buzzsprout, iHeart, Podfollow, CreatorDB, Wikipedia all refused),
+so this pass ran on **WebSearch snippets + platform listing titles** only.
+
+**State of the record.** The archive (`main`) records BAM-case developments through the **Jul 15**
+consolidation. **Eight earlier watcher PRs remain open and were treated as already-known — none duplicated
+here:** **#87** (~Jul 21–22 McNeff "arm staff" audio), **#88** (Jul 21 KOIN Gorman-suit anchor / Utah
+Business & Chancery Court venue), **#89** (Jul 30 diversity defect cured / no remand), **#90** (Jul 29
+Belmont intervention denied as moot), **#91** (Aug 3 answer deadline → Sept 2), **#92** (Aug 6 "Special
+Motion" deadline tolled → Sept 7), **#93** (Aug 15 Provo Canyon School exposé — adjacent), **#94** (**Aug 19
+BAM–Mansell settlement**). Together these carry the effective known frontier to **Aug 19, 2026**.
+
+**Genuinely new / uncovered this pass (one item):**
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **Schneider's Aug 1, 2026 appearance on *5CAST w/ Andrew Callaghan* (Channel 5), Ep. #23 — "Reckless Ben Interview (Ft. Courtney Love)."** A long-form interview of Schneider about the Bricks & Minifigs / missing-LEGO investigation (Courtney Love also appears), released after the Jul 6 federal PI lifted the speech bar. Not in the repo or in any open PR (#87–#94); newer than the archive's Jul 15 frontier; a primary-source appearance of the class the archive already catalogs (cf. the Jul 12 Unsubscribe Podcast row). | `primary-sources.md` (Reckless Ben — YouTube appearances table) | Existence/title/#23/host/guest/Courtney Love **corroborated** (creator's own YouTube upload `WbFk6E3Zyek` + Channel 5 Threads/X + the Buzzsprout-fed podcast listings); **Aug 1 date** well-attested but feed-derived; **~85-min runtime single-source (Buzzsprout feed) — Reported ⚠**; contents **not** cataloged (his narrative = ALLEGATIONS) |
+
+**Checked but NOT promoted (nothing to add):**
+- **Aug 19 BAM–Mansell settlement** — the biggest recent development, but **already in open PR #94**; not duplicated. No independent (non-wire) newsroom report surfaced this pass to upgrade it.
+- **Aug 12, 2026 American Fork criminal hearing** (stalking, class A + targeted residential picketing, class B) — **still no reported outcome** (as PR #93 also logged); cross-check Utah XChange next pass.
+- **Nothing dated after Aug 19** surfaced (searched Aug 20 / "late August" / settlement reaction).
+- **"Part 4"** — still only *teased* (mid-July Unsubscribe Podcast / Part-3 outro); not released.
+- **Provo Canyon School exposé** (Aug 15) and its "weighing action" follow-up — in open PR #93; the school-closure causation framing stays refuted there.
+- **Federal case** (No. 2:26-cv-00593, D. Utah) — nothing past the Aug 6 tolling (PR #92); the Sept 2 / Sept 7 deadlines are future.
+
+> **Verification.** Two-agent rule applied. **Agent A (author)** drafted the 5CAST catalog row from
+> WebSearch snippets and platform listings. An **independent verifier (Agent B)** was given **only the
+> claim-as-written and the bare citation URLs** and re-triangulated each element via its own queries
+> (direct fetches egress-blocked, so snippet/title level). B's findings, **all applied:** episode
+> existence, exact title, **#23** numbering, host (Andrew Callaghan / 5CAST tied to Channel 5), guest
+> (Schneider), the BAM/LEGO subject, and Courtney Love's billing — **all CONFIRMED**, corroborated by the
+> creator's **own primary channels** (a full **YouTube** upload `WbFk6E3Zyek` + Channel 5's Threads and X
+> posts) in addition to the podcast listings; the **Aug 1, 2026** date CONFIRMED but **feed-derived**.
+> **Corrections adopted from B:** (a) the many podcast platforms (Apple/Spotify/iHeart/Podfollow/Pocket
+> Casts/Podchaser) **all ingest the same Buzzsprout feed 2498614 and are NOT mutually independent** — the
+> row was rewritten so the genuine independent corroboration is the creator's own YouTube/Threads/X, and
+> the canonical link switched to the **YouTube** upload; (b) the **~85-min runtime is single-source** (the
+> Buzzsprout feed) and any **clock time is uncorroborated** — both flagged ⚠; (c) the **CreatorDB** blog is
+> a single secondary source and its editorializing was **not** adopted as fact. Because corroboration rests
+> on snippet/title-level reads (no page opened directly), the item is catalogued as a **primary source with
+> the contents un-adopted**, its factual/asserted claims remaining Schneider's **ALLEGATIONS**.
