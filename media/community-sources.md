@@ -1841,3 +1841,60 @@ BAM–Mansell settlement**). Together these carry the effective known frontier t
 > a single secondary source and its editorializing was **not** adopted as fact. Because corroboration rests
 > on snippet/title-level reads (no page opened directly), the item is catalogued as a **primary source with
 > the contents un-adopted**, its factual/asserted claims remaining Schneider's **ALLEGATIONS**.
+## 2026-08-24 update — news watcher pass
+
+An automated news-watcher pass for **2026-08-24**. The committed frontier (`main`) is the **Jul 15**
+consolidation; a stack of **earlier watcher PRs (#87–#96) covering Jul 21–Aug 22 remains open and
+un-merged** — including the **Aug 19, 2026 BAM–Mansell settlement** (PR #94) and its independent
+mainstream corroboration (PR #96). **Those are not duplicated here.** This pass found **one genuinely new,
+on-topic wrinkle** that no open PR captures — a **party-side qualification of the settlement's "made whole"
+language** — plus a newly-surfaced BAM primary document and a new community fact-tracker. **Reddit,
+CourtListener, YouTube, and most news/host pages were egress-blocked to direct fetch this run (WebFetch
+403 across hosts); this pass ran on WebSearch snippets only.**
+
+### The one new lead — Mansell says the settlement money hasn't landed / suit not yet dismissed (Aug 20)
+
+| Item | URL | Note |
+|---|---|---|
+| **Bryan Mansell on the "BJC Live Show" (Aug 20, 2026)** — payment/dismissal status | https://www.youtube.com/@BJCLiveShow | **Primary (community video).** The day *after* BAM's Aug 19 press release said the Mansell family **"has been made whole,"** Mansell — asked on camera *"did they pay you your money?"* — reportedly answered that the settlement **deposit had not yet arrived** (*"we have not seen the deposit yet … but they have a time limit"*) and that he did not think BAM's suit against him **could be dismissed until the settlement money comes in** (*"a chicken-or-the-egg situation"*). His tone was **measured** — he noted the agreement gives BAM a **time window** and said he **has faith it will be met** (⚠ *not* an accusation of bad faith). ⚠ **Not independently opened this pass** (YouTube egress-blocked); the specific episode was **not** pinned — cataloged from the secondary reports below + community-video titles (e.g. YouTube `cs7Om6RSQks`, `yFJ4m2otkJQ`, `aAeKhH37v0g`). |
+| **Techdirt (Aug 21, 2026, Mike Masnick)** — relays the payment wrinkle | https://www.techdirt.com/2026/08/21/bricks-minifigs-settles-with-the-mansells-gutting-its-own-rico-case-against-reckless-ben/ | **Secondary (independent commentary).** Beyond its RICO-analysis angle (already cataloged for open PR #96), the same piece **independently relays the payment wrinkle**: *"Bryan stated that he wasn't actually paid yet despite what BAM said."* ⚠ Its framing tracks The BAM Map's closely, i.e. **likely shared/derivative sourcing** from the BJC Live Show — not a second independent newsroom investigation. |
+| **"The BAM Map" — settlement fact-check tracker (Aug 21, 2026)** | https://www.thebammap.com/updates/20260821/1 · https://www.thebammap.com/updates/20260819/3 | **Secondary (community, partisan).** A self-described independent fact-checking site that is **critical of BAM / defense-aligned** (page titles include *"The clause that erases you,"* *"The 'independent' stores were handed a script"*; BAM reportedly sent it a legal threat — Plagiarism Today, Jul 30, 2026). Its **Aug 21** update — *"BAM said Bryan Mansell 'has been made whole.' He says he hasn't been paid."* — is the source that surfaces the BJC Live Show statement and contrasts BAM's **BusinessWire "made whole"** wording with Mansell's **on-camera "deposit not yet arrived."** It also asserts the suit **"was not marked dismissed on the federal docket as of August 20, 2026"** (⚠ this docket reading is **the tracker's alone** — CourtListener was egress-blocked and not independently checked this pass). ⚠ **Partisan host** (treat like `bamsucks.com`): a **lead, not authority** — cross-check the underlying video and any docket dismissal against Utah **XChange** / the federal docket (D. Utah No. 2:26-cv-00593). |
+| **BAM — "Bricks & Minifigs® and Mansell FAQ" (Aug 19, 2026)** | https://bricksandminifigs.com/blog/blog/2026/08/19/bricks-minifigs-and-mansell-faq/ | **Primary (BAM's own page).** A settlement FAQ published alongside (but not linked from) BAM's Aug 19 press release, stating BAM/the McNeffs/Baker Salem/Josh Johnson/Brandon Best **will dismiss their lawsuit against Bryan Mansell**; the Mansell family **releases all claims** against BAM, its leadership, **Baker Salem, Josh Johnson, Brandon Best**, and any past/current franchisee; and the Mansells **assigned their consignment-contract claims to BAM** (agreeing to provide records/testimony). These terms are **mainstream-corroborated** (KSL, The Express Tribune, The Brick Fan, Dexerto). ⚠ Read at **snippet level only** (bricksandminifigs.com egress-blocked); a companion Aug 19 BAM blog post — *"Resolution Reached … Through Voluntary Mediation"* — restates the same. |
+
+**Status & why this is worth recording (neutrality).** Every mainstream outlet (KSL, ABC4, Deseret, KOIN,
+Dexerto, Kotaku, Brick Fanatics, The Express Tribune, UNILAD Tech) reported the Aug 19 settlement using
+BAM's **"made whole" / "has been compensated"** framing in the completed past tense; **no newsroom** carries
+Mansell's own **Aug 20** statement that the deposit had **not yet arrived** and that dismissal awaits
+payment. Per the archive's anti-laundering rule (don't convert a contested characterization into a settled
+fact), the **"made whole"** language is **BAM's**, and the settlement's *execution* — the actual payment
+and a docket-confirmed dismissal of *BAM v. Mansell* — is **not yet independently established.** Status:
+**Reported ⚠** (a community-video primary — Mansell on the BJC Live Show — relayed by two non-mainstream
+secondaries, Techdirt + The BAM Map, that appear to share sourcing; snippet-level; the "not yet dismissed"
+docket detail rests solely on The BAM Map's reading and needs an XChange / federal-docket cross-check). The
+Aug 19 settlement **event itself** is not re-litigated here — it belongs to open PR **#94** (and its
+mainstream corroboration to **#96**).
+
+### Checked, nothing new to add
+- **Aug 12, 2026 American Fork criminal hearing** (stalking, class A + targeted residential picketing,
+  class B — continued there from Jul 1): **no reported outcome** by any outlet this pass. The next
+  *criminal* date on the record is the **Provo** case's **Sept 15, 2026** appearance (future).
+- **"Part 4"** — still only **teased** (July community/podcast items, e.g. Unsubscribe Podcast); **no
+  confirmed release** surfaced.
+- **Schneider civil/federal matter** — every outlet frames the August settlement as with the **Mansell
+  family only**; the **Schneider matter remains in mediation / ongoing.** The Jul 29 Belmont-intervention
+  denial, Jul 30 diversity-cured (no remand), Aug 3 → Sept 2 answer extension, and Aug 6 → Sept 7
+  "special motion" federal items are **already owned by open PRs #89–#92** — not re-added here.
+- **Anything datable after Aug 21, 2026** — none found beyond the Aug 20 Mansell statement above.
+
+> **Verification (two-agent rule).** Agent A (author) drafted the above from multiple distinct WebSearches
+> (direct fetch egress-blocked for youtube.com, thebammap.com, bricksandminifigs.com, courtlistener.com,
+> wikipedia.org — snippet-level only). Agent B (independent verifier), given only the claims-as-written and
+> the bare citation URLs, re-checked each via ~19 tool uses / many distinct queries and found: the **Aug 19
+> settlement FAQ terms** (dismissal, named-party releases, claim assignment) **CONFIRMED** and
+> mainstream-corroborated; the **"deposit not arrived / chicken-or-egg / not yet dismissed / measured tone"**
+> statements **CONFIRMED at snippet level** but **not mainstream-corroborated** — quote-stable across many
+> queries yet traceable to a single community-video primary relayed by Techdirt + The BAM Map (shared
+> sourcing), so **Reported**, not CONFIRMED; the docket-dismissal-status element rests **solely** on The BAM
+> Map (CourtListener unreachable). Agent B **could not corroborate** any **Aug 12** hearing outcome and found
+> **no development datable after Aug 21, 2026.** Both agents independently reached the core facts from the
+> cited sources.
