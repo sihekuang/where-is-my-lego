@@ -115,7 +115,17 @@ consolidation** — direct reads of two PACER trackers); consolidation (Jul 15) 
 blog statement** ("An Update on Brand Improvements and Pending Litigation" — its first public statement after
 "Part 3" went public; new Jul 10 timeline row + `primary-sources.md` row) and **docket-anchored the Jul 6
 order's "preliminary injunction" label** (entry #21, read directly — the Jul 6 row is now CONFIRMED) (see
-[*2026-07-15 update*](#2026-07-15-update--news-watcher-pass) at the very end).
+[*2026-07-15 update*](#2026-07-15-update--news-watcher-pass) at the very end); **news watcher pass
+2026-08-26** — the committed archive is unchanged (eleven watcher PRs #87–#97 covering Jul 21–Aug 22, incl. the
+**Aug 19 BAM–Mansell settlement**, remain open and are not duplicated); **one genuinely new, thinly-sourced
+legal escalation** surfaced: the **former Salem/Keizer franchisees' own civil suit against BAM** (Chrystal
+Law-Gorman & Benjamin Gorman) was reportedly **amended to add a civil RICO / racketeering claim** naming BAM,
+Ammon & Matt McNeff, Josh Johnson, and Brandon Best — the mirror image of BAM's own RICO suit (so, per Techdirt,
+*"now everyone … is accusing everyone else of racketeering"*) — sourced only to **Techdirt's Aug 21 analysis** +
+a defense-aligned community video (**no filing date, not docket-verified, no mainstream newsroom**); **no
+development datable after Aug 21** surfaced — the **Aug 12** American Fork criminal-hearing outcome, a docketed
+*BAM v. Mansell* dismissal, and any actual **"Part 4"** release all remain unreported (see [*2026-08-26
+update*](#2026-08-26-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -1483,3 +1493,57 @@ timeline row is now CONFIRMED** (docket entry read directly by two agents + mult
 > the **BAM Jul 10 statement** (item 2) was read directly in full by **both** agents with all quotes matched
 > verbatim against the page. The lodging facts and the BAM statement are docket-/page-verified; the PACER
 > docket sheet (D. Utah No. 2:26-cv-00593) remains the canonical cross-check.
+
+---
+
+## 2026-08-26 update — news watcher pass
+
+A targeted pass for developments after the archive's frontier. **The committed archive (`main`) records
+developments through the Jul 15 consolidation; eleven earlier watcher PRs (#87–#97) covering Jul 21–Aug 22
+remain open and their contents are NOT duplicated here** — notably the **Aug 19 BAM–Mansell settlement** (#94,
+independently corroborated in #96) and the **Aug 20 "deposit not yet paid" wrinkle** (#97). **Reddit and all
+direct page fetches were egress-blocked this run** (WebFetch 403 across youtube.com, techdirt.com,
+courtlistener.com, bamsucks.com, wikipedia.org, and the outlet hosts), so — like most prior passes — this ran on
+**WebSearch snippets only**. **One genuinely new, on-topic development surfaced that no open PR captures**; it
+lands here as a **Reported ⚠** lead (community/secondary-sourced, below the CONFIRMED bar and with no firm
+date), **not** a `timeline.md` row.
+
+| # | Item | Where it landed | Status |
+|---|---|---|---|
+| 1 | **The former Salem/Keizer franchisees' own suit against BAM was amended to add a civil RICO claim.** The separate civil action brought by **Chrystal Law (Law-Gorman)** and **Benjamin Gorman** against **BAM Franchising** — their suit over the Nov 2024 store seizure, whose grounds the archive records as *"breach of contract, conversion, defamation, civil conspiracy"* (see the [`../timeline.md`](../timeline.md) ~Mar 2026 row) — was reportedly **"upgraded" to add a civil RICO / racketeering claim**, naming **BAM, Ammon McNeff, Matt McNeff, Josh Johnson, and Brandon Best** as defendants. This is the **mirror image** of BAM's *own* RICO suit (BAM/McNeffs as plaintiffs v. Schneider/Mansell) — as Techdirt frames it, *"now everyone in this dispute is accusing everyone else of racketeering."* ⚠ **Thinly sourced:** the only sources are **Techdirt's Aug 21, 2026 legal-analysis piece** (Mike Masnick — read at WebSearch-snippet level only; the page 403'd this run) and a **defense-aligned community YouTube video** (*"Bricks & Minifigs Gets RICO Claim Filed On Them By Chrystal Gorman!"*, `CpPKNrIae_o`), echoed by the community site **bamsucks.com**. **No firm filing date** (Techdirt says only *"recently"*; the video is undated), **not docket-verified**, and **no mainstream newsroom** (KOIN/KATU/KSL/ABC4/Dexerto) has reported it — their Gorman-suit coverage still stops at the fraud/defamation/breach grounds. | `media/community-sources.md` (this section) | **Reported ⚠** (one reputable secondary — Techdirt Aug 21 — + a defense-aligned community video; no docket, no firm date, no mainstream corroboration). The RICO *allegations themselves* are the Gorman/Law side's contentions (**ALLEGATION**), unadjudicated. |
+
+**Status & neutrality.** Recorded as a **lead**, not adopted as a settled fact. Per the archive's anti-laundering
+rule, the amendment's *contents* (RICO/racketeering against BAM and its principals) are **the Gorman/Law side's
+ALLEGATIONS**, unadjudicated. This filled a genuine gap the open-PR stack missed: PRs #94/#96 read the **same
+Aug 21 Techdirt article** but cataloged only its **Mansell-settlement** sentence, not the **Gorman-RICO**
+sentence in the same piece. It should **graduate to a `timeline.md` row / a `relationships.md` edge-note update**
+only once a **firm filing date**, a **docket read** (Utah Business & Chancery Court), or a **mainstream
+newsroom** anchors it.
+
+**Also checked, nothing new to add (no development datable after Aug 21, 2026):**
+- **Aug 19 BAM–Mansell settlement**, its mainstream coverage, and the Aug 20 "not paid yet" wrinkle — **already
+  owned by open PRs #94 / #96 / #97**; not duplicated.
+- **Aug 12, 2026 American Fork criminal hearing** (stalking, class A + targeted residential picketing, class B)
+  — **no reported outcome** by any outlet; the next criminal date on record is the Provo case's **Sept 15**.
+- **Docketed dismissal of *BAM v. Bryan Mansell*** following the settlement — the Aug 19 release uses intent
+  language (*"will dismiss"*); **no entered/docketed dismissal** surfaced.
+- **"Part 4"** — still only **teased** (mid-July podcast/community items); **no confirmed release**.
+- **Schneider federal case** (D. Utah No. 2:26-cv-00593) — **no ruling after Aug 21**; the Sept 2 answer /
+  Sept 7 "special motion" deadlines are future and owned by open PRs #91 / #92.
+- **Reddit (r/RecklessBen)** — not directly reachable this pass (egress-blocked to non-browser clients).
+
+> **Verification (two-agent rule).** **Agent A (author)** drafted the entry from multiple distinct WebSearches
+> (direct fetch egress-blocked for every host this run — snippet-level only). **Agent B (independent verifier)**
+> was given only the claim-as-written and the bare citation URLs and re-checked each via ~11 tool uses / many
+> distinct queries. Findings: **CONFIRMED (snippet-level)** — Techdirt's Aug 21 piece carries the Gorman-side
+> RICO-amendment characterization (*"the Gormans' lawsuit … recently 'upgraded' to include RICO claims of their
+> own"*); and the amendment is **genuinely distinct** from BAM's own RICO suit (opposite alignment — Gorman as
+> plaintiff, the BAM side as defendants), **not** a garbled restatement of it. **REFUTED** — that any firm
+> filing date exists (none in any source; even the base suit's date is reported inconsistently). **CONFIRMED
+> accurate** — that no mainstream newsroom reports it (only Techdirt commentary + the community video +
+> bamsucks). **CANNOT CORROBORATE** — any development datable after Aug 21 (the Aug 12 hearing outcome, a
+> docketed Mansell dismissal, a Part-4 release, or a post-Aug-21 federal ruling). Both agents independently
+> reached the core facts from the cited sources; on Agent B's independence test the item is labeled
+> **Reported ⚠**, not CONFIRMED. ⚠ Neither agent could open the Techdirt page directly (egress-blocked) — the
+> quoted sentence rests on consistent search-engine summaries and should be re-confirmed against the rendered
+> page; **cross-check Utah XChange / the Business & Chancery Court docket** for the amended complaint itself.
