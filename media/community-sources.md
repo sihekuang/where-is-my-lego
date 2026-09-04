@@ -1959,3 +1959,56 @@ newsroom** anchors it.
 > **Reported ⚠**, not CONFIRMED. ⚠ Neither agent could open the Techdirt page directly (egress-blocked) — the
 > quoted sentence rests on consistent search-engine summaries and should be re-confirmed against the rendered
 > page; **cross-check Utah XChange / the Business & Chancery Court docket** for the amended complaint itself.
+## 2026-09-04 update — news watcher pass
+
+**One new development since the archive's frontier** (which, on `main`, runs through the **Jul 10** BAM
+statement; the later Jul 22–Aug 27 items — including the **Aug 19** BAM–Mansell settlement — sit in
+**pending watcher PRs #87–#99**, not yet merged).
+
+**Bryan Mansell says he "has gotten his Legos back" (~Sep 2–3, 2026) — self-sourced, Reported ⚠.**
+A YouTube video titled *"Bryan Mansell has gotten his Legos back!"*
+(https://www.youtube.com/watch?v=FUVn2BJecd0, uploaded ~Sep 3, 2026) has collector **Bryan Mansell**
+announcing he received LEGO back from **Bricks & Minifigs**, presented as the concrete sequel to the
+**Aug 19, 2026** BAM–Mansell settlement (compensation + apology + release of claims; already cataloged
+in pending **PR #94**). Added to [`../timeline.md`](../timeline.md) as **Reported ⚠**.
+
+| Item | URL | Note |
+|---|---|---|
+| **Bryan Mansell** — "Bryan Mansell has gotten his Legos back!" | https://www.youtube.com/watch?v=FUVn2BJecd0 | Primary self-report (uploaded ~Sep 3, 2026). Mansell's own claim that he received LEGO back from BAM. ⚠ **Not opened this pass** (YouTube 403 / WebFetch to youtube.com blocked); title + WebSearch snippets only. Scope of what was returned **not** established — see caveats below. |
+
+- **Sourcing is thin and scope-ambiguous.** Two traces only: Mansell's **own** video (primary
+  self-report) and the **Wikipedia** article (tertiary), which is where the specific *"On September 2 …
+  received his Lego sets"* wording originates. **No independent news outlet, court filing, or agency
+  statement** reports a physical return as of this pass; the entire Aug 19–21 news cycle (KSL, Deseret
+  News, KOIN, Techdirt, Kotaku, Brick Fanatics, NewsNation) covers the **settlement**, not a hand-back.
+- **Do not overstate what came back.** Available sourcing does not establish whether Mansell received
+  the original ~780-set collection, the small remnant BAM always said was the only inventory at the
+  store, or compensation/replacement in kind. Recorded strictly as **Mansell's own characterization**.
+  (A search-engine synthesis this pass asserted "more than 780 sets were returned" — that is a
+  **confabulation** that glues the original-collection size onto the return; it appears in **no** cited
+  source and is **not** adopted.) Separately, Bryan recovered hundreds of items from former franchisee
+  **Chrystal Law-Gorman** back in **Jan 2025** — a distinct earlier event, easy to conflate.
+
+**Leads noted but NOT added (already tracked, or too thin):**
+- **~Sep 2 answer deadline** and **~Sep 7 special-motion (anti-SLAPP) deadline** in the removed federal
+  case (*BAM Franchising Inc v. Schneider*, No. 2:26-cv-00593, D. Utah) — **already captured** in
+  pending watcher PRs **#91** (answer → Sep 2) and **#92** (special motion → Sep 7); not re-added here.
+- **Sep 15, 2026 — a reported Schneider misdemeanor criminal hearing** (disorderly-conduct / trespass
+  strand). Single-outlet (NewsNation) and a *scheduled future date* that can move; held as a **lead**,
+  not added, pending an outcome or docket confirmation.
+
+**Reddit:** r/RecklessBen could not be opened this pass — direct fetches (old.reddit.com and the
+`.json` endpoints) were **403'd by the network egress proxy**, and WebFetch to reddit.com is blocked;
+leads were gathered via WebSearch instead.
+
+> **Verification (two-agent rule).** The author drafted the return item from WebSearch triangulation; an
+> **independent verifier subagent**, given only the claim-as-written and the two citation URLs, ran its
+> own distinct searches and independently reached: **no independent outlet or court record corroborates
+> a physical return** (only Mansell's video + Wikipedia); the **scope of what was returned is
+> unestablished**; the **"780 sets returned" figure is a synthesizer confabulation** to be dropped; and
+> the safer date framing is **"early September (~Sep 2–3)"** rather than a hard Sep 2 (Sep 2 was also the
+> case's answer deadline, a likely reason Wikipedia fixed on that date). Both agents agree the item
+> clears only the **Reported ⚠** bar, not CONFIRMED. WebFetch to primaries was proxy-blocked for both
+> agents, so **neither opened the video or Wikipedia directly** — a further reason the item stays
+> Reported ⚠. **Follow-ups:** watch for (a) any independent/court confirmation of a physical return and
+> its scope, and (b) the Sep 15 criminal hearing outcome.
