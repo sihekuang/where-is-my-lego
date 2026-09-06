@@ -130,10 +130,24 @@ export function parseDateKey(raw) {
   return { y, m, d };
 }
 
-function classifyStatus(text) {
-  const s = text.toUpperCase();
-  if (s.includes("CONFIRMED")) return "confirmed";
-  if (s.includes("ALLEGATION")) return "allegation";
+// Status cells lead with their own label and then qualify it, e.g.
+//   "Reported ⚠ (… no independent newsroom coverage or docket-confirmed dismissal)"
+//   "Page removed **Reported** (…); cause **ALLEGATION** (single social source)"
+// so a plain "contains CONFIRMED" scan reads the qualifier instead of the label
+// and can render a Reported row as CONFIRMED — the exact laundering the archive
+// exists to avoid. Take the FIRST label that appears, and ignore the ones that
+// are part of a compound ("docket-confirmed", "agency-confirmed") or negated
+// ("not confirmed"); "unconfirmed" is excluded by the word boundary already.
+export function classifyStatus(text) {
+  const s = String(text).toUpperCase();
+  const re = /(?<![-\w])(CONFIRMED|ALLEGATION|REPORTED)/g;
+  let m;
+  while ((m = re.exec(s))) {
+    if (/\bNOT\s+$/.test(s.slice(Math.max(0, m.index - 6), m.index))) continue;
+    if (m[1] === "ALLEGATION") return "allegation";
+    if (m[1] === "CONFIRMED") return "confirmed";
+    return "reported";
+  }
   return "reported";
 }
 

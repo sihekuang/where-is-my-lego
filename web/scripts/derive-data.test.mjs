@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { parseDateKey, deriveTimeline, deriveRelationships, figForNode } from "./derive-data.mjs";
+import { parseDateKey, deriveTimeline, deriveRelationships, figForNode, classifyStatus } from "./derive-data.mjs";
 
 const cases = [
   ["**Nov 22, 2023**", { y: 2023, m: 11, d: 22 }],
@@ -198,3 +198,33 @@ assert.equal(
 );
 
 console.log(`deriveRelationships: fig codes verified on ${rel.nodes.length} nodes`);
+
+// classifyStatus reads the label the cell LEADS with, not any keyword that
+// happens to appear in its qualifiers. Regression: a "Reported" row whose prose
+// mentions "docket-confirmed" must not render as CONFIRMED.
+const statusCases = [
+  ["CONFIRMED (court record)", "confirmed"],
+  ["ALLEGATION (contested)", "allegation"],
+  ["Reported (single outlet)", "reported"],
+  ["", "reported"],
+  ["Statement issued & multi-sourced", "reported"],
+  // leading label wins over later qualifiers
+  ["Reported; reasons disputed (ALLEGATION on both sides)", "reported"],
+  ["Page removed **Reported** (…); cause **ALLEGATION**", "reported"],
+  ["Interview published (CONFIRMED); claims **ALLEGATION**", "confirmed"],
+  // compound / negated forms are not the label
+  ["Reported ⚠ (no independent newsroom or docket-confirmed dismissal)", "reported"],
+  ["His statement (Mexico departure not agency-confirmed)", "reported"],
+  ["Status unconfirmed pending the docket", "reported"],
+  ["Reported ⚠; the case continuation is CONFIRMED", "reported"],
+];
+
+for (const [input, expected] of statusCases) {
+  assert.equal(
+    classifyStatus(input),
+    expected,
+    `classifyStatus(${JSON.stringify(input)})`
+  );
+}
+
+console.log(`classifyStatus: ${statusCases.length} assertions passed`);
