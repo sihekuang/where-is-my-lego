@@ -1,157 +1,169 @@
 # Community Sources
 
 Reader-facing index of **primary sources** gathered from the community covering this case — court
-filings, public records, official statements, and video coverage. The aim is to collect the **primary**
-material people point to (much of the reporting elsewhere leans on *secondary* sources) so it can be
-cited directly. This catalog is meant to **grow**: new sources can be added under the sections below, and
-their origin recorded in *Where these came from*. **Linked, not re-hosted** (copyright + no network
-egress at compile time). Last reviewed **2026-06-03**; **Reddit + YouTube follow-up pass 2026-06-04**
-(see [*2026-06-04 update*](#2026-06-04-update--reddit--youtube-follow-up-pass) near the end); **news
-watcher pass 2026-06-10, re-verified and amended** (see [*2026-06-10
+filings, public records, official statements, and video coverage. The aim is to collect the
+**primary** material people point to (much of the reporting elsewhere leans on *secondary* sources)
+so it can be cited directly. This catalog is meant to **grow**: new sources can be added under the
+sections below, and their origin recorded in *Where these came from*. **Linked, not re-hosted**
+(copyright + no network egress at compile time). Last reviewed **2026-06-03**; **Reddit + YouTube
+follow-up pass 2026-06-04** (see [*2026-06-04
+update*](#2026-06-04-update--reddit--youtube-follow-up-pass) near the end); **news watcher pass
+2026-06-10, re-verified and amended** (see [*2026-06-10
 update*](#2026-06-10-update--news-watcher-pass-re-verified) near the end); **news watcher pass
-2026-06-11** (see [*2026-06-11 update*](#2026-06-11-update--news-watcher-pass) near the end); **second
-2026-06-11 sweep, re-verified against re-opened sources** — franchise-spillover harassment
+2026-06-11** (see [*2026-06-11 update*](#2026-06-11-update--news-watcher-pass) near the end);
+**second 2026-06-11 sweep, re-verified against re-opened sources** — franchise-spillover harassment
 (Sacramento/SLO/Ohio), Minifigs.me supplier exit, Coffeezilla's full investigation (see [*2026-06-11
 update — second sweep*](#2026-06-11-update--news-watcher-pass-second-sweep-re-verified) near the
-end); **news watcher pass 2026-06-12, re-verified** — the ~$1.3M suit-against-Mansell figure and BAM's
-Nov 14, 2024 handover footage, both from Coffeezilla's Jun 10 video (see [*2026-06-12
+end); **news watcher pass 2026-06-12, re-verified** — the ~$1.3M suit-against-Mansell figure and
+BAM's Nov 14, 2024 handover footage, both from Coffeezilla's Jun 10 video (see [*2026-06-12
 update*](#2026-06-12-update--news-watcher-pass-re-verified)); **news watcher pass 2026-06-13** — a
-third fundraiser (GiveSendGo legal-defense fund for Schneider) plus CBC/Franchise Times recap coverage;
-no new case event Jun 11–13 (see [*2026-06-13 update*](#2026-06-13-update--news-watcher-pass)); **news
-watcher pass 2026-06-18** — the Jun 16 Law-Gorman TRO-modification motion; **news watcher pass
-2026-06-19** — voice actress Tara Strong's public plea to BAM (a notable public reaction; no new case
-event, see [*2026-06-19 update*](#2026-06-19-update--news-watcher-pass)); **news watcher pass
-2026-06-23** — surfaced a *second*, archive-missing criminal case (Provo Justice Court: disorderly
-conduct + trespass over a Dec 10, 2025 BAM corporate-office visit); no new adjudicated event in the
-window (see [*2026-06-23 update*](#2026-06-23-update--news-watcher-pass)); **news watcher pass
-2026-06-25** — a reported **Jun 24 joint move by the parties** to convert the May 28 TRO into a
-**stipulated preliminary injunction** (loosening the speech bar) and **vacate the Jun 30 hearing** for
-mediation; no court ruling and no "Part 3" release (see [*2026-06-25
-update*](#2026-06-25-update--news-watcher-pass)); **news watcher pass 2026-06-27** — Judge Graf reportedly
-**declined to sign** that proposed stipulated injunction as drafted (stay-away clause flagged "very
-broad"), prompting a **joint clarification** by the parties; order still unsigned, no "Part 3" release
-(see [*2026-06-27 update*](#2026-06-27-update--news-watcher-pass) near the end); **news watcher pass
-2026-06-27 (second sweep)** — the **defendants reportedly removed the civil case to federal court** (U.S.
-District Court for the District of Utah) on **diversity** grounds via a **Jun 26 Notice of Removal**; a
-**genuinely new** dated procedural event, **single-origin to Dexerto** and not docket-verified (see
-[*2026-06-27 update — second sweep*](#2026-06-27-update--news-watcher-pass-second-sweep) near the end);
-**news watcher pass 2026-06-28** — **docket-verified** that Jun 26 federal removal: the case now appears on
-two independent PACER-sourced trackers (CourtListener + PacerMonitor) as **No. 2:26-cv-00593** (D. Utah);
-**no new dated event** surfaced since Jun 26 (see [*2026-06-28 update*](#2026-06-28-update--news-watcher-pass)
-near the end); **news watcher pass 2026-06-28 (second sweep)** — **no new dated event**, but a source-backed
-refinement to the Jun 26 removal row: co-defendant **Bryan Mansell** reportedly filed a notice **consenting**
-to the federal removal (resolving the prior "not stated" flag; Reported, single-newsroom + docket entry) —
-see [*2026-06-28 update — second sweep*](#2026-06-28-update--news-watcher-pass-second-sweep); **news watcher
-pass 2026-06-29** — **no new dated event**, one docket refinement to the Jun 26 removal: a **federal judge
-assignment** (Magistrate Judge **Cecilia M. Romero**, D. Utah) surfaced on the CourtListener tracker
-(Reported ⚠, docket-tracker-only) — see [*2026-06-29 update*](#2026-06-29-update--news-watcher-pass); **news
-watcher pass 2026-07-01** — **one new dated docket event**: a **Jun 30, 2026** "Joint Motion for TRO
-Modification and Entry of Preliminary Injunction" on the removed federal case (No. 2:26-cv-00593, D. Utah),
-apparently carrying the Jun 24 stipulated-injunction effort into the federal forum after removal (Reported ⚠,
-docket-tracker-only; ⚠ Jun 30-vs-Jun 24 date conflict); the **Jul 1** criminal hearing outcome is not yet
-reported — see [*2026-07-01 update*](#2026-07-01-update--news-watcher-pass); **news watcher pass 2026-07-01
-(second sweep)** — a broader same-day sweep surfaced **BAM's Jun 29, 2026 "amicable resolution" statement**
-(BusinessWire + BAM blog + Dexerto/Brick Fanatics/UNILAD): reiterated "make whole" offer, collection valued
-**$95K–$100K**, and **~$61K+ sold vs. ~$15K paid to Mansell** figures — **BAM's contentions (ALLEGATION)**
-(see [*2026-07-01 update — second sweep*](#2026-07-01-update--news-watcher-pass-second-sweep)); **news watcher pass 2026-07-02**
-— **no new adjudicated event**, but a **corrective docket refinement**: a community-mirrored Provo Justice
-Court docket-events PDF (case 261000376) indicates the **Provo** case's pretrial was **Jun 8 → continued →
-Jul 6, 2026** and that the tracked **"July 1"** hearing date belongs to the **American Fork** stalking case,
-not the Provo matter (also surfaces Judge **Stephen H. Schreiner**, Provo City prosecutor **Robert Trombly**,
-and **Not Guilty pleas May 14, 2026**) — Reported ⚠, snippet-level; the **Jul 1 outcome remains unreported**
-by any outlet (see [*2026-07-02 update*](#2026-07-02-update--news-watcher-pass) at the very end); **news watcher
-pass 2026-07-03** — **two new dated federal-docket events**: a **Jul 1, 2026** non-party motion for limited
-intervention to vacate the TRO's speech restrictions (**Gregory C. Belmont / "CereBel Legal Intelligence"**, a
-stranger to the dispute) and **Jul 2, 2026** unopposed "Motion for Extension of Time to File Answer" filings (one
-by **Mansell**, one by the **Schneider/Nguyen** defendants) on the removed federal case (No. 2:26-cv-00593, D.
-Utah); no ruling on the stipulated-injunction motion, no remand, and the **Jul 1 criminal outcome still
-unreported** (Reported ⚠, docket-tracker/snippet-level; see
-[*2026-07-03 update*](#2026-07-03-update--news-watcher-pass) at the very end); **news watcher pass 2026-07-07**
-— **one genuinely new, significant dated event**: on **Jul 6, 2026** a federal judge (**U.S. District Judge David
-Barlow**, D. Utah No. 2:26-cv-00593) reportedly **granted the joint motion and entered the modified stipulated
-preliminary injunction** — **lifting the speech bar** Schneider cited for withholding **"Part 3"** (while keeping
-bars on threats/doxxing/trespass/impersonation/interference); the docket also shows the case **reassigned from
-Magistrate Judge Romero to District Judge Barlow** and the **answer deadline extended to Aug 3, 2026**; ⚠ news
-single-origin (Dexerto) + docket-tracker snippets, ⚠ Part 3 not confirmed released, and the **Jul 1 criminal
-outcome still unreported** (see [*2026-07-07 update*](#2026-07-07-update--news-watcher-pass) at the very end); **news
-watcher pass 2026-07-08** — **one genuinely new, community-only signal**: **"Part 3" appears to have been released to
-Patreon patrons ~Jul 7–8** (a new Reckless Ben Patreon post, *"They Tried to Throw Me in Jail Before This Documentary
-Came Out (Episode 3)"*, `163172902`), following the Jul 6 speech-bar lift — corroborated by a wave of community
-reaction/reupload videos but **no mainstream outlet** (coverage still stops at *"free to post"*); patron-only, not
-docket/agency-backed, and the paywalled contents are **not** cataloged (see [*2026-07-08
-update*](#2026-07-08-update--news-watcher-pass) at the very end); **news watcher pass 2026-07-08 (second
-sweep)** — **KSL.com** (art. 51595241) mainstream-reported **two criminal-case outcomes** the archive had
-flagged as unreported: the **American Fork** July 1 stalking hearing was **continued to Aug. 12, 2026**
-(attorneys **Delicino** + **Williams** in a St. George federal trial, sought more time) and the **Provo**
-**Jul 6** pretrial set a **Sept. 15, 2026** next hearing (Schneider to be fingerprinted); the same article
-gives the first **mainstream** corroboration of the patron-only **Part 3** release (see [*2026-07-08 update —
-second sweep*](#2026-07-08-update--news-watcher-pass-second-sweep) at the very end); **news watcher pass
-2026-07-10** — **one genuinely new dated event**: a **Jul 7, 2026** federal **memorandum decision and order**
-(**Judge David Barlow**, D. Utah No. 2:26-cv-00593) **questioning the court's own diversity jurisdiction** —
-the Jun 26 removal notice failed to state the citizenship of each **member** of **Reckless Ben LLC**, and the
-court ordered the defendants to cure that **by Jul 21, 2026 "or [the] case will be remanded for lack of
-jurisdiction"** (docket-tracker order + independent **KSL** corroboration; ⚠ snippet-level; "members" [order]
-vs. "employees" [KSL]); no remand ruling, settlement, new charge, or Part 4 surfaced (see
-[*2026-07-10 update*](#2026-07-10-update--news-watcher-pass) at the very end); **news watcher pass
-2026-07-11** — **no new dated event**; the **Salt Lake Tribune** (Jul 10, 2026, staff byline *Jordan Miller*)
-gives **independent mainstream corroboration** of the **Jul 6 federal order** (previously flagged single-origin
-Dexerto) — an independent Utah newsroom report, not a Dexerto reprint; it does **not** address the diversity-
-jurisdiction question (that stays tied to the Jul 7 order / KSL) (see [*2026-07-11
-update*](#2026-07-11-update--news-watcher-pass) at the very end); **news watcher pass 2026-07-14** — **no new
-adjudicated/legal event** (the Jul 7 order's **Jul 21** show-or-remand deadline had not yet arrived), but two
-genuinely new dated items: **Schneider (+ "Victor," identified per the case record as Victor Nguyen) on the
-Unsubscribe Podcast, Ep. 272 (Jul 12, 2026)**, a ~3 hr post-gag **primary-source appearance** teasing "Part 4"
-(directly verified on all three platform listings at consolidation), and a **Techdirt legal-analysis follow-up
-(Jul 13, 2026, Mike Masnick)** on Schneider's **pro se** lawyering — commentary on already-recorded Jul 6–10
+third fundraiser (GiveSendGo legal-defense fund for Schneider) plus CBC/Franchise Times recap
+coverage; no new case event Jun 11–13 (see [*2026-06-13
+update*](#2026-06-13-update--news-watcher-pass)); **news watcher pass 2026-06-18** — the Jun 16
+Law-Gorman TRO-modification motion; **news watcher pass 2026-06-19** — voice actress Tara Strong's
+public plea to BAM (a notable public reaction; no new case event, see [*2026-06-19
+update*](#2026-06-19-update--news-watcher-pass)); **news watcher pass 2026-06-23** — surfaced a
+*second*, archive-missing criminal case (Provo Justice Court: disorderly conduct + trespass over a
+Dec 10, 2025 BAM corporate-office visit); no new adjudicated event in the window (see [*2026-06-23
+update*](#2026-06-23-update--news-watcher-pass)); **news watcher pass 2026-06-25** — a reported
+**Jun 24 joint move by the parties** to convert the May 28 TRO into a **stipulated preliminary
+injunction** (loosening the speech bar) and **vacate the Jun 30 hearing** for mediation; no court
+ruling and no "Part 3" release (see [*2026-06-25 update*](#2026-06-25-update--news-watcher-pass));
+**news watcher pass 2026-06-27** — Judge Graf reportedly **declined to sign** that proposed
+stipulated injunction as drafted (stay-away clause flagged "very broad"), prompting a **joint
+clarification** by the parties; order still unsigned, no "Part 3" release (see [*2026-06-27
+update*](#2026-06-27-update--news-watcher-pass) near the end); **news watcher pass 2026-06-27
+(second sweep)** — the **defendants reportedly removed the civil case to federal court** (U.S.
+District Court for the District of Utah) on **diversity** grounds via a **Jun 26 Notice of
+Removal**; a **genuinely new** dated procedural event, **single-origin to Dexerto** and not
+docket-verified (see [*2026-06-27 update — second
+sweep*](#2026-06-27-update--news-watcher-pass-second-sweep) near the end); **news watcher pass
+2026-06-28** — **docket-verified** that Jun 26 federal removal: the case now appears on two
+independent PACER-sourced trackers (CourtListener + PacerMonitor) as **No. 2:26-cv-00593** (D.
+Utah); **no new dated event** surfaced since Jun 26 (see [*2026-06-28
+update*](#2026-06-28-update--news-watcher-pass) near the end); **news watcher pass 2026-06-28
+(second sweep)** — **no new dated event**, but a source-backed refinement to the Jun 26 removal row:
+co-defendant **Bryan Mansell** reportedly filed a notice **consenting** to the federal removal
+(resolving the prior "not stated" flag; Reported, single-newsroom + docket entry) — see [*2026-06-28
+update — second sweep*](#2026-06-28-update--news-watcher-pass-second-sweep); **news watcher pass
+2026-06-29** — **no new dated event**, one docket refinement to the Jun 26 removal: a **federal
+judge assignment** (Magistrate Judge **Cecilia M. Romero**, D. Utah) surfaced on the CourtListener
+tracker (Reported ⚠, docket-tracker-only) — see [*2026-06-29
+update*](#2026-06-29-update--news-watcher-pass); **news watcher pass 2026-07-01** — **one new dated
+docket event**: a **Jun 30, 2026** "Joint Motion for TRO Modification and Entry of Preliminary
+Injunction" on the removed federal case (No. 2:26-cv-00593, D. Utah), apparently carrying the Jun 24
+stipulated-injunction effort into the federal forum after removal (Reported ⚠, docket-tracker-only;
+⚠ Jun 30-vs-Jun 24 date conflict); the **Jul 1** criminal hearing outcome is not yet reported — see
+[*2026-07-01 update*](#2026-07-01-update--news-watcher-pass); **news watcher pass 2026-07-01 (second
+sweep)** — a broader same-day sweep surfaced **BAM's Jun 29, 2026 "amicable resolution" statement**
+(BusinessWire + BAM blog + Dexerto/Brick Fanatics/UNILAD): reiterated "make whole" offer, collection
+valued **$95K–$100K**, and **~$61K+ sold vs. ~$15K paid to Mansell** figures — **BAM's contentions
+(ALLEGATION)** (see [*2026-07-01 update — second
+sweep*](#2026-07-01-update--news-watcher-pass-second-sweep)); **news watcher pass 2026-07-02** —
+**no new adjudicated event**, but a **corrective docket refinement**: a community-mirrored Provo
+Justice Court docket-events PDF (case 261000376) indicates the **Provo** case's pretrial was **Jun 8
+→ continued → Jul 6, 2026** and that the tracked **"July 1"** hearing date belongs to the **American
+Fork** stalking case, not the Provo matter (also surfaces Judge **Stephen H. Schreiner**, Provo City
+prosecutor **Robert Trombly**, and **Not Guilty pleas May 14, 2026**) — Reported ⚠, snippet-level;
+the **Jul 1 outcome remains unreported** by any outlet (see [*2026-07-02
+update*](#2026-07-02-update--news-watcher-pass) at the very end); **news watcher pass 2026-07-03** —
+**two new dated federal-docket events**: a **Jul 1, 2026** non-party motion for limited intervention
+to vacate the TRO's speech restrictions (**Gregory C. Belmont / "CereBel Legal Intelligence"**, a
+stranger to the dispute) and **Jul 2, 2026** unopposed "Motion for Extension of Time to File Answer"
+filings (one by **Mansell**, one by the **Schneider/Nguyen** defendants) on the removed federal case
+(No. 2:26-cv-00593, D. Utah); no ruling on the stipulated-injunction motion, no remand, and the
+**Jul 1 criminal outcome still unreported** (Reported ⚠, docket-tracker/snippet-level; see
+[*2026-07-03 update*](#2026-07-03-update--news-watcher-pass) at the very end); **news watcher pass
+2026-07-07** — **one genuinely new, significant dated event**: on **Jul 6, 2026** a federal judge
+(**U.S. District Judge David Barlow**, D. Utah No. 2:26-cv-00593) reportedly **granted the joint
+motion and entered the modified stipulated preliminary injunction** — **lifting the speech bar**
+Schneider cited for withholding **"Part 3"** (while keeping bars on
+threats/doxxing/trespass/impersonation/interference); the docket also shows the case **reassigned
+from Magistrate Judge Romero to District Judge Barlow** and the **answer deadline extended to Aug 3,
+2026**; ⚠ news single-origin (Dexerto) + docket-tracker snippets, ⚠ Part 3 not confirmed released,
+and the **Jul 1 criminal outcome still unreported** (see [*2026-07-07
+update*](#2026-07-07-update--news-watcher-pass) at the very end); **news watcher pass 2026-07-08** —
+**one genuinely new, community-only signal**: **"Part 3" appears to have been released to Patreon
+patrons ~Jul 7–8** (a new Reckless Ben Patreon post, *"They Tried to Throw Me in Jail Before This
+Documentary Came Out (Episode 3)"*, `163172902`), following the Jul 6 speech-bar lift — corroborated
+by a wave of community reaction/reupload videos but **no mainstream outlet** (coverage still stops
+at *"free to post"*); patron-only, not docket/agency-backed, and the paywalled contents are **not**
+cataloged (see [*2026-07-08 update*](#2026-07-08-update--news-watcher-pass) at the very end); **news
+watcher pass 2026-07-08 (second sweep)** — **KSL.com** (art. 51595241) mainstream-reported **two
+criminal-case outcomes** the archive had flagged as unreported: the **American Fork** July 1
+stalking hearing was **continued to Aug. 12, 2026** (attorneys **Delicino** + **Williams** in a St.
+George federal trial, sought more time) and the **Provo** **Jul 6** pretrial set a **Sept. 15,
+2026** next hearing (Schneider to be fingerprinted); the same article gives the first **mainstream**
+corroboration of the patron-only **Part 3** release (see [*2026-07-08 update — second
+sweep*](#2026-07-08-update--news-watcher-pass-second-sweep) at the very end); **news watcher pass
+2026-07-10** — **one genuinely new dated event**: a **Jul 7, 2026** federal **memorandum decision
+and order** (**Judge David Barlow**, D. Utah No. 2:26-cv-00593) **questioning the court's own
+diversity jurisdiction** — the Jun 26 removal notice failed to state the citizenship of each
+**member** of **Reckless Ben LLC**, and the court ordered the defendants to cure that **by Jul 21,
+2026 "or [the] case will be remanded for lack of jurisdiction"** (docket-tracker order + independent
+**KSL** corroboration; ⚠ snippet-level; "members" [order] vs. "employees" [KSL]); no remand ruling,
+settlement, new charge, or Part 4 surfaced (see [*2026-07-10
+update*](#2026-07-10-update--news-watcher-pass) at the very end); **news watcher pass 2026-07-11** —
+**no new dated event**; the **Salt Lake Tribune** (Jul 10, 2026, staff byline *Jordan Miller*) gives
+**independent mainstream corroboration** of the **Jul 6 federal order** (previously flagged
+single-origin Dexerto) — an independent Utah newsroom report, not a Dexerto reprint; it does **not**
+address the diversity- jurisdiction question (that stays tied to the Jul 7 order / KSL) (see
+[*2026-07-11 update*](#2026-07-11-update--news-watcher-pass) at the very end); **news watcher pass
+2026-07-14** — **no new adjudicated/legal event** (the Jul 7 order's **Jul 21** show-or-remand
+deadline had not yet arrived), but two genuinely new dated items: **Schneider (+ "Victor,"
+identified per the case record as Victor Nguyen) on the Unsubscribe Podcast, Ep. 272 (Jul 12,
+2026)**, a ~3 hr post-gag **primary-source appearance** teasing "Part 4" (directly verified on all
+three platform listings at consolidation), and a **Techdirt legal-analysis follow-up (Jul 13, 2026,
+Mike Masnick)** on Schneider's **pro se** lawyering — commentary on already-recorded Jul 6–10
 developments, not a new court event (see [*2026-07-14
-update*](#2026-07-14-update--news-watcher-pass) at the very end); **news watcher pass 2026-07-15** — **one
-small new dated docket refinement**: on **Jul 8, 2026** the federal court (D. Utah No. 2:26-cv-00593) set
-**non-party Gregory C. Belmont's filings** aside as **"LODGED" per Chambers** (two docket events — the Jul 1
-intervention notice retroactively marked, plus a second Jul 7 document lodged at entry) — because he "has not
-been granted leave to intervene and should not be submitting filings" — held "for reference purposes only"
-pending any grant of leave; the **intervention motion itself remains undecided**, and no
-remand/settlement/new-charge/Part-4 surfaced (folded into the Jul 1 Belmont timeline row; **docket-verified at
-consolidation** — direct reads of two PACER trackers); consolidation (Jul 15) also surfaced **BAM's Jul 10
-blog statement** ("An Update on Brand Improvements and Pending Litigation" — its first public statement after
-"Part 3" went public; new Jul 10 timeline row + `primary-sources.md` row) and **docket-anchored the Jul 6
-order's "preliminary injunction" label** (entry #21, read directly — the Jul 6 row is now CONFIRMED) (see
-[*2026-07-15 update*](#2026-07-15-update--news-watcher-pass) at the very end);
-**news watcher pass 2026-07-29** — **no new dated case event**; one **sourcing refinement**: fresh
-mainstream local-Oregon coverage (**KOIN**, Jul 21, 2026, Amanda Rhoades) of the **Gormans' own ~Mar
-2026 suit** against BAM sharpens the archive's vague row with the **Utah Business and Chancery
-Court** venue, the claims (breach of contract, defamation, fraudulent inducement) and Gorman's
-on-record quote (⚠ case no. **260200029** is community-mirror/Wikipedia-sourced only); the **Jul 21
-federal diversity-jurisdiction / remand deadline** passed but its **outcome is
-unreported/PACER-gated**, and **Part 4** is still unreleased (see [*2026-07-29
-update*](#2026-07-29-update--news-watcher-pass) at the very end); **news watcher pass 2026-07-31** —
-**one genuinely new dated docket event**: on **Jul 30, 2026** the federal court (D. Utah No.
-2:26-cv-00593, Judge **David Barlow**) found **Reckless Ben's Corporate Disclosure Statement (docket
-#25)** *"complies with the court's order at ECF No. 23 and adequately demonstrates diversity"* —
-**curing the diversity defect** the Jul 7 order had flagged and **resolving the Jul 21
-show-or-remand deadline**, so the case **stays in federal court** (no remand); Reported ⚠
-(**CourtListener** docket-tracker snippet-level, **single tracker**, no news corroboration; docket
-#25's contents/filing-date unverified) — folded into a new Jul 30 `timeline.md` row; the ~Jul 21–22
-McNeff "arm staff" video (open PR #87) and the KOIN Gorman-suit refinement (open PR #88) are **not**
-re-touched here (see [*2026-07-31 update*](#2026-07-31-update--news-watcher-pass) at the very end);
-**news watcher pass 2026-08-04** — **one new dated docket event**: on **Jul 29, 2026** U.S. District
-Judge **David Barlow** **denied non-party Gregory C. Belmont's Motion to Intervene "without
-prejudice" as MOOT** (removed federal case No. **2:26-cv-00593**, D. Utah), reciting Belmont's own
-"Notice of Changed Circumstances" that he "no longer seeks to intervene at this time" — **resolving
-the archive's standing "intervention motion still undecided" flag** (folded into the **Jul 1
-Belmont** timeline row as a ⚠ Jul 29 update); Reported ⚠, docket-tracker / snippet-level, **no news
-outlet reports it**; the separate **Jul 30** diversity-cure order is carried by an earlier open
-watcher PR and **not** duplicated here (see [*2026-08-04
-update*](#2026-08-04-update--news-watcher-pass) at the very end); **news watcher pass 2026-08-07** —
-**one genuinely new dated docket event**: on **Aug 3, 2026** the federal court (**Magistrate Judge
-Cecilia M. Romero**, D. Utah No. 2:26-cv-00593) **extended all defendants' answer deadline from Aug
-3 to Sept 2, 2026** via an order granting the defendants' unopposed extension motions — the case
-stays at the **pleading stage** and **in federal court** (no Answer filed, no remand, no
-settlement); Reported ⚠ (docket-tracker/snippet-level, single tracker family, no live docket-sheet
-read, no news); a two-agent pass also **caught and excluded** a search-summary conflation that
-mis-attributed the **Gorman case's** (No. 260200029) stay/arbitration motion to this Schneider
-federal case (see [*2026-08-07 update*](#2026-08-07-update--news-watcher-pass) at the very end);
-**news watcher pass 2026-08-14** — **one genuinely new dated federal-docket event**: on **Aug 6,
-2026** Magistrate Judge **Cecilia M. Romero** (D. Utah No. 2:26-cv-00593) granted a
+update*](#2026-07-14-update--news-watcher-pass) at the very end); **news watcher pass 2026-07-15** —
+**one small new dated docket refinement**: on **Jul 8, 2026** the federal court (D. Utah No.
+2:26-cv-00593) set **non-party Gregory C. Belmont's filings** aside as **"LODGED" per Chambers**
+(two docket events — the Jul 1 intervention notice retroactively marked, plus a second Jul 7
+document lodged at entry) — because he "has not been granted leave to intervene and should not be
+submitting filings" — held "for reference purposes only" pending any grant of leave; the
+**intervention motion itself remains undecided**, and no remand/settlement/new-charge/Part-4
+surfaced (folded into the Jul 1 Belmont timeline row; **docket-verified at consolidation** — direct
+reads of two PACER trackers); consolidation (Jul 15) also surfaced **BAM's Jul 10 blog statement**
+("An Update on Brand Improvements and Pending Litigation" — its first public statement after "Part
+3" went public; new Jul 10 timeline row + `primary-sources.md` row) and **docket-anchored the Jul 6
+order's "preliminary injunction" label** (entry #21, read directly — the Jul 6 row is now CONFIRMED)
+(see [*2026-07-15 update*](#2026-07-15-update--news-watcher-pass) at the very end); **news watcher
+pass 2026-07-29** — **no new dated case event**; one **sourcing refinement**: fresh mainstream
+local-Oregon coverage (**KOIN**, Jul 21, 2026, Amanda Rhoades) of the **Gormans' own ~Mar 2026
+suit** against BAM sharpens the archive's vague row with the **Utah Business and Chancery Court**
+venue, the claims (breach of contract, defamation, fraudulent inducement) and Gorman's on-record
+quote (⚠ case no. **260200029** is community-mirror/Wikipedia-sourced only); the **Jul 21 federal
+diversity-jurisdiction / remand deadline** passed but its **outcome is unreported/PACER-gated**, and
+**Part 4** is still unreleased (see [*2026-07-29 update*](#2026-07-29-update--news-watcher-pass) at
+the very end); **news watcher pass 2026-07-31** — **one genuinely new dated docket event**: on **Jul
+30, 2026** the federal court (D. Utah No. 2:26-cv-00593, Judge **David Barlow**) found **Reckless
+Ben's Corporate Disclosure Statement (docket #25)** *"complies with the court's order at ECF No. 23
+and adequately demonstrates diversity"* — **curing the diversity defect** the Jul 7 order had
+flagged and **resolving the Jul 21 show-or-remand deadline**, so the case **stays in federal court**
+(no remand); Reported ⚠ (**CourtListener** docket-tracker snippet-level, **single tracker**, no news
+corroboration; docket #25's contents/filing-date unverified) — folded into a new Jul 30
+`timeline.md` row; the ~Jul 21–22 McNeff "arm staff" video (open PR #87) and the KOIN Gorman-suit
+refinement (open PR #88) are **not** re-touched here (see [*2026-07-31
+update*](#2026-07-31-update--news-watcher-pass) at the very end); **news watcher pass 2026-08-04** —
+**one new dated docket event**: on **Jul 29, 2026** U.S. District Judge **David Barlow** **denied
+non-party Gregory C. Belmont's Motion to Intervene "without prejudice" as MOOT** (removed federal
+case No. **2:26-cv-00593**, D. Utah), reciting Belmont's own "Notice of Changed Circumstances" that
+he "no longer seeks to intervene at this time" — **resolving the archive's standing "intervention
+motion still undecided" flag** (folded into the **Jul 1 Belmont** timeline row as a ⚠ Jul 29
+update); Reported ⚠, docket-tracker / snippet-level, **no news outlet reports it**; the separate
+**Jul 30** diversity-cure order is carried by an earlier open watcher PR and **not** duplicated here
+(see [*2026-08-04 update*](#2026-08-04-update--news-watcher-pass) at the very end); **news watcher
+pass 2026-08-07** — **one genuinely new dated docket event**: on **Aug 3, 2026** the federal court
+(**Magistrate Judge Cecilia M. Romero**, D. Utah No. 2:26-cv-00593) **extended all defendants'
+answer deadline from Aug 3 to Sept 2, 2026** via an order granting the defendants' unopposed
+extension motions — the case stays at the **pleading stage** and **in federal court** (no Answer
+filed, no remand, no settlement); Reported ⚠ (docket-tracker/snippet-level, single tracker family,
+no live docket-sheet read, no news); a two-agent pass also **caught and excluded** a search-summary
+conflation that mis-attributed the **Gorman case's** (No. 260200029) stay/arbitration motion to this
+Schneider federal case (see [*2026-08-07 update*](#2026-08-07-update--news-watcher-pass) at the very
+end); **news watcher pass 2026-08-14** — **one genuinely new dated federal-docket event**: on **Aug
+6, 2026** Magistrate Judge **Cecilia M. Romero** (D. Utah No. 2:26-cv-00593) granted a
 **stipulated/joint** motion **tolling the defendants' deadline to file a "Special Motion for
 Expedited Relief" to Sept 7, 2026** — the first surfacing of that contemplated defensive motion (⚠
 docket-tracker/snippet-level, no news corroboration, no live docket-sheet read); the **Aug 12**
@@ -187,7 +199,19 @@ racketeering"*) — sourced only to **Techdirt's Aug 21 analysis** + a defense-a
 (**no filing date, not docket-verified, no mainstream newsroom**); **no development datable after
 Aug 21** surfaced — the **Aug 12** American Fork criminal-hearing outcome, a docketed *BAM v.
 Mansell* dismissal, and any actual **"Part 4"** release all remain unreported (see [*2026-08-26
-update*](#2026-08-26-update--news-watcher-pass) at the very end).
+update*](#2026-08-26-update--news-watcher-pass) at the very end); **news watcher pass 2026-08-24** —
+Mansell, the day after BAM said the family "has been made whole," says on camera that the settlement
+**deposit had not yet arrived** and that the suit against him could not be dismissed until it does
+(see [*2026-08-24 update*](#2026-08-24-update--news-watcher-pass) at the very end); **news watcher
+pass 2026-09-04** — Mansell says on a third-party livestream that **some** of his LEGO has come back
+(see [*2026-09-04 update*](#2026-09-04-update--news-watcher-pass) at the very end); **consolidation
+2026-09-06** — the fifteen open watcher PRs **#87–#101** (Jul 21 – Sep 2) were merged and
+re-verified against primary sources: the six federal-docket rows were **upgraded from tracker
+snippets to CONFIRMED court records** (ECF #26/#27/#30/#32/#33/#36, read as ECF-stamped PDFs), the
+**Aug 19 settlement** row's "single-origin / no independent newsroom" caveat was **retracted as
+false** (KSL, ABC4, SLTrib, KATU, Kotaku and Brick Fanatics all covered it independently), and
+several inverted or over-read attributions were corrected (see [*2026-09-06
+update*](#2026-09-06-update--watcher-pr-consolidation-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -1925,15 +1949,15 @@ date), **not** a `timeline.md` row.
 
 | # | Item | Where it landed | Status |
 |---|---|---|---|
-| 1 | **The former Salem/Keizer franchisees' own suit against BAM was amended to add a civil RICO claim.** The separate civil action brought by **Chrystal Law (Law-Gorman)** and **Benjamin Gorman** against **BAM Franchising** — their suit over the Nov 2024 store seizure, whose grounds the archive records as *"breach of contract, conversion, defamation, civil conspiracy"* (see the [`../timeline.md`](../timeline.md) ~Mar 2026 row) — was reportedly **"upgraded" to add a civil RICO / racketeering claim**, naming **BAM, Ammon McNeff, Matt McNeff, Josh Johnson, and Brandon Best** as defendants. This is the **mirror image** of BAM's *own* RICO suit (BAM/McNeffs as plaintiffs v. Schneider/Mansell) — as Techdirt frames it, *"now everyone in this dispute is accusing everyone else of racketeering."* ⚠ **Thinly sourced:** the only sources are **Techdirt's Aug 21, 2026 legal-analysis piece** (Mike Masnick — read at WebSearch-snippet level only; the page 403'd this run) and a **defense-aligned community YouTube video** (*"Bricks & Minifigs Gets RICO Claim Filed On Them By Chrystal Gorman!"*, `CpPKNrIae_o`), echoed by the community site **bamsucks.com**. **No firm filing date** (Techdirt says only *"recently"*; the video is undated), **not docket-verified**, and **no mainstream newsroom** (KOIN/KATU/KSL/ABC4/Dexerto) has reported it — their Gorman-suit coverage still stops at the fraud/defamation/breach grounds. | `media/community-sources.md` (this section) | **Reported ⚠** (one reputable secondary — Techdirt Aug 21 — + a defense-aligned community video; no docket, no firm date, no mainstream corroboration). The RICO *allegations themselves* are the Gorman/Law side's contentions (**ALLEGATION**), unadjudicated. |
+| 1 | **The former Salem/Keizer franchisees' own suit against BAM was amended to add a civil RICO claim.** The separate civil action brought by **Chrystal Law (Law-Gorman)** and **Benjamin Gorman** against **BAM Franchising** — their suit over the Nov 2024 store seizure, whose grounds the archive records as *"breach of contract, conversion, defamation, civil conspiracy"* (see the [`../timeline.md`](../timeline.md) ~Mar 2026 row) — was **amended on Aug 14, 2026** to add a **racketeering-pattern count under Utah RICO — the state's Pattern of Unlawful Activity Act** (⚠ **state, not federal** civil RICO; do not import the federal framing). Per The BAM Map's dedicated report (datelined "August 14, 2026 · Case 260200029 · Utah Business & Chancery Court", read directly at consolidation), the amendment grows the complaint from **168 paragraphs to 241**, **twelve causes of action to fifteen**, and **one defendant to seven** — naming "both senior officers personally, the operators BAM installed, and the companies in between." ⚠ A five-name list (**BAM, Ammon McNeff, Matt McNeff, Josh Johnson, Brandon Best**) circulated in a community **YouTube video description**; it is **incomplete** (seven defendants, including entity defendants) and is **not** Techdirt-sourced. This is the **mirror image** of BAM's *own* RICO suit (BAM/McNeffs as plaintiffs v. Schneider/Mansell) — as Techdirt frames it, *"now everyone in this dispute is accusing everyone else of racketeering."* ⚠ **Thinly sourced, and the sources do different work.** **Techdirt (Aug 21, 2026, Mike Masnick — read in full at consolidation)** supports only the **bare fact** of the amendment, in a single clause: *"The Gormans' own lawsuit against BAM was recently 'upgraded' to include RICO claims of their own — so now everyone in this dispute is accusing everyone else of racketeering."* It gives **no date, no court, no case number, no defendants and no link**. The **date, the statute, the defendant count and the paragraph/count figures all come from The BAM Map** (`thebammap.com/the-amendment`), a **partisan, defense-aligned** community tracker — corroborated on timing by a community **YouTube video** (`CpPKNrIae_o`, uploaded **Aug 15, 2026**, consistent with an Aug 14 filing and impossible with an Aug 21 one) and echoed by **bamsucks.com**. ⚠ **Not docket-verified** — bamsucks.com, which mirrors the 260200029 filings, holds **no amended complaint** — and **no mainstream newsroom** (KOIN/KATU/KSL/ABC4/Dexerto) has reported it — their Gorman-suit coverage still stops at the fraud/defamation/breach grounds. | `media/community-sources.md` (this section) | **Reported ⚠** (Techdirt Aug 21 for the bare fact only; every specific — date, statute, defendant count — rests on a **single partisan community tracker**; no docket read, no primary document, no mainstream corroboration). The RICO *allegations themselves* are the Gorman/Law side's contentions (**ALLEGATION**), unadjudicated. |
 
 **Status & neutrality.** Recorded as a **lead**, not adopted as a settled fact. Per the archive's anti-laundering
 rule, the amendment's *contents* (RICO/racketeering against BAM and its principals) are **the Gorman/Law side's
 ALLEGATIONS**, unadjudicated. This filled a genuine gap the open-PR stack missed: PRs #94/#96 read the **same
 Aug 21 Techdirt article** but cataloged only its **Mansell-settlement** sentence, not the **Gorman-RICO**
 sentence in the same piece. It should **graduate to a `timeline.md` row / a `relationships.md` edge-note update**
-only once a **firm filing date**, a **docket read** (Utah Business & Chancery Court), or a **mainstream
-newsroom** anchors it.
+only once a **docket read** (Utah Business & Chancery Court, case 260200029) or a **mainstream
+newsroom** anchors it. The **Aug 14, 2026** filing date is now attested, but only by community sources.
 
 **Also checked, nothing new to add (no development datable after Aug 21, 2026):**
 - **Aug 19 BAM–Mansell settlement**, its mainstream coverage, and the Aug 20 "not paid yet" wrinkle — **already
@@ -1953,8 +1977,9 @@ newsroom** anchors it.
 > distinct queries. Findings: **CONFIRMED (snippet-level)** — Techdirt's Aug 21 piece carries the Gorman-side
 > RICO-amendment characterization (*"the Gormans' lawsuit … recently 'upgraded' to include RICO claims of their
 > own"*); and the amendment is **genuinely distinct** from BAM's own RICO suit (opposite alignment — Gorman as
-> plaintiff, the BAM side as defendants), **not** a garbled restatement of it. **REFUTED** — that any firm
-> filing date exists (none in any source; even the base suit's date is reported inconsistently). **CONFIRMED
+> plaintiff, the BAM side as defendants), **not** a garbled restatement of it. **SUPERSEDED at consolidation** — the pass concluded no firm
+> filing date existed; a later direct read of The BAM Map's dedicated report page pins the amendment to
+> **Aug 14, 2026** (community-sourced, still not docket-verified). **CONFIRMED
 > accurate** — that no mainstream newsroom reports it (only Techdirt commentary + the community video +
 > bamsucks). **CANNOT CORROBORATE** — any development datable after Aug 21 (the Aug 12 hearing outcome, a
 > docketed Mansell dismissal, a Part-4 release, or a post-Aug-21 federal ruling). Both agents independently
@@ -2015,3 +2040,64 @@ leads were gathered via WebSearch instead.
 > agents, so **neither opened the video or Wikipedia directly** — a further reason the item stays
 > Reported ⚠. **Follow-ups:** watch for (a) any independent/court confirmation of a physical return and
 > its scope, and (b) the Sep 15 criminal hearing outcome.
+
+## 2026-09-06 update — watcher PR consolidation pass
+
+A consolidation pass, not a discovery pass. Fifteen automated watcher PRs (**#87–#101**, covering
+**Jul 21 – Sep 2, 2026**) had accumulated unmerged against a frontier that was still the **Jul 15**
+consolidation. Each was branched fresh off the same `main` commit and each appended to the same tables,
+so they were merged into a single branch in event order and then **re-verified from scratch** — four
+independent verifier agents, one per source cluster, working from the claims as written plus bare
+citation URLs.
+
+**The most consequential finding is an access one.** Almost every row in this stack carried a caveat like
+"403'd this pass," "snippet-level," "no live docket-sheet read," or "single community tracker." Those
+caveats were largely **artifacts of fetch method, not of the record**. CourtListener, KSL, Techdirt,
+Kotaku, Dexerto and UNILAD Tech all return **HTTP 200 to `curl` with a browser user-agent**; KOIN yields
+its full body via its **`/amp/`** route; and CourtListener's **free RECAP mirror** serves the actual
+ECF-stamped court PDFs at `storage.courtlistener.com/recap/gov.uscourts.utd.165286/`. Reading the primary
+record was possible all along.
+
+### What that changed
+
+| Row | Before | After |
+|---|---|---|
+| Jul 1 (Belmont), Jul 30, Aug 3, Aug 6, Aug 27, Sep 2 | `Reported ⚠` — docket-tracker snippets, single tracker | **CONFIRMED** — court records; every order read as an ECF-stamped PDF (#26, #27, #30, #32, #33, #36) |
+| Aug 19 (settlement) | `Reported ⚠` — "single-origin," "no independent newsroom," "no separate Mansell-side statement" | **CONFIRMED** as an announcement; all three caveats were **false** |
+| ~Jul 21–22 (McNeff) | "arm staff" quote called multi-outlet; shotgun called Dexerto-only characterization | **Inverted** — corrected; a cited *Geeks+Gamers* article does not exist and was struck |
+| ~Sep 2–3 → **Sep 2** (Mansell's LEGO) | "Mansell's own video," uploaded ~Sep 3 | Not his channel — a **Sheldon Norcross livestream**; **Sep 2** US-local (UTC artifact) |
+| Aug 15 (Provo Canyon) | associate "no surname," identification "this archive's inference" | Surname **directly attested** (SLTrib + the video's own description) |
+| ~Mar 2026 (Gorman) | venue, date, counts and case number all credited to KOIN | KOIN carries **only** the venue and the quote |
+| ~Aug 21 → **Aug 14** (Gorman RICO) | "no firm filing date"; "civil RICO"; five defendants | **Aug 14, 2026**; **Utah** Pattern of Unlawful Activity Act; **seven** defendants |
+
+### Corrections that cut against the archive's own drafts
+
+Four of these corrections *reduce* what the archive asserts, and are worth naming as such. The **Aug 19
+settlement remains an announcement, not an executed one** — Mansell said on Aug 20 the deposit had not
+arrived, BAM's own COO placed payment mechanics at ~Aug 23, and the dismissal of *BAM v. Mansell* was
+still an **unruled motion** (ECF #33) as of the docket's Sept 5 refresh. **Techdirt's Aug 21 analysis
+rests on the premise that BAM paid** — that premise is contradicted by both of those, and the archive
+does not adopt it. The **Sep 2 row's claim that "Aug 27 was their response deadline" was simply wrong**:
+order #30 set **Sept 2** for every defendant. And a first-draft characterization of a **non-party private
+individual's criminal history** was **removed** under the archive's PII scope — the coverage's actual
+point is the school's vetting failure, which does not require it.
+
+### Still open
+
+- The **Sept 2 answer deadline** (order #30) appears to have passed with **no answer or Rule 12 motion
+  docketed**; only the *special-motion* deadline was extended, to **Sept 18**. Recorded here as an
+  anomaly to watch, **not** asserted as a claim — it may be a filing not yet mirrored into RECAP.
+- The **Aug 12** American Fork criminal hearing outcome remains **unreported** by any outlet.
+- **"Part 4"** remains teased, not released.
+- The Gorman **RICO amendment** still wants a docket read (Utah Business & Chancery Court, case
+  **260200029**) or a mainstream newsroom; every specific rests on one partisan community tracker.
+- ⚠ Docket coverage runs to CourtListener's **Sept 5, 2026** refresh; a ~1-day tail is unchecked.
+
+> **Verification (two-agent rule).** Four verifier agents re-opened each source cluster independently —
+> federal docket, the settlement cluster, the video/media cluster, and the Gorman suit — from the claims
+> as written and bare URLs, without the authoring watcher's notes. Their findings were then **checked a
+> second time by the consolidating agent against the primary artifacts directly**: the live CourtListener
+> docket sheet and the ECF PDFs for #32/#33/#36, `yt-dlp` metadata for the three videos, and direct reads
+> of Dexerto, UNILAD Tech, KOIN (`/amp/`) and The BAM Map's amendment report. No claim was upgraded to
+> **CONFIRMED** on a single agent's read. Where a verifier's correction could not be re-reached
+> first-hand, the claim was left at its lower label rather than raised.
