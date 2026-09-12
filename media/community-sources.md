@@ -211,7 +211,12 @@ snippets to CONFIRMED court records** (ECF #26/#27/#30/#32/#33/#36, read as ECF-
 **Aug 19 settlement** row's "single-origin / no independent newsroom" caveat was **retracted as
 false** (KSL, ABC4, SLTrib, KATU, Kotaku and Brick Fanatics all covered it independently), and
 several inverted or over-read attributions were corrected (see [*2026-09-06
-update*](#2026-09-06-update--watcher-pr-consolidation-pass) at the very end).
+update*](#2026-09-06-update--watcher-pr-consolidation-pass) at the very end); **news watcher pass
+2026-09-12** — BAM reportedly escalates its copyright-enforcement campaign against the critic/research
+site **The BAM Map**, from a **Jul 28 cease-and-desist** (independently covered by Plagiarism Today) to
+a **~Sep 8 DMCA takedown notice** to Vercel (single-sourced to the target's own account, no independent
+newsroom — **Reported ⚠**, not a timeline row); nothing else datable after Sep 2 (see [*2026-09-12
+update*](#2026-09-12-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -2101,3 +2106,82 @@ point is the school's vetting failure, which does not require it.
 > of Dexerto, UNILAD Tech, KOIN (`/amp/`) and The BAM Map's amendment report. No claim was upgraded to
 > **CONFIRMED** on a single agent's read. Where a verifier's correction could not be re-reached
 > first-hand, the claim was left at its lower label rather than raised.
+
+## 2026-09-12 update — news watcher pass
+
+A targeted pass for developments after the archive's frontier. Following the **2026-09-06 consolidation**
+(the #87–#101 stack, above), `main` now records the case **through Sep 2, 2026** — the federal ECF #36
+anti-SLAPP tolling order (defendants' "special motion for expedited relief" deadline reset to **Sep 18**)
+and Bryan Mansell's ~Sep 2 "gotten my Legos back" livestream. This pass found **one genuinely new,
+on-topic development** in the **Sep 3–12** window that no prior pass captures — an **escalation of BAM's
+copyright-enforcement campaign against the critic/research site "The BAM Map,"** from a July
+cease-and-desist to a **September DMCA takedown notice**. It lands here as a **Reported ⚠** lead
+(single-sourced to the partisan target's own account; no independent newsroom on the September notice) —
+**not** a `timeline.md` row.
+
+**Access note (unchanged, and worse than the Sep 6 pass reported).** The Sep 6 consolidation found that
+many "403'd" caveats were fetch-method artifacts — CourtListener/KSL/Techdirt/Dexerto/etc. returning
+HTTP 200 to `curl` with a browser user-agent, and RECAP serving ECF PDFs. **That did not hold this run:**
+the org egress **policy** (not a user-agent problem) returned **CONNECT-tunnel 403** for `curl` and
+`EGRESS_BLOCKED` for WebFetch across `reddit.com`, `courtlistener.com`, `wikipedia.org`, `dexerto.com`,
+`brickfanatics.com`, `plagiarismtoday.com`, `thebammap.com`, and its Vercel mirror. **This pass ran on
+WebSearch snippets only**, and no primary page or docket sheet was opened directly.
+
+### The one new development — BAM escalates from cease-and-desist to a DMCA takedown against "The BAM Map"
+
+| Item | URL | Note |
+|---|---|---|
+| **The BAM Map — "BAM filed a DMCA takedown notice against The BAM Map" (~Sep 8–9, 2026)** | https://www.thebammap.com/updates/20260909/1 · (mirror) https://slightlylessrecklessben.vercel.app/the-takedown | **Primary, but the partisan/self-interested TARGET's own account.** Per its report, on **~Sep 8, 2026** **BAM Franchising, Inc.**'s **Chief Operating Officer** submitted a **DMCA takedown notice** (forwarded by **Vercel**'s DMCA team) targeting the community sites **thebammap.com** and **bamopsmanual.com**. It reportedly seeks removal of a downloadable Excel reproduction of BAM's internal spreadsheet **"Confidential Incident Impact Report"** (a store-damage study) and continuing reproduction of BAM's **"Franchisee Training & Operations Manual,"** asks Vercel to disable **materially-identical copies / alternate deployments** and to evaluate the account under its **repeat-infringer policy** (citing a prior BAM copyright complaint, **Vercel Case No. 01391428**), and separately asks Vercel to **preserve records identifying the persons who created, administered, funded, or controlled** the two projects (i.e., an attempt to unmask the anonymous operators). The BAM Map adds two rebuttal points: it says **no prior notice under Case No. 01391428 ever actually reached it** from its host, and that a **U.S. Copyright Office** Public Records search (dated Sep 9) shows **no registration** for either named work, or for any work under BAM's name. ⚠ **Single-origin to this partisan host** (defense-aligned; BAM has an active legal dispute with it — treat like `bamsucks.com`: a lead, not authority). ⚠ Two specifics its account gives — an exact receipt time and the Vercel forwarding email address — **could not be corroborated even at snippet level** and are omitted here. |
+| **Plagiarism Today — "Bricks & Minifigs Sends Threat to The BAM Map" (Jul 30, 2026)** | https://www.plagiarismtoday.com/2026/07/30/bricks-minifigs-sends-threat-to-the-bam-map/ | **Secondary, INDEPENDENT — the lead-up, and the one independently-corroborated piece.** This copyright-news outlet independently confirms the **earlier step**: on **~Jul 28, 2026** BAM sent The BAM Map a **cease-and-desist** letter (reportedly listing ~73 URLs). Its assessment — the C&D is *"probably on solid legal footing … but deeply misguided,"* and by asserting copyright BAM **"confirms the documents are owned by the company"** (cutting against BAM's "independent franchisee" framing) — anchors the underlying copyright dispute in an independent source, even though **it predates and does not cover the September DMCA.** (The archive already mentioned this C&D in passing in the Aug-24 section; it had no entry of its own.) |
+| **Community echoes (X / YouTube)** | https://x.com/DietWaterGUY/status/2082928836707016841 · https://www.youtube.com/watch?v=mqqa3KFQxPg | **Tertiary, community.** An X post and a commentary video ("Bricks & Minifigs: COPYRIGHT TAKEDOWNS; DELETED Website; Operations Manual & more") echo the September DMCA. **Not independent corroboration** — they trace back to The BAM Map's own account. |
+
+**Status & why this is worth recording (neutrality).** BAM's use of takedown mechanics against critics
+is an **established, on-topic pattern** in this controversy — the archive already records the **May 29,
+2026 Patreon takedown request** (refused by Patreon's CEO Jun 2) and BAM's **Jul 28 C&D** to The BAM Map
+(independently covered by Plagiarism Today). The **Sep 8 DMCA** is the next step in that campaign and is
+therefore in scope. But per the archive's anti-laundering rule: the **September notice itself is
+single-sourced to the site it targets** — a partisan, self-interested account — with **no independent,
+mainstream, or non-partisan outlet** (Plagiarism Today, Techdirt, KSL, ABC4, Dexerto) reporting the
+September DMCA as of this pass. It is recorded as **Reported ⚠**, explicitly attributed to The BAM Map,
+and is **not** promoted to a `timeline.md` row. The **underlying copyright merits are contested** — BAM
+asserts ownership of internal operational documents; The BAM Map asserts fair-use/newsworthiness and
+notes the absence of a copyright registration — and this archive takes **no position** on who is right;
+it records only that the notice was reportedly filed. It should **graduate to a timeline row** only once
+an **independent outlet** (e.g. Plagiarism Today/Techdirt, both of which have covered earlier beats) or
+the **actual notice text / a Lumen-database entry** anchors it.
+
+### Checked, nothing new to add
+- **Aug 27 "Joint Motion for Permanent Injunction and Dismissal of Party as to Bryan Mansell" (ECF #33)**
+  — **still no order** as of this pass; Mansell remains named in the caption. No docketed dismissal of
+  *BAM v. Mansell* surfaced (consistent with the Sep 6 pass's Sept-5 docket read).
+- **Defendants' anti-SLAPP "special motion for expedited relief"** — deadline **Sep 18, 2026** per the
+  Sep 2 ECF #36 order; **no such motion filed yet** as of Sep 12 (future/pending; already owned by the
+  Sep 2 timeline row).
+- **Schneider/Nguyen answer** (due Sep 2 per ECF #30) — **no answer or Rule 12 motion** surfaced; carried
+  as the same open anomaly the Sep 6 pass flagged, not a new claim.
+- **Aug 12, 2026 American Fork criminal hearing** (stalking, class A + targeted residential picketing,
+  class B — continued there from Jul 1): **still no reported outcome** by any outlet. The next criminal
+  date on record is the **Provo** case's **Sep 15, 2026** appearance (future, ~3 days out).
+- **"Part 4"** — still only **teased**; **no confirmed release**.
+- **A physical return of Mansell's LEGO** beyond Mansell's own ~Sep 2 characterization — **no independent,
+  court, or agency corroboration** surfaced (unchanged from the Sep 4 pass).
+- **Reddit (r/RecklessBen)** — not reachable this pass (org egress proxy 403'd `reddit.com`, `old.reddit.com`,
+  and the `.json` endpoints; no browser); leads gathered via WebSearch instead.
+
+> **Verification (two-agent rule).** **Agent A (author)** drafted the DMCA entry from multiple distinct
+> WebSearches (direct fetch egress-blocked for every host this run — snippet-level only). **Agent B
+> (independent verifier)**, given only the claims-as-written and the bare citation URLs, re-checked each
+> via ~19 tool uses / many differently-worded queries. Findings, all applied: the **Jul 28 C&D +
+> Plagiarism Today Jul 30 analysis** is **SUPPORTED and independently corroborated** (the one strong
+> claim); the **Sep 8 DMCA** specifics (COO filer, Vercel forwarding, the two named works, the
+> repeat-infringer/Case-01391428 framing, the records-preservation ask, the no-registration finding) are
+> **internally consistent and specific but rest ENTIRELY on the partisan target's own account plus
+> community X/YouTube echoes** — **no independent outlet corroborates the September notice** → **Reported
+> ⚠**, not CONFIRMED; and two softest specifics (an exact receipt time and the forwarding email address)
+> **could not be corroborated even at snippet level** and were **dropped**. Agent B independently
+> confirmed **no case development datable after Sep 2, 2026** beyond this (no ruling on ECF #33, no
+> anti-SLAPP motion yet, no Aug 12 outcome, no Part 4). Both agents reached the core facts from the cited
+> sources; neither could open a primary page directly (egress-blocked), a further reason the September
+> notice stays Reported ⚠. **Follow-ups:** watch for (a) any independent/outlet coverage or a Lumen entry
+> for the Sep 8 DMCA, (b) a ruling on the Aug 27 Mansell dismissal (ECF #33), (c) the Sep 15 Provo
+> criminal hearing, and (d) the Sep 18 anti-SLAPP deadline.
