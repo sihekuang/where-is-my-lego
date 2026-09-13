@@ -211,7 +211,13 @@ snippets to CONFIRMED court records** (ECF #26/#27/#30/#32/#33/#36, read as ECF-
 **Aug 19 settlement** row's "single-origin / no independent newsroom" caveat was **retracted as
 false** (KSL, ABC4, SLTrib, KATU, Kotaku and Brick Fanatics all covered it independently), and
 several inverted or over-read attributions were corrected (see [*2026-09-06
-update*](#2026-09-06-update--watcher-pr-consolidation-pass) at the very end).
+update*](#2026-09-06-update--watcher-pr-consolidation-pass) at the very end); **news watcher pass
+2026-09-13** — Schneider **opens a rival "Reckless Bricks" store in a former Bricks & Minifigs
+location in Tucson, AZ** (~Sep 12), pitched explicitly as an anti-franchise alternative amid the
+pending suit — a **business/competitive development** now carried as a `timeline.md` row
+(**Reported ⚠**: single mainstream outlet Dexerto + primary self-published + partisan community; no
+independent-outlet CONFIRMED; direct fetch egress-blocked, snippet-level) (see [*2026-09-13
+update*](#2026-09-13-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -2101,3 +2107,83 @@ point is the school's vetting failure, which does not require it.
 > of Dexerto, UNILAD Tech, KOIN (`/amp/`) and The BAM Map's amendment report. No claim was upgraded to
 > **CONFIRMED** on a single agent's read. Where a verifier's correction could not be re-reached
 > first-hand, the claim was left at its lower label rather than raised.
+
+## 2026-09-13 update — news watcher pass
+
+A targeted pass for developments after the archive's frontier (case recorded **through Sep 2, 2026** on
+`main`; the separate open watcher PR **#103** carries the ~Sep 8 **DMCA-vs-The-BAM-Map** lead and is
+**not** duplicated here). This pass found **one genuinely new, on-topic, dated development** in the
+**Sep 3–13** window that no prior pass captures: **Reckless Ben opened a rival "Reckless Bricks" store
+in a former Bricks & Minifigs location in Tucson, AZ (~Sep 12, 2026).** It is added as a `timeline.md`
+row, labeled **Reported ⚠**.
+
+**Access note (unchanged from the Sep 12 pass, still worse than the Sep 6 consolidation).** The org
+egress **policy** returned `EGRESS_BLOCKED` for WebFetch / CONNECT-tunnel 403 across every relevant
+host this run — `dexerto.com`, `en.wikipedia.org`, `recklessbricks.store`, `recklessbricks.com`,
+`swornout.com`, `thebammap.com`, and `reddit.com` / `old.reddit.com` / the `.json` endpoints. **This
+pass ran on WebSearch snippets only**; no primary page, store site, or docket sheet was opened directly.
+Reddit was therefore unreachable again (leads gathered via WebSearch instead).
+
+### The one new development — Reckless Ben opens a rival store in a former BAM location
+
+| Item | URL | Note |
+|---|---|---|
+| **Dexerto — "Reckless Ben opens rival LEGO store in former Bricks & Minifigs location amid lawsuit"** | https://www.dexerto.com/youtube/reckless-ben-opens-rival-lego-store-in-former-bricks-minifigs-location-amid-lawsuit-3408705/ | **Secondary, the single mainstream/aggregator outlet on this.** Reports that on **~noon Saturday, Sep 12, 2026** YouTuber **Benjamin "Reckless Ben" Schneider** opened his first **"Reckless Bricks"** store at **8110 S Houghton Rd, Suite 162, Tucson, AZ** — a **former Bricks & Minifigs location** (BAM's **2026 FDD** lists it as the *Southeast Tucson* store). Schneider reportedly pitched it as an **anti-franchise alternative**, telling other BAM owners they could rebrand under his name and *"pay me zero percent"* vs. BAM's royalty of *the greater of 6% of revenue or $500/month*. ⚠ **Egress-blocked — read at WebSearch-snippet level only.** |
+| **Store's own sites (primary, self-published by Schneider)** | https://recklessbricks.store/ · https://recklessbricks.com/ · https://swornout.com/ | **Primary** — the business's own web presence (styled *"Reckless Bricks & Toys — Tucson's Premier Toy & Collector Store"*): store hours, the Houghton Rd location, trade-in guidelines, and product lines (LEGO sets, custom minifigures, bulk bricks, collectibles). ⚠ **Self-published by the subject; NOT opened this pass (egress-blocked)** — cataloged as a lead, verify content before relying on it. |
+| **Wikipedia** | https://en.wikipedia.org/wiki/Bricks_%26_Minifigs%E2%80%93Reckless_Ben_controversy · https://en.wikipedia.org/wiki/Reckless_Ben | **Tertiary.** Both the controversy article and a now-standalone *"Reckless Ben"* biography record the Sep 12 Tucson store opening; useful for cross-checking the date/address but itself a downstream summary of the outlets above — **not** independent corroboration. ⚠ Egress-blocked; snippet-level. |
+| **The BAM Map (community; partisan)** | https://www.thebammap.com/updates | **Partisan community tracker (defense-aligned).** Source of the **on-scene staging** (red carpet, customer line, U-Haul, a **tarp over the old B&M sign**), the list of livestreamers inside (Ben, **Total AFOL**, **BJC Live**, **Sheldon Norcross**), and the **BAM Slack message** reportedly sent by marketing director **Katelyn Fagan** to franchisees — acknowledging the store operating from the former Southeast Tucson location, saying *"Corporate is taking swift, decisive, and appropriate action in response,"* and apologizing for *"any blowback."* ⚠ **Single-origin, partisan, self-interested** (BAM has an active dispute with it) — treat like `bamsucks.com`: a lead, not authority. The Slack quote is **not** independently corroborated. |
+| **Katelyn Fagan — BAM marketing-director role** | https://1851franchise.com/top-25-franchise-marketing-leaders-katelyn-fagan-marketing-director-bricks-minifigs-franchising-2731683 | **Secondary, independent** — a franchise-industry profile confirming Fagan's **public role** as BAM Franchising's Marketing Director (supports naming her in that role; does **not** corroborate the Slack message itself). |
+
+**Status & why this is worth recording (neutrality).** The store opening is **on-topic** — a direct
+competitive move against BAM's franchise model, sited in a former BAM location, executed openly during
+the pending federal suit, with BAM's own corporate reaction reported. But per the archive's
+anti-laundering rule it is **not** multiple-independent-outlet CONFIRMED: the core facts rest on **one
+mainstream aggregator (Dexerto)** plus **Schneider's own self-published sites/livestream** and the
+**partisan The BAM Map**; no independent Utah/Arizona newsroom (KSL, ABC4, SLTrib, *Arizona Daily
+Star*/tucson.com, KOLD) had covered the *Reckless Bricks* opening as of this pass (a tucson.com "Lego
+shop to open" result is a **different** store — a *Bricks & Minifigs* Tucson-Northwest grand opening —
+**not** Reckless Bricks). It is therefore **Reported ⚠**, and the **BAM Slack response** is
+single-sourced to the partisan tracker. It should **graduate toward CONFIRMED** only once an independent
+newsroom, or a direct read of the store's primary sites / Schneider's own announcement video, anchors
+it. ⚠ **PII:** the location's former franchise operators are **private individuals** and are **omitted**
+here per the archive's no-PII scope — only the public FDD store designation is used.
+
+### Checked, nothing new to add
+- **~Sep 8 DMCA takedown vs "The BAM Map"** — already captured by the **open watcher PR #103** (Sep 12
+  pass); **not** duplicated here.
+- **Aug 27 "Joint Motion for Permanent Injunction and Dismissal of Party as to Bryan Mansell" (ECF #33)**
+  — **still no order** surfaced this pass; Mansell remains named in the caption (unchanged from the
+  Sep 5 docket read / Sep 12 pass).
+- **Defendants' anti-SLAPP "special motion for expedited relief"** — deadline **Sep 18, 2026** (ECF #36);
+  **no such motion filed yet** as of this pass (future/pending; owned by the Sep 2 timeline row).
+- **Schneider/Nguyen answer** (due Sep 2 per ECF #30) — **no answer or Rule 12 motion** surfaced; same
+  open anomaly the Sep 6/Sep 12 passes flagged, not a new claim.
+- **Aug 12, 2026 American Fork criminal hearing** — **still no reported outcome** by any outlet. The
+  next criminal date on record is the **Provo** case's **Sep 15, 2026** appearance (future, ~2 days out).
+- **"Part 4"** — still only **teased**; **no confirmed release**.
+- **A physical return of Mansell's LEGO** beyond his own ~Sep 2 characterization — **no independent,
+  court, or agency corroboration** surfaced (unchanged).
+
+> **Verification (two-agent rule).** **Agent A (author)** drafted the store-opening row from multiple
+> distinct WebSearches (direct fetch egress-blocked for every host this run — snippet-level only).
+> **Agent B (independent verifier)**, given only the claims-as-written and the bare citation URLs,
+> re-checked each independently. Findings, all applied: the **core store opening** (date, Tucson/Houghton
+> Rd address, former-BAM location per the 2026 FDD) is **SUPPORTED** across Dexerto + Wikipedia + the
+> store's own sites, but on **one mainstream outlet + primary self-published + partisan community** — so
+> **Reported ⚠**, not CONFIRMED. The one independently-upgradeable fact the verifier found: the
+> **address's former-BAM-store status is independently corroborated** by a public *Bricks & Minifigs
+> Southeast Tucson* business listing (Yelp) at 8110 S Houghton Rd — but the **Sep 12 / ~noon date-time,
+> the "2026 FDD" attribution, and the prior-operator names remain single-outlet (Dexerto)**; the
+> **"pay me zero percent" franchise pitch** is Dexerto/Wikipedia-level
+> (Reported); the **on-scene staging and the BAM Slack quote (Katelyn Fagan)** are **single-sourced to
+> the partisan The BAM Map** and were kept explicitly attributed and flagged; **Fagan's marketing-director
+> role** is independently confirmed (1851franchise). Agent B independently confirmed **no other case
+> development datable after Sep 2, 2026** beyond this and the separately-tracked DMCA item (no ECF #33
+> ruling, no anti-SLAPP motion yet, no Aug 12 outcome, no Part 4). Neither agent could open a primary
+> page directly (egress-blocked), a further reason the row stays **Reported ⚠**. **Translations
+> follow-up needed** (`web/i18n`): this pass ran no `translate.mjs` (no API key in this environment) — the
+> new English row/section will fall back to English at render time until a translation pass runs.
+> **Follow-ups:** watch for (a) an independent newsroom or a direct read of the store's sites / Schneider's
+> announcement video for the Tucson opening, (b) any BAM legal/corporate action against Reckless Bricks,
+> (c) a ruling on the Aug 27 Mansell dismissal (ECF #33), (d) the Sep 15 Provo criminal hearing, and
+> (e) the Sep 18 anti-SLAPP deadline.
