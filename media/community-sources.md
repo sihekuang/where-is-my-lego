@@ -211,7 +211,14 @@ snippets to CONFIRMED court records** (ECF #26/#27/#30/#32/#33/#36, read as ECF-
 **Aug 19 settlement** row's "single-origin / no independent newsroom" caveat was **retracted as
 false** (KSL, ABC4, SLTrib, KATU, Kotaku and Brick Fanatics all covered it independently), and
 several inverted or over-read attributions were corrected (see [*2026-09-06
-update*](#2026-09-06-update--watcher-pr-consolidation-pass) at the very end).
+update*](#2026-09-06-update--watcher-pr-consolidation-pass) at the very end); **news watcher pass
+2026-09-16** — an outcome surfaced for the long-flagged **Sept 15 Provo criminal hearing**:
+community sources (a YouTube channel named in an X post as *"Clearly Established,"* plus several
+community videos) report the **Provo Justice Court** case (261000376: disorderly conduct + trespass)
+is **being dismissed / the prosecution is moving to dismiss**, with the dismissal reportedly **not
+yet signed**; single/partisan-sourced, no mainstream outlet and not docket-verified (**Reported ⚠**),
+so it is logged here and **not** added to `timeline.md` (see [*2026-09-16
+update*](#2026-09-16-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -2101,3 +2108,86 @@ point is the school's vetting failure, which does not require it.
 > of Dexerto, UNILAD Tech, KOIN (`/amp/`) and The BAM Map's amendment report. No claim was upgraded to
 > **CONFIRMED** on a single agent's read. Where a verifier's correction could not be re-reached
 > first-hand, the claim was left at its lower label rather than raised.
+
+## 2026-09-16 update — news watcher pass
+
+The archive frontier on `main` runs through **Sep 2, 2026** (the [*2026-09-04 update*](#2026-09-04-update--news-watcher-pass)
+above and the Sep 6 consolidation); two later items sit in **open watcher PRs** — **#103** (~Sep 8 BAM
+DMCA notice vs *The BAM Map*) and **#104** (~Sep 12 Schneider opens a rival *"Reckless Bricks"* store in
+a former BAM location, Tucson). This pass found **one genuinely new, on-topic development** in the
+**Sep 13–16** window, and **nothing else** datable after Sep 12.
+
+**~Sep 15, 2026 — the Provo criminal case against Schneider is reportedly being dismissed — Reported ⚠
+(community/partisan-sourced, unsigned, not docket-verified).** The **Sept 15 Provo Justice Court** hearing
+had been an explicitly-flagged *lead* since the Sep 4 pass ("a *scheduled future date* that can move; held
+as a **lead**, not added, pending an outcome or docket confirmation"). An outcome is now **reported** — but
+only by the defense-aligned community. Per an X post relaying a YouTube channel it names as **"Clearly
+Established,"** and several community reaction videos, the **Provo Justice Court** case *Provo City v.
+Schneider* (**case 261000376** — **disorderly conduct**, class C, + **criminal trespass**, class B, over the
+**Dec 10, 2025** visit to BAM's corporate office; the charges featured in Schneider's public "Part 3" video)
+is **being dismissed / the prosecution is moving to dismiss it**, with the dismissal reportedly **not yet
+signed/entered** as of ~Sep 14–15. **Logged here, not added to [`../timeline.md`](../timeline.md)** — it is
+single-origin community/partisan reporting, unsigned, and **not docket-verified**, which does not meet the
+bar for the chronological table (matching this archive's established discipline for community leads, e.g.
+open PR #103).
+
+| Item | URL | Note |
+|---|---|---|
+| X post (ThePunKing) — "BREAKING: According to Clearly Established, the Provo criminal case against Reckless Ben (from Part 3) is being dismissed" | https://x.com/The_PunKing/status/2099181070037991646 | ⚠ Community relay of a YouTube channel it names as **"Clearly Established"**; **not opened directly** (egress-blocked) — headline/snippet only. Snippets add the dismissal is *"not signed yet."* |
+| YouTube (community) — "Reckless Ben's Case Is Getting Dismissed. So Why Can't…" | https://www.youtube.com/watch?v=kQO-l3NjSpE | ⚠ Community commentary video; title-level only (YouTube egress-blocked). Frames the dismissal as **imminent but not yet signed**. |
+| YouTube Short (community) — "Prosecutor Takes Down Reckless Ben's Criminal Charges" | https://www.youtube.com/shorts/H_dYMgv4X7I | ⚠ Community; title-level only. |
+| YouTube (community) — "Reckless Ben NOT Guilty of Criminal Trespass? + PSA Grading RICO Lawsuit" | https://www.youtube.com/watch?v=zW4SsiqsOx8 | ⚠ Community; title-level only. |
+| Provo docket-events mirror (context; already in §1) | https://bamsucks.com/Reckless-Ben-Utah-Case-261000376-Docket-Events.pdf | ⚠ **Partisan host (bamsucks.com); 403/egress-blocked this pass** — the docket itself was **not** read to confirm any dismissal entry. **Cross-check Utah XChange.** |
+
+**Caveats (do not overstate).**
+- This is the **Provo** case only (disorderly conduct + trespass, 261000376). The **separate American Fork**
+  4th-District case (stalking, class A + targeted residential picketing, class B, charged ~Mar 27) is a
+  **distinct** matter and is **not** the subject of this report; its **Aug 12** hearing outcome remains
+  unreported.
+- "Being dismissed" is **not** "was dismissed." Community sources describe a **prosecutor's move / expected
+  dismissal not yet signed** — no entered/signed order is confirmed. Recorded strictly as the community's
+  characterization, pending a docket or mainstream confirmation.
+- **No independent newsroom** (KSL, ABC4, Salt Lake Tribune, Deseret, Dexerto, Kotaku, Brick Fanatics)
+  reports the Provo dismissal as of this pass — it does **not** meet the CONFIRMED bar.
+
+**Also checked, nothing new to add (no other development datable after Sep 12, 2026):**
+- **~Sep 8 BAM DMCA notice vs *The BAM Map*** and the **~Sep 12 *Reckless Bricks* store opening** (incl.
+  BAM marketing director **Katelyn Fagan**'s Slack "swift, decisive, and appropriate action" reaction, which
+  *Brick Fanatics* and *Dexerto* also carry) — **already owned by open PRs #103 / #104**; not duplicated.
+- **Federal case** *BAM Franchising Inc v. Schneider* (D. Utah **No. 2:26-cv-00593**) — the joint motion to
+  **dismiss Bryan Mansell with prejudice** (ECF #33) still shows **no ruling entered**; the defendants'
+  **anti-SLAPP "special motion for expedited relief"** (deadline **Sept 18, 2026**, per the Sep 2 order) had
+  **not** been filed as of this pass. Both are **future / unchanged** — not new.
+- **"Part 4"** — still only teased; **no confirmed release**.
+- **Reddit (r/RecklessBen)** — not reachable this pass (the org egress proxy 403'd `reddit.com` and the
+  `.json` endpoints for both WebFetch and `curl`); leads gathered via WebSearch only.
+
+> **Environment access.** Direct fetch (WebFetch and `curl` with a browser UA) was **policy-denied at the
+> egress proxy** for every relevant host this run — reddit.com, x.com, youtube.com, dexerto.com,
+> brickfanatics.com, wikipedia.org, bamsucks.com — so this pass ran on **WebSearch snippets only**; no
+> primary page, video, X post, or docket was opened directly. **Translations need a follow-up pass**
+> (`web/scripts/translate.mjs` was **not** run — no `ANTHROPIC_API_KEY`/local model here; missing
+> translations fall back to English at render time, so the build is unaffected).
+
+> **Verification (two-agent rule).** **Agent A (author)** drafted the entry from multiple distinct
+> WebSearches (every relevant host — x.com, youtube.com, bamsucks.com, reddit, dexerto, courtlistener —
+> was egress-blocked this run, so all reads were WebSearch-snippet level). **Agent B (independent
+> verifier)**, given only the claims-as-written and the bare citation URLs, re-checked each via ~26 tool
+> uses / many differently-worded queries and **independently reached**: (1) the Provo-dismissal report is
+> **SUPPORTED at the "Reported"/community bar only, not CONFIRMED** — the X post consistently reproduces as
+> *"the Provo criminal case … is being dismissed"* with *"not signed yet,"* timed ~Sep 14, and **no
+> mainstream outlet** (KSL/ABC4/SLTrib/Deseret/Dexerto/Kotaku/Brick Fanatics) or Wikipedia carries a Provo
+> criminal dismissal; (2) the **Provo (261000376: disorderly conduct C + trespass B, Dec 10 2025) vs.
+> American Fork (stalking A + targeted residential picketing B) distinction is correct** — the dismissal
+> report concerns the Provo pair only, and B flagged that some search snippets *conflate* the two courts (a
+> mis-summary the archive already warns against); (3) **no sign the dismissal is signed/entered** — the only
+> source says the opposite; (4) **no development datable after Sep 12, 2026** for the ECF #33 Mansell
+> dismissal (no ruling; Mansell still in the caption), the anti-SLAPP special motion (not filed; Sep 18
+> deadline), a "Part 4" (not released), or the Aug 12 American Fork hearing (outcome still unreported). One
+> **correction applied**: B could **not** independently confirm that "Clearly Established" is a
+> *legal-commentary* channel or that it authored the cited videos (and distrusted a stray snippet
+> attributing the short to "LegalEagle"), so that descriptor was **dropped** — the channel is named only as
+> the X post's stated origin. ⚠ **Neither agent opened any primary source directly** (all egress-blocked);
+> the item stays **Reported ⚠**. **Follow-ups:** a **signed/entered** Provo dismissal on **Utah XChange**
+> (or the bamsucks docket mirror), any mainstream pickup, and the still-unreported **Aug 12 American Fork**
+> outcome.
