@@ -156,6 +156,20 @@ blurred by listing all four charges together:
 > outcome unreported" flag** and **mainstream-source** the Provo Jul 6 pretrial (previously
 > community-mirror snippet only). ⚠ **Single mainstream outlet/network** (KSL.com + KSL NewsRadio — no
 > independent second outlet reports the criminal-hearing dates); **cross-check Utah XChange.**
+>
+> ⚠ **Update (~Sep 15, 2026) — American Fork case still pending; preliminary hearing set for Sep 30, 2026.**
+> In the mid-September news cycle that reported the **Provo** case's dismissal (a *separate* matter,
+> covered elsewhere in this archive), **KSL** (art. **51624199**, "Provo charges against Reckless Ben
+> dismissed as Lego saga continues") reports Schneider **"still faces criminal charges in 4th District
+> Court"** in **American Fork** and is **"scheduled for a preliminary hearing … on Sept. 30,"** on
+> **stalking (class A misdemeanor)** and **targeted residential picketing (class B misdemeanor)**,
+> "related to actions near Johnson's American Fork home in March." This is the **first reported movement
+> on the American Fork case since the Jul 1 → Aug 12 continuance** (whose outcome had gone unreported).
+> ⚠ **Snippet-level, single-origin on the date:** the outlet pages were **egress-blocked this run** and
+> read only via WebSearch snippets; the **Sep 30 date** traces to **KSL** (echoed by syndication partner
+> **East Idaho News**), while **ABC4** independently confirms only that the case is **"ongoing"** and the
+> two charge classes — the exact Sep 30 date is **not** independently confirmed here and **not**
+> docket-verified. **Cross-check Utah XChange**, and note this case's dates have **slipped before**.
 
 ## Confirmed vs. allegation — quick ledger
 
