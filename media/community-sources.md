@@ -2101,3 +2101,38 @@ point is the school's vetting failure, which does not require it.
 > of Dexerto, UNILAD Tech, KOIN (`/amp/`) and The BAM Map's amendment report. No claim was upgraded to
 > **CONFIRMED** on a single agent's read. Where a verifier's correction could not be re-reached
 > first-hand, the claim was left at its lower label rather than raised.
+
+---
+
+## 2026-09-19 update — news watcher pass
+
+Targeted sweep for developments **after the ~Sep 17 items** already sitting in open watcher PRs
+**#103–#108** (BAM's DMCA campaign against The BAM Map ~Sep 8; the "Reckless Bricks" Tucson store
+opening ~Sep 12 and closing ~Sep 17; the Provo criminal-case dismissal ~Sep 14; and the American
+Fork case's Sep 30 preliminary hearing). **Reddit was unreachable this pass** — r/RecklessBen
+`new.json` returned a **403 CONNECT-tunnel block**, and `old.reddit.com` plus the megathreads were
+likewise blocked — so, as on several prior passes, this run rests on **WebSearch snippets**: direct
+fetches to CourtListener, PacerMonitor, Justia, The BAM Map, Wikipedia, Dexerto and Techdirt were
+**all egress-blocked**.
+
+**One genuinely new, thinly-sourced item** — folded into a new **Sep 18, 2026** [`timeline.md`](../timeline.md)
+row, and **not** duplicated from the open PRs: defense-aligned community sources report that **on the
+Sep 18 deadline** (set by the CONFIRMED **Sep 2 order, ECF #36**) **the defendants filed their
+anti-SLAPP "Special Motion for Expedited Relief"** in the removed federal case (*BAM Franchising Inc
+v. Schneider et al.*, No. **2:26-cv-00593**, D. Utah), aimed at the suit's **Utah RICO + defamation**
+core. ⚠ **The filing is NOT docket-verified.** It rests on **two community YouTube videos**
+(`KM1WJgTZ0OA` — "RECKLESS BEN Just Filed in Court!! (ANTI-SLAPP)"; `ur1aTCg0bYc` — "…ANTI SLAPP
+confirmed") **and the community tracker The BAM Map**; **no mainstream outlet reports it**; the
+accessible **CourtListener snapshot predates Sep 18**, so no ECF entry for the motion surfaced; and
+the motion's specific arguments are **community characterization, not a read of the filed brief**.
+Recorded **Reported ⚠**. Verified per the two-agent rule — an independent verifier re-ran the searches
+and reached the same split: **the Sep 18 deadline and procedural posture are CONFIRMED, but the filing
+itself is community/YouTube-only and unconfirmed on the docket**, so it does **not** carry a CONFIRMED
+label.
+
+**Nothing else new qualified.** The **Aug 27 Mansell dismissal / permanent-injunction motion (ECF
+#33)** remains **pending Judge Barlow's signature** (unchanged). No ruling on the special motion, no
+hearing date, no settlement or remand, and **no actual "Part 4"** surfaced. The Sep 2 "still open"
+items (the Aug 12 American Fork criminal-hearing outcome; the Gorman RICO amendment docket read)
+remain open. **Translations (i18n) were not refreshed** this pass (no API key in this environment) —
+they need a follow-up `scripts/translate.mjs` run.
