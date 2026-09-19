@@ -211,7 +211,14 @@ snippets to CONFIRMED court records** (ECF #26/#27/#30/#32/#33/#36, read as ECF-
 **Aug 19 settlement** row's "single-origin / no independent newsroom" caveat was **retracted as
 false** (KSL, ABC4, SLTrib, KATU, Kotaku and Brick Fanatics all covered it independently), and
 several inverted or over-read attributions were corrected (see [*2026-09-06
-update*](#2026-09-06-update--watcher-pr-consolidation-pass) at the very end).
+update*](#2026-09-06-update--watcher-pr-consolidation-pass) at the very end); **news watcher pass
+2026-09-19** — Schneider says on a livestream that BAM's lawyers demanded *"millions in damages"* and
+to take over his first Tucson "Reckless Bricks" store (his **unverified**, document-not-shown
+characterization — an **ALLEGATION** conflicting with BAM's own lease-buyout account), and that
+another former BAM location — reported as **Sarasota, FL**, operating as **"Cosmic Critter Toys"** —
+"switched sides" to his anti-franchise model; single-outlet (Dexerto) + self-published, Reddit
+unreachable again this run (see [*2026-09-19
+update*](#2026-09-19-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -2101,3 +2108,60 @@ point is the school's vetting failure, which does not require it.
 > of Dexerto, UNILAD Tech, KOIN (`/amp/`) and The BAM Map's amendment report. No claim was upgraded to
 > **CONFIRMED** on a single agent's read. Where a verifier's correction could not be re-reached
 > first-hand, the claim was left at its lower label rather than raised.
+
+---
+
+## 2026-09-19 update — news watcher pass
+
+A targeted pass for anything **newer than the open watcher-PR frontier** (which already runs through
+~Sep 18: the ~Sep 8 DMCA vs *The BAM Map* (#103), the ~Sep 12 Tucson "Reckless Bricks" opening (#104),
+the ~Sep 14 Provo dismissal (#105/#106), the American Fork case's Sep 30 hearing (#107), the ~Sep 17
+Tucson store closure (#108), and the ~Sep 18 anti-SLAPP special motion (#109)). **Reddit r/RecklessBen
+was unreachable this run** (`reddit.com` egress-blocked at the proxy — `new.json` → CONNECT rejected;
+old.reddit + the megathreads blocked). All primary hosts (Dexerto, Wikipedia, Brick Fanatics, YouTube,
+thebammap.com) were **egress-blocked for direct fetch**, so this pass ran on **WebSearch snippets only**.
+
+**One genuinely new, on-topic, dated development** surfaced — newer than everything above:
+
+**~Sep 19, 2026 — Schneider says BAM demanded "millions in damages" and to take over his first store;
+another former BAM location in Florida "switches sides."** On a Sep 19 livestream, **Benjamin "Reckless
+Ben" Schneider** said that, ~two days after his first **"Reckless Bricks"** store opened (the ~Sep 12
+Tucson location), Bricks & Minifigs' lawyers sent a legal notice he characterized as *"you owe us over
+like basically millions of dollars in damages and we take over the store now."* He **did not show the
+document** on stream. He also announced that **another former Bricks & Minifigs store — reported (by
+Dexerto) as in Sarasota, Florida, operating as "Cosmic Critter Toys" — had "switched sides"** to his
+zero-royalty anti-franchise model, claiming a chaotic grand opening (~4,000 attendees, **his own
+figure**). Added as a **timeline.md** row and a **news-articles.md** catalog entry.
+
+- **Status.** The **legal-notice / "millions in damages" claim → ALLEGATION** (Schneider's unverified,
+  document-not-shown characterization, single secondary outlet, conflicting with BAM's own account). The
+  **store "switch" → Reported ⚠** (Dexerto + Schneider's livestream; the specifics are single-outlet /
+  self-published). **Neither meets the multiple-independent-outlets CONFIRMED bar** — no second mainstream
+  newsroom (KSL, ABC4, SLTrib, Techdirt, Kotaku) carries this development.
+- **⚠ Sarasota is uncorroborated.** A separate, **still-operating "Bricks & Minifigs Sarasota"** exists —
+  treat "Sarasota" as Dexerto's report, not established fact, and **do not conflate** the two.
+- **⚠ Conflicting accounts of the Tucson store's fate — preserved, not resolved.** Three framings coexist:
+  BAM's own (**a lease buyout / forced vacate**, per Brick Fanatics — the ~Sep 17 closure, open PR #108),
+  the operator's (**he ended the franchise himself by letter**), and Schneider's (**lawyers demanded
+  millions / "we take over the store"**). The archive records all three and adopts none.
+
+**Two-agent verification (repo rule).** An **independent verifier subagent** was given only the
+claims-as-written and the bare Dexerto URL (not the author's notes) and re-ran the searches
+independently. It reached the same split — the damages demand is a self-published **ALLEGATION** (no
+document shown, single outlet, conflicting with BAM's account); the second store is **Reported** but its
+**city (Sarasota) could not be independently corroborated** (flagging the existing BAM Sarasota store as
+a conflation risk) and the store is branded **"Cosmic Critter Toys"** / "switched sides" rather than
+plainly "a second Reckless Bricks store"; **~4,000 is Schneider's own figure**; and **no second mainstream
+outlet** carries either the damages demand or the Florida store. All of its corrections were applied.
+
+**Checked, nothing new:** no ruling yet on the **~Sep 18 anti-SLAPP special motion** (#109) or the
+**Aug 27 (ECF #33)** Mansell-dismissal / permanent-injunction motion (still pending Judge Barlow's
+signature); no BAM-case **"Part 4"** (only teasers; Schneider's ~Sep Ideal Living / human-trafficking
+video is a **separate, adjacent** investigation, like the Aug 15 Provo Canyon School piece — not a
+BAM-case event, not added); the **Sep 30** American Fork preliminary hearing is still future.
+
+**Follow-ups:** cross-check any BAM legal notice against a primary document / the federal docket
+(No. 2:26-cv-00593); watch for any second-outlet pickup to upgrade the store "switch," and to confirm or
+correct the Florida city / "Cosmic Critter Toys" identity. **Translations (i18n) not refreshed** this
+pass — no `ANTHROPIC_API_KEY`/local model in this environment; `web/scripts/translate.mjs` needs a
+follow-up run (missing translations fall back to English at render time, so the build is unaffected).
