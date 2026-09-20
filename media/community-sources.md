@@ -211,7 +211,17 @@ snippets to CONFIRMED court records** (ECF #26/#27/#30/#32/#33/#36, read as ECF-
 **Aug 19 settlement** row's "single-origin / no independent newsroom" caveat was **retracted as
 false** (KSL, ABC4, SLTrib, KATU, Kotaku and Brick Fanatics all covered it independently), and
 several inverted or over-read attributions were corrected (see [*2026-09-06
-update*](#2026-09-06-update--watcher-pr-consolidation-pass) at the very end).
+update*](#2026-09-06-update--watcher-pr-consolidation-pass) at the very end); **news watcher pass
+2026-09-20** — **no new court/criminal/settlement event**; one genuinely new, community-only
+development on the Tucson **Reckless Bricks** storefront saga: the operator **disputes BAM's
+lease-buyout account** of the ~Sep 17 closure — says (reportedly via **Collecting Weekly**) that his
+**landlord's office confirmed BAM neither signed a lease nor initiated a takeover** and he **remains
+the tenant**, and posts a later notice that the store is **temporarily closed but "not going
+anywhere"** — directly contradicting BAM franchise-coach **Julie Kuni**'s *"we bought out the lease,
+closed them down"* statement (competing **ALLEGATIONS**, snippet-level; every primary host
+egress-blocked); the ~Sep 19 "millions in damages" / Sarasota "Cosmic Critter Toys" cluster
+(open PR #110) and the Sep 30 American Fork hearing are **not** re-touched (see [*2026-09-20
+update*](#2026-09-20-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -2101,3 +2111,66 @@ point is the school's vetting failure, which does not require it.
 > of Dexerto, UNILAD Tech, KOIN (`/amp/`) and The BAM Map's amendment report. No claim was upgraded to
 > **CONFIRMED** on a single agent's read. Where a verifier's correction could not be re-reached
 > first-hand, the claim was left at its lower label rather than raised.
+
+---
+
+## 2026-09-20 update — news watcher pass
+
+Automated news-watcher pass for **2026-09-20**. The archive on `main` records the case **through Sep
+2, 2026**; open watcher PRs **#103–#110** carry the frontier through **~Sep 19** (DMCA vs *The BAM
+Map*; the ~Sep 12 Tucson "Reckless Bricks" opening; the ~Sep 14 Provo dismissal; the Sep 30 American
+Fork hearing; the ~Sep 17 Tucson closure / BAM "bought the lease"; the ~Sep 18 anti-SLAPP special
+motion; and the ~Sep 19 "millions in damages" + Sarasota "Cosmic Critter Toys" cluster). This pass
+found **one genuinely new, dated, on-topic development newer than all of the above**, plus confirmed
+that no larger event (court ruling, settlement, criminal outcome, or "Part 4") has surfaced.
+
+**⚠ Access:** every primary host (Brick Fanatics, Dexerto, The Express Tribune, thebammap.com,
+YouTube, Wikipedia) **and Reddit r/RecklessBen** were **egress-blocked** this run; both the author and
+the independent verifier worked at **WebSearch-snippet level only** (no article HTML, video, or docket
+read directly). Several engine "answer" snippets appear to echo this archive's own draft PRs and the
+partisan tracker **thebammap.com** — so the snippets confirm these items are *being reported*, not the
+underlying facts. Treat everything below as **Reported ⚠ / competing ALLEGATIONS**.
+
+### Genuinely new (~Sep 19–20)
+
+**The Tucson "Reckless Bricks" operator rebuts BAM's lease-buyout account of the ~Sep 17 closure.**
+After BAM's West-Coast regional franchise business coach **Julie Kuni** was reported (~Sep 17, Brick
+Fanatics) saying BAM *"bought out the lease, closed them down, and asked them to immediately vacate the
+building"* (the ~Sep 17 closure = open PR #108), the operator pushed back on community channels
+(reportedly incl. **Collecting Weekly**): his **landlord's office told him BAM has neither signed a
+lease nor initiated a takeover** and he **remains the tenant**; he says he **ended the franchise
+himself, by letter**, before reopening under his own name. A later owner notice (reported ~Sep 19–20)
+says the store is **temporarily closed but "not going anywhere."** This **directly contradicts BAM's
+account**; the archive resolves neither. → New `~Sep 19–20` [timeline](../timeline.md) row.
+
+| Item | URL | Note |
+|---|---|---|
+| Community video — "BAM HAS NOT SIGNED A LEASE OR INITIATED A TAKEOVER! Reckless Bricks Update" | https://www.youtube.com/watch?v=Jp817-UbbqY | ⚠ Self-published / defense-aligned community upload carrying the operator/landlord rebuttal. **NOT opened this pass** (YouTube egress-blocked) — title only; the *"Collecting Weekly"* attribution and exact wording are unconfirmed against the video. |
+| Community video — "BAM Owners Reveal Why They LEFT — Reckless Bricks/Cosmic Critters Day 2 Update!" | https://www.youtube.com/watch?v=Nh2WUykMxGs | ⚠ Community upload re: the Tucson operator's account + the Sarasota "Cosmic Critter Toys" store (the Sarasota item itself sits in open PR #110 and is **not** re-added here). Title only; not opened. |
+| Brick Fanatics — "Reckless Bricks closes as Bricks & Minifigs buys lease" | https://www.brickfanatics.com/reckless-bricks-closes-bricks-minifigs-buys-lease | Enthusiast outlet carrying **both** BAM's Kuni lease-buyout quote **and** the operator's rebuttal. ⚠ Snippet-level only (egress-blocked). Also cataloged around the ~Sep 17 closure in open PR #108. |
+| The BAM Map — updates index / Kuni-quote entry | https://www.thebammap.com/updates · https://www.thebammap.com/updates/20260918/1 | ⚠ **Partisan community tracker.** The `/20260918/1` entry frames Kuni's quote as BAM's coach telling *another* store owner *"That was us. We bought out the lease, closed them down."* Snippet-level only. |
+
+### Checked, nothing new
+
+- **No new court event:** no ruling on the ~Sep 18 anti-SLAPP special motion (open PR #109) or on the
+  Aug 27 Mansell-dismissal / permanent-injunction motion (ECF #33 — still unruled, Mansell still in
+  the caption). No settlement with Schneider (mediation ongoing). **Sep 30** American Fork preliminary
+  hearing still future. Provo case already dismissed (open PR #106).
+- **No "Part 4"** (only teasers). Schneider's recent human-trafficking / *Ideal Living* piece is a
+  **separate, adjacent** investigation (like the Aug 15 Provo Canyon School video) — not a BAM-case
+  event, not added.
+- **Not duplicated:** the ~Sep 19 "millions in damages" allegation and the Sarasota "Cosmic Critter
+  Toys" store (open PR #110), and the ~Sep 17 closure / lease-buyout (open PR #108), are **not**
+  re-added — this pass adds only the operator/landlord **rebuttal** and the later "not going anywhere"
+  notice.
+
+> **Verification (two-agent rule).** An independent verifier subagent was given **only the
+> claims-as-written and the bare source titles/URLs** (not the author's notes) and re-ran its own
+> searches. It reached the same split: **nothing rises to CONFIRMED** (no court record, agency
+> statement, or multiple independent mainstream outlets); Claims (operator/landlord) and (Kuni/BAM)
+> are **mutually contradictory competing ALLEGATIONS** to be preserved, not resolved; the *"Collecting
+> Weekly"* attribution and the exact **"not going anywhere"** wording **could not be independently
+> confirmed** (hedged accordingly); and the ~Sep 17 "Temporarily Closed" note should be kept **distinct**
+> from the later "not going anywhere" statement. All of its corrections were applied. Because every
+> primary source was egress-blocked, **no claim was raised above Reported/ALLEGATION** — a later pass
+> with primary access should re-verify against the videos and the Brick Fanatics article.
