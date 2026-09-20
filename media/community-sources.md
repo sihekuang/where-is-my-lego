@@ -213,6 +213,29 @@ false** (KSL, ABC4, SLTrib, KATU, Kotaku and Brick Fanatics all covered it indep
 several inverted or over-read attributions were corrected (see [*2026-09-06
 update*](#2026-09-06-update--watcher-pr-consolidation-pass) at the very end).
 
+**Watcher stack 2026-09-08 → 2026-09-20, consolidated 2026-09-20** — the nine open watcher PRs
+**#103–#111** (covering **~Sep 8 – Sep 19/20, 2026**) were merged into a single branch in event order.
+Newly recorded in this stack: BAM's **DMCA/takedown escalation against *The BAM Map*** (~Sep 8; see
+[*2026-09-12 update*](#2026-09-12-update--news-watcher-pass)); Schneider **opening a rival "Reckless
+Bricks" store** in a former BAM location in **Tucson** (~Sep 12; [*2026-09-13
+update*](#2026-09-13-update--news-watcher-pass)); the **Provo criminal case dismissed "in the interest
+of justice," without prejudice** (~Sep 14 — first reported as in-progress in the [*2026-09-16
+update*](#2026-09-16-update--news-watcher-pass), then **mainstream-confirmed** by KSL + ABC4); the
+**American Fork case still pending with a Sep 30 preliminary hearing** (~Sep 15, folded into
+[`../police-controversy.md`](../police-controversy.md)); the **Tucson store closing within days**
+amid BAM's reported **lease buyout** (~Sep 17); the defendants' **anti-SLAPP "Special Motion for
+Expedited Relief"** reportedly filed on the court-set **Sep 18** deadline ([*2026-09-19
+update*](#2026-09-19-update--news-watcher-pass)); Schneider's claim that BAM demanded **"millions in
+damages"** plus a Florida store **"switching sides"** (~Sep 19; [*2026-09-19 update — second
+sweep*](#2026-09-19-update--news-watcher-pass-second-sweep)); and the Tucson operator's **rebuttal
+that BAM never bought the lease** and he remains the tenant (~Sep 19–20; [*2026-09-20
+update*](#2026-09-20-update--news-watcher-pass)). ⚠ **This whole stack is materially weaker-sourced
+than the #87–#101 stack**: apart from the **Provo dismissal** (CONFIRMED — KSL + ABC4) and the
+**court-set Sep 18 deadline** (CONFIRMED — ECF #36), every item rests on a **single enthusiast
+outlet, a partisan community tracker, or a self-published livestream**, and **egress blocks meant no
+agent on any of these passes opened a primary source directly** — see [*2026-09-20 update — watcher
+PR consolidation pass*](#2026-09-20-update--watcher-pr-consolidation-pass) at the very end.
+
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
 > **community mirrors** (Google Drive, Proton Drive, Pastebin, Imgur), not official court/agency systems.
@@ -2101,3 +2124,485 @@ point is the school's vetting failure, which does not require it.
 > of Dexerto, UNILAD Tech, KOIN (`/amp/`) and The BAM Map's amendment report. No claim was upgraded to
 > **CONFIRMED** on a single agent's read. Where a verifier's correction could not be re-reached
 > first-hand, the claim was left at its lower label rather than raised.
+
+---
+
+## 2026-09-12 update — news watcher pass
+
+A targeted pass for developments after the archive's frontier. Following the **2026-09-06 consolidation**
+(the #87–#101 stack, above), `main` now records the case **through Sep 2, 2026** — the federal ECF #36
+anti-SLAPP tolling order (defendants' "special motion for expedited relief" deadline reset to **Sep 18**)
+and Bryan Mansell's ~Sep 2 "gotten my Legos back" livestream. This pass found **one genuinely new,
+on-topic development** in the **Sep 3–12** window that no prior pass captures — an **escalation of BAM's
+copyright-enforcement campaign against the critic/research site "The BAM Map,"** from a July
+cease-and-desist to a **September DMCA takedown notice**. It lands here as a **Reported ⚠** lead
+(single-sourced to the partisan target's own account; no independent newsroom on the September notice) —
+**not** a `timeline.md` row.
+
+**Access note (unchanged, and worse than the Sep 6 pass reported).** The Sep 6 consolidation found that
+many "403'd" caveats were fetch-method artifacts — CourtListener/KSL/Techdirt/Dexerto/etc. returning
+HTTP 200 to `curl` with a browser user-agent, and RECAP serving ECF PDFs. **That did not hold this run:**
+the org egress **policy** (not a user-agent problem) returned **CONNECT-tunnel 403** for `curl` and
+`EGRESS_BLOCKED` for WebFetch across `reddit.com`, `courtlistener.com`, `wikipedia.org`, `dexerto.com`,
+`brickfanatics.com`, `plagiarismtoday.com`, `thebammap.com`, and its Vercel mirror. **This pass ran on
+WebSearch snippets only**, and no primary page or docket sheet was opened directly.
+
+### The one new development — BAM escalates from cease-and-desist to a DMCA takedown against "The BAM Map"
+
+| Item | URL | Note |
+|---|---|---|
+| **The BAM Map — "BAM filed a DMCA takedown notice against The BAM Map" (~Sep 8–9, 2026)** | https://www.thebammap.com/updates/20260909/1 · (mirror) https://slightlylessrecklessben.vercel.app/the-takedown | **Primary, but the partisan/self-interested TARGET's own account.** Per its report, on **~Sep 8, 2026** **BAM Franchising, Inc.**'s **Chief Operating Officer** submitted a **DMCA takedown notice** (forwarded by **Vercel**'s DMCA team) targeting the community sites **thebammap.com** and **bamopsmanual.com**. It reportedly seeks removal of a downloadable Excel reproduction of BAM's internal spreadsheet **"Confidential Incident Impact Report"** (a store-damage study) and continuing reproduction of BAM's **"Franchisee Training & Operations Manual,"** asks Vercel to disable **materially-identical copies / alternate deployments** and to evaluate the account under its **repeat-infringer policy** (citing a prior BAM copyright complaint, **Vercel Case No. 01391428**), and separately asks Vercel to **preserve records identifying the persons who created, administered, funded, or controlled** the two projects (i.e., an attempt to unmask the anonymous operators). The BAM Map adds two rebuttal points: it says **no prior notice under Case No. 01391428 ever actually reached it** from its host, and that a **U.S. Copyright Office** Public Records search (dated Sep 9) shows **no registration** for either named work, or for any work under BAM's name. ⚠ **Single-origin to this partisan host** (defense-aligned; BAM has an active legal dispute with it — treat like `bamsucks.com`: a lead, not authority). ⚠ Two specifics its account gives — an exact receipt time and the Vercel forwarding email address — **could not be corroborated even at snippet level** and are omitted here. |
+| **Plagiarism Today — "Bricks & Minifigs Sends Threat to The BAM Map" (Jul 30, 2026)** | https://www.plagiarismtoday.com/2026/07/30/bricks-minifigs-sends-threat-to-the-bam-map/ | **Secondary, INDEPENDENT — the lead-up, and the one independently-corroborated piece.** This copyright-news outlet independently confirms the **earlier step**: on **~Jul 28, 2026** BAM sent The BAM Map a **cease-and-desist** letter (reportedly listing ~73 URLs). Its assessment — the C&D is *"probably on solid legal footing … but deeply misguided,"* and by asserting copyright BAM **"confirms the documents are owned by the company"** (cutting against BAM's "independent franchisee" framing) — anchors the underlying copyright dispute in an independent source, even though **it predates and does not cover the September DMCA.** (The archive already mentioned this C&D in passing in the Aug-24 section; it had no entry of its own.) |
+| **Community echoes (X / YouTube)** | https://x.com/DietWaterGUY/status/2082928836707016841 · https://www.youtube.com/watch?v=mqqa3KFQxPg | **Tertiary, community.** An X post and a commentary video ("Bricks & Minifigs: COPYRIGHT TAKEDOWNS; DELETED Website; Operations Manual & more") echo the September DMCA. **Not independent corroboration** — they trace back to The BAM Map's own account. |
+
+**Status & why this is worth recording (neutrality).** BAM's use of takedown mechanics against critics
+is an **established, on-topic pattern** in this controversy — the archive already records the **May 29,
+2026 Patreon takedown request** (refused by Patreon's CEO Jun 2) and BAM's **Jul 28 C&D** to The BAM Map
+(independently covered by Plagiarism Today). The **Sep 8 DMCA** is the next step in that campaign and is
+therefore in scope. But per the archive's anti-laundering rule: the **September notice itself is
+single-sourced to the site it targets** — a partisan, self-interested account — with **no independent,
+mainstream, or non-partisan outlet** (Plagiarism Today, Techdirt, KSL, ABC4, Dexerto) reporting the
+September DMCA as of this pass. It is recorded as **Reported ⚠**, explicitly attributed to The BAM Map,
+and is **not** promoted to a `timeline.md` row. The **underlying copyright merits are contested** — BAM
+asserts ownership of internal operational documents; The BAM Map asserts fair-use/newsworthiness and
+notes the absence of a copyright registration — and this archive takes **no position** on who is right;
+it records only that the notice was reportedly filed. It should **graduate to a timeline row** only once
+an **independent outlet** (e.g. Plagiarism Today/Techdirt, both of which have covered earlier beats) or
+the **actual notice text / a Lumen-database entry** anchors it.
+
+### Checked, nothing new to add
+- **Aug 27 "Joint Motion for Permanent Injunction and Dismissal of Party as to Bryan Mansell" (ECF #33)**
+  — **still no order** as of this pass; Mansell remains named in the caption. No docketed dismissal of
+  *BAM v. Mansell* surfaced (consistent with the Sep 6 pass's Sept-5 docket read).
+- **Defendants' anti-SLAPP "special motion for expedited relief"** — deadline **Sep 18, 2026** per the
+  Sep 2 ECF #36 order; **no such motion filed yet** as of Sep 12 (future/pending; already owned by the
+  Sep 2 timeline row).
+- **Schneider/Nguyen answer** (due Sep 2 per ECF #30) — **no answer or Rule 12 motion** surfaced; carried
+  as the same open anomaly the Sep 6 pass flagged, not a new claim.
+- **Aug 12, 2026 American Fork criminal hearing** (stalking, class A + targeted residential picketing,
+  class B — continued there from Jul 1): **still no reported outcome** by any outlet. The next criminal
+  date on record is the **Provo** case's **Sep 15, 2026** appearance (future, ~3 days out).
+- **"Part 4"** — still only **teased**; **no confirmed release**.
+- **A physical return of Mansell's LEGO** beyond Mansell's own ~Sep 2 characterization — **no independent,
+  court, or agency corroboration** surfaced (unchanged from the Sep 4 pass).
+- **Reddit (r/RecklessBen)** — not reachable this pass (org egress proxy 403'd `reddit.com`, `old.reddit.com`,
+  and the `.json` endpoints; no browser); leads gathered via WebSearch instead.
+
+> **Verification (two-agent rule).** **Agent A (author)** drafted the DMCA entry from multiple distinct
+> WebSearches (direct fetch egress-blocked for every host this run — snippet-level only). **Agent B
+> (independent verifier)**, given only the claims-as-written and the bare citation URLs, re-checked each
+> via ~19 tool uses / many differently-worded queries. Findings, all applied: the **Jul 28 C&D +
+> Plagiarism Today Jul 30 analysis** is **SUPPORTED and independently corroborated** (the one strong
+> claim); the **Sep 8 DMCA** specifics (COO filer, Vercel forwarding, the two named works, the
+> repeat-infringer/Case-01391428 framing, the records-preservation ask, the no-registration finding) are
+> **internally consistent and specific but rest ENTIRELY on the partisan target's own account plus
+> community X/YouTube echoes** — **no independent outlet corroborates the September notice** → **Reported
+> ⚠**, not CONFIRMED; and two softest specifics (an exact receipt time and the forwarding email address)
+> **could not be corroborated even at snippet level** and were **dropped**. Agent B independently
+> confirmed **no case development datable after Sep 2, 2026** beyond this (no ruling on ECF #33, no
+> anti-SLAPP motion yet, no Aug 12 outcome, no Part 4). Both agents reached the core facts from the cited
+> sources; neither could open a primary page directly (egress-blocked), a further reason the September
+> notice stays Reported ⚠. **Follow-ups:** watch for (a) any independent/outlet coverage or a Lumen entry
+> for the Sep 8 DMCA, (b) a ruling on the Aug 27 Mansell dismissal (ECF #33), (c) the Sep 15 Provo
+> criminal hearing, and (d) the Sep 18 anti-SLAPP deadline.
+
+---
+
+## 2026-09-13 update — news watcher pass
+
+A targeted pass for developments after the archive's frontier (case recorded **through Sep 2, 2026** on
+`main`; the separate open watcher PR **#103** carries the ~Sep 8 **DMCA-vs-The-BAM-Map** lead and is
+**not** duplicated here). This pass found **one genuinely new, on-topic, dated development** in the
+**Sep 3–13** window that no prior pass captures: **Reckless Ben opened a rival "Reckless Bricks" store
+in a former Bricks & Minifigs location in Tucson, AZ (~Sep 12, 2026).** It is added as a `timeline.md`
+row, labeled **Reported ⚠**.
+
+**Access note (unchanged from the Sep 12 pass, still worse than the Sep 6 consolidation).** The org
+egress **policy** returned `EGRESS_BLOCKED` for WebFetch / CONNECT-tunnel 403 across every relevant
+host this run — `dexerto.com`, `en.wikipedia.org`, `recklessbricks.store`, `recklessbricks.com`,
+`swornout.com`, `thebammap.com`, and `reddit.com` / `old.reddit.com` / the `.json` endpoints. **This
+pass ran on WebSearch snippets only**; no primary page, store site, or docket sheet was opened directly.
+Reddit was therefore unreachable again (leads gathered via WebSearch instead).
+
+### The one new development — Reckless Ben opens a rival store in a former BAM location
+
+| Item | URL | Note |
+|---|---|---|
+| **Dexerto — "Reckless Ben opens rival LEGO store in former Bricks & Minifigs location amid lawsuit"** | https://www.dexerto.com/youtube/reckless-ben-opens-rival-lego-store-in-former-bricks-minifigs-location-amid-lawsuit-3408705/ | **Secondary, the single mainstream/aggregator outlet on this.** Reports that on **~noon Saturday, Sep 12, 2026** YouTuber **Benjamin "Reckless Ben" Schneider** opened his first **"Reckless Bricks"** store at **8110 S Houghton Rd, Suite 162, Tucson, AZ** — a **former Bricks & Minifigs location** (BAM's **2026 FDD** lists it as the *Southeast Tucson* store). Schneider reportedly pitched it as an **anti-franchise alternative**, telling other BAM owners they could rebrand under his name and *"pay me zero percent"* vs. BAM's royalty of *the greater of 6% of revenue or $500/month*. ⚠ **Egress-blocked — read at WebSearch-snippet level only.** |
+| **Store's own sites (primary, self-published by Schneider)** | https://recklessbricks.store/ · https://recklessbricks.com/ · https://swornout.com/ | **Primary** — the business's own web presence (styled *"Reckless Bricks & Toys — Tucson's Premier Toy & Collector Store"*): store hours, the Houghton Rd location, trade-in guidelines, and product lines (LEGO sets, custom minifigures, bulk bricks, collectibles). ⚠ **Self-published by the subject; NOT opened this pass (egress-blocked)** — cataloged as a lead, verify content before relying on it. |
+| **Wikipedia** | https://en.wikipedia.org/wiki/Bricks_%26_Minifigs%E2%80%93Reckless_Ben_controversy · https://en.wikipedia.org/wiki/Reckless_Ben | **Tertiary.** Both the controversy article and a now-standalone *"Reckless Ben"* biography record the Sep 12 Tucson store opening; useful for cross-checking the date/address but itself a downstream summary of the outlets above — **not** independent corroboration. ⚠ Egress-blocked; snippet-level. |
+| **The BAM Map (community; partisan)** | https://www.thebammap.com/updates | **Partisan community tracker (defense-aligned).** Source of the **on-scene staging** (red carpet, customer line, U-Haul, a **tarp over the old B&M sign**), the list of livestreamers inside (Ben, **Total AFOL**, **BJC Live**, **Sheldon Norcross**), and the **BAM Slack message** reportedly sent by marketing director **Katelyn Fagan** to franchisees — acknowledging the store operating from the former Southeast Tucson location, saying *"Corporate is taking swift, decisive, and appropriate action in response,"* and apologizing for *"any blowback."* ⚠ **Single-origin, partisan, self-interested** (BAM has an active dispute with it) — treat like `bamsucks.com`: a lead, not authority. The Slack quote is **not** independently corroborated. |
+| **Katelyn Fagan — BAM marketing-director role** | https://1851franchise.com/top-25-franchise-marketing-leaders-katelyn-fagan-marketing-director-bricks-minifigs-franchising-2731683 | **Secondary, independent** — a franchise-industry profile confirming Fagan's **public role** as BAM Franchising's Marketing Director (supports naming her in that role; does **not** corroborate the Slack message itself). |
+
+**Status & why this is worth recording (neutrality).** The store opening is **on-topic** — a direct
+competitive move against BAM's franchise model, sited in a former BAM location, executed openly during
+the pending federal suit, with BAM's own corporate reaction reported. But per the archive's
+anti-laundering rule it is **not** multiple-independent-outlet CONFIRMED: the core facts rest on **one
+mainstream aggregator (Dexerto)** plus **Schneider's own self-published sites/livestream** and the
+**partisan The BAM Map**; no independent Utah/Arizona newsroom (KSL, ABC4, SLTrib, *Arizona Daily
+Star*/tucson.com, KOLD) had covered the *Reckless Bricks* opening as of this pass (a tucson.com "Lego
+shop to open" result is a **different** store — a *Bricks & Minifigs* Tucson-Northwest grand opening —
+**not** Reckless Bricks). It is therefore **Reported ⚠**, and the **BAM Slack response** is
+single-sourced to the partisan tracker. It should **graduate toward CONFIRMED** only once an independent
+newsroom, or a direct read of the store's primary sites / Schneider's own announcement video, anchors
+it. ⚠ **PII:** the location's former franchise operators are **private individuals** and are **omitted**
+here per the archive's no-PII scope — only the public FDD store designation is used.
+
+### Checked, nothing new to add
+- **~Sep 8 DMCA takedown vs "The BAM Map"** — already captured by the **open watcher PR #103** (Sep 12
+  pass); **not** duplicated here.
+- **Aug 27 "Joint Motion for Permanent Injunction and Dismissal of Party as to Bryan Mansell" (ECF #33)**
+  — **still no order** surfaced this pass; Mansell remains named in the caption (unchanged from the
+  Sep 5 docket read / Sep 12 pass).
+- **Defendants' anti-SLAPP "special motion for expedited relief"** — deadline **Sep 18, 2026** (ECF #36);
+  **no such motion filed yet** as of this pass (future/pending; owned by the Sep 2 timeline row).
+- **Schneider/Nguyen answer** (due Sep 2 per ECF #30) — **no answer or Rule 12 motion** surfaced; same
+  open anomaly the Sep 6/Sep 12 passes flagged, not a new claim.
+- **Aug 12, 2026 American Fork criminal hearing** — **still no reported outcome** by any outlet. The
+  next criminal date on record is the **Provo** case's **Sep 15, 2026** appearance (future, ~2 days out).
+- **"Part 4"** — still only **teased**; **no confirmed release**.
+- **A physical return of Mansell's LEGO** beyond his own ~Sep 2 characterization — **no independent,
+  court, or agency corroboration** surfaced (unchanged).
+
+> **Verification (two-agent rule).** **Agent A (author)** drafted the store-opening row from multiple
+> distinct WebSearches (direct fetch egress-blocked for every host this run — snippet-level only).
+> **Agent B (independent verifier)**, given only the claims-as-written and the bare citation URLs,
+> re-checked each independently. Findings, all applied: the **core store opening** (date, Tucson/Houghton
+> Rd address, former-BAM location per the 2026 FDD) is **SUPPORTED** across Dexerto + Wikipedia + the
+> store's own sites, but on **one mainstream outlet + primary self-published + partisan community** — so
+> **Reported ⚠**, not CONFIRMED. The one independently-upgradeable fact the verifier found: the
+> **address's former-BAM-store status is independently corroborated** by a public *Bricks & Minifigs
+> Southeast Tucson* business listing (Yelp) at 8110 S Houghton Rd — but the **Sep 12 / ~noon date-time,
+> the "2026 FDD" attribution, and the prior-operator names remain single-outlet (Dexerto)**; the
+> **"pay me zero percent" franchise pitch** is Dexerto/Wikipedia-level
+> (Reported); the **on-scene staging and the BAM Slack quote (Katelyn Fagan)** are **single-sourced to
+> the partisan The BAM Map** and were kept explicitly attributed and flagged; **Fagan's marketing-director
+> role** is independently confirmed (1851franchise). Agent B independently confirmed **no other case
+> development datable after Sep 2, 2026** beyond this and the separately-tracked DMCA item (no ECF #33
+> ruling, no anti-SLAPP motion yet, no Aug 12 outcome, no Part 4). Neither agent could open a primary
+> page directly (egress-blocked), a further reason the row stays **Reported ⚠**. **Translations
+> follow-up needed** (`web/i18n`): this pass ran no `translate.mjs` (no API key in this environment) — the
+> new English row/section will fall back to English at render time until a translation pass runs.
+> **Follow-ups:** watch for (a) an independent newsroom or a direct read of the store's sites / Schneider's
+> announcement video for the Tucson opening, (b) any BAM legal/corporate action against Reckless Bricks,
+> (c) a ruling on the Aug 27 Mansell dismissal (ECF #33), (d) the Sep 15 Provo criminal hearing, and
+> (e) the Sep 18 anti-SLAPP deadline.
+
+---
+
+## 2026-09-16 update — news watcher pass
+
+The archive frontier on `main` runs through **Sep 2, 2026** (the [*2026-09-04 update*](#2026-09-04-update--news-watcher-pass)
+above and the Sep 6 consolidation); two later items sit in **open watcher PRs** — **#103** (~Sep 8 BAM
+DMCA notice vs *The BAM Map*) and **#104** (~Sep 12 Schneider opens a rival *"Reckless Bricks"* store in
+a former BAM location, Tucson). This pass found **one genuinely new, on-topic development** in the
+**Sep 13–16** window, and **nothing else** datable after Sep 12.
+
+**~Sep 15, 2026 — the Provo criminal case against Schneider is reportedly being dismissed — Reported ⚠
+(community/partisan-sourced, unsigned, not docket-verified).** The **Sept 15 Provo Justice Court** hearing
+had been an explicitly-flagged *lead* since the Sep 4 pass ("a *scheduled future date* that can move; held
+as a **lead**, not added, pending an outcome or docket confirmation"). An outcome is now **reported** — but
+only by the defense-aligned community. Per an X post relaying a YouTube channel it names as **"Clearly
+Established,"** and several community reaction videos, the **Provo Justice Court** case *Provo City v.
+Schneider* (**case 261000376** — **disorderly conduct**, class C, + **criminal trespass**, class B, over the
+**Dec 10, 2025** visit to BAM's corporate office; the charges featured in Schneider's public "Part 3" video)
+is **being dismissed / the prosecution is moving to dismiss it**, with the dismissal reportedly **not yet
+signed/entered** as of ~Sep 14–15. **Logged here, not added to [`../timeline.md`](../timeline.md)** — it is
+single-origin community/partisan reporting, unsigned, and **not docket-verified**, which does not meet the
+bar for the chronological table (matching this archive's established discipline for community leads, e.g.
+open PR #103).
+
+| Item | URL | Note |
+|---|---|---|
+| X post (ThePunKing) — "BREAKING: According to Clearly Established, the Provo criminal case against Reckless Ben (from Part 3) is being dismissed" | https://x.com/The_PunKing/status/2099181070037991646 | ⚠ Community relay of a YouTube channel it names as **"Clearly Established"**; **not opened directly** (egress-blocked) — headline/snippet only. Snippets add the dismissal is *"not signed yet."* |
+| YouTube (community) — "Reckless Ben's Case Is Getting Dismissed. So Why Can't…" | https://www.youtube.com/watch?v=kQO-l3NjSpE | ⚠ Community commentary video; title-level only (YouTube egress-blocked). Frames the dismissal as **imminent but not yet signed**. |
+| YouTube Short (community) — "Prosecutor Takes Down Reckless Ben's Criminal Charges" | https://www.youtube.com/shorts/H_dYMgv4X7I | ⚠ Community; title-level only. |
+| YouTube (community) — "Reckless Ben NOT Guilty of Criminal Trespass? + PSA Grading RICO Lawsuit" | https://www.youtube.com/watch?v=zW4SsiqsOx8 | ⚠ Community; title-level only. |
+| Provo docket-events mirror (context; already in §1) | https://bamsucks.com/Reckless-Ben-Utah-Case-261000376-Docket-Events.pdf | ⚠ **Partisan host (bamsucks.com); 403/egress-blocked this pass** — the docket itself was **not** read to confirm any dismissal entry. **Cross-check Utah XChange.** |
+
+**Caveats (do not overstate).**
+- This is the **Provo** case only (disorderly conduct + trespass, 261000376). The **separate American Fork**
+  4th-District case (stalking, class A + targeted residential picketing, class B, charged ~Mar 27) is a
+  **distinct** matter and is **not** the subject of this report; its **Aug 12** hearing outcome remains
+  unreported.
+- "Being dismissed" is **not** "was dismissed." Community sources describe a **prosecutor's move / expected
+  dismissal not yet signed** — no entered/signed order is confirmed. Recorded strictly as the community's
+  characterization, pending a docket or mainstream confirmation.
+- **No independent newsroom** (KSL, ABC4, Salt Lake Tribune, Deseret, Dexerto, Kotaku, Brick Fanatics)
+  reports the Provo dismissal as of this pass — it does **not** meet the CONFIRMED bar.
+
+**Also checked, nothing new to add (no other development datable after Sep 12, 2026):**
+- **~Sep 8 BAM DMCA notice vs *The BAM Map*** and the **~Sep 12 *Reckless Bricks* store opening** (incl.
+  BAM marketing director **Katelyn Fagan**'s Slack "swift, decisive, and appropriate action" reaction, which
+  *Brick Fanatics* and *Dexerto* also carry) — **already owned by open PRs #103 / #104**; not duplicated.
+- **Federal case** *BAM Franchising Inc v. Schneider* (D. Utah **No. 2:26-cv-00593**) — the joint motion to
+  **dismiss Bryan Mansell with prejudice** (ECF #33) still shows **no ruling entered**; the defendants'
+  **anti-SLAPP "special motion for expedited relief"** (deadline **Sept 18, 2026**, per the Sep 2 order) had
+  **not** been filed as of this pass. Both are **future / unchanged** — not new.
+- **"Part 4"** — still only teased; **no confirmed release**.
+- **Reddit (r/RecklessBen)** — not reachable this pass (the org egress proxy 403'd `reddit.com` and the
+  `.json` endpoints for both WebFetch and `curl`); leads gathered via WebSearch only.
+
+> **Environment access.** Direct fetch (WebFetch and `curl` with a browser UA) was **policy-denied at the
+> egress proxy** for every relevant host this run — reddit.com, x.com, youtube.com, dexerto.com,
+> brickfanatics.com, wikipedia.org, bamsucks.com — so this pass ran on **WebSearch snippets only**; no
+> primary page, video, X post, or docket was opened directly. **Translations need a follow-up pass**
+> (`web/scripts/translate.mjs` was **not** run — no `ANTHROPIC_API_KEY`/local model here; missing
+> translations fall back to English at render time, so the build is unaffected).
+
+> **Verification (two-agent rule).** **Agent A (author)** drafted the entry from multiple distinct
+> WebSearches (every relevant host — x.com, youtube.com, bamsucks.com, reddit, dexerto, courtlistener —
+> was egress-blocked this run, so all reads were WebSearch-snippet level). **Agent B (independent
+> verifier)**, given only the claims-as-written and the bare citation URLs, re-checked each via ~26 tool
+> uses / many differently-worded queries and **independently reached**: (1) the Provo-dismissal report is
+> **SUPPORTED at the "Reported"/community bar only, not CONFIRMED** — the X post consistently reproduces as
+> *"the Provo criminal case … is being dismissed"* with *"not signed yet,"* timed ~Sep 14, and **no
+> mainstream outlet** (KSL/ABC4/SLTrib/Deseret/Dexerto/Kotaku/Brick Fanatics) or Wikipedia carries a Provo
+> criminal dismissal; (2) the **Provo (261000376: disorderly conduct C + trespass B, Dec 10 2025) vs.
+> American Fork (stalking A + targeted residential picketing B) distinction is correct** — the dismissal
+> report concerns the Provo pair only, and B flagged that some search snippets *conflate* the two courts (a
+> mis-summary the archive already warns against); (3) **no sign the dismissal is signed/entered** — the only
+> source says the opposite; (4) **no development datable after Sep 12, 2026** for the ECF #33 Mansell
+> dismissal (no ruling; Mansell still in the caption), the anti-SLAPP special motion (not filed; Sep 18
+> deadline), a "Part 4" (not released), or the Aug 12 American Fork hearing (outcome still unreported). One
+> **correction applied**: B could **not** independently confirm that "Clearly Established" is a
+> *legal-commentary* channel or that it authored the cited videos (and distrusted a stray snippet
+> attributing the short to "LegalEagle"), so that descriptor was **dropped** — the channel is named only as
+> the X post's stated origin. ⚠ **Neither agent opened any primary source directly** (all egress-blocked);
+> the item stays **Reported ⚠**. **Follow-ups:** a **signed/entered** Provo dismissal on **Utah XChange**
+> (or the bamsucks docket mirror), any mainstream pickup, and the still-unreported **Aug 12 American Fork**
+> outcome.
+
+---
+
+## 2026-09-19 update — news watcher pass
+
+Targeted sweep for developments **after the ~Sep 17 items** already sitting in open watcher PRs
+**#103–#108** (BAM's DMCA campaign against The BAM Map ~Sep 8; the "Reckless Bricks" Tucson store
+opening ~Sep 12 and closing ~Sep 17; the Provo criminal-case dismissal ~Sep 14; and the American
+Fork case's Sep 30 preliminary hearing). **Reddit was unreachable this pass** — r/RecklessBen
+`new.json` returned a **403 CONNECT-tunnel block**, and `old.reddit.com` plus the megathreads were
+likewise blocked — so, as on several prior passes, this run rests on **WebSearch snippets**: direct
+fetches to CourtListener, PacerMonitor, Justia, The BAM Map, Wikipedia, Dexerto and Techdirt were
+**all egress-blocked**.
+
+**One genuinely new, thinly-sourced item** — folded into a new **Sep 18, 2026** [`timeline.md`](../timeline.md)
+row, and **not** duplicated from the open PRs: defense-aligned community sources report that **on the
+Sep 18 deadline** (set by the CONFIRMED **Sep 2 order, ECF #36**) **the defendants filed their
+anti-SLAPP "Special Motion for Expedited Relief"** in the removed federal case (*BAM Franchising Inc
+v. Schneider et al.*, No. **2:26-cv-00593**, D. Utah), aimed at the suit's **Utah RICO + defamation**
+core. ⚠ **The filing is NOT docket-verified.** It rests on **two community YouTube videos**
+(`KM1WJgTZ0OA` — "RECKLESS BEN Just Filed in Court!! (ANTI-SLAPP)"; `ur1aTCg0bYc` — "…ANTI SLAPP
+confirmed") **and the community tracker The BAM Map**; **no mainstream outlet reports it**; the
+accessible **CourtListener snapshot predates Sep 18**, so no ECF entry for the motion surfaced; and
+the motion's specific arguments are **community characterization, not a read of the filed brief**.
+Recorded **Reported ⚠**. Verified per the two-agent rule — an independent verifier re-ran the searches
+and reached the same split: **the Sep 18 deadline and procedural posture are CONFIRMED, but the filing
+itself is community/YouTube-only and unconfirmed on the docket**, so it does **not** carry a CONFIRMED
+label.
+
+**Nothing else new qualified.** The **Aug 27 Mansell dismissal / permanent-injunction motion (ECF
+#33)** remains **pending Judge Barlow's signature** (unchanged). No ruling on the special motion, no
+hearing date, no settlement or remand, and **no actual "Part 4"** surfaced. The Sep 2 "still open"
+items (the Aug 12 American Fork criminal-hearing outcome; the Gorman RICO amendment docket read)
+remain open. **Translations (i18n) were not refreshed** this pass (no API key in this environment) —
+they need a follow-up `scripts/translate.mjs` run.
+
+---
+
+## 2026-09-19 update — news watcher pass (second sweep)
+
+A targeted pass for anything **newer than the open watcher-PR frontier** (which already runs through
+~Sep 18: the ~Sep 8 DMCA vs *The BAM Map* (#103), the ~Sep 12 Tucson "Reckless Bricks" opening (#104),
+the ~Sep 14 Provo dismissal (#105/#106), the American Fork case's Sep 30 hearing (#107), the ~Sep 17
+Tucson store closure (#108), and the ~Sep 18 anti-SLAPP special motion (#109)). **Reddit r/RecklessBen
+was unreachable this run** (`reddit.com` egress-blocked at the proxy — `new.json` → CONNECT rejected;
+old.reddit + the megathreads blocked). All primary hosts (Dexerto, Wikipedia, Brick Fanatics, YouTube,
+thebammap.com) were **egress-blocked for direct fetch**, so this pass ran on **WebSearch snippets only**.
+
+**One genuinely new, on-topic, dated development** surfaced — newer than everything above:
+
+**~Sep 19, 2026 — Schneider says BAM demanded "millions in damages" and to take over his first store;
+another former BAM location in Florida "switches sides."** On a Sep 19 livestream, **Benjamin "Reckless
+Ben" Schneider** said that, ~two days after his first **"Reckless Bricks"** store opened (the ~Sep 12
+Tucson location), Bricks & Minifigs' lawyers sent a legal notice he characterized as *"you owe us over
+like basically millions of dollars in damages and we take over the store now."* He **did not show the
+document** on stream. He also announced that **another former Bricks & Minifigs store — reported (by
+Dexerto) as in Sarasota, Florida, operating as "Cosmic Critter Toys" — had "switched sides"** to his
+zero-royalty anti-franchise model, claiming a chaotic grand opening (~4,000 attendees, **his own
+figure**). Added as a **timeline.md** row and a **news-articles.md** catalog entry.
+
+- **Status.** The **legal-notice / "millions in damages" claim → ALLEGATION** (Schneider's unverified,
+  document-not-shown characterization, single secondary outlet, conflicting with BAM's own account). The
+  **store "switch" → Reported ⚠** (Dexerto + Schneider's livestream; the specifics are single-outlet /
+  self-published). **Neither meets the multiple-independent-outlets CONFIRMED bar** — no second mainstream
+  newsroom (KSL, ABC4, SLTrib, Techdirt, Kotaku) carries this development.
+- **⚠ Sarasota is uncorroborated.** A separate, **still-operating "Bricks & Minifigs Sarasota"** exists —
+  treat "Sarasota" as Dexerto's report, not established fact, and **do not conflate** the two.
+- **⚠ Conflicting accounts of the Tucson store's fate — preserved, not resolved.** Three framings coexist:
+  BAM's own (**a lease buyout / forced vacate**, per Brick Fanatics — the ~Sep 17 closure, open PR #108),
+  the operator's (**he ended the franchise himself by letter**), and Schneider's (**lawyers demanded
+  millions / "we take over the store"**). The archive records all three and adopts none.
+
+**Two-agent verification (repo rule).** An **independent verifier subagent** was given only the
+claims-as-written and the bare Dexerto URL (not the author's notes) and re-ran the searches
+independently. It reached the same split — the damages demand is a self-published **ALLEGATION** (no
+document shown, single outlet, conflicting with BAM's account); the second store is **Reported** but its
+**city (Sarasota) could not be independently corroborated** (flagging the existing BAM Sarasota store as
+a conflation risk) and the store is branded **"Cosmic Critter Toys"** / "switched sides" rather than
+plainly "a second Reckless Bricks store"; **~4,000 is Schneider's own figure**; and **no second mainstream
+outlet** carries either the damages demand or the Florida store. All of its corrections were applied.
+
+**Checked, nothing new:** no ruling yet on the **~Sep 18 anti-SLAPP special motion** (#109) or the
+**Aug 27 (ECF #33)** Mansell-dismissal / permanent-injunction motion (still pending Judge Barlow's
+signature); no BAM-case **"Part 4"** (only teasers; Schneider's ~Sep Ideal Living / human-trafficking
+video is a **separate, adjacent** investigation, like the Aug 15 Provo Canyon School piece — not a
+BAM-case event, not added); the **Sep 30** American Fork preliminary hearing is still future.
+
+**Follow-ups:** cross-check any BAM legal notice against a primary document / the federal docket
+(No. 2:26-cv-00593); watch for any second-outlet pickup to upgrade the store "switch," and to confirm or
+correct the Florida city / "Cosmic Critter Toys" identity. **Translations (i18n) not refreshed** this
+pass — no `ANTHROPIC_API_KEY`/local model in this environment; `web/scripts/translate.mjs` needs a
+follow-up run (missing translations fall back to English at render time, so the build is unaffected).
+
+---
+
+## 2026-09-20 update — news watcher pass
+
+Automated news-watcher pass for **2026-09-20**. The archive on `main` records the case **through Sep
+2, 2026**; open watcher PRs **#103–#110** carry the frontier through **~Sep 19** (DMCA vs *The BAM
+Map*; the ~Sep 12 Tucson "Reckless Bricks" opening; the ~Sep 14 Provo dismissal; the Sep 30 American
+Fork hearing; the ~Sep 17 Tucson closure / BAM "bought the lease"; the ~Sep 18 anti-SLAPP special
+motion; and the ~Sep 19 "millions in damages" + Sarasota "Cosmic Critter Toys" cluster). This pass
+found **one genuinely new, dated, on-topic development newer than all of the above**, plus confirmed
+that no larger event (court ruling, settlement, criminal outcome, or "Part 4") has surfaced.
+
+**⚠ Access:** every primary host (Brick Fanatics, Dexerto, The Express Tribune, thebammap.com,
+YouTube, Wikipedia) **and Reddit r/RecklessBen** were **egress-blocked** this run; both the author and
+the independent verifier worked at **WebSearch-snippet level only** (no article HTML, video, or docket
+read directly). Several engine "answer" snippets appear to echo this archive's own draft PRs and the
+partisan tracker **thebammap.com** — so the snippets confirm these items are *being reported*, not the
+underlying facts. Treat everything below as **Reported ⚠ / competing ALLEGATIONS**.
+
+### Genuinely new (~Sep 19–20)
+
+**The Tucson "Reckless Bricks" operator rebuts BAM's lease-buyout account of the ~Sep 17 closure.**
+After BAM's West-Coast regional franchise business coach **Julie Kuni** was reported (~Sep 17, Brick
+Fanatics) saying BAM *"bought out the lease, closed them down, and asked them to immediately vacate the
+building"* (the ~Sep 17 closure = open PR #108), the operator pushed back on community channels
+(reportedly incl. **Collecting Weekly**): his **landlord's office told him BAM has neither signed a
+lease nor initiated a takeover** and he **remains the tenant**; he says he **ended the franchise
+himself, by letter**, before reopening under his own name. A later owner notice (reported ~Sep 19–20)
+says the store is **temporarily closed but "not going anywhere."** This **directly contradicts BAM's
+account**; the archive resolves neither. → New `~Sep 19–20` [timeline](../timeline.md) row.
+
+| Item | URL | Note |
+|---|---|---|
+| Community video — "BAM HAS NOT SIGNED A LEASE OR INITIATED A TAKEOVER! Reckless Bricks Update" | https://www.youtube.com/watch?v=Jp817-UbbqY | ⚠ Self-published / defense-aligned community upload carrying the operator/landlord rebuttal. **NOT opened this pass** (YouTube egress-blocked) — title only; the *"Collecting Weekly"* attribution and exact wording are unconfirmed against the video. |
+| Community video — "BAM Owners Reveal Why They LEFT — Reckless Bricks/Cosmic Critters Day 2 Update!" | https://www.youtube.com/watch?v=Nh2WUykMxGs | ⚠ Community upload re: the Tucson operator's account + the Sarasota "Cosmic Critter Toys" store (the Sarasota item itself sits in open PR #110 and is **not** re-added here). Title only; not opened. |
+| Brick Fanatics — "Reckless Bricks closes as Bricks & Minifigs buys lease" | https://www.brickfanatics.com/reckless-bricks-closes-bricks-minifigs-buys-lease | Enthusiast outlet carrying **both** BAM's Kuni lease-buyout quote **and** the operator's rebuttal. ⚠ Snippet-level only (egress-blocked). Also cataloged around the ~Sep 17 closure in open PR #108. |
+| The BAM Map — updates index / Kuni-quote entry | https://www.thebammap.com/updates · https://www.thebammap.com/updates/20260918/1 | ⚠ **Partisan community tracker.** The `/20260918/1` entry frames Kuni's quote as BAM's coach telling *another* store owner *"That was us. We bought out the lease, closed them down."* Snippet-level only. |
+
+### Checked, nothing new
+
+- **No new court event:** no ruling on the ~Sep 18 anti-SLAPP special motion (open PR #109) or on the
+  Aug 27 Mansell-dismissal / permanent-injunction motion (ECF #33 — still unruled, Mansell still in
+  the caption). No settlement with Schneider (mediation ongoing). **Sep 30** American Fork preliminary
+  hearing still future. Provo case already dismissed (open PR #106).
+- **No "Part 4"** (only teasers). Schneider's recent human-trafficking / *Ideal Living* piece is a
+  **separate, adjacent** investigation (like the Aug 15 Provo Canyon School video) — not a BAM-case
+  event, not added.
+- **Not duplicated:** the ~Sep 19 "millions in damages" allegation and the Sarasota "Cosmic Critter
+  Toys" store (open PR #110), and the ~Sep 17 closure / lease-buyout (open PR #108), are **not**
+  re-added — this pass adds only the operator/landlord **rebuttal** and the later "not going anywhere"
+  notice.
+
+> **Verification (two-agent rule).** An independent verifier subagent was given **only the
+> claims-as-written and the bare source titles/URLs** (not the author's notes) and re-ran its own
+> searches. It reached the same split: **nothing rises to CONFIRMED** (no court record, agency
+> statement, or multiple independent mainstream outlets); Claims (operator/landlord) and (Kuni/BAM)
+> are **mutually contradictory competing ALLEGATIONS** to be preserved, not resolved; the *"Collecting
+> Weekly"* attribution and the exact **"not going anywhere"** wording **could not be independently
+> confirmed** (hedged accordingly); and the ~Sep 17 "Temporarily Closed" note should be kept **distinct**
+> from the later "not going anywhere" statement. All of its corrections were applied. Because every
+> primary source was egress-blocked, **no claim was raised above Reported/ALLEGATION** — a later pass
+> with primary access should re-verify against the videos and the Brick Fanatics article.
+
+---
+
+## 2026-09-20 update — watcher PR consolidation pass
+
+A **consolidation pass, not a discovery pass** — and, unlike the [2026-09-06
+consolidation](#2026-09-06-update--watcher-pr-consolidation-pass), **not a re-verification pass
+either** (see the access note below). Nine automated watcher PRs (**#103–#111**, covering **~Sep 8 –
+Sep 19/20, 2026**) had accumulated unmerged against a frontier that was still **Sep 2, 2026**. Each
+was branched fresh off the same `main` commit (`30e08e1`) and each appended to the same tables, so
+they were merged into one branch in **event order** and the overlaps reconciled.
+
+### What was reconciled
+
+| Issue | Resolution |
+|---|---|
+| **#105 vs #106 — the Provo dismissal reported twice** | #105 (~Sep 15) carried it as *"reportedly being dismissed"* from community signal; #106 (~Sep 14) then **mainstream-confirmed** it (KSL + ABC4) with the operative date and the *"without prejudice"* qualifier. **#106's row is authoritative**; #105's section is retained as the **audit trail** of how the item first surfaced, not as a second event. |
+| **#109 and #110 both titled `2026-09-19 update`** | Anchor collision — the later pass (#110, the "millions in damages" sweep) is retitled **"(second sweep)"**, matching the convention already used for Jun 11 / Jun 27 / Jun 28 / Jul 1 / Jul 8. |
+| **Tucson store — three conflicting accounts across #108, #110, #111** | **Preserved, not resolved.** BAM's (lease buyout, via franchise coach Julie Kuni), the operator's (he ended the franchise himself by letter; his landlord's office says BAM never signed a lease and he remains the tenant), and Schneider's (BAM's lawyers demanded millions and "we take over the store now"). The archive adopts none. |
+| **Two distinct Tucson door notices** | Kept separate: the **~Sep 17 handwritten "Temporarily Closed"** note ≠ the later **~Sep 19–20 "not going anywhere"** owner statement. |
+| **`timeline.md` row order** | Seven rows interleaved chronologically (~Sep 12, ~Sep 14, ~Sep 15, ~Sep 17, Sep 18, ~Sep 19, ~Sep 19–20). The ~Sep 15 American Fork item lives in [`../police-controversy.md`](../police-controversy.md) **and** as a timeline row, matching how the Jul 1 / Aug 12 criminal dates are already carried. |
+| **Duplicate source catalog entries** | `media/news-articles.md` takes **four** rows (KSL + ABC4 on the Provo dismissal, Brick Fanatics on the Tucson closure, Dexerto on the damages claim). #111 deliberately added **no** news row — it cited the Brick Fanatics piece #108 already catalogs. |
+
+### Evidence grade of this stack — read this before citing any of it
+
+⚠ **This stack is materially weaker-sourced than #87–#101, and that difference is not cosmetic.** Of
+the nine passes, only **two** items clear the archive's **CONFIRMED** bar:
+
+- the **~Sep 14 Provo dismissal** — *"in the interest of justice," without prejudice* — carried by
+  **two independent mainstream newsrooms** (KSL.com and ABC4); and
+- the **Sep 18 anti-SLAPP deadline** itself, which is a **court record** (ECF #36, already on `main`
+  from the Sep 2 row). ⚠ The **filing** of the special motion on that deadline is **community-reported
+  only** — the deadline is confirmed, the filing is not.
+
+Everything else — the DMCA escalation, both store openings, the store closure and lease buyout, the
+"millions in damages" demand, the Florida store "switching sides," and the operator/landlord rebuttal
+— rests on a **single LEGO-enthusiast outlet** (Brick Fanatics or Dexerto), a **partisan community
+tracker** (thebammap.com), or a **self-published livestream**, and is labeled **Reported ⚠** or
+**ALLEGATION** accordingly. No court record or agency statement backs any of it.
+
+⚠ **Access note — the reason this is not a re-verification pass.** The [2026-09-06
+consolidation](#2026-09-06-update--watcher-pr-consolidation-pass)'s most consequential finding was
+that its "403'd / snippet-level" caveats were **artifacts of fetch method** — `curl` with a browser
+user-agent reached CourtListener, KSL, Techdirt, Dexerto and the rest, and RECAP served the actual
+ECF-stamped PDFs. **That workaround does not work this session.** Brick Fanatics, KSL, CourtListener
+and thebammap.com were re-tested directly at consolidation with a desktop user-agent and **all
+returned connection failures** (egress-proxy denial, not HTTP 403) — as did Reddit throughout. So
+**no agent on any of these nine passes, nor this consolidation, opened a single primary source
+directly**; the entire stack is **WebSearch-snippet level**. Worse, the Sep 20 verifier noted that
+some engine "answer" snippets visibly **echo this archive's own draft PRs and thebammap.com back at
+it** — a circularity risk that snippet-level corroboration cannot rule out.
+
+**Consequence:** nothing in this stack was **upgraded** at consolidation, and nothing should be
+upgraded on the strength of it. The verification debt is carried forward, not discharged.
+
+### Outstanding verification debt (for the next pass with primary access)
+
+1. **Re-read the federal docket** (No. **2:26-cv-00593-DBB-CMR**, D. Utah) via CourtListener/RECAP
+   and confirm whether the **anti-SLAPP special motion was actually filed** on Sep 18 (and any ruling),
+   plus whether the **Aug 27 Mansell-dismissal / permanent-injunction motion (ECF #33)** has been ruled
+   on — it was still unruled, with Mansell still in the caption, as of the Sept 5 refresh.
+2. **Confirm the Sep 30 American Fork preliminary-hearing date** against **Utah XChange** — it traces
+   to KSL alone (echoed by syndication partner East Idaho News); ABC4 confirms only that the case is
+   *ongoing*. This case's dates have **slipped before**.
+3. **Open the Tucson-store sources directly** (Brick Fanatics; the community videos) to test the
+   lease/tenant conflict, and the *"Collecting Weekly"* attribution and exact **"not going anywhere"**
+   wording, which the Sep 20 verifier **could not confirm**.
+4. **Corroborate or correct the Florida store** — reported as Sarasota / *"Cosmic Critter Toys"* — and
+   guard against conflation with the **still-operating "Bricks & Minifigs Sarasota."**
+5. **Reconcile the damages figures** — Schneider's *"millions"* (~Sep 19) against the earlier
+   **$10M demand** NewsNation reported; they may or may not be the same demand. Do not merge silently.
+
+> **Verification (two-agent rule).** This pass **added no new claim and raised no status**, so it did
+> not trigger a fresh two-agent cycle; each merged item keeps the label and the verifier findings from
+> its own pass (recorded in the dated sections above — the Sep 20 pass's verifier corrections, for
+> instance, are preserved verbatim there). What this consolidation *did* check is **internal**: event
+> ordering, the #105/#106 supersession, the anchor collision, source-catalog duplication, and that no
+> row silently resolves a conflict another row preserves. **No claim was upgraded to CONFIRMED here**,
+> and per the access note above, none could have been.
