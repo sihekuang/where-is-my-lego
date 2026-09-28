@@ -211,7 +211,16 @@ snippets to CONFIRMED court records** (ECF #26/#27/#30/#32/#33/#36, read as ECF-
 **Aug 19 settlement** row's "single-origin / no independent newsroom" caveat was **retracted as
 false** (KSL, ABC4, SLTrib, KATU, Kotaku and Brick Fanatics all covered it independently), and
 several inverted or over-read attributions were corrected (see [*2026-09-06
-update*](#2026-09-06-update--watcher-pr-consolidation-pass) at the very end).
+update*](#2026-09-06-update--watcher-pr-consolidation-pass) at the very end); **news watcher pass
+2026-09-28** — **one genuinely new, dated, on-topic development** newer than the ~Sep 19–20 frontier
+carried by open watcher PRs #103–#112: on **Sep 25, 2026** BAM filed a **separate federal "John Doe"
+suit** — ***BAM Franchising, Inc. v. Does 1 to 10***, No. **2:26-cv-00895** (D. Utah; **DTSA** + Utah
+UTSA + breach of contract) — to **unmask the anonymous operators of _The BAM Map_** via pre-service
+subpoenas (Vercel/Google/Slack/YouTube); the **filing itself** is corroborated on an independent
+PACER-sourced tracker (Justia), but **every complaint-internal detail is single-sourced to the
+partisan target host** and **no mainstream outlet** reports the Doe suit — the misappropriation/breach
+claims are BAM's **ALLEGATION** (see [*2026-09-28
+update*](#2026-09-28-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -252,6 +261,7 @@ The catalog currently draws from these community indexes. Add new origins here a
 | Oregon — full list of case numbers | https://pastebin.com/CdKUzxpM | Index of every Oregon case number for pulling the rest from OJCIN. |
 | Proof of relationship — image | https://imgur.com/a/GXZ7m2f | Pairs with the newspaper archive below. |
 | Proof of relationship — newspaper archive | https://www.newspapers.com/newspage/360215635/ | Old news article placing CEO **Ammon McNeff** and franchisee **Joshua Johnson** together as **missionaries in 2004** — primary support for a CEO↔franchisee tie (now reflected in [`../relationships.md`](../relationships.md) as the `ammon-mcneff ↔ josh-johnson` edge). ⚠ Paywalled clipping; verify. |
+| **Utah — _BAM v. Does 1 to 10_ complaint (Dkt. 1)** (case 2:26-cv-00895) | https://www.thebammap.com/updates/20260926/2/bam-franchising-v-does-1-10-complaint-2026-09-25-dkt-1.pdf | Community-hosted copy of BAM Franchising's **Sep 25, 2026** federal **"John Doe" complaint** (federal DTSA + Utah UTSA + breach of contract) seeking to **unmask _The BAM Map_'s anonymous operators** via **pre-service third-party subpoenas** (host **Vercel**, Google, Slack, YouTube). ⚠ **Hosted on _The BAM Map itself_ — the partisan defense-aligned site that is the _target_ of this very suit** (maximally self-interested). The **case number/caption ("Does 1 to 10")/court/Sep 25 date/DTSA nature-of-suit** are independently corroborated on **Justia Dockets** (`2:2026cv00895` / id 167256; also CourtListener/PacerMonitor), but the docket **and** the complaint were **not directly readable** this pass (egress-blocked — snippet-level only). **Cross-check PACER / CM-ECF (D. Utah).** See the **Sep 25, 2026** row in [`../timeline.md`](../timeline.md). |
 
 ## 2. American Fork Police Department
 
@@ -2101,3 +2111,63 @@ point is the school's vetting failure, which does not require it.
 > of Dexerto, UNILAD Tech, KOIN (`/amp/`) and The BAM Map's amendment report. No claim was upgraded to
 > **CONFIRMED** on a single agent's read. Where a verifier's correction could not be re-reached
 > first-hand, the claim was left at its lower label rather than raised.
+
+---
+
+## 2026-09-28 update — news watcher pass
+
+Retrieved **2026-09-28**. The committed archive records the case **through Sep 2, 2026**; **ten open
+watcher PRs #103–#112** already carry the frontier through **~Sep 19–20** (BAM's DMCA campaign vs _The
+BAM Map_; the ~Sep 12 Tucson "Reckless Bricks" opening + ~Sep 17 closure / lease dispute; the ~Sep 14
+Provo criminal dismissal; the Sep 30 American Fork hearing; the ~Sep 18 anti-SLAPP special motion; and
+the ~Sep 19 "millions in damages" / Sarasota "Cosmic Critter Toys" cluster). This pass found **one
+genuinely new, dated, on-topic development newer than all of that:**
+
+**~Sep 25, 2026 — BAM filed a _separate_ federal "John Doe" suit — _BAM Franchising, Inc. v. Does 1 to
+10_, No. 2:26-cv-00895 (D. Utah) — to unmask the anonymous operators of _The BAM Map_.** It is a
+federal **Defend Trade Secrets Act** + Utah Uniform Trade Secrets Act + breach-of-contract action
+seeking **pre-service third-party subpoenas** (host **Vercel**, Google, Slack, YouTube) to identify the
+Doe defendants, and it ties back to BAM's Sep 8 DMCA notice to Vercel (already recorded ~Sep 8 in open
+PR #103). Added as a new `Sep 25, 2026` **timeline** row, a `court-documents.md` note, and a §1 catalog
+entry. ⚠ **Sourcing split (two-agent verified):** the **existence / caption ("Does 1 to 10") / number /
+court / Sep 25 filing date / DTSA nature-of-suit** are corroborated on an **independent PACER-sourced
+tracker (Justia Dockets `2:2026cv00895` / id 167256)**; **every internal complaint detail** (the
+non-DTSA counts, the verbatim Doe-description and "unable to identify" language, the subpoena-target
+list, counsel bar numbers, jury/relief specifics) traces only to the **complaint PDF hosted on _The BAM
+Map itself_ — the partisan defense-aligned site that is the _target_ of the suit** — and **no
+mainstream/independent outlet reports the Doe suit specifically**; the misappropriation/breach claims
+are BAM's unadjudicated **ALLEGATION**.
+
+**Two-agent verification (per CLAUDE.md).** Agent A (author) surfaced the item via WebSearch and drafted
+the row/labels. An **independent verifier subagent (Agent B)**, given only the claims-as-written and the
+bare citation URLs (not A's notes), re-derived each from the sources. B independently confirmed that
+**2:26-cv-00895 is a real, separately-docketed federal case on Justia's PACER-sourced tracker** (not
+solely a thebammap.com artifact) and that the **"Does 1 to 10" caption and the DTSA nature-of-suit**
+hold — but found **every complaint-internal detail single-sourced to the partisan target host**, **no
+mainstream outlet** on the Doe suit, and advised **not** raising the complaint's internal quotes to
+CONFIRMED absent a non-partisan copy. **Corrections applied:** caption rendered **"Does 1 to 10"** (not
+"1-10"); **"Central Division"** marked complaint-sourced; counsel **bar numbers** kept out of the row as
+complaint-only; the **filing FACT** labeled CONFIRMED (independent tracker) while the complaint's
+**contents** stay Reported ⚠ and the underlying claims **ALLEGATION**.
+
+**Related same-week items (thinner — folded into the Sep 25 row as ⚠ context, not standalone CONFIRMED
+rows):** a **~Sep 24 second DMCA** takedown vs The BAM Map (independently noted by Plagiarism Today) and
+a **~Sep 25 updated BAM 2026 FDD** whose **Item 3** now names *BAM v. Schneider* and calls the action
+"and the facts surrounding it" **"information that is material to the decision to enter into a Bricks and
+Minifigs franchise agreement"** (Franchise Times + the primary FDD; ⚠ snippet-level this pass).
+
+**Checked, nothing else new (Sep 21–28):** no ruling yet on the ~Sep 18 anti-SLAPP special motion (open
+PR #109) or the Aug 27 *Mansell*-dismissal / permanent-injunction motion (ECF #33 — still unruled,
+Mansell still in the caption); no Schneider settlement (mediation ongoing); the **Sep 30** American Fork
+preliminary hearing is still future; no actual **"Part 4"** release surfaced.
+
+⚠ **Access note:** every primary host (Justia / CourtListener / PacerMonitor, thebammap.com,
+Plagiarism Today, The Express Tribune) **and Reddit r/RecklessBen** (old.reddit + `.json` + curl) were
+**egress-blocked** this run; both agents worked at **WebSearch-snippet level only** — no docket sheet,
+complaint PDF, article HTML, or Reddit thread was read directly. A later pass with primary access should
+re-verify the complaint's internal quotes against the **PACER docket sheet (D. Utah)** before any status
+is raised above what is recorded here.
+
+⚠ **Translations (i18n) need a follow-up pass** — `scripts/translate.mjs` was **not** run (no
+`ANTHROPIC_API_KEY` in this environment). Missing translations fall back to English at render time, so
+the build is unaffected.
