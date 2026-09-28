@@ -60,6 +60,18 @@ caveats); the **authoritative** column names the official system to confirm agai
 > checked (HTTP 403), so pull the full **docket sheet** (assigned judge, entries, exact filed-date) from
 > PACER. **Plaintiffs may move to remand**, which could return the case to the Utah Fourth District (XChange).
 
+> **⚠ A separate BAM "John Doe" suit (filed Sep 25, 2026) — do not conflate with the Schneider case.** BAM
+> Franchising, Inc. opened a **second, distinct federal action**, ***BAM Franchising, Inc. v. Does 1 to 10*,
+> No. 2:26-cv-00895, U.S. District Court for the District of Utah** (nature of suit: **federal Defend Trade
+> Secrets Act**), to **identify the anonymous operators of the defense-aligned tracker _The BAM Map_**
+> (thebammap.com) via pre-service third-party subpoenas — **not** part of the *BAM v. Schneider* case (No.
+> 2:26-cv-00593). The case **number, caption, court, Sep 25 filing date, and DTSA nature-of-suit** are
+> corroborated on **Justia Dockets** (dockets.justia.com/docket/utah/utdce/2:2026cv00895/167256; also on
+> CourtListener/PacerMonitor), but ⚠ the docket **pages were egress-blocked** when checked (snippet-level
+> only) and the **complaint's internal text is available only as a copy hosted on _The BAM Map itself_** —
+> the partisan target of the suit; pull the authoritative **docket sheet + complaint** from **PACER /
+> CM-ECF (D. Utah)**. See the **Sep 25, 2026** row in [`../timeline.md`](../timeline.md).
+
 ### Criminal matter — American Fork PD (distinct from the civil suit)
 
 These belong to the **March 2026** criminal case, not the civil suit; background and exact dates are in
