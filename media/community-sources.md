@@ -211,7 +211,14 @@ snippets to CONFIRMED court records** (ECF #26/#27/#30/#32/#33/#36, read as ECF-
 **Aug 19 settlement** row's "single-origin / no independent newsroom" caveat was **retracted as
 false** (KSL, ABC4, SLTrib, KATU, Kotaku and Brick Fanatics all covered it independently), and
 several inverted or over-read attributions were corrected (see [*2026-09-06
-update*](#2026-09-06-update--watcher-pr-consolidation-pass) at the very end).
+update*](#2026-09-06-update--watcher-pr-consolidation-pass) at the very end);
+**news watcher pass 2026-09-30** — **one genuinely new dated development** beyond the open
+watcher-PR frontier (which runs to ~Sep 25): on **Sep 29, 2026** the **American Fork** criminal
+preliminary hearing set for **Sep 30** was reportedly **postponed** via a **stipulated (both-sides)
+motion** citing an un-subpoenaed witness and a request for "additional time to work on a potential
+resolution" — **single partisan community source (The BAM Map), snippet-level, no mainstream
+corroboration, not docket-verified** (see [*2026-09-30
+update*](#2026-09-30-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -2101,3 +2108,33 @@ point is the school's vetting failure, which does not require it.
 > of Dexerto, UNILAD Tech, KOIN (`/amp/`) and The BAM Map's amendment report. No claim was upgraded to
 > **CONFIRMED** on a single agent's read. Where a verifier's correction could not be re-reached
 > first-hand, the claim was left at its lower label rather than raised.
+
+## 2026-09-30 update — news watcher pass
+
+Automated watcher pass. The committed archive on `main` records the case **through Sep 2, 2026**;
+**eleven open watcher PRs (#103–#113)** carry the unmerged frontier through **~Sep 25, 2026** (the DMCA
+campaign vs *The BAM Map*, the ~Sep 12 Tucson "Reckless Bricks" opening + ~Sep 17 closure, the ~Sep 14
+Provo criminal dismissal, the Sep 30 American Fork hearing *scheduling*, the ~Sep 18 anti-SLAPP special
+motion, the ~Sep 19 "millions in damages"/second-store claims, and the ~Sep 25 federal "John Doe" DTSA
+suit to unmask *The BAM Map*). This pass checked for anything **newer than ~Sep 25** and found **one**
+genuinely new dated development:
+
+- **~Sep 29, 2026 — the American Fork criminal preliminary hearing (set for Sep 30) is reportedly
+  postponed.** A **stipulated (both-sides) motion** reportedly filed by **Utah County** on **Sep 29**
+  asks the court to postpone the Sep 30 preliminary hearing in the American Fork stalking (class A
+  misdemeanor) + targeted residential picketing (class B misdemeanor) case against Benjamin "Reckless
+  Ben" Schneider, stating *"The State was unable to subpoena a witness, and the parties request
+  additional time to work on a potential resolution."* No witness named, no new date set. Folded into a
+  new `timeline.md` row. ⚠ **Single partisan community tracker (The BAM Map), snippet-level; no
+  mainstream outlet corroborates; court record not read** — the site and mainstream Utah outlets were
+  egress-blocked this pass. An independent verifier agent confirmed the charges/court/predicate and Judge
+  **Thomas Low** against mainstream sources, but found the **postponement itself traces verbatim to that
+  one partisan origin** with no independent corroboration. Cross-check Utah XChange (a community snippet
+  gives the AF case no. **261401094** — unverified).
+
+**Checked, nothing else new:** no ruling yet on the ~Sep 18 anti-SLAPP special motion (Techdirt's Sep 29
+piece is commentary on that already-recorded filing, egress-blocked this pass) or the Aug 27 (ECF #33)
+Mansell-dismissal/permanent-injunction motion; no ruling/unmasking on the ~Sep 25 "John Doe" DTSA suit
+(No. 2:26-cv-00895); no actual **"Part 4"** release; no new settlement development. ⚠ **Reddit
+(r/RecklessBen) was unreachable** this run (egress-blocked), as were Techdirt, Dexerto, The BAM Map, and
+the mainstream Utah outlets — this pass worked at **WebSearch-snippet level only**.
