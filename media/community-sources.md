@@ -2101,3 +2101,46 @@ point is the school's vetting failure, which does not require it.
 > of Dexerto, UNILAD Tech, KOIN (`/amp/`) and The BAM Map's amendment report. No claim was upgraded to
 > **CONFIRMED** on a single agent's read. Where a verifier's correction could not be re-reached
 > first-hand, the claim was left at its lower label rather than raised.
+
+### 2026-10-02 update — news watcher pass
+
+**One new dated development, newer than the open watcher PRs (#103–#114, which carry the frontier to
+~Sep 29–30).** In BAM's **separate** federal "John Doe" suit — ***BAM Franchising, Inc. v. Does 1 to
+10***, No. **2:26-cv-00895** (D. Utah), filed **Sep 25, 2026** to unmask the anonymous operators of
+*The BAM Map* (the ~Sep 25 filing is the subject of open PR #113) — **U.S. Magistrate Judge Dustin
+Pead** reportedly **granted BAM ex parte pre-service third-party discovery on ~Sep 30, 2026**,
+authorizing subpoenas to **Vercel** (host) and **GoDaddy** (registrar) — the complaint also lists
+Google, Slack, YouTube — for subscriber/account/IP-log/deployment records to identify the Doe
+defendants, **reportedly returnable Oct 16, 2026**. Procedural sequence (filed Fri Sep 25 → ex parte
+motion Mon Sep 28 → referral Tue Sep 29 → grant Wed Sep 30) is internally consistent by weekday.
+Recorded in [`../timeline.md`](../timeline.md) as a **~Sep 30, 2026** row.
+
+| Source | URL | Caveat |
+|---|---|---|
+| **"The BAM Map" — subpoena-grant report** | https://www.thebammap.com/updates (e.g. `/updates/20260926/2`) | **Secondary (community, partisan) — and the *target* of the very suit it describes.** Sole substantive account of the Sep 28→30 motion/grant and its verbatim order quotes. Treat as a **lead, not authority**; the "no notice / no time to object" framing is the target site's characterization. Cross-check the **PACER docket sheet** (D. Utah, No. 2:26-cv-00895). Egress-blocked this pass (read at WebSearch-snippet level). |
+| **Community YouTube (subpoena grant)** | https://www.youtube.com/watch?v=LK63czVtiSE · https://www.youtube.com/watch?v=PnSyruz0lII · https://www.youtube.com/watch?v=S0ve2uZnW1w | Commentary/reupload channels ("BAM Gets Court Approval to Identify the Alleged Leakers"; "BAM SUES to Find Who's Leaking…"; "Bricks & Minifigs Are SUING Journalists…"). Echo the partisan tracker, **not** independent corroboration. |
+| **Techdirt — anti-SLAPP context** | https://www.techdirt.com/2026/09/29/reckless-ben-finally-listens-to-some-lawyers-files-anti-slapp-motion-against-bricks-minifigs/ | Independent outlet. Corroborates the **~Sep 18 anti-SLAPP special motion** in the *other* case (No. 2:26-cv-00593) whose **opposition deadline (Oct 16)** coincides with — but is unrelated to — the Doe-suit subpoena return date. |
+
+> **Status:** the **Sep 30 subpoena-grant order is `Reported ⚠`** — single substantive source is the
+> suit's own partisan *target* site (thebammap.com) plus community YouTube; **no mainstream or
+> independent newsroom** reports the grant, and the docket was **not directly read** (CourtListener /
+> PACER egress-blocked). The **case's existence** (No. 2:26-cv-00895, Sep 25 filing) is independently
+> confirmed on a PACER-sourced tracker (Justia); the **anti-SLAPP** motion is Techdirt-corroborated.
+> Per CLAUDE.md's two-agent rule, an independent verifier re-derived each point from the claims-as-written
+> and bare URLs and **reached the same conclusion** — C4/C5/C6 do **not** meet the CONFIRMED bar and
+> stay `Reported ⚠`; it recommends pulling the actual **2:26-cv-00895** docket/order from PACER before
+> any of those details are raised.
+>
+> **Checked, nothing else new (Sep 30 – Oct 2):** no ruling yet on the ~Sep 18 anti-SLAPP special
+> motion or the Aug 27 *Mansell*-dismissal / permanent-injunction motion (ECF #33, still unruled);
+> the **Sep 30 American Fork** preliminary hearing was postponed for a "potential resolution" (open PR
+> #114) with no new date surfaced; the **Provo** case stays dismissed (open PR #106); **no Schneider
+> settlement** (mediation ongoing); **"Part 4"** still teased, not released.
+>
+> ⚠ **Access note:** every primary host — Justia / CourtListener / PacerMonitor, thebammap.com,
+> plagiarismtoday.com, Wikipedia, and the Reddit mirror — was **egress-blocked** this run; both agents
+> worked at **WebSearch-snippet level only**.
+>
+> ⚠ **Translations (i18n):** `scripts/translate.mjs` was **not** run (no `ANTHROPIC_API_KEY` in this
+> environment) — translations need a follow-up pass. Missing translations fall back to English at render
+> time, so the build is unaffected.
