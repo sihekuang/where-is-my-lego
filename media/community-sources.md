@@ -2101,3 +2101,83 @@ point is the school's vetting failure, which does not require it.
 > of Dexerto, UNILAD Tech, KOIN (`/amp/`) and The BAM Map's amendment report. No claim was upgraded to
 > **CONFIRMED** on a single agent's read. Where a verifier's correction could not be re-reached
 > first-hand, the claim was left at its lower label rather than raised.
+
+## 2026-10-03 update — news watcher pass
+
+A discovery pass. On this branch's base (`main`) the committed record tops out at the **Sep 2, 2026**
+events, but a stack of **unmerged** watcher PRs (**#103–#116**) already carries the story to **~Oct 2** —
+the Sep 8 DMCA-takedown campaign, the Sep 12–17 rival "Reckless Bricks" Tucson store, the Sep 14 Provo
+criminal-case dismissal, the **Sep 18 anti-SLAPP "Special Motion for Expedited Relief"** (PR #109), the
+Sep 25 BAM "John Doe" suit to unmask The BAM Map (PR #113, a **separate** case, No. **2:26-cv-00895**),
+the Sep 30 ex-parte discovery grant (PR #115), and the Oct 1 Cronkite + Oct 2 Techdirt coverage (PR #116).
+This pass adds **one** item none of those PRs record: a **plaintiff's recorded interview** and the
+**defense's reported Oct 1 filing** of it into the federal record.
+
+**Access caveats (this pass).** **Reddit (r/RecklessBen) could not be opened** — direct fetches and the
+`.json` endpoints were **403'd by the egress proxy** (old.reddit.com logged a `connect_rejected` policy
+denial) and WebFetch to reddit.com is blocked; leads came via WebSearch. The **federal docket**
+(CourtListener / PacerMonitor / Justia) was **also egress-blocked** (403 CONNECT on curl and WebFetch),
+so **nothing below is docket-verified** — a limitation two agents hit independently.
+
+**What's new.** Around **~Sep 26–27, 2026**, **Josh Johnson** — a former Salem/Keizer Bricks & Minifigs
+franchise owner, a **co-plaintiff** in BAM's federal RICO suit, and one of the two people who **verified**
+BAM's complaint — gave a **recorded (~hour-long) phone interview** to YouTuber **"Matty AppleSeed,"**
+published as a shorter YouTube cut and a longer (~65-min) Patreon version. The **existence** of that call,
+and its generally damaging-to-BAM gist, is **independently acknowledged by Techdirt** (Mike Masnick,
+Sep 29, 2026), which describes Johnson having "spoke[n] to [a YouTuber] for about an hour, and appear[ing]
+to have said a bunch of things that undermine this very case in which Johnson is one of the named
+plaintiffs." Then, per **The BAM Map** (echoed by community YouTube), on **Oct 1, 2026** the **defense**
+filed, in *BAM Franchising Inc v. Schneider*, No. **2:26-cv-00593** (D. Utah, Judge **David Barlow**), a
+document putting **27 quotations** from that call before the court and lodging the **recordings as
+Exhibits 1 and 2** — offered in support of the defendants' **Sep 18 anti-SLAPP** motion (already tracked
+in pending PR #109; this item does **not** re-record that motion).
+
+| Item | URL | Note |
+|---|---|---|
+| **Josh Johnson interview** — "Former Bricks & Minifigs Store Owner Josh Johnson Breaks His Silence! Talks To @MattyAppleSeed!" | https://www.youtube.com/watch?v=4LlRSJ-cprA | Community re-cut of a plaintiff speaking in his public role (AppleSeed's own uploads were a ~65-min Patreon call + a YouTube "Josh Johnson Told Me His Side"). Published ~Sep 26, 2026. ⚠ **Not opened this pass** (youtube.com egress-blocked); title + WebSearch snippets only; exact runtimes unverified. |
+| **Reaction video** — "BAM Plaintiff's OWN WORDS Filed Against RICO Case!" | https://www.youtube.com/watch?v=lRK56B5BYwg | Community commentary describing the reported Oct 1 filing. ⚠ Not opened this pass. |
+| **The BAM Map** — updates index + Johnson-call page | https://www.thebammap.com/updates · https://www.thebammap.com/updates/20260926/4 | **Partisan, defense-aligned** community tracker — and itself the **target of BAM's Sep 25 unmasking suit** (PR #113), so an **interested party**: a **lead, not authority**. Sole source for the "27 quotations / Exhibits 1 & 2 / Oct 1" account and for the "contradicts the verified complaint" framing. ⚠ egress-blocked this pass; WebSearch snippets only. |
+| **Techdirt (Mike Masnick, Sep 29, 2026)** | https://www.techdirt.com/2026/09/29/reckless-ben-finally-listens-to-some-lawyers-files-anti-slapp-motion-against-bricks-minifigs/ | **Independent** corroboration of the **interview's existence + gist** only. ⚠ Predates and does **not** describe the Oct 1 filing. (The article's anti-SLAPP coverage belongs to PR #109's scope; cited here just for the Johnson-call corroboration.) |
+
+**Caveats & framing (why this is `Reported ⚠`, not CONFIRMED):**
+
+- **The Oct 1 filing is single-partisan-sourced and not docket-verified.** Its existence, the "27
+  quotations," and the "Exhibits 1 & 2" detail rest on **The BAM Map** (defense-aligned, and BAM's own
+  unmasking target) amplified by community YouTube; **no mainstream or independent outlet** reports the
+  filing, and the federal docket could not be read this pass to confirm it, its ECF number, or its
+  styling. **Cross-check the PACER docket sheet** (D. Utah, No. **2:26-cv-00593** / CourtListener 73542292)
+  for an Oct 1 notice/supplement.
+- **The quotes are Johnson's reported on-camera words, selected by an adversary.** Lines such as Ammon
+  McNeff "didn't want to give Bryan his Legos back," "I'm completely walking away and washing my hands of
+  Bricks and Minifigs," and "I really like Ben" are **attributed to Johnson from the AppleSeed call by
+  The BAM Map / community sources**; the underlying video is a **primary source** for what he said, but
+  it was **not viewable this pass**. The characterization that they **"contradict the verified
+  complaint"** is the **defense's / tracker's** reading — **not a court finding**. BAM has **not**
+  publicly responded, and **no court has ruled.** Do not launder either the quotes or the "contradicts"
+  framing into BAM's or the court's voice.
+- **No ruling; the matter is live.** As of this pass there is no order on the anti-SLAPP motion, none on
+  the pending Aug 27 Mansell dismissal / permanent-injunction motion, and no remand; "Part 4" remains
+  teased, not released; BAM's opposition to the anti-SLAPP motion is reportedly **due ~Oct 16** (per The
+  BAM Map) and had not been filed. Do **not** let the **separate** unmasking case (No. 2:26-cv-00895,
+  PRs #113/#115) bleed into this one (No. 2:26-cv-00593).
+
+**Leads noted but NOT added (already tracked, or too thin):** the Sep 18 anti-SLAPP motion (PR #109); the
+Sep 25 unmasking suit + Sep 30 discovery grant (PRs #113/#115); the Oct 1 Cronkite feature + Oct 2
+Techdirt analysis (PR #116). The **Aug 12 American Fork** criminal-hearing outcome and the **Sept 15
+Provo** hearing (now reportedly a dismissal — PRs #105/#106) are handled elsewhere and not re-touched here.
+
+> **Verification (two-agent rule).** The author (Agent A) surfaced the item via WebSearch and drafted the
+> entry. An **independent verifier subagent (Agent B)**, given only the claims-as-written and the bare
+> URLs, ran its own searches and reached: **Claim 1 (interview exists)** — *partially verified*, with
+> **Techdirt (Sep 29) as independent corroboration** of the call's existence and gist; exact
+> date/runtimes soft (best evidence ~Sep 26, BAM Map slug `20260926`). **Claim 2 (quotes attributed to
+> Johnson)** — *verified as attribution* via The BAM Map + community YouTube (the "Brandon never said no"
+> line could **not** be re-surfaced and was **dropped**); the "contradicts the complaint" framing is a
+> **partisan characterization**, not a court finding. **Claim 3 (the Oct 1 filing of 27 quotes +
+> Exhibits 1 & 2)** — ***unverified*** beyond The BAM Map's say-so: **no mainstream/independent outlet**
+> and **no docket** could corroborate it (CourtListener/Justia/PacerMonitor all egress-blocked). Both
+> agents agree the item clears only the **`Reported ⚠`** bar. Neither could open a primary source
+> directly this pass (youtube.com, thebammap.com, and all three docket trackers were egress-blocked), a
+> further reason it stays Reported ⚠. **Follow-ups:** a PACER/CourtListener read of No. 2:26-cv-00593 for
+> the Oct 1 entry, the AppleSeed video itself, and any ruling on the anti-SLAPP motion (BAM response due
+> ~Oct 16).
