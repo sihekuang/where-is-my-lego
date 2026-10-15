@@ -23,6 +23,7 @@ capacity** — no personal information about any officer is included.
 | **Jun 9** | **American Fork City Council** public meeting: during public comment, multiple residents spoke **in support of Schneider** and demanded an **independent review** of AFPD's conduct; the city **did not announce** any formal/independent investigation. ⚠ A council member expressed **appreciation for local police** and cited a **separate recent incident affecting their family** (single substantive source). | Meeting + "no investigation announced" CONFIRMED (city's own meeting video + coverage); speakers' claims ALLEGATION; council-member detail Reported |
 | **Jul 1** | **American Fork hearing continued to Aug. 12, 2026.** The 4th District Court hearing (stalking, class A; targeted residential picketing, class B) was **continued to Aug. 12, 2026** — per KSL, Schneider's attorneys **Jeremy Delicino** and **Jon Williams** were in a **federal trial in St. George** the prior week and asked for more time to review the case. First reported outcome of the long-tracked "July 1" date. ⚠ Single mainstream outlet (KSL.com art. 51595241 / KSL NewsRadio — same network). | Reported (KSL) |
 | **Jul 6** | **Provo case pretrial held; next hearing Sept. 15, 2026.** At the Provo Justice Court pretrial (continued from Jun 8 → Jul 6), Schneider **told the judge he would comply with the fingerprinting requirement**; the **next hearing was scheduled for Sept. 15, 2026**. First **mainstream-reported** Provo-case outcome (previously a community-mirror docket snippet only). ⚠ Single mainstream outlet (KSL). Distinct from the same-day **Jul 6 federal civil** preliminary-injunction order. | Reported (KSL) |
+| **~Oct 14** (reported) | **American Fork criminal preliminary hearing rescheduled to Dec. 16, 2026.** The 4th District Court preliminary hearing (stalking, class A; targeted residential picketing, class B) — **set for Sep 30 and then postponed** — is now scheduled for **Dec. 16, 2026**, per **two independent outlets** (KSL.com art. 51636122; American Fork Citizen), both reporting it within Oct 14 coverage of the civil-rights suit against AFPD. ⚠ Per the AF Citizen the Sep 30 hearing was postponed over an **un-subpoenaed witness** and both sides' interest in a **"potential resolution"** (rationale *Reported* — AF Citizen + the community tracker The BAM Map). ⚠ Snippet-level only (news domains egress-blocked this pass; no docket read); a community AF case no. **261401094** is unverified — cross-check Utah XChange. | Dec. 16 reschedule CONFIRMED (two independent outlets); postponement rationale Reported ⚠ |
 
 ## Allegations against AFPD (ALLEGATION — raised by Schneider, amplified online)
 
@@ -156,6 +157,20 @@ blurred by listing all four charges together:
 > outcome unreported" flag** and **mainstream-source** the Provo Jul 6 pretrial (previously
 > community-mirror snippet only). ⚠ **Single mainstream outlet/network** (KSL.com + KSL NewsRadio — no
 > independent second outlet reports the criminal-hearing dates); **cross-check Utah XChange.**
+>
+> ⚠ **Update (reported Oct 14, 2026) — American Fork hearing now set for Dec. 16, 2026.** The
+> American Fork prelim had been **set for Sep 30, 2026 and was postponed**; it is now scheduled for
+> **Dec. 16, 2026**, per **KSL.com** (art. **51636122**) and the **American Fork Citizen** — **two
+> independent outlets**, both reporting it within Oct 14 coverage of the separate civil-rights suit
+> against AFPD. ⚠ Per the AF Citizen the Sep 30 postponement was sought over an **un-subpoenaed
+> witness** and both sides' interest in a **"potential resolution"** (that *rationale* is *Reported* —
+> AF Citizen + the defense-aligned community tracker **The BAM Map**, which dates the reschedule
+> notice to ~**Oct 5**; KSL's snippet did not reproduce it). The **Provo** case was separately
+> **dismissed ~Sep 14, 2026** "in the interest of justice" (carried by a concurrent watcher pass), so
+> the American Fork case is the **last active criminal matter**. ⚠ **Read at WebSearch-snippet level
+> only** this pass (news domains were egress-blocked to direct fetch; no court docket read); a
+> community snippet gives the American Fork case no. **261401094** — **unverified**. **Cross-check
+> Utah XChange.**
 
 ## Confirmed vs. allegation — quick ledger
 

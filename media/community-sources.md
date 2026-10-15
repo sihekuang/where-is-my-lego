@@ -211,7 +211,16 @@ snippets to CONFIRMED court records** (ECF #26/#27/#30/#32/#33/#36, read as ECF-
 **Aug 19 settlement** row's "single-origin / no independent newsroom" caveat was **retracted as
 false** (KSL, ABC4, SLTrib, KATU, Kotaku and Brick Fanatics all covered it independently), and
 several inverted or over-read attributions were corrected (see [*2026-09-06
-update*](#2026-09-06-update--watcher-pr-consolidation-pass) at the very end).
+update*](#2026-09-06-update--watcher-pr-consolidation-pass) at the very end); **news watcher pass
+2026-10-15** — the committed archive on `main` records the case **through Sep 2, 2026**, and sixteen
+open watcher PRs (#103–#118) carry the unmerged frontier through **~Oct 14, 2026** (incl. the Oct 14
+federal civil-rights suit vs. AFPD in #118); this pass found **one** genuinely new, non-duplicative
+dated item — the **American Fork** criminal preliminary hearing (set Sep 30, then postponed) is now
+**rescheduled to Dec. 16, 2026**, carried by **two independent mainstream outlets** (KSL art. 51636122
++ American Fork Citizen) within Oct 14 civil-rights-suit coverage — a date absent from PR #114, which
+recorded the postponement with "no new date set" on a partisan source only; ⚠ Reddit was unreachable
+and all news domains were **egress-blocked** to direct fetch (WebSearch-snippet level only) this pass
+(see [*2026-10-15 update*](#2026-10-15-update--news-watcher-pass) at the very end).
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -2101,3 +2110,42 @@ point is the school's vetting failure, which does not require it.
 > of Dexerto, UNILAD Tech, KOIN (`/amp/`) and The BAM Map's amendment report. No claim was upgraded to
 > **CONFIRMED** on a single agent's read. Where a verifier's correction could not be re-reached
 > first-hand, the claim was left at its lower label rather than raised.
+
+## 2026-10-15 update — news watcher pass
+
+Automated watcher pass. The committed archive on `main` records the case **through Sep 2, 2026**;
+**sixteen open watcher PRs (#103–#118)** carry the unmerged frontier through **~Oct 14, 2026** — the
+DMCA/"John Doe" DTSA campaign to unmask *The BAM Map*, the ~Sep 12 Tucson "Reckless Bricks"
+opening/closure, the ~Sep 14 **Provo** criminal dismissal, the ~Sep 18 anti-SLAPP special motion, the
+~Sep 29 American Fork hearing postponement (**#114**), and the **Oct 14 federal civil-rights suit**
+against the City of American Fork + 13 officers (**#118**). This pass checked for anything **newer than
+~Oct 14** and anything in the window **not already in those open PRs**, and found **one** genuinely new,
+non-duplicative dated item:
+
+- **~Oct 14, 2026 (reported) — the American Fork criminal preliminary hearing, postponed from Sep 30,
+  is now rescheduled to Dec. 16, 2026.** Two independent mainstream outlets — **KSL.com** (art.
+  **51636122**) and the **American Fork Citizen** (sister paper **Lehi Free Press** ran the same story)
+  — carry the **Dec. 16** date, both within their **Oct 14** coverage of the separate civil-rights suit
+  against AFPD. This is **absent from PR #114**, which recorded the Sep 29 postponement with *"no new
+  date set"* on a single partisan source (The BAM Map); the Dec. 16 date and the mainstream
+  corroboration of the postponement are new. Folded into a new `timeline.md` row, a new
+  `police-controversy.md` table row, and a ⚠ Update in that file's "Two criminal cases" block. ⚠ Per
+  the AF Citizen the Sep 30 hearing was postponed over an **un-subpoenaed witness** and both sides'
+  interest in a **"potential resolution"** — that *rationale* is *Reported* (AF Citizen + The BAM Map,
+  which dates the reschedule notice to ~**Oct 5**); KSL's snippet did not reproduce it. The **Dec. 16
+  reschedule and the charges/court are CONFIRMED** (two independent outlets). ⚠ **Snippet-level only** —
+  every news domain was **egress-blocked** to direct fetch this pass, and **no court docket was read**;
+  a community snippet gives the American Fork case no. **261401094** — **unverified**. **Cross-check
+  Utah XChange.** Independently re-verified by a second agent (snippet-level): Dec. 16 found in KSL + AF
+  Citizen; the postponement rationale traced only to AF Citizen + The BAM Map.
+
+**Checked, nothing else new (nothing dated Oct 15+):** no ruling on the ~Sep 18 anti-SLAPP special
+motion (ECF #37), the Aug 27 (ECF #33) Mansell-dismissal/permanent-injunction motion, or BAM's
+subpoenas to unmask *The BAM Map* (reportedly returnable ~Oct 16 — not yet due); no actual **"Part 4"**
+release; no new settlement/remand development; BAM had not publicly responded to the Oct 14
+civil-rights suit. The **Oct 14 civil-rights suit itself is NOT re-added here — it is already in open
+PR #118** (where the Salt Lake Tribune, KSL and American Fork Citizen are additional mainstream sources
+beyond #118's ABC4 + PR Newswire, a status point for that PR's consolidation, not a new finding).
+⚠ **Reddit (r/RecklessBen) was unreachable** this run (egress-blocked), as were the mainstream Utah
+outlets and every other news domain to direct fetch — this pass worked at **WebSearch-snippet level
+only**.
