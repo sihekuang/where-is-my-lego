@@ -2101,3 +2101,70 @@ point is the school's vetting failure, which does not require it.
 > of Dexerto, UNILAD Tech, KOIN (`/amp/`) and The BAM Map's amendment report. No claim was upgraded to
 > **CONFIRMED** on a single agent's read. Where a verifier's correction could not be re-reached
 > first-hand, the claim was left at its lower label rather than raised.
+
+---
+
+## 2026-10-15 update — news watcher pass
+
+A pass over the federal civil docket and recent coverage (Reddit again **unreachable** this run —
+`www.reddit.com` and `old.reddit.com`, including the `.json` routes, both refused the fetch with
+`ENOTFOUND` / `403`). The committed `main` record still tops out at **Sep 2, 2026 (ECF #36)**; the
+unmerged watcher stack **#103–#119** carries the story to **~Oct 14** (the Reckless Bricks
+Tucson/Sarasota stores, the Provo criminal-case dismissal, the Sep 18 anti-SLAPP motion, BAM's
+separate federal suit to unmask The BAM Map, the Oct 14 associates' civil-rights suit vs. AFPD, and
+the Oct 14 American Fork reschedule to **Dec 16, 2026**). **One genuinely new federal-docket item**
+sits past that stack and is in **none** of those PRs.
+
+**~Oct 9–13, 2026 — the parties jointly move to supplement the anti-SLAPP motion and reset its
+briefing schedule** (removed federal case *BAM Franchising Inc v. Schneider*, No. **2:26-cv-00593**,
+D. Utah). Building on the **Sep 18 defendants' anti-SLAPP "Special Motion for Expedited Relief"**
+under **Utah's UPEPA** (ECF #37; tracked in **PR #109**) and the **~Oct 1 defense filing of 27 Josh
+Johnson quotations plus the AppleSeed-interview recordings as exhibits** (tracked in **PR #117**), a
+**joint motion by the parties to supplement that motion with the new evidence, together with a
+proposed briefing schedule,** now appears on the **CourtListener** docket (id **73542292**), whose
+**last-known filing is dated Oct 13, 2026.** Per **The BAM Map** (partisan community tracker), the
+joint motion was filed **Oct 9, 2026** and would **remove two pending deadlines** — BAM's **Oct 15**
+deadline to oppose the defense's request to add the 27 Johnson quotations, and BAM's **Oct 16**
+deadline to respond to the anti-SLAPP motion itself — i.e. a **both-sides scheduling stipulation**,
+consistent with the parties' ongoing mediation posture. **No court had ruled** on the joint motion,
+nor on the underlying anti-SLAPP motion, as of this pass.
+
+| Item | Date | Status | Source(s) |
+|---|---|---|---|
+| Joint motion to **supplement the defendants' UPEPA / anti-SLAPP "Special Motion for Expedited Relief"** (ECF #37, Sep 18) **with new evidence** (the ~Oct 1 Johnson-quotation / AppleSeed exhibits) **+ a proposed briefing schedule**; per The BAM Map it removes BAM's **Oct 15** (oppose the 27 Johnson quotations) and **Oct 16** (respond to anti-SLAPP) deadlines. No ruling. | **~Oct 9–13, 2026** (filed ~Oct 9 per The BAM Map; docket last-filing Oct 13) | **Reported ⚠** (federal docket-tracker snippet + one partisan community tracker; no news; no live docket-sheet read) | CourtListener (docket **73542292** — "joint motion … to supplement … UPEPA motion with new evidence … proposed briefing schedule"; last-known filing **Oct 13, 2026**); ⚠ The BAM Map (`thebammap.com/updates` — Oct 9 joint motion; Oct 15 / Oct 16 deadlines; 27 Johnson quotations); No. **2:26-cv-00593** (D. Utah) |
+
+⚠ **Sourcing / caveats.** Every cited tracker and site was **egress-blocked this pass** —
+CourtListener, PacerMonitor, Justia, The BAM Map, and Techdirt all returned `403 CONNECT` /
+`ENOTFOUND` — so **no primary document was opened.** The CourtListener entry and the Oct 13
+last-filing date were read from **WebSearch docket-format snippets**, reproduced across
+differently-worded queries; the **Oct 9 date, the Oct 15/16 deadlines, and the "27 Johnson
+quotations" detail rest on The BAM Map alone** (a defense-aligned community tracker — itself the
+**target of BAM's Sep 25 unmasking suit**, PR #113). **No mainstream / independent outlet** reports
+this motion. The underlying anti-SLAPP motion (PR #109) and the Oct 1 evidence filing (PR #117) are
+**not re-recorded here** — only the joint supplement / briefing-schedule motion is new. **Cross-check
+the PACER docket sheet (D. Utah No. 2:26-cv-00593).**
+
+**Checked but not new (already in the archive or open PRs — not duplicated):** the **Oct 14**
+associates' federal civil-rights suit vs. American Fork PD (PR #118, KSL art. 51636122); the **Oct
+14** American Fork criminal preliminary-hearing reschedule to **Dec 16, 2026** (PR #119); BAM's
+separate federal "John Doe" suit to unmask The BAM Map, No. **2:26-cv-00895**, and the ~Sep 30
+ex-parte-discovery order with subpoenas **returnable Oct 16** (PRs #113/#115 — the Oct 16 return is
+future, nothing to report yet); the Reckless Bricks stores (PRs #104/#108/#110/#111). **No ruling on
+the anti-SLAPP motion, no entered Mansell dismissal** (the Aug 27 ECF #33 joint motion appears still
+unruled — **not** independently re-confirmed this pass), **no settlement with Schneider, no remand,
+and no "Part 4" release** surfaced.
+
+> **Verification (two-agent rule).** An independent verifier subagent, given only the
+> claims-as-written and the bare citation URLs (not the author's notes), re-derived each from its own
+> searches and reached the same findings: the CourtListener "joint motion to supplement the UPEPA
+> motion with new evidence + proposed briefing schedule / last-filing Oct 13" entry is **partially
+> verified** (docket snippet, not opened); the **Oct 9 date, Oct 15/16 deadlines, and
+> 27-Johnson-quotations detail are verified only as attributed to The BAM Map** (single partisan
+> source); **no ruling** has surfaced; and **no mainstream outlet** carries the Oct 9 motion. Both
+> agents hit the same egress blocks (every primary URL `403` / `ENOTFOUND`) and **neither opened a
+> primary document**, so the item clears only the **`Reported ⚠`** bar — a PACER read is recommended
+> before any upgrade.
+
+**Translations (i18n) — follow-up needed.** `scripts/translate.mjs` was **not** run (no
+`ANTHROPIC_API_KEY` in this environment). Missing/stale translations fall back to English at render
+time, so the build is unaffected; a follow-up pass is needed for **es / zh-Hans / zh-Hant**.
