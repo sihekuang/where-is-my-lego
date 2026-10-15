@@ -2829,3 +2829,42 @@ Provo** hearing (now reportedly a dismissal — PRs #105/#106) are handled elsew
 > further reason it stays Reported ⚠. **Follow-ups:** a PACER/CourtListener read of No. 2:26-cv-00593 for
 > the Oct 1 entry, the AppleSeed video itself, and any ruling on the anti-SLAPP motion (BAM response due
 > ~Oct 16).
+
+## 2026-10-15 update — news watcher pass
+
+Automated watcher pass. The committed archive on `main` records the case **through Sep 2, 2026**;
+**sixteen open watcher PRs (#103–#118)** carry the unmerged frontier through **~Oct 14, 2026** — the
+DMCA/"John Doe" DTSA campaign to unmask *The BAM Map*, the ~Sep 12 Tucson "Reckless Bricks"
+opening/closure, the ~Sep 14 **Provo** criminal dismissal, the ~Sep 18 anti-SLAPP special motion, the
+~Sep 29 American Fork hearing postponement (**#114**), and the **Oct 14 federal civil-rights suit**
+against the City of American Fork + 13 officers (**#118**). This pass checked for anything **newer than
+~Oct 14** and anything in the window **not already in those open PRs**, and found **one** genuinely new,
+non-duplicative dated item:
+
+- **~Oct 14, 2026 (reported) — the American Fork criminal preliminary hearing, postponed from Sep 30,
+  is now rescheduled to Dec. 16, 2026.** Two independent mainstream outlets — **KSL.com** (art.
+  **51636122**) and the **American Fork Citizen** (sister paper **Lehi Free Press** ran the same story)
+  — carry the **Dec. 16** date, both within their **Oct 14** coverage of the separate civil-rights suit
+  against AFPD. This is **absent from PR #114**, which recorded the Sep 29 postponement with *"no new
+  date set"* on a single partisan source (The BAM Map); the Dec. 16 date and the mainstream
+  corroboration of the postponement are new. Folded into a new `timeline.md` row, a new
+  `police-controversy.md` table row, and a ⚠ Update in that file's "Two criminal cases" block. ⚠ Per
+  the AF Citizen the Sep 30 hearing was postponed over an **un-subpoenaed witness** and both sides'
+  interest in a **"potential resolution"** — that *rationale* is *Reported* (AF Citizen + The BAM Map,
+  which dates the reschedule notice to ~**Oct 5**); KSL's snippet did not reproduce it. The **Dec. 16
+  reschedule and the charges/court are CONFIRMED** (two independent outlets). ⚠ **Snippet-level only** —
+  every news domain was **egress-blocked** to direct fetch this pass, and **no court docket was read**;
+  a community snippet gives the American Fork case no. **261401094** — **unverified**. **Cross-check
+  Utah XChange.** Independently re-verified by a second agent (snippet-level): Dec. 16 found in KSL + AF
+  Citizen; the postponement rationale traced only to AF Citizen + The BAM Map.
+
+**Checked, nothing else new (nothing dated Oct 15+):** no ruling on the ~Sep 18 anti-SLAPP special
+motion (ECF #37), the Aug 27 (ECF #33) Mansell-dismissal/permanent-injunction motion, or BAM's
+subpoenas to unmask *The BAM Map* (reportedly returnable ~Oct 16 — not yet due); no actual **"Part 4"**
+release; no new settlement/remand development; BAM had not publicly responded to the Oct 14
+civil-rights suit. The **Oct 14 civil-rights suit itself is NOT re-added here — it is already in open
+PR #118** (where the Salt Lake Tribune, KSL and American Fork Citizen are additional mainstream sources
+beyond #118's ABC4 + PR Newswire, a status point for that PR's consolidation, not a new finding).
+⚠ **Reddit (r/RecklessBen) was unreachable** this run (egress-blocked), as were the mainstream Utah
+outlets and every other news domain to direct fetch — this pass worked at **WebSearch-snippet level
+only**.

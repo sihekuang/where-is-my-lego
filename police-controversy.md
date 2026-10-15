@@ -24,6 +24,7 @@ capacity** — no personal information about any officer is included.
 | **Jul 1** | **American Fork hearing continued to Aug. 12, 2026.** The 4th District Court hearing (stalking, class A; targeted residential picketing, class B) was **continued to Aug. 12, 2026** — per KSL, Schneider's attorneys **Jeremy Delicino** and **Jon Williams** were in a **federal trial in St. George** the prior week and asked for more time to review the case. First reported outcome of the long-tracked "July 1" date. ⚠ Single mainstream outlet (KSL.com art. 51595241 / KSL NewsRadio — same network). | Reported (KSL) |
 | **Jul 6** | **Provo case pretrial held; next hearing Sept. 15, 2026.** At the Provo Justice Court pretrial (continued from Jun 8 → Jul 6), Schneider **told the judge he would comply with the fingerprinting requirement**; the **next hearing was scheduled for Sept. 15, 2026**. First **mainstream-reported** Provo-case outcome (previously a community-mirror docket snippet only). ⚠ Single mainstream outlet (KSL). Distinct from the same-day **Jul 6 federal civil** preliminary-injunction order. | Reported (KSL) |
 | **~Oct 14** | **Federal civil-rights suit filed against AFPD.** Four of Schneider's associates — **Sheldon Norcross, Tyler Shaw, Sierra Lauts, Steven Allen** — sue the **City of American Fork and 13 of its officers/detectives** in the **U.S. District Court for the District of Utah**, alleging **First & Fourth Amendment violations** (42 U.S.C. § 1983) over stops, searches, detentions, and arrests across **four days in March 2026**; **none of the four was criminally charged** from those events. Lead counsel **Solomon M. Radner** (Radner Law Group), local counsel **Scott Young** (Spencer Fane); **jury trial requested**; announced at an Oct 14 Salt Lake City press conference. ⚠ The complaint reportedly cites Chief **Cameron Paul's** recorded statements that the **Mar 11 Airbnb search-warrant affidavit** was a major departmental error and was **not reviewed by a supervisor** as policy required (*Reported*, per the complaint/a recorded meeting). ⚠ No docket no./exact filing date in reporting — cross-check PACER / CourtListener (D. Utah). The City/AFPD had not responded; no liability finding. **Distinct from the two criminal cases and from BAM's civil suit — here the plaintiffs are Schneider's associates and the defendant is the police.** ⚠⚠ **Do not conflate with the unrelated 2022 *Greenland v. American Fork* police-brutality suit** (Apr 2020 Target-parking-lot arrest, atty Robert Sykes) — the Fox 13 "Police brutality lawsuit filed against American Fork officers" headline is **that** older case. | Filing **Reported** ⚠ (one independent mainstream outlet — ABC4 — + plaintiffs' PR Newswire release; **not CONFIRMED** pending a second independent outlet or the docket); the suit's **allegations are ALLEGATION** (unadjudicated); ⚠ Chief-Paul-statement detail *Reported*; ⚠ docket no./date unconfirmed |
+| **~Oct 14** (reported) | **American Fork criminal preliminary hearing rescheduled to Dec. 16, 2026.** The 4th District Court preliminary hearing (stalking, class A; targeted residential picketing, class B) — **set for Sep 30 and then postponed** — is now scheduled for **Dec. 16, 2026**, per **two independent outlets** (KSL.com art. 51636122; American Fork Citizen), both reporting it within Oct 14 coverage of the civil-rights suit against AFPD. ⚠ Per the AF Citizen the Sep 30 hearing was postponed over an **un-subpoenaed witness** and both sides' interest in a **"potential resolution"** (rationale *Reported* — AF Citizen + the community tracker The BAM Map). ⚠ Snippet-level only (news domains egress-blocked this pass; no docket read); a community AF case no. **261401094** is unverified — cross-check Utah XChange. | Dec. 16 reschedule CONFIRMED (two independent outlets); postponement rationale Reported ⚠ |
 
 ## Allegations against AFPD (ALLEGATION — raised by Schneider, amplified online)
 
@@ -171,6 +172,21 @@ blurred by listing all four charges together:
 > **East Idaho News**), while **ABC4** independently confirms only that the case is **"ongoing"** and the
 > two charge classes — the exact Sep 30 date is **not** independently confirmed here and **not**
 > docket-verified. **Cross-check Utah XChange**, and note this case's dates have **slipped before**.
+
+>
+> ⚠ **Update (reported Oct 14, 2026) — American Fork hearing now set for Dec. 16, 2026.** The
+> American Fork prelim had been **set for Sep 30, 2026 and was postponed**; it is now scheduled for
+> **Dec. 16, 2026**, per **KSL.com** (art. **51636122**) and the **American Fork Citizen** — **two
+> independent outlets**, both reporting it within Oct 14 coverage of the separate civil-rights suit
+> against AFPD. ⚠ Per the AF Citizen the Sep 30 postponement was sought over an **un-subpoenaed
+> witness** and both sides' interest in a **"potential resolution"** (that *rationale* is *Reported* —
+> AF Citizen + the defense-aligned community tracker **The BAM Map**, which dates the reschedule
+> notice to ~**Oct 5**; KSL's snippet did not reproduce it). The **Provo** case was separately
+> **dismissed ~Sep 14, 2026** "in the interest of justice" (carried by a concurrent watcher pass), so
+> the American Fork case is the **last active criminal matter**. ⚠ **Read at WebSearch-snippet level
+> only** this pass (news domains were egress-blocked to direct fetch; no court docket read); a
+> community snippet gives the American Fork case no. **261401094** — **unverified**. **Cross-check
+> Utah XChange.**
 
 ## Confirmed vs. allegation — quick ledger
 
