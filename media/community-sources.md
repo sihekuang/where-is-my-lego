@@ -2935,3 +2935,70 @@ and no "Part 4" release** surfaced.
 **Translations (i18n) — follow-up needed.** `scripts/translate.mjs` was **not** run (no
 `ANTHROPIC_API_KEY` in this environment). Missing/stale translations fall back to English at render
 time, so the build is unaffected; a follow-up pass is needed for **es / zh-Hans / zh-Hant**.
+
+## 2026-10-17 update — news watcher pass
+
+**One genuinely new, dated, non-duplicate development** since the frontier of known coverage (archive
+`main` runs through **Sep 2, 2026**; everything from ~Sep 8 – Oct 14 sits in **eighteen still-open
+watcher PRs #103–#120**, not yet merged — those are **not** re-touched here).
+
+**~Oct 16, 2026 — a federal magistrate reportedly stays BAM's "BAM Map" unmasking subpoenas (Reported
+⚠, single party-aligned source).** In the separate federal suit *BAM Franchising, Inc. v. Does 1–10*,
+No. **2:26-cv-00895** (D. Utah) — BAM's **Sept 25** **DTSA**/trade-secrets action to identify who runs
+the watchdog site **The BAM Map** — **The BAM Map's own updates page reports** that on **Fri., Oct 16**,
+**Magistrate Judge Dustin B. Pead** entered an order **staying** the Vercel/GoDaddy unmasking subpoenas
+(granted ex parte ~Sep 30, returnable Oct 16) pending a motion to quash/vacate: no recipient may produce
+anything identifying the site, BAM may serve no further such subpoenas, anything already produced is
+**sequestered unread**, and BAM must notify each provider within a business day (briefing: BAM's response
+Oct 23, reply Oct 30). Added to [`../timeline.md`](../timeline.md) as **Reported ⚠**. ⚠ Builds on the
+unmasking-suit context carried by **open PRs #113 (Sep 25 filing) / #115 (~Sep 30 subpoena grant) / #116
+(Techdirt Oct 2)** — this row should be **consolidated after** them.
+
+| Item | URL | Note |
+|---|---|---|
+| **The BAM Map — "Updates"** (sole source for the Oct 16 stay) | https://www.thebammap.com/updates | ⚠ **Defendant/target of the unmasking suit** (defense-aligned, self-serving). Reports the **Oct 16, 2026** Pead stay order and its terms. **Not opened directly** this pass (egress-blocked); **WebSearch snippets only.** Treat as a **lead**, not authority. |
+| CourtListener — *BAM Franchising, Inc. v. Does 1 to 10* (No. 2:26-cv-00895, D. Utah) | https://www.courtlistener.com/docket/74856038/parties/bam-franchising-inc-v-does-1-to-10/ | Independent docket: filed **Sep 25, 2026**; **DTSA**; assigned **Judge David Barlow**, referred **Mag. Judge Dustin B. Pead**. ⚠ Snippet showed last filing **Oct 14** — the Oct 16 order not yet visible (likely RECAP lag). |
+| Justia — docket 2:2026cv00895 | https://dockets.justia.com/docket/utah/utdce/2:2026cv00895/167256 | Independent corroboration of case number/court/parties. |
+| Techdirt (Oct 2, 2026) — "Bricks & Minifigs … Sues To Unmask Whoever Runs It" | https://www.techdirt.com/2026/10/02/bricks-minifigs-really-doesnt-want-you-to-know-about-the-bam-map-sues-to-unmask-whoever-runs-it/ | Independent corroboration of the **earlier** expedited-discovery order authorizing **Vercel/GoDaddy** subpoenas (already cataloged in open PR #116). Does **not** cover the Oct 16 stay. |
+
+- **Sourcing is thin and one-sided.** The **Oct 16 stay order, its four operative terms, and the Oct
+  23/30 briefing schedule rest solely on The BAM Map** — the **defendant/target of this very suit**
+  (defense-aligned, self-serving) — read at **WebSearch-snippet level only** (WebFetch/curl
+  egress-blocked this pass). **No independent newsroom, Techdirt follow-up, or docket entry** corroborates
+  the stay; a CourtListener snippet showed the docket's last filing as **Oct 14** (likely RECAP lag).
+  **Subpoena recipients beyond Vercel/GoDaddy (Google/Slack/YouTube) are unconfirmed.**
+- **What IS independently corroborated** (kept separate, not laundered through the BAM Map account): the
+  **case number 2:26-cv-00895**, court (**D. Utah**), judges (**District Judge David Barlow**; referred
+  **Magistrate Judge Dustin B. Pead**), the **DTSA** basis, the **Sept 25, 2026** filing date, and the
+  **earlier expedited-discovery order authorizing Vercel/GoDaddy subpoenas** — per **CourtListener docket
+  74856038**, **Justia**, and **Techdirt** (Oct 2, 2026). **Cross-check PACER/CourtListener for the Oct 16
+  order itself before any CONFIRMED upgrade.**
+
+**Leads checked, nothing new to add (already owned by open PRs, or out of scope / stale):**
+- **Oct 14 federal civil-rights suit vs American Fork city + 13 AFPD officers** (Norcross, Shaw, Lauts,
+  Allen) — **owned by open PR #118**; the Salt Lake Tribune (Oct 14), KSL (art. 51636122) and a Yahoo
+  "plaintiffs speak out" piece now anchor it in the mainstream, but the *finding* is #118's and is **not
+  duplicated** here (that mainstream-anchor refinement belongs on #118).
+- **Oct 14 American Fork criminal prelim rescheduled to Dec 16** → open PR #119. **~Oct 9–13 anti-SLAPP
+  supplement / briefing reset** → open PR #120. **"Reckless Bricks" store expansion + "millions in
+  damages"** → open PRs #104/#108/#110/#111.
+- **Reckless Ben's tightrope walk between two downtown L.A. skyscrapers** — a **May 2024** stunt that
+  **predates this entire saga** and is unrelated to the LEGO dispute; **not added**.
+- **Anti-SLAPP special motion (filed Sep 18) and the Aug 27 Mansell dismissal / permanent-injunction
+  motion** — **no ruling** surfaced on either this pass; both remain pending (future/unchanged).
+
+**Reddit:** r/RecklessBen not reachable this pass (WebFetch/curl egress-blocked; a `site:reddit.com`
+WebSearch surfaced no subreddit posts). Leads gathered via WebSearch only.
+
+> **Verification (two-agent rule).** Agent A (author) drafted the item from WebSearch triangulation. An
+> **independent verifier subagent**, given only the claim-as-written and the bare citation URLs, ran its
+> own searches and found: The BAM Map does report the Oct 16 Pead stay with terms (a)–(d), but it is the
+> **sole, party-aligned** source — **no independent outlet or docket entry** corroborates the stay;
+> meanwhile the **case no./court/judges/DTSA basis and the earlier Vercel/GoDaddy subpoena grant ARE
+> independently corroborated** (CourtListener docket 74856038 + Justia + Techdirt Oct 2). Both agents
+> agree the stay clears only the **Reported ⚠** bar, not CONFIRMED, and that the stable docket metadata
+> should be cited to the independent sources rather than the BAM Map account. WebFetch to primaries was
+> egress-blocked for both agents, so neither opened the docket or the BAM Map page directly — a further
+> reason it stays Reported ⚠. **Follow-ups:** watch for (a) a docket entry (CourtListener/PACER, No.
+> 2:26-cv-00895) or an independent outlet carrying the Oct 16 stay; (b) the ruling on the motion to
+> quash (briefing reported due Oct 23/30).
