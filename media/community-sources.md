@@ -2101,3 +2101,63 @@ point is the school's vetting failure, which does not require it.
 > of Dexerto, UNILAD Tech, KOIN (`/amp/`) and The BAM Map's amendment report. No claim was upgraded to
 > **CONFIRMED** on a single agent's read. Where a verifier's correction could not be re-reached
 > first-hand, the claim was left at its lower label rather than raised.
+
+## 2026-10-22 update — news watcher pass
+
+**One genuinely new, dated, non-duplicate item** since the frontier of known coverage. The archive
+`main` runs through **Sep 2, 2026**; everything from ~Sep 8 – Oct 16 sits in **still-open watcher PRs
+#103–#121**, not yet merged — those are **not** re-touched here.
+
+**Oct 21, 2026 — Techdirt becomes the first independent outlet to carry the ~Oct 16 "BAM Map" subpoena
+stay.** The Oct 17 watcher run (**open PR #121**) added the **~Oct 16, 2026** stay of BAM's unmasking
+subpoenas in ***BAM Franchising, Inc. v. Does 1–10***, No. **2:26-cv-00895** (D. Utah, DTSA) as
+**Reported ⚠**, explicitly noting it rested **solely on the party-aligned The BAM Map** updates page and
+flagging, as a follow-up to watch, "**an independent outlet carrying the Oct 16 stay**." A **Techdirt**
+piece dated **Oct 21** — "*Court Stays Bricks & Minifigs' Ridiculous Subpoenas Trying To Unmask Publisher
+Of The BAM Map, For Now.*" — now supplies exactly that independent coverage, and adds that lawyer /
+legal-YouTuber **Leonard French** moved to appear **via local counsel Eric Allen** for the site's
+operator and filed a **motion to quash** (and to stay discovery). Cataloged in
+[`news-articles.md`](./news-articles.md). This **supplements PR #121's timeline row — it is not
+re-added here as a new timeline event** (that would duplicate an open-PR finding); it should be
+**consolidated after #121**.
+
+- **Still Reported ⚠, not CONFIRMED.** Techdirt is a **single** independent outlet (and is itself
+  partisan on this dispute), relaying the stay alongside the BAM Map's own account. The two-agent
+  verification pass found **no second independent newsroom** and **no reachable court-docket entry**
+  confirming the Oct 16 stay; the **"non-party" argument** and the **Mike Masnick** byline are
+  Techdirt's framing / inferred (snippet-level — techdirt.com was egress-blocked this pass). The case's
+  **caption / number / court / DTSA basis** ARE independently corroborated (Justia 2:2026cv00895/167256;
+  CourtListener docket 74856038); the signing **magistrate (Pead)** is BAM-Map-sourced and any
+  **District-Judge-Barlow** assignment is **unverified** — do not assert it without a PACER pull.
+
+**Leads checked, nothing new to add (already owned by open PRs, out of scope, or stale):**
+- **~Oct 16 subpoena stay itself / the quash motion** — the *event* is **open PR #121**; only the new
+  **Oct 21 Techdirt corroboration** is added here (as a media-catalog entry), not the event row.
+- **Oct 14 federal civil-rights suit vs American Fork + 13 AFPD officers** → open PR #118.
+  **Oct 14 criminal prelim reset to Dec 16** → open PR #119. **~Oct 9–13 anti-SLAPP supplement /
+  briefing reset** → open PR #120. **~Sep 30 ex parte unmasking-subpoena grant** → open PR #115;
+  **Sep 25 Doe-suit filing** → open PR #113; **Oct 2 Techdirt** → open PR #116.
+- **Anti-SLAPP special motion (filed Sep 18)** and the **Aug 27 Mansell dismissal / permanent-injunction
+  motion** — **no ruling** surfaced on either this pass; both remain pending (future / unchanged).
+- **The ruling on the motion to quash** (reported briefing BAM Oct 23 / reply Oct 30) — **not yet
+  decided** this pass; watch for it.
+
+**Reddit:** r/RecklessBen was **not reachable this pass** — curl to old.reddit.com returned a proxy 403
+(host not allowed for this session), WebFetch to reddit.com and thebammap.com failed (egress/DNS), and a
+`site:reddit.com/r/RecklessBen` WebSearch surfaced no subreddit posts. Leads were gathered via WebSearch
+only.
+
+> **Verification (two-agent rule).** Agent A (author) drafted the item from WebSearch triangulation. An
+> **independent verifier subagent**, given only the claims-as-written and the bare citation URLs, ran its
+> own searches and reported: the **Oct 21 Techdirt article exists** (headline + URL verbatim) and reports
+> the stay; the **French / Eric Allen / motion-to-quash** detail is supported at snippet level by Techdirt
+> (BAM Map corroborates the quash posture); the **case caption / number / court / DTSA basis** are
+> CONFIRMED-adjacent via the **Justia** docket. But the verifier could open **no** primary page directly
+> (techdirt.com, thebammap.com, courtlistener.com, justia.com all egress-blocked), found **no second
+> independent newsroom** and **no reachable docket entry** for the stay, and could not confirm the
+> **Masnick byline**, the specific **"non-party"** framing, or a **Judge-Barlow** assignment. Both agents
+> agree the stay clears only the **Reported ⚠** bar, and that the Techdirt piece is best recorded as the
+> **first independent corroboration** of a still-Reported event rather than grounds to raise it to
+> CONFIRMED. **Follow-ups:** (a) a court-docket entry (CourtListener/PACER, No. 2:26-cv-00895) or a second
+> independent outlet carrying the Oct 16 stay; (b) the ruling on the motion to quash (briefing reported
+> due Oct 23 / 30).
