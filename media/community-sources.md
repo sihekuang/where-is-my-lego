@@ -3102,3 +3102,59 @@ labeled *Reported* (one independent outlet + plaintiffs' release) while the Dec 
 cites KSL + the American Fork Citizen covering that same suit — a future pass with direct reads
 should test whether the suit's filing now clears the two-outlet bar (and the case number on PACER)
 before raising it.
+
+## 2026-10-24 update — news watcher pass (status upgrade)
+
+A **targeted status-upgrade pass**, resolving the open follow-up the consolidation note (above) left
+on the **~Oct 14 federal civil-rights suit against American Fork + 13 officers**. No brand-new dated
+event qualified this run; the one archive-advancing change is **raising the *filing* from Reported ⚠
+→ CONFIRMED** and **adding the now-found case number**.
+
+**What changed (in [`../timeline.md`](../timeline.md), [`../police-controversy.md`](../police-controversy.md),
+and [`news-articles.md`](./news-articles.md)):**
+- The ~Oct 14 suit is now carried by **four genuinely independent mainstream outlets** —
+  **ABC4** (Nexstar), **Courthouse News Service** (independent legal wire; hosts the complaint PDF),
+  **Fox 13 / KSTU** (E.W. Scripps), and the **Salt Lake Tribune** (independent nonprofit). Different
+  corporate owners = real independence, clearing the multiple-independent-outlets bar for the
+  **fact of the filing** (CONFIRMED). The suit's **allegations remain ALLEGATION** (unadjudicated).
+- **Case number found:** ***Norcross et al. v. City of American Fork et al.*, No. 2:26-cv-01008**
+  (D. Utah; Judge **Robert J. Shelby**, ref. Mag. Judge **Jared C. Bennett**), filed Oct 14, 2026,
+  § 1983, jury demand — consistent across **CourtListener** (74960003), **Justia** (2:2026cv01008 /
+  167785), and **PacerMonitor**. ⚠ From the **court docket via PACER-sourced trackers**, not from the
+  news outlets; the docket sheet was **not** read directly this pass.
+- **New multi-sourced detail:** four incidents over four days in March; compensatory + punitive
+  damages + attorney fees; and the **City has now responded** (ABC4: *"no comment on the merits…at
+  this time"* pending counsel review), **superseding** the archive's earlier "had not responded."
+- **Fixed a factual nit:** **Sheldon Norcross is an Illinois resident** (per the Salt Lake Tribune);
+  the other three plaintiffs are Utahns — the prior "four Utah residents" framing was imprecise.
+- ⚠ **Kept single-sourced:** the specific **"19 civil-rights claims"** tally and the **excessive
+  force** label rest on **Courthouse News alone** (other outlets say only "First/Fourth Amendment
+  violations") — flagged ⚠ in each row.
+
+**Leads checked, nothing new to add:**
+- **"BAM Map" motion to quash** (Doe suit, No. 2:26-cv-00895) — BAM's response was only **due Oct 23**;
+  **no ruling** surfaced this pass. Still pending; watch for it.
+- **Anti-SLAPP special motion** (*BAM v. Schneider*, No. 2:26-cv-00593, filed Sep 18) — **no ruling**.
+- **Mansell dismissal / permanent-injunction motion** — **no ruling**.
+- **East Idaho News "Some charges dismissed against 'Reckless Ben'"** — this is the **already-recorded
+  ~Sep 14 Provo dismissal** (published Sep 17), **not** a new development.
+- A **second ABC4 follow-up** ("'It does affect lives personally': Plaintiffs…speak out," ~Oct 15)
+  adds plaintiff reaction quotes but is the **same outlet, same event** — not cataloged to avoid padding.
+
+**Reddit:** r/RecklessBen was **not reachable** this pass — old.reddit.com returned a proxy 403
+(host not allowed), reddit.com WebFetch was DNS-blocked, and `site:reddit.com/r/RecklessBen`
+WebSearch surfaced nothing new. Leads gathered via WebSearch only.
+
+> **Verification (two-agent rule).** Agent A (author) triangulated the upgrade from WebSearch across
+> ABC4 / Courthouse News / Fox 13 / Salt Lake Tribune. An **independent verifier subagent**, given only
+> the claims-as-written and the bare citation URLs, ran its own domain-filtered searches plus
+> CourtListener/Justia/PacerMonitor and reported: Claims 1, 2, 4, 6, 7 **CONFIRMED-INDEPENDENTLY**
+> (multiple independent outlets + docket); it **independently found the case number 2:26-cv-01008** on
+> three PACER-sourced trackers; it flagged the **"19 counts / excessive force"** specifics as
+> **single-sourced to Courthouse News** (kept ⚠), the **City-response** wording as outlet-dependent
+> (ABC4's fuller quote adopted), and that **Norcross is an Illinois resident** (fixed). Neither agent
+> opened a primary page or the docket sheet directly (news domains + CourtListener/PACER egress-blocked),
+> so the upgrade rests on **snippet-/tracker-level** reads — honest-flagged in each row. Both agents
+> agree the **filing** clears CONFIRMED while the **allegations stay ALLEGATION**. **Follow-ups:** the
+> ruling on the "BAM Map" motion to quash (briefing due Oct 23/30) and the still-pending anti-SLAPP
+> and Mansell-dismissal motions.
