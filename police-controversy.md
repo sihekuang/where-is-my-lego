@@ -172,7 +172,6 @@ blurred by listing all four charges together:
 > **East Idaho News**), while **ABC4** independently confirms only that the case is **"ongoing"** and the
 > two charge classes — the exact Sep 30 date is **not** independently confirmed here and **not**
 > docket-verified. **Cross-check Utah XChange**, and note this case's dates have **slipped before**.
-
 >
 > ⚠ **Update (reported Oct 14, 2026) — American Fork hearing now set for Dec. 16, 2026.** The
 > American Fork prelim had been **set for Sep 30, 2026 and was postponed**; it is now scheduled for

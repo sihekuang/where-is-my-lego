@@ -211,16 +211,7 @@ snippets to CONFIRMED court records** (ECF #26/#27/#30/#32/#33/#36, read as ECF-
 **Aug 19 settlement** row's "single-origin / no independent newsroom" caveat was **retracted as
 false** (KSL, ABC4, SLTrib, KATU, Kotaku and Brick Fanatics all covered it independently), and
 several inverted or over-read attributions were corrected (see [*2026-09-06
-update*](#2026-09-06-update--watcher-pr-consolidation-pass) at the very end); **news watcher pass
-2026-09-28** — **one genuinely new, dated, on-topic development** newer than the ~Sep 19–20 frontier
-carried by open watcher PRs #103–#112: on **Sep 25, 2026** BAM filed a **separate federal "John Doe"
-suit** — ***BAM Franchising, Inc. v. Does 1 to 10***, No. **2:26-cv-00895** (D. Utah; **DTSA** + Utah
-UTSA + breach of contract) — to **unmask the anonymous operators of _The BAM Map_** via pre-service
-subpoenas (Vercel/Google/Slack/YouTube); the **filing itself** is corroborated on an independent
-PACER-sourced tracker (Justia), but **every complaint-internal detail is single-sourced to the
-partisan target host** and **no mainstream outlet** reports the Doe suit — the misappropriation/breach
-claims are BAM's **ALLEGATION** (see [*2026-09-28
-update*](#2026-09-28-update--news-watcher-pass) at the very end).
+update*](#2026-09-06-update--watcher-pr-consolidation-pass) at the very end).
 
 **Watcher stack 2026-09-08 → 2026-09-20, consolidated 2026-09-20** — the nine open watcher PRs
 **#103–#111** (covering **~Sep 8 – Sep 19/20, 2026**) were merged into a single branch in event order.
@@ -244,6 +235,29 @@ than the #87–#101 stack**: apart from the **Provo dismissal** (CONFIRMED — K
 outlet, a partisan community tracker, or a self-published livestream**, and **egress blocks meant no
 agent on any of these passes opened a primary source directly** — see [*2026-09-20 update — watcher
 PR consolidation pass*](#2026-09-20-update--watcher-pr-consolidation-pass) at the very end.
+
+**Watcher stack 2026-09-28 → 2026-10-22, consolidated 2026-10-24** — the ten open watcher PRs
+**#113–#122** (covering **Sep 25 – ~Oct 21, 2026**) were merged on top of the 2026-09-20 consolidation
+(#112) in event order. Newly recorded: BAM's **separate federal "John Doe" suit** to unmask *The BAM
+Map* (***BAM Franchising, Inc. v. Does 1 to 10***, No. **2:26-cv-00895**, filed **Sep 25** — filing
+docket-corroborated, complaint contents Reported ⚠; [*2026-09-28
+update*](#2026-09-28-update--news-watcher-pass)); the **American Fork preliminary hearing (set Sep 30)
+postponed** on a stipulated motion citing a "potential resolution" (~Sep 29; [*2026-09-30
+update*](#2026-09-30-update--news-watcher-pass)) and then **rescheduled to Dec. 16, 2026** (~Oct 14 —
+two outlets; [*2026-10-15 update*](#2026-10-15-update--news-watcher-pass)); a magistrate's reported
+**ex parte discovery order** in the Doe suit (~Sep 30; subpoenas returnable Oct 16); early-October
+coverage (Cronkite News, Techdirt) and the ~Sep 26–27 **Johnson/AppleSeed interview** later reportedly
+filed by the defense ([*2026-10-03 update*](#2026-10-03-update--news-watcher-pass)); the **~Oct 14
+federal civil-rights suit** by four Schneider associates against the City of American Fork and 13
+officers (Reported ⚠); the parties' reported **joint motion to supplement the anti-SLAPP motion and
+reset briefing** (~Oct 9–13; [*2026-10-15 update — second
+sweep*](#2026-10-15-update--news-watcher-pass-second-sweep)); and the reported **~Oct 16 stay** of the
+"BAM Map" unmasking subpoenas pending a motion to quash ([*2026-10-17
+update*](#2026-10-17-update--news-watcher-pass)), first carried by an independent outlet (Techdirt)
+~Oct 21 ([*2026-10-22 update*](#2026-10-22-update--news-watcher-pass)). ⚠ Like the #103–#111 stack,
+these passes ran largely at **WebSearch-snippet level** (egress-blocked direct fetch); this
+consolidation added **no claim and raised no status** — see [*2026-10-24 update — watcher PR
+consolidation pass*](#2026-10-24-update--watcher-pr-consolidation-pass) at the very end.
 
 > ⚠ **Bias & provenance.** The material gathered so far comes largely from **r/RecklessBen**, a
 > **defense-aligned** (pro-Schneider / pro-Mansell) community, and most of the hosts below are
@@ -2871,7 +2885,7 @@ only**.
 
 ---
 
-## 2026-10-15 update — news watcher pass
+## 2026-10-15 update — news watcher pass (second sweep)
 
 A pass over the federal civil docket and recent coverage (Reddit again **unreachable** this run —
 `www.reddit.com` and `old.reddit.com`, including the `.json` routes, both refused the fetch with
@@ -3062,3 +3076,29 @@ only.
 > CONFIRMED. **Follow-ups:** (a) a court-docket entry (CourtListener/PACER, No. 2:26-cv-00895) or a second
 > independent outlet carrying the Oct 16 stay; (b) the ruling on the motion to quash (briefing reported
 > due Oct 23 / 30).
+
+## 2026-10-24 update — watcher PR consolidation pass
+
+A **consolidation pass, not a discovery or re-verification pass.** Eleven open PRs had accumulated
+against `main` (frontier Sep 2, 2026): the 2026-09-20 consolidation (**#112**, itself folding
+#103–#111) and ten later watcher passes (**#113–#122**). All were branched off the same `main`
+commit, so they were stacked here in PR order with the overlaps reconciled:
+
+- **Append conflicts only.** Every timeline row, catalog row and dated section from each PR is kept
+  verbatim (per-PR line counts checked against the originals). Timeline rows sit at the physical end
+  of the table in event order; rendering sorts by date.
+- **Header index:** the per-pass entries of #113, #114 and #119 are folded into one consolidated
+  paragraph (above) that links each dated section.
+- **Anchor collision:** #119 and #120 were both titled `2026-10-15 update`; the later one (#120) is
+  retitled **"(second sweep)"**, matching the archive's existing convention.
+- **Stale cross-references** of the form "tracked in open watcher PR #1xx / a concurrent watcher pass
+  not yet merged" were rewritten to point at the now-merged timeline rows.
+- **Sep 30 → postponed → Dec 16 (American Fork prelim):** the three rows (~Sep 15, ~Sep 29, ~Oct 14)
+  form one chain and are kept as distinct, dated events — none overwrites another.
+
+**No claim was added and no status was raised here.** Each item keeps the label and two-agent
+verification record of its own pass. ⚠ **Open follow-up:** the ~Oct 14 civil-rights suit row is
+labeled *Reported* (one independent outlet + plaintiffs' release) while the Dec 16 reschedule row
+cites KSL + the American Fork Citizen covering that same suit — a future pass with direct reads
+should test whether the suit's filing now clears the two-outlet bar (and the case number on PACER)
+before raising it.
