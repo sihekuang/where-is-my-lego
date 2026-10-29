@@ -3102,3 +3102,48 @@ labeled *Reported* (one independent outlet + plaintiffs' release) while the Dec 
 cites KSL + the American Fork Citizen covering that same suit — a future pass with direct reads
 should test whether the suit's filing now clears the two-outlet bar (and the case number on PACER)
 before raising it.
+
+## 2026-10-29 update — news watcher pass
+
+**No new dated development since the archive's frontier.** Searched exhaustively for anything newer
+than the ~Oct 16–22 cluster already recorded (the "BAM Map" subpoena stay + Techdirt's Oct 21
+coverage). Nothing qualified: the **anti-SLAPP special motion** (ECF 37, filed Sep 18) and the
+**Aug 27 Mansell dismissal / permanent-injunction motion** are **still unruled**; BAM's response to the
+**motion to quash** the BAM-Map subpoenas was reported **due Oct 23** with the publisher's reply **due
+Oct 30** — **no ruling** this pass; the **American Fork** criminal preliminary hearing is set for the
+**future (Dec 16, 2026)**. **Techdirt published nothing on the case after its Oct 21 piece** (its full
+October run is Oct 2, Oct 19, Oct 21). The one open watcher PR (**#124**, the ~Oct 14 civil-rights-suit
+upgrade) was **not** re-touched.
+
+**The one change this pass is a backfill / sourcing correction, not a new event.** A previously
+**un-cataloged** independent-outlet article was found: **Techdirt, "Reckless Ben Finally Listens To Some
+Lawyers: Files Anti-SLAPP Motion Against Bricks & Minifigs," Sep 29, 2026** (Mike Masnick). It is the
+**first independent-outlet corroboration** that the defendants' **Sep 18 anti-SLAPP filing** actually
+occurred — a filing the archive's Sep 18 timeline row had carried as community/YouTube-only, with the
+now-stale assertion "no mainstream outlet has covered a filing." Edits: the **Sep 18 timeline row** is
+corrected (the *filing* moves from community-only to **Reported ⚠** — a single, free-speech-leaning
+opinion outlet, so **not** CONFIRMED); the article is added to [`news-articles.md`](./news-articles.md).
+
+**Reddit:** r/RecklessBen was **not reachable this pass** — curl to old.reddit.com returned a proxy 403,
+WebFetch to reddit.com/old.reddit.com failed (host not on the session allowlist), and a
+`site:reddit.com/r/RecklessBen` WebSearch surfaced no subreddit posts. Leads were gathered via WebSearch
+only. (thebammap.com, courtlistener.com, justia.com and techdirt.com were all egress-blocked too, so
+every read this pass was **snippet-level**.)
+
+> **Verification (two-agent rule).** Agent A (author) found the Techdirt Sep 29 article via WebSearch
+> triangulation. An **independent verifier subagent**, given only the claims-as-written and the bare
+> citation URL, ran its own ~6 searches and reported: the **article exists** with the exact title + URL,
+> **dated Sep 29, 2026**, by **Mike Masnick** (CONFIRMED at snippet level — techdirt.com egress-blocked,
+> no full read); the article treats the anti-SLAPP motion as **filed** (headline past-tense; the "ECF 37
+> / Special Motion for Expedited Relief and for Partial Dismissal / UPEPA" specifics are blended
+> community+Techdirt snippet, and the exact "overreaching TRO" wording could **not** be isolated to this
+> article); and **Techdirt is an independent opinion/analysis outlet**, free-speech-leaning on this case
+> (sympathetic to Schneider's speech position but critical of his pro-se conduct — distinct in kind from
+> the partisan thebammap.com tracker). Crucially, the verifier **independently confirmed that NO other
+> independent mainstream newsroom** (KSL, ABC4, Salt Lake Tribune, Deseret, Dexerto, Brick Fanatics,
+> East Idaho News) reports the *filing* itself — they reported only that the motion was **due** Sep 18.
+> Both agents therefore agree the *filing* clears only **Reported ⚠** (single independent outlet +
+> partisan tracker), **not** CONFIRMED, and that CONFIRMED would require a second independent outlet or a
+> direct PACER pull of **ECF 37, No. 2:26-cv-00593 (D. Utah)** — not accessible this pass. **Follow-ups:**
+> (a) the anti-SLAPP ruling; (b) the motion-to-quash ruling (briefing due Oct 23 / 30); (c) a direct
+> docket read of 2:26-cv-00593 and 2:26-cv-00895.
