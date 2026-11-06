@@ -3102,3 +3102,69 @@ labeled *Reported* (one independent outlet + plaintiffs' release) while the Dec 
 cites KSL + the American Fork Citizen covering that same suit — a future pass with direct reads
 should test whether the suit's filing now clears the two-outlet bar (and the case number on PACER)
 before raising it.
+
+## 2026-11-06 update — news-watcher pass
+
+A **discovery pass.** Frontier at run start was the archive's ~Oct 21 item (Techdirt's corroboration
+of the "BAM Map" subpoena stay) plus the two still-open watcher PRs (**#124** civil-rights-suit
+upgrade, **#125** Techdirt anti-SLAPP backfill). One genuinely new, dated development surfaced that
+post-dates the frontier and is **not** owned by the repo or either open PR:
+
+| # | New item | Where filed | Status |
+|---|---|---|---|
+| 1 | **Reckless Ben premieres the long-teased "Part 4" at a Los Angeles theater (Dynasty Typewriter) on Nov 4, 2026 — a theater-first screening before any YouTube release, with a live Q&A hosted by "Sethward."** The first actual surfacing of "Part 4," which every pass since July 2026 recorded as only *teased / "in development," never released.* | `timeline.md` (Nov 4 row) + `media/primary-sources.md` (Reckless Ben table) | **Reported ⚠** — billed premiere corroborated by multiple **independent** event/ticketing listings (Dynasty Typewriter's own public calendar, the itk.la aggregator, and Schneider's own Partiful invite), **but no news outlet**; read at WebSearch-snippet level (venue/ticketing domains egress-blocked); the scheduling is confirmed but the occurrence and any public YouTube release are **not**. |
+
+**Leads checked, nothing new to add (frontier, out of scope, stale, or uncorroborated):**
+- **"BAM Map" motion to quash** (Doe suit No. 2:26-cv-00895): reported briefing was BAM's response
+  **Oct 23** / publisher's reply **Oct 30** — **no ruling** surfaced this pass. Still pending; watch.
+- **Anti-SLAPP special motion** (*BAM v. Schneider* No. 2:26-cv-00593) and the **Aug 27 Mansell
+  dismissal / permanent-injunction** motion — **no ruling** on either this pass (future / unchanged).
+- **Oct 14 federal civil-rights suit vs American Fork + 13 officers** (case 2:26-cv-01008) — already
+  owned by **open PR #124** (raised to CONFIRMED there); **not** re-touched here. **Dec 16 American
+  Fork criminal prelim** — future / unchanged.
+- **Oct 16/21 "BAM Map" subpoena stay + Techdirt corroboration** — already in the archive
+  (frontier); nothing newer on the Doe suit surfaced.
+- **An anti-SLAPP "status report (~Nov 3) proposing a Nov 16 opposition deadline"** appeared **only**
+  as a WebSearch snippet attributed to **thebammap.com** (the partisan, defense-aligned tracker that
+  is itself the target of the Doe suit), and the search engine itself flagged the BAM Map's November
+  dates as **possibly stale/misdated**. It could **not** be independently corroborated (no news
+  outlet, no reachable docket) — **dropped**, does not qualify. Cross-check PACER (No. 2:26-cv-00593).
+
+**Network note:** every primary host was **egress-blocked** this pass — `thebammap.com`,
+`www.techdirt.com`, `www.courtlistener.com`, `calendar.dynastytypewriter.com`, and `reddit.com`
+(and its `old.reddit.com` / `.json` routes) all failed with ENOTFOUND or proxy 403. **All reads were
+WebSearch-snippet level.** The venue/ticketing corroboration for the Part-4 premiere came through
+WebSearch surfacing the Dynasty Typewriter calendar page, the itk.la event page, and the Partiful
+invite; none could be fetched directly.
+
+**Reddit:** r/RecklessBen was **not reachable this pass** (WebFetch to reddit.com / old.reddit.com /
+`.json` all failed; `site:reddit.com/r/RecklessBen` WebSearch surfaced no subreddit posts). Leads
+were gathered via WebSearch only.
+
+> **Verification (two-agent rule).** Agent A (author) found the Part-4 premiere via WebSearch
+> triangulation (venue calendar + ticketing aggregator + the creator's own invite + community
+> explainer videos). An **independent verifier subagent**, given only the claims-as-written and the
+> bare citation URLs, ran its own searches and reported: **all five citation URLs were
+> egress-blocked** (venue calendar, itk.la, Partiful, and YouTube all ENOTFOUND), so it too read
+> **only at WebSearch-snippet level**. It independently found **three independent listing/aggregator
+> surfaces agreeing on the title "Reckless Ben's Lego Video 4 Premiere" and the Nov 4, 2026 date**
+> (Dynasty Typewriter's own calendar, itk.la, Partiful); **corroborated** the venue (Dynasty
+> Typewriter, a ~196-seat LA theater on Wilshire Blvd, consistent with the Westlake locality), the
+> **theater-first-screening + live-Q&A framing** (a listing snippet: *"your only chance to see the
+> episode early before it hits the internet"* + *"a live Q&A with Reckless Ben after the screening"*),
+> the **evening showtime** (doors 9:30 pm / show 10 pm PST), and the **ticket-price conflict** ($25 /
+> $28.66 / "free", with $28.66 the main listed figure); and confirmed **no mainstream outlet** reported
+> the premiere and **no public Part-4 YouTube upload** has surfaced. It could **not** corroborate two
+> sub-claims: the host name **"Sethward"** (appeared in none of its searches) and the **actual
+> occurrence** of the event (no post-event recap two days on). Per that result, the **"Sethward" host
+> detail was dropped** from the archive as uncorroborated, the premiere is labeled **Reported ⚠**
+> (promotional/self-published sourcing — venue/aggregator/creator-invite only, no independent
+> journalism, no court/agency involvement), the price is **noted as conflicting** rather than pinned,
+> the locality is given as "Los Angeles / Wilshire Blvd," and **no YouTube release is asserted**. Both
+> agents agree this clears only **Reported ⚠**, not CONFIRMED. **Follow-ups:** allowlist the
+> venue/ticketing/YouTube domains for a direct read of the listings; a post-event recap or an actual
+> Part-4 upload; any mainstream coverage of the premiere.
+
+> ⚠ **Translations not refreshed** (no `ANTHROPIC_API_KEY` in this environment) — the es / zh-Hans /
+> zh-Hant pass (`cd web && node --env-file=.env scripts/translate.mjs`) needs a follow-up run. English
+> falls back at render time, so the build is unaffected.
