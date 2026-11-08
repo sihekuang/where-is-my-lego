@@ -3102,3 +3102,70 @@ labeled *Reported* (one independent outlet + plaintiffs' release) while the Dec 
 cites KSL + the American Fork Citizen covering that same suit — a future pass with direct reads
 should test whether the suit's filing now clears the two-outlet bar (and the case number on PACER)
 before raising it.
+
+## 2026-11-08 update — news watcher pass
+
+A **discovery pass.** Frontier at run start: the merged archive's **~Oct 16–22** items (the "BAM Map"
+subpoena stay + Techdirt's Oct 21 coverage) plus three still-open watcher PRs — **#124** (Oct 14
+civil-rights-suit upgrade), **#125** (Techdirt Sep 29 anti-SLAPP backfill), and **#126** (the **Nov 4**
+theater premiere of "Part 4"). **One** genuinely new, dated development surfaced that post-dates the
+frontier and is **not** owned by the repo or any open PR — a civil **court filing**, distinct from the
+Nov 4 *theater* event #126 records.
+
+**New item (one timeline row):** **~Nov 3–4, 2026** — in the removed federal case *BAM Franchising,
+Inc. v. Schneider et al.*, No. **2:26-cv-00593** (D. Utah, J. **David Barlow**), the defense-aligned
+tracker reports the defendants filed a **~10-page supplement** to their **Sep 18 anti-SLAPP "Special
+Motion for Expedited Relief and for Partial Dismissal"** (UPEPA), adding **quotations attributed to
+plaintiff Josh Johnson** and asking the court to dismiss **with prejudice** the Utah RICO, defamation
+(per se / defamation / false light), civil-conspiracy, IIED, and unjust-enrichment counts. The defense
+memorandum quotes texts it attributes to Johnson — *"I'm getting the prosecutor to drop Ben's
+charges"* / *"I told the prosecutor to drop the charges"* — and argues *"Plaintiffs stole LEGOs from
+the Mansells."* **The court has ruled on none of it; the anti-SLAPP motion remains pending.** Recorded
+**Reported ⚠** (the quoted Johnson texts and the "stole LEGOs" framing are the **defendants'
+ALLEGATION**). See the timeline row for full caveats.
+
+**Sources (catalog by link — not re-hosted):**
+
+| Item | URL | Note |
+|---|---|---|
+| The BAM Map — "Josh Johnson verified BAM's complaint… 'I'm getting the prosecutor to drop Ben's charges.' Reckless Ben's lawyers filed it." | https://www.thebammap.com/updates/20261104/2 | **Partisan, defendants'-side** community docket tracker; **sole source** for the Nov 3 supplement's contents + the Johnson texts. ⚠ Egress-blocked this pass — **read at WebSearch-snippet level only** (page body not opened). |
+| Community YouTube — "About Those Charges — Bricks & Minifigs & Josh Johnson VS Reckless Ben" | https://www.youtube.com/watch?v=FmEbzYYpENo | Community explainer corroborating the *topic* exists; ⚠ egress-blocked, not opened. |
+| Federal docket — *BAM Franchising Inc v. Schneider*, No. 2:26-cv-00593 (D. Utah) | https://www.courtlistener.com/docket/73542292/bam-franchising-inc-v-schneider/ | Predicate case/judge; **not read this pass** (egress-blocked). Cross-check PACER for the Nov 3 filing. |
+
+> **Reddit unreachable this run.** The r/RecklessBen hub (`old.reddit.com`, `www.reddit.com`, the
+> `.json` routes, and `curl` with a desktop UA) was **egress-blocked** this pass (WebFetch refused;
+> curl returned proxy **403**; `site:reddit.com/r/RecklessBen` searches surfaced nothing). The
+> compilation/video megathreads could not be diffed. Flagged for a future pass once the host is
+> allow-listed.
+>
+> **Network note.** Nearly every primary host was egress-blocked to direct fetch this pass —
+> `thebammap.com`, `courtlistener.com`, `techdirt.com`, `youtube.com`, `en.wikipedia.org`, and
+> `reddit.com` all returned `ENOTFOUND` (or proxy 403). All findings are **WebSearch-snippet level**;
+> no docket, filing, or article body was read directly.
+>
+> **Leads checked, nothing qualifying.** (a) A **ruling** on the anti-SLAPP motion (2:26-cv-00593) —
+> **none** found; still pending. (b) A **ruling** on the motion to quash BAM's unmasking subpoenas in
+> the *separate* *BAM v. Does 1-10*, No. 2:26-cv-00895 (Mag. J. Pead; briefing reportedly BAM Oct 23 /
+> publisher Oct 30) — **none** found; undecided. (c) Any **Part 4 YouTube release** following the Nov 4
+> theater premiere (#126) — **none** confirmed. (d) New **criminal-case** movement before the Dec 16
+> American Fork prelim — none. (e) Any development dated **after Nov 4** — none found.
+>
+> **Verification (two-agent rule).** Agent A (author) drafted the item from WebSearch triangulation (the
+> indexed BAM Map headline + a community YouTube title + a snippet establishing BAM's ~Oct 15 deadline
+> to oppose adding the plaintiff-verifier quotations). An **independent verifier subagent**, given only
+> the claims-as-written and the bare citation URLs, ran its own searches and reported: **every** primary
+> host (thebammap.com, courtlistener.com, techdirt.com, youtube.com, ksl.com) was **egress-blocked** →
+> it too read **snippet-level only**, reaching **zero** pages at full read. It **could corroborate**: the
+> Sep 18 anti-SLAPP/UPEPA partial-dismissal motion exists; a **request to add plaintiff-verifier
+> (Johnson) quotations** existed with a **~Oct 15 BAM oppose-deadline**; the separate Doe unmasking/quash
+> matter exists; **no ruling** on either motion is reported; and **no mainstream outlet** covers the Nov 3
+> filing (Techdirt's coverage stops ~Oct 21). It **could NOT corroborate**: the Nov 3 supplement's
+> existence, its ~10-page length, its exact with-prejudice count list, or the **verbatim Johnson texts** /
+> "Plaintiffs stole LEGOs" language — the exact quotations appear **nowhere** outside the single blocked
+> partisan tracker. Both agents agree the item clears only the **Reported ⚠** bar and the Johnson
+> quotations are the **defendants' ALLEGATION**; the "Barlow authorized the supplement" wording was
+> **softened** to match what is verifiable (a request + BAM's oppose-deadline, not a confirmed grant).
+> **Follow-ups:** (a) the thebammap.com/20261104/2 page or the CourtListener/PACER docket
+> (2:26-cv-00593) read directly once allow-listed; (b) any ruling on the anti-SLAPP motion or the quash
+> motion; (c) a Part 4 YouTube release. **Translations:** `scripts/translate.mjs` was **not** run (no API
+> key in this environment) — the i18n pass is a follow-up.
