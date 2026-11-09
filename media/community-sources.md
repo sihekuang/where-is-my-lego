@@ -3102,3 +3102,74 @@ labeled *Reported* (one independent outlet + plaintiffs' release) while the Dec 
 cites KSL + the American Fork Citizen covering that same suit — a future pass with direct reads
 should test whether the suit's filing now clears the two-outlet bar (and the case number on PACER)
 before raising it.
+
+## 2026-11-09 update — news watcher pass
+
+**One genuinely new, dated, non-duplicate item** this pass — and it is a **media appearance, not a
+case development.** Frontier at run start: `main` runs through the ~Oct 21/22 consolidation; four
+still-open watcher PRs carry everything later — **#124** (~Oct 14 civil-rights-suit upgrade), **#125**
+(Techdirt Sep 29 anti-SLAPP backfill), **#126** (the **Nov 4** LA theater premiere of "Part 4"), and
+**#127** (the **~Nov 3** anti-SLAPP supplement quoting Josh Johnson). Those are **not** re-touched here.
+The one item below post-dates all of them and is owned by none of them.
+
+**~early Nov 2026 — Schneider appears on *The Shawn Ryan Show* (Ep. #354).** Benjamin "Reckless Ben"
+Schneider is the guest on a **~1 h 42 m (listed 01:41:42)** episode of **Shawn Ryan's** large U.S.
+interview podcast, titled *"Reckless Ben - The Internet's Most Controversial Investigative YouTuber."*
+Cataloged in [`primary-sources.md`](./primary-sources.md) as a **Reported ⚠** entry. This is an
+**adjacent media/virality item** — logged for Schneider's media footprint, consistent with how the
+archive already records his podcast appearances (the Unsubscribe Podcast Ep 272 and 5CAST #23 rows).
+**No timeline row was added** (matching that precedent); **no status was raised.**
+
+- **What's verifiable:** the episode's **existence, #354 numbering, title, guest, and the 01:41:42
+  runtime** are corroborated at WebSearch-snippet level across podcast directories (Apple, Spotify,
+  the show's own site, podcastrex, HappyScribe).
+- **What's NOT pinned (⚠, honest-flagged in the catalog row):** the **exact release date** (HappyScribe
+  showed *"published 1 day ago"* this pass; a single WebSearch synthesis gave **Nov 5, 2026**, not
+  independently reproduced — recorded as *~early Nov 2026, exact date unconfirmed*); whether the episode
+  **specifically covers the Bricks & Minifigs / LEGO dispute** (the episode blurb frames it around his
+  undercover-documentary methods + **Provo Canyon School**; the B&M/LEGO-in-episode detail is *Reported*,
+  unconfirmed); and a **companion full-episode YouTube upload**, which could not be verified at all and
+  is **not** carried as a catalog link.
+- **Source independence is poor:** every secondary surface that reached snippets (Apple/Spotify/the show
+  site/podcastrex/HappyScribe/thetvdb/audioscrape) **ingests the same RSS feed** — not independent
+  corroboration — and **no mainstream news outlet** has covered the appearance. This is the same
+  feed-echo limitation the archive already flags on the 5CAST entry.
+
+**Leads checked, nothing else qualifying (already owned by the repo/open PRs, out of scope, or no
+ruling yet):**
+- **A ruling on the anti-SLAPP "special motion for expedited relief"** (*BAM v. Schneider*,
+  No. 2:26-cv-00593, D. Utah) — **none found; still pending.** The **~Nov 3 anti-SLAPP supplement**
+  (Johnson texts) is **open PR #127** — not re-added.
+- **A ruling on the motion to quash** BAM's unmasking subpoenas in the *separate* *BAM v. Does 1–10*,
+  No. 2:26-cv-00895 (briefing reportedly BAM Oct 23 / publisher Oct 30) — **none found; undecided.**
+- **A ruling on the Aug 27 joint motion to dismiss Mansell / enter a permanent injunction** (ECF #33) —
+  **none found; still pending** the judge's signature.
+- **A public "Part 4" YouTube upload** following the **Nov 4** LA theater premiere (**open PR #126**) —
+  **none confirmed** this pass.
+- New **criminal-case** movement before the **Dec 16** American Fork preliminary hearing — **none.**
+- Any case development dated **after Nov 4** — **none found** beyond the media appearance above.
+
+**Network / Reddit note.** Essentially the entire egress allowlist was closed to direct fetch this
+pass: **thebammap.com, techdirt.com, dockets.justia.com, courtlistener.com, shawnryanshow.com,
+podcastrex.com, thetvdb.com, podcasts.happyscribe.com** all returned **ENOTFOUND**, and **r/RecklessBen
+was unreachable** (a `site:reddit.com/r/RecklessBen` WebSearch surfaced no subreddit posts). **Every
+read this pass was WebSearch-snippet level** — no docket, filing, article, or episode page was opened
+directly. Flagged for a future pass once those hosts are allow-listed (priority: a direct read of the
+SRS #354 Apple/Spotify page to pin the date, and PACER pulls of 2:26-cv-00593 / 2:26-cv-00895 for the
+pending rulings).
+
+> **Verification (two-agent rule).** **Agent A** (author) found the appearance via WebSearch
+> triangulation (an extended search returned the #354 title, guest, a **Nov 5, 2026** date, a ~1 h 42 m
+> runtime, B&M/LEGO + "Reckless Bricks 0%" content, and a companion YouTube upload *"Inside the
+> Internet's Biggest Lego Scandal,"* id `a-O-5Uwha2Q`, ~Nov 7). An **independent verifier subagent**,
+> given **only** the claims-as-written and the bare citation URLs, ran 8 of its own searches and reported:
+> **all six cited hosts were egress-blocked** → snippet-level only; **CONFIRMED** the episode exists
+> (#354, title, guest — but single-feed) and the **01:41:42 runtime**; **COULD NOT CONFIRM** the
+> **Nov 5 date** (only HappyScribe's "1 day ago"); **PARTIALLY** confirmed topics (undercover methods +
+> Provo Canyon **yes**; the **B&M/LEGO-in-episode** detail **not** reproducible from snippets); and
+> **COULD NOT CONFIRM** the companion YouTube video **at all** (zero hits for the title or id). It found
+> **no mainstream-outlet coverage** and warned every directory ingests one RSS feed. **Resolution:** per
+> the project rule (downgrade where B cannot independently corroborate), the catalog entry is recorded
+> **Reported ⚠** with the core scoped to the verifiable facts; the **date** is flagged *unconfirmed*, the
+> **LEGO-in-episode** coverage flagged *Reported/unconfirmed*, and the **YouTube companion dropped** from
+> the catalog. Both agents agree the item clears only **Reported ⚠**, not CONFIRMED.
