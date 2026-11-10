@@ -3102,3 +3102,69 @@ labeled *Reported* (one independent outlet + plaintiffs' release) while the Dec 
 cites KSL + the American Fork Citizen covering that same suit — a future pass with direct reads
 should test whether the suit's filing now clears the two-outlet bar (and the case number on PACER)
 before raising it.
+
+## 2026-11-10 update — news watcher pass
+
+**One genuinely new, dated, non-duplicate item** since the frontier of known coverage — and it is a
+**media / virality spin-off, not a case development.** The archive `main` runs through the ~Oct 21/22
+consolidation; everything later sits in **still-open watcher PRs #124–#128** (the ~Oct 14
+civil-rights-suit upgrade, the Sep 29 Techdirt anti-SLAPP backfill, the **Nov 4** LA theater premiere
+of "Part 4", the **~Nov 3** anti-SLAPP supplement, and the **~early-Nov** Shawn Ryan Show #354
+appearance). Those are **not** re-touched here. The one item below post-dates all of them and is owned
+by none.
+
+**~Nov 10, 2026 — Reckless Ben announces a satirical video game, "We Steal From Old People: The
+Game!"** Per **Dexerto** ("Reckless Ben releasing Steam game where you steal Lego from old people,"
+art. **3426849**), YouTuber **Benjamin "Reckless Ben" Schneider** announced a satirical game developed
+with independent studio **One Big Sip** in which the player is a villain who **steals LEGO from elderly
+people** to build a criminal empire — a deliberate inversion of his own investigation videos. Schneider
+is quoted calling it *"a completely fictional satire inspired by the world of my videos."* Cataloged in
+[`news-articles.md`](./news-articles.md). Recorded as a **media-catalog entry only — no timeline row,
+no status raised** — matching the archive's established treatment of Schneider's standalone
+media/virality items (cf. the Shawn Ryan Show and Unsubscribe/5CAST podcast rows in
+[`primary-sources.md`](./primary-sources.md)).
+
+- **Reported ⚠, not CONFIRMED.** It rests on a **single editorial outlet (Dexerto)**. The game's
+  **title and studio** ("One Big Sip") are independently corroborated by a **storefront price-aggregator
+  (IsThereAnyDeal)**, which also lists a **~Nov 10, 2026** release date — but that is an aggregator
+  signal, **not a second newsroom**, so it does not meet the multiple-independent-outlets CONFIRMED bar.
+  The **exact quote wording**, any **Steam store-page URL**, and the **price** could **not** be
+  corroborated. **Neutrality note:** this is Schneider's own **self-published satirical/promotional
+  product**, one-sided (it lampoons BAM); **BAM had not publicly responded**, and it is **not** a court,
+  criminal, or settlement development.
+
+**Leads checked, nothing else qualifying (already owned by open PRs, pending, or out of scope):**
+- **A ruling on the anti-SLAPP special motion** (*BAM Franchising v. Schneider*, No. **2:26-cv-00593**,
+  D. Utah) — **none**; still pending. The **~Nov 3 anti-SLAPP supplement** is **open PR #127**
+  (not re-added).
+- **A ruling on the Aug 27 Mansell dismissal / permanent-injunction motion** (ECF #33) — **none**.
+- **A ruling on the "BAM Map" motion to quash** in the *separate* *BAM Franchising v. Does 1–10*,
+  No. **2:26-cv-00895** (D. Utah; briefing reportedly BAM Oct 23 / publisher Oct 30) — **none** found;
+  the independent verifier confirmed **no November ruling** is reported in either federal case.
+- **A public "Part 4" YouTube upload** after the **Nov 4** theater premiere (**open PR #126**) — **none**
+  confirmed this pass.
+- New **criminal-case** movement before the **Dec 16, 2026** American Fork preliminary hearing — **none**.
+- The **Shawn Ryan Show #354** appearance is **open PR #128** — not re-added.
+
+**Reddit:** r/RecklessBen was **not reachable this pass** — `curl` to old.reddit.com (desktop UA)
+returned empty, and WebFetch to reddit.com / the `.json` routes failed (host not on the session
+allowlist). Leads were gathered via WebSearch only. **Every read this pass was WebSearch-snippet level**
+— dexerto.com, en.wikipedia.org, isthereanydeal.com, courtlistener.com, dockets.justia.com and
+thebammap.com all returned **ENOTFOUND** (egress-blocked); no article, docket, store page, or filing was
+opened directly. Flagged for a future pass once those hosts are allow-listed (priority: a direct
+Dexerto/Steam read to pin the game's store page + price, and PACER pulls of 2:26-cv-00593 /
+2:26-cv-00895 for the pending rulings).
+
+> **Verification (two-agent rule).** Agent A (author) found the game announcement via WebSearch
+> triangulation. An **independent verifier subagent**, given only the claims-as-written and the bare
+> citation URL, ran several of its own searches and reported: every host it tried was **egress-blocked**
+> (snippet-level only); the **Dexerto article exists** (headline + URL verbatim); the **game title** and
+> **studio "One Big Sip"** are corroborated by **IsThereAnyDeal** (an independent storefront aggregator
+> listing One Big Sip as dev/publisher + a ~Nov 10 release date); the **exact quote** returned **zero**
+> independent hits (single-source wording); **no Steam store-page URL or price** could be surfaced; **no
+> second editorial outlet** carries the announcement; and **no November 2026 ruling** is reported in
+> either *BAM v. Schneider* (2:26-cv-00593) or *BAM v. Does 1–10* (2:26-cv-00895). **Resolution (both
+> agents):** record as a **media-catalog item, Reported ⚠**, no status raised, exact quote / price /
+> Steam page / second outlet all flagged unconfirmed. Clears only **Reported ⚠**, not CONFIRMED.
+> **Follow-ups:** (a) a second independent newsroom or a live Steam store page for the game; (b) the
+> pending anti-SLAPP, Mansell-dismissal, and motion-to-quash rulings.
