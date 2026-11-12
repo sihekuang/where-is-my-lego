@@ -3102,3 +3102,74 @@ labeled *Reported* (one independent outlet + plaintiffs' release) while the Dec 
 cites KSL + the American Fork Citizen covering that same suit — a future pass with direct reads
 should test whether the suit's filing now clears the two-outlet bar (and the case number on PACER)
 before raising it.
+
+## 2026-11-12 update — news watcher pass
+
+**One genuinely new, dated, non-duplicate item** since the frontier of known coverage. The archive
+`main` runs through the ~Oct 21/22 consolidation; everything later (~Oct 24 – Nov 10) sits in **six
+still-open watcher PRs #124–#129** — the ~Oct 14 civil-rights-suit upgrade (**#124**), the Techdirt
+Sep 29 anti-SLAPP backfill (**#125**), the **Nov 4 Dynasty Typewriter theater premiere of "Part 4"**
+(**#126**), the ~Nov 3 anti-SLAPP supplement quoting Josh Johnson texts (**#127**), the early-Nov
+Shawn Ryan Show #354 appearance (**#128**), and the ~Nov 10 "We Steal From Old People" Steam game
+(**#129**). Those are **not** re-touched here.
+
+**~Nov 10, 2026 — "Part 4" is released publicly to YouTube.** Open PR #126 recorded only the **Nov 4
+theater-first premiere** at Dynasty Typewriter (LA) and explicitly did **not** assert any YouTube
+release ("watch it first as a test screening before I put it on YouTube"). That online release has now
+surfaced: a wave of **independent community reaction/reupload videos** posted ~Nov 10–11, 2026 assert
+Part 4 is out — *"Bricks and Minifigs Part 4 Is Out… And It's Terrifying"* (`5EH0K9eAea8`, ~1 day old;
+*"finally out… nothing like the first three"*), *"WE WATCHED RECKLESS BEN VIDEO 4"* (`ebl3jvnKpK0`,
+~2 days old), and a **Nov 11 video by a lawyer who appears in Part 4**, *"I'm the Lawyer in Reckless
+Ben's Part 4. I Tried to Give Him Good Advice."* (`M7h1zgYwGKc`, ~0 days old / *"this time I'm in
+it"*). Added as a **~Nov 10 [timeline](../timeline.md) row** and a
+[`primary-sources.md`](./primary-sources.md) catalog row, both **Reported ⚠**.
+
+- **Reported ⚠, not CONFIRMED.** YouTube, Reddit and thebammap.com were **all egress-blocked this
+  pass** (ENOTFOUND), so the **official @RecklessBen Part 4 video — its exact title, ID, upload
+  timestamp, and "public" availability — was NOT directly verified**, unlike the Jul 8 "Part 3"
+  upload (metadata-verified by two agents). The release is corroborated **only** by secondary
+  community reaction/reupload-video metadata, and the **date is approximate** (~Nov 10–11 from the
+  0–2-day reaction-video freshness). **No mainstream outlet** (Dexerto, KSL, ABC4, Salt Lake Tribune,
+  Brick Fanatics, Kotaku, Techdirt, UNILAD Tech) has covered the online release yet.
+
+**Leads checked, nothing else new to add (owned by open PRs, out of scope, or no movement):**
+- **A ruling on the anti-SLAPP "special motion for expedited relief"** (*BAM v. Schneider*, No.
+  2:26-cv-00593, D. Utah, J. Barlow) — **none surfaced**; still pending. The ~Nov 3 supplement is
+  **open PR #127** (not re-added).
+- **A ruling on the Aug 27 Mansell dismissal / permanent-injunction motion** (ECF #33) — **none**;
+  still pending signature.
+- **A ruling on the motion to quash** BAM's unmasking subpoenas in the *separate* *BAM v. Does 1–10*,
+  No. 2:26-cv-00895 (reported briefing BAM Oct 23 / publisher reply Oct 30) — **none surfaced**;
+  undecided.
+- **New criminal-case movement** before the **Dec 16** American Fork preliminary hearing — **none**.
+- A Peacock listing *"Reckless Ben Scores Win in Lego Case"* (Sidebar with Jesse Weber, Ep. 55)
+  surfaced but is **undatable from snippets** and could not be tied to any specific ruling —
+  **dropped** (not asserted).
+
+**Reddit / network:** r/RecklessBen was **not reachable this pass** — WebFetch to reddit.com and the
+`.json` routes failed, and `old.reddit.com` was off the egress allowlist. **youtube.com**,
+**thebammap.com** and **dockets.justia.com** also returned **ENOTFOUND**; **every read was
+WebSearch-snippet level** — no video, docket, or article page was opened directly. Flagged for a
+future pass once those hosts are allow-listed (priority: a direct @RecklessBen read to pin the Part 4
+title/ID/date/views, and PACER/CourtListener pulls of 2:26-cv-00593 / 2:26-cv-00895 for the pending
+rulings).
+
+> **Verification (two-agent rule).** Agent A (author) found the Part 4 online release via WebSearch
+> triangulation (multiple reaction/reupload video titles with 0–2-day freshness + the known Nov 4
+> theater→YouTube setup). An **independent verifier subagent**, given only the claims-as-written and
+> the bare citation URLs, ran its own searches and reported: it could **not** open the official
+> @RecklessBen video (YouTube blocked) and so could not pin the exact date/ID; it **corroborated 3 of
+> the 4** cited reaction videos verbatim (titles + URLs + freshness) — `5EH0K9eAea8`, `ebl3jvnKpK0`,
+> and `M7h1zgYwGKc` — but **could NOT corroborate** the 4th (`74GwntkvuxY` "…FROM THE INSIDE!"), which
+> was therefore **dropped**; it **confirmed no mainstream outlet** covers the online release as of Nov
+> 12; and, on the court question, it found **no ruling** dated after ~Nov 4 in either federal case
+> (docket host also blocked, so "none surfaced," not a clean negative). Both agents agree the online
+> release clears only the **Reported ⚠** bar — a public release strongly indicated by independent
+> reaction videos, but with the **primary upload not directly verified**. **Follow-ups:** (a) a direct
+> @RecklessBen read of the official Part 4 upload; (b) any mainstream (Dexerto/KSL/ABC4) coverage of
+> the online release; (c) rulings on the pending anti-SLAPP, Mansell-dismissal, and quash motions.
+
+> **Translations follow-up:** this pass did **not** run `web/scripts/translate.mjs` (no API key in
+> this environment). The new English timeline/catalog rows need an i18n pass (`es`, `zh-Hans`,
+> `zh-Hant`) in a later run; missing/stale translations fall back to English at render time, so the
+> build is unaffected.
