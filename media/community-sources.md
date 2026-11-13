@@ -3102,3 +3102,64 @@ labeled *Reported* (one independent outlet + plaintiffs' release) while the Dec 
 cites KSL + the American Fork Citizen covering that same suit — a future pass with direct reads
 should test whether the suit's filing now clears the two-outlet bar (and the case number on PACER)
 before raising it.
+
+---
+
+## 2026-11-13 update — news watcher pass
+
+A scheduled watcher pass over the frontier (committed `main` tops out at the **~Oct 16 / Oct 21,
+2026** BAM Map subpoena-stay rows). ⚠ **Reddit (r/RecklessBen) and every news/court domain were
+egress-blocked to direct fetch this pass** — `www.reddit.com`/`old.reddit.com` (incl. the `.json`
+routes), the Utah outlets, Justia, Courthouse News, Steam/SteamDB and thebammap.com all refused with
+`ENOTFOUND` / `403 CONNECT`. Work was at **WebSearch-snippet level only**, as in prior passes.
+
+**Two items advanced the record (both two-agent verified — see the verification note below):**
+
+1. **~Nov 10, 2026 — Schneider reveals an upcoming satirical video game,** *"We Steal From Old
+   People: The Game!"* (made with indie studio **One Big Sip**; the player is a villain stealing
+   building bricks from the elderly — an inversion of his own investigation). **Reported ⚠** — single
+   secondary outlet (**Dexerto**); no second newsroom or Steam listing was confirmable, and it is an
+   **announced/upcoming** title, not a confirmed live release. A cultural/satire item, not a legal
+   development. Cataloged in [`news-articles.md`](./news-articles.md) + a [`timeline.md`](../timeline.md)
+   row.
+
+2. **Docket surfaced for the ~Oct 14 associates' civil-rights suit vs. American Fork PD**, directly
+   answering the **open follow-up** flagged in the 2026-10-24 consolidation note above. The suit is
+   ***Norcross et al. v. City of American Fork et al.*, No. 2:26-cv-01008-RJS (D. Utah)**, filed
+   **Oct 14, 2026**, Judge **Robert J. Shelby**; per Courthouse News it pleads **19 § 1983 claims**
+   against the City + 13 officers. The **fact of filing now clears the multi-outlet bar** — Salt Lake
+   Tribune, Fox 13/KSTU, Courthouse News and Moneywise (distinct owners), plus the docket — so the
+   **filing fact is raised from _Reported_ to _CONFIRMED_** in the timeline row, while the suit's
+   **allegations stay ALLEGATION** (unadjudicated; the City had not responded). ⚠ The precise "19"
+   count is primarily Courthouse-News-sourced; cross-check the live PACER / CourtListener docket.
+
+**Checked but NOT added (weak, uncorroborated, or already recorded):**
+
+- **thebammap.com "Updates" (Nov 1–4 items)** — a "Part 4" premiere at a Los Angeles theater
+  (~Nov 4), a Nov 4 defense filing re: the criminal charges, and a Nov 1 *Collecting Weekly*
+  livestream with Mansell — rest **solely on the partisan, defense-aligned community tracker that is
+  itself the target of BAM's unmasking suit**, at snippet level, with **no mainstream corroboration**.
+  Not added as archive claims. (The archive has repeatedly found "**no Part 4 release**"; a genuine
+  Part 4 would be significant, but a single partisan tracker is not enough to record it.)
+- **No new adjudicated court event** surfaced: no ruling on the UPEPA / anti-SLAPP motion (No.
+  2:26-cv-00593), no reported **BAM Map** quash ruling (the Oct 23 / Oct 30 briefing dates passed but
+  no order surfaced), no mediation outcome, no remand, no new charge. The **Dec 16, 2026** American
+  Fork criminal preliminary hearing remains future.
+- A separate **"Booker v. City of American Fork," No. 1:26-cv-00221 (D. Utah, filed ~Nov 2, 2026)**
+  surfaced in docket search but is **unrelated to the Norcross plaintiffs / this saga** — **not**
+  added (the archive's standing caution against conflating unrelated American-Fork-police suits
+  applies).
+
+> **Verification (two-agent rule).** An independent verifier subagent, given only the
+> claims-as-written and the bare citation URLs (not the author's notes), re-derived each from its own
+> WebSearch pass. It **confirmed** the *Norcross* docket (2:26-cv-01008-RJS), the caption, Judge
+> Shelby, the Oct 14 filing date, the "13 officers" figure and ≥4 independent outlets, and agreed the
+> **filing fact earns CONFIRMED** while the allegations stay ALLEGATION. It **tightened the game
+> item**: the verbatim "fictional satire" quote could **not** be corroborated at snippet level
+> (dropped), and "releases on Steam" overstated an **announced/upcoming** title (softened) — so the
+> game stays **Reported ⚠**. It also flagged the unverified **KSL 51636122** citation (dropped from
+> the upgrade's source list) and that the "19 claims" count is primarily Courthouse-News-sourced
+> (noted inline).
+
+⚠ **Translations follow-up:** the English edits in this pass are **not yet translated** — run the
+`web/i18n` seed on a later pass with network/API access (no key available this run).
