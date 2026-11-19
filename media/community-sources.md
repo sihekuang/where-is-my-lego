@@ -3102,3 +3102,28 @@ labeled *Reported* (one independent outlet + plaintiffs' release) while the Dec 
 cites KSL + the American Fork Citizen covering that same suit — a future pass with direct reads
 should test whether the suit's filing now clears the two-outlet bar (and the case number on PACER)
 before raising it.
+
+## 2026-11-19 update — *Doe* suit (No. 2:26-cv-00895): reported ~Nov 10 stipulated 30-day stay
+
+**The BAM Map** ("Updates" page) reports that on/around **Nov 10, 2026**, in BAM's separate
+**unmasking suit** *BAM Franchising, Inc. v. Does 1 to 10*, No. **2:26-cv-00895** (D. Utah), **BAM
+filed a stipulated motion — joined by the site's Publisher — to stay the case ~30 days**, and
+**Magistrate Judge Dustin Pead granted it the same afternoon**, continuing the pending
+motion-to-quash / subpoena hearing. This **partly answers the Oct-16-stay follow-up above** (what
+became of the Oct 23 / Oct 30 quash briefing): the briefing is paused rather than ruled on. See the
+new **~Nov 10, 2026 timeline row** for the full event and sourcing.
+
+> ⚠ **Single partisan source; Reported, not CONFIRMED.** The Nov 10 stay rests **solely on The BAM
+> Map** — the defense-aligned site that is itself the **target / a party** of this suit — read at
+> **WebSearch-snippet level only** (the site, CourtListener/PACER, and all news domains were
+> egress-blocked this pass; the page could not be read directly). The **"through ~Dec 10" end date
+> is arithmetic (Nov 10 + 30 days), not a reported date.** An **independent verifier agent**
+> re-searched and **found no source other than The BAM Map** carrying the Nov 10 stay — **no
+> mainstream/independent outlet (Techdirt, KSL, Dexerto, Brick Fanatics) and no reachable docket
+> entry** (Techdirt's coverage stops at the ~Oct 16 subpoena stay). The **case no./court/magistrate
+> (Pead) are independently corroborated** (Justia 2:2026cv00895/167256; CourtListener 74856038;
+> Techdirt, Oct 2 & 21, 2026); it is the **Nov 10 event within the case** that is single-source.
+> ⚠ Do **not** conflate with *BAM v. Schneider* (No. 2:26-cv-00593), where the defendants'
+> anti-SLAPP "special motion for expedited relief" remains pending. **Follow-ups:** a
+> CourtListener/PACER docket read of No. 2:26-cv-00895 confirming the Nov 10 stay order and its end
+> date, or a second independent outlet; then the resumed quash ruling once the stay lifts.
