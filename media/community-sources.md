@@ -3102,3 +3102,87 @@ labeled *Reported* (one independent outlet + plaintiffs' release) while the Dec 
 cites KSL + the American Fork Citizen covering that same suit — a future pass with direct reads
 should test whether the suit's filing now clears the two-outlet bar (and the case number on PACER)
 before raising it.
+
+## 2026-11-28 update — news watcher pass
+
+**One genuinely new, dated procedural item** since the known frontier, plus **one watched-but-unconfirmed
+lead.** The archive `main` runs through the **2026-10-24 consolidation** (events to ~Oct 16/21);
+everything from ~late Oct through **~Nov 23** sits in **still-open watcher PRs #124–#135**, not yet
+merged — those are **not** re-touched here. The newest open-PR frontier is **~Nov 23, 2026** (open
+PR #135, Reckless Ben's Danny Jones Podcast #451 appearance). This pass covers only what post-dates
+that. **It was a quiet, stay-period run** — the only movement is thin, single-partisan-source
+procedural/promotional activity; the substantive case clocks (Doe-suit joint status report ~Dec 3,
+stay expiry ~Dec 10, American Fork criminal prelim **Dec 16**) are all **future**.
+
+**~Nov 25, 2026 — BAM reportedly seeks a further anti-SLAPP response extension (holiday good-cause).**
+Added as a **timeline row (Reported ⚠).** In ***BAM Franchising, Inc. v. Schneider et al.***, No.
+**2:26-cv-00593** (D. Utah), plaintiffs reportedly filed a **stipulated motion for ~13 more days** to
+respond to Reckless Ben's ~Sep 18 anti-SLAPP special motion, citing the **Thanksgiving weekend**;
+**no order yet** as of the docket's ~Nov 25 update. ⚠ **Single partisan tracker (The BAM Map) + a
+derivative law-firm explainer (kohenavocats.com); no mainstream pickup; the reported new deadline
+conflicts across snippets (mid-Oct / Dec 1 / Dec 15) and cannot be pinned without the docket.** The
+**case + the Sep 18 anti-SLAPP motion** are independently corroborated (Justia 165286; Techdirt
+Sep 29); only the **extension specifics** are thin. See the timeline row for the full caveat.
+
+**~Nov 27, 2026 — "Reckless Bricks" reportedly "takes over" a former Bricks & Minifigs store in
+Manteca, CA (announced, NOT confirmed) — held as a watched lead, not a timeline event.** The
+defense-aligned tracker *The BAM Map* and **one community YouTube video** (Nov 24 — *"BAM's Worst
+Nightmare Is Ben's Next Reckless Bricks Store"*) report that a **Manteca, CA** store — said to have
+operated 2018–2023 as a Bricks & Minifigs franchise under **"Madventures"** — is becoming the
+**third "Reckless Bricks" location** (after **Tucson, AZ**, opened ~Sep 12, and **Sarasota, FL**,
+~Nov 13), with YouTuber Benjamin "Reckless Ben" Schneider **appearing there Friday, Nov 27, 2026**
+as the store "takes over." ⚠ **Not added as a fact.** The **Manteca identification and the Nov 27
+appearance are single-partisan-source** (The BAM Map + the one community video); **no mainstream
+outlet names Manteca**, and a check of the local **Manteca Bulletin** surfaced **no** Reckless Bricks
+coverage. The **Reckless Bricks chain itself** is real (Tucson corroborated by **Dexerto + Brick
+Fanatics**), and **Ben is reportedly _not_ the legal owner** of these stores (separate franchisees) —
+so keep it **"appearance,"** not "Ben opened a store." Because the stated event is **the day before
+this run (Nov 27 vs. Nov 28)**, no post-event confirmation (store photos, local/Dexerto/Brick
+Fanatics pickup) yet exists. **Watch for independent confirmation before stating it as fact.**
+
+**Leads checked, nothing new to add (already owned by open PRs, out of scope, or stale):**
+- **Danny Jones Podcast #451 (~Nov 23)** → open PR #135. **Part 4 YouTube release (~Nov 10) / LA
+  theater premiere (Nov 4)** → open PRs #130 / #126. **Shawn Ryan Show #354 (early Nov)** → open
+  PR #128. **"We Steal From Old People" Steam game (~Nov 10)** → open PR #129. **Reckless Ben satire
+  game (~Nov 13)** → open PR #131. **Tucson "bus" reopen (~Nov 11)** → open PR #134. **Salem
+  franchisees oppose arbitration (~Nov 16)** → open PR #133. **~30-day stay of the "John Doe"
+  unmasking suit (~Nov 10)** → open PR #132. **Nov 3 anti-SLAPP supplement** → open PR #127.
+- **American Fork civil-rights suit** (4 associates v. City + 13 officers, ~mid-Oct, No.
+  **2:26-cv-01008**) → open PR #124 (raised to CONFIRMED; KSL + ABC4 + Fox13 + Yahoo/AOL). **Not newer
+  than Nov 23** — not re-touched. (An independent verifier flagged this as the best-sourced recent
+  item; it is already owned by #124.)
+- **"John Doe" suit (No. 2:26-cv-00895) stay running through ~Dec 10, 2026** with a joint status
+  report due ~Dec 3 — the **stay itself** is the ~Nov 10 stipulation (**open PR #132**); the
+  Dec 3 / Dec 10 schedule is a **future** deadline, not a new event. **Mansell–BAM settlement**
+  (Aug 19–20) — already recorded.
+- **Gorman/Law suit vs. BAM** — still ongoing; sources conflict on filing date (already flagged in
+  the timeline). **No November update** found.
+- **Next scheduled events** (all future — nothing to add): "John Doe" joint status report ~Dec 3;
+  stay expiry ~Dec 10; **American Fork criminal prelim hearing Dec 16, 2026** (open PR #119 / #124
+  chain).
+
+**Reddit:** r/RecklessBen was **not reachable this pass** — WebFetch to reddit.com / old.reddit.com
+failed (egress/DNS) and a `curl` to old.reddit.com returned a proxy **403** (host not allowed for
+this session); a `site:reddit.com/r/RecklessBen` WebSearch surfaced no subreddit posts.
+**thebammap.com, techdirt.com, kohenavocats.com, justia.com and courtlistener.com were all
+egress-blocked** too, so every lead this pass is **WebSearch-snippet level only** — **no primary page
+or docket sheet was read directly.**
+
+> **Verification (two-agent rule).** Agent A (author) drafted both items from WebSearch triangulation.
+> An **independent verifier subagent**, given only the claims-as-written and the bare citation URLs,
+> ran its own searches and reported: **(Claim 1 — anti-SLAPP extension)** the **case** No.
+> 2:26-cv-00593 and the **Sep 18 anti-SLAPP motion** are independently corroborated (Justia 165286;
+> Techdirt Sep 29), but the **Nov 25 extension specifics** (13 days / Dec 15 / holiday framing /
+> no-order-yet) trace **only** to The BAM Map + the derivative kohenavocats law-firm blog, with **no
+> mainstream pickup and no docket read**, and the **new-deadline figure conflicts across snippets**
+> (mid-Oct / Dec 1 / Dec 15) — recommend **Reported ⚠**, upgrade only after a PACER/CourtListener
+> docket read. **(Claim 2 — Manteca)** the **Reckless Bricks chain** is real (Tucson = Dexerto +
+> Brick Fanatics), but the **Manteca identification + Nov 27 appearance** are **single-partisan-source**
+> (The BAM Map + one Nov 24 community video), **no outlet names Manteca**, and the event is
+> **just-occurred** — recommend **holding as a watched lead** (announced, not confirmed) until
+> post-Nov-27 independent confirmation; keep "appearance," not "ownership." Both agents agree
+> **neither claim clears CONFIRMED**, and neither could reach a docket or primary page directly to
+> break the single-source dependence. **Follow-ups:** (a) a D. Utah docket read (No. 2:26-cv-00593)
+> pinning BAM's actual current anti-SLAPP response deadline and resolving the mid-Oct / Dec 1 / Dec 15
+> conflict; (b) independent/mainstream confirmation (store photos, Dexerto/Brick Fanatics, local
+> press) that a Manteca Reckless Bricks event occurred on/after Nov 27.
